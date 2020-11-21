@@ -241,7 +241,7 @@ public class Card implements Comparable<Card> {
         }
 
         // Error check
-        ArrayList<String> allColorsAL = (ArrayList<String>) Arrays.asList(allColors);
+        List<String> allColorsAL = Arrays.asList(allColors);
         for (String color : colors) {
             if (!allColorsAL.contains(color)) {
                 System.err.println("Invalid color ~" + color + "~");

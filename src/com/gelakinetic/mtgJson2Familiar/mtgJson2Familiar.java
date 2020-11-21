@@ -2,6 +2,7 @@ package com.gelakinetic.mtgJson2Familiar;
 
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
+import com.gelakinetic.GathererScraper.JsonTypes.Manifest;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
@@ -50,6 +51,7 @@ public class mtgJson2Familiar {
         }
 
         // Iterate over all sets
+        Manifest manifest = new Manifest();
         for (String key : printings.data.keySet()) {
             mtgjson_set set = printings.data.get(key);
 
@@ -81,10 +83,25 @@ public class mtgJson2Familiar {
                         e.printStackTrace();
                         return;
                     }
+
+                    Manifest.ManifestEntry entry = new Manifest.ManifestEntry();
+                    entry.mName = p.mExpansion.mName_gatherer;
+                    entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/Mtgjson2Familiar/master/patches-v2/" + p.mExpansion.mCode_gatherer + ".json.gzip";
+                    entry.mCode = p.mExpansion.mCode_gatherer;
+                    entry.mDigest = p.mExpansion.mDigest;
+                    entry.mExpansionImageURLs.addAll(p.mExpansion.mExpansionImageURLs);
+                    manifest.mPatches.add(entry);
                 }
             } else {
                 System.out.println("!!! Empty set " + set.name);
             }
+        }
+
+        try (FileWriter fw = new FileWriter("patches.json")) {
+            gsonWriter.toJson(manifest, fw);
+        } catch (IOException e) {
+            System.err.println("Couldn't write manifest file");
+            e.printStackTrace();
         }
     }
 }
