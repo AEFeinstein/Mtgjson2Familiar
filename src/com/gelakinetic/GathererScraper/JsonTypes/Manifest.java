@@ -7,12 +7,12 @@ public class Manifest {
     public long mTimestamp;
     public final ArrayList<ManifestEntry> mPatches = new ArrayList<>();
 
-    public class ManifestEntry implements Comparable<ManifestEntry> {
+    public static class ManifestEntry implements Comparable<ManifestEntry> {
         public String mName;
         public String mURL;
         public String mCode;
         public String mDigest;
-        
+
         // List of image URLs
         public ArrayList<String> mExpansionImageURLs = new ArrayList<>();
 
