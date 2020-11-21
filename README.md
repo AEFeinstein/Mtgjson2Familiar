@@ -5,3 +5,4 @@ TODO:
  - Generate legality files
  - Automatically download and format rules
  - Collate promos into one set
+ - Separate split cards into two cards
