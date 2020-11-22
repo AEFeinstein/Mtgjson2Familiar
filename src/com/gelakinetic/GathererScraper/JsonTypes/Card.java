@@ -3,6 +3,7 @@ package com.gelakinetic.GathererScraper.JsonTypes;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_foreignData;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
+import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
 
 import java.util.ArrayList;
@@ -118,7 +119,7 @@ public class Card implements Comparable<Card> {
         public static final String Phyrexian = "phy";
     }
 
-    public Card(mtgjson_card orig, mtgjson_set origSet) {
+    public Card(mtgjson_card orig, mtgjson_set origSet, setCodeMapper scm) {
         this.mName = orig.name;
 
         // TODO Familiar treats half mana CMC incorrectly
@@ -218,7 +219,7 @@ public class Card implements Comparable<Card> {
         }
         this.mNumber = orig.number;
 
-        this.mExpansion = origSet.code;
+        this.mExpansion = scm.getFamiliarCode(origSet.code);
     }
 
     /**

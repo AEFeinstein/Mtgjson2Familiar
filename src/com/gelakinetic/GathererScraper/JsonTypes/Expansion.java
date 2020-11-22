@@ -57,22 +57,35 @@ public class Expansion {
     public ArrayList<String> mExpansionImageURLs;
 
     public Expansion(mtgjson_set orig, HashMap<Long, String> tcgpIds, setCodeMapper scm) {
+
+        // Metadata
         this.mBorderColor = orig.cards.get(0).borderColor;
+        this.mBorderColor = this.mBorderColor.substring(0, 1).toUpperCase() + this.mBorderColor.substring(1);
         this.mCanBeFoil = orig.isFoilOnly;
-        this.mCode_gatherer = scm.getFamiliarCode(orig.code);
-        this.mCode_mtgi = null;
-        this.mDigest = "";
-        this.mExpansionImageURLs = checkRaritySymbols(orig.code);
         this.mIsOnlineOnly = orig.isOnlineOnly;
-        this.mName_gatherer = orig.name;
-        this.mName_mkm = orig.mcmName;
-        this.mName_tcgp = tcgpIds.get((long) orig.tcgplayerGroupId);
-        // groupId -> name
         try {
             this.mReleaseTimestamp = new SimpleDateFormat("yyyy-MM-dd").parse(orig.releaseDate).getTime();
         } catch (ParseException e) {
             System.err.println("TIMESTAMP NOT PARSED: ~" + orig.releaseDate + "~");
         }
+        // TODO disable this for testing, it's slooooow
+        this.mExpansionImageURLs = checkRaritySymbols(orig.code);
+
+        // Codes
+        this.mCode_gatherer = scm.getFamiliarCode(orig.code);
+        this.mCode_mtgi = orig.code;
+
+        // Names
+        this.mName_gatherer = orig.name;
+        this.mName_tcgp = tcgpIds.get((long) orig.tcgplayerGroupId);
+        if (null == orig.mcmName) {
+            this.mName_mkm = this.mName_tcgp;
+        } else {
+            this.mName_mkm = orig.mcmName;
+        }
+
+        // Fill this in later
+        this.mDigest = null;
     }
 
     private static ArrayList<String> checkRaritySymbols(String code) {

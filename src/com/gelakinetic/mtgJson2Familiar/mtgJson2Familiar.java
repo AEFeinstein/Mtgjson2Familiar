@@ -55,15 +55,23 @@ public class mtgJson2Familiar {
         }
 
         // Iterate over all sets
-        Manifest manifest = new Manifest();
+        ArrayList<Patch> allPatches = new ArrayList<>();
         for (String key : printings.data.keySet()) {
             mtgjson_set set = printings.data.get(key);
 
             if (!set.cards.isEmpty()) {
-                // Create a new patch object
-                Patch p = new Patch();
-                p.mExpansion = new Expansion(set, ids, scm);
-                p.mCards = new ArrayList<>(set.cards.size());
+                Patch newPatch = null;
+                Expansion newExpansion = new Expansion(set, ids, scm);
+                for (Patch existingPatch : allPatches) {
+                    if (existingPatch.mExpansion.mCode_gatherer.equals(newExpansion.mCode_gatherer)) {
+                        newPatch = existingPatch;
+                        break;
+                    }
+                }
+
+                if (null == newPatch) {
+                    newPatch = new Patch(newExpansion, new ArrayList<>(set.cards.size()));
+                }
 
 //                // For each card
 //                boolean validSet = false;
@@ -88,36 +96,48 @@ public class mtgJson2Familiar {
                 // For each card
                 for (mtgjson_card orig : set.cards) {
                     // Parse it
-                    Card c = new Card(orig, set);
+                    Card c = new Card(orig, set, scm);
                     // If it has a multiverse ID, add it
                     if (c.mMultiverseId > -1) {
-                        p.mCards.add(c);
+                        newPatch.mCards.add(c);
                     }
                 }
 
                 // If any cards are in this set
-                if (p.mCards.size() > 0) {
-                    p.mExpansion.calculateDigest(gsonReader, p.mCards);
-                    // Write the patch file
-                    try (FileWriter fw = new FileWriter("patches-v2/" + p.mExpansion.mCode_gatherer + ".json")) {
-                        gsonWriter.toJson(p, fw);
-                    } catch (IOException e) {
-                        System.err.println("Couldn't write patch file");
-                        e.printStackTrace();
-                        return;
-                    }
-
-                    Manifest.ManifestEntry entry = new Manifest.ManifestEntry();
-                    entry.mName = p.mExpansion.mName_gatherer;
-                    entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/Mtgjson2Familiar/master/patches-v2/" + p.mExpansion.mCode_gatherer + ".json.gzip";
-                    entry.mCode = p.mExpansion.mCode_gatherer;
-                    entry.mDigest = p.mExpansion.mDigest;
-                    entry.mExpansionImageURLs.addAll(p.mExpansion.mExpansionImageURLs);
-                    manifest.mPatches.add(entry);
+                if (newPatch.mCards.size() > 0) {
+                    allPatches.add(newPatch);
+                    System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
                 }
             }
         }
 
+        // Now write the patches
+        Manifest manifest = new Manifest();
+        for (Patch p : allPatches) {
+            p.mExpansion.calculateDigest(gsonReader, p.mCards);
+            // Write the patch file
+            try (FileWriter fw = new FileWriter("patches-v2/" + p.mExpansion.mCode_gatherer + ".json")) {
+                gsonWriter.toJson(p, fw);
+            } catch (IOException e) {
+                System.err.println("Couldn't write patch file");
+                e.printStackTrace();
+                return;
+            }
+
+            Manifest.ManifestEntry entry = new Manifest.ManifestEntry();
+            entry.mName = p.mExpansion.mName_gatherer;
+            entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/Mtgjson2Familiar/master/patches-v2/" + p.mExpansion.mCode_gatherer + ".json.gzip";
+            entry.mCode = p.mExpansion.mCode_gatherer;
+            entry.mDigest = p.mExpansion.mDigest;
+            if (null != p.mExpansion.mExpansionImageURLs) {
+                entry.mExpansionImageURLs.addAll(p.mExpansion.mExpansionImageURLs);
+            }
+            manifest.mPatches.add(entry);
+
+            System.out.println("Wrote " + p.mExpansion.mName_gatherer);
+        }
+
+        // And write all the metadata
         try (FileWriter fw = new FileWriter("patches.json")) {
             gsonWriter.toJson(manifest, fw);
         } catch (IOException e) {

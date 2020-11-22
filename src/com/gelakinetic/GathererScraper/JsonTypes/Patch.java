@@ -14,4 +14,8 @@ public class Patch {
     // The patch's cards
     public ArrayList<Card> mCards;
 
+    public Patch(Expansion exp, ArrayList<Card> crd) {
+        this.mExpansion = exp;
+        this.mCards = crd;
+    }
 }
