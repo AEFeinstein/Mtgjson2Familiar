@@ -1,6 +1,7 @@
 package com.gelakinetic.GathererScraper.JsonTypes;
 
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
+import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import com.google.gson.Gson;
 
 import java.io.IOException;
@@ -55,10 +56,10 @@ public class Expansion {
     // List of image URLs
     public ArrayList<String> mExpansionImageURLs;
 
-    public Expansion(mtgjson_set orig, HashMap<Long, String> tcgpIds) {
+    public Expansion(mtgjson_set orig, HashMap<Long, String> tcgpIds, setCodeMapper scm) {
         this.mBorderColor = orig.cards.get(0).borderColor;
         this.mCanBeFoil = orig.isFoilOnly;
-        this.mCode_gatherer = orig.code; // TODO these codes don't match gatherer for old sets...
+        this.mCode_gatherer = scm.getFamiliarCode(orig.code);
         this.mCode_mtgi = null;
         this.mDigest = "";
         this.mExpansionImageURLs = checkRaritySymbols(orig.code);
