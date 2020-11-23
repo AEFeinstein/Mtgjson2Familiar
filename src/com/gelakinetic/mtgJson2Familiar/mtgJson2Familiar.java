@@ -59,40 +59,72 @@ public class mtgJson2Familiar {
         for (String key : printings.data.keySet()) {
             mtgjson_set set = printings.data.get(key);
 
+            // If the set has cards
             if (!set.cards.isEmpty()) {
-                Patch newPatch = null;
+                // Create the expansion object
                 Expansion newExpansion = new Expansion(set, ids, scm);
+                // Check if this should be merged with an existing expansion
+                Patch newPatch = null;
                 for (Patch existingPatch : allPatches) {
                     if (existingPatch.mExpansion.mCode_gatherer.equals(newExpansion.mCode_gatherer)) {
+                        // Match found, use existing expansion
                         newPatch = existingPatch;
+
+                        // Multiple mtgjson sets merged into to one, pick the right name
+                        switch (existingPatch.mExpansion.mName_gatherer) {
+                            case "Mystery Booster Playtest Cards":
+                            case "Mystery Booster": {
+                                existingPatch.mExpansion.mName_gatherer = "Mystery Booster";
+                                break;
+                            }
+                            case "Archenemy":
+                            case "Archenemy Schemes": {
+                                existingPatch.mExpansion.mName_gatherer = "Archenemy";
+                                break;
+                            }
+                            case "Archenemy: Nicol Bolas":
+                            case "Archenemy: Nicol Bolas Schemes": {
+                                existingPatch.mExpansion.mName_gatherer = "Archenemy: Nicol Bolas";
+                                break;
+                            }
+                            case "Planechase":
+                            case "Planechase Planes": {
+                                existingPatch.mExpansion.mName_gatherer = "Planechase";
+                                break;
+                            }
+                            case "Planechase 2012 Planes":
+                            case "Planechase 2012": {
+                                existingPatch.mExpansion.mName_gatherer = "Planechase 2012";
+                                break;
+                            }
+                            case "Planechase Anthology Planes":
+                            case "Planechase Anthology": {
+                                existingPatch.mExpansion.mName_gatherer = "Planechase Anthology";
+                                break;
+                            }
+                            case "Dragon Con":
+                            case "HarperPrism Book Promos":
+                            case "Prerelease Events":
+                            case "Magazine Inserts":
+                            case "Starter 2000": {
+                                existingPatch.mExpansion.mName_gatherer = "Promo set for Gatherer";
+                                break;
+                            }
+                            case "Magic Online Avatars":
+                            case "Vanguard Series": {
+                                existingPatch.mExpansion.mName_gatherer = "Vanguard";
+                                break;
+                            }
+                        }
                         break;
                     }
                 }
 
+                // If this isn't being merged with an existing patch, create a new patch
                 if (null == newPatch) {
                     newPatch = new Patch(newExpansion, new ArrayList<>(set.cards.size()));
                 }
 
-//                // For each card
-//                boolean validSet = false;
-//                for (mtgjson_card orig : set.cards) {
-//                    if (null != orig.identifiers.multiverseId) {
-//                        validSet = true;
-//                        break;
-//                    }
-//                }
-//                if (validSet) {
-//                    boolean found = false;
-//                    for (setCodeMapper.codeMapEntry cme : cm.mCodes) {
-//                        if (set.code.equals(cme.mMtgjsonSetCode)) {
-//                            found = true;
-//                            break;
-//                        }
-//                    }
-//                    if (!found) {
-//                        System.out.println("No code found for " + set.name + " // " + set.code);
-//                    }
-//                }
                 // For each card
                 for (mtgjson_card orig : set.cards) {
                     // Parse it
@@ -103,10 +135,12 @@ public class mtgJson2Familiar {
                     }
                 }
 
-                // If any cards are in this set
-                if (newPatch.mCards.size() > 0) {
-                    allPatches.add(newPatch);
+                // If any cards are in this set and it isn't saved yet
+                if (newPatch.mCards.size() > 0 && !allPatches.contains(newPatch)) {
+                    // Update the rarities
                     newPatch.mExpansion.fetchRaritySymbols(newPatch.mCards);
+                    // Save this patch
+                    allPatches.add(newPatch);
                     System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
                 }
             }
@@ -115,6 +149,7 @@ public class mtgJson2Familiar {
         // Now write the patches
         Manifest manifest = new Manifest();
         for (Patch p : allPatches) {
+            // Now that the patch is fully created, calculate the digest
             p.mExpansion.calculateDigest(gsonReader, p.mCards);
             // Write the patch file
             try (FileWriter fw = new FileWriter("patches-v2/" + p.mExpansion.mCode_gatherer + ".json")) {
@@ -125,6 +160,7 @@ public class mtgJson2Familiar {
                 return;
             }
 
+            // Add this patch to the manifest
             Manifest.ManifestEntry entry = new Manifest.ManifestEntry();
             entry.mName = p.mExpansion.mName_gatherer;
             entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/Mtgjson2Familiar/master/patches-v2/" + p.mExpansion.mCode_gatherer + ".json.gzip";
