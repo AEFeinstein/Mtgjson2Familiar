@@ -135,6 +135,9 @@ public class Card implements Comparable<Card> {
         this.mFlavor = htmlifyText(orig.flavorText);
         this.mArtist = orig.artist;
         this.mWatermark = orig.watermark;
+        if (null != mWatermark) {
+            this.mWatermark = this.mWatermark.substring(0, 1).toUpperCase() + this.mWatermark.substring(1);
+        }
         this.mRarity = orig.rarity.toUpperCase().charAt(0);
         switch (this.mRarity) {
             case 'C':
