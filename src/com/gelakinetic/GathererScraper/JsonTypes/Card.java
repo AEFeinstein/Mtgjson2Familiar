@@ -120,8 +120,11 @@ public class Card implements Comparable<Card> {
     }
 
     public Card(mtgjson_card orig, mtgjson_set origSet, setCodeMapper scm) {
-        this.mName = orig.name;
-
+        if (null != orig.faceName) {
+            this.mName = orig.faceName;
+        } else {
+            this.mName = orig.name;
+        }
         // TODO Familiar treats half mana CMC incorrectly
         this.mCmc = (int) orig.convertedManaCost;
         this.mManaCost = orig.manaCost;

@@ -106,6 +106,7 @@ public class mtgJson2Familiar {
                 // If any cards are in this set
                 if (newPatch.mCards.size() > 0) {
                     allPatches.add(newPatch);
+                    newPatch.mExpansion.fetchRaritySymbols(newPatch.mCards);
                     System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
                 }
             }
