@@ -63,85 +63,92 @@ public class mtgJson2Familiar {
             if (!set.cards.isEmpty()) {
                 // Create the expansion object
                 Expansion newExpansion = new Expansion(set, ids, scm);
-                // Check if this should be merged with an existing expansion
-                Patch newPatch = null;
-                for (Patch existingPatch : allPatches) {
-                    if (existingPatch.mExpansion.mCode_gatherer.equals(newExpansion.mCode_gatherer)) {
-                        // Match found, use existing expansion
-                        newPatch = existingPatch;
 
-                        // Multiple mtgjson sets merged into to one, pick the right name
-                        switch (existingPatch.mExpansion.mName_gatherer) {
-                            case "Mystery Booster Playtest Cards":
-                            case "Mystery Booster": {
-                                existingPatch.mExpansion.mName_gatherer = "Mystery Booster";
-                                break;
+                // If this is Mythic Edition
+                if (set.code.equals("MED")) {
+                    // Split it first, then add it
+                    allPatches.addAll(splitMythicEdition(newExpansion, set, scm));
+                } else {
+                    // Check if this should be merged with an existing expansion
+                    Patch newPatch = null;
+                    for (Patch existingPatch : allPatches) {
+                        if (existingPatch.mExpansion.mCode_gatherer.equals(newExpansion.mCode_gatherer)) {
+                            // Match found, use existing expansion
+                            newPatch = existingPatch;
+
+                            // Multiple mtgjson sets merged into to one, pick the right name
+                            switch (existingPatch.mExpansion.mName_gatherer) {
+                                case "Mystery Booster Playtest Cards":
+                                case "Mystery Booster": {
+                                    existingPatch.mExpansion.mName_gatherer = "Mystery Booster";
+                                    break;
+                                }
+                                case "Archenemy":
+                                case "Archenemy Schemes": {
+                                    existingPatch.mExpansion.mName_gatherer = "Archenemy";
+                                    break;
+                                }
+                                case "Archenemy: Nicol Bolas":
+                                case "Archenemy: Nicol Bolas Schemes": {
+                                    existingPatch.mExpansion.mName_gatherer = "Archenemy: Nicol Bolas";
+                                    break;
+                                }
+                                case "Planechase":
+                                case "Planechase Planes": {
+                                    existingPatch.mExpansion.mName_gatherer = "Planechase";
+                                    break;
+                                }
+                                case "Planechase 2012 Planes":
+                                case "Planechase 2012": {
+                                    existingPatch.mExpansion.mName_gatherer = "Planechase 2012";
+                                    break;
+                                }
+                                case "Planechase Anthology Planes":
+                                case "Planechase Anthology": {
+                                    existingPatch.mExpansion.mName_gatherer = "Planechase Anthology";
+                                    break;
+                                }
+                                case "Dragon Con":
+                                case "HarperPrism Book Promos":
+                                case "Prerelease Events":
+                                case "Magazine Inserts":
+                                case "Starter 2000": {
+                                    existingPatch.mExpansion.mName_gatherer = "Promo set for Gatherer";
+                                    break;
+                                }
+                                case "Magic Online Avatars":
+                                case "Vanguard Series": {
+                                    existingPatch.mExpansion.mName_gatherer = "Vanguard";
+                                    break;
+                                }
                             }
-                            case "Archenemy":
-                            case "Archenemy Schemes": {
-                                existingPatch.mExpansion.mName_gatherer = "Archenemy";
-                                break;
-                            }
-                            case "Archenemy: Nicol Bolas":
-                            case "Archenemy: Nicol Bolas Schemes": {
-                                existingPatch.mExpansion.mName_gatherer = "Archenemy: Nicol Bolas";
-                                break;
-                            }
-                            case "Planechase":
-                            case "Planechase Planes": {
-                                existingPatch.mExpansion.mName_gatherer = "Planechase";
-                                break;
-                            }
-                            case "Planechase 2012 Planes":
-                            case "Planechase 2012": {
-                                existingPatch.mExpansion.mName_gatherer = "Planechase 2012";
-                                break;
-                            }
-                            case "Planechase Anthology Planes":
-                            case "Planechase Anthology": {
-                                existingPatch.mExpansion.mName_gatherer = "Planechase Anthology";
-                                break;
-                            }
-                            case "Dragon Con":
-                            case "HarperPrism Book Promos":
-                            case "Prerelease Events":
-                            case "Magazine Inserts":
-                            case "Starter 2000": {
-                                existingPatch.mExpansion.mName_gatherer = "Promo set for Gatherer";
-                                break;
-                            }
-                            case "Magic Online Avatars":
-                            case "Vanguard Series": {
-                                existingPatch.mExpansion.mName_gatherer = "Vanguard";
-                                break;
-                            }
+                            break;
                         }
-                        break;
                     }
-                }
 
-                // If this isn't being merged with an existing patch, create a new patch
-                if (null == newPatch) {
-                    newPatch = new Patch(newExpansion, new ArrayList<>(set.cards.size()));
-                }
-
-                // For each card
-                for (mtgjson_card orig : set.cards) {
-                    // Parse it
-                    Card c = new Card(orig, set, scm);
-                    // If it has a multiverse ID, add it
-                    if (c.mMultiverseId > -1) {
-                        newPatch.mCards.add(c);
+                    // If this isn't being merged with an existing patch, create a new patch
+                    if (null == newPatch) {
+                        newPatch = new Patch(newExpansion, new ArrayList<>(set.cards.size()));
                     }
-                }
 
-                // If any cards are in this set and it isn't saved yet
-                if (newPatch.mCards.size() > 0 && !allPatches.contains(newPatch)) {
-                    // Update the rarities
-                    newPatch.mExpansion.fetchRaritySymbols(newPatch.mCards);
-                    // Save this patch
-                    allPatches.add(newPatch);
-                    System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
+                    // For each card
+                    for (mtgjson_card orig : set.cards) {
+                        // Parse it
+                        Card c = new Card(orig, set, scm);
+                        // If it has a multiverse ID, add it
+                        if (c.mMultiverseId > -1) {
+                            newPatch.mCards.add(c);
+                        }
+                    }
+
+                    // If any cards are in this set and it isn't saved yet
+                    if (newPatch.mCards.size() > 0 && !allPatches.contains(newPatch)) {
+                        // Update the rarities
+                        newPatch.mExpansion.fetchRaritySymbols(newPatch.mCards);
+                        // Save this patch
+                        allPatches.add(newPatch);
+                        System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
+                    }
                 }
             }
         }
@@ -181,5 +188,64 @@ public class mtgJson2Familiar {
             System.err.println("Couldn't write manifest file");
             e.printStackTrace();
         }
+    }
+
+    /**
+     * Mythic edition was three sets for Familiar but one set in MTGJSON. This function splits the one set into three
+     *
+     * @param newExpansion The original MTGJSON MED expansion
+     * @param set          The original MTGJSON set
+     * @param scm          A set code mapper
+     * @return Three patches for the Mythic Editions
+     */
+    private static ArrayList<Patch> splitMythicEdition(Expansion newExpansion, mtgjson_set set, setCodeMapper scm) {
+
+        // Split it into
+        Patch grn = new Patch(new Expansion(newExpansion, "Guilds of Ravnica Mythic Edition", "GRNMED", "Mythic Edition: Guilds of Ravnica"), new ArrayList<>(8));
+        Patch rna = new Patch(new Expansion(newExpansion, "Ravnica Allegiance Mythic Edition", "RNAMED", "Mythic Edition: Ravnica Allegiance"), new ArrayList<>(8));
+        Patch war = new Patch(new Expansion(newExpansion, "War of the Spark Mythic Edition", "WARMED", "Mythic Edition: War of the Spark"), new ArrayList<>(8));
+
+        // For each card
+        for (mtgjson_card orig : set.cards) {
+            // Parse it
+            Card c = new Card(orig, set, scm);
+            // If it has a multiverse ID, add it
+            if (c.mMultiverseId > -1) {
+                switch (c.mNumber.toUpperCase().charAt(0)) {
+                    case 'G': {
+                        c.mExpansion = "GRNMED";
+                        grn.mCards.add(c);
+                        break;
+                    }
+                    case 'R': {
+                        c.mExpansion = "RNAMED";
+                        rna.mCards.add(c);
+                        break;
+                    }
+                    case 'W': {
+                        c.mExpansion = "WARMED";
+                        war.mCards.add(c);
+                        break;
+                    }
+                }
+            }
+        }
+
+        // Update the rarities
+        grn.mExpansion.fetchRaritySymbols(grn.mCards);
+        rna.mExpansion.fetchRaritySymbols(rna.mCards);
+        war.mExpansion.fetchRaritySymbols(war.mCards);
+
+        // Return the patches
+        ArrayList<Patch> patches = new ArrayList<>(3);
+        patches.add(grn);
+        patches.add(rna);
+        patches.add(war);
+
+        System.out.println("Added " + grn.mExpansion.mName_gatherer);
+        System.out.println("Added " + rna.mExpansion.mName_gatherer);
+        System.out.println("Added " + war.mExpansion.mName_gatherer);
+
+        return patches;
     }
 }

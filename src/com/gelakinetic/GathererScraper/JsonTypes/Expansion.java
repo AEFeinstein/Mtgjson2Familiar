@@ -93,6 +93,29 @@ public class Expansion {
         this.mDigest = null;
     }
 
+    /**
+     * Constructor which 'clones' another Expansion, but overwrites names and codes
+     *
+     * @param other        The Expansion to clone
+     * @param nameGatherer The new gatherer name
+     * @param codeGatherer The new gatherer code
+     * @param nameTcgp     The new TCGPlayer name
+     */
+    public Expansion(Expansion other, String nameGatherer, String codeGatherer, String nameTcgp) {
+        this.mName_gatherer = nameGatherer;
+        this.mCode_gatherer = codeGatherer;
+        this.mCode_mtgi = other.mCode_mtgi;
+        this.mName_tcgp = nameTcgp;
+        this.mName_mkm = nameTcgp;
+        this.mReleaseTimestamp = other.mReleaseTimestamp;
+        this.mCanBeFoil = other.mCanBeFoil;
+        this.mIsOnlineOnly = other.mIsOnlineOnly;
+        this.mBorderColor = other.mBorderColor;
+        // Fill this later
+        this.mExpansionImageURLs = new ArrayList<>(1);
+        this.mDigest = null;
+    }
+
     public void fetchRaritySymbols(ArrayList<Card> mCards) {
         // https://gatherer.wizards.com/Handlers/Image.ashx?type=symbol&set=5E&size=large&rarity=U
 
@@ -164,6 +187,7 @@ public class Expansion {
 
                             // If nothing was actually written, delete the file
                             if (0 == expansionSymbolFile.length()) {
+                                //noinspection ResultOfMethodCallIgnored
                                 expansionSymbolFile.delete();
                             } else {
                                 addToList = true;
