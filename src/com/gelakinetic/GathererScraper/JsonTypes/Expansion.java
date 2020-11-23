@@ -66,10 +66,10 @@ public class Expansion {
         // Metadata
         this.mBorderColor = orig.cards.get(0).borderColor;
         this.mBorderColor = this.mBorderColor.substring(0, 1).toUpperCase() + this.mBorderColor.substring(1);
-        this.mCanBeFoil = orig.isFoilOnly;
+        this.mCanBeFoil = !(orig.isNonFoilOnly || orig.isFoilOnly);
         this.mIsOnlineOnly = orig.isOnlineOnly;
         try {
-            this.mReleaseTimestamp = new SimpleDateFormat("yyyy-MM-dd").parse(orig.releaseDate).getTime();
+            this.mReleaseTimestamp = new SimpleDateFormat("yyyy-MM-dd").parse(orig.releaseDate).getTime() / 1000;
         } catch (ParseException e) {
             System.err.println("TIMESTAMP NOT PARSED: ~" + orig.releaseDate + "~");
         }
