@@ -186,7 +186,7 @@ public class MarketPriceInfo {
         }
 
         Price priceInfo;
-        double toReturn;
+        double toReturn = 0;
         if (isFoil) {
             priceInfo = mFoilPrice;
         } else {

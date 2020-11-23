@@ -108,6 +108,11 @@ public class mtgJson2Familiar {
 
                     // If any cards are in this set and it isn't saved yet
                     if (newPatch.mCards.size() > 0 && !allPatches.contains(newPatch)) {
+                        // Legality test
+//                        if (null != set.checkSetLegality().standard) {
+//                            System.out.println(set.name + " is standard legal");
+//                        }
+
                         // Update the rarities
                         newPatch.mExpansion.fetchRaritySymbols(newPatch.mCards);
                         // Save this patch
