@@ -155,57 +155,23 @@ public class Card implements Comparable<Card> {
             ForeignPrinting fp = new ForeignPrinting();
 
             switch (fd.language) {
-                case "German":
-                    fp.mLanguageCode = Language.German;
-                    break;
-                case "Spanish":
-                    fp.mLanguageCode = Language.Spanish;
-                    break;
-                case "French":
-                    fp.mLanguageCode = Language.French;
-                    break;
-                case "Italian":
-                    fp.mLanguageCode = Language.Italian;
-                    break;
-                case "Japanese":
-                    fp.mLanguageCode = Language.Japanese;
-                    break;
-                case "Portuguese (Brazil)":
-                    fp.mLanguageCode = Language.Portuguese_Brazil;
-                    break;
-                case "Russian":
-                    fp.mLanguageCode = Language.Russian;
-                    break;
-                case "Chinese Simplified":
-                    fp.mLanguageCode = Language.Chinese_Simplified;
-                    break;
-                case "Korean":
-                    fp.mLanguageCode = Language.Korean;
-                    break;
-                case "Chinese Traditional":
-                    fp.mLanguageCode = Language.Chinese_Traditional;
-                    break;
-                case "Sanskrit":
-                    fp.mLanguageCode = Language.Sanskrit;
-                    break;
-                case "Hebrew":
-                    fp.mLanguageCode = Language.Hebrew;
-                    break;
-                case "Ancient Greek":
-                    fp.mLanguageCode = Language.Greek;
-                    break;
-                case "Latin":
-                    fp.mLanguageCode = Language.Latin;
-                    break;
-                case "Arabic":
-                    fp.mLanguageCode = Language.Arabic;
-                    break;
-                case "Phyrexian":
-                    fp.mLanguageCode = Language.Phyrexian;
-                    break;
-                default:
-                    System.err.println("LANGUAGE NOT PARSED: ~" + fd.language + "~");
-                    break;
+                case "German" -> fp.mLanguageCode = Language.German;
+                case "Spanish" -> fp.mLanguageCode = Language.Spanish;
+                case "French" -> fp.mLanguageCode = Language.French;
+                case "Italian" -> fp.mLanguageCode = Language.Italian;
+                case "Japanese" -> fp.mLanguageCode = Language.Japanese;
+                case "Portuguese (Brazil)" -> fp.mLanguageCode = Language.Portuguese_Brazil;
+                case "Russian" -> fp.mLanguageCode = Language.Russian;
+                case "Chinese Simplified" -> fp.mLanguageCode = Language.Chinese_Simplified;
+                case "Korean" -> fp.mLanguageCode = Language.Korean;
+                case "Chinese Traditional" -> fp.mLanguageCode = Language.Chinese_Traditional;
+                case "Sanskrit" -> fp.mLanguageCode = Language.Sanskrit;
+                case "Hebrew" -> fp.mLanguageCode = Language.Hebrew;
+                case "Ancient Greek" -> fp.mLanguageCode = Language.Greek;
+                case "Latin" -> fp.mLanguageCode = Language.Latin;
+                case "Arabic" -> fp.mLanguageCode = Language.Arabic;
+                case "Phyrexian" -> fp.mLanguageCode = Language.Phyrexian;
+                default -> System.err.println("LANGUAGE NOT PARSED: ~" + fd.language + "~");
             }
             fp.mName = fd.name;
             this.mForeignPrintings.add(fp);
@@ -383,25 +349,25 @@ public class Card implements Comparable<Card> {
                 return 7;
             }
             switch (this.mColor.charAt(0)) {
-                case 'W': {
+                case 'W' -> {
                     return 0;
                 }
-                case 'U': {
+                case 'U' -> {
                     return 1;
                 }
-                case 'B': {
+                case 'B' -> {
                     return 2;
                 }
-                case 'R': {
+                case 'R' -> {
                     return 3;
                 }
-                case 'G': {
+                case 'G' -> {
                     return 4;
                 }
-                case 'A': {
+                case 'A' -> {
                     return 5;
                 }
-                case 'L': {
+                case 'L' -> {
                     return 6;
                 }
             }
@@ -412,25 +378,25 @@ public class Card implements Comparable<Card> {
                 return 7;
             }
             switch (this.mColor.charAt(0)) {
-                case 'B': {
+                case 'B' -> {
                     return 0;
                 }
-                case 'U': {
+                case 'U' -> {
                     return 1;
                 }
-                case 'G': {
+                case 'G' -> {
                     return 2;
                 }
-                case 'R': {
+                case 'R' -> {
                     return 3;
                 }
-                case 'W': {
+                case 'W' -> {
                     return 4;
                 }
-                case 'A': {
+                case 'A' -> {
                     return 5;
                 }
-                case 'L': {
+                case 'L' -> {
                     return 6;
                 }
             }

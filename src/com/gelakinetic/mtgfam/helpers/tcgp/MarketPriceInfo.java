@@ -194,23 +194,10 @@ public class MarketPriceInfo {
         }
         /* Return the requested price */
         switch (priceType) {
-            case LOW: {
-                toReturn = priceInfo.low;
-                break;
-            }
-            case MID: {
-                toReturn = priceInfo.mid;
-                break;
-            }
-            case HIGH: {
-                toReturn = priceInfo.high;
-                break;
-            }
-            default:
-            case MARKET: {
-                toReturn = priceInfo.market;
-                break;
-            }
+            case LOW -> toReturn = priceInfo.low;
+            case MID -> toReturn = priceInfo.mid;
+            case HIGH -> toReturn = priceInfo.high;
+            case MARKET -> toReturn = priceInfo.market;
         }
 
         // If only a market price exists, use that instead regardless

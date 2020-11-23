@@ -3,9 +3,9 @@ package com.gelakinetic.GathererScraper.JsonTypes;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import com.google.gson.Gson;
+
 import org.imgscalr.Scalr;
 
-import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -19,6 +19,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import javax.imageio.ImageIO;
 
 /*
  * This class contains all information about an expansion to be parsed
