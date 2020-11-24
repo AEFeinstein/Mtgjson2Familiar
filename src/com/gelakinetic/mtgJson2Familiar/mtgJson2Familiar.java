@@ -2,9 +2,11 @@ package com.gelakinetic.mtgJson2Familiar;
 
 import com.gelakinetic.GathererScraper.JsonTypes.Card;
 import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
+import com.gelakinetic.GathererScraper.JsonTypes.LegalityData;
 import com.gelakinetic.GathererScraper.JsonTypes.Manifest;
 import com.gelakinetic.GathererScraper.JsonTypes.Patch;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
+import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_legalities;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_allPrintings;
 import com.gelakinetic.mtgfam.helpers.tcgp.TcgpHelper;
@@ -15,6 +17,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 
 public class mtgJson2Familiar {
@@ -56,6 +59,17 @@ public class mtgJson2Familiar {
 
         // Save promo planes to readd later
         ArrayList<Card> promoPlanes = new ArrayList<>();
+
+        // Set up legality data
+        LegalityData legal = new LegalityData();
+        legal.mFormats.add(new LegalityData.Format("Vintage"));
+        legal.mFormats.add(new LegalityData.Format("Standard"));
+        legal.mFormats.add(new LegalityData.Format("Pioneer"));
+        legal.mFormats.add(new LegalityData.Format("Brawl"));
+        legal.mFormats.add(new LegalityData.Format("Modern"));
+        legal.mFormats.add(new LegalityData.Format("Legacy"));
+        legal.mFormats.add(new LegalityData.Format("Commander"));
+        legal.mFormats.add(new LegalityData.Format("Pauper"));
 
         // Iterate over all sets
         ArrayList<Patch> allPatches = new ArrayList<>();
@@ -150,18 +164,78 @@ public class mtgJson2Familiar {
                         // If it has a multiverse ID, add it
                         if (c.mMultiverseId > -1) {
                             newPatch.mCards.add(c);
+
+                            // See if this card is banned or restricted
+                            for (LegalityData.Format fmt : legal.mFormats) {
+                                // Check for bans
+                                if (("Vintage".equals(fmt.mName) && "Banned".equals(orig.legalities.vintage)) ||
+                                        ("Standard".equals(fmt.mName) && "Banned".equals(orig.legalities.standard)) ||
+                                        ("Pioneer".equals(fmt.mName) && "Banned".equals(orig.legalities.pioneer)) ||
+                                        ("Brawl".equals(fmt.mName) && "Banned".equals(orig.legalities.brawl)) ||
+                                        ("Modern".equals(fmt.mName) && "Banned".equals(orig.legalities.modern)) ||
+                                        ("Legacy".equals(fmt.mName) && "Banned".equals(orig.legalities.legacy)) ||
+                                        ("Commander".equals(fmt.mName) && "Banned".equals(orig.legalities.commander)) ||
+                                        ("Pauper".equals(fmt.mName) && "Banned".equals(orig.legalities.pauper))) {
+                                    if (!fmt.mBanlist.contains(c.mName)) {
+                                        fmt.mBanlist.add(c.mName);
+                                    }
+                                }
+
+                                // Check for restricted
+                                if (("Vintage".equals(fmt.mName) && "Restricted".equals(orig.legalities.vintage)) ||
+                                        ("Standard".equals(fmt.mName) && "Restricted".equals(orig.legalities.standard)) ||
+                                        ("Pioneer".equals(fmt.mName) && "Restricted".equals(orig.legalities.pioneer)) ||
+                                        ("Brawl".equals(fmt.mName) && "Restricted".equals(orig.legalities.brawl)) ||
+                                        ("Modern".equals(fmt.mName) && "Restricted".equals(orig.legalities.modern)) ||
+                                        ("Legacy".equals(fmt.mName) && "Restricted".equals(orig.legalities.legacy)) ||
+                                        ("Commander".equals(fmt.mName) && "Restricted".equals(orig.legalities.commander)) ||
+                                        ("Pauper".equals(fmt.mName) && "Restricted".equals(orig.legalities.pauper))) {
+                                    if (!fmt.mRestrictedlist.contains(c.mName)) {
+                                        fmt.mRestrictedlist.add(c.mName);
+                                    }
+                                }
+
+                                // Exclude these cards from eternal sets
+                                if (("Vintage".equals(fmt.mName)) ||
+                                        ("Legacy".equals(fmt.mName)) ||
+                                        ("Commander".equals(fmt.mName)) ||
+                                        ("Pauper".equals(fmt.mName) && c.mRarity == 'C')) {
+                                    if (c.mType.startsWith("Scheme") ||
+                                            c.mType.startsWith("Ongoing Scheme") ||
+                                            c.mType.startsWith("Plane ") ||
+                                            c.mType.startsWith("Phenomenon") ||
+                                            c.mType.startsWith("Vanguard") ||
+                                            c.mType.startsWith("Conspiracy")) {
+                                        if (!fmt.mBanlist.contains(c.mName)) {
+                                            fmt.mBanlist.add(c.mName);
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
 
                     // If any cards are in this set and it isn't saved yet
                     if (newPatch.mCards.size() > 0 && !allPatches.contains(newPatch)) {
-                        // Legality test
-//                        if (null != set.checkSetLegality().standard) {
-//                            System.out.println(set.name + " is standard legal");
-//                        }
+                        // See what formats this set is legal in
+                        mtgjson_legalities setLegality = set.checkSetLegality();
+                        for (LegalityData.Format fmt : legal.mFormats) {
+                            if (("Standard".equals(fmt.mName) && null != setLegality.standard) ||
+                                    ("Pioneer".equals(fmt.mName) && null != setLegality.pioneer) ||
+                                    ("Brawl".equals(fmt.mName) && null != setLegality.brawl) ||
+                                    ("Modern".equals(fmt.mName) && null != setLegality.modern)
+                                // ("Pauper".equals(fmt.mName) && null != setLegality.pauper) ||
+                                // ("Vintage".equals(fmt.mName) && null != setLegality.vintage) ||
+                                // ("Legacy".equals(fmt.mName) && null != setLegality.legacy) ||
+                                // ("Commander".equals(fmt.mName) && null != setLegality.commander) ||
+                            ) {
+                                fmt.mSets.add(newPatch.mExpansion.mCode_gatherer);
+                            }
+                        }
 
                         // Update the rarities
                         newPatch.mExpansion.fetchRaritySymbols(newPatch.mCards);
+
                         // Save this patch
                         allPatches.add(newPatch);
                         System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
@@ -224,6 +298,23 @@ public class mtgJson2Familiar {
             gsonWriter.toJson(manifest, fw);
         } catch (IOException e) {
             System.err.println("Couldn't write manifest file");
+            e.printStackTrace();
+        }
+
+        // Sort the legal data
+        for (LegalityData.Format fmt : legal.mFormats) {
+            Collections.sort(fmt.mBanlist);
+            Collections.sort(fmt.mRestrictedlist);
+            Collections.sort(fmt.mSets);
+        }
+        // Add a timestamp
+        legal.mTimestamp = printings.meta.getTimestamp();
+
+        // Write the legal data
+        try (FileWriter fw = new FileWriter("legality.json")) {
+            gsonWriter.toJson(legal, fw);
+        } catch (IOException e) {
+            System.err.println("Couldn't write legalities");
             e.printStackTrace();
         }
     }
