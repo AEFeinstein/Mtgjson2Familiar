@@ -54,6 +54,9 @@ public class mtgJson2Familiar {
             return;
         }
 
+        // Save promo planes to readd later
+        ArrayList<Card> promoPlanes = new ArrayList<>();
+
         // Iterate over all sets
         ArrayList<Patch> allPatches = new ArrayList<>();
         for (String key : printings.data.keySet()) {
@@ -68,6 +71,15 @@ public class mtgJson2Familiar {
                 if (set.code.equals("MED")) {
                     // Split it first, then add it
                     allPatches.addAll(splitMythicEdition(newExpansion, set, scm));
+                } else if (set.code.equals("PHOP")) {
+                    for (mtgjson_card orig : set.cards) {
+                        // Parse it
+                        Card c = new Card(orig, set, scm);
+                        // If it has a multiverse ID, store it for later
+                        if (c.mMultiverseId > -1) {
+                            promoPlanes.add(c);
+                        }
+                    }
                 } else {
                     // Check if this should be merged with an existing expansion
                     Patch newPatch = null;
@@ -153,6 +165,27 @@ public class mtgJson2Familiar {
                         // Save this patch
                         allPatches.add(newPatch);
                         System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
+                    }
+                }
+            }
+        }
+
+        // Readd the promo planes
+        for (Card plane : promoPlanes) {
+            if (plane.mName.contains("Tazeem")) {
+                for (Patch p : allPatches) {
+                    if (p.mExpansion.mCode_gatherer.equals("PCH")) {
+                        plane.mExpansion = p.mExpansion.mCode_gatherer;
+                        p.mCards.add(plane);
+                        break;
+                    }
+                }
+            } else if (plane.mName.contains("Stairs to Infinity")) {
+                for (Patch p : allPatches) {
+                    if (p.mExpansion.mCode_gatherer.equals("PC2")) {
+                        plane.mExpansion = p.mExpansion.mCode_gatherer;
+                        p.mCards.add(plane);
+                        break;
                     }
                 }
             }
