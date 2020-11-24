@@ -78,14 +78,49 @@ public class mtgJson2Familiar {
 
                             // Multiple mtgjson sets merged into to one, pick the right name
                             switch (existingPatch.mExpansion.mName_gatherer) {
-                                case "Mystery Booster Playtest Cards", "Mystery Booster" -> existingPatch.mExpansion.mName_gatherer = "Mystery Booster";
-                                case "Archenemy", "Archenemy Schemes" -> existingPatch.mExpansion.mName_gatherer = "Archenemy";
-                                case "Archenemy: Nicol Bolas", "Archenemy: Nicol Bolas Schemes" -> existingPatch.mExpansion.mName_gatherer = "Archenemy: Nicol Bolas";
-                                case "Planechase", "Planechase Planes" -> existingPatch.mExpansion.mName_gatherer = "Planechase";
-                                case "Planechase 2012 Planes", "Planechase 2012" -> existingPatch.mExpansion.mName_gatherer = "Planechase 2012";
-                                case "Planechase Anthology Planes", "Planechase Anthology" -> existingPatch.mExpansion.mName_gatherer = "Planechase Anthology";
-                                case "Dragon Con", "HarperPrism Book Promos", "Prerelease Events", "Magazine Inserts", "Starter 2000" -> existingPatch.mExpansion.mName_gatherer = "Promo set for Gatherer";
-                                case "Magic Online Avatars", "Vanguard Series" -> existingPatch.mExpansion.mName_gatherer = "Vanguard";
+                                case "Mystery Booster Playtest Cards":
+                                case "Mystery Booster": {
+                                    existingPatch.mExpansion.mName_gatherer = "Mystery Booster";
+                                    break;
+                                }
+                                case "Archenemy":
+                                case "Archenemy Schemes": {
+                                    existingPatch.mExpansion.mName_gatherer = "Archenemy";
+                                    break;
+                                }
+                                case "Archenemy: Nicol Bolas":
+                                case "Archenemy: Nicol Bolas Schemes": {
+                                    existingPatch.mExpansion.mName_gatherer = "Archenemy: Nicol Bolas";
+                                    break;
+                                }
+                                case "Planechase":
+                                case "Planechase Planes": {
+                                    existingPatch.mExpansion.mName_gatherer = "Planechase";
+                                    break;
+                                }
+                                case "Planechase 2012 Planes":
+                                case "Planechase 2012": {
+                                    existingPatch.mExpansion.mName_gatherer = "Planechase 2012";
+                                    break;
+                                }
+                                case "Planechase Anthology Planes":
+                                case "Planechase Anthology": {
+                                    existingPatch.mExpansion.mName_gatherer = "Planechase Anthology";
+                                    break;
+                                }
+                                case "Dragon Con":
+                                case "HarperPrism Book Promos":
+                                case "Prerelease Events":
+                                case "Magazine Inserts":
+                                case "Starter 2000": {
+                                    existingPatch.mExpansion.mName_gatherer = "Promo set for Gatherer";
+                                    break;
+                                }
+                                case "Magic Online Avatars":
+                                case "Vanguard Series": {
+                                    existingPatch.mExpansion.mName_gatherer = "Vanguard";
+                                    break;
+                                }
                             }
                             break;
                         }
@@ -182,15 +217,15 @@ public class mtgJson2Familiar {
             // If it has a multiverse ID, add it
             if (c.mMultiverseId > -1) {
                 switch (c.mNumber.toUpperCase().charAt(0)) {
-                    case 'G' -> {
+                    case 'G': {
                         c.mExpansion = "GRNMED";
                         grn.mCards.add(c);
                     }
-                    case 'R' -> {
+                    case 'R': {
                         c.mExpansion = "RNAMED";
                         rna.mCards.add(c);
                     }
-                    case 'W' -> {
+                    case 'W': {
                         c.mExpansion = "WARMED";
                         war.mCards.add(c);
                     }
