@@ -342,16 +342,23 @@ public class mtgJson2Familiar {
             if (c.mMultiverseId > -1) {
                 switch (c.mNumber.toUpperCase().charAt(0)) {
                     case 'G': {
-                        c.mExpansion = "GRNMED";
+                        c.mExpansion = grn.mExpansion.mCode_gatherer;
                         grn.mCards.add(c);
+                        break;
                     }
                     case 'R': {
-                        c.mExpansion = "RNAMED";
+                        c.mExpansion = rna.mExpansion.mCode_gatherer;
                         rna.mCards.add(c);
+                        break;
                     }
                     case 'W': {
-                        c.mExpansion = "WARMED";
+                        c.mExpansion = war.mExpansion.mCode_gatherer;
                         war.mCards.add(c);
+                        break;
+                    }
+                    default: {
+                        System.err.println("Unparsed MED card ~" + c.mName + "~");
+                        break;
                     }
                 }
             }

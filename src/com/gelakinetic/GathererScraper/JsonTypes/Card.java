@@ -148,6 +148,7 @@ public class Card implements Comparable<Card> {
                 break;
             default:
                 System.err.println("RARITY NOT PARSED: ~" + this.mRarity + "~");
+                break;
         }
 
         this.mForeignPrintings = new ArrayList<>();
