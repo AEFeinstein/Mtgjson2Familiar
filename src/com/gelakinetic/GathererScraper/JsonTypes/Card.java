@@ -107,7 +107,6 @@ public class Card implements Comparable<Card> {
         public static final String Russian = "ru";
         public static final String Spanish = "es";
         public static final String Korean = "ko";
-        @SuppressWarnings("unused")
         public static final String English = "en";
 
         public static final String Sanskrit = "sa";
@@ -122,8 +121,19 @@ public class Card implements Comparable<Card> {
     public Card(mtgjson_card orig, mtgjson_set origSet, setCodeMapper scm) {
         if (null != orig.faceName) {
             this.mName = orig.faceName;
+
+            String[] nameParts = orig.name.split(" // ");
+            if (orig.faceName.equals(nameParts[0])) {
+                this.mNumber = orig.number + 'a';
+            } else if (orig.faceName.equals(nameParts[1])) {
+                this.mNumber = orig.number + 'b';
+            } else {
+                System.err.println("Couldn't figure a side for ~" + orig.name + "~");
+                this.mNumber = orig.number;
+            }
         } else {
             this.mName = orig.name;
+            this.mNumber = orig.number;
         }
         // TODO Familiar treats half mana CMC incorrectly
         this.mCmc = (int) orig.convertedManaCost;
@@ -241,7 +251,6 @@ public class Card implements Comparable<Card> {
         } catch (NumberFormatException e) {
             this.mMultiverseId = -1;
         }
-        this.mNumber = orig.number;
 
         this.mExpansion = scm.getFamiliarCode(origSet.code);
 
@@ -400,7 +409,9 @@ public class Card implements Comparable<Card> {
     private int getNumFromColor() {
         /* Because Beatdown properly sorts color */
         if (this.mExpansion.equals("BD")) {
-            if (this.mColor.length() > 1) {
+            if (null == this.mColor || this.mColor.isEmpty()) {
+                return 5;
+            } else if (this.mColor.length() > 1) {
                 return 7;
             }
             switch (this.mColor.charAt(0)) {
@@ -418,18 +429,14 @@ public class Card implements Comparable<Card> {
                 }
                 case 'G': {
                     return 4;
-                }
-                case 'A': {
-                    return 5;
-                }
-                case 'L': {
-                    return 6;
                 }
             }
         }
         /* And magiccards.info has weird numbering for everything else */
         else {
-            if (this.mColor.length() > 1) {
+            if (null == this.mColor || this.mColor.isEmpty()) {
+                return 5;
+            } else if (this.mColor.length() > 1) {
                 return 7;
             }
             switch (this.mColor.charAt(0)) {
@@ -447,12 +454,6 @@ public class Card implements Comparable<Card> {
                 }
                 case 'W': {
                     return 4;
-                }
-                case 'A': {
-                    return 5;
-                }
-                case 'L': {
-                    return 6;
                 }
             }
         }
