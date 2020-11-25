@@ -6,4 +6,4 @@ TODO:
  - Automatically download and format rules
  - ~~Collate promos into one set~~
  - ~~Separate split cards into two cards~~
- - Apped 'a' and 'b' to DFCs
+ - ~~Apped 'a' and 'b' to DFCs~~
