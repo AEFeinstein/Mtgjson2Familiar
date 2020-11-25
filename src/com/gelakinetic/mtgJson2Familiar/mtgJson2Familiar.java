@@ -13,12 +13,16 @@ import com.gelakinetic.mtgfam.helpers.tcgp.TcgpHelper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.zip.GZIPOutputStream;
 
 public class mtgJson2Familiar {
 
@@ -86,6 +90,7 @@ public class mtgJson2Familiar {
                     // Split it first, then add it
                     allPatches.addAll(splitMythicEdition(newExpansion, set, scm));
                 } else if (set.code.equals("PHOP")) {
+                    // If these are promo planes, save them to be readded to PCH or PC2 later
                     for (mtgjson_card orig : set.cards) {
                         // Parse it
                         Card c = new Card(orig, set, scm);
@@ -268,21 +273,18 @@ public class mtgJson2Familiar {
         // Now write the patches
         Manifest manifest = new Manifest();
         for (Patch p : allPatches) {
+            // Sort the cards
+            Collections.sort(p.mCards);
             // Now that the patch is fully created, calculate the digest
             p.mExpansion.calculateDigest(gsonReader, p.mCards);
             // Write the patch file
-            try (FileWriter fw = new FileWriter("patches-v2/" + p.mExpansion.mCode_gatherer + ".json")) {
-                gsonWriter.toJson(p, fw);
-            } catch (IOException e) {
-                System.err.println("Couldn't write patch file");
-                e.printStackTrace();
-                return;
-            }
+            String patchName = p.mExpansion.mCode_gatherer + ".json.gzip";
+            writeFile(p, gsonWriter, new File("patches-v2", patchName), true);
 
             // Add this patch to the manifest
             Manifest.ManifestEntry entry = new Manifest.ManifestEntry();
             entry.mName = p.mExpansion.mName_gatherer;
-            entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/Mtgjson2Familiar/master/patches-v2/" + p.mExpansion.mCode_gatherer + ".json.gzip";
+            entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/Mtgjson2Familiar/master/patches-v2/" + patchName;
             entry.mCode = p.mExpansion.mCode_gatherer;
             entry.mDigest = p.mExpansion.mDigest;
             if (null != p.mExpansion.mExpansionImageURLs) {
@@ -293,13 +295,12 @@ public class mtgJson2Familiar {
             System.out.println("Wrote " + p.mExpansion.mName_gatherer);
         }
 
+        // Sort the entires
+        Collections.sort(manifest.mPatches);
+        // Add a timestamp
+        manifest.mTimestamp = printings.meta.getTimestamp();
         // And write all the metadata
-        try (FileWriter fw = new FileWriter("patches.json")) {
-            gsonWriter.toJson(manifest, fw);
-        } catch (IOException e) {
-            System.err.println("Couldn't write manifest file");
-            e.printStackTrace();
-        }
+        writeFile(manifest, gsonWriter, new File("patches.json"), false);
 
         // Sort the legal data
         for (LegalityData.Format fmt : legal.mFormats) {
@@ -309,14 +310,8 @@ public class mtgJson2Familiar {
         }
         // Add a timestamp
         legal.mTimestamp = printings.meta.getTimestamp();
-
         // Write the legal data
-        try (FileWriter fw = new FileWriter("legality.json")) {
-            gsonWriter.toJson(legal, fw);
-        } catch (IOException e) {
-            System.err.println("Couldn't write legalities");
-            e.printStackTrace();
-        }
+        writeFile(legal, gsonWriter, new File("legality.json"), false);
     }
 
     /**
@@ -380,5 +375,32 @@ public class mtgJson2Familiar {
         System.out.println("Added " + war.mExpansion.mName_gatherer);
 
         return patches;
+    }
+
+    /**
+     * Helper function to write a Java object to a JSON file
+     *
+     * @param object     The object to write
+     * @param serializer The serializer to convert the object to JSON
+     * @param outFile    The file to write to
+     */
+    static void writeFile(Object object, Gson serializer, File outFile, boolean shouldZip) {
+        System.setProperty("line.separator", "\n");
+
+        if (shouldZip) {
+            try (OutputStreamWriter osw = new OutputStreamWriter(new GZIPOutputStream(new FileOutputStream(outFile)), StandardCharsets.UTF_8)) {
+                osw.write(serializer.toJson(object));
+            } catch (IOException e) {
+                System.err.println("Failed to write " + object.toString() + " to " + outFile);
+                e.printStackTrace();
+            }
+        } else {
+            try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(outFile), StandardCharsets.UTF_8)) {
+                osw.write(serializer.toJson(object));
+            } catch (IOException e) {
+                System.err.println("Failed to write " + object.toString() + " to " + outFile);
+                e.printStackTrace();
+            }
+        }
     }
 }

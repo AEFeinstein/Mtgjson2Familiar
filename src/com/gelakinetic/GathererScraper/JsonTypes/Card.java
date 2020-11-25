@@ -382,7 +382,8 @@ public class Card implements Comparable<Card> {
          * magiccards.info
          */
         int compVal = Integer.compare(this.getNumFromColor(), other.getNumFromColor());
-        if (compVal == 0) {// They match, try comparing by name
+        if (compVal == 0) {
+            // They match, try comparing by name
             return this.mName.compareTo(other.mName);
         } else {
             // Num from color doesn't match, return it
