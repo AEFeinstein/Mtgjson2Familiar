@@ -244,6 +244,8 @@ public class Card implements Comparable<Card> {
         this.mNumber = orig.number;
 
         this.mExpansion = scm.getFamiliarCode(origSet.code);
+
+        orig.legalities.checkStrings();
     }
 
     /**

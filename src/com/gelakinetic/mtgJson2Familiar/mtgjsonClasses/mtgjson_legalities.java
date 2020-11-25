@@ -13,4 +13,29 @@ public class mtgjson_legalities {
     public String pioneer;
     public String standard;
     public String vintage;
+
+    public void checkStrings() {
+        checkString(this.brawl);
+        checkString(this.commander);
+        checkString(this.duel);
+        checkString(this.future);
+        checkString(this.frontier);
+        checkString(this.legacy);
+        checkString(this.modern);
+        checkString(this.pauper);
+        checkString(this.penny);
+        checkString(this.pioneer);
+        checkString(this.standard);
+        checkString(this.vintage);
+    }
+
+    private static void checkString(String legality) {
+        if (!(null == legality ||
+                "Legal".equals(legality) ||
+                "Banned".equals(legality) ||
+                "Restricted".equals(legality))
+        ) {
+            System.err.println("Unknown legality ~~" + legality + "~~");
+        }
+    }
 }

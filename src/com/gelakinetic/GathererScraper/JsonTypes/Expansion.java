@@ -194,6 +194,8 @@ public class Expansion {
                             } else {
                                 addToList = true;
                             }
+                        } else {
+                            System.err.println("Failed to get set symbol for ~~" + this.mCode_gatherer + ", " + rarity + "~~");
                         }
                     } catch (IOException e) {
                         System.err.println("Failed to get set symbol for ~~" + this.mCode_gatherer + ", " + rarity + "~~");
