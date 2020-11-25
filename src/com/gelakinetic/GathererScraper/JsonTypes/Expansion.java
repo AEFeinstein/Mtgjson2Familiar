@@ -208,7 +208,7 @@ public class Expansion {
             }
 
             if (addToList) {
-                this.mExpansionImageURLs.add("https://raw.githubusercontent.com/AEFeinstein/Mtgjson2Familiar/master/symbols/" + symName);
+                this.mExpansionImageURLs.add("https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/" + symName);
             }
         }
     }

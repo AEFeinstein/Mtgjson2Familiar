@@ -284,7 +284,7 @@ public class mtgJson2Familiar {
             // Add this patch to the manifest
             Manifest.ManifestEntry entry = new Manifest.ManifestEntry();
             entry.mName = p.mExpansion.mName_gatherer;
-            entry.mURL = "https://raw.githubusercontent.com/AEFeinstein/Mtgjson2Familiar/master/patches-v2/" + patchName;
+            entry.mURL = "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/patches-v2/" + patchName;
             entry.mCode = p.mExpansion.mCode_gatherer;
             entry.mDigest = p.mExpansion.mDigest;
             if (null != p.mExpansion.mExpansionImageURLs) {
