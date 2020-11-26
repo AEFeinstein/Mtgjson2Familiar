@@ -270,6 +270,29 @@ public class mtgJson2Familiar {
             }
         }
 
+        // Adjust multiverse IDs for duplicate DFCs
+        for (Patch p : allPatches) {
+            ArrayList<Card> mids = new ArrayList<>();
+            for (Card c : p.mCards) {
+                boolean found = false;
+                for (Card o : mids) {
+                    if (c.mMultiverseId == o.mMultiverseId) {
+                        // Increment the multiverse ID of the 'b' card
+                        if (c.mNumber.endsWith("b")) {
+                            c.mMultiverseId++;
+                        } else if (o.mNumber.endsWith("b")) {
+                            o.mMultiverseId++;
+                        }
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found) {
+                    mids.add(c);
+                }
+            }
+        }
+
         // Now write the patches
         Manifest manifest = new Manifest();
         for (Patch p : allPatches) {
