@@ -5,16 +5,23 @@ import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_legalities;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_allPrintings;
+import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_metafile;
 import com.gelakinetic.mtgfam.helpers.tcgp.TcgpHelper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import java.io.*;
+import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.zip.GZIPOutputStream;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public class mtgJson2Familiar {
 
@@ -27,6 +34,13 @@ public class mtgJson2Familiar {
                 .disableHtmlEscaping()
                 .setPrettyPrinting()
                 .create();
+
+        // Get the latest data from mtgjson if it's newer than what we last used
+        mtgjson_metafile newMeta = downloadLatestAllPrintings(gsonReader);
+        if (null == newMeta) {
+            System.err.println("Couldn't read metadata");
+            return;
+        }
 
         // Uncomment this to create the mapping between Familiar set codes and mtgjson set codes
         // createFamiliarMtgjsonCodeMap(gsonReader, gsonWriter);
@@ -259,6 +273,58 @@ public class mtgJson2Familiar {
         legal.mTimestamp = printings.meta.getTimestamp();
         // Write the legal data
         writeFile(legal, gsonWriter, new File("legality.json"), false);
+
+        // Write the metadata so we won't redownload AllPrintings.json
+        writeFile(newMeta, gsonReader, new File("Meta.json"), false);
+    }
+
+    /**
+     * Compare the saved last mtgjson version with the current version
+     * Download and unzip AllPrintings.json if there is a newer version
+     *
+     * @param gsonReader A Gson to read metadata with
+     * @return the new metadata
+     */
+    private static mtgjson_metafile downloadLatestAllPrintings(Gson gsonReader) {
+        mtgjson_metafile newMeta;
+        try (BufferedReader in = new BufferedReader(new InputStreamReader(new URL("https://mtgjson.com/api/v5/Meta.json").openStream()))) {
+            // Read current metadata from the web
+            newMeta = gsonReader.fromJson(in, mtgjson_metafile.class);
+
+            // Read in last known metadata from file
+            mtgjson_metafile oldMeta = null;
+            try (FileReader fr = new FileReader(new File("Meta.json"))) {
+                oldMeta = gsonReader.fromJson(fr, mtgjson_metafile.class);
+            } catch (IOException e) {
+                System.err.println("Couldn't read local metadata");
+            }
+
+            // If there's a mismatch
+            if (null == oldMeta ||
+                    !oldMeta.data.version.equals(newMeta.data.version) ||
+                    !oldMeta.meta.version.equals(newMeta.meta.version)) {
+                // Download and unzip new AllPrintings.json.zip
+                try (ZipInputStream allPrintings = new ZipInputStream(new URL("https://mtgjson.com/api/v5/AllPrintings.json.zip").openStream())) {
+                    ZipEntry zipEntry = allPrintings.getNextEntry();
+                    while (zipEntry != null) {
+                        File newFile = new File(zipEntry.getName());
+                        if (zipEntry.isDirectory()) {
+                            if (!newFile.isDirectory() && !newFile.mkdirs()) {
+                                throw new IOException("Failed to create directory " + newFile);
+                            }
+                        } else {
+                            Files.copy(allPrintings, Paths.get(zipEntry.getName()), StandardCopyOption.REPLACE_EXISTING);
+                            System.out.println("Downloaded new AllPrintings.json " + newMeta.data.version);
+                        }
+                        zipEntry = allPrintings.getNextEntry();
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            newMeta = null;
+        }
+        return newMeta;
     }
 
     /**

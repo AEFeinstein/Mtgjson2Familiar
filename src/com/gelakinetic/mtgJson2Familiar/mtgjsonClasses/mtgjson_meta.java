@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 
 public class mtgjson_meta {
     String date;
-    String version;
+    public String version;
 
     public long getTimestamp() {
         try {
