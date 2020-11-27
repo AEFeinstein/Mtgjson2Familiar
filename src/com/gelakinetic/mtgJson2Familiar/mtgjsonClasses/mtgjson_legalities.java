@@ -6,6 +6,7 @@ public class mtgjson_legalities {
     public String duel;
     public String future;
     public String frontier;
+    public String historic;
     public String legacy;
     public String modern;
     public String pauper;
@@ -20,6 +21,7 @@ public class mtgjson_legalities {
         checkString(this.duel);
         checkString(this.future);
         checkString(this.frontier);
+        checkString(this.historic);
         checkString(this.legacy);
         checkString(this.modern);
         checkString(this.pauper);

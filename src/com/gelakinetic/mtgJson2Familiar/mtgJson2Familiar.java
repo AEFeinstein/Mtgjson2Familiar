@@ -80,11 +80,14 @@ public class mtgJson2Familiar {
         legal.mFormats.add(new LegalityData.Format("Legacy"));
         legal.mFormats.add(new LegalityData.Format("Commander"));
         legal.mFormats.add(new LegalityData.Format("Pauper"));
+        legal.mFormats.add(new LegalityData.Format("Historic"));
 
         // Iterate over all sets
         ArrayList<Patch> allPatches = new ArrayList<>();
         for (String key : printings.data.keySet()) {
             mtgjson_set set = printings.data.get(key);
+
+            boolean isArenaOnly = (null != set.checkSetLegality().historic) && set.isOnlineOnly;
 
             // If the set has cards
             if (!set.cards.isEmpty()) {
@@ -174,7 +177,7 @@ public class mtgJson2Familiar {
                         // Parse it
                         Card c = new Card(orig, set, scm);
                         // If it has a multiverse ID, add it
-                        if (c.mMultiverseId > -1) {
+                        if (c.mMultiverseId > -1 || isArenaOnly) {
                             newPatch.mCards.add(c);
 
                             buildCardLegalities(legal, orig, c);
@@ -189,6 +192,7 @@ public class mtgJson2Familiar {
                             if (("Standard".equals(fmt.mName) && null != setLegality.standard) ||
                                     ("Pioneer".equals(fmt.mName) && null != setLegality.pioneer) ||
                                     ("Brawl".equals(fmt.mName) && null != setLegality.brawl) ||
+                                    ("Historic".equals(fmt.mName) && null != setLegality.historic) ||
                                     ("Modern".equals(fmt.mName) && null != setLegality.modern)
                                 // ("Pauper".equals(fmt.mName) && null != setLegality.pauper) ||
                                 // ("Vintage".equals(fmt.mName) && null != setLegality.vintage) ||
@@ -345,6 +349,7 @@ public class mtgJson2Familiar {
                     ("Modern".equals(fmt.mName) && "Banned".equals(orig.legalities.modern)) ||
                     ("Legacy".equals(fmt.mName) && "Banned".equals(orig.legalities.legacy)) ||
                     ("Commander".equals(fmt.mName) && "Banned".equals(orig.legalities.commander)) ||
+                    ("Historic".equals(fmt.mName) && "Banned".equals(orig.legalities.historic)) ||
                     ("Pauper".equals(fmt.mName) && "Banned".equals(orig.legalities.pauper))) {
                 if (!fmt.mBanlist.contains(c.mName)) {
                     fmt.mBanlist.add(c.mName);
@@ -359,6 +364,7 @@ public class mtgJson2Familiar {
                     ("Modern".equals(fmt.mName) && "Restricted".equals(orig.legalities.modern)) ||
                     ("Legacy".equals(fmt.mName) && "Restricted".equals(orig.legalities.legacy)) ||
                     ("Commander".equals(fmt.mName) && "Restricted".equals(orig.legalities.commander)) ||
+                    ("Historic".equals(fmt.mName) && "Restricted".equals(orig.legalities.historic)) ||
                     ("Pauper".equals(fmt.mName) && "Restricted".equals(orig.legalities.pauper))) {
                 if (!fmt.mRestrictedlist.contains(c.mName)) {
                     fmt.mRestrictedlist.add(c.mName);

@@ -38,6 +38,7 @@ public class mtgjson_set {
         legality.duel = "legal";
         legality.future = "legal";
         legality.frontier = "legal";
+        legality.historic = "legal";
         legality.legacy = "legal";
         legality.modern = "legal";
         legality.pauper = "legal";
@@ -61,6 +62,9 @@ public class mtgjson_set {
             }
             if (null == c.legalities.frontier) {
                 legality.frontier = null;
+            }
+            if (null == c.legalities.historic) {
+                legality.historic = null;
             }
             if (null == c.legalities.legacy) {
                 legality.legacy = null;
