@@ -1,10 +1,6 @@
 package com.gelakinetic.mtgJson2Familiar;
 
-import com.gelakinetic.GathererScraper.JsonTypes.Card;
-import com.gelakinetic.GathererScraper.JsonTypes.Expansion;
-import com.gelakinetic.GathererScraper.JsonTypes.LegalityData;
-import com.gelakinetic.GathererScraper.JsonTypes.Manifest;
-import com.gelakinetic.GathererScraper.JsonTypes.Patch;
+import com.gelakinetic.GathererScraper.JsonTypes.*;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_legalities;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
@@ -13,11 +9,7 @@ import com.gelakinetic.mtgfam.helpers.tcgp.TcgpHelper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -61,7 +53,7 @@ public class mtgJson2Familiar {
             return;
         }
 
-        // Save promo planes to readd later
+        // Save promo planes to re-add later
         ArrayList<Card> promoPlanes = new ArrayList<>();
 
         // Set up legality data
@@ -88,12 +80,13 @@ public class mtgJson2Familiar {
                 // If this is Mythic Edition
                 if (set.code.equals("MED")) {
                     // Split it first, then add it
-                    allPatches.addAll(splitMythicEdition(newExpansion, set, scm));
+                    allPatches.addAll(splitMythicEdition(newExpansion, set, scm, legal));
                 } else if (set.code.equals("PHOP")) {
-                    // If these are promo planes, save them to be readded to PCH or PC2 later
+                    // If these are promo planes, save them to be re-added to PCH or PC2 later
                     for (mtgjson_card orig : set.cards) {
                         // Parse it
                         Card c = new Card(orig, set, scm);
+                        buildCardLegalities(legal, orig, c);
                         // If it has a multiverse ID, store it for later
                         if (c.mMultiverseId > -1) {
                             promoPlanes.add(c);
@@ -170,53 +163,7 @@ public class mtgJson2Familiar {
                         if (c.mMultiverseId > -1) {
                             newPatch.mCards.add(c);
 
-                            // See if this card is banned or restricted
-                            for (LegalityData.Format fmt : legal.mFormats) {
-                                // Check for bans
-                                if (("Vintage".equals(fmt.mName) && "Banned".equals(orig.legalities.vintage)) ||
-                                        ("Standard".equals(fmt.mName) && "Banned".equals(orig.legalities.standard)) ||
-                                        ("Pioneer".equals(fmt.mName) && "Banned".equals(orig.legalities.pioneer)) ||
-                                        ("Brawl".equals(fmt.mName) && "Banned".equals(orig.legalities.brawl)) ||
-                                        ("Modern".equals(fmt.mName) && "Banned".equals(orig.legalities.modern)) ||
-                                        ("Legacy".equals(fmt.mName) && "Banned".equals(orig.legalities.legacy)) ||
-                                        ("Commander".equals(fmt.mName) && "Banned".equals(orig.legalities.commander)) ||
-                                        ("Pauper".equals(fmt.mName) && "Banned".equals(orig.legalities.pauper))) {
-                                    if (!fmt.mBanlist.contains(c.mName)) {
-                                        fmt.mBanlist.add(c.mName);
-                                    }
-                                }
-
-                                // Check for restricted
-                                if (("Vintage".equals(fmt.mName) && "Restricted".equals(orig.legalities.vintage)) ||
-                                        ("Standard".equals(fmt.mName) && "Restricted".equals(orig.legalities.standard)) ||
-                                        ("Pioneer".equals(fmt.mName) && "Restricted".equals(orig.legalities.pioneer)) ||
-                                        ("Brawl".equals(fmt.mName) && "Restricted".equals(orig.legalities.brawl)) ||
-                                        ("Modern".equals(fmt.mName) && "Restricted".equals(orig.legalities.modern)) ||
-                                        ("Legacy".equals(fmt.mName) && "Restricted".equals(orig.legalities.legacy)) ||
-                                        ("Commander".equals(fmt.mName) && "Restricted".equals(orig.legalities.commander)) ||
-                                        ("Pauper".equals(fmt.mName) && "Restricted".equals(orig.legalities.pauper))) {
-                                    if (!fmt.mRestrictedlist.contains(c.mName)) {
-                                        fmt.mRestrictedlist.add(c.mName);
-                                    }
-                                }
-
-                                // Exclude these cards from eternal sets
-                                if (("Vintage".equals(fmt.mName)) ||
-                                        ("Legacy".equals(fmt.mName)) ||
-                                        ("Commander".equals(fmt.mName)) ||
-                                        ("Pauper".equals(fmt.mName) && c.mRarity == 'C')) {
-                                    if (c.mType.startsWith("Scheme") ||
-                                            c.mType.startsWith("Ongoing Scheme") ||
-                                            c.mType.startsWith("Plane ") ||
-                                            c.mType.startsWith("Phenomenon") ||
-                                            c.mType.startsWith("Vanguard") ||
-                                            c.mType.startsWith("Conspiracy")) {
-                                        if (!fmt.mBanlist.contains(c.mName)) {
-                                            fmt.mBanlist.add(c.mName);
-                                        }
-                                    }
-                                }
-                            }
+                            buildCardLegalities(legal, orig, c);
                         }
                     }
 
@@ -249,7 +196,7 @@ public class mtgJson2Familiar {
             }
         }
 
-        // Readd the promo planes
+        // Re-add the promo planes
         for (Card plane : promoPlanes) {
             if (plane.mName.contains("Tazeem")) {
                 for (Patch p : allPatches) {
@@ -266,29 +213,6 @@ public class mtgJson2Familiar {
                         p.mCards.add(plane);
                         break;
                     }
-                }
-            }
-        }
-
-        // Adjust multiverse IDs for duplicate DFCs
-        for (Patch p : allPatches) {
-            ArrayList<Card> mids = new ArrayList<>();
-            for (Card c : p.mCards) {
-                boolean found = false;
-                for (Card o : mids) {
-                    if (c.mMultiverseId == o.mMultiverseId) {
-                        // Increment the multiverse ID of the 'b' card
-                        if (c.mNumber.endsWith("b")) {
-                            c.mMultiverseId++;
-                        } else if (o.mNumber.endsWith("b")) {
-                            o.mMultiverseId++;
-                        }
-                        found = true;
-                        break;
-                    }
-                }
-                if (!found) {
-                    mids.add(c);
                 }
             }
         }
@@ -318,7 +242,7 @@ public class mtgJson2Familiar {
             System.out.println("Wrote " + p.mExpansion.mName_gatherer);
         }
 
-        // Sort the entires
+        // Sort the entries
         Collections.sort(manifest.mPatches);
         // Add a timestamp
         manifest.mTimestamp = printings.meta.getTimestamp();
@@ -338,14 +262,72 @@ public class mtgJson2Familiar {
     }
 
     /**
+     * If this card is banned or restricted in a format, add it to the list
+     *
+     * @param legal The legality list to add to
+     * @param orig  The mtgjson card
+     * @param c     THe mtg familiar card
+     */
+    private static void buildCardLegalities(LegalityData legal, mtgjson_card orig, Card c) {
+        // See if this card is banned or restricted
+        for (LegalityData.Format fmt : legal.mFormats) {
+            // Check for bans
+            if (("Vintage".equals(fmt.mName) && "Banned".equals(orig.legalities.vintage)) ||
+                    ("Standard".equals(fmt.mName) && "Banned".equals(orig.legalities.standard)) ||
+                    ("Pioneer".equals(fmt.mName) && "Banned".equals(orig.legalities.pioneer)) ||
+                    ("Brawl".equals(fmt.mName) && "Banned".equals(orig.legalities.brawl)) ||
+                    ("Modern".equals(fmt.mName) && "Banned".equals(orig.legalities.modern)) ||
+                    ("Legacy".equals(fmt.mName) && "Banned".equals(orig.legalities.legacy)) ||
+                    ("Commander".equals(fmt.mName) && "Banned".equals(orig.legalities.commander)) ||
+                    ("Pauper".equals(fmt.mName) && "Banned".equals(orig.legalities.pauper))) {
+                if (!fmt.mBanlist.contains(c.mName)) {
+                    fmt.mBanlist.add(c.mName);
+                }
+            }
+
+            // Check for restricted
+            if (("Vintage".equals(fmt.mName) && "Restricted".equals(orig.legalities.vintage)) ||
+                    ("Standard".equals(fmt.mName) && "Restricted".equals(orig.legalities.standard)) ||
+                    ("Pioneer".equals(fmt.mName) && "Restricted".equals(orig.legalities.pioneer)) ||
+                    ("Brawl".equals(fmt.mName) && "Restricted".equals(orig.legalities.brawl)) ||
+                    ("Modern".equals(fmt.mName) && "Restricted".equals(orig.legalities.modern)) ||
+                    ("Legacy".equals(fmt.mName) && "Restricted".equals(orig.legalities.legacy)) ||
+                    ("Commander".equals(fmt.mName) && "Restricted".equals(orig.legalities.commander)) ||
+                    ("Pauper".equals(fmt.mName) && "Restricted".equals(orig.legalities.pauper))) {
+                if (!fmt.mRestrictedlist.contains(c.mName)) {
+                    fmt.mRestrictedlist.add(c.mName);
+                }
+            }
+
+            // Exclude these cards from eternal sets
+            if (("Vintage".equals(fmt.mName)) ||
+                    ("Legacy".equals(fmt.mName)) ||
+                    ("Commander".equals(fmt.mName)) ||
+                    ("Pauper".equals(fmt.mName) && c.mRarity == 'C')) {
+                if (c.mType.startsWith("Scheme") ||
+                        c.mType.startsWith("Ongoing Scheme") ||
+                        c.mType.startsWith("Plane ") ||
+                        c.mType.startsWith("Phenomenon") ||
+                        c.mType.startsWith("Vanguard") ||
+                        c.mType.startsWith("Conspiracy")) {
+                    if (!fmt.mBanlist.contains(c.mName)) {
+                        fmt.mBanlist.add(c.mName);
+                    }
+                }
+            }
+        }
+    }
+
+    /**
      * Mythic edition was three sets for Familiar but one set in MTGJSON. This function splits the one set into three
      *
      * @param newExpansion The original MTGJSON MED expansion
      * @param set          The original MTGJSON set
      * @param scm          A set code mapper
+     * @param legal        A list of legalities to add cards to
      * @return Three patches for the Mythic Editions
      */
-    private static ArrayList<Patch> splitMythicEdition(Expansion newExpansion, mtgjson_set set, setCodeMapper scm) {
+    private static ArrayList<Patch> splitMythicEdition(Expansion newExpansion, mtgjson_set set, setCodeMapper scm, LegalityData legal) {
 
         // Split it into
         Patch grn = new Patch(new Expansion(newExpansion, "Guilds of Ravnica Mythic Edition", "GRNMED", "Mythic Edition: Guilds of Ravnica"), new ArrayList<>(8));
@@ -375,11 +357,12 @@ public class mtgJson2Familiar {
                         break;
                     }
                     default: {
-                        System.err.println("Unparsed MED card ~" + c.mName + "~");
+                        System.err.println("MED card not parsed ~" + c.mName + "~");
                         break;
                     }
                 }
             }
+            buildCardLegalities(legal, orig, c);
         }
 
         // Update the rarities

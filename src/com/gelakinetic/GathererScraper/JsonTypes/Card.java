@@ -122,15 +122,22 @@ public class Card implements Comparable<Card> {
         if (null != orig.faceName) {
             this.mName = orig.faceName;
 
+            boolean letterAppended = false;
             String[] nameParts = orig.name.split(" // ");
-            if (orig.faceName.equals(nameParts[0])) {
-                this.mNumber = orig.number + 'a';
-            } else if (orig.faceName.equals(nameParts[1])) {
-                this.mNumber = orig.number + 'b';
-            } else {
+            for (int i = 0; i < nameParts.length; i++) {
+                if (orig.faceName.equals(nameParts[i])) {
+                    char suffixChar = (char)('a' + i);
+                    this.mNumber = orig.number + suffixChar;
+                    letterAppended = true;
+                    break;
+                }
+            }
+
+            if (!letterAppended) {
                 System.err.println("Couldn't figure a side for ~" + orig.name + "~");
                 this.mNumber = orig.number;
             }
+
         } else {
             this.mName = orig.name;
             this.mNumber = orig.number;
