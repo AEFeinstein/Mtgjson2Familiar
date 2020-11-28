@@ -89,8 +89,9 @@ public class mtgJson2Familiar {
 
             boolean isArenaOnly = (null != set.checkSetLegality().historic) && set.isOnlineOnly;
 
-            // If the set has cards
-            if (!set.cards.isEmpty()) {
+            // If the set has cards and is not a preview
+            if (!set.cards.isEmpty() && !set.isPartialPreview) {
+
                 // Create the expansion object
                 Expansion newExpansion = new Expansion(set, ids, scm);
 
