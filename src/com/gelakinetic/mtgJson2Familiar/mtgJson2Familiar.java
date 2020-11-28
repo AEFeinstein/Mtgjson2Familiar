@@ -27,6 +27,9 @@ public class mtgJson2Familiar {
 
     public static void main(String[] args) {
 
+//        JudgeDocScraper jdc = new JudgeDocScraper(new JudgeDocScraperUi());
+//        jdc.ScrapeAll();
+
         // Make a gson object
         Gson gsonReader = new Gson();
         Gson gsonWriter = new GsonBuilder()
