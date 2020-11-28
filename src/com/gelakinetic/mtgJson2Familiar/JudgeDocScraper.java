@@ -238,6 +238,24 @@ public class JudgeDocScraper {
             }
         }
 
+        String parsedDoc = removeNonAscii(doc.toString());
+
+        try (BufferedReader br = new BufferedReader(new FileReader(new File(DOC_DIR, ouputName)))) {
+            String line;
+            br.readLine(); // Eat the date line
+            StringBuilder priorDoc = new StringBuilder();
+            while (null != (line = br.readLine())) {
+                priorDoc.append(line).append('\n');
+            }
+            priorDoc = new StringBuilder(priorDoc.toString().trim());
+            if (priorDoc.toString().equals(parsedDoc)) {
+                mUi.appendText("No change in " + ouputName);
+                return;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         // Write the HTML file
         try (BufferedWriter bw = new BufferedWriter(
                 new OutputStreamWriter(new FileOutputStream(new File(DOC_DIR, ouputName)), StandardCharsets.UTF_8))) {
@@ -246,7 +264,7 @@ public class JudgeDocScraper {
             bw.write(String.format("%d-%02d-%02d\n", now.getYear(), now.getMonthValue() - 1, now.getDayOfMonth()));
 
             // Write the HTML
-            bw.write(removeNonAscii(doc.toString()));
+            bw.write(parsedDoc);
         } catch (IOException e) {
             mUi.appendText("EXCEPTION!!! " + e.getMessage());
             e.printStackTrace();
