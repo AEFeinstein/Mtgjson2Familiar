@@ -36,7 +36,7 @@ class PrefixedFieldNamingStrategy implements FieldNamingStrategy {
     }
 
     /**
-     * Return a string with the first letter being lowercased.
+     * Return a string with the first letter being lowercase.
      *
      * @param s the string to transform.
      * @return A string with a lowercase first letter

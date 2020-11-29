@@ -126,7 +126,7 @@ public class Card implements Comparable<Card> {
             String[] nameParts = orig.name.split(" // ");
             for (int i = 0; i < nameParts.length; i++) {
                 if (orig.faceName.equals(nameParts[i])) {
-                    char suffixChar = (char)('a' + i);
+                    char suffixChar = (char) ('a' + i);
                     this.mNumber = orig.number + suffixChar;
                     letterAppended = true;
                     break;

@@ -15,6 +15,7 @@ public class NetUtils {
         while (retries < Integer.MAX_VALUE - 1) {
             try {
                 // Note to self. If this stops working, wireshark a regular request from chrome and copy the cookie (and other fields)
+                //noinspection SpellCheckingInspection
                 return Jsoup
                         .connect(urlStr)
                         .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36")

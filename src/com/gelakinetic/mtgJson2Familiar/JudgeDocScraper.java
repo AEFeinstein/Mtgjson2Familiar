@@ -4,7 +4,6 @@ import org.apache.commons.io.IOUtils;
 import org.apache.commons.text.StringEscapeUtils;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.utils.URLEncodedUtils;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.DocumentType;
 import org.jsoup.nodes.Element;
@@ -26,50 +25,53 @@ public class JudgeDocScraper {
 
     private final static String DOC_DIR = "rules";
 
-    final JudgeDocScraperUi mUi;
-
     /**
-     * TODO doc
-     *
-     * @param judgeDocScraperUi
+     * @return true if everything was scraped, false if there was an error
      */
-    public JudgeDocScraper(JudgeDocScraperUi judgeDocScraperUi) {
-        mUi = judgeDocScraperUi;
+    public boolean ScrapeAll() {
+
+        System.out.println("Processing documents");
+
+        boolean status = true;
+        if (!ScrapeDocument("mtr", "MagicTournamentRules-light.html", true)) {
+            status = false;
+        }
+        if (!ScrapeDocument("ipg", "InfractionProcedureGuide-light.html", true)) {
+            status = false;
+        }
+        if (!ScrapeDocument("jar", "JudgingAtRegular-light.html", false)) {
+            status = false;
+        }
+        if (!ScrapeDocument("dipg", "DigitalInfractionProcedureGuide-light.html", false)) {
+            status = false;
+        }
+        if (!ScrapeDocument("dtr", "DigitalTournamentRules-light.html", false)) {
+            status = false;
+        }
+
+        System.out.println("All done");
+        return status;
     }
 
     /**
-     * TODO doc
-     */
-    public void ScrapeAll() {
-
-        mUi.appendText("Processing documents");
-
-        ScrapeDocument("mtr", "MagicTournamentRules-light.html", true);
-        ScrapeDocument("ipg", "InfractionProcedureGuide-light.html", true);
-        ScrapeDocument("jar", "JudgingAtRegular-light.html", false);
-        ScrapeDocument("dipg", "DigitalInfractionProcedureGuide-light.html", false);
-        ScrapeDocument("dtr", "DigitalTournamentRules-light.html", false);
-
-        mUi.appendText("All done");
-
-    }
-
-    /**
-     * TODO doc
+     * Scrape a judge document from blogs.magicjudges.org
      *
-     * @param docType
-     * @param ouputName
-     * @param removeLinks
+     * @param docType     The type of document to scrape
+     * @param outputName  The name of the outputted file
+     * @param removeLinks true to remove links, false to keep them
+     * @return true if the document was scraped, false if there was an error
      */
-    private void ScrapeDocument(String docType, String ouputName, boolean removeLinks) {
+    @SuppressWarnings("BooleanMethodIsAlwaysInverted")
+    private boolean ScrapeDocument(String docType, String outputName, boolean removeLinks) {
 
-        mUi.appendText("Processing " + docType);
+        System.out.println("Processing " + docType);
 
         HashSet<String> pagesToScrape = new HashSet<>();
         Document mainPage = NetUtils.ConnectWithRetries("https://blogs.magicjudges.org/rules/" + docType + "/");
 
         if (null == mainPage) {
-            return;
+            System.err.println("Couldn't connect to https://blogs.magicjudges.org/rules/" + docType + "/");
+            return false;
         }
         for (Element link : mainPage.getElementsByAttributeValue("class", "entry-content").first().getElementsByTag("a")) {
             String linkHref = link.attr("href");
@@ -158,53 +160,63 @@ public class JudgeDocScraper {
                         }
                     }
                 } else if (removeLinks && linkDestination.contains("magicjudges")) {
-                    mUi.appendText("Link removed: " + linkDestination);
+                    System.out.println("Link removed: " + linkDestination);
                     link.unwrap();
                 }
             } catch (URISyntaxException e) {
+                System.err.println("Failure when writing internal links");
                 e.printStackTrace();
+                return false;
             }
         }
 
+        // Clean up non-ascii chars
         String parsedDoc = NetUtils.removeNonAscii(doc.toString());
 
-        try (BufferedReader br = new BufferedReader(new FileReader(new File(DOC_DIR, ouputName)))) {
-            String line;
-            br.readLine(); // Eat the date line
+        // Read the prior document into RAM to check for differences
+        try (BufferedReader br = new BufferedReader(new FileReader(new File(DOC_DIR, outputName)))) {
+            // Eat the date line
+            br.readLine();
+            // Read everything
             StringBuilder priorDoc = new StringBuilder();
+            String line;
             while (null != (line = br.readLine())) {
                 priorDoc.append(line).append('\n');
             }
+            // Trim whitespace
             priorDoc = new StringBuilder(priorDoc.toString().trim());
+            // If the prior document and the parsed document are the same
             if (priorDoc.toString().equals(parsedDoc)) {
-                mUi.appendText("No change in " + ouputName);
-                return;
+                System.out.println("No change in " + outputName);
+                return true;
             }
         } catch (IOException e) {
+            System.err.println("Error reading prior document, continuing to write document");
             e.printStackTrace();
         }
 
         // Write the HTML file
         try (BufferedWriter bw = new BufferedWriter(
-                new OutputStreamWriter(new FileOutputStream(new File(DOC_DIR, ouputName)), StandardCharsets.UTF_8))) {
+                new OutputStreamWriter(new FileOutputStream(new File(DOC_DIR, outputName)), StandardCharsets.UTF_8))) {
             // Write the current date
             LocalDateTime now = LocalDateTime.now();
             bw.write(String.format("%d-%02d-%02d\n", now.getYear(), now.getMonthValue() - 1, now.getDayOfMonth()));
-
             // Write the HTML
             bw.write(parsedDoc);
         } catch (IOException e) {
-            mUi.appendText("EXCEPTION!!! " + e.getMessage());
+            System.out.println("EXCEPTION!!! " + e.getMessage());
             e.printStackTrace();
+            return false;
         }
+        return true;
     }
 
     /**
-     * TODO doc
+     * Scrape an individual page of a judge document
      *
-     * @param page
-     * @param rootElement
-     * @param linkIds
+     * @param page        The page to scrape
+     * @param rootElement The root element to add the page to
+     * @param linkIds     A list to add link IDs from this page to
      */
     private void addPageToFile(String page, Element rootElement, ArrayList<String> linkIds) {
 
@@ -213,7 +225,7 @@ public class JudgeDocScraper {
             return;
         }
 
-        mUi.appendText("Processing " + page);
+        System.out.println("Processing " + page);
 
         // Download the page
         Document mainPage = NetUtils.ConnectWithRetries(page);
@@ -252,19 +264,19 @@ public class JudgeDocScraper {
         // Remove all mentions of "Annotated" and credits for the annotated documents
         for (Element header : entry_content.getElementsByTag("h2")) {
             if (header.text().toLowerCase().contains("annotated")) {
-                mUi.appendText("Removed:\n" + header.text() + '\n');
+                System.out.println("Removed:\n" + header.text() + '\n');
                 header.remove();
             } else if (header.text().toLowerCase().equals("credit")) {
-                mUi.appendText("Removed:\n" + header.text() + '\n');
+                System.out.println("Removed:\n" + header.text() + '\n');
                 header.remove();
             }
         }
         for (Element paragraph : entry_content.getElementsByTag("p")) {
             if (paragraph.text().toLowerCase().contains("annotated")) {
-                mUi.appendText("Removed:\n" + paragraph.text() + '\n');
+                System.out.println("Removed:\n" + paragraph.text() + '\n');
                 paragraph.remove();
             } else if (paragraph.text().toLowerCase().contains("aipg")) {
-                mUi.appendText("Removed:\n" + paragraph.text() + '\n');
+                System.out.println("Removed:\n" + paragraph.text() + '\n');
                 paragraph.remove();
             }
         }
@@ -281,7 +293,7 @@ public class JudgeDocScraper {
                 // Write the base64 image into the html
                 image.attr("src", "data:image/" + getFileExtension(imgSrc) + "; base64, " + base64);
 
-                mUi.appendText("Embedded image: " + imgSrc);
+                System.out.println("Embedded image: " + imgSrc);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -292,10 +304,10 @@ public class JudgeDocScraper {
     }
 
     /**
-     * TODO doc
+     * Helper function to get the extension from a filename
      *
-     * @param name
-     * @return
+     * @param name The filename to get an extension from
+     * @return The file extension
      */
     private static String getFileExtension(String name) {
         try {
@@ -306,10 +318,10 @@ public class JudgeDocScraper {
     }
 
     /**
-     * TODO doc
+     * Return the last path segment for a given URI. It's the last part after a /
      *
-     * @param str
-     * @return
+     * @param str A URI
+     * @return The last path segment for this URI
      */
     private static String getLastPathSegment(String str) {
         String[] parts = str.split("/");
