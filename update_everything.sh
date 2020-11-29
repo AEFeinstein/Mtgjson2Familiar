@@ -6,6 +6,7 @@ BRANCH_NAME=AUTO_$DATE
 
 # Reset the repo to main
 git checkout main
+git remote prune origin
 git reset --hard
 git pull
 
@@ -13,9 +14,10 @@ git pull
 git checkout -b $BRANCH_NAME
 
 # TODO run the updates
-git add --all
+touch newfile.txt
 
 # Commit and push the changes
+git add --all
 git commit -m "Automatic Updates"
 git push --set-upstream origin $BRANCH_NAME
 
