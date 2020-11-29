@@ -30,6 +30,8 @@ public class mtgJson2Familiar {
 //        JudgeDocScraper jdc = new JudgeDocScraper(new JudgeDocScraperUi());
 //        jdc.ScrapeAll();
 
+//        new CompRulesScraper().GetLatestRules();
+
         // Make a gson object
         Gson gsonReader = new Gson();
         Gson gsonWriter = new GsonBuilder()
@@ -282,7 +284,7 @@ public class mtgJson2Familiar {
         // Write the legal data
         writeFile(legal, gsonWriter, new File("legality.json"), false);
 
-        // Write the metadata so we won't redownload AllPrintings.json
+        // Write the metadata so we won't re-download AllPrintings.json
         writeFile(newMeta, gsonReader, new File("Meta.json"), false);
     }
 
