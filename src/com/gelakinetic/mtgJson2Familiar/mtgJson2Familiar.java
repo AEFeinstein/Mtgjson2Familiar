@@ -58,6 +58,11 @@ public class mtgJson2Familiar {
 
         int status = 0;
 
+        // If a git username and password were supplied, clean the repo first
+        if (gitUsername != null) {
+            GitUtils.gitCleanup();
+        }
+
         if (scrapeJudgeDocs) {
             if (!new JudgeDocScraper().ScrapeAll()) {
                 status -= 2;
