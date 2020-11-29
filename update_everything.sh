@@ -6,7 +6,7 @@ BRANCH_NAME=AUTO_$DATE
 
 # Reset the repo to main
 git checkout main
-git remote prune origin
+git branch | grep -v "main" | xargs git branch -D 
 git reset --hard
 git pull
 
