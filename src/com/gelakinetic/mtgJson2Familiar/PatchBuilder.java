@@ -248,7 +248,7 @@ public class PatchBuilder {
             p.mExpansion.calculateDigest(gsonReader, p.mCards);
             // Write the patch file
             String patchName = p.mExpansion.mCode_gatherer + ".json.gzip";
-            if (!writeFile(p, gsonWriter, new File("patches-v2", patchName), true)) {
+            if (!writeFile(p, gsonWriter, new File(Filenames.PATCHES_DIR, patchName), true)) {
                 return false;
             }
 
@@ -271,7 +271,7 @@ public class PatchBuilder {
         // Add a timestamp
         manifest.mTimestamp = printings.meta.getTimestamp();
         // And write all the metadata
-        if (!writeFile(manifest, gsonWriter, new File("patches.json"), false)) {
+        if (!writeFile(manifest, gsonWriter, new File(Filenames.PATCHES_FILE), false)) {
             return false;
         }
 
@@ -284,12 +284,12 @@ public class PatchBuilder {
         // Add a timestamp
         legal.mTimestamp = printings.meta.getTimestamp();
         // Write the legal data
-        if (!writeFile(legal, gsonWriter, new File("legality.json"), false)) {
+        if (!writeFile(legal, gsonWriter, new File(Filenames.LEGALITY_FILE), false)) {
             return false;
         }
 
         // Write the metadata so we won't re-download AllPrintings.json
-        return writeFile(newMeta, gsonReader, new File("Meta.json"), false);
+        return writeFile(newMeta, gsonReader, new File(Filenames.META_FILE), false);
     }
 
     /**
@@ -307,7 +307,7 @@ public class PatchBuilder {
 
             // Read in last known metadata from file
             mtgjson_metafile oldMeta = null;
-            try (FileReader fr = new FileReader(new File("Meta.json"))) {
+            try (FileReader fr = new FileReader(new File(Filenames.META_FILE))) {
                 oldMeta = gsonReader.fromJson(fr, mtgjson_metafile.class);
             } catch (IOException e) {
                 System.err.println("Couldn't read local metadata");

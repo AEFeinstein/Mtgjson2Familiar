@@ -23,8 +23,6 @@ import java.util.regex.Pattern;
 
 public class JudgeDocScraper {
 
-    private final static String DOC_DIR = "rules";
-
     /**
      * @return true if everything was scraped, false if there was an error
      */
@@ -33,19 +31,19 @@ public class JudgeDocScraper {
         System.out.println("Processing documents");
 
         boolean status = true;
-        if (!ScrapeDocument("mtr", "MagicTournamentRules-light.html", true)) {
+        if (!ScrapeDocument("mtr", Filenames.MTR_FILE, true)) {
             status = false;
         }
-        if (!ScrapeDocument("ipg", "InfractionProcedureGuide-light.html", true)) {
+        if (!ScrapeDocument("ipg", Filenames.IPG_FILE, true)) {
             status = false;
         }
-        if (!ScrapeDocument("jar", "JudgingAtRegular-light.html", false)) {
+        if (!ScrapeDocument("jar", Filenames.JAR_FILE, false)) {
             status = false;
         }
-        if (!ScrapeDocument("dipg", "DigitalInfractionProcedureGuide-light.html", false)) {
+        if (!ScrapeDocument("dipg", Filenames.DIPG_FILE, false)) {
             status = false;
         }
-        if (!ScrapeDocument("dtr", "DigitalTournamentRules-light.html", false)) {
+        if (!ScrapeDocument("dtr", Filenames.DTR_FILE, false)) {
             status = false;
         }
 
@@ -174,7 +172,7 @@ public class JudgeDocScraper {
         String parsedDoc = NetUtils.removeNonAscii(doc.toString());
 
         // Read the prior document into RAM to check for differences
-        try (BufferedReader br = new BufferedReader(new FileReader(new File(DOC_DIR, outputName)))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(new File(Filenames.RULES_DIR, outputName)))) {
             // Eat the date line
             br.readLine();
             // Read everything
@@ -197,7 +195,7 @@ public class JudgeDocScraper {
 
         // Write the HTML file
         try (BufferedWriter bw = new BufferedWriter(
-                new OutputStreamWriter(new FileOutputStream(new File(DOC_DIR, outputName)), StandardCharsets.UTF_8))) {
+                new OutputStreamWriter(new FileOutputStream(new File(Filenames.RULES_DIR, outputName)), StandardCharsets.UTF_8))) {
             // Write the current date
             LocalDateTime now = LocalDateTime.now();
             bw.write(String.format("%d-%02d-%02d\n", now.getYear(), now.getMonthValue() - 1, now.getDayOfMonth()));

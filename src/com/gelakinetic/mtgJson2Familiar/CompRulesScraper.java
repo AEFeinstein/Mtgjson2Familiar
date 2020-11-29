@@ -36,7 +36,7 @@ public class CompRulesScraper {
             String date = GetEmbeddedDate(cal);
 
             // Check the date from the URL and the date in the last parsed rules
-            try (BufferedReader br = new BufferedReader(new FileReader("rules/MagicCompRules.txt"))) {
+            try (BufferedReader br = new BufferedReader(new FileReader(new File(Filenames.RULES_DIR, Filenames.COMP_RULES)))) {
                 String lastKnownDate = br.readLine();
                 if (lastKnownDate.equals(date)) {
                     // Dates match, so don't update anything
@@ -118,7 +118,7 @@ public class CompRulesScraper {
         }
 
         // If there were no errors or problematic lines
-        try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("rules/MagicCompRules.txt"), StandardCharsets.UTF_8))) {
+        try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(Filenames.RULES_DIR, Filenames.COMP_RULES)), StandardCharsets.UTF_8))) {
             // Write the rules to the file
             bw.write(GetEmbeddedDate(date));
             bw.write("\n\n");

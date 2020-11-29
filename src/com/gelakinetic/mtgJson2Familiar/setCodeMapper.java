@@ -99,7 +99,7 @@ public class setCodeMapper {
                 }
             }
 
-            try (FileWriter fw = new FileWriter("setCodeMap.json")) {
+            try (FileWriter fw = new FileWriter(Filenames.SET_CODE_MAP_FILE)) {
                 gsonWriter.toJson(map, fw);
             }
         } catch (IOException e) {
@@ -109,7 +109,7 @@ public class setCodeMapper {
 
     setCodeMapper(Gson gsonWriter) {
         codeMap cm1;
-        try (FileReader fr = new FileReader("setCodeMap.json")) {
+        try (FileReader fr = new FileReader(Filenames.SET_CODE_MAP_FILE)) {
             cm1 = gsonWriter.fromJson(fr, setCodeMapper.codeMap.class);
         } catch (IOException e) {
             cm1 = null;
