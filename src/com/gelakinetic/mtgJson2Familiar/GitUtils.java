@@ -8,11 +8,34 @@ public class GitUtils {
 
     /**
      * Checkout, reset, and pull this repo
+     *
+     * @return true if the repo was cleaned, false if there was an error
      */
-    static void gitCleanup() {
-        System.out.println(execSysCmd("git checkout master"));
-        System.out.println(execSysCmd("git reset --hard"));
-        System.out.println(execSysCmd("git pull"));
+    static boolean gitCleanup() {
+        String ret;
+
+        ret = execSysCmd("git checkout master");
+        if (null != ret) {
+            System.out.println(ret);
+        } else {
+            return false;
+        }
+
+        ret = execSysCmd("git reset --hard");
+        if (null != ret) {
+            System.out.println(ret);
+        } else {
+            return false;
+        }
+
+        ret = execSysCmd("git pull");
+        if (null != ret) {
+            System.out.println(ret);
+        } else {
+            return false;
+        }
+
+        return true;
     }
 
     /**
@@ -34,6 +57,7 @@ public class GitUtils {
                 return output.toString();
             }
         } catch (IOException e) {
+            System.err.println("Error executing \"" + command + "\"");
             e.printStackTrace();
         }
         return null;
