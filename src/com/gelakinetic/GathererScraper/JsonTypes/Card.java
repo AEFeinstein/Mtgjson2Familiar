@@ -42,6 +42,9 @@ public class Card implements Comparable<Card> {
     // The card's expansion
     public String mExpansion;
 
+    // The card's expansion
+    protected String mScryfallSetCode;
+
     // The card's rarity
     public char mRarity;
 
@@ -84,6 +87,7 @@ public class Card implements Comparable<Card> {
         digestStrings.add(mText);
         digestStrings.add(mFlavor);
         digestStrings.add(mExpansion);
+        digestStrings.add(mScryfallSetCode);
         digestStrings.add(Character.toString(mRarity));
         digestStrings.add(mNumber);
         digestStrings.add(mArtist);
@@ -298,6 +302,7 @@ public class Card implements Comparable<Card> {
             this.mMultiverseId = -1;
         }
 
+        this.mScryfallSetCode = origSet.code;
         this.mExpansion = scm.getFamiliarCode(origSet.code);
 
         orig.legalities.checkStrings();
