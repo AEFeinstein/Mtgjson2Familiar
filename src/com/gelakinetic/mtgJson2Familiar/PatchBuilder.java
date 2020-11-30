@@ -167,6 +167,14 @@ public class PatchBuilder {
                                     break;
                                 }
                             }
+
+                            // If the existing patch was missing information
+                            if (null == existingPatch.mExpansion.mName_tcgp) {
+                                // Add it
+                                existingPatch.mExpansion.mCode_mtgi = newExpansion.mCode_mtgi;
+                                existingPatch.mExpansion.mName_tcgp = newExpansion.mName_tcgp;
+                                existingPatch.mExpansion.mName_mkm = newExpansion.mName_mkm;
+                            }
                             break;
                         }
                     }
@@ -207,13 +215,12 @@ public class PatchBuilder {
                             }
                         }
 
-                        // Update the rarities
-                        newPatch.mExpansion.fetchRaritySymbols(newPatch.mCards);
-
                         // Save this patch
                         allPatches.add(newPatch);
                         System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
                     }
+                    // Update the rarities
+                    newPatch.mExpansion.fetchRaritySymbols(newPatch.mCards);
                 }
             }
         }

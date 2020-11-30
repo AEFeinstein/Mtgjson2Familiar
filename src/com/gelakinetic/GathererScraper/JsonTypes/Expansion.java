@@ -82,7 +82,23 @@ public class Expansion {
 
         // Names
         this.mName_gatherer = orig.name;
+        // Override the tcgplayerGroupId for a few sets with issues
+        String overrideValue = null;
+        if (orig.name.contains("Duel Decks Anthology")) {
+            overrideValue = "Duel Decks: Anthology";
+        } else if (orig.name.equals("M19 Gift Pack")) {
+            overrideValue = "Gift Boxes and Promos";
+        }
+        if (null != overrideValue) {
+            for (Long key : tcgpIds.keySet()) {
+                if (tcgpIds.get(key).equals(overrideValue)) {
+                    orig.tcgplayerGroupId = Math.toIntExact(key);
+                    break;
+                }
+            }
+        }
         this.mName_tcgp = tcgpIds.get((long) orig.tcgplayerGroupId);
+
         if (null == orig.mcmName) {
             this.mName_mkm = this.mName_tcgp;
         } else {
@@ -206,7 +222,10 @@ public class Expansion {
             }
 
             if (addToList) {
-                this.mExpansionImageURLs.add("https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/" + symName);
+                String url = "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/" + symName;
+                if (!this.mExpansionImageURLs.contains(url)) {
+                    this.mExpansionImageURLs.add(url);
+                }
             }
         }
     }
