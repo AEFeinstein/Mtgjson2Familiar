@@ -2,6 +2,7 @@ package com.gelakinetic.mtgJson2Familiar;
 
 import com.google.gson.Gson;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -99,7 +100,7 @@ public class setCodeMapper {
                 }
             }
 
-            try (FileWriter fw = new FileWriter(Filenames.SET_CODE_MAP_FILE)) {
+            try (FileWriter fw = new FileWriter(new File(Filenames.PATCHES_DIR, Filenames.SET_CODE_MAP_FILE))) {
                 gsonWriter.toJson(map, fw);
             }
         } catch (IOException e) {
@@ -109,7 +110,7 @@ public class setCodeMapper {
 
     setCodeMapper(Gson gsonWriter) {
         codeMap cm1;
-        try (FileReader fr = new FileReader(Filenames.SET_CODE_MAP_FILE)) {
+        try (FileReader fr = new FileReader(new File(Filenames.PATCHES_DIR, Filenames.SET_CODE_MAP_FILE))) {
             cm1 = gsonWriter.fromJson(fr, setCodeMapper.codeMap.class);
         } catch (IOException e) {
             cm1 = null;
