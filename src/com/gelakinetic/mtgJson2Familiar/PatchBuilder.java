@@ -255,7 +255,7 @@ public class PatchBuilder {
             // Sort the cards
             Collections.sort(p.mCards);
             // Now that the patch is fully created, calculate the digest
-            p.mExpansion.calculateDigest(gsonReader, p.mCards);
+            p.mExpansion.calculateDigest(p.mCards);
             // Write the patch file
             String patchName = p.mExpansion.mCode_gatherer + ".json.gzip";
             if (!writeFile(p, gsonWriter, new File(Filenames.PATCHES_DIR, patchName), true)) {

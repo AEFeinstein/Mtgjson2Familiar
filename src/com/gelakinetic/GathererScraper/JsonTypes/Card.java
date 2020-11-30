@@ -6,8 +6,11 @@ import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
 
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /*
@@ -72,6 +75,37 @@ public class Card implements Comparable<Card> {
     // The card's loyalty. An integer in practice
     public String mWatermark;
 
+    public void updateDigest(MessageDigest messageDigest) {
+        ArrayList<String> digestStrings = new ArrayList<>();
+        digestStrings.add(mManaCost);
+        digestStrings.add(mName);
+        digestStrings.add(Integer.toString(mCmc));
+        digestStrings.add(mType);
+        digestStrings.add(mText);
+        digestStrings.add(mFlavor);
+        digestStrings.add(mExpansion);
+        digestStrings.add(Character.toString(mRarity));
+        digestStrings.add(mNumber);
+        digestStrings.add(mArtist);
+        digestStrings.add(mColor);
+        digestStrings.add(mColorIdentity);
+        digestStrings.add(Integer.toString(mMultiverseId));
+        digestStrings.add(Float.toString(mPower));
+        digestStrings.add(Float.toString(mToughness));
+        digestStrings.add(Integer.toString(mLoyalty));
+        Collections.sort(mForeignPrintings);
+        for (ForeignPrinting fp : mForeignPrintings) {
+            digestStrings.add(fp.toString());
+        }
+        digestStrings.add(mWatermark);
+
+        for (String s : digestStrings) {
+            if (null != s) {
+                messageDigest.update(s.getBytes(StandardCharsets.UTF_8));
+            }
+        }
+    }
+
     // Private class for encapsulating foreign printing information
     public static class ForeignPrinting implements Comparable<ForeignPrinting> {
         public String mName;
@@ -93,6 +127,11 @@ public class Card implements Comparable<Card> {
                         mName.equals(((ForeignPrinting) arg0).mName);
             }
             return false;
+        }
+
+        @Override
+        public String toString() {
+            return mLanguageCode + ": " + mName;
         }
     }
 

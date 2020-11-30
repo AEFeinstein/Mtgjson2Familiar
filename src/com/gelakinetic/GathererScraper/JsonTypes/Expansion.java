@@ -2,7 +2,6 @@ package com.gelakinetic.GathererScraper.JsonTypes;
 
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
-import com.google.gson.Gson;
 import org.imgscalr.Scalr;
 
 import javax.imageio.ImageIO;
@@ -13,11 +12,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 
 /*
@@ -245,20 +246,19 @@ public class Expansion {
     /**
      * Calculate a MD5 digest for this expansion. It changes whenever any stored data changes
      *
-     * @param gson   A Gson object to help convert data to bytes
      * @param mCards All the cards for this expansion
      */
-    public void calculateDigest(Gson gson, ArrayList<Card> mCards) {
+    public void calculateDigest(ArrayList<Card> mCards) {
         this.mDigest = null;
         MessageDigest messageDigest;
         try {
             messageDigest = MessageDigest.getInstance("MD5");
             // Add all cards to the digest
             for (Card c : mCards) {
-                messageDigest.update(gson.toJson(c).getBytes());
+                c.updateDigest(messageDigest);
             }
             // Add set data to the digest
-            messageDigest.update(gson.toJson(this).getBytes());
+            this.updateDigest(messageDigest);
 
             StringBuilder sb = new StringBuilder();
             for (byte b : messageDigest.digest()) {
@@ -267,6 +267,28 @@ public class Expansion {
             this.mDigest = sb.toString();
         } catch (NoSuchAlgorithmException e) {
             /* This should never happen */
+        }
+    }
+
+    private void updateDigest(MessageDigest messageDigest) {
+        ArrayList<String> digestStrings = new ArrayList<>();
+        digestStrings.add(mName_gatherer);
+        digestStrings.add(mCode_gatherer);
+        digestStrings.add(mCode_mtgi);
+        digestStrings.add(mName_tcgp);
+        digestStrings.add(mName_mkm);
+        digestStrings.add(Long.toString(mReleaseTimestamp));
+        digestStrings.add(Boolean.toString(mCanBeFoil));
+        digestStrings.add(Boolean.toString(mIsOnlineOnly));
+        digestStrings.add(mBorderColor);
+        digestStrings.add(mDigest);
+        Collections.sort(mExpansionImageURLs);
+        digestStrings.addAll(mExpansionImageURLs);
+
+        for (String s : digestStrings) {
+            if (null != s) {
+                messageDigest.update(s.getBytes(StandardCharsets.UTF_8));
+            }
         }
     }
 }
