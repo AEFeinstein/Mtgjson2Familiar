@@ -56,6 +56,9 @@ public class Expansion {
     // The color of the border, either Black, White, or Silver
     public String mBorderColor;
 
+    // The type of set
+    public String mType;
+
     // MD5 digest for scraped cards, to see when things change
     public String mDigest;
 
@@ -118,6 +121,8 @@ public class Expansion {
             this.mName_mkm = orig.mcmName;
         }
 
+        this.mType = orig.type;
+
         // Fill this in later
         this.mDigest = null;
     }
@@ -140,6 +145,7 @@ public class Expansion {
         this.mCanBeFoil = other.mCanBeFoil;
         this.mIsOnlineOnly = other.mIsOnlineOnly;
         this.mBorderColor = other.mBorderColor;
+        this.mType = other.mType;
         // Fill this later
         this.mExpansionImageURLs = new ArrayList<>(1);
         this.mDigest = null;
@@ -281,7 +287,7 @@ public class Expansion {
         digestStrings.add(Boolean.toString(mCanBeFoil));
         digestStrings.add(Boolean.toString(mIsOnlineOnly));
         digestStrings.add(mBorderColor);
-        digestStrings.add(mDigest);
+        digestStrings.add(mType);
         Collections.sort(mExpansionImageURLs);
         digestStrings.addAll(mExpansionImageURLs);
 
