@@ -14,7 +14,7 @@ git pull
 git checkout -b $BRANCH_NAME
 
 # Run the updates
-java -jar Mtgjson2Familiar.jar -p -r -j
+java -jar Mtgjson2Familiar.jar $@
 
 # Commit and push the changes
 git add --all
