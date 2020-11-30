@@ -13,8 +13,8 @@ git pull
 # Create and checkout a new branch
 git checkout -b $BRANCH_NAME
 
-# TODO run the updates
-touch newfile.txt
+# Run the updates
+java -jar Mtgjson2Familiar.jar -p -r -j
 
 # Commit and push the changes
 git add --all
