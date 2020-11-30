@@ -63,8 +63,20 @@ public class Expansion {
 
     public Expansion(mtgjson_set orig, HashMap<Long, String> tcgpIds, setCodeMapper scm) {
 
-        // Metadata
+        // Adjust border color to things Familiar knows about
         this.mBorderColor = orig.cards.get(0).borderColor;
+        if ("borderless".equals(this.mBorderColor)) {
+            this.mBorderColor = "black";
+        }
+        if ("gold".equals(this.mBorderColor)) {
+            this.mBorderColor = "silver";
+        }
+        // Error check
+        if (!"white".equals(this.mBorderColor) &&
+                !"black".equals(this.mBorderColor) &&
+                !"silver".equals(this.mBorderColor)) {
+            System.err.println("Unknown border color ~" + this.mBorderColor + "~");
+        }
         this.mBorderColor = this.mBorderColor.substring(0, 1).toUpperCase() + this.mBorderColor.substring(1);
         this.mCanBeFoil = !(orig.isNonFoilOnly || orig.isFoilOnly);
         this.mIsOnlineOnly = orig.isOnlineOnly;
