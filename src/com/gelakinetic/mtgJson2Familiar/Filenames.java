@@ -11,9 +11,9 @@ public class Filenames {
 
     public static final String COMP_RULES = "MagicCompRules.txt";
 
-    public static final String MTR_FILE = "MagicTournamentRules-light.html";
-    public static final String IPG_FILE = "InfractionProcedureGuide-light.html";
-    public static final String JAR_FILE = "JudgingAtRegular-light.html";
-    public static final String DIPG_FILE = "DigitalInfractionProcedureGuide-light.html";
-    public static final String DTR_FILE = "DigitalTournamentRules-light.html";
+    public static final String MTR_FILE = "mtr.html";
+    public static final String IPG_FILE = "ipg.html";
+    public static final String JAR_FILE = "jar.html";
+    public static final String DIPG_FILE = "dipg.html";
+    public static final String DTR_FILE = "dmtr.html";
 }
