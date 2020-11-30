@@ -155,10 +155,15 @@ public class PatchBuilder {
                                 }
                                 case "Dragon Con":
                                 case "HarperPrism Book Promos":
-                                case "Prerelease Events":
+                                case "Prerelease Events": {
+                                    existingPatch.mExpansion.mName_gatherer = "Promo set for Gatherer";
+                                    existingPatch.mExpansion.mName_tcgp = "Media Promos";
+                                    existingPatch.mExpansion.mName_mkm = "Media Promos";
+                                    break;
+                                }
                                 case "Magazine Inserts":
                                 case "Starter 2000": {
-                                    existingPatch.mExpansion.mName_gatherer = "Promo set for Gatherer";
+                                    existingPatch.mExpansion.mName_gatherer = "Starter 2000";
                                     break;
                                 }
                                 case "Magic Online Avatars":
@@ -171,9 +176,7 @@ public class PatchBuilder {
                             // If the existing patch was missing information
                             if (null == existingPatch.mExpansion.mName_tcgp) {
                                 // Add it
-                                existingPatch.mExpansion.mCode_mtgi = newExpansion.mCode_mtgi;
-                                existingPatch.mExpansion.mName_tcgp = newExpansion.mName_tcgp;
-                                existingPatch.mExpansion.mName_mkm = newExpansion.mName_mkm;
+                                existingPatch.mExpansion = newExpansion;
                             }
                             break;
                         }
