@@ -62,7 +62,7 @@ public class PatchBuilder {
 
         // Read in the AllPrintings.json file
         mtgjson_allPrintings printings;
-        try (FileReader fr = new FileReader("AllPrintings.json")) {
+        try (FileReader fr = new FileReader("AllPrintings.json", StandardCharsets.UTF_8)) {
             printings = gsonReader.fromJson(fr, mtgjson_allPrintings.class);
         } catch (IOException e) {
             System.err.println("Couldn't read AllPrintings.json");
@@ -317,7 +317,7 @@ public class PatchBuilder {
 
             // Read in last known metadata from file
             mtgjson_metafile oldMeta = null;
-            try (FileReader fr = new FileReader(new File(Filenames.PATCHES_DIR, Filenames.META_FILE))) {
+            try (FileReader fr = new FileReader(new File(Filenames.PATCHES_DIR, Filenames.META_FILE), StandardCharsets.UTF_8)) {
                 oldMeta = gsonReader.fromJson(fr, mtgjson_metafile.class);
             } catch (IOException e) {
                 System.err.println("Couldn't read local metadata");

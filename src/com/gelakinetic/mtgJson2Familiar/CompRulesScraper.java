@@ -36,7 +36,7 @@ public class CompRulesScraper {
             String date = GetEmbeddedDate(cal);
 
             // Check the date from the URL and the date in the last parsed rules
-            try (BufferedReader br = new BufferedReader(new FileReader(new File(Filenames.RULES_DIR, Filenames.COMP_RULES)))) {
+            try (BufferedReader br = new BufferedReader(new FileReader(new File(Filenames.RULES_DIR, Filenames.COMP_RULES), StandardCharsets.UTF_8))) {
                 String lastKnownDate = br.readLine();
                 if (lastKnownDate.equals(date)) {
                     // Dates match, so don't update anything

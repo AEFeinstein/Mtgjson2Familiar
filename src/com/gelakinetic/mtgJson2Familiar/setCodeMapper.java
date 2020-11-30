@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 public class setCodeMapper {
@@ -59,8 +60,8 @@ public class setCodeMapper {
      */
     @SuppressWarnings("unused")
     static void createFamiliarMtgjsonCodeMap(Gson gsonReader, Gson gsonWriter) {
-        try (FileReader fr = new FileReader("fam_codes.json");
-             FileReader fr2 = new FileReader("mj_codes.json")) {
+        try (FileReader fr = new FileReader("fam_codes.json", StandardCharsets.UTF_8);
+             FileReader fr2 = new FileReader("mj_codes.json", StandardCharsets.UTF_8)) {
             codes famCodes = gsonReader.fromJson(fr, codes.class);
             codes mjCodes = gsonReader.fromJson(fr2, codes.class);
             codeMap map = new codeMap();
@@ -100,7 +101,7 @@ public class setCodeMapper {
                 }
             }
 
-            try (FileWriter fw = new FileWriter(new File(Filenames.PATCHES_DIR, Filenames.SET_CODE_MAP_FILE))) {
+            try (FileWriter fw = new FileWriter(new File(Filenames.PATCHES_DIR, Filenames.SET_CODE_MAP_FILE), StandardCharsets.UTF_8)) {
                 gsonWriter.toJson(map, fw);
             }
         } catch (IOException e) {
@@ -110,7 +111,7 @@ public class setCodeMapper {
 
     setCodeMapper(Gson gsonWriter) {
         codeMap cm1;
-        try (FileReader fr = new FileReader(new File(Filenames.PATCHES_DIR, Filenames.SET_CODE_MAP_FILE))) {
+        try (FileReader fr = new FileReader(new File(Filenames.PATCHES_DIR, Filenames.SET_CODE_MAP_FILE), StandardCharsets.UTF_8)) {
             cm1 = gsonWriter.fromJson(fr, setCodeMapper.codeMap.class);
         } catch (IOException e) {
             cm1 = null;

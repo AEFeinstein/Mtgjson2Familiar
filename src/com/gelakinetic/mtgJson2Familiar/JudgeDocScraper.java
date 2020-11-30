@@ -172,7 +172,7 @@ public class JudgeDocScraper {
         String parsedDoc = NetUtils.removeNonAscii(doc.toString());
 
         // Read the prior document into RAM to check for differences
-        try (BufferedReader br = new BufferedReader(new FileReader(new File(Filenames.RULES_DIR, outputName)))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(new File(Filenames.RULES_DIR, outputName), StandardCharsets.UTF_8))) {
             // Eat the date line
             br.readLine();
             // Read everything
