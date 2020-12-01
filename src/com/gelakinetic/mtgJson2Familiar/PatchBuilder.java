@@ -17,6 +17,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.zip.GZIPOutputStream;
@@ -84,6 +85,11 @@ public class PatchBuilder {
         legal.mFormats.add(new LegalityData.Format("Commander"));
         legal.mFormats.add(new LegalityData.Format("Pauper"));
         legal.mFormats.add(new LegalityData.Format("Historic"));
+
+        // Hack in a reserved list to the legalities
+        LegalityData.Format rl = new LegalityData.Format("Reserved List");
+        rl.mBanlist.addAll(Arrays.asList(ReservedList.rl));
+        legal.mFormats.add(rl);
 
         // Iterate over all sets
         ArrayList<Patch> allPatches = new ArrayList<>();
