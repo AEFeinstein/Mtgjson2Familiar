@@ -228,14 +228,14 @@ public class Expansion {
                                 addToList = true;
                             }
                         } else {
-                            System.err.println("Failed to get set symbol for ~~" + this.mCode_gatherer + ", " + rarity + "~~");
+                            System.err.println("Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
                         }
                     } catch (IOException e) {
-                        System.err.println("Failed to get set symbol for ~~" + this.mCode_gatherer + ", " + rarity + "~~");
+                        System.err.println("Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
                         e.printStackTrace();
                     }
                 } catch (MalformedURLException e) {
-                    System.err.println("Failed to get set symbol for ~~" + this.mCode_gatherer + ", " + rarity + "~~");
+                    System.err.println("Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
                     e.printStackTrace();
                 }
             }
