@@ -91,6 +91,9 @@ public class PatchBuilder {
         rl.mBanlist.addAll(Arrays.asList(ReservedList.rl));
         legal.mFormats.add(rl);
 
+        // Keep a collection of mtgjson_set objects with merged card lists
+        HashMap<String, mtgjson_set> mergedSets = new HashMap<>();
+
         // Iterate over all sets
         ArrayList<Patch> allPatches = new ArrayList<>();
         for (String key : printings.data.keySet()) {
@@ -207,27 +210,19 @@ public class PatchBuilder {
 
                     // If any cards are in this set and it isn't saved yet
                     if (newPatch.mCards.size() > 0 && !allPatches.contains(newPatch)) {
-                        // See what formats this set is legal in
-                        mtgjson_legalities setLegality = set.checkSetLegality();
-                        for (LegalityData.Format fmt : legal.mFormats) {
-                            if (("Standard".equals(fmt.mName) && null != setLegality.standard) ||
-                                    ("Pioneer".equals(fmt.mName) && null != setLegality.pioneer) ||
-                                    ("Brawl".equals(fmt.mName) && null != setLegality.brawl) ||
-                                    ("Historic".equals(fmt.mName) && null != setLegality.historic) ||
-                                    ("Modern".equals(fmt.mName) && null != setLegality.modern)
-                                // ("Pauper".equals(fmt.mName) && null != setLegality.pauper) ||
-                                // ("Vintage".equals(fmt.mName) && null != setLegality.vintage) ||
-                                // ("Legacy".equals(fmt.mName) && null != setLegality.legacy) ||
-                                // ("Commander".equals(fmt.mName) && null != setLegality.commander) ||
-                            ) {
-                                fmt.mSets.add(newPatch.mExpansion.mCode_gatherer);
-                            }
-                        }
-
                         // Save this patch
                         allPatches.add(newPatch);
                         System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
                     }
+
+                    // Merge the mtgjson cards too for a legality check later
+                    mtgjson_set mergedSet = mergedSets.get(newPatch.mExpansion.mCode_gatherer);
+                    if (null == mergedSet) {
+                        mergedSets.put(newPatch.mExpansion.mCode_gatherer, set);
+                    } else {
+                        mergedSet.cards.addAll(set.cards);
+                    }
+
                     // Update the rarities
                     newPatch.mExpansion.fetchRaritySymbols(newPatch.mCards);
                 }
@@ -251,6 +246,28 @@ public class PatchBuilder {
                         p.mCards.add(plane);
                         break;
                     }
+                }
+            }
+        }
+
+        // Calculate legalities on merged sets
+        for (String mCode_gatherer : mergedSets.keySet()) {
+            mtgjson_set mergedSet = mergedSets.get(mCode_gatherer);
+
+            // Update the legalities
+            mtgjson_legalities setLegality = mergedSet.checkSetLegality();
+            for (LegalityData.Format fmt : legal.mFormats) {
+                if (("Standard".equals(fmt.mName) && null != setLegality.standard) ||
+                        ("Pioneer".equals(fmt.mName) && null != setLegality.pioneer) ||
+                        ("Brawl".equals(fmt.mName) && null != setLegality.brawl) ||
+                        ("Historic".equals(fmt.mName) && null != setLegality.historic) ||
+                        ("Modern".equals(fmt.mName) && null != setLegality.modern)
+                    // ("Pauper".equals(fmt.mName) && null != setLegality.pauper) ||
+                    // ("Vintage".equals(fmt.mName) && null != setLegality.vintage) ||
+                    // ("Legacy".equals(fmt.mName) && null != setLegality.legacy) ||
+                    // ("Commander".equals(fmt.mName) && null != setLegality.commander) ||
+                ) {
+                    fmt.mSets.add(mCode_gatherer);
                 }
             }
         }
