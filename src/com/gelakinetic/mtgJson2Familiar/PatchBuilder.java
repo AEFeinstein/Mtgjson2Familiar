@@ -209,18 +209,20 @@ public class PatchBuilder {
                     }
 
                     // If any cards are in this set and it isn't saved yet
-                    if (newPatch.mCards.size() > 0 && !allPatches.contains(newPatch)) {
-                        // Save this patch
-                        allPatches.add(newPatch);
-                        System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
-                    }
+                    if (newPatch.mCards.size() > 0) {
+                        if (!allPatches.contains(newPatch)) {
+                            // Save this patch
+                            allPatches.add(newPatch);
+                            System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
+                        }
 
-                    // Merge the mtgjson cards too for a legality check later
-                    mtgjson_set mergedSet = mergedSets.get(newPatch.mExpansion.mCode_gatherer);
-                    if (null == mergedSet) {
-                        mergedSets.put(newPatch.mExpansion.mCode_gatherer, set);
-                    } else {
-                        mergedSet.cards.addAll(set.cards);
+                        // Merge the mtgjson cards too for a legality check later
+                        mtgjson_set mergedSet = mergedSets.get(newPatch.mExpansion.mCode_gatherer);
+                        if (null == mergedSet) {
+                            mergedSets.put(newPatch.mExpansion.mCode_gatherer, set);
+                        } else {
+                            mergedSet.cards.addAll(set.cards);
+                        }
                     }
 
                     // Update the rarities
