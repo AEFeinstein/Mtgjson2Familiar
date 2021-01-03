@@ -4,6 +4,7 @@ import com.gelakinetic.mtgfam.helpers.tcgp.JsonObjects.CategoryGroups;
 import com.gelakinetic.mtgfam.helpers.tcgp.JsonObjects.Group;
 import com.google.gson.Gson;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,12 +15,12 @@ public class TcgpHelper {
     TcgpApi api;
     String tokenStr;
 
-    public TcgpHelper() throws IOException {
+    public TcgpHelper(File keyFile) throws IOException {
         /* Initialize the API */
         api = new TcgpApi();
 
         /* Request a token. This will initialize the TcgpApi object */
-        TcgpKeys keys = new Gson().fromJson(new InputStreamReader(new FileInputStream("tcgp_keys.json")), TcgpKeys.class);
+        TcgpKeys keys = new Gson().fromJson(new InputStreamReader(new FileInputStream(keyFile)), TcgpKeys.class);
         //noinspection ConstantConditions
         api.getAccessToken(keys.PUBLIC_KEY, keys.PRIVATE_KEY, keys.ACCESS_TOKEN);
     }

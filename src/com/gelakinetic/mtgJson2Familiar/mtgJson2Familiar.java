@@ -1,5 +1,7 @@
 package com.gelakinetic.mtgJson2Familiar;
 
+import java.io.File;
+
 public class mtgJson2Familiar {
 
     public static void main(String[] args) {
@@ -9,33 +11,44 @@ public class mtgJson2Familiar {
         boolean scrapeJudgeDocs = false;
         boolean buildPatches = false;
         boolean printUsage = false;
+        boolean keyFileNext = false;
+        File tcgpKeyFile = null;
 
         for (String arg : args) {
-            switch (arg) {
-                case "-p": {
-                    buildPatches = true;
-                    break;
-                }
-                case "-r": {
-                    scrapeRules = true;
-                    break;
-                }
-                case "-j": {
-                    scrapeJudgeDocs = true;
-                    break;
-                }
-                default: {
-                    printUsage = true;
-                    break;
+            if (keyFileNext) {
+                tcgpKeyFile = new File(arg);
+            } else {
+                switch (arg) {
+                    case "-p": {
+                        buildPatches = true;
+                        break;
+                    }
+                    case "-r": {
+                        scrapeRules = true;
+                        break;
+                    }
+                    case "-j": {
+                        scrapeJudgeDocs = true;
+                        break;
+                    }
+                    case "-k": {
+                        keyFileNext = true;
+                        break;
+                    }
+                    default: {
+                        printUsage = true;
+                        break;
+                    }
                 }
             }
         }
 
-        if (printUsage || (!scrapeRules && !scrapeJudgeDocs && !buildPatches)) {
+        if (printUsage || (!scrapeRules && !scrapeJudgeDocs && !(buildPatches && null != tcgpKeyFile))) {
             System.out.print("Usage\n" +
-                    "  -p : build patches\n" +
-                    "  -r : build comprehensive rules\n" +
-                    "  -j : build judge documents\n");
+                    "  -p       : build patches\n" +
+                    "  -k [file]: tcgp key file\n" +
+                    "  -r       : build comprehensive rules\n" +
+                    "  -j       : build judge documents\n");
             return;
         }
 
@@ -53,8 +66,8 @@ public class mtgJson2Familiar {
             }
         }
 
-        if (buildPatches) {
-            if (!new PatchBuilder().buildPatches()) {
+        if (buildPatches && null != tcgpKeyFile) {
+            if (!PatchBuilder.buildPatches(tcgpKeyFile)) {
                 status -= 8;
             }
         }

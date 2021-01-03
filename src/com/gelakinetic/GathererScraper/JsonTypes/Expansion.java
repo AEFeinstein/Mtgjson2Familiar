@@ -1,5 +1,6 @@
 package com.gelakinetic.GathererScraper.JsonTypes;
 
+import com.gelakinetic.mtgJson2Familiar.Filenames;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import org.imgscalr.Scalr;
@@ -164,7 +165,7 @@ public class Expansion {
 
         for (char rarity : rarities) {
             String symName = this.mCode_gatherer + "_" + rarity + ".png";
-            File expansionSymbolFile = new File("symbols", symName);
+            File expansionSymbolFile = new File(Filenames.SYMBOLS_DIR, symName);
             boolean addToList = false;
             if (expansionSymbolFile.exists()) {
                 // Already exists, don't bother getting it again

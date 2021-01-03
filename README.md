@@ -25,5 +25,5 @@ This is an IntelliJ IDEA project, which can also be opened in Android Studio. To
       "PUBLIC_KEY": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
     }
     ```
-1. Use `cron` to run `update_data.sh -p -r` daily, **except Tuesdays** at 2am EST. This checks for new cards and comprehensive rules, which is fast because version can be checked before parsing.
-1. Use `cron` to run `update_data.sh -p -r -j` weekly, on Tuesdays at 2am EST. This also checks for new judge documents, which is slow because the judge documents aren't versioned and must be parsed each time.
+1. Use `cron` to run `update_data.sh -p -r -k tcgp_keys.json` daily, **except Tuesdays** at 2am EST. This checks for new cards and comprehensive rules, which is fast because version can be checked before parsing.
+1. Use `cron` to run `update_data.sh -p -r -k tcgp_keys.json -j` weekly, on Tuesdays at 2am EST. This also checks for new judge documents, which is slow because the judge documents aren't versioned and must be parsed each time.

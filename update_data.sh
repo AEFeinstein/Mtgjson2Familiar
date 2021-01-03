@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# zagaberoo debugging
+set -xeuo pipefail
+
 # Set up some variables
 DATE=$(date +"%Y-%m-%d")
 BRANCH_NAME=AUTO_$DATE

@@ -30,7 +30,7 @@ public class PatchBuilder {
      *
      * @return true if the patches were built, false if there was an error
      */
-    boolean buildPatches() {
+    static boolean buildPatches(File tcgpKeyFile) {
         // Make a gson object
         Gson gsonReader = new Gson();
         Gson gsonWriter = new GsonBuilder()
@@ -54,7 +54,7 @@ public class PatchBuilder {
         // Get TCGPlayer.com group IDs
         HashMap<Long, String> ids;
         try {
-            ids = new TcgpHelper().getGroupIds();
+            ids = new TcgpHelper(tcgpKeyFile).getGroupIds();
         } catch (IOException e) {
             System.err.println("Couldn't initialize TCGP group IDs");
             e.printStackTrace();
