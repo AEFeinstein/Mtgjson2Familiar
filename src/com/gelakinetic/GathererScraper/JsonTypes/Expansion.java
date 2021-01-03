@@ -1,6 +1,7 @@
 package com.gelakinetic.GathererScraper.JsonTypes;
 
 import com.gelakinetic.mtgJson2Familiar.Filenames;
+import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import org.imgscalr.Scalr;
@@ -99,6 +100,24 @@ public class Expansion {
 
         // Names
         this.mName_gatherer = orig.name;
+
+        // Count how many cards have multiverse IDs
+        int numMultiverseIdCards = 0;
+        for (mtgjson_card card : orig.cards) {
+            if (card.identifiers.multiverseId != null) {
+                numMultiverseIdCards++;
+            }
+        }
+
+        // Check if this should be overridden
+        if (orig.name.toLowerCase().contains("promo") &&
+                1 == numMultiverseIdCards) {
+            this.mCode_gatherer = "MBP";
+            this.mCode_mtgi = "MBP";
+            this.mName_gatherer = "Promo set for Gatherer";
+            orig.tcgplayerGroupId = 72;
+        }
+
         // Override the tcgplayerGroupId for a few sets with issues
         String overrideValue = null;
         if (orig.name.contains("Duel Decks Anthology")) {
