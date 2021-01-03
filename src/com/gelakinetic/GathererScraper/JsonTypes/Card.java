@@ -161,7 +161,7 @@ public class Card implements Comparable<Card> {
         public static final String Phyrexian = "phy";
     }
 
-    public Card(mtgjson_card orig, mtgjson_set origSet, setCodeMapper scm) {
+    public Card(mtgjson_card orig, mtgjson_set origSet, Expansion newExpansion, setCodeMapper scm) {
         if (null != orig.faceName) {
             this.mName = orig.faceName;
 
@@ -304,6 +304,11 @@ public class Card implements Comparable<Card> {
 
         this.mScryfallSetCode = origSet.code;
         this.mExpansion = scm.getFamiliarCode(origSet.code);
+
+        // Override the expansion code to merge Media Promos
+        if (newExpansion.mCode_gatherer.equals("MBP")) {
+            this.mExpansion = "MBP";
+        }
 
         orig.legalities.checkStrings();
     }

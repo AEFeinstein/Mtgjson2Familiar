@@ -112,7 +112,7 @@ public class PatchBuilder {
                     // If these are promo planes, save them to be re-added to PCH or PC2 later
                     for (mtgjson_card orig : set.cards) {
                         // Parse it
-                        Card c = new Card(orig, set, scm);
+                        Card c = new Card(orig, set, newExpansion, scm);
                         buildCardLegalities(legal, orig, c);
                         // If it has a multiverse ID, store it for later
                         if (c.mMultiverseId > -1) {
@@ -196,7 +196,7 @@ public class PatchBuilder {
                     // For each card
                     for (mtgjson_card orig : set.cards) {
                         // Parse it
-                        Card c = new Card(orig, set, scm);
+                        Card c = new Card(orig, set, newExpansion, scm);
                         // If it has a multiverse ID, add it
                         if (c.mMultiverseId > -1 || isArenaOnly) {
                             newPatch.mCards.add(c);
@@ -435,7 +435,7 @@ public class PatchBuilder {
         // For each card
         for (mtgjson_card orig : set.cards) {
             // Parse it
-            Card c = new Card(orig, set, scm);
+            Card c = new Card(orig, set, newExpansion, scm);
             // If it has a multiverse ID, add it
             if (c.mMultiverseId > -1) {
                 switch (c.mNumber.toUpperCase().charAt(0)) {
