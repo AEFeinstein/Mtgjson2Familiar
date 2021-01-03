@@ -17,6 +17,7 @@ public class mtgJson2Familiar {
         for (String arg : args) {
             if (keyFileNext) {
                 tcgpKeyFile = new File(arg);
+                keyFileNext = false;
             } else {
                 switch (arg) {
                     case "-p": {
