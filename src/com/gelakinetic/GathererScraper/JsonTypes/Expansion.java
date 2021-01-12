@@ -4,9 +4,9 @@ import com.gelakinetic.mtgJson2Familiar.Filenames;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
+
 import org.imgscalr.Scalr;
 
-import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -22,6 +22,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.TimeZone;
+
+import javax.imageio.ImageIO;
 
 /*
  * This class contains all information about an expansion to be parsed
@@ -87,7 +90,9 @@ public class Expansion {
         this.mCanBeFoil = !(orig.isNonFoilOnly || orig.isFoilOnly);
         this.mIsOnlineOnly = orig.isOnlineOnly;
         try {
-            this.mReleaseTimestamp = new SimpleDateFormat("yyyy-MM-dd").parse(orig.releaseDate).getTime() / 1000;
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            sdf.setTimeZone(TimeZone.getTimeZone("America/New_York"));
+            this.mReleaseTimestamp = sdf.parse(orig.releaseDate).getTime() / 1000;
         } catch (ParseException e) {
             System.err.println("TIMESTAMP NOT PARSED: ~" + orig.releaseDate + "~");
         }
@@ -111,7 +116,7 @@ public class Expansion {
                 }
             }
 
-            if(1 == numMultiverseIdCards) {
+            if (1 == numMultiverseIdCards) {
                 this.mCode_gatherer = "MBP";
                 this.mCode_mtgi = "MBP";
                 this.mName_gatherer = "Promo set for Gatherer";
