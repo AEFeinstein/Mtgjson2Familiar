@@ -26,4 +26,4 @@ git push --set-upstream origin $BRANCH_NAME
 
 # Create the pull request
 gh auth login --with-token < gh-token.txt
-gh pr create --title "Automatic Updates $DATE" --body "See the diff"
+gh pr create --title "Automatic Updates $DATE" --body "See the diff" --repo AEFeinstein/Mtgjson2Familiar --head $BRANCH_NAME
