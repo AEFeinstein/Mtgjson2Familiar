@@ -80,6 +80,10 @@ public class Expansion {
         if ("gold".equals(this.mBorderColor)) {
             this.mBorderColor = "silver";
         }
+        if (orig.type.equals("funny")) {
+            this.mBorderColor = "silver";
+        }
+
         // Error check
         if (!"white".equals(this.mBorderColor) &&
                 !"black".equals(this.mBorderColor) &&
