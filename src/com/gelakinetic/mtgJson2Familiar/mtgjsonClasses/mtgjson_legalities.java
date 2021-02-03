@@ -1,5 +1,7 @@
 package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
+import com.gelakinetic.mtgJson2Familiar.m2fLogger;
+
 public class mtgjson_legalities {
     public String brawl;
     public String commander;
@@ -37,7 +39,7 @@ public class mtgjson_legalities {
                 "Banned".equals(legality) ||
                 "Restricted".equals(legality))
         ) {
-            System.err.println("Unknown legality ~~" + legality + "~~");
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Unknown legality ~~" + legality + "~~");
         }
     }
 }

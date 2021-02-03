@@ -34,7 +34,7 @@ public class NetUtils {
                 try {
                     Thread.sleep(1000 * retries);
                 } catch (InterruptedException e1) {
-                    e1.printStackTrace();
+                    m2fLogger.logStackTrace(e1);
                 }
             }
         }

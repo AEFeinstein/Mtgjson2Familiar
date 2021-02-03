@@ -1,6 +1,7 @@
 package com.gelakinetic.GathererScraper.JsonTypes;
 
 import com.gelakinetic.mtgJson2Familiar.Filenames;
+import com.gelakinetic.mtgJson2Familiar.m2fLogger;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
@@ -88,7 +89,7 @@ public class Expansion {
         if (!"white".equals(this.mBorderColor) &&
                 !"black".equals(this.mBorderColor) &&
                 !"silver".equals(this.mBorderColor)) {
-            System.err.println("Unknown border color ~" + this.mBorderColor + "~");
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Unknown border color ~" + this.mBorderColor + "~");
         }
         this.mBorderColor = this.mBorderColor.substring(0, 1).toUpperCase() + this.mBorderColor.substring(1);
         this.mCanBeFoil = !(orig.isNonFoilOnly || orig.isFoilOnly);
@@ -98,7 +99,7 @@ public class Expansion {
             sdf.setTimeZone(TimeZone.getTimeZone("America/New_York"));
             this.mReleaseTimestamp = sdf.parse(orig.releaseDate).getTime() / 1000;
         } catch (ParseException e) {
-            System.err.println("TIMESTAMP NOT PARSED: ~" + orig.releaseDate + "~");
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "TIMESTAMP NOT PARSED: ~" + orig.releaseDate + "~");
         }
         // Fill this later
         this.mExpansionImageURLs = new ArrayList<>(5);
@@ -258,15 +259,15 @@ public class Expansion {
                                 addToList = true;
                             }
                         } else {
-                            System.err.println("Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
+                            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
                         }
                     } catch (IOException e) {
-                        System.err.println("Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
-                        e.printStackTrace();
+                        m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
+                        m2fLogger.logStackTrace(e);
                     }
                 } catch (MalformedURLException e) {
-                    System.err.println("Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
-                    e.printStackTrace();
+                    m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
+                    m2fLogger.logStackTrace(e);
                 }
             }
 

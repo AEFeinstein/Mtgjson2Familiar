@@ -1,5 +1,6 @@
 package com.gelakinetic.GathererScraper.JsonTypes;
 
+import com.gelakinetic.mtgJson2Familiar.m2fLogger;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_foreignData;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
@@ -177,7 +178,7 @@ public class Card implements Comparable<Card> {
             }
 
             if (!letterAppended) {
-                System.err.println("Couldn't figure a side for ~" + orig.name + "~");
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't figure a side for ~" + orig.name + "~");
                 this.mNumber = orig.number;
             }
 
@@ -185,6 +186,15 @@ public class Card implements Comparable<Card> {
             this.mName = orig.name;
             this.mNumber = orig.number;
         }
+
+        this.mScryfallSetCode = origSet.code;
+        this.mExpansion = scm.getFamiliarCode(origSet.code);
+
+        // Override the expansion code to merge Media Promos
+        if (newExpansion.mCode_gatherer.equals("MBP")) {
+            this.mExpansion = "MBP";
+        }
+
         // TODO Familiar treats half mana CMC incorrectly
         this.mCmc = (int) orig.convertedManaCost;
         this.mManaCost = orig.manaCost;
@@ -207,7 +217,7 @@ public class Card implements Comparable<Card> {
             case 'T':
                 break;
             default:
-                System.err.println("RARITY NOT PARSED: ~" + this.mRarity + "~");
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "RARITY NOT PARSED: ~" + this.mRarity + "~");
                 break;
         }
 
@@ -281,7 +291,7 @@ public class Card implements Comparable<Card> {
                     break;
                 }
                 default: {
-                    System.err.println("LANGUAGE NOT PARSED: ~" + fd.language + "~");
+                    m2fLogger.log(m2fLogger.LogLevel.ERROR, "LANGUAGE NOT PARSED: ~" + fd.language + "~");
                     break;
                 }
             }
@@ -300,14 +310,6 @@ public class Card implements Comparable<Card> {
             this.mMultiverseId = Integer.parseInt(orig.identifiers.multiverseId);
         } catch (NumberFormatException e) {
             this.mMultiverseId = -1;
-        }
-
-        this.mScryfallSetCode = origSet.code;
-        this.mExpansion = scm.getFamiliarCode(origSet.code);
-
-        // Override the expansion code to merge Media Promos
-        if (newExpansion.mCode_gatherer.equals("MBP")) {
-            this.mExpansion = "MBP";
         }
 
         orig.legalities.checkStrings();
@@ -336,7 +338,7 @@ public class Card implements Comparable<Card> {
         List<String> allColorsAL = Arrays.asList(allColors);
         for (String color : colors) {
             if (!allColorsAL.contains(color)) {
-                System.err.println("Invalid color ~" + color + "~");
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Invalid color ~" + color + "~");
             }
         }
 
@@ -361,7 +363,7 @@ public class Card implements Comparable<Card> {
 
             for (char c : text.toCharArray()) {
                 if (Character.isISOControl(c) || '\\' == c) {
-                    System.err.println("Invalid char ~" + (int) c + "~");
+                    m2fLogger.log(m2fLogger.LogLevel.ERROR, "Invalid char ~" + (int) c + "~ in " + this.mName + " [" + this.mExpansion + "]");
                 }
             }
         }
@@ -397,7 +399,7 @@ public class Card implements Comparable<Card> {
                 case "1d4+1":
                     return CardDbAdapter.ONE_D_FOUR_PLUS_ONE;
                 default:
-                    System.err.println("PTL NOT PARSED: ~" + ptl + "~");
+                    m2fLogger.log(m2fLogger.LogLevel.ERROR, "PTL NOT PARSED: ~" + ptl + "~");
                     return 0;
             }
         }

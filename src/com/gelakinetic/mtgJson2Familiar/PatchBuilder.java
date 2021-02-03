@@ -31,6 +31,9 @@ public class PatchBuilder {
      * @return true if the patches were built, false if there was an error
      */
     static boolean buildPatches(File tcgpKeyFile) {
+
+        m2fLogger.log(m2fLogger.LogLevel.INFO, "Building patches");
+
         // Make a gson object
         Gson gsonReader = new Gson();
         Gson gsonWriter = new GsonBuilder()
@@ -42,7 +45,7 @@ public class PatchBuilder {
         // Get the latest data from mtgjson if it's newer than what we last used
         mtgjson_metafile newMeta = downloadLatestAllPrintings(gsonReader);
         if (null == newMeta) {
-            System.err.println("Couldn't read metadata");
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read metadata");
             return false;
         }
 
@@ -56,8 +59,8 @@ public class PatchBuilder {
         try {
             ids = new TcgpHelper(tcgpKeyFile).getGroupIds();
         } catch (IOException e) {
-            System.err.println("Couldn't initialize TCGP group IDs");
-            e.printStackTrace();
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't initialize TCGP group IDs");
+            m2fLogger.logStackTrace(e);
             return false;
         }
 
@@ -66,8 +69,8 @@ public class PatchBuilder {
         try (FileReader fr = new FileReader("AllPrintings.json", StandardCharsets.UTF_8)) {
             printings = gsonReader.fromJson(fr, mtgjson_allPrintings.class);
         } catch (IOException e) {
-            System.err.println("Couldn't read AllPrintings.json");
-            e.printStackTrace();
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read AllPrintings.json");
+            m2fLogger.logStackTrace(e);
             return false;
         }
 
@@ -213,7 +216,7 @@ public class PatchBuilder {
                         if (!allPatches.contains(newPatch)) {
                             // Save this patch
                             allPatches.add(newPatch);
-                            System.out.println("Added " + newPatch.mExpansion.mName_gatherer);
+                            m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Added " + newPatch.mExpansion.mName_gatherer);
                         }
 
                         // Merge the mtgjson cards too for a legality check later
@@ -284,10 +287,12 @@ public class PatchBuilder {
             // Write the patch file
             String patchName = p.mExpansion.mCode_gatherer + ".json.gzip";
             if (!writeFile(p, gsonWriter, new File(Filenames.PATCHES_DIR, patchName), true)) {
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't write " + patchName);
                 return false;
             }
             // Write an uncompressed patch file, for git diffing
             if (!writeFile(p, gsonWriter, new File(Filenames.PATCHES_DIR_UNZIP, p.mExpansion.mCode_gatherer + ".json"), false)) {
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't write " + p.mExpansion.mCode_gatherer + ".json");
                 return false;
             }
 
@@ -302,7 +307,7 @@ public class PatchBuilder {
             }
             manifest.mPatches.add(entry);
 
-            System.out.println("Wrote " + p.mExpansion.mName_gatherer);
+            m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Wrote " + p.mExpansion.mName_gatherer);
         }
 
         // Sort the entries
@@ -311,6 +316,7 @@ public class PatchBuilder {
         manifest.mTimestamp = printings.meta.getTimestamp();
         // And write all the metadata
         if (!writeFile(manifest, gsonWriter, new File(Filenames.PATCHES_DIR, Filenames.PATCHES_FILE), false)) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't write " + Filenames.PATCHES_FILE);
             return false;
         }
 
@@ -324,11 +330,18 @@ public class PatchBuilder {
         legal.mTimestamp = printings.meta.getTimestamp();
         // Write the legal data
         if (!writeFile(legal, gsonWriter, new File(Filenames.PATCHES_DIR, Filenames.LEGALITY_FILE), false)) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't write " + Filenames.LEGALITY_FILE);
             return false;
         }
 
         // Write the metadata so we won't re-download AllPrintings.json
-        return writeFile(newMeta, gsonReader, new File(Filenames.PATCHES_DIR, Filenames.META_FILE), false);
+        if (!writeFile(newMeta, gsonReader, new File(Filenames.PATCHES_DIR, Filenames.META_FILE), false)) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't write " + Filenames.META_FILE);
+            return false;
+        }
+
+        m2fLogger.log(m2fLogger.LogLevel.INFO, "Done building patches");
+        return true;
     }
 
     /**
@@ -349,7 +362,7 @@ public class PatchBuilder {
             try (FileReader fr = new FileReader(new File(Filenames.PATCHES_DIR, Filenames.META_FILE), StandardCharsets.UTF_8)) {
                 oldMeta = gsonReader.fromJson(fr, mtgjson_metafile.class);
             } catch (IOException e) {
-                System.err.println("Couldn't read local metadata");
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read local metadata");
             }
 
             // If there's a mismatch
@@ -367,14 +380,14 @@ public class PatchBuilder {
                             }
                         } else {
                             Files.copy(allPrintings, Paths.get(zipEntry.getName()), StandardCopyOption.REPLACE_EXISTING);
-                            System.out.println("Downloaded new AllPrintings.json " + newMeta.data.version);
+                            m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Downloaded new AllPrintings.json " + newMeta.data.version);
                         }
                         zipEntry = allPrintings.getNextEntry();
                     }
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            m2fLogger.logStackTrace(e);
             newMeta = null;
         }
         return newMeta;
@@ -478,7 +491,7 @@ public class PatchBuilder {
                         break;
                     }
                     default: {
-                        System.err.println("MED card not parsed ~" + c.mName + "~");
+                        m2fLogger.log(m2fLogger.LogLevel.ERROR, "MED card not parsed ~" + c.mName + "~");
                         break;
                     }
                 }
@@ -497,9 +510,9 @@ public class PatchBuilder {
         patches.add(rna);
         patches.add(war);
 
-        System.out.println("Added " + grn.mExpansion.mName_gatherer);
-        System.out.println("Added " + rna.mExpansion.mName_gatherer);
-        System.out.println("Added " + war.mExpansion.mName_gatherer);
+        m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Added " + grn.mExpansion.mName_gatherer);
+        m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Added " + rna.mExpansion.mName_gatherer);
+        m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Added " + war.mExpansion.mName_gatherer);
 
         return patches;
     }
@@ -518,16 +531,16 @@ public class PatchBuilder {
             try (OutputStreamWriter osw = new OutputStreamWriter(new GZIPOutputStream(new FileOutputStream(outFile)), StandardCharsets.UTF_8)) {
                 osw.write(serializer.toJson(object));
             } catch (IOException e) {
-                System.err.println("Failed to write " + object.toString() + " to " + outFile);
-                e.printStackTrace();
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to write " + object.toString() + " to " + outFile);
+                m2fLogger.logStackTrace(e);
                 return false;
             }
         } else {
             try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(outFile), StandardCharsets.UTF_8)) {
                 osw.write(serializer.toJson(object));
             } catch (IOException e) {
-                System.err.println("Failed to write " + object.toString() + " to " + outFile);
-                e.printStackTrace();
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to write " + object.toString() + " to " + outFile);
+                m2fLogger.logStackTrace(e);
                 return false;
             }
         }

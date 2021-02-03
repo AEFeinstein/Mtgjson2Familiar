@@ -80,14 +80,14 @@ public class setCodeMapper {
                 }
                 for (code mjc : mjCodes.codes) {
                     if (mjc.code.equals(fc.code)) {
-                        System.out.println("Code match, " + mjc.name + " & " + fc.name);
+                        m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Code match, " + mjc.name + " & " + fc.name);
                         map.mCodes.add(new codeMapEntry(mjc, fc));
                         break;
                     }
                 }
             }
 
-            System.out.println("\nNo Matches\n----------");
+            m2fLogger.log(m2fLogger.LogLevel.DEBUG, "\nNo Matches\n----------");
             for (code fc : famCodes.codes) {
                 boolean found = false;
                 for (code mjc : mjCodes.codes) {
@@ -97,7 +97,7 @@ public class setCodeMapper {
                     }
                 }
                 if (!found) {
-                    System.out.println(fc.name + "\t" + fc.code);
+                    m2fLogger.log(m2fLogger.LogLevel.DEBUG, fc.name + "\t" + fc.code);
                 }
             }
 
@@ -105,7 +105,7 @@ public class setCodeMapper {
                 gsonWriter.toJson(map, fw);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            m2fLogger.logStackTrace(e);
         }
     }
 
@@ -115,8 +115,8 @@ public class setCodeMapper {
             cm1 = gsonWriter.fromJson(fr, setCodeMapper.codeMap.class);
         } catch (IOException e) {
             cm1 = null;
-            System.err.println("Couldn't read code map");
-            e.printStackTrace();
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read code map");
+            m2fLogger.logStackTrace(e);
         }
         cm = cm1;
     }

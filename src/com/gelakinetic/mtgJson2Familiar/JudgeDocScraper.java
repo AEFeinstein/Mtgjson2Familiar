@@ -28,7 +28,7 @@ public class JudgeDocScraper {
      */
     public boolean ScrapeAll() {
 
-        System.out.println("Processing documents");
+        m2fLogger.log(m2fLogger.LogLevel.INFO, "Processing judge documents");
 
         boolean status = true;
         if (!ScrapeDocument("mtr", Filenames.MTR_FILE, true)) {
@@ -47,7 +47,7 @@ public class JudgeDocScraper {
             status = false;
         }
 
-        System.out.println("All done");
+        m2fLogger.log(m2fLogger.LogLevel.INFO, "Done processing judge docs");
         return status;
     }
 
@@ -62,13 +62,13 @@ public class JudgeDocScraper {
     @SuppressWarnings("BooleanMethodIsAlwaysInverted")
     private boolean ScrapeDocument(String docType, String outputName, boolean removeLinks) {
 
-        System.out.println("Processing " + docType);
+        m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Processing " + docType);
 
         HashSet<String> pagesToScrape = new HashSet<>();
         Document mainPage = NetUtils.ConnectWithRetries("https://blogs.magicjudges.org/rules/" + docType + "/");
 
         if (null == mainPage) {
-            System.err.println("Couldn't connect to https://blogs.magicjudges.org/rules/" + docType + "/");
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't connect to https://blogs.magicjudges.org/rules/" + docType + "/");
             return false;
         }
         for (Element link : mainPage.getElementsByAttributeValue("class", "entry-content").first().getElementsByTag("a")) {
@@ -158,12 +158,12 @@ public class JudgeDocScraper {
                         }
                     }
                 } else if (removeLinks && linkDestination.contains("magicjudges")) {
-                    System.out.println("Link removed: " + linkDestination);
+                    m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Link removed: " + linkDestination);
                     link.unwrap();
                 }
             } catch (URISyntaxException e) {
-                System.err.println("Failure when writing internal links");
-                e.printStackTrace();
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failure when writing internal links");
+                m2fLogger.logStackTrace(e);
                 return false;
             }
         }
@@ -185,12 +185,12 @@ public class JudgeDocScraper {
             priorDoc = new StringBuilder(priorDoc.toString().trim());
             // If the prior document and the parsed document are the same
             if (priorDoc.toString().equals(parsedDoc)) {
-                System.out.println("No change in " + outputName);
+                m2fLogger.log(m2fLogger.LogLevel.DEBUG, "No change in " + outputName);
                 return true;
             }
         } catch (IOException e) {
-            System.err.println("Error reading prior document, continuing to write document");
-            e.printStackTrace();
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error reading prior document, continuing to write document");
+            m2fLogger.logStackTrace(e);
         }
 
         // Write the HTML file
@@ -202,8 +202,8 @@ public class JudgeDocScraper {
             // Write the HTML
             bw.write(parsedDoc);
         } catch (IOException e) {
-            System.out.println("EXCEPTION!!! " + e.getMessage());
-            e.printStackTrace();
+            m2fLogger.log(m2fLogger.LogLevel.DEBUG, "EXCEPTION!!! " + e.getMessage());
+            m2fLogger.logStackTrace(e);
             return false;
         }
         return true;
@@ -223,7 +223,7 @@ public class JudgeDocScraper {
             return;
         }
 
-        System.out.println("Processing " + page);
+        m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Processing " + page);
 
         // Download the page
         Document mainPage = NetUtils.ConnectWithRetries(page);
@@ -262,19 +262,19 @@ public class JudgeDocScraper {
         // Remove all mentions of "Annotated" and credits for the annotated documents
         for (Element header : entry_content.getElementsByTag("h2")) {
             if (header.text().toLowerCase().contains("annotated")) {
-                System.out.println("Removed:\n" + header.text() + '\n');
+                m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Removed:\n" + header.text() + '\n');
                 header.remove();
             } else if (header.text().toLowerCase().equals("credit")) {
-                System.out.println("Removed:\n" + header.text() + '\n');
+                m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Removed:\n" + header.text() + '\n');
                 header.remove();
             }
         }
         for (Element paragraph : entry_content.getElementsByTag("p")) {
             if (paragraph.text().toLowerCase().contains("annotated")) {
-                System.out.println("Removed:\n" + paragraph.text() + '\n');
+                m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Removed:\n" + paragraph.text() + '\n');
                 paragraph.remove();
             } else if (paragraph.text().toLowerCase().contains("aipg")) {
-                System.out.println("Removed:\n" + paragraph.text() + '\n');
+                m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Removed:\n" + paragraph.text() + '\n');
                 paragraph.remove();
             }
         }
@@ -291,9 +291,9 @@ public class JudgeDocScraper {
                 // Write the base64 image into the html
                 image.attr("src", "data:image/" + getFileExtension(imgSrc) + "; base64, " + base64);
 
-                System.out.println("Embedded image: " + imgSrc);
+                m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Embedded image: " + imgSrc);
             } catch (IOException e) {
-                e.printStackTrace();
+                m2fLogger.logStackTrace(e);
             }
         }
 

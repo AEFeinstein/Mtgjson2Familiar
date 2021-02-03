@@ -16,11 +16,12 @@ public class CompRulesScraper {
      * @return true if the rules were updated, or didn't need updating, false if there was an error
      */
     boolean GetLatestRules() {
+        m2fLogger.log(m2fLogger.LogLevel.INFO, "Processing comprehensive rules");
         try {
             //  One big line to get the webpage, then the element, then the attribute for the comprehensive rules url
             Document rulePage = NetUtils.ConnectWithRetries("https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/rules");
             if (null == rulePage) {
-                System.err.println("Couldn't connect to rule page");
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't connect to rule page");
                 return false;
             }
             String url = rulePage.getElementsByAttributeValueContaining("href", "txt").get(0).attr("href");
@@ -40,20 +41,22 @@ public class CompRulesScraper {
                 String lastKnownDate = br.readLine();
                 if (lastKnownDate.equals(date)) {
                     // Dates match, so don't update anything
-                    System.out.println("No new comprehensive rules");
+                    m2fLogger.log(m2fLogger.LogLevel.INFO, "No new comprehensive rules");
                     return true;
                 }
             } catch (IOException e) {
-                System.err.println("Couldn't read date from older rules. Downloading new rules.");
-                e.printStackTrace();
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read date from older rules. Downloading new rules.");
+                m2fLogger.logStackTrace(e);
             }
 
             // Download the rules
-            return downloadRules(url, cal);
+            boolean ruleStatus = downloadRules(url, cal);
+            m2fLogger.log(m2fLogger.LogLevel.INFO, "Done processing comprehensive rules (" + ruleStatus + ")");
+            return ruleStatus;
 
         } catch (Exception e) {
-            System.err.println("Error scraping rules");
-            e.printStackTrace();
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error scraping rules");
+            m2fLogger.logStackTrace(e);
             return false;
         }
     }
@@ -106,14 +109,14 @@ public class CompRulesScraper {
                 }
             }
         } catch (IOException e) {
-            System.err.println("Error parsing rules");
-            e.printStackTrace();
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error parsing rules");
+            m2fLogger.logStackTrace(e);
             return false;
         }
 
         // If there are any problematic lines, print them and return
         if (!problematicLines.toString().isEmpty()) {
-            System.err.println("Problematic lines in comp rules:\n" + problematicLines.toString());
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Problematic lines in comp rules:\n" + problematicLines.toString());
             return false;
         }
 
@@ -124,8 +127,8 @@ public class CompRulesScraper {
             bw.write("\n\n");
             bw.write(compRules.toString());
         } catch (IOException e) {
-            System.err.println("Error writing rules");
-            e.printStackTrace();
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error writing rules");
+            m2fLogger.logStackTrace(e);
             return false;
         }
         return true;

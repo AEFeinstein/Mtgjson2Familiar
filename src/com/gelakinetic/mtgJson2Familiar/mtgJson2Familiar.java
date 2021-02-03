@@ -36,6 +36,10 @@ public class mtgJson2Familiar {
                         keyFileNext = true;
                         break;
                     }
+                    case "-v": {
+                        m2fLogger.setLogLevel(m2fLogger.LogLevel.DEBUG);
+                        break;
+                    }
                     default: {
                         printUsage = true;
                         break;
@@ -49,7 +53,8 @@ public class mtgJson2Familiar {
                     "  -p       : build patches\n" +
                     "  -k [file]: tcgp key file\n" +
                     "  -r       : build comprehensive rules\n" +
-                    "  -j       : build judge documents\n");
+                    "  -j       : build judge documents\n" +
+                    "  -v       : enable verbose debug\n");
             return;
         }
 
