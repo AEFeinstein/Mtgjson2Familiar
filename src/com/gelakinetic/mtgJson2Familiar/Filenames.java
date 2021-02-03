@@ -2,6 +2,7 @@ package com.gelakinetic.mtgJson2Familiar;
 
 public class Filenames {
     public static final String PATCHES_DIR = "patches-v2";
+    public static final String PATCHES_DIR_UNZIP = "patches-v2-unzip";
     public static final String RULES_DIR = "rules";
     public static final String SYMBOLS_DIR = "symbols";
 

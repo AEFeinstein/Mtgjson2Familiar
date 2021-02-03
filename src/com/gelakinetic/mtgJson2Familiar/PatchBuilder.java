@@ -101,8 +101,8 @@ public class PatchBuilder {
 
             boolean isArenaOnly = (null != set.checkSetLegality().historic) && set.isOnlineOnly;
 
-            // If the set has cards and is not a preview
-            if (!set.cards.isEmpty() && !set.isPartialPreview) {
+            // If the set has cards
+            if (!set.cards.isEmpty()) {
 
                 // Create the expansion object
                 Expansion newExpansion = new Expansion(set, ids, scm);
@@ -284,6 +284,10 @@ public class PatchBuilder {
             // Write the patch file
             String patchName = p.mExpansion.mCode_gatherer + ".json.gzip";
             if (!writeFile(p, gsonWriter, new File(Filenames.PATCHES_DIR, patchName), true)) {
+                return false;
+            }
+            // Write an uncompressed patch file, for git diffing
+            if (!writeFile(p, gsonWriter, new File(Filenames.PATCHES_DIR_UNZIP, p.mExpansion.mCode_gatherer + ".json"), false)) {
                 return false;
             }
 
