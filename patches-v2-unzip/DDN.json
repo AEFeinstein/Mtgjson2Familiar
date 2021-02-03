@@ -1,0 +1,1926 @@
+{
+  "expansion": {
+    "name_gatherer": "Duel Decks: Speed vs. Cunning",
+    "code_gatherer": "DDN",
+    "code_mtgi": "DDN",
+    "name_tcgp": "Duel Decks: Speed vs. Cunning",
+    "name_mkm": "Duel Decks: Speed vs. Cunning",
+    "releaseTimestamp": 1409889600,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "type": "duel_deck",
+    "digest": "c00f7b7c5af3cd635625ed9619a05e67",
+    "expansionImageURLs": [
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDN_C.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDN_M.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDN_R.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDN_U.png"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Zurgo Helmsmasher",
+      "manaCost": "{2}{R}{W}{B}",
+      "cmc": 5,
+      "type": "Legendary Creature - Orc Warrior",
+      "text": "Haste<br>Zurgo Helmsmasher attacks each combat if able.<br>Zurgo Helmsmasher has indestructible as long as it's your turn.<br>Whenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+1 counter on Zurgo Helmsmasher.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "M",
+      "number": "1",
+      "artist": "Ryan Alexander Lee",
+      "color": "WBR",
+      "colorIdentity": "WBR",
+      "multiverseId": 386380,
+      "power": 7.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "兜砕きのズルゴ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Frenzied Goblin",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Creature - Goblin Berserker",
+      "text": "Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn.",
+      "flavor": "The upside to not thinking about the consequences is that you'll always surprise those who do.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "2",
+      "artist": "Carl Critchlow",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386319,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "激情のゴブリン",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Infantry Veteran",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Creature - Human Soldier",
+      "text": "{T}: Target attacking creature gets +1/+1 until end of turn.",
+      "flavor": "\"Swords, to me! We must engage their line to protect our archers and mages. Let no one fail this task!\"",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "3",
+      "artist": "Zoltan Boros",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386331,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "歴戦の歩兵",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Leonin Snarecaster",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Creature - Cat Soldier",
+      "text": "When Leonin Snarecaster enters the battlefield, you may tap target creature.",
+      "flavor": "Formerly oppressed by the polis of Meletis, leonin occasionally \"mistake\" their old enemies for game.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "4",
+      "artist": "Kev Walker",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386341,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "レオニンの投網使い",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Dregscape Zombie",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Creature - Zombie",
+      "text": "Unearth {B} ({B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+      "flavor": "The undead of Grixis are fueled by their hatred of the living.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "5",
+      "artist": "Lars Grant-West",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 386309,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "屑肉の地のゾンビ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Deathraiders",
+      "manaCost": "{B}{R}",
+      "cmc": 2,
+      "type": "Creature - Goblin Warrior",
+      "text": "Trample",
+      "flavor": "Every once in a while, when they aren't getting incinerated in lava, crushed under rock slides, or devoured by dragons, goblins experience moments of unmitigated glory in battle.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "6",
+      "artist": "Raymond Swanland",
+      "color": "BR",
+      "colorIdentity": "BR",
+      "multiverseId": 386324,
+      "power": 3.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴブリンの死の略奪者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Hellraiser Goblin",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "type": "Creature - Goblin Berserker",
+      "text": "Creatures you control have haste and attack each combat if able.",
+      "flavor": "Don't let him lead the soldiers, but by all means let him lead the way.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "7",
+      "artist": "Karl Kopinski",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386327,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "はた迷惑なゴブリン",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fleshbag Marauder",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "type": "Creature - Zombie Warrior",
+      "text": "When Fleshbag Marauder enters the battlefield, each player sacrifices a creature.",
+      "flavor": "Grixis is a world where the only things found in abundance are death and decay. Corpses, whole or in part, are the standard currency among necromancers and demons.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "8",
+      "artist": "Mark Zug",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 386318,
+      "power": 3.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "肉袋の匪賊",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Warchief",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3,
+      "type": "Creature - Goblin Warrior",
+      "text": "Goblin spells you cast cost {1} less to cast.<br>Goblins you control have haste.",
+      "flavor": "They poured from the Skirk Ridge like lava, burning and devouring everything in their path.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "9",
+      "artist": "Greg Hildebrandt & Tim Hildebrandt",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386325,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴブリンの戦長",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Hell's Thunder",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3,
+      "type": "Creature - Elemental",
+      "text": "Flying, haste<br>At the beginning of the end step, sacrifice Hell's Thunder.<br>Unearth {4}{R} ({4}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "R",
+      "number": "10",
+      "artist": "Karl Kopinski",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386326,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "地獄の雷",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Kathari Bomber",
+      "manaCost": "{1}{B}{R}",
+      "cmc": 3,
+      "type": "Creature - Bird Shaman",
+      "text": "Flying<br>When Kathari Bomber deals combat damage to a player, create two 1/1 red Goblin creature tokens and sacrifice Kathari Bomber.<br>Unearth {3}{B}{R} ({3}{B}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "11",
+      "artist": "Carl Critchlow",
+      "color": "BR",
+      "colorIdentity": "BR",
+      "multiverseId": 386337,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "カターリの爆撃兵",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Shambling Remains",
+      "manaCost": "{1}{B}{R}",
+      "cmc": 3,
+      "type": "Creature - Zombie Horror",
+      "text": "Shambling Remains can't block.<br>Unearth {B}{R} ({B}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "12",
+      "artist": "Nils Hamm",
+      "color": "BR",
+      "colorIdentity": "BR",
+      "multiverseId": 386364,
+      "power": 4.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "よろめく死体",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mardu Heart-Piercer",
+      "manaCost": "{3}{R}",
+      "cmc": 4,
+      "type": "Creature - Human Archer",
+      "text": "Raid - When Mardu Heart-Piercer enters the battlefield, if you attacked this turn, Mardu Heart-Piercer deals 2 damage to any target.",
+      "flavor": "\"Those who have never ridden before the wind do not know the true joy of war.\"",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "13",
+      "artist": "Karl Kopinski",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386346,
+      "power": 2.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "マルドゥの心臓貫き",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Beetleback Chief",
+      "manaCost": "{2}{R}{R}",
+      "cmc": 4,
+      "type": "Creature - Goblin Warrior",
+      "text": "When Beetleback Chief enters the battlefield, create two 1/1 red Goblin creature tokens.",
+      "flavor": "Whether trained, ridden, or eaten, few goblin military innovations have rivaled the bug.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "14",
+      "artist": "Wayne England",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386305,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "甲虫背の酋長",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Krenko, Mob Boss",
+      "manaCost": "{2}{R}{R}",
+      "cmc": 4,
+      "type": "Legendary Creature - Goblin Warrior",
+      "text": "{T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control.",
+      "flavor": "\"He displays a perverse charisma fueled by avarice. Highly dangerous. Recommend civil sanctions.\"<br>-Agmand Sarv, Azorius hussar",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "R",
+      "number": "15",
+      "artist": "Karl Kopinski",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386339,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "群衆の親分、クレンコ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ogre Battledriver",
+      "manaCost": "{2}{R}{R}",
+      "cmc": 4,
+      "type": "Creature - Ogre Warrior",
+      "text": "Whenever another creature enters the battlefield under your control, that creature gets +2/+0 and gains haste until end of turn. (It can attack and {T} this turn.)",
+      "flavor": "Ogres are driven by passion, rage, and another ogre standing behind them with a whip.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "R",
+      "number": "16",
+      "artist": "Greg Staples",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386354,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "オーガの戦駆り",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Flame-Kin Zealot",
+      "manaCost": "{1}{R}{R}{W}",
+      "cmc": 4,
+      "type": "Creature - Elemental Berserker",
+      "text": "When Flame-Kin Zealot enters the battlefield, creatures you control get +1/+1 and gain haste until end of turn.",
+      "flavor": "Boros soldiers are like a cache of bombs ready to explode, and the flame-kin light their fuses.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "17",
+      "artist": "Arnie Swekel",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 386316,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "炎の血族の盲信者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Scourge Devil",
+      "manaCost": "{4}{R}",
+      "cmc": 5,
+      "type": "Creature - Devil",
+      "text": "When Scourge Devil enters the battlefield, creatures you control get +1/+0 until end of turn.<br>Unearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "18",
+      "artist": "Dave Kendall",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386363,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "災いの悪魔",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Oni of Wild Places",
+      "manaCost": "{5}{R}",
+      "cmc": 6,
+      "type": "Creature - Demon Spirit",
+      "text": "Haste<br>At the beginning of your upkeep, return a red creature you control to its owner's hand.",
+      "flavor": "The oni leapt easily from peak to peak, toying with its victims, its voice a purr from the rumbling depths of nightmare.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "19",
+      "artist": "Mark Tedin",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386355,
+      "power": 6.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "野蛮な地の鬼",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Reckless Abandon",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Sorcery",
+      "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Reckless Abandon deals 4 damage to any target.",
+      "flavor": "The climax of a warlord's career is always death.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "20",
+      "artist": "Ron Spears",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386361,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "命知らず",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Shock",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Shock deals 2 damage to any target.",
+      "flavor": "\"The beauty of it is they never see it coming. Ever.\"<br>-Razzix, sparkmage",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "21",
+      "artist": "Jon Foster",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386365,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ショック",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Bone Splinters",
+      "manaCost": "{B}",
+      "cmc": 1,
+      "type": "Sorcery",
+      "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Destroy target creature.",
+      "flavor": "Witches of the Split-Eye Coven speak of a future when Grixis will overflow with life energy. For now, they must harvest vis from the living to fuel their dark magics.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "22",
+      "artist": "Cole Eastburn",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 386306,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "骨の粉砕",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Arc Trail",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Arc Trail deals 2 damage to any target and 1 damage to another target.",
+      "flavor": "\"Don't try to hit your enemies. Concentrate on the space between them, and fill the air with doom.\"<br>-Spear-Tribe teaching",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "23",
+      "artist": "Marc Simonetti",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386301,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "電弧の痕跡",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Bombardment",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Enchantment",
+      "text": "Sacrifice a creature: Goblin Bombardment deals 1 damage to any target.",
+      "flavor": "With one motion, a pest is removed and a scourge inflicted.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "24",
+      "artist": "Dave Kendall",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386323,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴブリンの砲撃",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Krenko's Command",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Create two 1/1 red Goblin creature tokens.",
+      "flavor": "Goblins are eager to follow orders, especially when those orders involve stealing, hurting, annoying, eating, destroying, or swearing.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "25",
+      "artist": "Karl Kopinski",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386340,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "クレンコの命令",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Act of Treason",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)",
+      "flavor": "\"Rage courses in every heart, yearning to betray its rational prison.\"<br>-Sarkhan Vol",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "26",
+      "artist": "Eric Deschamps",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386299,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "反逆の行動",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Dauntless Onslaught",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Up to two target creatures each get +2/+2 until end of turn.",
+      "flavor": "\"The people of Akros must learn from our leonin adversaries. If we match their staunch ferocity with our superior faith, we cannot fail.\"<br>-Cymede, queen of Akros",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "27",
+      "artist": "Peter Mohrbacher",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386308,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "不屈の猛攻",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Orcish Cannonade",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Orcish Cannonade deals 2 damage to any target and 3 damage to you.<br>Draw a card.",
+      "flavor": "\"Crispy! Scarback! Load another volcano-ball.\"<br>-Stumphobbler Thuj, orcish captain",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "28",
+      "artist": "Pete Venters",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386356,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "オークの連続砲撃",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fiery Fall",
+      "manaCost": "{5}{R}",
+      "cmc": 6,
+      "type": "Instant",
+      "text": "Fiery Fall deals 5 damage to target creature.<br>Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)",
+      "flavor": "Jund feasts on the unprepared.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "29",
+      "artist": "Daarken",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386315,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "焦熱の落下",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fury of the Horde",
+      "manaCost": "{5}{R}{R}",
+      "cmc": 7,
+      "type": "Sorcery",
+      "text": "You may exile two red cards from your hand rather than pay this spell's mana cost.<br>Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "R",
+      "number": "30",
+      "artist": "Stephen Tappin",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386320,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "大群の怒り",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Banefire",
+      "manaCost": "{X}{R}",
+      "cmc": 1,
+      "type": "Sorcery",
+      "text": "Banefire deals X damage to any target.<br>If X is 5 or more, this spell can't be countered and the damage can't be prevented.",
+      "flavor": "For Sarkhan Vol, the dragon is the purest expression of life's savage splendor.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "R",
+      "number": "31",
+      "artist": "Raymond Swanland",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386304,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "苦悩火",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Evolving Wilds",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "flavor": "Without the interfering hands of civilization, nature will always shape itself to its own needs.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "32",
+      "artist": "Steven Belledin",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 386311,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "進化する未開地",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ghitu Encampment",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Ghitu Encampment enters the battlefield tapped.<br>{T}: Add {R}.<br>{1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "33",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 386321,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ギトゥの宿営地",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Nomad Outpost",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Nomad Outpost enters the battlefield tapped.<br>{T}: Add {R}, {W}, or {B}.",
+      "flavor": "\"Only the weak imprison themselves behind walls. We live free under the wind, and our freedom makes us strong.\"<br>-Zurgo, khan of the Mardu",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "34",
+      "artist": "Noah Bradley",
+      "color": "",
+      "colorIdentity": "WBR",
+      "multiverseId": 386353,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "遊牧民の前哨地",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "35",
+      "artist": "Jonas De Ro",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 386348,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "36",
+      "artist": "Karl Kopinski",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 386351,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "37",
+      "artist": "Andreas Rocha",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 386349,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "38",
+      "artist": "Jonas De Ro",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 386360,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "39",
+      "artist": "Adam Paquette",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 386372,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "40",
+      "artist": "Jung Park",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 386373,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "41",
+      "artist": "Andreas Rocha",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 386371,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Arcanis the Omnipotent",
+      "manaCost": "{3}{U}{U}{U}",
+      "cmc": 6,
+      "type": "Legendary Creature - Wizard",
+      "text": "{T}: Draw three cards.<br>{2}{U}{U}: Return Arcanis the Omnipotent to its owner's hand.",
+      "flavor": "\"Do not concern yourself with my origin, my race, or my ancestry. Seek my record in the pits, and then make your wager.\"",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "M",
+      "number": "42",
+      "artist": "Ryan Alexander Lee",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386302,
+      "power": 3.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "全能なる者アルカニス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Faerie Impostor",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "type": "Creature - Faerie Rogue",
+      "text": "Flying<br>When Faerie Impostor enters the battlefield, sacrifice it unless you return another creature you control to its owner's hand.",
+      "flavor": "Many Tin Street shops display a sign on the door: \"No cloaks allowed.\"",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "43",
+      "artist": "Johann Bodin",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386312,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "フェアリーの騙し屋",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Coral Trickster",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Creature - Merfolk Rogue",
+      "text": "Morph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Coral Trickster is turned face up, you may tap or untap target permanent.",
+      "flavor": "They wait in darkened depths, laughing eagerly.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "44",
+      "artist": "D. Alexander Gregory",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386307,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "珊瑚のペテン師",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fathom Seer",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Creature - Illusion",
+      "text": "Morph-Return two Islands you control to their owner's hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Fathom Seer is turned face up, draw two cards.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "45",
+      "artist": "Ralph Horsley",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386314,
+      "power": 1.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "水深の予見者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Jeskai Elder",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Creature - Human Monk",
+      "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)<br>Whenever Jeskai Elder deals combat damage to a player, you may draw a card. If you do, discard a card.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "46",
+      "artist": "Craig J Spearing",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386336,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ジェスカイの長老",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Willbender",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Creature - Human Wizard",
+      "text": "Morph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Willbender is turned face up, change the target of target spell or ability with a single target.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "47",
+      "artist": "Eric Peterson",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386379,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "意志を曲げる者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Sparkmage Apprentice",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Creature - Human Wizard",
+      "text": "When Sparkmage Apprentice enters the battlefield, it deals 1 damage to any target.",
+      "flavor": "Sparkmages are performance artists of sorts, but pain is the price of admission.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "48",
+      "artist": "Jaime Jones",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386366,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "火花魔道士の弟子",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Lone Missionary",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Creature - Kor Monk",
+      "text": "When Lone Missionary enters the battlefield, you gain 4 life.",
+      "flavor": "His mission has become a grim pilgrimage, a tour of the Eldrazi-stricken outposts across Zendikar. But he marches on alone, stubborn as the daily dawn.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "49",
+      "artist": "Svetlin Velinov",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386344,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "孤独な宣教師",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Master Decoy",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Creature - Human Soldier",
+      "text": "{W}, {T}: Tap target creature.",
+      "flavor": "A skilled decoy can throw your enemies off your trail. A master decoy can survive to do it again.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "50",
+      "artist": "Ben Thompson",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386347,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "おとりの達人",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Echo Tracer",
+      "manaCost": "{2}{U}",
+      "cmc": 3,
+      "type": "Creature - Human Wizard",
+      "text": "Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Echo Tracer is turned face up, return target creature to its owner's hand.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "51",
+      "artist": "Scott M. Fischer",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386310,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "残響の追跡者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Kor Hookmaster",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Creature - Kor Soldier",
+      "text": "When Kor Hookmaster enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
+      "flavor": "\"For us, a rope represents the ties that bind the kor. For you, it's more literal.\"",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "52",
+      "artist": "Wayne Reynolds",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386338,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "コーの鉤の達人",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Stonecloaker",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Creature - Gargoyle",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying<br>When Stonecloaker enters the battlefield, return a creature you control to its owner's hand.<br>When Stonecloaker enters the battlefield, exile target card from a graveyard.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "53",
+      "artist": "Tomas Giorello",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386370,
+      "power": 3.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "石覆い",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Aquamorph Entity",
+      "manaCost": "{2}{U}{U}",
+      "cmc": 4,
+      "type": "Creature - Shapeshifter",
+      "text": "As Aquamorph Entity enters the battlefield or is turned face up, it becomes your choice of 5/1 or 1/5.<br>Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "54",
+      "artist": "Brian Despain",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386300,
+      "power": -1000.0,
+      "toughness": -1000.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "水変化の精体",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Hussar Patrol",
+      "manaCost": "{2}{W}{U}",
+      "cmc": 4,
+      "type": "Creature - Human Knight",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Vigilance",
+      "flavor": "\"You think no one is watching, you think you're smart enough to escape, and most foolish of all, you think no one cares.\"<br>-Arrester Lavinia, Tenth Precinct",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "55",
+      "artist": "Seb McKinnon",
+      "color": "WU",
+      "colorIdentity": "WU",
+      "multiverseId": 386329,
+      "power": 2.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "軽騎兵の巡視部隊",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Lightning Angel",
+      "manaCost": "{1}{U}{R}{W}",
+      "cmc": 4,
+      "type": "Creature - Angel",
+      "text": "Flying, vigilance, haste",
+      "flavor": "Sudden vengeance, echoing fury.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "R",
+      "number": "56",
+      "artist": "rk post",
+      "color": "WUR",
+      "colorIdentity": "WUR",
+      "multiverseId": 386342,
+      "power": 3.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "稲妻の天使",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Faerie Invaders",
+      "manaCost": "{4}{U}",
+      "cmc": 5,
+      "type": "Creature - Faerie Rogue",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying",
+      "flavor": "Small enough to penetrate the narrowest crack in a castle wall and numerous enough to hack apart a griffin.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "57",
+      "artist": "Ryan Pancoast",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386313,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "フェアリーの侵略者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Thousand Winds",
+      "manaCost": "{4}{U}{U}",
+      "cmc": 6,
+      "type": "Creature - Elemental",
+      "text": "Flying<br>Morph {5}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Thousand Winds is turned face up, return all other tapped creatures to their owners' hands.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "R",
+      "number": "58",
+      "artist": "Raymond Swanland",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386376,
+      "power": 5.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "千の風",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Sphinx of Uthuun",
+      "manaCost": "{5}{U}{U}",
+      "cmc": 7,
+      "type": "Creature - Sphinx",
+      "text": "Flying<br>When Sphinx of Uthuun enters the battlefield, reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "R",
+      "number": "59",
+      "artist": "Kekai Kotaki",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386367,
+      "power": 5.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ウスーンのスフィンクス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fleeting Distraction",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Target creature gets -1/-0 until end of turn.<br>Draw a card.",
+      "flavor": "The first spell taught to young mages, it has spared the lives of many whose hands are too small to hold a sword.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "60",
+      "artist": "Ryan Yee",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386317,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "一瞬の散漫",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Stave Off",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Target creature gains protection from the color of your choice until end of turn.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "61",
+      "artist": "Mark Zug",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386368,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "歯止め",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Swift Justice",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Until end of turn, target creature gets +1/+0 and gains first strike and lifelink.",
+      "flavor": "\"Having conviction is more important than being righteous.\"<br>-Aurelia",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "62",
+      "artist": "Karl Kopinski",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386374,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "素早い正義",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Impulse",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+      "flavor": "\"You call it luck. I call it preparation.\"",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "63",
+      "artist": "Izzy",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386330,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "衝動",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mana Leak",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Counter target spell unless its controller pays {3}.",
+      "flavor": "The fatal flaw in every plan is the assumption that you know more than your enemy.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "64",
+      "artist": "Howard Lyon",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386345,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "マナ漏出",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Lightning Helix",
+      "manaCost": "{R}{W}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Lightning Helix deals 3 damage to any target and you gain 3 life.",
+      "flavor": "Though less well-known than its army of soldiers, the Boros Legion's mage-priests are as respected by the innocent as they are hated by the ghosts of the guilty.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "65",
+      "artist": "Kev Walker",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 386343,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "稲妻のらせん",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Hold the Line",
+      "manaCost": "{1}{W}{W}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Blocking creatures get +7/+7 until end of turn.",
+      "flavor": "\"Forgive me, Master Kami, but in the interest of my people I must halt your advance.\"",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "R",
+      "number": "66",
+      "artist": "Ron Spears",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386328,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "戦線維持",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Inferno Trap",
+      "manaCost": "{3}{R}",
+      "cmc": 4,
+      "type": "Instant - Trap",
+      "text": "If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay this spell's mana cost.<br>Inferno Trap deals 4 damage to target creature.",
+      "flavor": "\"Do you smell something burning?\"",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "67",
+      "artist": "Philip Straub",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 386332,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "業火の罠",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Steam Augury",
+      "manaCost": "{2}{U}{R}",
+      "cmc": 4,
+      "type": "Instant",
+      "text": "Reveal the top five cards of your library and separate them into two piles. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard.",
+      "flavor": "Keranos is a fickle god, delivering punishment as readily as prophecy.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "R",
+      "number": "68",
+      "artist": "Dave Kendall",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 386369,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "蒸気占い",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Traumatic Visions",
+      "manaCost": "{3}{U}{U}",
+      "cmc": 5,
+      "type": "Instant",
+      "text": "Counter target spell.<br>Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "69",
+      "artist": "Cyril Van Der Haegen",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386377,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "衝撃的な幻視",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Whiplash Trap",
+      "manaCost": "{3}{U}{U}",
+      "cmc": 5,
+      "type": "Instant - Trap",
+      "text": "If an opponent had two or more creatures enter the battlefield under their control this turn, you may pay {U} rather than pay this spell's mana cost.<br>Return two target creatures to their owners' hands.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "70",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386378,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "鞭打ちの罠",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Arrow Volley Trap",
+      "manaCost": "{3}{W}{W}",
+      "cmc": 5,
+      "type": "Instant - Trap",
+      "text": "If four or more creatures are attacking, you may pay {1}{W} rather than pay this spell's mana cost.<br>Arrow Volley Trap deals 5 damage divided as you choose among any number of target attacking creatures.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "71",
+      "artist": "Steve Argyle",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 386303,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "飛来する矢の罠",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Repeal",
+      "manaCost": "{X}{U}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Return target nonland permanent with converted mana cost X to its owner's hand.<br>Draw a card.",
+      "flavor": "\"Your deed cannot be undone. You, however, can be.\"<br>-Agosto, Azorius imperator",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "72",
+      "artist": "Anthony Palumbo",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 386362,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "撤廃",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mystic Monastery",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Mystic Monastery enters the battlefield tapped.<br>{T}: Add {U}, {R}, or {W}.",
+      "flavor": "When asked how many paths reach enlightenment, the monk kicked a heap of sand. \"Count,\" he smiled, \"and then find more grains.\"",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "U",
+      "number": "73",
+      "artist": "Florian de Gesincourt",
+      "color": "",
+      "colorIdentity": "WUR",
+      "multiverseId": 386352,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "神秘の僧院",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Terramorphic Expanse",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "flavor": "Take two steps north into the unsettled future, south into the unquiet past, east into the present day, or west into the great unknown.",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "74",
+      "artist": "Dan Scott",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 386375,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "広漠なる変幻地",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "75",
+      "artist": "Rob Alexander",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 386333,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "76",
+      "artist": "Rob Alexander",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 386335,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "77",
+      "artist": "Andreas Rocha",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 386334,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "78",
+      "artist": "Raoul Vitale",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 386350,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "79",
+      "artist": "Adam Paquette",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 386357,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "80",
+      "artist": "Jung Park",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 386359,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "DDN",
+      "scryfallSetCode": "DDN",
+      "rarity": "C",
+      "number": "81",
+      "artist": "Andreas Rocha",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 386358,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    }
+  ]
+}

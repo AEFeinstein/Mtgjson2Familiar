@@ -1,0 +1,1913 @@
+{
+  "expansion": {
+    "name_gatherer": "Duel Decks: Heroes vs. Monsters",
+    "code_gatherer": "HVM",
+    "code_mtgi": "DDL",
+    "name_tcgp": "Duel Decks: Heroes vs. Monsters",
+    "name_mkm": "Duel Decks: Heroes vs. Monsters",
+    "releaseTimestamp": 1378440000,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "type": "duel_deck",
+    "digest": "5c59457cce034dc0191b7833ec897a1d",
+    "expansionImageURLs": [
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HVM_C.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HVM_M.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HVM_R.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HVM_U.png"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Sun Titan",
+      "manaCost": "{4}{W}{W}",
+      "cmc": 6,
+      "type": "Creature - Giant",
+      "text": "Vigilance<br>Whenever Sun Titan enters the battlefield or attacks, you may return target permanent card with converted mana cost 3 or less from your graveyard to the battlefield.",
+      "flavor": "A blazing sun that never sets.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "M",
+      "number": "1",
+      "artist": "Karl Kopinski",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373379,
+      "power": 6.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "太陽のタイタン",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Somberwald Vigilante",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Creature - Human Warrior",
+      "text": "Whenever Somberwald Vigilante becomes blocked by a creature, Somberwald Vigilante deals 1 damage to that creature.",
+      "flavor": "He has nothing left but his resentment.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "2",
+      "artist": "John Stanko",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373385,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ソンバーワルドの自警団",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Figure of Destiny",
+      "manaCost": "{R/W}",
+      "cmc": 1,
+      "type": "Creature - Kithkin",
+      "text": "{R/W}: Figure of Destiny becomes a Kithkin Spirit with base power and toughness 2/2.<br>{R/W}{R/W}{R/W}: If Figure of Destiny is a Spirit, it becomes a Kithkin Spirit Warrior with base power and toughness 4/4.<br>{R/W}{R/W}{R/W}{R/W}{R/W}{R/W}: If Figure of Destiny is a Warrior, it becomes a Kithkin Spirit Warrior Avatar with base power and toughness 8/8, flying, and first strike.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "R",
+      "number": "3",
+      "artist": "Scott M. Fischer",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 373388,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "運命の大立者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Cavalry Pegasus",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Creature - Pegasus",
+      "text": "Flying<br>Whenever Cavalry Pegasus attacks, each attacking Human gains flying until end of turn.",
+      "flavor": "\"It is hope, hooved and winged.\"<br>-Cymede, queen of Akros",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "4",
+      "artist": "Kev Walker",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373353,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "乗騎ペガサス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fencing Ace",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Creature - Human Soldier",
+      "text": "Double strike",
+      "flavor": "His prowess gives the guildless hope that they can hold out against tyranny.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "5",
+      "artist": "David Rapoza",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373367,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "剣術の名手",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Thraben Valiant",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Creature - Human Soldier",
+      "text": "Vigilance",
+      "flavor": "\"Once more into Devil's Breach, soldiers. I want another devil tail for my collection.\"",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "6",
+      "artist": "Jason Chan",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373342,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "スレイベンの勇者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Stun Sniper",
+      "manaCost": "{R}{W}",
+      "cmc": 2,
+      "type": "Creature - Human Archer",
+      "text": "{1}, {T}: Stun Sniper deals 1 damage to target creature. Tap that creature.",
+      "flavor": "The tips of her bolts are blunt, but her aim is deadly sharp.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "7",
+      "artist": "Steve Prescott",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 373391,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "気絶の狙撃者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Truefire Paladin",
+      "manaCost": "{R}{W}",
+      "cmc": 2,
+      "type": "Creature - Human Knight",
+      "text": "Vigilance<br>{R}{W}: Truefire Paladin gets +2/+0 until end of turn.<br>{R}{W}: Truefire Paladin gains first strike until end of turn.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "8",
+      "artist": "Michael C. Hayes",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 373395,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "真火の聖騎士",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Auramancer",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Creature - Human Wizard",
+      "text": "When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.",
+      "flavor": "\"In memories, we can find our deepest reserves of strength.\"",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "9",
+      "artist": "Rebecca Guay",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373402,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "オーラ術師",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Freewind Equenaut",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Creature - Human Archer",
+      "text": "Flying<br>As long as Freewind Equenaut is enchanted, it has \"{T}: Freewind Equenaut deals 2 damage to target attacking or blocking creature.\"",
+      "flavor": "Confront her, and feel the hooves of her steed. Ignore her, and feel the sting of her arrow.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "10",
+      "artist": "Rebecca Guay",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373376,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "自由風の乗馬兵",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Anax and Cymede",
+      "manaCost": "{1}{R}{W}",
+      "cmc": 3,
+      "type": "Legendary Creature - Human Soldier",
+      "text": "First strike, vigilance<br>Heroic - Whenever you cast a spell that targets Anax and Cymede, creatures you control get +1/+1 and gain trample until end of turn.",
+      "flavor": "Akros's greatest heroes are also its royalty.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "R",
+      "number": "11",
+      "artist": "Willian Murai",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 373396,
+      "power": 3.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "アナックスとサイミーディ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Armory Guard",
+      "manaCost": "{3}{W}",
+      "cmc": 4,
+      "type": "Creature - Giant Soldier",
+      "text": "Armory Guard has vigilance as long as you control a Gate.",
+      "flavor": "The Dimir agents watched from the shadows. \"Eight hours, and I've yet to see him blink,\" Nefara hissed. \"I suggest we find another way in.\"",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "12",
+      "artist": "Karl Kopinski",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373415,
+      "power": 2.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "武器庫の護衛",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Gustcloak Sentinel",
+      "manaCost": "{2}{W}{W}",
+      "cmc": 4,
+      "type": "Creature - Human Soldier",
+      "text": "Whenever Gustcloak Sentinel becomes blocked, you may untap it and remove it from combat.",
+      "flavor": "Entire platoons have mysteriously vanished from battle, leaving enemy weapons to slice through empty air.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "13",
+      "artist": "Mark Zug",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373364,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "疾風衣の歩哨",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Dawnstrike Paladin",
+      "manaCost": "{3}{W}{W}",
+      "cmc": 5,
+      "type": "Creature - Human Knight",
+      "text": "Vigilance (Attacking doesn't cause this creature to tap.)<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
+      "flavor": "She crushes darkness beneath her charger's hooves.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "14",
+      "artist": "Tyler Jacobson",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373371,
+      "power": 2.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "暁駆けの聖騎士",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Nobilis of War",
+      "manaCost": "{R/W}{R/W}{R/W}{R/W}{R/W}",
+      "cmc": 5,
+      "type": "Creature - Spirit Avatar",
+      "text": "Flying<br>Attacking creatures you control get +2/+0.",
+      "flavor": "\"A great siege is a banquet to him; a long and terrible battle, the most exquisite delicacy.\"<br>-The Seer's Parables",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "R",
+      "number": "15",
+      "artist": "Christopher Moeller",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 373336,
+      "power": 3.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "戦争の貴神",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Kamahl, Pit Fighter",
+      "manaCost": "{4}{R}{R}",
+      "cmc": 6,
+      "type": "Legendary Creature - Human Barbarian",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>{T}: Kamahl, Pit Fighter deals 3 damage to any target.",
+      "flavor": "In times when freedom seems lost, great souls arise to reclaim it.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "R",
+      "number": "16",
+      "artist": "Kev Walker",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373338,
+      "power": 6.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ピット・ファイター、カマール",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Condemn",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.",
+      "flavor": "\"No doubt the arbiters would put you away, after all the documents are signed. But I will have justice now.\"<br>-Alovnek, Boros guildmage",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "17",
+      "artist": "Daren Bader",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373407,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "糾弾",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Daily Regimen",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>{1}{W}: Put a +1/+1 counter on enchanted creature.",
+      "flavor": "What self-indulgence tears down, discipline builds up again.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "18",
+      "artist": "Warren Mahy",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373360,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "毎日の処方",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Pay No Heed",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Prevent all damage a source of your choice would deal this turn.",
+      "flavor": "\"My course is before me. There is nothing behind me.\"",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "19",
+      "artist": "Adam Rex",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373405,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "無視",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Righteousness",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Target blocking creature gets +7/+7 until end of turn.",
+      "flavor": "Sometimes the greatest strength is the strength of conviction.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "20",
+      "artist": "Wayne England",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373381,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "高潔のあかし",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Stand Firm",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Target creature gets +1/+1 until end of turn. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "21",
+      "artist": "Matt Cavotta",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373343,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "断固",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Magma Jet",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Magma Jet deals 2 damage to any target. Scry 2.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "22",
+      "artist": "Justin Sweet",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373400,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "マグマの噴流",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ordeal of Purphoros",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Purphoros.<br>When you sacrifice Ordeal of Purphoros, it deals 3 damage to any target.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "23",
+      "artist": "Maciej Kuciara",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373406,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "パーフォロスの試練",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Bonds of Faith",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>Enchanted creature gets +2/+2 as long as it's a Human. Otherwise, it can't attack or block.",
+      "flavor": "\"What cannot be destroyed will be bound.\"<br>-Oath of Avacyn",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "24",
+      "artist": "Steve Argyle",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373354,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "信仰の縛め",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Moment of Heroism",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Target creature gets +2/+2 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)",
+      "flavor": "\"My faith is stronger than fang, claw, or mindless hunger.\"",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "25",
+      "artist": "Christopher Moeller",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373344,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "勇壮の時",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Undying Rage",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>Enchanted creature gets +2/+2 and can't block.<br>When Undying Rage is put into a graveyard from the battlefield, return Undying Rage to its owner's hand.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "26",
+      "artist": "Scott M. Fischer",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373347,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "死せざる怒り",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Battle Mastery",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>Enchanted creature has double strike. (It deals both first-strike and regular combat damage.)",
+      "flavor": "\"Boom! Boom! Boots the size of oxcarts, then an axe like a falling sun. Elves scattered. Trees scattered. Even the hills ran for the hills!\"<br>-Clachan Tales",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "27",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373358,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "熟達した戦い",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Griffin Guide",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has flying.<br>When enchanted creature dies, create a 2/2 white Griffin creature token with flying.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "28",
+      "artist": "Johann Bodin",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373337,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "グリフィンの導き",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Smite the Monstrous",
+      "manaCost": "{3}{W}",
+      "cmc": 4,
+      "type": "Instant",
+      "text": "Destroy target creature with power 4 or greater.",
+      "flavor": "Though the old holy wards and roadside shrines have begun to fail, faith in Avacyn still holds true power.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "29",
+      "artist": "Jason Felix",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373372,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "大物潰し",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Miraculous Recovery",
+      "manaCost": "{4}{W}",
+      "cmc": 5,
+      "type": "Instant",
+      "text": "Return target creature card from your graveyard to the battlefield. Put a +1/+1 counter on it.",
+      "flavor": "\"I am the rock of the polis. Death only strengthens me.\"",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "30",
+      "artist": "Mark Winters",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373370,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "奇跡の復活",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Winds of Rath",
+      "manaCost": "{3}{W}{W}",
+      "cmc": 5,
+      "type": "Sorcery",
+      "text": "Destroy all creatures that aren't enchanted. They can't be regenerated.",
+      "flavor": "\"There shall be a vast shout and then a vaster silence.\"<br>-Oracle en-Vec",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "R",
+      "number": "31",
+      "artist": "Drew Tucker",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 373410,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ラースの風",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Pyrokinesis",
+      "manaCost": "{4}{R}{R}",
+      "cmc": 6,
+      "type": "Instant",
+      "text": "You may exile a red card from your hand rather than pay this spell's mana cost.<br>Pyrokinesis deals 4 damage divided as you choose among any number of target creatures.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "32",
+      "artist": "Igor Kieryluk",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373356,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "紅蓮操作",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Boros Guildgate",
+      "cmc": 0,
+      "type": "Land - Gate",
+      "text": "Boros Guildgate enters the battlefield tapped.<br>{T}: Add {R} or {W}.",
+      "flavor": "Enter with merciful hearts. Exit with battle cries.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "33",
+      "artist": "Noah Bradley",
+      "color": "",
+      "colorIdentity": "WR",
+      "multiverseId": 373389,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ボロスのギルド門",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "New Benalia",
+      "cmc": 0,
+      "type": "Land",
+      "text": "New Benalia enters the battlefield tapped.<br>When New Benalia enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)<br>{T}: Add {W}.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "34",
+      "artist": "Richard Wright",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 373401,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "新ベナリア",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "35",
+      "artist": "Cliff Childs",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 373387,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "36",
+      "artist": "Jonas De Ro",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 373382,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "37",
+      "artist": "Karl Kopinski",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 373346,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "38",
+      "artist": "Adam Paquette",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 373411,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "39",
+      "artist": "Rob Alexander",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 373341,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "40",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 373369,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "41",
+      "artist": "Michael Komarck",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 373386,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "42",
+      "artist": "Adam Paquette",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 373361,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Polukranos, World Eater",
+      "manaCost": "{2}{G}{G}",
+      "cmc": 4,
+      "type": "Legendary Creature - Hydra",
+      "text": "{X}{X}{G}: Monstrosity X. (If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)<br>When Polukranos, World Eater becomes monstrous, it deals X damage divided as you choose among any number of target creatures your opponents control. Each of those creatures deals damage equal to its power to Polukranos.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "M",
+      "number": "43",
+      "artist": "Karl Kopinski",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373384,
+      "power": 5.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "世界を喰らう者、ポルクラノス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Orcish Lumberjack",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Creature - Orc",
+      "text": "{T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G}.",
+      "flavor": "\"Wood is wasted in the dirt.\"<br>-Orcish proverb",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "44",
+      "artist": "Steve Prescott",
+      "color": "R",
+      "colorIdentity": "RG",
+      "multiverseId": 373399,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "オークの木こり",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Deadly Recluse",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Spider",
+      "text": "Reach (This creature can block creatures with flying.)<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+      "flavor": "Even dragons fear its silken strands.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "45",
+      "artist": "Warren Mahy",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373350,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "命取りの出家蜘蛛",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Kavu Predator",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Kavu",
+      "text": "Trample<br>Whenever an opponent gains life, put that many +1/+1 counters on Kavu Predator.",
+      "flavor": "In a withered world, the scent of healthy prey is enough to drive a predator to frenzy.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "46",
+      "artist": "Dan Scott",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373377,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "カヴーの捕食者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Satyr Hedonist",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Satyr",
+      "text": "{R}, Sacrifice Satyr Hedonist: Add {R}{R}{R}.",
+      "flavor": "\"Any festival you can walk away from wasn't worth attending in the first place.\"",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "47",
+      "artist": "Chase Stone",
+      "color": "G",
+      "colorIdentity": "RG",
+      "multiverseId": 373340,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "サテュロスの享楽者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Zhur-Taa Druid",
+      "manaCost": "{R}{G}",
+      "cmc": 2,
+      "type": "Creature - Human Druid",
+      "text": "{T}: Add {G}.<br>Whenever you tap Zhur-Taa Druid for mana, it deals 1 damage to each opponent.",
+      "flavor": "\"Only the decadent think magic should be pristine and without cost.\"",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "48",
+      "artist": "Mark Winters",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 373339,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ザル＝ターのドルイド",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Blood Ogre",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "type": "Creature - Ogre Warrior",
+      "text": "Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)<br>First strike (This creature deals combat damage before creatures without first strike.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "49",
+      "artist": "Christopher Moeller",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373383,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "血のオーガ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Troll Ascetic",
+      "manaCost": "{1}{G}{G}",
+      "cmc": 3,
+      "type": "Creature - Troll Shaman",
+      "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)<br>{1}{G}: Regenerate Troll Ascetic.",
+      "flavor": "It's no coincidence that the oldest trolls are also the angriest.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "R",
+      "number": "50",
+      "artist": "Puddnhead",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373416,
+      "power": 3.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "トロールの苦行者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Crowned Ceratok",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Rhino",
+      "text": "Trample<br>Each creature you control with a +1/+1 counter on it has trample.",
+      "flavor": "The best way to calm a rampaging ceratok is to wait until it dies of natural causes.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "51",
+      "artist": "Steve Prescott",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373409,
+      "power": 4.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "冠角獣",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Gorehorn Minotaurs",
+      "manaCost": "{2}{R}{R}",
+      "cmc": 4,
+      "type": "Creature - Minotaur Warrior",
+      "text": "Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)",
+      "flavor": "Some of the eleven minotaur clans of Mirtiin are expert crafters and learned philosophers. Others just like to hit stuff.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "52",
+      "artist": "Wayne Reynolds",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373398,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "血まみれ角のミノタウルス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ghor-Clan Savage",
+      "manaCost": "{3}{G}{G}",
+      "cmc": 5,
+      "type": "Creature - Centaur Berserker",
+      "text": "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)",
+      "flavor": "The snap of sinew. The crunch of bone. A cry for mercy. These are the music of the Gruul.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "53",
+      "artist": "Greg Staples",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373373,
+      "power": 2.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴーア族の野人",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Deus of Calamity",
+      "manaCost": "{R/G}{R/G}{R/G}{R/G}{R/G}",
+      "cmc": 5,
+      "type": "Creature - Spirit Avatar",
+      "text": "Trample<br>Whenever Deus of Calamity deals 6 or more damage to an opponent, destroy target land that player controls.",
+      "flavor": "\"He bears the marks of ages upon his skin, memories of dreams long dead and best left buried.\"<br>-The Seer's Parables",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "R",
+      "number": "54",
+      "artist": "Todd Lockwood",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 373363,
+      "power": 6.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "災難の大神",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Conquering Manticore",
+      "manaCost": "{4}{R}{R}",
+      "cmc": 6,
+      "type": "Creature - Manticore",
+      "text": "Flying<br>When Conquering Manticore enters the battlefield, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.",
+      "flavor": "It speaks no commands but is always obeyed.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "R",
+      "number": "55",
+      "artist": "Chris Rahn",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373366,
+      "power": 5.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "征服するマンティコア",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Crater Hellion",
+      "manaCost": "{4}{R}{R}",
+      "cmc": 6,
+      "type": "Creature - Hellion Beast",
+      "text": "Echo {4}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>When Crater Hellion enters the battlefield, it deals 4 damage to each other creature.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "R",
+      "number": "56",
+      "artist": "Daren Bader",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373345,
+      "power": 6.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "火口の乱暴者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Skarrgan Firebird",
+      "manaCost": "{4}{R}{R}",
+      "cmc": 6,
+      "type": "Creature - Phoenix",
+      "text": "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)<br>Flying<br>{R}{R}{R}: Return Skarrgan Firebird from your graveyard to your hand. Activate this ability only if an opponent was dealt damage this turn.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "R",
+      "number": "57",
+      "artist": "Kev Walker",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373393,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "スカルガンの火の鳥",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Valley Rannet",
+      "manaCost": "{4}{R}{G}",
+      "cmc": 6,
+      "type": "Creature - Beast",
+      "text": "Mountaincycling {2}, forestcycling {2} ({2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, put it into your hand, then shuffle your library.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "58",
+      "artist": "Dave Allsop",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 373390,
+      "power": 6.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "谷のラネット",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Krosan Tusker",
+      "manaCost": "{5}{G}{G}",
+      "cmc": 7,
+      "type": "Creature - Boar Beast",
+      "text": "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)<br>When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library. (Do this before you draw.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "59",
+      "artist": "Kev Walker",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373394,
+      "power": 6.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "クローサの大牙獣",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Skarrgan Skybreaker",
+      "manaCost": "{4}{R}{R}{G}",
+      "cmc": 7,
+      "type": "Creature - Giant Shaman",
+      "text": "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)<br>{1}, Sacrifice Skarrgan Skybreaker: It deals damage equal to its power to any target.",
+      "flavor": "\"The sky isn't falling-it's being thrown at us!\"<br>-Otak, Tin Street shopkeep",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "60",
+      "artist": "Dan Scott",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 373413,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "スカルガンの空砕き",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Shower of Sparks",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Shower of Sparks deals 1 damage to target creature and 1 damage to target player or planeswalker.",
+      "flavor": "The viashino had learned how to operate the rig through trial and error-mostly error.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "61",
+      "artist": "Christopher Moeller",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373355,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "降り注ぐ火の粉",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Prey Upon",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Sorcery",
+      "text": "Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)",
+      "flavor": "\"You don't find many old werewolf hunters.\"<br>-Paulin, trapper of Somberwald",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "62",
+      "artist": "Dave Kendall",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373348,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "捕食",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Pyroclasm",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Pyroclasm deals 2 damage to each creature.",
+      "flavor": "\"Who'd want to ignite things one at a time?\"<br>-Chandra Nalaar",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "63",
+      "artist": "John Avon",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373365,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "紅蓮地獄",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Regrowth",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Return target card from your graveyard to your hand.",
+      "flavor": "While the root remains, the tree yet lives.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "64",
+      "artist": "Dan Scott",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373408,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "新たな芽吹き",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Terrifying Presence",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Prevent all combat damage that would be dealt by creatures other than target creature this turn.",
+      "flavor": "Elmut had slaughtered vampires, slain werewolves, and destroyed hordes of zombies. Sadly, he never got over his fear of spiders.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "65",
+      "artist": "Jaime Jones",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373380,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "恐るべき存在",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Destructive Revelry",
+      "manaCost": "{R}{G}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Destroy target artifact or enchantment. Destructive Revelry deals 2 damage to that permanent's controller.",
+      "flavor": "\"Stoke a fire hot enough and you'll never run out of things to burn.\"<br>-Xenagos, the Reveler",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "66",
+      "artist": "Kev Walker",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 373351,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "破壊的な享楽",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Dragon Blood",
+      "manaCost": "{3}",
+      "cmc": 3,
+      "type": "Artifact",
+      "text": "{3}, {T}: Put a +1/+1 counter on target creature.",
+      "flavor": "A single drop turns skin to scale and fist to claw.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "67",
+      "artist": "Ron Spencer",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 373362,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ドラゴンの血",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Volt Charge",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Volt Charge deals 3 damage to any target. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "68",
+      "artist": "Jana Schirmer & Johannes Voss",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 373414,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "電位の負荷",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Beast Within",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
+      "flavor": "\"Monsters dwell in every heart. We only think civilization tames them.\"<br>-Euphemia, Nexus watcher",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "69",
+      "artist": "Jesper Ejsing",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 373352,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "内にいる獣",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fires of Yavimaya",
+      "manaCost": "{1}{R}{G}",
+      "cmc": 3,
+      "type": "Enchantment",
+      "text": "Creatures you control have haste.<br>Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.",
+      "flavor": "Yavimaya lights the quickest path to battle.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "70",
+      "artist": "Izzy",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 373397,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ヤヴィマヤの火",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Kazandu Refuge",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Kazandu Refuge enters the battlefield tapped.<br>When Kazandu Refuge enters the battlefield, you gain 1 life.<br>{T}: Add {R} or {G}.",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "71",
+      "artist": "Franz Vohwinkel",
+      "color": "",
+      "colorIdentity": "RG",
+      "multiverseId": 373412,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "カザンドゥの隠れ家",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Llanowar Reborn",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Llanowar Reborn enters the battlefield tapped.<br>{T}: Add {G}.<br>Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a creature enters the battlefield, you may move a +1/+1 counter from this land onto it.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "72",
+      "artist": "Philip Straub",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 373368,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ラノワールの再生地",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Skarrg, the Rage Pits",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}: Add {C}.<br>{R}{G}, {T}: Target creature gets +1/+1 and gains trample until end of turn.",
+      "flavor": "\"This palace will be our fire-spit, and roasted prince our victory meal. Send in the torch-pigs!\"<br>-Ghut Rak, Gruul guildmage",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "U",
+      "number": "73",
+      "artist": "Martina Pilcerova",
+      "color": "",
+      "colorIdentity": "RG",
+      "multiverseId": 373357,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "怒りの穴蔵、スカルグ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "74",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 373392,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "75",
+      "artist": "D. Alexander Gregory",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 373359,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "76",
+      "artist": "Dave Kendall",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 373403,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "77",
+      "artist": "Andreas Rocha",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 373378,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "78",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 373349,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "79",
+      "artist": "Chippy",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 373375,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "80",
+      "artist": "Jonas De Ro",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 373404,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "HVM",
+      "scryfallSetCode": "DDL",
+      "rarity": "C",
+      "number": "81",
+      "artist": "Ryan Pancoast",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 373374,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    }
+  ]
+}

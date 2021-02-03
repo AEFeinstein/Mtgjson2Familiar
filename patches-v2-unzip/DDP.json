@@ -1,0 +1,1781 @@
+{
+  "expansion": {
+    "name_gatherer": "Duel Decks: Zendikar vs. Eldrazi",
+    "code_gatherer": "DDP",
+    "code_mtgi": "DDP",
+    "name_tcgp": "Duel Decks: Zendikar vs. Eldrazi",
+    "name_mkm": "Duel Decks: Zendikar vs. Eldrazi",
+    "releaseTimestamp": 1440734400,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "type": "duel_deck",
+    "digest": "a07e01829ba50e0562c8ae52fe28ad43",
+    "expansionImageURLs": [
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDP_C.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDP_M.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDP_R.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDP_U.png"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Avenger of Zendikar",
+      "manaCost": "{5}{G}{G}",
+      "cmc": 7,
+      "type": "Creature - Elemental",
+      "text": "When Avenger of Zendikar enters the battlefield, create a 0/1 green Plant creature token for each land you control.<br>Landfall - Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "M",
+      "number": "1",
+      "artist": "Aleksi Briclot",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401643,
+      "power": 5.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゼンディカーの報復者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Affa Guard Hound",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Creature - Dog",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>When Affa Guard Hound enters the battlefield, target creature gets +0/+3 until end of turn.",
+      "flavor": "Once a welcoming hub for explorers, Affa became a place of guarded tongues and quick defenses.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "2",
+      "artist": "Ryan Pancoast",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 401644,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "アーファの番犬",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Caravan Escort",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Creature - Human Knight",
+      "text": "Level up {2} ({2}: Put a level counter on this. Level up only as a sorcery.)<br>LEVEL 1-4<br>2/2<br>LEVEL 5+<br>5/5<br>First strike",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "3",
+      "artist": "Goran Josic",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 401645,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "隊商の随員",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Kabira Vindicator",
+      "manaCost": "{3}{W}",
+      "cmc": 4,
+      "type": "Creature - Human Knight",
+      "text": "Level up {2}{W} ({2}{W}: Put a level counter on this. Level up only as a sorcery.)<br>LEVEL 2-4<br>3/6<br>Other creatures you control get +1/+1.<br>LEVEL 5+<br>4/8<br>Other creatures you control get +2/+2.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "4",
+      "artist": "Steven Belledin",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 401646,
+      "power": 2.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "カビーラの擁護者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Knight of Cliffhaven",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Creature - Kor Knight",
+      "text": "Level up {3} ({3}: Put a level counter on this. Level up only as a sorcery.)<br>LEVEL 1-3<br>2/3<br>Flying<br>LEVEL 4+<br>4/4<br>Flying, vigilance",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "5",
+      "artist": "Matt Cavotta",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 401647,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "岸壁安息所の騎士",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Makindi Griffin",
+      "manaCost": "{3}{W}",
+      "cmc": 4,
+      "type": "Creature - Griffin",
+      "text": "Flying",
+      "flavor": "As the hedrons began to coalesce into colossal Eldrazi superstructures, the griffins were forced to seek new territory lest their aeries be crushed between the massive stone monoliths.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "6",
+      "artist": "Izzy",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 401648,
+      "power": 2.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "マキンディのグリフィン",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Oust",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Sorcery",
+      "text": "Put target creature into its owner's library second from the top. Its controller gains 3 life.",
+      "flavor": "\"'Invincible' is just a word.\"<br>-Gideon Jura",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "7",
+      "artist": "Mike Bierek",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 401649,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "失脚",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Repel the Darkness",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Tap up to two target creatures.<br>Draw a card.",
+      "flavor": "A boon to those who cannot see in the dark. A bane to those who live in it.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "8",
+      "artist": "Scott Chou",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 401650,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "闇の追い返し",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Sheer Drop",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Destroy target tapped creature.<br>Awaken 3-{5}{W} (If you cast this spell for {5}{W}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "9",
+      "artist": "Clint Cearley",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 401651,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "真っ逆さま",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Beastbreaker of Bala Ged",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Human Warrior",
+      "text": "Level up {2}{G} ({2}{G}: Put a level counter on this. Level up only as a sorcery.)<br>LEVEL 1-3<br>4/4<br>LEVEL 4+<br>6/6<br>Trample",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "10",
+      "artist": "Karl Kopinski",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401652,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "バーラ・ゲドの獣壊し",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Daggerback Basilisk",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Basilisk",
+      "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+      "flavor": "\"Petrifying gaze, deadly fangs, knifelike dorsal spines, venomous saliva . . . Am I missing anything? . . . Toxic bones? Seriously?\"<br>-Samila, Murasa Expeditionary House",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "11",
+      "artist": "Jesper Ejsing",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401653,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "短刀背のバジリスク",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Frontier Guide",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Scout",
+      "text": "{3}{G}, {T}: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
+      "flavor": "\"The elders say Zendikar has no safe, peaceful places. How would they know? They've never looked.\"",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "12",
+      "artist": "Wayne Reynolds",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401654,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "開拓地の先達",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Graypelt Hunter",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Human Warrior Ally",
+      "text": "Trample<br>Whenever Graypelt Hunter or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Graypelt Hunter.",
+      "flavor": "He'll cleave wood and bone alike to carve a path for his allies.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "13",
+      "artist": "Svetlin Velinov",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401655,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "灰色革の狩人",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Grazing Gladehart",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Antelope",
+      "text": "Landfall - Whenever a land enters the battlefield under your control, you may gain 2 life.",
+      "flavor": "\"Don't be fooled. If it were as docile as it looks, it would've died off long ago.\"<br>-Yon Basrel, Oran-Rief survivalist",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "14",
+      "artist": "Ryan Pancoast",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401656,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "放牧の林鹿",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Groundswell",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Target creature gets +2/+2 until end of turn.<br>Landfall - If you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead.",
+      "flavor": "\"This world will not be tamed.\"",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "15",
+      "artist": "Chris Rahn",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401657,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "地うねり",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Harrow",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "As an additional cost to cast this spell, sacrifice a land.<br>Search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library.",
+      "flavor": "The Roil redraws the world as it passes, leaving only the hedrons unchanged.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "16",
+      "artist": "Izzy",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401658,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "砕土",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Joraga Bard",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Elf Rogue Ally",
+      "text": "Whenever Joraga Bard or another Ally enters the battlefield under your control, you may have Ally creatures you control gain vigilance until end of turn.",
+      "flavor": "Adventuring bards recite Chanter's Epics, never-ending tales that keep their comrades' minds alert to danger.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "17",
+      "artist": "Volkan Baǵa",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401659,
+      "power": 1.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ジョラーガの吟遊詩人",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Khalni Heart Expedition",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Enchantment",
+      "text": "Landfall - Whenever a land enters the battlefield under your control, you may put a quest counter on Khalni Heart Expedition.<br>Remove three quest counters from Khalni Heart Expedition and sacrifice it: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "18",
+      "artist": "Jason Chan",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401660,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "カルニの心臓の探検",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ondu Giant",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Giant Druid",
+      "text": "When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "flavor": "Some druids nurture gardens. Others nurture continents.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "19",
+      "artist": "Igor Kieryluk",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401661,
+      "power": 2.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "オンドゥの巨人",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Primal Command",
+      "manaCost": "{3}{G}{G}",
+      "cmc": 5,
+      "type": "Sorcery",
+      "text": "Choose two -<br>• Target player gains 7 life.<br>• Put target noncreature permanent on top of its owner's library.<br>• Target player shuffles their graveyard into their library.<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "R",
+      "number": "20",
+      "artist": "Magali Villeneuve",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401662,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "原初の命令",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Retreat to Kazandu",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Enchantment",
+      "text": "Landfall - Whenever a land enters the battlefield under your control, choose one -<br>• Put a +1/+1 counter on target creature.<br>• You gain 2 life.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "21",
+      "artist": "Kieran Yanner",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401663,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "カザンドゥへの撤退",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Scute Mob",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Creature - Insect",
+      "text": "At the beginning of your upkeep, if you control five or more lands, put four +1/+1 counters on Scute Mob.",
+      "flavor": "\"Survival rule 781: There are always more scute bugs.\"<br>-Zurdi, goblin shortcutter",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "R",
+      "number": "22",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401664,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "硬鎧の群れ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Tajuru Archer",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Elf Archer Ally",
+      "text": "Whenever Tajuru Archer or another Ally enters the battlefield under your control, you may have Tajuru Archer deal damage to target creature with flying equal to the number of Allies you control.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "23",
+      "artist": "Chris Rahn",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401665,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "タジュールの射手",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Territorial Baloth",
+      "manaCost": "{4}{G}",
+      "cmc": 5,
+      "type": "Creature - Beast",
+      "text": "Landfall - Whenever a land enters the battlefield under your control, Territorial Baloth gets +2/+2 until end of turn.",
+      "flavor": "Its territory is defined by wherever it is at the moment.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "24",
+      "artist": "Jesper Ejsing",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401666,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "領地のベイロス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Turntimber Basilisk",
+      "manaCost": "{1}{G}{G}",
+      "cmc": 3,
+      "type": "Creature - Basilisk",
+      "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)<br>Landfall - Whenever a land enters the battlefield under your control, you may have target creature block Turntimber Basilisk this turn if able.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "25",
+      "artist": "Goran Josic",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401667,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "変わり樹のバジリスク",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Wildheart Invoker",
+      "manaCost": "{2}{G}{G}",
+      "cmc": 4,
+      "type": "Creature - Elf Shaman",
+      "text": "{8}: Target creature gets +5/+5 and gains trample until end of turn.",
+      "flavor": "\"Life as we know it dangles on the brink of extinction. We must show the strength they would steal from us.\"<br>-The Invokers' Tales",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "26",
+      "artist": "Erica Yang",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 401668,
+      "power": 4.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "野心の発動者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Veteran Warleader",
+      "manaCost": "{1}{G}{W}",
+      "cmc": 3,
+      "type": "Creature - Human Soldier Ally",
+      "text": "Veteran Warleader's power and toughness are each equal to the number of creatures you control.<br>Tap another untapped Ally you control: Veteran Warleader gains your choice of first strike, vigilance, or trample until end of turn.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "R",
+      "number": "27",
+      "artist": "Josu Hernaiz",
+      "color": "WG",
+      "colorIdentity": "WG",
+      "multiverseId": 401669,
+      "power": -1000.0,
+      "toughness": -1000.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "古参の戦導者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Explorer's Scope",
+      "manaCost": "{1}",
+      "cmc": 1,
+      "type": "Artifact - Equipment",
+      "text": "Whenever equipped creature attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped.<br>Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "28",
+      "artist": "Vincent Proce",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401670,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "探検者の望遠鏡",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Seer's Sundial",
+      "manaCost": "{4}",
+      "cmc": 4,
+      "type": "Artifact",
+      "text": "Landfall - Whenever a land enters the battlefield under your control, you may pay {2}. If you do, draw a card.",
+      "flavor": "\"The shadow travels toward the apex. I predict we will soon see the true measure of darkness.\"",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "R",
+      "number": "29",
+      "artist": "Franz Vohwinkel",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401671,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "予見者の日時計",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Stonework Puma",
+      "manaCost": "{3}",
+      "cmc": 3,
+      "type": "Artifact Creature - Cat Ally",
+      "flavor": "\"We suffer uneasy ground, unstable alliances, and unpredictable magic. Something you can truly trust is worth more than a chest of gold.\"<br>-Nikou, Joraga bard",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "30",
+      "artist": "Christopher Moeller",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401672,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "石造りのピューマ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Evolving Wilds",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "flavor": "Every world is an organism, able to grow new lands. Some just do it faster than others.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "31",
+      "artist": "Steven Belledin",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401673,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "進化する未開地",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Graypelt Refuge",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Graypelt Refuge enters the battlefield tapped.<br>When Graypelt Refuge enters the battlefield, you gain 1 life.<br>{T}: Add {G} or {W}.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "32",
+      "artist": "Philip Straub",
+      "color": "",
+      "colorIdentity": "WG",
+      "multiverseId": 401674,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "灰色革の隠れ家",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Stirring Wildwood",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Stirring Wildwood enters the battlefield tapped.<br>{T}: Add {G} or {W}.<br>{1}{G}{W}: Until end of turn, Stirring Wildwood becomes a 3/4 green and white Elemental creature with reach. It's still a land.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "R",
+      "number": "33",
+      "artist": "Eric Deschamps",
+      "color": "",
+      "colorIdentity": "WG",
+      "multiverseId": 401675,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "活発な野生林",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Turntimber Grove",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Turntimber Grove enters the battlefield tapped.<br>When Turntimber Grove enters the battlefield, target creature gets +1/+1 until end of turn.<br>{T}: Add {G}.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "34",
+      "artist": "Rob Alexander",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 401676,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "変わり樹の木立ち",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "35",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 401677,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "36",
+      "artist": "Jung Park",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 401678,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "37",
+      "artist": "Vincent Proce",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 401679,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "38",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 401680,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "39",
+      "artist": "Véronique Meignaud",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 401681,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "40",
+      "artist": "Vincent Proce",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 401682,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Oblivion Sower",
+      "manaCost": "{6}",
+      "cmc": 6,
+      "type": "Creature - Eldrazi",
+      "text": "When you cast this spell, target opponent exiles the top four cards of their library, then you may put any number of land cards that player owns from exile onto the battlefield under your control.",
+      "flavor": "The Eldrazi hunger without limit and consume without pause.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "M",
+      "number": "41",
+      "artist": "Aleksi Briclot",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401683,
+      "power": 5.0,
+      "toughness": 8.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "忘却蒔き",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Artisan of Kozilek",
+      "manaCost": "{9}",
+      "cmc": 9,
+      "type": "Creature - Eldrazi",
+      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "42",
+      "artist": "Jason Felix",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401684,
+      "power": 10.0,
+      "toughness": 9.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "コジレックの職工",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "It That Betrays",
+      "manaCost": "{12}",
+      "cmc": 12,
+      "type": "Creature - Eldrazi",
+      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)<br>Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control.",
+      "flavor": "Your pleas for death shall go unheard.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "R",
+      "number": "43",
+      "artist": "Tomasz Jedruszek",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401685,
+      "power": 11.0,
+      "toughness": 11.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "背くもの",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ulamog's Crusher",
+      "manaCost": "{8}",
+      "cmc": 8,
+      "type": "Creature - Eldrazi",
+      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)<br>Ulamog's Crusher attacks each combat if able.",
+      "flavor": "\"Whatever the Eldrazi's purpose is, it has nothing to do with something so insignificant as us.\"<br>-Nirthu, lone missionary",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "44",
+      "artist": "Todd Lockwood",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401686,
+      "power": 8.0,
+      "toughness": 8.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ウラモグの破壊者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Bloodrite Invoker",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "type": "Creature - Vampire Shaman",
+      "text": "{8}: Target player loses 3 life and you gain 3 life.",
+      "flavor": "\"The brood lineages unfolded across the world, each patterned after one of three progenitors, each a study in mindless consumption.\"<br>-The Invokers' Tales",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "45",
+      "artist": "Svetlin Velinov",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401687,
+      "power": 3.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "血儀式の発動者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Bloodthrone Vampire",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Creature - Vampire",
+      "text": "Sacrifice a creature: Bloodthrone Vampire gets +2/+2 until end of turn.",
+      "flavor": "Some humans willingly offered up their blood, hoping it would grant the vampire families the strength to stave off the Eldrazi.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "46",
+      "artist": "Steve Argyle",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401688,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "血の座の吸血鬼",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Butcher of Malakir",
+      "manaCost": "{5}{B}{B}",
+      "cmc": 7,
+      "type": "Creature - Vampire Warrior",
+      "text": "Flying<br>Whenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature.",
+      "flavor": "His verdict is always guilty. His sentence is always death.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "R",
+      "number": "47",
+      "artist": "Jason Chan",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401689,
+      "power": 5.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "マラキールの解体者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Cadaver Imp",
+      "manaCost": "{1}{B}{B}",
+      "cmc": 3,
+      "type": "Creature - Imp",
+      "text": "Flying<br>When Cadaver Imp enters the battlefield, you may return target creature card from your graveyard to your hand.",
+      "flavor": "The mouth must be pried open before rigor mortis sets in. Otherwise the returning soul can find no ingress.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "48",
+      "artist": "Dave Kendall",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401690,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "死者のインプ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Consume the Meek",
+      "manaCost": "{3}{B}{B}",
+      "cmc": 5,
+      "type": "Instant",
+      "text": "Destroy each creature with converted mana cost 3 or less. They can't be regenerated.",
+      "flavor": "\"Others ask why the Eldrazi destroy. I ask why they preserve.\"<br>-Ganda, Goma Fada deserter",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "R",
+      "number": "49",
+      "artist": "Richard Wright",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401691,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "弱者の消耗",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Corpsehatch",
+      "manaCost": "{3}{B}{B}",
+      "cmc": 5,
+      "type": "Sorcery",
+      "text": "Destroy target nonblack creature. Create two 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\"",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "50",
+      "artist": "Kekai Kotaki",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401692,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "死骸孵化",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Dominator Drone",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "type": "Creature - Eldrazi Drone",
+      "text": "Devoid (This card has no color.)<br>Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)<br>When Dominator Drone enters the battlefield, if you control another colorless creature, each opponent loses 2 life.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "51",
+      "artist": "James Zapata",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 401693,
+      "power": 3.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "威圧ドローン",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Heartstabber Mosquito",
+      "manaCost": "{3}{B}",
+      "cmc": 4,
+      "type": "Creature - Insect",
+      "text": "Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)<br>Flying<br>When Heartstabber Mosquito enters the battlefield, if it was kicked, destroy target creature.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "52",
+      "artist": "Jason Felix",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401694,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "心臓刺しの蚊",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Induce Despair",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "As an additional cost to cast this spell, reveal a creature card from your hand.<br>Target creature gets -X/-X until end of turn, where X is the revealed card's converted mana cost.",
+      "flavor": "All the angel saw was her doom.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "53",
+      "artist": "Igor Kieryluk",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401695,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "絶望の誘導",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Marsh Casualties",
+      "manaCost": "{B}{B}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Kicker {3} (You may pay an additional {3} as you cast this spell.)<br>Creatures target player controls get -1/-1 until end of turn. If this spell was kicked, those creatures get -2/-2 until end of turn instead.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "54",
+      "artist": "Scott Chou",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401696,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "湿地での被災",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Pawn of Ulamog",
+      "manaCost": "{1}{B}{B}",
+      "cmc": 3,
+      "type": "Creature - Vampire Shaman",
+      "text": "Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this creature: Add {C}.\"",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "55",
+      "artist": "Daarken",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401697,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ウラモグの手先",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Read the Bones",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Scry 2, then draw two cards. You lose 2 life. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "flavor": "The dead know lessons the living haven't learned.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "56",
+      "artist": "Lars Grant-West",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401698,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "骨読み",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Smother",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Destroy target creature with converted mana cost 3 or less. It can't be regenerated.",
+      "flavor": "\"Before I hire new recruits, I test how long they can hold their breath. You'd be surprised how often it comes up.\"<br>-Zahr Gada, Halimar expedition leader",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "57",
+      "artist": "Karl Kopinski",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401699,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "燻し",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Vampire Nighthawk",
+      "manaCost": "{1}{B}{B}",
+      "cmc": 3,
+      "type": "Creature - Vampire Shaman",
+      "text": "Flying, deathtouch, lifelink",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "58",
+      "artist": "Jason Chan",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 401700,
+      "power": 2.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "吸血鬼の夜鷲",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Emrakul's Hatcher",
+      "manaCost": "{4}{R}",
+      "cmc": 5,
+      "type": "Creature - Eldrazi Drone",
+      "text": "When Emrakul's Hatcher enters the battlefield, create three 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\"",
+      "flavor": "Wordlessly it leads its abhorrent brood.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "59",
+      "artist": "Jaime Jones",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 401701,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "エムラクールの孵化者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Forked Bolt",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Sorcery",
+      "text": "Forked Bolt deals 2 damage divided as you choose among one or two targets.",
+      "flavor": "\"Play no favorites. Everybody dies.\"<br>-Sparkmage saying",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "60",
+      "artist": "Tomasz Jedruszek",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 401702,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "二股の稲妻",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Hellion Eruption",
+      "manaCost": "{5}{R}",
+      "cmc": 6,
+      "type": "Sorcery",
+      "text": "Sacrifice all creatures you control, then create that many 4/4 red Hellion creature tokens.",
+      "flavor": "Just when you thought you'd be safe, in the middle of an open field with no Eldrazi around for miles.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "R",
+      "number": "61",
+      "artist": "Anthony Francisco",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 401703,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "乱暴者の噴火",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Magmaw",
+      "manaCost": "{3}{R}{R}",
+      "cmc": 5,
+      "type": "Creature - Elemental",
+      "text": "{1}, Sacrifice a nonland permanent: Magmaw deals 1 damage to any target.",
+      "flavor": "\"The purpose of existence is simple: everything is fuel for the magmaw.\"<br>-Jaji, magmaw worshipper",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "R",
+      "number": "62",
+      "artist": "Karl Kopinski",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 401704,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "溶口",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Torch Slinger",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "type": "Creature - Goblin Shaman",
+      "text": "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)<br>When Torch Slinger enters the battlefield, if it was kicked, it deals 2 damage to target creature.",
+      "flavor": "Once thrown, twice burned.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "63",
+      "artist": "Andrew Robinson",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 401705,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "松明投げ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Forerunner of Slaughter",
+      "manaCost": "{B}{R}",
+      "cmc": 2,
+      "type": "Creature - Eldrazi Drone",
+      "text": "Devoid (This card has no color.)<br>{1}: Target colorless creature gains haste until end of turn.",
+      "flavor": "\"While we delay, they're on the move. They will not wait as we bicker. We are losing this war by moments as our goal slips beyond our reach.\"<br>-Gideon Jura",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "64",
+      "artist": "James Zapata",
+      "color": "",
+      "colorIdentity": "BR",
+      "multiverseId": 401706,
+      "power": 3.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "殺戮の先陣",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mind Stone",
+      "manaCost": "{2}",
+      "cmc": 2,
+      "type": "Artifact",
+      "text": "{T}: Add {C}.<br>{1}, {T}, Sacrifice Mind Stone: Draw a card.",
+      "flavor": "What is mana but possibility, an idea not yet given form?",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "65",
+      "artist": "Adam Rex",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401707,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "精神石",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Runed Servitor",
+      "manaCost": "{2}",
+      "cmc": 2,
+      "type": "Artifact Creature - Construct",
+      "text": "When Runed Servitor dies, each player draws a card.",
+      "flavor": "Scholars had puzzled for centuries over the ruins at Tal Terig. Its secrets had always lived within one rune-carved head.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "66",
+      "artist": "Mike Bierek",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401708,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ルーンの苦役者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Akoum Refuge",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Akoum Refuge enters the battlefield tapped.<br>When Akoum Refuge enters the battlefield, you gain 1 life.<br>{T}: Add {B} or {R}.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "67",
+      "artist": "Fred Fields",
+      "color": "",
+      "colorIdentity": "BR",
+      "multiverseId": 401709,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "アクームの隠れ家",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Eldrazi Temple",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}: Add {C}.<br>{T}: Add {C}{C}. Spend this mana only to cast colorless Eldrazi spells or activate abilities of colorless Eldrazi.",
+      "flavor": "Each temple is a door to a horrible future.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "68",
+      "artist": "James Paick",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401710,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "エルドラージの寺院",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Rocky Tar Pit",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Rocky Tar Pit enters the battlefield tapped.<br>{T}, Sacrifice Rocky Tar Pit: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle your library.",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "U",
+      "number": "69",
+      "artist": "Jeff Miracola",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 401711,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "岩山のタール坑",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "70",
+      "artist": "Véronique Meignaud",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 401712,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "71",
+      "artist": "Véronique Meignaud",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 401713,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "72",
+      "artist": "Véronique Meignaud",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 401714,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "73",
+      "artist": "James Paick",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 401715,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "74",
+      "artist": "James Paick",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 401716,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDP",
+      "scryfallSetCode": "DDP",
+      "rarity": "C",
+      "number": "75",
+      "artist": "James Paick",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 401717,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    }
+  ]
+}

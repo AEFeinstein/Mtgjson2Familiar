@@ -1,0 +1,2207 @@
+{
+  "expansion": {
+    "name_gatherer": "Duel Decks: Izzet vs. Golgari",
+    "code_gatherer": "IVG",
+    "code_mtgi": "DDJ",
+    "name_tcgp": "Duel Decks: Izzet vs. Golgari",
+    "name_mkm": "Duel Decks: Izzet vs. Golgari",
+    "releaseTimestamp": 1346990400,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "type": "duel_deck",
+    "digest": "a96b7815708e54cc63c1b5a12c76481e",
+    "expansionImageURLs": [
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IVG_C.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IVG_M.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IVG_R.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IVG_U.png"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Niv-Mizzet, the Firemind",
+      "manaCost": "{2}{U}{U}{R}{R}",
+      "cmc": 6,
+      "type": "Legendary Creature - Dragon Wizard",
+      "text": "Flying<br>Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.<br>{T}: Draw a card.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "M",
+      "number": "1",
+      "artist": "Svetlin Velinov",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 292738,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "火想者ニヴ＝ミゼット",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Kiln Fiend",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Creature - Elemental Beast",
+      "text": "Whenever you cast an instant or sorcery spell, Kiln Fiend gets +3/+0 until end of turn.",
+      "flavor": "It traps an explosion within its stony skin.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "2",
+      "artist": "Adi Granov",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 292742,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "窯の悪鬼",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Electromancer",
+      "manaCost": "{U}{R}",
+      "cmc": 2,
+      "type": "Creature - Goblin Wizard",
+      "text": "Instant and sorcery spells you cast cost {1} less to cast.",
+      "flavor": "When asked how much power is required, Izzet mages always answer \"more.\"",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "3",
+      "artist": "Svetlin Velinov",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 338414,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴブリンの電術師",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Izzet Guildmage",
+      "manaCost": "{U/R}{U/R}",
+      "cmc": 2,
+      "type": "Creature - Human Wizard",
+      "text": "({U/R} can be paid with either {U} or {R}.)<br>{2}{U}: Copy target instant spell you control with converted mana cost 2 or less. You may choose new targets for the copy.<br>{2}{R}: Copy target sorcery spell you control with converted mana cost 2 or less. You may choose new targets for the copy.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "4",
+      "artist": "Jim Murray",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 292735,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "イゼットのギルド魔道士",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Gelectrode",
+      "manaCost": "{1}{U}{R}",
+      "cmc": 3,
+      "type": "Creature - Weird",
+      "text": "{T}: Gelectrode deals 1 damage to any target.<br>Whenever you cast an instant or sorcery spell, you may untap Gelectrode.",
+      "flavor": "\"Diametrically opposing energies in self-sealed plasmodermic bubbles make great pets!\"<br>-Trivaz, Izzet mage",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "5",
+      "artist": "Dan Scott",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 292731,
+      "power": 0.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "軟体電極獣",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Wee Dragonauts",
+      "manaCost": "{1}{U}{R}",
+      "cmc": 3,
+      "type": "Creature - Faerie Wizard",
+      "text": "Flying<br>Whenever you cast an instant or sorcery spell, Wee Dragonauts gets +2/+0 until end of turn.",
+      "flavor": "\"The blazekite is a simple concept, really-just a vehicular application of dragscoop ionics and electropropulsion magnetronics.\"<br>-Juzba, Izzet tinker",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "6",
+      "artist": "Greg Staples",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 292741,
+      "power": 1.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "小柄な竜装者",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Steamcore Weird",
+      "manaCost": "{3}{U}",
+      "cmc": 4,
+      "type": "Creature - Weird",
+      "text": "When Steamcore Weird enters the battlefield, if {R} was spent to cast it, it deals 2 damage to any target.",
+      "flavor": "Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "7",
+      "artist": "Justin Norman",
+      "color": "U",
+      "colorIdentity": "UR",
+      "multiverseId": 338393,
+      "power": 1.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "蒸気核の奇魔",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Shrewd Hatchling",
+      "manaCost": "{3}{U/R}",
+      "cmc": 4,
+      "type": "Creature - Elemental",
+      "text": "Shrewd Hatchling enters the battlefield with four -1/-1 counters on it.<br>{U/R}: Target creature can't block Shrewd Hatchling this turn.<br>Whenever you cast a blue spell, remove a -1/-1 counter from Shrewd Hatchling.<br>Whenever you cast a red spell, remove a -1/-1 counter from Shrewd Hatchling.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "8",
+      "artist": "Carl Frank",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 338395,
+      "power": 6.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "明敏な雛",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ogre Savant",
+      "manaCost": "{4}{R}",
+      "cmc": 5,
+      "type": "Creature - Ogre Wizard",
+      "text": "When Ogre Savant enters the battlefield, if {U} was spent to cast it, return target creature to its owner's hand.",
+      "flavor": "He's an oxymoron.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "9",
+      "artist": "Paolo Parente",
+      "color": "R",
+      "colorIdentity": "UR",
+      "multiverseId": 338389,
+      "power": 3.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "オーガの学者",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Galvanoth",
+      "manaCost": "{3}{R}{R}",
+      "cmc": 5,
+      "type": "Creature - Beast",
+      "text": "At the beginning of your upkeep, you may look at the top card of your library. You may cast it without paying its mana cost if it's an instant or sorcery spell.",
+      "flavor": "It chews open Mirrodin's husk and feeds on the outpouring of energy.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "R",
+      "number": "10",
+      "artist": "Kev Walker",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 338469,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ガルヴァノス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Izzet Chronarch",
+      "manaCost": "{3}{U}{R}",
+      "cmc": 5,
+      "type": "Creature - Human Wizard",
+      "text": "When Izzet Chronarch enters the battlefield, return target instant or sorcery card from your graveyard to your hand.",
+      "flavor": "He ensures not only whether but also when and where the lightning strikes twice.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "11",
+      "artist": "Steven Belledin",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 292734,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "イゼットの時術師",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Djinn Illuminatus",
+      "manaCost": "{5}{U/R}{U/R}",
+      "cmc": 7,
+      "type": "Creature - Djinn",
+      "text": "({U/R} can be paid with either {U} or {R}.)<br>Flying<br>Each instant and sorcery spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "R",
+      "number": "12",
+      "artist": "Carl Critchlow",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 292730,
+      "power": 3.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "啓発のジン",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Brainstorm",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
+      "flavor": "The mizzium-sphere array drove her mind deep into the thought field, where only the rarest motes of genius may be plucked.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "13",
+      "artist": "Willian Murai",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 292751,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "渦まく知識",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Force Spike",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Counter target spell unless its controller pays {1}.",
+      "flavor": "\"I don't think so.\"",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "14",
+      "artist": "Nelson DeCastro",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 292750,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "魔力の乱れ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Magma Spray",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead.",
+      "flavor": "\"Jund is a wounded world. Beware its searing blood spilling out onto the surface.\"<br>-Rakka Mar",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "15",
+      "artist": "Jarreau Wimberly",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 338470,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "マグマのしぶき",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Isochron Scepter",
+      "manaCost": "{2}",
+      "cmc": 2,
+      "type": "Artifact",
+      "text": "Imprint - When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.<br>{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "16",
+      "artist": "Mark Harrison",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 292752,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "等時の王笏",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Izzet Signet",
+      "manaCost": "{2}",
+      "cmc": 2,
+      "type": "Artifact",
+      "text": "{1}, {T}: Add {U}{R}.",
+      "flavor": "The Izzet signet is redesigned often, each time becoming closer to a vanity portrait of Niv-Mizzet.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "17",
+      "artist": "Raoul Vitale",
+      "color": "",
+      "colorIdentity": "UR",
+      "multiverseId": 292736,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "イゼットの印鑑",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Call to Heel",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Return target creature to its owner's hand. Its controller draws a card.",
+      "flavor": "On Bant, a sigil is both a prize of honor and a bond of duty. The one who bears it may be called to fulfill that charge at any moment.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "18",
+      "artist": "Randy Gallegos",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 292748,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "後追いの呼び声",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Train of Thought",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Replicate {1}{U} (When you cast this spell, copy it for each time you paid its replicate cost.)<br>Draw a card.",
+      "flavor": "\"But then . . . oh, but . . . which means . . . which would lead to . . . exactly!\"",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "19",
+      "artist": "Matt Thompson",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 292740,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "思考訓練",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Pyromatics",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Replicate {1}{R} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)<br>Pyromatics deals 1 damage to any target.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "20",
+      "artist": "Glen Angus",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 292739,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "連弾炎",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Izzet Charm",
+      "manaCost": "{U}{R}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Choose one -<br>• Counter target noncreature spell unless its controller pays {2}.<br>• Izzet Charm deals 2 damage to target creature.<br>• Draw two cards, then discard two cards.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "21",
+      "artist": "Zoltan Boros",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 338413,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "イゼットの魔除け",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Reminisce",
+      "manaCost": "{2}{U}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Target player shuffles their graveyard into their library.",
+      "flavor": "Leave the door to the past even slightly ajar and it could be blown off its hinges.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "22",
+      "artist": "Ralph Horsley",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 338471,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "追憶",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Thunderheads",
+      "manaCost": "{2}{U}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Replicate {2}{U} (When you cast this spell, copy it for each time you paid its replicate cost.)<br>Create a 3/3 blue Weird creature token with defender and flying. Exile it at the beginning of the next end step.",
+      "flavor": "The clouds grew thick, and then they grew teeth.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "23",
+      "artist": "Hideaki Takamura",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 338397,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "いかづち頭",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Vacuumelt",
+      "manaCost": "{2}{U}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Replicate {2}{U} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)<br>Return target creature to its owner's hand.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "24",
+      "artist": "Nottsuo",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 338398,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "真空溶",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Dissipate",
+      "manaCost": "{1}{U}{U}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
+      "flavor": "\"This abomination never belonged in our world. I'm merely setting it free.\"<br>-Dierk, geistmage",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "25",
+      "artist": "Tomasz Jedruszek",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 292758,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "雲散霧消",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Quicksilver Dagger",
+      "manaCost": "{1}{U}{R}",
+      "cmc": 3,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>Enchanted creature has \"{T}: This creature deals 1 damage to target player or planeswalker. You draw a card.\"",
+      "flavor": "The dwarves call their quicksilver techniques \"improvisational weaponsmithing.\"",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "26",
+      "artist": "Alex Horley-Orlandelli",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 292757,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "水銀の短剣",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Prophetic Bolt",
+      "manaCost": "{3}{U}{R}",
+      "cmc": 5,
+      "type": "Instant",
+      "text": "Prophetic Bolt deals 4 damage to any target. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "R",
+      "number": "27",
+      "artist": "Slawomir Maniak",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 338392,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "予言の稲妻",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Overwhelming Intellect",
+      "manaCost": "{4}{U}{U}",
+      "cmc": 6,
+      "type": "Instant",
+      "text": "Counter target creature spell. Draw cards equal to that spell's converted mana cost.",
+      "flavor": "\"My brain hurts.\"",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "28",
+      "artist": "Alex Horley-Orlandelli",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 292759,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "抗い難い知力",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Sphinx-Bone Wand",
+      "manaCost": "{7}",
+      "cmc": 7,
+      "type": "Artifact",
+      "text": "Whenever you cast an instant or sorcery spell, you may put a charge counter on Sphinx-Bone Wand. If you do, Sphinx-Bone Wand deals damage equal to the number of charge counters on it to any target.",
+      "flavor": "Its host's final curse lies captured within.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "R",
+      "number": "29",
+      "artist": "Franz Vohwinkel",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 292760,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "スフィンクスの骨の杖",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Street Spasm",
+      "manaCost": "{X}{R}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Street Spasm deals X damage to target creature without flying you don't control.<br>Overload {X}{X}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "30",
+      "artist": "Raymond Swanland",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 338411,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "通りのひきつけ",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Invoke the Firemind",
+      "manaCost": "{X}{U}{U}{R}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Choose one -<br>• Draw X cards.<br>• Invoke the Firemind deals X damage to any target.",
+      "flavor": "To those in tune with the Firemind, there is no difference between knowledge and flame.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "R",
+      "number": "31",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 292732,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "火想者の発動",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Fire",
+      "manaCost": "{1}{R}",
+      "cmc": 4,
+      "type": "Instant",
+      "text": "Fire deals 2 damage divided as you choose among one or two targets.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "32a",
+      "artist": "Dan Scott",
+      "color": "R",
+      "colorIdentity": "UR",
+      "multiverseId": 292753,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "火 // 氷",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ice",
+      "manaCost": "{1}{U}",
+      "cmc": 4,
+      "type": "Instant",
+      "text": "Tap target permanent.<br>Draw a card.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "32b",
+      "artist": "Dan Scott",
+      "color": "U",
+      "colorIdentity": "UR",
+      "multiverseId": 292753,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "火 // 氷",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Forgotten Cave",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Forgotten Cave enters the battlefield tapped.<br>{T}: Add {R}.<br>Cycling {R} ({R}, Discard this card: Draw a card.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "33",
+      "artist": "Tony Szczudlo",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 292761,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "忘れられた洞窟",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Izzet Boilerworks",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Izzet Boilerworks enters the battlefield tapped.<br>When Izzet Boilerworks enters the battlefield, return a land you control to its owner's hand.<br>{T}: Add {U}{R}.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "34",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "UR",
+      "multiverseId": 292733,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "イゼットの煮沸場",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Lonely Sandbar",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Lonely Sandbar enters the battlefield tapped.<br>{T}: Add {U}.<br>Cycling {U} ({U}, Discard this card: Draw a card.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "35",
+      "artist": "Heather Hudson",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 292762,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "孤立した砂州",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Nivix, Aerie of the Firemind",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}: Add {C}.<br>{2}{U}{R}, {T}: Exile the top card of your library. Until your next turn, you may cast it if it's an instant or sorcery spell.",
+      "flavor": "Niv-Mizzet's genius and vanity reverberate throughout the mirrored halls of Nivix.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "36",
+      "artist": "Martina Pilcerova",
+      "color": "",
+      "colorIdentity": "UR",
+      "multiverseId": 292737,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "火想者の高巣、ニヴィックス",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Izzet"
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "37",
+      "artist": "Stephan Martiniere",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 292764,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "38",
+      "artist": "Christopher Moeller",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 292765,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "39",
+      "artist": "Anthony S. Waters",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 292763,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "40",
+      "artist": "Richard Wright",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 292766,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "41",
+      "artist": "Stephan Martiniere",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 292767,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "42",
+      "artist": "Christopher Moeller",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 292769,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "43",
+      "artist": "Anthony S. Waters",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 292768,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "44",
+      "artist": "Richard Wright",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 292770,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Jarad, Golgari Lich Lord",
+      "manaCost": "{B}{B}{G}{G}",
+      "cmc": 4,
+      "type": "Legendary Creature - Zombie Elf",
+      "text": "Jarad, Golgari Lich Lord gets +1/+1 for each creature card in your graveyard.<br>{1}{B}{G}, Sacrifice another creature: Each opponent loses life equal to the sacrificed creature's power.<br>Sacrifice a Swamp and a Forest: Return Jarad from your graveyard to your hand.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "M",
+      "number": "45",
+      "artist": "Svetlin Velinov",
+      "color": "BG",
+      "colorIdentity": "BG",
+      "multiverseId": 292771,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴルガリの死者の王、ジャラド",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Plagued Rusalka",
+      "manaCost": "{B}",
+      "cmc": 1,
+      "type": "Creature - Spirit",
+      "text": "{B}, Sacrifice a creature: Target creature gets -1/-1 until end of turn.",
+      "flavor": "\"Look at her, once filled with innocence. Death has a way of wringing away such . . . deficiencies.\"<br>-Savra",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "46",
+      "artist": "Alex Horley-Orlandelli",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 338396,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "病に倒れたルサルカ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Elves of Deep Shadow",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Creature - Elf Druid",
+      "text": "{T}: Add {B}. Elves of Deep Shadow deals 1 damage to you.",
+      "flavor": "Cast out of the Conclave generations ago, these elves found a home in the corrupted districts of the Golgari.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "47",
+      "artist": "Justin Sweet",
+      "color": "G",
+      "colorIdentity": "BG",
+      "multiverseId": 292942,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "深き闇のエルフ",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Golgari Thug",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Creature - Human Warrior",
+      "text": "When Golgari Thug dies, put target creature card from your graveyard on top of your library.<br>Dredge 4 (If you would draw a card, you may mill four cards instead. If you do, return this card from your graveyard to your hand.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "48",
+      "artist": "Johann Bodin",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 292953,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴルガリの凶漢",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Ravenous Rats",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Creature - Rat",
+      "text": "When Ravenous Rats enters the battlefield, target opponent discards a card.",
+      "flavor": "Devouring books is only the beginning. The librarian's next.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "49",
+      "artist": "Carl Critchlow",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 338404,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "貪欲なるネズミ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Reassembling Skeleton",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Creature - Skeleton Warrior",
+      "text": "{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.",
+      "flavor": "\"They may show up with the wrong thigh bone or mandible, but they always show up.\"<br>-Zul Ashur, lich lord",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "50",
+      "artist": "Austin Hsu",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 338402,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "組み直しの骸骨",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Boneyard Wurm",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Wurm",
+      "text": "Boneyard Wurm's power and toughness are each equal to the number of creature cards in your graveyard.",
+      "flavor": "The only thing it likes more than discovering a pit of bones is adding to it.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "51",
+      "artist": "Jaime Jones",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 338400,
+      "power": -1000.0,
+      "toughness": -1000.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "骨塚のワーム",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Korozda Guildmage",
+      "manaCost": "{B}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Shaman",
+      "text": "{1}{B}{G}: Target creature gets +1/+1 and gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>{2}{B}{G}, Sacrifice a nontoken creature: Create X 1/1 green Saproling creature tokens, where X is the sacrificed creature's toughness.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "52",
+      "artist": "Ryan Pancoast",
+      "color": "BG",
+      "colorIdentity": "BG",
+      "multiverseId": 338415,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "コロズダのギルド魔道士",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Putrid Leech",
+      "manaCost": "{B}{G}",
+      "cmc": 2,
+      "type": "Creature - Zombie Leech",
+      "text": "Pay 2 life: Putrid Leech gets +2/+2 until end of turn. Activate this ability only once each turn.",
+      "flavor": "It reacted to Naya's overabundant food supply by growing additional mouths.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "53",
+      "artist": "Dave Allsop",
+      "color": "BG",
+      "colorIdentity": "BG",
+      "multiverseId": 338388,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "朽ちゆくヒル",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Stinkweed Imp",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "type": "Creature - Imp",
+      "text": "Flying<br>Whenever Stinkweed Imp deals combat damage to a creature, destroy that creature.<br>Dredge 5 (If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "54",
+      "artist": "Nils Hamm",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 292958,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "臭い草のインプ",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Eternal Witness",
+      "manaCost": "{1}{G}{G}",
+      "cmc": 3,
+      "type": "Creature - Human Shaman",
+      "text": "When Eternal Witness enters the battlefield, you may return target card from your graveyard to your hand.",
+      "flavor": "She remembers every word spoken, from the hero's oath to the baby's cry.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "55",
+      "artist": "Terese Nielsen",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 292966,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "永遠の証人",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Dreg Mangler",
+      "manaCost": "{1}{B}{G}",
+      "cmc": 3,
+      "type": "Creature - Plant Zombie",
+      "text": "Haste<br>Scavenge {3}{B}{G} ({3}{B}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "56",
+      "artist": "Peter Mohrbacher",
+      "color": "BG",
+      "colorIdentity": "BG",
+      "multiverseId": 338412,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "屑肉の刻み獣",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Shambling Shell",
+      "manaCost": "{1}{B}{G}",
+      "cmc": 3,
+      "type": "Creature - Plant Zombie",
+      "text": "Sacrifice Shambling Shell: Put a +1/+1 counter on target creature.<br>Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "57",
+      "artist": "Joel Thomas",
+      "color": "BG",
+      "colorIdentity": "BG",
+      "multiverseId": 292957,
+      "power": 3.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "よろめく殻",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Brain Weevil",
+      "manaCost": "{3}{B}",
+      "cmc": 4,
+      "type": "Creature - Insect",
+      "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>Sacrifice Brain Weevil: Target player discards two cards. Activate this ability only any time you could cast a sorcery.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "58",
+      "artist": "Anthony Jones",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 338401,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "脳ゾウムシ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Greater Mossdog",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Plant Dog",
+      "text": "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)",
+      "flavor": "Man's best fungus.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "59",
+      "artist": "Chippy",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 338472,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "大いなる苔犬",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Golgari Grave-Troll",
+      "manaCost": "{4}{G}",
+      "cmc": 5,
+      "type": "Creature - Troll Skeleton",
+      "text": "Golgari Grave-Troll enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard.<br>{1}, Remove a +1/+1 counter from Golgari Grave-Troll: Regenerate Golgari Grave-Troll.<br>Dredge 6 (If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "R",
+      "number": "60",
+      "artist": "Greg Hildebrandt",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 338406,
+      "power": 0.0,
+      "toughness": 0.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴルガリの墓トロール",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Stingerfling Spider",
+      "manaCost": "{4}{G}",
+      "cmc": 5,
+      "type": "Creature - Spider",
+      "text": "Reach<br>When Stingerfling Spider enters the battlefield, you may destroy target creature with flying.",
+      "flavor": "The juiciest prey is that which grows lazy, thinking itself beyond the reach of danger.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "61",
+      "artist": "Dave Allsop",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 338403,
+      "power": 2.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "棘投げの蜘蛛",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Sadistic Hypnotist",
+      "manaCost": "{3}{B}{B}",
+      "cmc": 5,
+      "type": "Creature - Human Minion",
+      "text": "Sacrifice a creature: Target player discards two cards. Activate this ability only any time you could cast a sorcery.",
+      "flavor": "\"Victory in the pits is almost as rewarding as the methods I use to achieve it.\"",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "62",
+      "artist": "Paolo Parente",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 338408,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "サディストの催眠術師",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Golgari Rotwurm",
+      "manaCost": "{3}{B}{G}",
+      "cmc": 5,
+      "type": "Creature - Zombie Wurm",
+      "text": "{B}, Sacrifice a creature: Target player loses 1 life.",
+      "flavor": "Like corpse-worms through a carapace, rotwurms slide through the hollowed bones of the undercity.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "63",
+      "artist": "Wayne England",
+      "color": "BG",
+      "colorIdentity": "BG",
+      "multiverseId": 292951,
+      "power": 5.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴルガリの腐れワーム",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Gleancrawler",
+      "manaCost": "{3}{B/G}{B/G}{B/G}",
+      "cmc": 6,
+      "type": "Creature - Insect Horror",
+      "text": "({B/G} can be paid with either {B} or {G}.)<br>Trample<br>At the beginning of your end step, return to your hand all creature cards in your graveyard that were put there from the battlefield this turn.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "R",
+      "number": "64",
+      "artist": "Jeremy Jarvis",
+      "color": "BG",
+      "colorIdentity": "BG",
+      "multiverseId": 338391,
+      "power": 6.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "這い集め虫",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Doomgape",
+      "manaCost": "{4}{B/G}{B/G}{B/G}",
+      "cmc": 7,
+      "type": "Creature - Elemental",
+      "text": "Trample<br>At the beginning of your upkeep, sacrifice a creature. You gain life equal to that creature's toughness.",
+      "flavor": "It eats and eats until the juiciest morsel it can find is itself.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "R",
+      "number": "65",
+      "artist": "Dave Allsop",
+      "color": "BG",
+      "colorIdentity": "BG",
+      "multiverseId": 292979,
+      "power": 10.0,
+      "toughness": 10.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "破滅裂け口",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Golgari Signet",
+      "manaCost": "{2}",
+      "cmc": 2,
+      "type": "Artifact",
+      "text": "{1}, {T}: Add {B}{G}.",
+      "flavor": "Depending on your point of view, the seal represents a proud guardian of the natural cycle or one who has sold her soul to darkness for eternal life.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "66",
+      "artist": "Raoul Vitale",
+      "color": "",
+      "colorIdentity": "BG",
+      "multiverseId": 292952,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴルガリの印鑑",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Ghoul's Feast",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Target creature gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard.",
+      "flavor": "Mercadians not wealthy enough to buy a tomb are thrown into a bog called \"the Ghoul's Larder.\"",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "67",
+      "artist": "Alan Pollack",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 338407,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "食屍鬼の饗宴",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Yoke of the Damned",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>When a creature dies, destroy enchanted creature.",
+      "flavor": "The demon's yoke is part leash, part noose.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "68",
+      "artist": "Paul Bonner",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 338474,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "忌むべき者の頸木",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Life from the Loam",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Return up to three target land cards from your graveyard to your hand.<br>Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "R",
+      "number": "69",
+      "artist": "Terese Nielsen",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 338409,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "壌土からの生命",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Golgari Germination",
+      "manaCost": "{1}{B}{G}",
+      "cmc": 3,
+      "type": "Enchantment",
+      "text": "Whenever a nontoken creature you control dies, create a 1/1 green Saproling creature token.",
+      "flavor": "The Golgari don't bury their dead. They plant them.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "70",
+      "artist": "Thomas M. Baxa",
+      "color": "BG",
+      "colorIdentity": "BG",
+      "multiverseId": 292948,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴルガリの発芽",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Putrefy",
+      "manaCost": "{1}{B}{G}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Destroy target artifact or creature. It can't be regenerated.",
+      "flavor": "\"All matter, animate or not, rots when exposed to time. We merely speed up the process.\"<br>-Ezoc, Golgari rot farmer",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "71",
+      "artist": "Clint Cearley",
+      "color": "BG",
+      "colorIdentity": "BG",
+      "multiverseId": 292956,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "化膿",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Feast or Famine",
+      "manaCost": "{3}{B}",
+      "cmc": 4,
+      "type": "Instant",
+      "text": "Choose one -<br>• Create a 2/2 black Zombie creature token.<br>• Destroy target nonartifact, nonblack creature. It can't be regenerated.",
+      "flavor": "\"The living cannot understand the benefits of death.\"<br>-Chaeska, Keeper of Tresserhorn",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "72",
+      "artist": "Chase Stone",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 338405,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "饗宴か飢餓か",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Nightmare Void",
+      "manaCost": "{3}{B}",
+      "cmc": 4,
+      "type": "Sorcery",
+      "text": "Target player reveals their hand. You choose a card from it. That player discards that card.<br>Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "73",
+      "artist": "Chippy",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 338410,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "悪夢の虚空",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Vigor Mortis",
+      "manaCost": "{2}{B}{B}",
+      "cmc": 4,
+      "type": "Sorcery",
+      "text": "Return target creature card from your graveyard to the battlefield. If {G} was spent to cast this spell, that creature enters the battlefield with an additional +1/+1 counter on it.",
+      "flavor": "After fear and weakness rot away, that which remains is stronger than its living form.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "74",
+      "artist": "Dan Scott",
+      "color": "B",
+      "colorIdentity": "BG",
+      "multiverseId": 338473,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "死後剛直",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Grim Flowering",
+      "manaCost": "{5}{G}",
+      "cmc": 6,
+      "type": "Sorcery",
+      "text": "Draw a card for each creature card in your graveyard.",
+      "flavor": "\"Nothing in nature goes to waste, not even the rotting corpse of a good-for-nothing, blood-sucking vampire.\"<br>-Halana of Ulvenwald",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "75",
+      "artist": "Adam Paquette",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 338390,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "不気味な開花",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Twilight's Call",
+      "manaCost": "{4}{B}{B}",
+      "cmc": 6,
+      "type": "Sorcery",
+      "text": "You may cast Twilight's Call as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)<br>Each player returns all creature cards from their graveyard to the battlefield.",
+      "flavor": "Twilight falls. We rise.<br>-Necropolis inscription",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "R",
+      "number": "76",
+      "artist": "Mark Romanoski",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 338399,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "黄昏の呼び声",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Life",
+      "manaCost": "{G}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "All lands you control become 1/1 creatures until end of turn. They're still lands.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "77a",
+      "artist": "Ryan Barger",
+      "color": "G",
+      "colorIdentity": "BG",
+      "multiverseId": 292976,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Life // Death",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Death",
+      "manaCost": "{1}{B}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Return target creature card from your graveyard to the battlefield. You lose life equal to its converted mana cost.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "77b",
+      "artist": "Ryan Barger",
+      "color": "B",
+      "colorIdentity": "BG",
+      "multiverseId": 292976,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Life // Death",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Barren Moor",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Barren Moor enters the battlefield tapped.<br>{T}: Add {B}.<br>Cycling {B} ({B}, Discard this card: Draw a card.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "78",
+      "artist": "Heather Hudson",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 292964,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "やせた原野",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Dakmor Salvage",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Dakmor Salvage enters the battlefield tapped.<br>{T}: Add {B}.<br>Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "79",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 292984,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ダクムーアの回収場",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Golgari Rot Farm",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Golgari Rot Farm enters the battlefield tapped.<br>When Golgari Rot Farm enters the battlefield, return a land you control to its owner's hand.<br>{T}: Add {B}{G}.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "80",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "BG",
+      "multiverseId": 292950,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴルガリの腐敗農場",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Svogthos, the Restless Tomb",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}: Add {C}.<br>{3}{B}{G}: Until end of turn, Svogthos, the Restless Tomb becomes a black and green Plant Zombie creature with \"This creature's power and toughness are each equal to the number of creature cards in your graveyard.\" It's still a land.",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "U",
+      "number": "81",
+      "artist": "Martina Pilcerova",
+      "color": "",
+      "colorIdentity": "BG",
+      "multiverseId": 292959,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "安息の無い墓、スヴォグトース",
+          "languageCode": "ja"
+        }
+      ],
+      "watermark": "Golgari"
+    },
+    {
+      "name": "Tranquil Thicket",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Tranquil Thicket enters the battlefield tapped.<br>{T}: Add {G}.<br>Cycling {G} ({G}, Discard this card: Draw a card.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "82",
+      "artist": "Heather Hudson",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 292969,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "平穏な茂み",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "83",
+      "artist": "Stephan Martiniere",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 292962,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "84",
+      "artist": "Christopher Moeller",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 292961,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "85",
+      "artist": "Anthony S. Waters",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 292960,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "86",
+      "artist": "Richard Wright",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 292963,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "87",
+      "artist": "Stephan Martiniere",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 292943,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "88",
+      "artist": "Christopher Moeller",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 292945,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "89",
+      "artist": "Anthony S. Waters",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 292944,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "IVG",
+      "scryfallSetCode": "DDJ",
+      "rarity": "C",
+      "number": "90",
+      "artist": "Richard Wright",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 292946,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    }
+  ]
+}

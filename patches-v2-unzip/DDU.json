@@ -1,0 +1,1825 @@
+{
+  "expansion": {
+    "name_gatherer": "Duel Decks: Elves vs. Inventors",
+    "code_gatherer": "DDU",
+    "code_mtgi": "DDU",
+    "name_tcgp": "Duel Decks: Elves vs. Inventors",
+    "name_mkm": "Duel Decks: Elves vs. Inventors",
+    "releaseTimestamp": 1522987200,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "type": "duel_deck",
+    "digest": "e21b8b950adc9d843c5bc806095ca6d0",
+    "expansionImageURLs": [
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDU_C.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDU_M.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDU_R.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDU_U.png"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Ezuri, Renegade Leader",
+      "manaCost": "{1}{G}{G}",
+      "cmc": 3,
+      "type": "Legendary Creature - Elf Warrior",
+      "text": "{G}: Regenerate another target Elf.<br>{2}{G}{G}{G}: Elf creatures you control get +3/+3 and gain trample until end of turn.",
+      "flavor": "Great hero or grand betrayer? The truth of Ezuri's legacy is clouded by the fog of legend.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "M",
+      "number": "1",
+      "artist": "Victor Adame Minguez",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442737,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "背教の主導者、エズーリ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Dwynen, Gilt-Leaf Daen",
+      "manaCost": "{2}{G}{G}",
+      "cmc": 4,
+      "type": "Legendary Creature - Elf Warrior",
+      "text": "Reach<br>Other Elf creatures you control get +1/+1.<br>Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control.",
+      "flavor": "\"This is our land. We will not allow eyeblights to poison its beauty.\"",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "2",
+      "artist": "Johannes Voss",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442738,
+      "power": 3.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "光り葉の将帥、ドゥイネン",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Dwynen's Elite",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Warrior",
+      "text": "When Dwynen's Elite enters the battlefield, if you control another Elf, create a 1/1 green Elf Warrior creature token.",
+      "flavor": "Call one, call them all.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "3",
+      "artist": "Volkan Baǵa",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442739,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ドゥイネンの精鋭",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Elvish Aberration",
+      "manaCost": "{5}{G}",
+      "cmc": 6,
+      "type": "Creature - Elf Mutant",
+      "text": "{T}: Add {G}{G}{G}.<br>Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle your library.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "4",
+      "artist": "Johann Bodin",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442740,
+      "power": 4.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "エルフの逸脱者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Elvish Archdruid",
+      "manaCost": "{1}{G}{G}",
+      "cmc": 3,
+      "type": "Creature - Elf Druid",
+      "text": "Other Elf creatures you control get +1/+1.<br>{T}: Add {G} for each Elf you control.",
+      "flavor": "\"The elves tend the forest, and the forest sustains the elves. My role is to ensure that the cycle continues.\"",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "5",
+      "artist": "Raymond Swanland",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442741,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "エルフの大ドルイド",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Elvish Branchbender",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Elf Druid",
+      "text": "{T}: Until end of turn, target Forest becomes an X/X Treefolk creature in addition to its other types, where X is the number of Elves you control.",
+      "flavor": "\"How do the vinebred feel? Fah! We do not ask the puppet how it feels when the puppeteer bids it dance.\"",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "6",
+      "artist": "Ralph Horsley",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442742,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "エルフの枝曲げ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Elvish Mystic",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Creature - Elf Druid",
+      "text": "{T}: Add {G}.",
+      "flavor": "\"Life grows everywhere. My kin merely find those places where it grows strongest.\"<br>-Nissa Revane",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "7",
+      "artist": "Wesley Burt",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442743,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "エルフの神秘家",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Elvish Vanguard",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Warrior",
+      "text": "Whenever another Elf enters the battlefield, put a +1/+1 counter on Elvish Vanguard.",
+      "flavor": "\"Our lives are woven together like the trees' branches over our heads, forming a canopy that protects us all.\"",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "8",
+      "artist": "Steve Prescott",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442744,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "エルフの先兵",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ezuri's Archers",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Creature - Elf Archer",
+      "text": "Reach (This creature can block creatures with flying.)<br>Whenever Ezuri's Archers blocks a creature with flying, Ezuri's Archers gets +3/+0 until end of turn.",
+      "flavor": "Eyes and arrows trained ever skyward.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "9",
+      "artist": "Shelly Wan",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442745,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "エズーリの射手",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fierce Empath",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Elf",
+      "text": "When Fierce Empath enters the battlefield, you may search your library for a creature card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "10",
+      "artist": "Johann Bodin",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442746,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "激情の共感者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Gladehart Cavalry",
+      "manaCost": "{5}{G}{G}",
+      "cmc": 7,
+      "type": "Creature - Elf Knight",
+      "text": "When Gladehart Cavalry enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)<br>Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "11",
+      "artist": "Steven Belledin",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442747,
+      "power": 6.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "林鹿騎兵隊",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ivy Lane Denizen",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Elf Warrior",
+      "text": "Whenever another green creature enters the battlefield under your control, put a +1/+1 counter on target creature.",
+      "flavor": "\"Skyknight gear? Well, I have drake-skin gauntlets, supple and fireproof. Or a ceratok chestplate that'll stop a crossbow bolt.\"",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "12",
+      "artist": "Winona Nelson",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442748,
+      "power": 2.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "キヅタ小径の住人",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Jagged-Scar Archers",
+      "manaCost": "{1}{G}{G}",
+      "cmc": 3,
+      "type": "Creature - Elf Archer",
+      "text": "Jagged-Scar Archers's power and toughness are each equal to the number of Elves you control.<br>{T}: Jagged-Scar Archers deals damage equal to its power to target creature with flying.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "13",
+      "artist": "Paolo Parente",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442749,
+      "power": -1000.0,
+      "toughness": -1000.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "鋸歯傷の射手",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Krosan Tusker",
+      "manaCost": "{5}{G}{G}",
+      "cmc": 7,
+      "type": "Creature - Boar Beast",
+      "text": "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)<br>When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library. (Do this before you draw.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "14",
+      "artist": "Kev Walker",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442750,
+      "power": 6.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "クローサの大牙獣",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Kujar Seedsculptor",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Druid",
+      "text": "When Kujar Seedsculptor enters the battlefield, put a +1/+1 counter on target creature you control.",
+      "flavor": "Every leaf, tree, and building in Kujar has been placed to achieve maximum harmony, in accordance with the elvish philosophy known as the Great Conduit.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "15",
+      "artist": "Anna Steinbauer",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442751,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "クジャールの種子彫刻家",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Lead the Stampede",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "16",
+      "artist": "Efrem Palacios",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442752,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "暴走の先導",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Leaf Gilder",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Druid",
+      "text": "{T}: Add {G}.",
+      "flavor": "Eidren, perfect of Lys Alana, ordered hundreds of trees uprooted and rearranged into a pattern he deemed beautiful. Thus the Gilt-Leaf Wood was born.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "17",
+      "artist": "Quinton Hoover",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442753,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "葉光らせ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Llanowar Empath",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Elf Shaman",
+      "text": "When Llanowar Empath enters the battlefield, scry 2, then reveal the top card of your library. If it's a creature card, put it into your hand. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "18",
+      "artist": "Warren Mahy",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442754,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ラノワールの共感者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Naturalize",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Destroy target artifact or enchantment.",
+      "flavor": "The remains of ancient civilizations litter the run-down land.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "19",
+      "artist": "James Paick",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442755,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "帰化",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Nature's Way",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Target creature you control gains vigilance and trample until end of turn. It deals damage equal to its power to target creature you don't control.",
+      "flavor": "Many elves incorporate the beauty of nature into their inventions. Very few capture its savagery.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "20",
+      "artist": "Zack Stella",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442756,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "自然の流儀",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Nissa's Judgment",
+      "manaCost": "{4}{G}",
+      "cmc": 5,
+      "type": "Sorcery",
+      "text": "Support 2. (Put a +1/+1 counter on each of up to two target creatures.)<br>Choose up to one target creature an opponent controls. Each creature you control with a +1/+1 counter on it deals damage equal to its power to that creature.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "21",
+      "artist": "Tyler Jacobson",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442757,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ニッサの裁き",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Regal Force",
+      "manaCost": "{4}{G}{G}{G}",
+      "cmc": 7,
+      "type": "Creature - Elemental",
+      "text": "When Regal Force enters the battlefield, draw a card for each green creature you control.",
+      "flavor": "It rarely moves, standing stock still in its clearing. When it does stir, ravens stop their cawing and crickets their chirping. All of nature watches in awed silence.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "22",
+      "artist": "Brandon Kitkouski",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442758,
+      "power": 5.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "威厳の魔力",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Sylvan Advocate",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Druid Ally",
+      "text": "Vigilance<br>As long as you control six or more lands, Sylvan Advocate and land creatures you control get +2/+2.",
+      "flavor": "\"The land gives of itself. Its abundance provides, even in times of chaos.\"",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "23",
+      "artist": "Volkan Baǵa",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442759,
+      "power": 2.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "森の代言者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Talara's Battalion",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Warrior",
+      "text": "Cast this spell only if you've cast another green spell this turn.<br>Trample",
+      "flavor": "The safewright Talara protects a delicate woodland waterfall. She has vowed to send wave after wave of warriors to slay any who would dare disturb its beauty.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "24",
+      "artist": "Todd Lockwood",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442760,
+      "power": 4.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "タララの大隊",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Viridian Shaman",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Elf Shaman",
+      "text": "When Viridian Shaman enters the battlefield, destroy target artifact.",
+      "flavor": "She stands as a living symbol of the natural world and an enemy of the forces that threaten it.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "25",
+      "artist": "Scott M. Fischer",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442761,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ヴィリジアンのシャーマン",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Wildheart Invoker",
+      "manaCost": "{2}{G}{G}",
+      "cmc": 4,
+      "type": "Creature - Elf Shaman",
+      "text": "{8}: Target creature gets +5/+5 and gains trample until end of turn.",
+      "flavor": "\"Life as we know it dangles on the brink of extinction. We must show the strength they would steal from us.\"<br>-The Invokers' Tales",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "26",
+      "artist": "Erica Yang",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442762,
+      "power": 4.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "野心の発動者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Yeva, Nature's Herald",
+      "manaCost": "{2}{G}{G}",
+      "cmc": 4,
+      "type": "Legendary Creature - Elf Shaman",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>You may cast green creature spells as though they had flash.",
+      "flavor": "\"I can call an army to my side in the blink of an eye. Best not blink.\"",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "27",
+      "artist": "Eric Deschamps",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 442763,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "自然の伝令、イェヴァ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Oran-Rief, the Vastwood",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Oran-Rief, the Vastwood enters the battlefield tapped.<br>{T}: Add {G}.<br>{T}: Put a +1/+1 counter on each green creature that entered the battlefield this turn.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "28",
+      "artist": "Mike Bierek",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 442764,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "巨森、オラン＝リーフ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Tranquil Thicket",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Tranquil Thicket enters the battlefield tapped.<br>{T}: Add {G}.<br>Cycling {G} ({G}, Discard this card: Draw a card.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "29",
+      "artist": "Heather Hudson",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 442765,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "平穏な茂み",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Treetop Village",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Treetop Village enters the battlefield tapped.<br>{T}: Add {G}.<br>{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "30",
+      "artist": "Rob Alexander",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 442766,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "樹上の村",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "31",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 442767,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "32",
+      "artist": "Volkan Baǵa",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 442768,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "33",
+      "artist": "Jim Nelson",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 442769,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "34",
+      "artist": "Mark Tedin",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 442770,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Goblin Welder",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Creature - Goblin Artificer",
+      "text": "{T}: Choose target artifact a player controls and target artifact card in that player's graveyard. If both targets are still legal as this ability resolves, that player simultaneously sacrifices the artifact and returns the artifact card to the battlefield.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "M",
+      "number": "35",
+      "artist": "Victor Adame Minguez",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 442771,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴブリンの溶接工",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Artificer's Epiphany",
+      "manaCost": "{2}{U}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Draw two cards. If you control no artifacts, discard a card.",
+      "flavor": "The artificers of Kaladesh strive ceaselessly for perfection, progress, and the ultimate expression of elegance.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "36",
+      "artist": "Kieran Yanner",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 442772,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "工匠の天啓",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Etherium Sculptor",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Artifact Creature - Vedalken Artificer",
+      "text": "Artifact spells you cast cost {1} less to cast.",
+      "flavor": "The greatest masters of the craft abandon tools altogether, shaping metal with hand and mind alone.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "37",
+      "artist": "Steven Belledin",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 442773,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "エーテリウムの彫刻家",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Faerie Mechanist",
+      "manaCost": "{3}{U}",
+      "cmc": 4,
+      "type": "Artifact Creature - Faerie Artificer",
+      "text": "Flying<br>When Faerie Mechanist enters the battlefield, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "38",
+      "artist": "Matt Cavotta",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 442774,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "フェアリーの機械論者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Riddlesmith",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Creature - Human Artificer",
+      "text": "Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.",
+      "flavor": "The Neurok see the artificer as an archaeologist, clearing away falsehoods to see the truth hidden beneath.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "39",
+      "artist": "Eric Deschamps",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 442775,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "謎鍛冶",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Treasure Mage",
+      "manaCost": "{2}{U}",
+      "cmc": 3,
+      "type": "Creature - Human Wizard",
+      "text": "When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "40",
+      "artist": "Ryan Pancoast",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 442776,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "宝物の魔道士",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Trinket Mage",
+      "manaCost": "{2}{U}",
+      "cmc": 3,
+      "type": "Creature - Human Wizard",
+      "text": "When Trinket Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 1 or less, reveal that card, and put it into your hand. If you do, shuffle your library.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "41",
+      "artist": "Scott Chou",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 442777,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "粗石の魔道士",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Trophy Mage",
+      "manaCost": "{2}{U}",
+      "cmc": 3,
+      "type": "Creature - Human Wizard",
+      "text": "When Trophy Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 3, reveal it, put it into your hand, then shuffle your library.",
+      "flavor": "\"The tools of the past will help us forge the future.\"",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "42",
+      "artist": "Anna Steinbauer",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 442778,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "戦利品の魔道士",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Whirler Rogue",
+      "manaCost": "{2}{U}{U}",
+      "cmc": 4,
+      "type": "Creature - Human Rogue Artificer",
+      "text": "When Whirler Rogue enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.<br>Tap two untapped artifacts you control: Target creature can't be blocked this turn.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "43",
+      "artist": "Winona Nelson",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 442779,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "つむじ風のならず者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Barrage Ogre",
+      "manaCost": "{3}{R}{R}",
+      "cmc": 5,
+      "type": "Creature - Ogre Warrior",
+      "text": "{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to any target.",
+      "flavor": "The elves had devised countless strategies to combat Memnarch's war machines, but they had no idea what to do when one was thrown at them.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "44",
+      "artist": "David Rapoza",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 442780,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "連射のオーガ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Galvanic Blast",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Galvanic Blast deals 2 damage to any target.<br>Metalcraft - Galvanic Blast deals 4 damage instead if you control three or more artifacts.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "45",
+      "artist": "Marc Simonetti",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 442781,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "感電破",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ghirapur Gearcrafter",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "type": "Creature - Human Artificer",
+      "text": "When Ghirapur Gearcrafter enters the battlefield, create a 1/1 colorless Thopter artifact creature token with flying. (A creature with flying can't be blocked except by creatures with flying or reach.)",
+      "flavor": "The metal must be pure. The hand must be steady. The product must be perfect.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "46",
+      "artist": "Victor Adame Minguez",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 442782,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ギラプールの歯車造り",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Pia and Kiran Nalaar",
+      "manaCost": "{2}{R}{R}",
+      "cmc": 4,
+      "type": "Legendary Creature - Human Artificer",
+      "text": "When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.<br>{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to any target.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "47",
+      "artist": "Eric Deschamps",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 442783,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ピア・ナラーとキラン・ナラー",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Shrapnel Blast",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "As an additional cost to cast this spell, sacrifice an artifact.<br>Shrapnel Blast deals 5 damage to any target.",
+      "flavor": "From trinket to trauma.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "48",
+      "artist": "Hideaki Takamura",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 442784,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "爆片破",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Welding Sparks",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Welding Sparks deals X damage to target creature, where X is 3 plus the number of artifacts you control.",
+      "flavor": "\"The fires of invention burn in all of us. I fight for the freedom to unleash those flames.\"<br>-Pia Nalaar",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "49",
+      "artist": "Raymond Swanland",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 442785,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "溶接の火花",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Maverick Thopterist",
+      "manaCost": "{3}{U}{R}",
+      "cmc": 5,
+      "type": "Creature - Human Artificer",
+      "text": "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)<br>When Maverick Thopterist enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "50",
+      "artist": "Zack Stella",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 442786,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "異端の飛行機械職人",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Reclusive Artificer",
+      "manaCost": "{2}{U}{R}",
+      "cmc": 4,
+      "type": "Creature - Human Artificer",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>When Reclusive Artificer enters the battlefield, you may have it deal damage to target creature equal to the number of artifacts you control.",
+      "flavor": "It's wise not to disturb an artist at work.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "51",
+      "artist": "Cynthia Sheppard",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 442787,
+      "power": 2.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "隠棲した工匠",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Darksteel Plate",
+      "manaCost": "{3}",
+      "cmc": 3,
+      "type": "Artifact - Equipment",
+      "text": "Indestructible<br>Equipped creature has indestructible.<br>Equip {2}",
+      "flavor": "\"If there can be no victory, then I will fight forever.\"<br>-Koth of the Hammer",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "52",
+      "artist": "Daniel Ljunggren",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442788,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Filigree Familiar",
+      "manaCost": "{3}",
+      "cmc": 3,
+      "type": "Artifact Creature - Fox",
+      "text": "When Filigree Familiar enters the battlefield, you gain 2 life.<br>When Filigree Familiar dies, draw a card.",
+      "flavor": "\"It's the must-have gift for everyone on your list. Get one for yourself, too!\"<br>-Chammi, curio vendor",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "53",
+      "artist": "Izzy",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442789,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "金線の使い魔",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ichor Wellspring",
+      "manaCost": "{2}",
+      "cmc": 2,
+      "type": "Artifact",
+      "text": "When Ichor Wellspring enters the battlefield or is put into a graveyard from the battlefield, draw a card.",
+      "flavor": "\"Our glorious infection has taken hold.\"<br>-Elesh Norn, Grand Cenobite",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "54",
+      "artist": "Steven Belledin",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442790,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "胆液の水源",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Inventor's Goggles",
+      "manaCost": "{1}",
+      "cmc": 1,
+      "type": "Artifact - Equipment",
+      "text": "Equipped creature gets +1/+2.<br>Whenever an Artificer enters the battlefield under your control, you may attach Inventor's Goggles to it.<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "55",
+      "artist": "Jason Felix",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442791,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "発明者のゴーグル",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mycosynth Wellspring",
+      "manaCost": "{2}",
+      "cmc": 2,
+      "type": "Artifact",
+      "text": "When Mycosynth Wellspring enters the battlefield or is put into a graveyard from the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
+      "flavor": "The oil created the mycosynth. The mycosynth created New Phyrexia.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "56",
+      "artist": "David Rapoza",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442792,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "マイコシンスの水源",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Myr Battlesphere",
+      "manaCost": "{7}",
+      "cmc": 7,
+      "type": "Artifact Creature - Myr Construct",
+      "text": "When Myr Battlesphere enters the battlefield, create four 1/1 colorless Myr artifact creature tokens.<br>Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "57",
+      "artist": "Franz Vohwinkel",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442793,
+      "power": 4.0,
+      "toughness": 7.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "マイアの戦闘球",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Myr Sire",
+      "manaCost": "{2}",
+      "cmc": 2,
+      "type": "Artifact Creature - Myr",
+      "text": "When Myr Sire dies, create a 1/1 colorless Myr artifact creature token.",
+      "flavor": "For the Phyrexians, death is not an end, nor a one-time occurrence.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "58",
+      "artist": "Jaime Jones",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442794,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "マイアの種父",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Neurok Replica",
+      "manaCost": "{3}",
+      "cmc": 3,
+      "type": "Artifact Creature - Wizard",
+      "text": "{1}{U}, Sacrifice Neurok Replica: Return target creature to its owner's hand.",
+      "flavor": "All the curiosity of the Neurok with only a trace of their duplicity.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "59",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 442795,
+      "power": 1.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ニューロックの模造品",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Pyrite Spellbomb",
+      "manaCost": "{1}",
+      "cmc": 1,
+      "type": "Artifact",
+      "text": "{R}, Sacrifice Pyrite Spellbomb: It deals 2 damage to any target.<br>{1}, Sacrifice Pyrite Spellbomb: Draw a card.",
+      "flavor": "\"Melt that which was never frozen.\"<br>-Spellbomb inscription",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "60",
+      "artist": "Jim Nelson",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 442796,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "黄鉄の呪文爆弾",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Scuttling Doom Engine",
+      "manaCost": "{6}",
+      "cmc": 6,
+      "type": "Artifact Creature - Construct",
+      "text": "Scuttling Doom Engine can't be blocked by creatures with power 2 or less.<br>When Scuttling Doom Engine dies, it deals 6 damage to target opponent or planeswalker.",
+      "flavor": "A masterwork of spite, inspired by madness.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "61",
+      "artist": "Filip Burburan",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442797,
+      "power": 6.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "小走り破滅エンジン",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Solemn Simulacrum",
+      "manaCost": "{4}",
+      "cmc": 4,
+      "type": "Artifact Creature - Golem",
+      "text": "When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.<br>When Solemn Simulacrum dies, you may draw a card.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "62",
+      "artist": "Dan Scott",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442798,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "真面目な身代わり",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Thopter Assembly",
+      "manaCost": "{6}",
+      "cmc": 6,
+      "type": "Artifact Creature - Thopter",
+      "text": "Flying<br>At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner's hand and create five 1/1 colorless Thopter artifact creature tokens with flying.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "63",
+      "artist": "Svetlin Velinov",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442799,
+      "power": 5.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "飛行機械の組立工",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Voyager Staff",
+      "manaCost": "{1}",
+      "cmc": 1,
+      "type": "Artifact",
+      "text": "{2}, Sacrifice Voyager Staff: Exile target creature. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step.",
+      "flavor": "Voyager staffs are sought by those hoping to find an escape from the sprawling glut of Ravnica.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "64",
+      "artist": "Tsutomu Kawade",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442800,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "航海者の杖",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Darksteel Citadel",
+      "cmc": 0,
+      "type": "Artifact Land",
+      "text": "Indestructible<br>{T}: Add {C}.",
+      "flavor": "Structures built from darksteel yield to neither assault nor age.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "65",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442801,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ダークスティールの城塞",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Foundry of the Consuls",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}: Add {C}.<br>{5}, {T}, Sacrifice Foundry of the Consuls: Create two 1/1 colorless Thopter artifact creature tokens with flying.",
+      "flavor": "All around the foundry, automatons unhitched themselves from their mounts and pivoted to face Chandra.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "66",
+      "artist": "Sam Burley",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442802,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "領事の鋳造所",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Great Furnace",
+      "cmc": 0,
+      "type": "Artifact Land",
+      "text": "{T}: Add {R}.",
+      "flavor": "Kuldotha, wellspring of molten metal, temple of the goblin horde.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "67",
+      "artist": "Rob Alexander",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 442803,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "大焼炉",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Phyrexia's Core",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}: Add {C}.<br>{1}, {T}, Sacrifice an artifact: You gain 1 life.",
+      "flavor": "\"So even the heart of our world has succumbed.\"<br>-Koth of the Hammer",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "U",
+      "number": "68",
+      "artist": "Franz Vohwinkel",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 442804,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ファイレクシアの核",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Seat of the Synod",
+      "cmc": 0,
+      "type": "Artifact Land",
+      "text": "(Seat of the Synod isn't a spell.)<br>{T}: Add {U}.",
+      "flavor": "Lumengrid, site of the Knowledge Pool, source of vedalken arcana.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "69",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 442805,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "教議会の座席",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Shivan Reef",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}: Add {C}.<br>{T}: Add {U} or {R}. Shivan Reef deals 1 damage to you.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "70",
+      "artist": "Rob Alexander",
+      "color": "",
+      "colorIdentity": "UR",
+      "multiverseId": 442806,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "シヴの浅瀬",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Swiftwater Cliffs",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Swiftwater Cliffs enters the battlefield tapped.<br>When Swiftwater Cliffs enters the battlefield, you gain 1 life.<br>{T}: Add {U} or {R}.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "71",
+      "artist": "Eytan Zana",
+      "color": "",
+      "colorIdentity": "UR",
+      "multiverseId": 442807,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "急流の崖",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Temple of Epiphany",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Temple of Epiphany enters the battlefield tapped.<br>When Temple of Epiphany enters the battlefield, scry 1.<br>{T}: Add {U} or {R}.",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "R",
+      "number": "72",
+      "artist": "Yeong-Hao Han",
+      "color": "",
+      "colorIdentity": "UR",
+      "multiverseId": 442808,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "天啓の神殿",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "73",
+      "artist": "Jung Park",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 442809,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "74",
+      "artist": "Johannes Voss",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 442810,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "75",
+      "artist": "Tomasz Jedruszek",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 442811,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDU",
+      "scryfallSetCode": "DDU",
+      "rarity": "C",
+      "number": "76",
+      "artist": "Eytan Zana",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 442812,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    }
+  ]
+}

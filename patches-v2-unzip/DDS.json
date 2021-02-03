@@ -1,0 +1,1541 @@
+{
+  "expansion": {
+    "name_gatherer": "Duel Decks: Mind vs. Might",
+    "code_gatherer": "DDS",
+    "code_mtgi": "DDS",
+    "name_tcgp": "Duel Decks: Mind vs. Might",
+    "name_mkm": "Duel Decks: Mind vs. Might",
+    "releaseTimestamp": 1490932800,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "type": "duel_deck",
+    "digest": "c7ca62165b509af60f349ae9512cbdb5",
+    "expansionImageURLs": [
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDS_C.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDS_M.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDS_R.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDS_U.png"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Jhoira of the Ghitu",
+      "manaCost": "{1}{U}{R}",
+      "cmc": 3,
+      "type": "Legendary Creature - Human Wizard",
+      "text": "{2}, Exile a nonland card from your hand: Put four time counters on the exiled card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, cast it without paying its mana cost. If it's a creature, it has haste.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "M",
+      "number": "1",
+      "artist": "Magali Villeneuve",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 426573,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ギトゥのジョイラ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Beacon of Tomorrows",
+      "manaCost": "{6}{U}{U}",
+      "cmc": 8,
+      "type": "Sorcery",
+      "text": "Target player takes an extra turn after this one. Shuffle Beacon of Tomorrows into its owner's library.",
+      "flavor": "To look into its light is to meet the gaze of history.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "2",
+      "artist": "Jeremy Jarvis",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426574,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "明日の標",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Deep-Sea Kraken",
+      "manaCost": "{7}{U}{U}{U}",
+      "cmc": 10,
+      "type": "Creature - Kraken",
+      "text": "Deep-Sea Kraken can't be blocked.<br>Suspend 9-{2}{U} (Rather than cast this card from your hand, you may pay {2}{U} and exile it with nine time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>Whenever an opponent casts a spell, if Deep-Sea Kraken is suspended, remove a time counter from it.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "3",
+      "artist": "Christopher Moeller",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426575,
+      "power": 6.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "深海のクラーケン",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mind's Desire",
+      "manaCost": "{4}{U}{U}",
+      "cmc": 6,
+      "type": "Sorcery",
+      "text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. (If it has X in its mana cost, X is 0.)<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "4",
+      "artist": "Anthony Francisco",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426576,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "精神の願望",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Peer Through Depths",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Instant - Arcane",
+      "text": "Look at the top five cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "5",
+      "artist": "Anthony S. Waters",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426577,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "深遠の覗き見",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Quicken",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "The next sorcery card you cast this turn can be cast as though it had flash. (It can be cast any time you could cast an instant.)<br>Draw a card.",
+      "flavor": "A skilled Izzet Chronarch can carry out an epic vendetta between the fall of one hourglass grain and the next.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "6",
+      "artist": "Aleksi Briclot",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426578,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "急かし",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Reach Through Mists",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "type": "Instant - Arcane",
+      "text": "Draw a card.",
+      "flavor": "\"Know one part of the name, obsession begins. Know two parts, paranoia sets in. Know three parts, madness descends. Know all, and only the kami know what will become of you.\"<br>-Lady Azami",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "7",
+      "artist": "Anthony S. Waters",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426579,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "霧中の到達",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Sage-Eye Avengers",
+      "manaCost": "{4}{U}{U}",
+      "cmc": 6,
+      "type": "Creature - Djinn Monk",
+      "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)<br>Whenever Sage-Eye Avengers attacks, you may return target creature to its owner's hand if its power is less than Sage-Eye Avengers's power.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "8",
+      "artist": "Dan Scott",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426580,
+      "power": 4.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "賢者眼の報復者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Sift Through Sands",
+      "manaCost": "{1}{U}{U}",
+      "cmc": 3,
+      "type": "Instant - Arcane",
+      "text": "Draw two cards, then discard a card.<br>If you've cast a spell named Peer Through Depths and a spell named Reach Through Mists this turn, you may search your library for a card named The Unspeakable, put it onto the battlefield, then shuffle your library.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "9",
+      "artist": "Anthony S. Waters",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426581,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "砂のふるい分け",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Snap",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Return target creature to its owner's hand. Untap up to two lands.",
+      "flavor": "It doesn't matter if the mind or body cracks first. They both have to go.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "10",
+      "artist": "Véronique Meignaud",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426582,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "断絶",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Talrand, Sky Summoner",
+      "manaCost": "{2}{U}{U}",
+      "cmc": 4,
+      "type": "Legendary Creature - Merfolk Wizard",
+      "text": "Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying.",
+      "flavor": "\"The seas are vast, but the skies are even more so. Why be content with one kingdom when I can rule them both?\"",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "11",
+      "artist": "Svetlin Velinov",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426583,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "空召喚士ターランド",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Temporal Fissure",
+      "manaCost": "{4}{U}",
+      "cmc": 5,
+      "type": "Sorcery",
+      "text": "Return target permanent to its owner's hand.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "12",
+      "artist": "Seb McKinnon",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426584,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "時間の亀裂",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "The Unspeakable",
+      "manaCost": "{6}{U}{U}{U}",
+      "cmc": 9,
+      "type": "Legendary Creature - Spirit",
+      "text": "Flying, trample<br>Whenever The Unspeakable deals combat damage to a player, you may return target Arcane card from your graveyard to your hand.",
+      "flavor": "The rumors are horrifying; the truth is worse.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "13",
+      "artist": "Daarken",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 426585,
+      "power": 6.0,
+      "toughness": 7.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "語られざるもの、忌話図",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Desperate Ritual",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Instant - Arcane",
+      "text": "Add {R}{R}{R}.<br>Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "14",
+      "artist": "Wayne Reynolds",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426586,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "捨て身の儀式",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Empty the Warrens",
+      "manaCost": "{3}{R}",
+      "cmc": 4,
+      "type": "Sorcery",
+      "text": "Create two 1/1 red Goblin creature tokens.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+      "flavor": "It's never just one goblin.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "15",
+      "artist": "Jasper Sandner",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426587,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "巣穴からの総出",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Grapeshot",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Grapeshot deals 1 damage to any target.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+      "flavor": "Mages often seek to emulate the powerful relics lost to time and apocalypse.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "16",
+      "artist": "Clint Cearley",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426588,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ぶどう弾",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Rift Bolt",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Rift Bolt deals 3 damage to any target.<br>Suspend 1-{R} (Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "17",
+      "artist": "Daniel Ljunggren",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426589,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "裂け目の稲妻",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Shivan Meteor",
+      "manaCost": "{3}{R}{R}",
+      "cmc": 5,
+      "type": "Sorcery",
+      "text": "Shivan Meteor deals 13 damage to target creature.<br>Suspend 2-{1}{R}{R} (Rather than cast this card from your hand, you may pay {1}{R}{R} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "18",
+      "artist": "Chippy",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426590,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "シヴ山の隕石",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Volcanic Vision",
+      "manaCost": "{5}{R}{R}",
+      "cmc": 7,
+      "type": "Sorcery",
+      "text": "Return target instant or sorcery card from your graveyard to your hand. Volcanic Vision deals damage equal to that card's converted mana cost to each creature your opponents control. Exile Volcanic Vision.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "19",
+      "artist": "Noah Bradley",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426591,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "火山の幻視",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Young Pyromancer",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Creature - Human Shaman",
+      "text": "Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token.",
+      "flavor": "Immolation is the sincerest form of flattery.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "20",
+      "artist": "Cynthia Sheppard",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426592,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "若き紅蓮術士",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Firemind's Foresight",
+      "manaCost": "{5}{U}{R}",
+      "cmc": 7,
+      "type": "Instant",
+      "text": "Search your library for an instant card with converted mana cost 3, reveal it, and put it into your hand. Then repeat this process for instant cards with converted mana costs 2 and 1. Then shuffle your library.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "21",
+      "artist": "Dan Scott",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 426593,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "火想者の予見",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Goblin Electromancer",
+      "manaCost": "{U}{R}",
+      "cmc": 2,
+      "type": "Creature - Goblin Wizard",
+      "text": "Instant and sorcery spells you cast cost {1} less to cast.",
+      "flavor": "When asked how much power is required, Izzet mages always answer \"more.\"",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "22",
+      "artist": "Svetlin Velinov",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 426594,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ゴブリンの電術師",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Jori En, Ruin Diver",
+      "manaCost": "{1}{U}{R}",
+      "cmc": 3,
+      "type": "Legendary Creature - Merfolk Wizard",
+      "text": "Whenever you cast your second spell each turn, draw a card.",
+      "flavor": "\"Some relic hunters have given up exploring and gone to fight the Eldrazi. But I know our work is more important than ever. The secrets we uncover could lead to the world's salvation.\"",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "23",
+      "artist": "Igor Kieryluk",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 426595,
+      "power": 2.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "遺跡潜り、ジョリー・エン",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Nivix Cyclops",
+      "manaCost": "{1}{U}{R}",
+      "cmc": 3,
+      "type": "Creature - Cyclops",
+      "text": "Defender<br>Whenever you cast an instant or sorcery spell, Nivix Cyclops gets +3/+0 until end of turn and can attack this turn as though it didn't have defender.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "24",
+      "artist": "Wayne Reynolds",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 426596,
+      "power": 1.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ニヴィックスのサイクロプス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Spellheart Chimera",
+      "manaCost": "{1}{U}{R}",
+      "cmc": 3,
+      "type": "Creature - Chimera",
+      "text": "Flying, trample<br>Spellheart Chimera's power is equal to the number of instant and sorcery cards in your graveyard.",
+      "flavor": "Thaumaturges remain silent around chimeras, lest their words conjure even stranger beasts.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "25",
+      "artist": "Svetlin Velinov",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 426597,
+      "power": -1000.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "魔心のキマイラ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Nucklavee",
+      "manaCost": "{4}{U/R}{U/R}",
+      "cmc": 6,
+      "type": "Creature - Beast",
+      "text": "When Nucklavee enters the battlefield, you may return target red sorcery card from your graveyard to your hand.<br>When Nucklavee enters the battlefield, you may return target blue instant card from your graveyard to your hand.",
+      "flavor": "It loathes all tastes but two: spells and flesh.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "26",
+      "artist": "Trevor Hairsine",
+      "color": "UR",
+      "colorIdentity": "UR",
+      "multiverseId": 426598,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ナックラヴィー",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Swiftwater Cliffs",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Swiftwater Cliffs enters the battlefield tapped.<br>When Swiftwater Cliffs enters the battlefield, you gain 1 life.<br>{T}: Add {U} or {R}.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "27",
+      "artist": "Eytan Zana",
+      "color": "",
+      "colorIdentity": "UR",
+      "multiverseId": 426599,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "急流の崖",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "28",
+      "artist": "Rob Alexander",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 426600,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "29",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 426601,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "30",
+      "artist": "Cliff Childs",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 426602,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "31",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 426603,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "32",
+      "artist": "Cliff Childs",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 426604,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "33",
+      "artist": "Craig Mullins",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 426605,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Lovisa Coldeyes",
+      "manaCost": "{3}{R}{R}",
+      "cmc": 5,
+      "type": "Legendary Creature - Human",
+      "text": "Each creature that's a Barbarian, a Warrior, or a Berserker gets +2/+2 and has haste.",
+      "flavor": "\"A massacre? It is a mercy we grant them. This way they won't freeze to death.\"",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "M",
+      "number": "34",
+      "artist": "Anna Steinbauer",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426606,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "冷眼のロヴィサ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Beacon of Destruction",
+      "manaCost": "{3}{R}{R}",
+      "cmc": 5,
+      "type": "Instant",
+      "text": "Beacon of Destruction deals 5 damage to any target. Shuffle Beacon of Destruction into its owner's library.",
+      "flavor": "The Great Furnace's blessing is a spectacular sight, but the best view comes at a high cost.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "35",
+      "artist": "Greg Hildebrandt",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426607,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "破壊の標",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Boldwyr Intimidator",
+      "manaCost": "{5}{R}{R}",
+      "cmc": 7,
+      "type": "Creature - Giant Warrior",
+      "text": "Cowards can't block Warriors.<br>{R}: Target creature becomes a Coward until end of turn.<br>{2}{R}: Target creature becomes a Warrior until end of turn.",
+      "flavor": "\"Now everyone knows what you are.\"",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "36",
+      "artist": "Esad Ribic",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426608,
+      "power": 5.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ボールドウィアの威嚇者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Firebolt",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Sorcery",
+      "text": "Firebolt deals 2 damage to any target.<br>Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "flavor": "\"There's more where that came from!\"",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "37",
+      "artist": "Chris Rallis",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426609,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "炎の稲妻",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Gorehorn Minotaurs",
+      "manaCost": "{2}{R}{R}",
+      "cmc": 4,
+      "type": "Creature - Minotaur Warrior",
+      "text": "Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)",
+      "flavor": "Some of the eleven minotaur clans of Mirtiin are expert crafters and learned philosophers. Others just like to hit stuff.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "38",
+      "artist": "Wayne Reynolds",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426610,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "血まみれ角のミノタウルス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Kamahl, Pit Fighter",
+      "manaCost": "{4}{R}{R}",
+      "cmc": 6,
+      "type": "Legendary Creature - Human Barbarian",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>{T}: Kamahl, Pit Fighter deals 3 damage to any target.",
+      "flavor": "In times when freedom seems lost, great souls arise to reclaim it.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "39",
+      "artist": "Kev Walker",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426611,
+      "power": 6.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ピット・ファイター、カマール",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Kruin Striker",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Creature - Human Warrior",
+      "text": "Whenever another creature enters the battlefield under your control, Kruin Striker gets +1/+0 and gains trample until end of turn.",
+      "flavor": "Unhappy with the creation of the wolfir, Rorica broke with her order and led a crusade against the \"reformed werewolves.\"",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "40",
+      "artist": "Christopher Moeller",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426612,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "クルーインの打撃者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Zo-Zu the Punisher",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3,
+      "type": "Legendary Creature - Goblin Warrior",
+      "text": "Whenever a land enters the battlefield, Zo-Zu the Punisher deals 2 damage to that land's controller.",
+      "flavor": "He does not tolerate intruders.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "41",
+      "artist": "Wayne Reynolds",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 426613,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "罰する者、ゾーズー",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ambassador Oak",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Treefolk Warrior",
+      "text": "When Ambassador Oak enters the battlefield, create a 1/1 green Elf Warrior creature token.",
+      "flavor": "Treefolk and elves share a common interest in the forests, but really the elves just feel at home with the view from above.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "42",
+      "artist": "Steve Prescott",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426614,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "大使の樫",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Beast Attack",
+      "manaCost": "{2}{G}{G}{G}",
+      "cmc": 5,
+      "type": "Instant",
+      "text": "Create a 4/4 green Beast creature token.<br>Flashback {2}{G}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "43",
+      "artist": "Ciruelo",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426615,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "獣の襲撃",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Call of the Herd",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Create a 3/3 green Elephant creature token.<br>Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "44",
+      "artist": "Carl Critchlow",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426616,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "獣群の呼び声",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Cloudcrown Oak",
+      "manaCost": "{2}{G}{G}",
+      "cmc": 4,
+      "type": "Creature - Treefolk Warrior",
+      "text": "Reach (This creature can block creatures with flying.)",
+      "flavor": "\"Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it'll get swatted from here to Cloverdell.\"<br>-Calydd, kithkin farmer",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "45",
+      "artist": "Rebecca Guay",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426617,
+      "power": 3.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "雲冠の樫",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Harmonize",
+      "manaCost": "{2}{G}{G}",
+      "cmc": 4,
+      "type": "Sorcery",
+      "text": "Draw three cards.",
+      "flavor": "\"Words lie. People lie. The land tells the truth.\"",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "46",
+      "artist": "Paul Lee",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426618,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "調和",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Increasing Savagery",
+      "manaCost": "{2}{G}{G}",
+      "cmc": 4,
+      "type": "Sorcery",
+      "text": "Put five +1/+1 counters on target creature. If this spell was cast from a graveyard, put ten +1/+1 counters on that creature instead.<br>Flashback {5}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "47",
+      "artist": "Steve Prescott",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426619,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "高まる残虐性",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Rampant Growth",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.",
+      "flavor": "Nature grows solutions to its problems.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "48",
+      "artist": "Steven Belledin",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426620,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "不屈の自然",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Roar of the Wurm",
+      "manaCost": "{6}{G}",
+      "cmc": 7,
+      "type": "Sorcery",
+      "text": "Create a 6/6 green Wurm creature token.<br>Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "49",
+      "artist": "Kev Walker",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426621,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ワームの咆哮",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Skarrgan Pit-Skulk",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Creature - Human Warrior",
+      "text": "Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)<br>Creatures with power less than Skarrgan Pit-Skulk's power can't block it.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "50",
+      "artist": "Liam Sharp",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426622,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "スカルガンの穴潜み",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Sylvan Might",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Target creature gets +2/+2 and gains trample until end of turn.<br>Flashback {2}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "51",
+      "artist": "Arnie Swekel",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426623,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "森の力",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Talara's Battalion",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Warrior",
+      "text": "Cast this spell only if you've cast another green spell this turn.<br>Trample",
+      "flavor": "The safewright Talara protects a delicate woodland waterfall. She has vowed to send wave after wave of warriors to slay any who would dare disturb its beauty.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "52",
+      "artist": "Todd Lockwood",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 426624,
+      "power": 4.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "タララの大隊",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Radha, Heir to Keld",
+      "manaCost": "{R}{G}",
+      "cmc": 2,
+      "type": "Legendary Creature - Elf Warrior",
+      "text": "Whenever Radha, Heir to Keld attacks, you may add {R}{R}.<br>{T}: Add {G}.",
+      "flavor": "\"Run home, cur. I've already taken your master's head. Don't make me thrash you with it.\"",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "53",
+      "artist": "Jim Murray",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 426625,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ケルドの後継者、ラーダ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Relentless Hunter",
+      "manaCost": "{1}{R}{G}",
+      "cmc": 3,
+      "type": "Creature - Human Warrior",
+      "text": "{1}{R}{G}: Relentless Hunter gets +1/+1 and gains trample until end of turn.",
+      "flavor": "\"I swore to take one head for each member of my family they killed. My task is nowhere near its end.\"",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "54",
+      "artist": "Matt Stewart",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 426626,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "執拗な狩人",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Burning-Tree Emissary",
+      "manaCost": "{R/G}{R/G}",
+      "cmc": 2,
+      "type": "Creature - Human Shaman",
+      "text": "When Burning-Tree Emissary enters the battlefield, add {R}{G}.",
+      "flavor": "Those who regard the Gruul as savage simpletons underestimate the subtle power of their shamans.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "55",
+      "artist": "Izzy",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 426627,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "炎樹族の使者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Guttural Response",
+      "manaCost": "{R/G}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Counter target blue instant spell.",
+      "flavor": "A savage cry with the power to shatter minds.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "U",
+      "number": "56",
+      "artist": "Ben Wootten",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 426628,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "耳障りな反応",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Rubblebelt Raiders",
+      "manaCost": "{1}{R/G}{R/G}{R/G}",
+      "cmc": 4,
+      "type": "Creature - Human Warrior",
+      "text": "Whenever Rubblebelt Raiders attacks, put a +1/+1 counter on it for each attacking creature you control.",
+      "flavor": "\"This city will perish, and the Gruul will cheer as the boar-god crushes the last bricks into dust.\"<br>-Nikya of the Old Ways",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "57",
+      "artist": "Chippy",
+      "color": "RG",
+      "colorIdentity": "RG",
+      "multiverseId": 426629,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "瓦礫帯の略奪者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Coat of Arms",
+      "manaCost": "{5}",
+      "cmc": 5,
+      "type": "Artifact",
+      "text": "Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. (For example, if two Goblin Warriors and a Goblin Shaman are on the battlefield, each gets +2/+2.)",
+      "flavor": "A banner for bonds of blood or belief.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "R",
+      "number": "58",
+      "artist": "Scott M. Fischer",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 426630,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "旗印",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Rugged Highlands",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Rugged Highlands enters the battlefield tapped.<br>When Rugged Highlands enters the battlefield, you gain 1 life.<br>{T}: Add {R} or {G}.",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "59",
+      "artist": "Eytan Zana",
+      "color": "",
+      "colorIdentity": "RG",
+      "multiverseId": 426631,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "岩だらけの高地",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "60",
+      "artist": "Jonas De Ro",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 426632,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "61",
+      "artist": "Nils Hamm",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 426633,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "62",
+      "artist": "Karl Kopinski",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 426634,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "63",
+      "artist": "John Avon",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 426635,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "64",
+      "artist": "Jim Nelson",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 426636,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDS",
+      "scryfallSetCode": "DDS",
+      "rarity": "C",
+      "number": "65",
+      "artist": "Stephen Tappin",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 426637,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    }
+  ]
+}

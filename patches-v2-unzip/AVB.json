@@ -1,0 +1,2890 @@
+{
+  "expansion": {
+    "name_gatherer": "Duel Decks: Ajani vs. Nicol Bolas",
+    "code_gatherer": "AVB",
+    "code_mtgi": "DDH",
+    "name_tcgp": "Duel Decks: Ajani vs. Nicol Bolas",
+    "name_mkm": "Duel Decks: Ajani vs. Nicol Bolas",
+    "releaseTimestamp": 1314936000,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "type": "duel_deck",
+    "digest": "9f97cc46b26421c4bc16ff405be27ce9",
+    "expansionImageURLs": [
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AVB_C.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AVB_M.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AVB_R.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AVB_U.png"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Ajani Vengeant",
+      "manaCost": "{2}{R}{W}",
+      "cmc": 4,
+      "type": "Legendary Planeswalker - Ajani",
+      "text": "[+1]: Target permanent doesn't untap during its controller's next untap step.<br>[−2]: Ajani Vengeant deals 3 damage to any target and you gain 3 life.<br>[−7]: Destroy all lands target player controls.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "M",
+      "number": "1",
+      "artist": "Izzy",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 266299,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": 3,
+      "foreignPrintings": [
+        {
+          "name": "Ajani der Rächer",
+          "languageCode": "de"
+        },
+        {
+          "name": "Ajani Vengativo",
+          "languageCode": "es"
+        },
+        {
+          "name": "Ajani le Vengeur",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Ajani Vendicativo",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Kird Ape",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "type": "Creature - Ape",
+      "text": "Kird Ape gets +1/+2 as long as you control a Forest.",
+      "flavor": "Apes can be gentle, contemplative beasts-but context is everything.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "2",
+      "artist": "Terese Nielsen",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 249382,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Kird der Menschenaffe",
+          "languageCode": "de"
+        },
+        {
+          "name": "Simio de Kird",
+          "languageCode": "es"
+        },
+        {
+          "name": "Gorille beringeï",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Gorilla di Kird",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Essence Warden",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Creature - Elf Shaman",
+      "text": "Whenever another creature enters the battlefield, you gain 1 life.",
+      "flavor": "\"The more our numbers grow, the more I gain hope that Volrath and his cursed stronghold will one day fall.\"<br>-Eladamri, Lord of Leaves",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "3",
+      "artist": "Terese Nielsen",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 249374,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Hüter des Lebenssafts",
+          "languageCode": "de"
+        },
+        {
+          "name": "Protectora de esencia",
+          "languageCode": "es"
+        },
+        {
+          "name": "Garde d'essence",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Guardiana dell'Essenza",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Wild Nacatl",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Creature - Cat Warrior",
+      "text": "Wild Nacatl gets +1/+1 as long as you control a Mountain.<br>Wild Nacatl gets +1/+1 as long as you control a Plains.",
+      "flavor": "\"The Cloud Nacatl sit and think, a bunch of soft paws. We are the Claws of Marisi, stalking, pouncing, drawing blood.\"",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "4",
+      "artist": "Wayne Reynolds",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 249401,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Wilder Nacatl",
+          "languageCode": "de"
+        },
+        {
+          "name": "Nacatl salvaje",
+          "languageCode": "es"
+        },
+        {
+          "name": "Nacatl sauvage",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Nacatl Selvatica",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Loam Lion",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "type": "Creature - Cat",
+      "text": "Loam Lion gets +1/+2 as long as you control a Forest.",
+      "flavor": "In Zendikar, today's grassland could be tomorrow's jungle, and hunting grounds change as quickly as the weather.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "5",
+      "artist": "Daniel Ljunggren",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 249377,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Lehmlöwe",
+          "languageCode": "de"
+        },
+        {
+          "name": "León del barro",
+          "languageCode": "es"
+        },
+        {
+          "name": "Lion du terreau",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Leone d'Argilla",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Canyon Wildcat",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Creature - Cat",
+      "text": "Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)",
+      "flavor": "\"Relative of yours?\" Ertai teased. Mirri simply sneered.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "6",
+      "artist": "Gary Leach",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 249412,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Berglöwe",
+          "languageCode": "de"
+        },
+        {
+          "name": "Lince de los desfiladeros",
+          "languageCode": "es"
+        },
+        {
+          "name": "Chat sauvage des canyons",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Lince dei Canyon",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Jade Mage",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Human Shaman",
+      "text": "{2}{G}: Create a 1/1 green Saproling creature token.",
+      "flavor": "\"We are one with the wild things. Life blooms from our fingertips and nature responds to our summons.\"<br>-Jade creed",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "7",
+      "artist": "Izzy",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 249397,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Jademagier",
+          "languageCode": "de"
+        },
+        {
+          "name": "Mago de jade",
+          "languageCode": "es"
+        },
+        {
+          "name": "Mage du jade",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Maga di Giada",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Sylvan Ranger",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Scout",
+      "text": "When Sylvan Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
+      "flavor": "\"Not all paths are found on the forest floor.\"",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "8",
+      "artist": "Christopher Moeller",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 249399,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Waldhüter",
+          "languageCode": "de"
+        },
+        {
+          "name": "Guardabosque silvano",
+          "languageCode": "es"
+        },
+        {
+          "name": "Ranger sylvestre",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Ranger Silvana",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Ajani's Pridemate",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Creature - Cat Soldier",
+      "text": "Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate.",
+      "flavor": "\"When one of us prospers, the pride prospers.\"<br>-Jazal Goldmane",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "9",
+      "artist": "Svetlin Velinov",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 249413,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Ajanis Rudelmitglied",
+          "languageCode": "de"
+        },
+        {
+          "name": "Compañero de manada de Ajani",
+          "languageCode": "es"
+        },
+        {
+          "name": "Frère de bande d'Ajani",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Compagno di Ajani",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Qasali Pridemage",
+      "manaCost": "{G}{W}",
+      "cmc": 2,
+      "type": "Creature - Cat Wizard",
+      "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)<br>{1}, Sacrifice Qasali Pridemage: Destroy target artifact or enchantment.",
+      "flavor": "An elder in one pride, of the Sigiled caste in another.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "10",
+      "artist": "Chris Rahn",
+      "color": "WG",
+      "colorIdentity": "WG",
+      "multiverseId": 249405,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Qasal-Rudelmagier",
+          "languageCode": "de"
+        },
+        {
+          "name": "Mago de manada qasali",
+          "languageCode": "es"
+        },
+        {
+          "name": "Bandemage qasali",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Mago del Branco di Qasal",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Grazing Gladehart",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Antelope",
+      "text": "Landfall - Whenever a land enters the battlefield under your control, you may gain 2 life.",
+      "flavor": "\"Don't be fooled. If it were as docile as it looks, it would've died off long ago.\"<br>-Yon Basrel, Oran-Rief survivalist",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "11",
+      "artist": "Ryan Pancoast",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 249378,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Grasender Wiesenhirsch",
+          "languageCode": "de"
+        },
+        {
+          "name": "Venado del claro",
+          "languageCode": "es"
+        },
+        {
+          "name": "Cerfeclair paissant",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Cervo delle Radure al Pascolo",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Fleetfoot Panther",
+      "manaCost": "{1}{G}{W}",
+      "cmc": 3,
+      "type": "Creature - Cat",
+      "text": "Flash<br>When Fleetfoot Panther enters the battlefield, return a green or white creature you control to its owner's hand.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "12",
+      "artist": "Mark Brill",
+      "color": "WG",
+      "colorIdentity": "WG",
+      "multiverseId": 249391,
+      "power": 3.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Leichtfüßiger Panther",
+          "languageCode": "de"
+        },
+        {
+          "name": "Pantera veloz",
+          "languageCode": "es"
+        },
+        {
+          "name": "Panthère pattes-de-velours",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Pantera Zampalesta",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Woolly Thoctar",
+      "manaCost": "{R}{G}{W}",
+      "cmc": 3,
+      "type": "Creature - Beast",
+      "flavor": "One of the most ferocious and deadly gargantuans, the thoctar never sees its worshippers, but it often awakens surrounded by gifts and sacrifices.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "13",
+      "artist": "Wayne Reynolds",
+      "color": "WRG",
+      "colorIdentity": "WRG",
+      "multiverseId": 249368,
+      "power": 5.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Wolliges Thoktar",
+          "languageCode": "de"
+        },
+        {
+          "name": "Thoctar lanudo",
+          "languageCode": "es"
+        },
+        {
+          "name": "Thoctar laineux",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Thoctar Lanuto",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Briarhorn",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Elemental",
+      "text": "Flash<br>When Briarhorn enters the battlefield, target creature gets +3/+3 until end of turn.<br>Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "14",
+      "artist": "Nils Hamm",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 249383,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Dornenhorn",
+          "languageCode": "de"
+        },
+        {
+          "name": "Cuernos de zarza",
+          "languageCode": "es"
+        },
+        {
+          "name": "Corne de bruyère",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Rovo Cornuto",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Loxodon Hierarch",
+      "manaCost": "{2}{G}{W}",
+      "cmc": 4,
+      "type": "Creature - Elephant Cleric",
+      "text": "When Loxodon Hierarch enters the battlefield, you gain 4 life.<br>{G}{W}, Sacrifice Loxodon Hierarch: Regenerate each creature you control.",
+      "flavor": "\"I have lived long, and I remember how this city once was. If my death serves to bring back the Ravnica in my memory, then so be it.\"",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "R",
+      "number": "15",
+      "artist": "Kev Walker",
+      "color": "WG",
+      "colorIdentity": "WG",
+      "multiverseId": 249414,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Loxodon-Hierarch",
+          "languageCode": "de"
+        },
+        {
+          "name": "Jerarca loxodón",
+          "languageCode": "es"
+        },
+        {
+          "name": "Hiérarche loxodon",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Gerarca Lossodonte",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Spitemare",
+      "manaCost": "{2}{R/W}{R/W}",
+      "cmc": 4,
+      "type": "Creature - Elemental",
+      "text": "Whenever Spitemare is dealt damage, it deals that much damage to any target.",
+      "flavor": "\"I knew a creature carved from a dream of wild freedom. Any attempt to leash or exploit it failed, and at terrible cost.\"<br>-Ashling",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "16",
+      "artist": "Matt Cavotta",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 249388,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Rachestute",
+          "languageCode": "de"
+        },
+        {
+          "name": "Yegua del rencor",
+          "languageCode": "es"
+        },
+        {
+          "name": "Cheval de malveillance",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Giumenta Maligna",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Marisi's Twinclaws",
+      "manaCost": "{2}{R/W}{G}",
+      "cmc": 4,
+      "type": "Creature - Cat Warrior",
+      "text": "Double strike",
+      "flavor": "\"Looks like we're completely outnumbered.\"<br>\"Lucky for us. I thought we'd be bored.\"",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "17",
+      "artist": "Izzy",
+      "color": "WRG",
+      "colorIdentity": "WRG",
+      "multiverseId": 249375,
+      "power": 2.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Marisis Zwillingskämpfer",
+          "languageCode": "de"
+        },
+        {
+          "name": "Garras gemelas marisi",
+          "languageCode": "es"
+        },
+        {
+          "name": "Jumegriffes de Marisi",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Artigli Gemelli di Marisi",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Ageless Entity",
+      "manaCost": "{3}{G}{G}",
+      "cmc": 5,
+      "type": "Creature - Elemental",
+      "text": "Whenever you gain life, put that many +1/+1 counters on Ageless Entity.",
+      "flavor": "Tel-Jilad's sworn protectors are the trolls, yet more fearsome protectors were created by the Tangle itself.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "R",
+      "number": "18",
+      "artist": "Jeff Miracola",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 249411,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Zeitloses Etwas",
+          "languageCode": "de"
+        },
+        {
+          "name": "Entidad sempiterna",
+          "languageCode": "es"
+        },
+        {
+          "name": "Entité sans âge",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Entità Eterna",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Pride of Lions",
+      "manaCost": "{3}{G}{G}",
+      "cmc": 5,
+      "type": "Creature - Cat",
+      "text": "You may have Pride of Lions assign its combat damage as though it weren't blocked.",
+      "flavor": "There's only one thing worse than a hungry lion-many hungry lions.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "19",
+      "artist": "Carl Critchlow",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 249371,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Löwenrudel",
+          "languageCode": "de"
+        },
+        {
+          "name": "Orgullo de los leones",
+          "languageCode": "es"
+        },
+        {
+          "name": "Bande de lions",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Orgoglio dei Leoni",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Nacatl Hunt-Pride",
+      "manaCost": "{5}{W}",
+      "cmc": 6,
+      "type": "Creature - Cat Warrior",
+      "text": "Vigilance<br>{R}, {T}: Target creature can't block this turn.<br>{G}, {T}: Target creature blocks this turn if able.",
+      "flavor": "\"We must hunt and kill the dragon before it can return to raze our ancient city.\"",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "20",
+      "artist": "Steve Prescott",
+      "color": "W",
+      "colorIdentity": "WRG",
+      "multiverseId": 249409,
+      "power": 5.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Nacatl-Jagdrudel",
+          "languageCode": "de"
+        },
+        {
+          "name": "Manada de caza Nacatl",
+          "languageCode": "es"
+        },
+        {
+          "name": "Bande chasseresse nacatl",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Branco da Caccia di Nacatl",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Firemane Angel",
+      "manaCost": "{3}{R}{W}{W}",
+      "cmc": 6,
+      "type": "Creature - Angel",
+      "text": "Flying, first strike<br>At the beginning of your upkeep, if Firemane Angel is in your graveyard or on the battlefield, you may gain 1 life.<br>{6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate this ability only during your upkeep.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "R",
+      "number": "21",
+      "artist": "Matt Cavotta",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 249366,
+      "power": 4.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Feuerschweif-Engel",
+          "languageCode": "de"
+        },
+        {
+          "name": "Ángel melenafuego",
+          "languageCode": "es"
+        },
+        {
+          "name": "Ange crinefeu",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Angelo Chioma di Fuoco",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Ajani's Mantra",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "type": "Enchantment",
+      "text": "At the beginning of your upkeep, you may gain 1 life.",
+      "flavor": "\"He hasn't returned to the Cloud Forest. But I can still sense his calming presence.\"<br>-Zaliki of Naya",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "22",
+      "artist": "James Paick",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 249398,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Ajanis Mantra",
+          "languageCode": "de"
+        },
+        {
+          "name": "Mantra de Ajani",
+          "languageCode": "es"
+        },
+        {
+          "name": "Mantra d'Ajani",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Mantra di Ajani",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Lightning Helix",
+      "manaCost": "{R}{W}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Lightning Helix deals 3 damage to any target and you gain 3 life.",
+      "flavor": "\"Rage is not the answer. Rage followed by fitting vengeance is the answer.\"<br>-Ajani",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "23",
+      "artist": "Raymond Swanland",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 249386,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Blitzhelix",
+          "languageCode": "de"
+        },
+        {
+          "name": "Hélice de relámpagos",
+          "languageCode": "es"
+        },
+        {
+          "name": "Hélice d'éclairs",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Spirale Fulminante",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Lead the Stampede",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Sorcery",
+      "text": "Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "24",
+      "artist": "Efrem Palacios",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 249369,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Den Ansturm leiten",
+          "languageCode": "de"
+        },
+        {
+          "name": "Liderar la estampida",
+          "languageCode": "es"
+        },
+        {
+          "name": "En tête de la ruée",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Guidare l'Assalto",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Griffin Guide",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has flying.<br>When enchanted creature dies, create a 2/2 white Griffin creature token with flying.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "25",
+      "artist": "Jim Nelson",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 249372,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Führung des Greifen",
+          "languageCode": "de"
+        },
+        {
+          "name": "Guía de grifos",
+          "languageCode": "es"
+        },
+        {
+          "name": "Guide griffon",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Guida dei Grifoni",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Recumbent Bliss",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>Enchanted creature can't attack or block.<br>At the beginning of your upkeep, you may gain 1 life.",
+      "flavor": "Kithkin somnomancers enjoy the peaceful dreams wafting from their victims.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "26",
+      "artist": "Todd Lockwood",
+      "color": "W",
+      "colorIdentity": "W",
+      "multiverseId": 249400,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Wonniges Herumliegen",
+          "languageCode": "de"
+        },
+        {
+          "name": "Descanso dichoso",
+          "languageCode": "es"
+        },
+        {
+          "name": "Béatitude étendue",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Beatitudine Distesa",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Searing Meditation",
+      "manaCost": "{1}{R}{W}",
+      "cmc": 3,
+      "type": "Enchantment",
+      "text": "Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to any target.",
+      "flavor": "\"When I meditate I see the world as it should be. All that does not fit, I remove.\"<br>-Alovnek, Boros guildmage",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "R",
+      "number": "27",
+      "artist": "Dave Dorman",
+      "color": "WR",
+      "colorIdentity": "WR",
+      "multiverseId": 249380,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Sengende Meditation",
+          "languageCode": "de"
+        },
+        {
+          "name": "Meditación abrasadora",
+          "languageCode": "es"
+        },
+        {
+          "name": "Méditation corrosive",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Meditazione Bruciante",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Behemoth Sledge",
+      "manaCost": "{1}{G}{W}",
+      "cmc": 3,
+      "type": "Artifact - Equipment",
+      "text": "Equipped creature gets +2/+2 and has trample and lifelink.<br>Equip {3}",
+      "flavor": "\"May this grant you all the strength of the behemoths and none of their serenity.\"<br>-Ajani",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "28",
+      "artist": "Dave Allsop",
+      "color": "WG",
+      "colorIdentity": "WG",
+      "multiverseId": 249396,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Behemoth-Vorschlaghammer",
+          "languageCode": "de"
+        },
+        {
+          "name": "Maza de behemot",
+          "languageCode": "es"
+        },
+        {
+          "name": "Frappe-devant béhémoth",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Maglio del Behemoth",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Naya Charm",
+      "manaCost": "{R}{G}{W}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Choose one -<br>• Naya Charm deals 3 damage to target creature.<br>• Return target card from a graveyard to its owner's hand.<br>• Tap all creatures target player controls.",
+      "flavor": "Deep in nature's core lies a potential unsullied by greed or civilization.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "29",
+      "artist": "Jesper Ejsing",
+      "color": "WRG",
+      "colorIdentity": "WRG",
+      "multiverseId": 249385,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Amulett aus Naya",
+          "languageCode": "de"
+        },
+        {
+          "name": "Amuleto nayano",
+          "languageCode": "es"
+        },
+        {
+          "name": "Charme de Naya",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Monile di Naya",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Sylvan Bounty",
+      "manaCost": "{5}{G}",
+      "cmc": 6,
+      "type": "Instant",
+      "text": "Target player gains 8 life.<br>Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)",
+      "flavor": "Some who scouted new lands chose to stay.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "30",
+      "artist": "Chris Rahn",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 249392,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Belohnung des Waldes",
+          "languageCode": "de"
+        },
+        {
+          "name": "Regalo silvano",
+          "languageCode": "es"
+        },
+        {
+          "name": "Don sylvestre",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Dono Silvano",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Titanic Ultimatum",
+      "manaCost": "{R}{R}{G}{G}{G}{W}{W}",
+      "cmc": 7,
+      "type": "Sorcery",
+      "text": "Until end of turn, creatures you control get +5/+5 and gain first strike, trample, and lifelink.",
+      "flavor": "\"Retribution is best delivered by claws and rage, with both magnified.\"<br>-Ajani",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "R",
+      "number": "31",
+      "artist": "Steve Prescott",
+      "color": "WRG",
+      "colorIdentity": "WRG",
+      "multiverseId": 249370,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Titanisches Ultimatum",
+          "languageCode": "de"
+        },
+        {
+          "name": "Ultimátum titánico",
+          "languageCode": "es"
+        },
+        {
+          "name": "Ultimatum titanesque",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Ultimatum Titanico",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Evolving Wilds",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "flavor": "Every world is an organism, able to grow new lands. Some just do it faster than others.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "32",
+      "artist": "Steven Belledin",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 249395,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Graypelt Refuge",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Graypelt Refuge enters the battlefield tapped.<br>When Graypelt Refuge enters the battlefield, you gain 1 life.<br>{T}: Add {G} or {W}.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "33",
+      "artist": "Philip Straub",
+      "color": "",
+      "colorIdentity": "WG",
+      "multiverseId": 249379,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Graupelz-Refugium",
+          "languageCode": "de"
+        },
+        {
+          "name": "Refugio de Pellejo Gris",
+          "languageCode": "es"
+        },
+        {
+          "name": "Refuge de Grisepeau",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Rifugio di Pellegrigia",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Jungle Shrine",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Jungle Shrine enters the battlefield tapped.<br>{T}: Add {R}, {G}, or {W}.",
+      "flavor": "On Naya, ambition and treachery are scarce, hunted nearly to extinction by the awe owed to terrestrial gods.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "34",
+      "artist": "Wayne Reynolds",
+      "color": "",
+      "colorIdentity": "WRG",
+      "multiverseId": 249403,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Dschungelschrein",
+          "languageCode": "de"
+        },
+        {
+          "name": "Altar de la jungla",
+          "languageCode": "es"
+        },
+        {
+          "name": "Reliquaire de la jungle",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Santuario nella Giungla",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Kazandu Refuge",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Kazandu Refuge enters the battlefield tapped.<br>When Kazandu Refuge enters the battlefield, you gain 1 life.<br>{T}: Add {R} or {G}.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "35",
+      "artist": "Franz Vohwinkel",
+      "color": "",
+      "colorIdentity": "RG",
+      "multiverseId": 249402,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Kazandu-Refugium",
+          "languageCode": "de"
+        },
+        {
+          "name": "Refugio de Kazandu",
+          "languageCode": "es"
+        },
+        {
+          "name": "Refuge du Kazandou",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Rifugio di Kazandu",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Sapseep Forest",
+      "cmc": 0,
+      "type": "Land - Forest",
+      "text": "({T}: Add {G}.)<br>Sapseep Forest enters the battlefield tapped.<br>{G}, {T}: You gain 1 life. Activate this ability only if you control two or more green permanents.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "36",
+      "artist": "Aleksi Briclot",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 249389,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Harztropfen-Wald",
+          "languageCode": "de"
+        },
+        {
+          "name": "Bosque savia rezumada",
+          "languageCode": "es"
+        },
+        {
+          "name": "Forêt de Suintesève",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Bosco della Linfa Gocciolante",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Vitu-Ghazi, the City-Tree",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}: Add {C}.<br>{2}{G}{W}, {T}: Create a 1/1 green Saproling creature token.",
+      "flavor": "In the autumn, she casts her seeds across the streets below, and come spring, her children rise in service to the Conclave.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "37",
+      "artist": "Martina Pilcerova",
+      "color": "",
+      "colorIdentity": "WG",
+      "multiverseId": 249393,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Vitu-Ghazi, der Stadtbaum",
+          "languageCode": "de"
+        },
+        {
+          "name": "Vitu-Ghazi, el árbol ciudad",
+          "languageCode": "es"
+        },
+        {
+          "name": "Vitu-Ghazi, la Citarborescence",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Vitu-Ghazi, l'Albero-Città",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "38",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 262651,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "39",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 259285,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Plains",
+      "cmc": 0,
+      "type": "Basic Land - Plains",
+      "text": "({T}: Add {W}.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "40",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "color": "",
+      "colorIdentity": "W",
+      "multiverseId": 249376,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "41",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 259284,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Nicol Bolas, Planeswalker",
+      "manaCost": "{4}{U}{B}{B}{R}",
+      "cmc": 8,
+      "type": "Legendary Planeswalker - Bolas",
+      "text": "[+3]: Destroy target noncreature permanent.<br>[−2]: Gain control of target creature.<br>[−9]: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "M",
+      "number": "42",
+      "artist": "Izzy",
+      "color": "UBR",
+      "colorIdentity": "UBR",
+      "multiverseId": 266154,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": 5,
+      "foreignPrintings": [
+        {
+          "name": "Planeswalker Nicol Bolas",
+          "languageCode": "de"
+        },
+        {
+          "name": "Nicol Bolas, planeswalker",
+          "languageCode": "es"
+        },
+        {
+          "name": "Nicol Bolas, planeswalker",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Nicol Bolas, Planeswalker",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Surveilling Sprite",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "type": "Creature - Faerie Rogue",
+      "text": "Flying<br>When Surveilling Sprite dies, you may draw a card.",
+      "flavor": "Their natural curiosity, combined with a knack for trespassing, makes sprites excellent spies.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "43",
+      "artist": "Terese Nielsen",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 259267,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Überwachende Sylphide",
+          "languageCode": "de"
+        },
+        {
+          "name": "Hada vigilante",
+          "languageCode": "es"
+        },
+        {
+          "name": "Farfadet épieur",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Spiritello Sorvegliante",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Nightscape Familiar",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Creature - Zombie",
+      "text": "Blue spells and red spells you cast cost {1} less to cast.<br>{1}{B}: Regenerate Nightscape Familiar.",
+      "flavor": "Nightscape masters don't stop at raising the spirit of a fallen battlemage. They raise the flesh along with it.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "44",
+      "artist": "Jeff Easley",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 259263,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Vertrauter des Nachtpfads",
+          "languageCode": "de"
+        },
+        {
+          "name": "Familiar Escapanoche",
+          "languageCode": "es"
+        },
+        {
+          "name": "Familier nyctasophe",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Famiglio Tenebrologo",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Slavering Nulls",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "type": "Creature - Goblin Zombie",
+      "text": "Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.",
+      "flavor": "Having lost their minds, they now want yours.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "45",
+      "artist": "Dave Kendall",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 249404,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Sabbernde Nullen",
+          "languageCode": "de"
+        },
+        {
+          "name": "Nulos esclavos",
+          "languageCode": "es"
+        },
+        {
+          "name": "Inféconds esclaves",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Nulli Sbavanti",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Brackwater Elemental",
+      "manaCost": "{2}{U}",
+      "cmc": 3,
+      "type": "Creature - Elemental",
+      "text": "When Brackwater Elemental attacks or blocks, sacrifice it at the beginning of the next end step.<br>Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "46",
+      "artist": "Thomas M. Baxa",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 249390,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Brackwasserelementar",
+          "languageCode": "de"
+        },
+        {
+          "name": "Elemental de agua oscura",
+          "languageCode": "es"
+        },
+        {
+          "name": "Élémental d'eau saumâtre",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Elementale delle Acque Torbide",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Morgue Toad",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "type": "Creature - Frog",
+      "text": "Sacrifice Morgue Toad: Add {U}{R}.",
+      "flavor": "\"The toads of Urborg aren't fast, powerful, or pleasant, but they have their uses.\"<br>-Ertai",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "47",
+      "artist": "Franz Vohwinkel",
+      "color": "B",
+      "colorIdentity": "UBR",
+      "multiverseId": 259264,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Leichenhauskröte",
+          "languageCode": "de"
+        },
+        {
+          "name": "Sapo de la morgue",
+          "languageCode": "es"
+        },
+        {
+          "name": "Crapaud des morgues",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Rospo dell'Obitorio",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Hellfire Mongrel",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "type": "Creature - Elemental Dog",
+      "text": "At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to that player.",
+      "flavor": "There is no fondness between the hound and its master. There is only a common appreciation of the hunt.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "48",
+      "artist": "Dan Scott",
+      "color": "R",
+      "colorIdentity": "R",
+      "multiverseId": 249408,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Höllenfeuer-Mischling",
+          "languageCode": "de"
+        },
+        {
+          "name": "Mestizo fuego infernal",
+          "languageCode": "es"
+        },
+        {
+          "name": "Bâtard du feu de l'enfer",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Meticcio di Fuoco Infernale",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Dimir Cutpurse",
+      "manaCost": "{1}{U}{B}",
+      "cmc": 3,
+      "type": "Creature - Spirit",
+      "text": "Whenever Dimir Cutpurse deals combat damage to a player, that player discards a card and you draw a card.",
+      "flavor": "Other guilds demand tolls from those who travel their territories, but not House Dimir. It takes its share secretly, one coin purse at a time.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "R",
+      "number": "49",
+      "artist": "Kev Walker",
+      "color": "UB",
+      "colorIdentity": "UB",
+      "multiverseId": 259269,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Dimir-Beutelschneider",
+          "languageCode": "de"
+        },
+        {
+          "name": "Carterista dimir",
+          "languageCode": "es"
+        },
+        {
+          "name": "Coupe-bourse dimir",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Tagliaborse Dimir",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Steamcore Weird",
+      "manaCost": "{3}{U}",
+      "cmc": 4,
+      "type": "Creature - Weird",
+      "text": "When Steamcore Weird enters the battlefield, if {R} was spent to cast it, it deals 2 damage to any target.",
+      "flavor": "Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "50",
+      "artist": "Justin Norman",
+      "color": "U",
+      "colorIdentity": "UR",
+      "multiverseId": 259273,
+      "power": 1.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Dampfkern-Seltsamkeit",
+          "languageCode": "de"
+        },
+        {
+          "name": "Extraño núcleo de vapor",
+          "languageCode": "es"
+        },
+        {
+          "name": "Anomalie au noyau de vapeur",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Bizzarria Vapornucleo",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Moroii",
+      "manaCost": "{2}{U}{B}",
+      "cmc": 4,
+      "type": "Creature - Vampire",
+      "text": "Flying<br>At the beginning of your upkeep, you lose 1 life.",
+      "flavor": "\"Touched by moroii\"<br>-Undercity slang meaning \"to grow old\"",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "51",
+      "artist": "Dan Scott",
+      "color": "UB",
+      "colorIdentity": "UB",
+      "multiverseId": 249367,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Moroii",
+          "languageCode": "de"
+        },
+        {
+          "name": "Moroii",
+          "languageCode": "es"
+        },
+        {
+          "name": "Moroii",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Moroii",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Blazing Specter",
+      "manaCost": "{2}{B}{R}",
+      "cmc": 4,
+      "type": "Creature - Specter",
+      "text": "Flying, haste<br>Whenever Blazing Specter deals combat damage to a player, that player discards a card.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "R",
+      "number": "52",
+      "artist": "Marc Fishman",
+      "color": "BR",
+      "colorIdentity": "BR",
+      "multiverseId": 259274,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Leuchtschweif-Gespenst",
+          "languageCode": "de"
+        },
+        {
+          "name": "Espectro llameante",
+          "languageCode": "es"
+        },
+        {
+          "name": "Spectre brûlant",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Spettro Fiammeggiante",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Fire-Field Ogre",
+      "manaCost": "{1}{U}{B}{R}",
+      "cmc": 4,
+      "type": "Creature - Ogre Mutant",
+      "text": "First strike<br>Unearth {U}{B}{R} ({U}{B}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "53",
+      "artist": "Mitch Cotie",
+      "color": "UBR",
+      "colorIdentity": "UBR",
+      "multiverseId": 259270,
+      "power": 4.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Feuerfeld-Oger",
+          "languageCode": "de"
+        },
+        {
+          "name": "Ogro campo de fuego",
+          "languageCode": "es"
+        },
+        {
+          "name": "Ogre du champ de feu",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Ogre Campo di Fuoco",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Shriekmaw",
+      "manaCost": "{4}{B}",
+      "cmc": 5,
+      "type": "Creature - Elemental",
+      "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>When Shriekmaw enters the battlefield, destroy target nonartifact, nonblack creature.<br>Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "54",
+      "artist": "Steve Prescott",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 259272,
+      "power": 3.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Kreischmaul",
+          "languageCode": "de"
+        },
+        {
+          "name": "Garganta chillona",
+          "languageCode": "es"
+        },
+        {
+          "name": "Hurlegueule",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Fauce Urlante",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Ogre Savant",
+      "manaCost": "{4}{R}",
+      "cmc": 5,
+      "type": "Creature - Ogre Wizard",
+      "text": "When Ogre Savant enters the battlefield, if {U} was spent to cast it, return target creature to its owner's hand.",
+      "flavor": "He's an oxymoron.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "55",
+      "artist": "Paolo Parente",
+      "color": "R",
+      "colorIdentity": "UR",
+      "multiverseId": 249387,
+      "power": 3.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Oger-Gelehrter",
+          "languageCode": "de"
+        },
+        {
+          "name": "Sabio ogro",
+          "languageCode": "es"
+        },
+        {
+          "name": "Savant ogre",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Luminare Ogre",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Jhessian Zombies",
+      "manaCost": "{4}{U}{B}",
+      "cmc": 6,
+      "type": "Creature - Zombie",
+      "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, put it into your hand, then shuffle your library.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "56",
+      "artist": "Ash Wood",
+      "color": "UB",
+      "colorIdentity": "UB",
+      "multiverseId": 259277,
+      "power": 2.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Jhessische Zombies",
+          "languageCode": "de"
+        },
+        {
+          "name": "Zombies jhessianos",
+          "languageCode": "es"
+        },
+        {
+          "name": "Zombies jhessiens",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Zombie di Jhess",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Igneous Pouncer",
+      "manaCost": "{4}{B}{R}",
+      "cmc": 6,
+      "type": "Creature - Elemental",
+      "text": "Haste<br>Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle your library.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "57",
+      "artist": "Chippy",
+      "color": "BR",
+      "colorIdentity": "BR",
+      "multiverseId": 249410,
+      "power": 5.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Feuriger Springer",
+          "languageCode": "de"
+        },
+        {
+          "name": "Saltador ígneo",
+          "languageCode": "es"
+        },
+        {
+          "name": "Bondisseur ignescent",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Assalitore Igneo",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Vapor Snag",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Return target creature to its owner's hand. Its controller loses 1 life.",
+      "flavor": "\"This creature is inadequate. Send it to the splicers for innovation.\"<br>-Malcator, Executor of Synthesis",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "58",
+      "artist": "Raymond Swanland",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 249373,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Behindernde Schwaden",
+          "languageCode": "de"
+        },
+        {
+          "name": "Enredo de vapor",
+          "languageCode": "es"
+        },
+        {
+          "name": "Accroc de vapeur",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Vapori Insidiosi",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Countersquall",
+      "manaCost": "{U}{B}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Counter target noncreature spell. Its controller loses 2 life.",
+      "flavor": "\"The essence of every world, every spell, and every thought is power. Nothing else matters, because nothing else exists.\"<br>-Nicol Bolas",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "59",
+      "artist": "Anthony Francisco",
+      "color": "UB",
+      "colorIdentity": "UB",
+      "multiverseId": 249406,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Gegenböe",
+          "languageCode": "de"
+        },
+        {
+          "name": "Contrarráfaga",
+          "languageCode": "es"
+        },
+        {
+          "name": "Contrerafale",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Controbufera",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Obelisk of Grixis",
+      "manaCost": "{3}",
+      "cmc": 3,
+      "type": "Artifact",
+      "text": "{T}: Add {U}, {B}, or {R}.",
+      "flavor": "Like most features of Grixis, the obelisks that remain from the time of Alara now exist only for dark exploitation.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "60",
+      "artist": "Nils Hamm",
+      "color": "",
+      "colorIdentity": "UBR",
+      "multiverseId": 259279,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Obelisk von Grixis",
+          "languageCode": "de"
+        },
+        {
+          "name": "Obelisco de Grixis",
+          "languageCode": "es"
+        },
+        {
+          "name": "Obélisque de Grixis",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Obelisco di Grixis",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Recoil",
+      "manaCost": "{1}{U}{B}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Return target permanent to its owner's hand. Then that player discards a card.",
+      "flavor": "Anything sent into a plagued world is bound to come back infected.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "61",
+      "artist": "Alan Pollack",
+      "color": "UB",
+      "colorIdentity": "UB",
+      "multiverseId": 266305,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Rückstoß",
+          "languageCode": "de"
+        },
+        {
+          "name": "Recular",
+          "languageCode": "es"
+        },
+        {
+          "name": "Reculade",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Rifuggire",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Undermine",
+      "manaCost": "{U}{U}{B}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Counter target spell. Its controller loses 3 life.",
+      "flavor": "\"Which would you like first, the insult or the injury?\"",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "R",
+      "number": "62",
+      "artist": "Massimilano Frezzato",
+      "color": "UB",
+      "colorIdentity": "UB",
+      "multiverseId": 259278,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Untergraben",
+          "languageCode": "de"
+        },
+        {
+          "name": "Socavar",
+          "languageCode": "es"
+        },
+        {
+          "name": "Sape",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Minare",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Grixis Charm",
+      "manaCost": "{U}{B}{R}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Choose one -<br>• Return target permanent to its owner's hand.<br>• Target creature gets -4/-4 until end of turn.<br>• Creatures you control get +2/+0 until end of turn.",
+      "flavor": "\"So many choices. Shall I choose loathing, hate, or malice today?\"<br>-Eliza of the Keep",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "63",
+      "artist": "Lars Grant-West",
+      "color": "UBR",
+      "colorIdentity": "UBR",
+      "multiverseId": 259271,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Amulett aus Grixis",
+          "languageCode": "de"
+        },
+        {
+          "name": "Amuleto grixiano",
+          "languageCode": "es"
+        },
+        {
+          "name": "Charme de Grixis",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Monile di Grixis",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Icy Manipulator",
+      "manaCost": "{4}",
+      "cmc": 4,
+      "type": "Artifact",
+      "text": "{1}, {T}: Tap target artifact, creature, or land.",
+      "flavor": "In fire there is the spark of chaos and destruction, the seed of life. In ice there is perfect tranquility, perfect order, and the silence of death.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "64",
+      "artist": "Matt Cavotta",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 249384,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Eiskalter Manipulator",
+          "languageCode": "de"
+        },
+        {
+          "name": "Manipulador gélido",
+          "languageCode": "es"
+        },
+        {
+          "name": "Manipulateur glacial",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Manipolatore Glaciale",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Deep Analysis",
+      "manaCost": "{3}{U}",
+      "cmc": 4,
+      "type": "Sorcery",
+      "text": "Target player draws two cards.<br>Flashback-{1}{U}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "flavor": "\"No fact escapes me. Why do you think you can?\"",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "65",
+      "artist": "Jesper Ejsing",
+      "color": "U",
+      "colorIdentity": "U",
+      "multiverseId": 249365,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Genaue Analyse",
+          "languageCode": "de"
+        },
+        {
+          "name": "Análisis profundo",
+          "languageCode": "es"
+        },
+        {
+          "name": "Analyse en profondeur",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Analisi Approfondita",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Agonizing Demise",
+      "manaCost": "{3}{B}",
+      "cmc": 4,
+      "type": "Instant",
+      "text": "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)<br>Destroy target nonblack creature. It can't be regenerated. If this spell was kicked, Agonizing Demise deals damage equal to that creature's power to the creature's controller.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "66",
+      "artist": "Mark Brill",
+      "color": "B",
+      "colorIdentity": "BR",
+      "multiverseId": 259268,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Schmerzvolles Ableben",
+          "languageCode": "de"
+        },
+        {
+          "name": "Fallecimiento agónico",
+          "languageCode": "es"
+        },
+        {
+          "name": "Agonie terminale",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Dipartita Straziante",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Slave of Bolas",
+      "manaCost": "{3}{U/R}{B}",
+      "cmc": 5,
+      "type": "Sorcery",
+      "text": "Gain control of target creature. Untap that creature. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
+      "flavor": "Nicol Bolas doesn't distinguish between servants and victims.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "67",
+      "artist": "Steve Argyle",
+      "color": "UBR",
+      "colorIdentity": "UBR",
+      "multiverseId": 259276,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Bolas' Sklave",
+          "languageCode": "de"
+        },
+        {
+          "name": "Esclavo de Nicol Bolas",
+          "languageCode": "es"
+        },
+        {
+          "name": "Esclave de Bolas",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Schiavo di Bolas",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Elder Mastery",
+      "manaCost": "{3}{U}{B}{R}",
+      "cmc": 6,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>Enchanted creature gets +3/+3 and has flying.<br>Whenever enchanted creature deals damage to a player, that player discards two cards.",
+      "flavor": "Taste his power, hunger for his command.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "68",
+      "artist": "Dave Allsop",
+      "color": "UBR",
+      "colorIdentity": "UBR",
+      "multiverseId": 249407,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Herrschaft der Ältesten",
+          "languageCode": "de"
+        },
+        {
+          "name": "Maestría anciana",
+          "languageCode": "es"
+        },
+        {
+          "name": "Maîtrise ancestrale",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Maestria del Venerando",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Cruel Ultimatum",
+      "manaCost": "{U}{U}{B}{B}{B}{R}{R}",
+      "cmc": 7,
+      "type": "Sorcery",
+      "text": "Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life.",
+      "flavor": "There is always a greater power.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "R",
+      "number": "69",
+      "artist": "Ralph Horsley",
+      "color": "UBR",
+      "colorIdentity": "UBR",
+      "multiverseId": 259262,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Grausames Ultimatum",
+          "languageCode": "de"
+        },
+        {
+          "name": "Ultimátum cruel",
+          "languageCode": "es"
+        },
+        {
+          "name": "Ultimatum cruel",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Ultimatum Crudele",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Profane Command",
+      "manaCost": "{X}{B}{B}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Choose two -<br>• Target player loses X life.<br>• Return target creature card with converted mana cost X or less from your graveyard to the battlefield.<br>• Target creature gets -X/-X until end of turn.<br>• Up to X target creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "R",
+      "number": "70",
+      "artist": "Wayne England",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 259275,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Gottloser Befehl",
+          "languageCode": "de"
+        },
+        {
+          "name": "Dictado profano",
+          "languageCode": "es"
+        },
+        {
+          "name": "Commandement profane",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Ordine Profano",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Spite",
+      "manaCost": "{3}{U}",
+      "cmc": 8,
+      "type": "Instant",
+      "text": "Counter target noncreature spell.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "71a",
+      "artist": "David Martin",
+      "color": "U",
+      "colorIdentity": "UB",
+      "multiverseId": 249394,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Spite // Malice",
+          "languageCode": "de"
+        },
+        {
+          "name": "Despecho // Malicia",
+          "languageCode": "es"
+        },
+        {
+          "name": "Spite // Malice",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Spite // Malice",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Malice",
+      "manaCost": "{3}{B}",
+      "cmc": 8,
+      "type": "Instant",
+      "text": "Destroy target nonblack creature. It can't be regenerated.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "71b",
+      "artist": "David Martin",
+      "color": "B",
+      "colorIdentity": "UB",
+      "multiverseId": 249394,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Spite // Malice",
+          "languageCode": "de"
+        },
+        {
+          "name": "Despecho // Malicia",
+          "languageCode": "es"
+        },
+        {
+          "name": "Spite // Malice",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Spite // Malice",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Pain",
+      "manaCost": "{B}",
+      "cmc": 5,
+      "type": "Sorcery",
+      "text": "Target player discards a card.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "72a",
+      "artist": "David Martin",
+      "color": "B",
+      "colorIdentity": "BR",
+      "multiverseId": 259281,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Pain // Suffering",
+          "languageCode": "de"
+        },
+        {
+          "name": "Pain // Suffering",
+          "languageCode": "es"
+        },
+        {
+          "name": "Pain // Suffering",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Pain // Suffering",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Suffering",
+      "manaCost": "{3}{R}",
+      "cmc": 5,
+      "type": "Sorcery",
+      "text": "Destroy target land.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "72b",
+      "artist": "David Martin",
+      "color": "R",
+      "colorIdentity": "BR",
+      "multiverseId": 259281,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Pain // Suffering",
+          "languageCode": "de"
+        },
+        {
+          "name": "Pain // Suffering",
+          "languageCode": "es"
+        },
+        {
+          "name": "Pain // Suffering",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Pain // Suffering",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Rise",
+      "manaCost": "{U}{B}",
+      "cmc": 4,
+      "type": "Sorcery",
+      "text": "Return target creature card from a graveyard and target creature on the battlefield to their owners' hands.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "73a",
+      "artist": "Pete Venters",
+      "color": "UB",
+      "colorIdentity": "UBR",
+      "multiverseId": 259266,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Rise // Fall",
+          "languageCode": "de"
+        },
+        {
+          "name": "Rise // Fall",
+          "languageCode": "es"
+        },
+        {
+          "name": "Rise // Fall",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Rise // Fall",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Fall",
+      "manaCost": "{B}{R}",
+      "cmc": 4,
+      "type": "Sorcery",
+      "text": "Target player reveals two cards at random from their hand, then discards each nonland card revealed this way.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "73b",
+      "artist": "Pete Venters",
+      "color": "BR",
+      "colorIdentity": "UBR",
+      "multiverseId": 259266,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Rise // Fall",
+          "languageCode": "de"
+        },
+        {
+          "name": "Rise // Fall",
+          "languageCode": "es"
+        },
+        {
+          "name": "Rise // Fall",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Rise // Fall",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Crumbling Necropolis",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Crumbling Necropolis enters the battlefield tapped.<br>{T}: Add {U}, {B}, or {R}.",
+      "flavor": "\"They say the ruins of Sedraxis were once a shining capital in Vithia. Now it is a blight, a place to be avoided by the living.\"<br>-Olcot, Rider of Joffik",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "U",
+      "number": "74",
+      "artist": "Dave Kendall",
+      "color": "",
+      "colorIdentity": "UBR",
+      "multiverseId": 259265,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Zerfallende Nekropolis",
+          "languageCode": "de"
+        },
+        {
+          "name": "Necrópolis desmoronándose",
+          "languageCode": "es"
+        },
+        {
+          "name": "Nécropole croulante",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Necropoli in Sfacelo",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Rupture Spire",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Rupture Spire enters the battlefield tapped.<br>When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.<br>{T}: Add one mana of any color.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "75",
+      "artist": "Jaime Jones",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 259282,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Turm am Riss",
+          "languageCode": "de"
+        },
+        {
+          "name": "Torre de la ruptura",
+          "languageCode": "es"
+        },
+        {
+          "name": "Tour de la Rupture",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Cuspide Spaccata",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Terramorphic Expanse",
+      "cmc": 0,
+      "type": "Land",
+      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "flavor": "Take two steps north into the unsettled future, south into the unquiet past, east into the present day, or west into the great unknown.",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "76",
+      "artist": "Dan Scott",
+      "color": "",
+      "colorIdentity": "",
+      "multiverseId": 249381,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "Immerändernde Weite",
+          "languageCode": "de"
+        },
+        {
+          "name": "Expansión terramórfica",
+          "languageCode": "es"
+        },
+        {
+          "name": "Immensité terramorphe",
+          "languageCode": "fr"
+        },
+        {
+          "name": "Distesa Terramorfica",
+          "languageCode": "it"
+        }
+      ]
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "77",
+      "artist": "Mark Tedin",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 262652,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "78",
+      "artist": "Mark Tedin",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 259283,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Island",
+      "cmc": 0,
+      "type": "Basic Land - Island",
+      "text": "({T}: Add {U}.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "79",
+      "artist": "Mark Tedin",
+      "color": "",
+      "colorIdentity": "U",
+      "multiverseId": 259287,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Mountain",
+      "cmc": 0,
+      "type": "Basic Land - Mountain",
+      "text": "({T}: Add {R}.)",
+      "expansion": "AVB",
+      "scryfallSetCode": "DDH",
+      "rarity": "C",
+      "number": "80",
+      "artist": "Mark Tedin",
+      "color": "",
+      "colorIdentity": "R",
+      "multiverseId": 259286,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    }
+  ]
+}

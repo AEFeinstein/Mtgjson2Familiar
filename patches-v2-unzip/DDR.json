@@ -1,0 +1,1678 @@
+{
+  "expansion": {
+    "name_gatherer": "Duel Decks: Nissa vs. Ob Nixilis",
+    "code_gatherer": "DDR",
+    "code_mtgi": "DDR",
+    "name_tcgp": "Duel Decks: Nissa vs. Ob Nixilis",
+    "name_mkm": "Duel Decks: Nissa vs. Ob Nixilis",
+    "releaseTimestamp": 1472788800,
+    "canBeFoil": true,
+    "isOnlineOnly": false,
+    "borderColor": "Black",
+    "type": "duel_deck",
+    "digest": "36ca6e370bc750bcb9374de50b272121",
+    "expansionImageURLs": [
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDR_C.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDR_M.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDR_R.png",
+      "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDR_U.png"
+    ]
+  },
+  "cards": [
+    {
+      "name": "Nissa, Voice of Zendikar",
+      "manaCost": "{1}{G}{G}",
+      "cmc": 3,
+      "type": "Legendary Planeswalker - Nissa",
+      "text": "[+1]: Create a 0/1 green Plant creature token.<br>[−2]: Put a +1/+1 counter on each creature you control.<br>[−7]: You gain X life and draw X cards, where X is the number of lands you control.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "M",
+      "number": "1",
+      "artist": "Raymond Swanland",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417424,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": 3,
+      "foreignPrintings": [
+        {
+          "name": "ゼンディカーの代弁者、ニッサ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Abundance",
+      "manaCost": "{2}{G}{G}",
+      "cmc": 4,
+      "type": "Enchantment",
+      "text": "If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "R",
+      "number": "2",
+      "artist": "Rebecca Guay",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417425,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "豊穣",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Briarhorn",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Elemental",
+      "text": "Flash<br>When Briarhorn enters the battlefield, target creature gets +3/+3 until end of turn.<br>Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "3",
+      "artist": "Nils Hamm",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417426,
+      "power": 3.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "茨角",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Citanul Woodreaders",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Human Druid",
+      "text": "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)<br>When Citanul Woodreaders enters the battlefield, if it was kicked, draw two cards.",
+      "flavor": "They seek out living trees to glean age-old secrets from sap and wood.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "4",
+      "artist": "Steven Belledin",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417427,
+      "power": 1.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "シタヌールの樹木読み",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Civic Wayfinder",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Elf Druid Warrior",
+      "text": "When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.",
+      "flavor": "\"These alleys are not safe. Come, I can guide you back to the market square.\"",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "5",
+      "artist": "Cyril Van Der Haegen",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417428,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "護民官の道探し",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Cloudthresher",
+      "manaCost": "{2}{G}{G}{G}{G}",
+      "cmc": 6,
+      "type": "Creature - Elemental",
+      "text": "Flash<br>Reach<br>When Cloudthresher enters the battlefield, it deals 2 damage to each creature with flying and each player.<br>Evoke {2}{G}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "R",
+      "number": "6",
+      "artist": "Christopher Moeller",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417429,
+      "power": 7.0,
+      "toughness": 7.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "雲打ち",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Crop Rotation",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "As an additional cost to cast this spell, sacrifice a land.<br>Search your library for a land card, put that card onto the battlefield, then shuffle your library.",
+      "flavor": "Zendikar's elves have developed innovative methods to mitigate the effects of the Roil.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "7",
+      "artist": "Daniel Ljunggren",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417430,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "輪作",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Elvish Visionary",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Shaman",
+      "text": "When Elvish Visionary enters the battlefield, draw a card.",
+      "flavor": "\"From a tiny sprout, the greatest trees grow and flourish. May the seeds of your mind be equally fruitful.\"",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "8",
+      "artist": "D. Alexander Gregory",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417431,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "エルフの幻想家",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fertilid",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Elemental",
+      "text": "Fertilid enters the battlefield with two +1/+1 counters on it.<br>{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles their library.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "9",
+      "artist": "Wayne Reynolds",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417432,
+      "power": 0.0,
+      "toughness": 0.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ファーティリド",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Gaea's Blessing",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Target player shuffles up to three target cards from their graveyard into their library.<br>Draw a card.<br>When Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "10",
+      "artist": "Rebecca Guay",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417433,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ガイアの祝福",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Gilt-Leaf Seer",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Elf Shaman",
+      "text": "{G}, {T}: Look at the top two cards of your library, then put them back in any order.",
+      "flavor": "Desmera blinded her seers so that her beauty would be the last image burned in their memories. The act only deepened their insight.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "11",
+      "artist": "Darrell Riche",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417434,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "光り葉の予見者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Jaddi Lifestrider",
+      "manaCost": "{4}{G}",
+      "cmc": 5,
+      "type": "Creature - Elemental",
+      "text": "When Jaddi Lifestrider enters the battlefield, you may tap any number of untapped creatures you control. You gain 2 life for each creature tapped this way.",
+      "flavor": "Nature's arms encircle all who are willing to draw close.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "12",
+      "artist": "Vincent Proce",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417435,
+      "power": 2.0,
+      "toughness": 8.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ジャディの生命歩き",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Natural Connection",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "flavor": "\"Zendikar will not surrender, and neither can we.\"",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "13",
+      "artist": "Wesley Burt",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417436,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "自然の繋がり",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Nissa's Chosen",
+      "manaCost": "{G}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Warrior",
+      "text": "If Nissa's Chosen would die, put it on the bottom of its owner's library instead.",
+      "flavor": "Once, Nissa selected worthy fighters to defend the Joraga. Now, she gathers forces to defend all of Zendikar.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "14",
+      "artist": "Jaime Jones",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417437,
+      "power": 2.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ニッサに選ばれし者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Oakgnarl Warrior",
+      "manaCost": "{5}{G}{G}",
+      "cmc": 7,
+      "type": "Creature - Treefolk Warrior",
+      "text": "Vigilance, trample",
+      "flavor": "\"Roam as you will, your roots remain in the strong earth of your Rising.\"",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "15",
+      "artist": "Jim Nelson",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417438,
+      "power": 5.0,
+      "toughness": 7.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "樫瘤の戦士",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Oran-Rief Hydra",
+      "manaCost": "{4}{G}{G}",
+      "cmc": 6,
+      "type": "Creature - Hydra",
+      "text": "Trample<br>Landfall - Whenever a land enters the battlefield under your control, put a +1/+1 counter on Oran-Rief Hydra. If that land is a Forest, put two +1/+1 counters on Oran-Rief Hydra instead.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "R",
+      "number": "16",
+      "artist": "Chris Rahn",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417439,
+      "power": 5.0,
+      "toughness": 5.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "オラン＝リーフのハイドラ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Oran-Rief Invoker",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Human Shaman",
+      "text": "{8}: Oran-Rief Invoker gets +5/+5 and gains trample until end of turn.",
+      "flavor": "\"The world was not hostile to us-we were beneath its notice, and presented no danger.\"<br>-The Invokers' Tales",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "17",
+      "artist": "Anastasia Ovchinnikova",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417440,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "オラン＝リーフの発動者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Saddleback Lagac",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Creature - Lizard",
+      "text": "When Saddleback Lagac enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)",
+      "flavor": "\"A good lagac will carry you through thick and thin. A bad one . . . well, it's a tasty dinner.\"<br>-Raff Slugeater, goblin shortcutter",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "18",
+      "artist": "Jason Kang",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417441,
+      "power": 3.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "鞍背ラガーク",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Scythe Leopard",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Creature - Cat",
+      "text": "Landfall - Whenever a land enters the battlefield under your control, Scythe Leopard gets +1/+1 until end of turn.",
+      "flavor": "Eldrazi are not the leopard's preferred prey, but they are better than no prey at all.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "19",
+      "artist": "Daniel Ljunggren",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417442,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "鎌豹",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Seek the Horizon",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "type": "Sorcery",
+      "text": "Search your library for up to three basic land cards, reveal them, and put them into your hand. Then shuffle your library.",
+      "flavor": "\"The horizon is the perpetual ideal, the constant promise of hope.\"<br>-Nissa Revane",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "20",
+      "artist": "Min Yum",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417443,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "地平の探求",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Thicket Elemental",
+      "manaCost": "{3}{G}{G}",
+      "cmc": 5,
+      "type": "Creature - Elemental",
+      "text": "Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)<br>When Thicket Elemental enters the battlefield, if it was kicked, you may reveal cards from the top of your library until you reveal a creature card. If you do, put that card onto the battlefield and shuffle all other cards revealed this way into your library.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "R",
+      "number": "21",
+      "artist": "Ron Spencer",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417444,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "茂みの精霊",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Thornweald Archer",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "type": "Creature - Elf Archer",
+      "text": "Reach (This creature can block creatures with flying.)<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+      "flavor": "Their arrows are tipped with basilisk eyes and fletched with cockatrice feathers.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "22",
+      "artist": "Dave Kendall",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417445,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ソーンウィールドの射手",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Vines of the Recluse",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Target creature gets +1/+2 and gains reach until end of turn. Untap it. (A creature with reach can block creatures with flying.)",
+      "flavor": "\"The most elegant solutions are found in nature. You just have to know where to look.\"",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "23",
+      "artist": "Dan Scott",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417446,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "イトグモの蔦",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Walker of the Grove",
+      "manaCost": "{6}{G}{G}",
+      "cmc": 8,
+      "type": "Creature - Elemental",
+      "text": "When Walker of the Grove leaves the battlefield, create a 4/4 green Elemental creature token.<br>Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "24",
+      "artist": "Todd Lockwood",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417447,
+      "power": 7.0,
+      "toughness": 7.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "木立を歩むもの",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Wood Elves",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "type": "Creature - Elf Scout",
+      "text": "When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.",
+      "flavor": "Through the waves of Eldrazi attacks, the Murasan jungles seemed to regrow as soon as they were destroyed.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "25",
+      "artist": "Josh Hass",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417448,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ウッド・エルフ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Woodborn Behemoth",
+      "manaCost": "{3}{G}{G}",
+      "cmc": 5,
+      "type": "Creature - Elemental",
+      "text": "As long as you control eight or more lands, Woodborn Behemoth gets +4/+4 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+      "flavor": "It carries the hopes of Zendikar's embattled wilds on its mighty boughs.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "26",
+      "artist": "Matt Stewart",
+      "color": "G",
+      "colorIdentity": "G",
+      "multiverseId": 417449,
+      "power": 4.0,
+      "toughness": 4.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "森生まれのビヒモス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fertile Thicket",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Fertile Thicket enters the battlefield tapped.<br>When Fertile Thicket enters the battlefield, you may look at the top five cards of your library. If you do, reveal up to one basic land card from among them, then put that card on top of your library and the rest on the bottom in any order.<br>{T}: Add {G}.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "27",
+      "artist": "Andreas Rocha",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 417450,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "肥沃な茂み",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Khalni Garden",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Khalni Garden enters the battlefield tapped.<br>When Khalni Garden enters the battlefield, create a 0/1 green Plant creature token.<br>{T}: Add {G}.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "28",
+      "artist": "Ryan Pancoast",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 417451,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "カルニの庭",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mosswort Bridge",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)<br>{T}: Add {G}.<br>{G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "R",
+      "number": "29",
+      "artist": "Jeremy Jarvis",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 417452,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "苔汁の橋",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Treetop Village",
+      "cmc": 0,
+      "type": "Land",
+      "text": "Treetop Village enters the battlefield tapped.<br>{T}: Add {G}.<br>{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "30",
+      "artist": "Rob Alexander",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 417453,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "樹上の村",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "31",
+      "artist": "Noah Bradley",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 417454,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "32",
+      "artist": "Sam Burley",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 417455,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "33",
+      "artist": "Adam Paquette",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 417456,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "34",
+      "artist": "Vincent Proce",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 417457,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Forest",
+      "cmc": 0,
+      "type": "Basic Land - Forest",
+      "text": "({T}: Add {G}.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "35",
+      "artist": "Tianhua X",
+      "color": "",
+      "colorIdentity": "G",
+      "multiverseId": 417458,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Ob Nixilis Reignited",
+      "manaCost": "{3}{B}{B}",
+      "cmc": 5,
+      "type": "Legendary Planeswalker - Nixilis",
+      "text": "[+1]: You draw a card and you lose 1 life.<br>[−3]: Destroy target creature.<br>[−8]: Target opponent gets an emblem with \"Whenever a player draws a card, you lose 2 life.\"",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "M",
+      "number": "36",
+      "artist": "Raymond Swanland",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417459,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": 5,
+      "foreignPrintings": [
+        {
+          "name": "灯の再覚醒、オブ・ニクシリス",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Altar's Reap",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Draw two cards.",
+      "flavor": "\"I will secure my revenge on Zendikar one soul at a time.\"<br>-Ob Nixilis",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "37",
+      "artist": "Tyler Jacobson",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417460,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "祭壇の刈り取り",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Ambition's Cost",
+      "manaCost": "{3}{B}",
+      "cmc": 4,
+      "type": "Sorcery",
+      "text": "You draw three cards and you lose 3 life.",
+      "flavor": "\"Conquering your first world is the hardest, after all. My power grew as I moved from world to world, taking anything that would make the next taking easier.\"<br>-Ob Nixilis",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "38",
+      "artist": "Zezhou Chen",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417461,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "野望の代償",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Bala Ged Scorpion",
+      "manaCost": "{3}{B}",
+      "cmc": 4,
+      "type": "Creature - Scorpion",
+      "text": "When Bala Ged Scorpion enters the battlefield, you may destroy target creature with power 1 or less.",
+      "flavor": "Fast and lethal, with a penchant for the weak and infirm.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "39",
+      "artist": "Daarken",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417462,
+      "power": 2.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "バーラ・ゲドの蠍",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Blistergrub",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "type": "Creature - Horror",
+      "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)<br>When Blistergrub dies, each opponent loses 2 life.",
+      "flavor": "\"Avoid anything that scuttles, scrabbles, or shambles.\"<br>-Opar, veteran guide",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "40",
+      "artist": "Daarken",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417463,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "水膨れ地掘り",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Cadaver Imp",
+      "manaCost": "{1}{B}{B}",
+      "cmc": 3,
+      "type": "Creature - Imp",
+      "text": "Flying<br>When Cadaver Imp enters the battlefield, you may return target creature card from your graveyard to your hand.",
+      "flavor": "The mouth must be pried open before rigor mortis sets in. Otherwise the returning soul can find no ingress.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "41",
+      "artist": "Dave Kendall",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417464,
+      "power": 1.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "死者のインプ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Carrier Thrall",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Creature - Vampire",
+      "text": "When Carrier Thrall dies, create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\"",
+      "flavor": "\"Later we will mourn those we have lost. First we must end their suffering.\"<br>-Drana, Kalastria bloodchief",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "42",
+      "artist": "Lius Lasahido",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417465,
+      "power": 2.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "捕らわれの宿主",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Demon's Grasp",
+      "manaCost": "{4}{B}",
+      "cmc": 5,
+      "type": "Sorcery",
+      "text": "Target creature gets -5/-5 until end of turn.",
+      "flavor": "\"Take what solace you can in the knowledge that you will not be here to witness Zendikar's demise.\"<br>-Ob Nixilis",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "43",
+      "artist": "David Gaillet",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417466,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "悪魔の掌握",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Desecration Demon",
+      "manaCost": "{2}{B}{B}",
+      "cmc": 4,
+      "type": "Creature - Demon",
+      "text": "Flying<br>At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "R",
+      "number": "44",
+      "artist": "Jason Chan",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417467,
+      "power": 6.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "冒涜の悪魔",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Despoiler of Souls",
+      "manaCost": "{B}{B}",
+      "cmc": 2,
+      "type": "Creature - Horror",
+      "text": "Despoiler of Souls can't block.<br>{B}{B}, Exile two other creature cards from your graveyard: Return Despoiler of Souls from your graveyard to the battlefield.",
+      "flavor": "Rats and vultures devour. It desecrates.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "R",
+      "number": "45",
+      "artist": "Greg Staples",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417468,
+      "power": 3.0,
+      "toughness": 1.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "魂の略奪者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Disfigure",
+      "manaCost": "{B}",
+      "cmc": 1,
+      "type": "Instant",
+      "text": "Target creature gets -2/-2 until end of turn.",
+      "flavor": "\"Brave scar or unfortunate tale? It all depends on your pain threshold.\"",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "46",
+      "artist": "Justin Sweet",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417469,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "見栄え損ない",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Doom Blade",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Instant",
+      "text": "Destroy target nonblack creature.",
+      "flavor": "\"One little word was all it took. The world shook as I said it. The doom of Zendikar was here at last.\"<br>-Ob Nixilis",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "47",
+      "artist": "Raymond Swanland",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417470,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "破滅の刃",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Fetid Imp",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Creature - Imp",
+      "text": "Flying<br>{B}: Fetid Imp gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "48",
+      "artist": "Nils Hamm",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417471,
+      "power": 1.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "異臭のインプ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Foul Imp",
+      "manaCost": "{B}{B}",
+      "cmc": 2,
+      "type": "Creature - Imp",
+      "text": "Flying<br>When Foul Imp enters the battlefield, you lose 2 life.",
+      "flavor": "The imp, unaware of its own odor, paused to catch its breath . . . and promptly died.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "49",
+      "artist": "Kev Walker",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417472,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "悪臭のインプ",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Giant Scorpion",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "type": "Creature - Scorpion",
+      "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+      "flavor": "Its sting hurts, but death is strangely painless.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "50",
+      "artist": "Raymond Swanland",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417473,
+      "power": 1.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "巨大蠍",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Grim Discovery",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Choose one or both -<br>• Return target creature card from your graveyard to your hand.<br>• Return target land card from your graveyard to your hand.",
+      "flavor": "Few among the living understand just how much of their world is shaped by the ruins of the dead.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "51",
+      "artist": "Christopher Moeller",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417474,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "不気味な発見",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Hideous End",
+      "manaCost": "{1}{B}{B}",
+      "cmc": 3,
+      "type": "Instant",
+      "text": "Destroy target nonblack creature. Its controller loses 2 life.",
+      "flavor": "\"A little dark magic won't stop me. The worse the curse, the better the prize.\"<br>-Radavi, Joraga relic hunter, last words",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "52",
+      "artist": "Zoltan Boros & Gabor Szikszai",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417475,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "忌まわしい最期",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Indulgent Tormentor",
+      "manaCost": "{3}{B}{B}",
+      "cmc": 5,
+      "type": "Creature - Demon",
+      "text": "Flying<br>At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life.",
+      "flavor": "The promise of anguish is payment enough for services rendered.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "R",
+      "number": "53",
+      "artist": "Wesley Burt",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417476,
+      "power": 5.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "寛大な拷問者",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Innocent Blood",
+      "manaCost": "{B}",
+      "cmc": 1,
+      "type": "Sorcery",
+      "text": "Each player sacrifices a creature.",
+      "flavor": "Zombies mourn for the living and celebrate those who will soon be given the gift of death.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "54",
+      "artist": "Carl Critchlow",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417477,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "無垢の血",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Mire's Toll",
+      "manaCost": "{B}",
+      "cmc": 1,
+      "type": "Sorcery",
+      "text": "Target player reveals a number of cards from their hand equal to the number of Swamps you control. You choose one of them. That player discards that card.",
+      "flavor": "As the bridge snapped, Berko was sure he heard the swamp laughing at him.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "55",
+      "artist": "Alex Horley-Orlandelli",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417478,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ぬかるみの代価",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Pestilence Demon",
+      "manaCost": "{5}{B}{B}{B}",
+      "cmc": 8,
+      "type": "Creature - Demon",
+      "text": "Flying<br>{B}: Pestilence Demon deals 1 damage to each creature and each player.",
+      "flavor": "\"I have schemed too long to be supplanted by dead gods. If I cannot have this world, no one can.\"",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "R",
+      "number": "56",
+      "artist": "Justin Sweet",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417479,
+      "power": 7.0,
+      "toughness": 6.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "黒死病の悪魔",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Priest of the Blood Rite",
+      "manaCost": "{3}{B}{B}",
+      "cmc": 5,
+      "type": "Creature - Human Cleric",
+      "text": "When Priest of the Blood Rite enters the battlefield, create a 5/5 black Demon creature token with flying.<br>At the beginning of your upkeep, you lose 2 life.",
+      "flavor": "Some will sacrifice everything for but a taste of power.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "R",
+      "number": "57",
+      "artist": "David Palumbo",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417480,
+      "power": 2.0,
+      "toughness": 2.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "血の儀式の司祭",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Quest for the Gravelord",
+      "manaCost": "{B}",
+      "cmc": 1,
+      "type": "Enchantment",
+      "text": "Whenever a creature dies, you may put a quest counter on Quest for the Gravelord.<br>Remove three quest counters from Quest for the Gravelord and sacrifice it: Create a 5/5 black Zombie Giant creature token.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "58",
+      "artist": "Chris Rahn",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417481,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "墓所王の探索",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Renegade Demon",
+      "manaCost": "{3}{B}{B}",
+      "cmc": 5,
+      "type": "Creature - Demon",
+      "flavor": "Confront it at your own peril, for it will confront you for its own amusement.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "59",
+      "artist": "Tomasz Jedruszek",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417482,
+      "power": 5.0,
+      "toughness": 3.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "反逆の悪魔",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Shadows of the Past",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "type": "Enchantment",
+      "text": "Whenever a creature dies, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)<br>{4}{B}: Each opponent loses 2 life and you gain 2 life. Activate this ability only if there are four or more creature cards in your graveyard.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "60",
+      "artist": "Ryan Yee",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417483,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "過去の過ち",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Smallpox",
+      "manaCost": "{B}{B}",
+      "cmc": 2,
+      "type": "Sorcery",
+      "text": "Each player loses 1 life, discards a card, sacrifices a creature, then sacrifices a land.",
+      "flavor": "Take away a few things, and a rebellion may ensue. Take away everything, and the oppression will be accepted as fate.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "61",
+      "artist": "Ryan Pancoast",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417484,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "小悪疫",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Squelching Leeches",
+      "manaCost": "{2}{B}{B}",
+      "cmc": 4,
+      "type": "Creature - Leech",
+      "text": "Squelching Leeches's power and toughness are each equal to the number of Swamps you control.",
+      "flavor": "Setting foot in their muck is an open invitation.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "62",
+      "artist": "Svetlin Velinov",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417485,
+      "power": -1000.0,
+      "toughness": -1000.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "押し潰すヒル",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Tendrils of Corruption",
+      "manaCost": "{3}{B}",
+      "cmc": 4,
+      "type": "Instant",
+      "text": "Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control.",
+      "flavor": "Darkness doesn't always send its minions to do its dirty work.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "63",
+      "artist": "Vance Kovacs",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417486,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "堕落の触手",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Unhallowed Pact",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "type": "Enchantment - Aura",
+      "text": "Enchant creature<br>When enchanted creature dies, return that card to the battlefield under your control.",
+      "flavor": "Agreements with demons seldom end at the grave.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "64",
+      "artist": "Volkan Baǵa",
+      "color": "B",
+      "colorIdentity": "B",
+      "multiverseId": 417487,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "不浄の契約",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Leechridden Swamp",
+      "cmc": 0,
+      "type": "Land - Swamp",
+      "text": "({T}: Add {B}.)<br>Leechridden Swamp enters the battlefield tapped.<br>{B}, {T}: Each opponent loses 1 life. Activate this ability only if you control two or more black permanents.",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "U",
+      "number": "65",
+      "artist": "Lars Grant-West",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 417488,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": [
+        {
+          "name": "ヒル溜りの沼",
+          "languageCode": "ja"
+        }
+      ]
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "66",
+      "artist": "Noah Bradley",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 417489,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "67",
+      "artist": "Sam Burley",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 417490,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "68",
+      "artist": "Adam Paquette",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 417491,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "69",
+      "artist": "Jung Park",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 417492,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    },
+    {
+      "name": "Swamp",
+      "cmc": 0,
+      "type": "Basic Land - Swamp",
+      "text": "({T}: Add {B}.)",
+      "expansion": "DDR",
+      "scryfallSetCode": "DDR",
+      "rarity": "C",
+      "number": "70",
+      "artist": "Tianhua X",
+      "color": "",
+      "colorIdentity": "B",
+      "multiverseId": 417493,
+      "power": -1005.0,
+      "toughness": -1005.0,
+      "loyalty": -1005,
+      "foreignPrintings": []
+    }
+  ]
+}
