@@ -8,7 +8,6 @@ public class Filenames {
 
     public static final String PATCHES_FILE = "patches.json";
     public static final String LEGALITY_FILE = "legality.json";
-    public static final String META_FILE = "Meta.json";
     public static final String SET_CODE_MAP_FILE = "setCodeMap.json";
 
     public static final String COMP_RULES = "MagicCompRules.txt";

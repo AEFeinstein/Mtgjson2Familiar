@@ -3,6 +3,7 @@ package com.gelakinetic.mtgJson2Familiar;
 import com.gelakinetic.GathererScraper.JsonTypes.*;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_legalities;
+import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_meta;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_allPrintings;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_metafile;
@@ -42,10 +43,36 @@ public class PatchBuilder {
                 .setPrettyPrinting()
                 .create();
 
-        // Get the latest data from mtgjson if it's newer than what we last used
-        mtgjson_metafile newMeta = downloadLatestAllPrintings(gsonReader);
-        if (null == newMeta) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read metadata");
+        // Try to read in the current AllPrintings.json file
+        boolean newDownload;
+        mtgjson_allPrintings printings = null;
+        try (FileReader fr = new FileReader("AllPrintings.json", StandardCharsets.UTF_8)) {
+            printings = gsonReader.fromJson(fr, mtgjson_allPrintings.class);
+            // Get the latest data from mtgjson if it's newer than what we last used
+            newDownload = downloadLatestAllPrintings(gsonReader, printings.meta);
+        } catch (FileNotFoundException e) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "AllPrintings.json not found, downloading");
+            newDownload = downloadLatestAllPrintings(gsonReader, null);
+        } catch (IOException e) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read AllPrintings.json");
+            m2fLogger.logStackTrace(e);
+            return false;
+        }
+
+        // If a new AllPrintings.json was downloaded, read it
+        if (newDownload) {
+            // Read in the current AllPrintings.json file
+            try (FileReader fr = new FileReader("AllPrintings.json", StandardCharsets.UTF_8)) {
+                printings = gsonReader.fromJson(fr, mtgjson_allPrintings.class);
+            } catch (IOException e) {
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read AllPrintings.json");
+                m2fLogger.logStackTrace(e);
+                return false;
+            }
+        }
+
+        if (null == printings) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Printings were null!");
             return false;
         }
 
@@ -60,16 +87,6 @@ public class PatchBuilder {
             ids = new TcgpHelper(tcgpKeyFile).getGroupIds();
         } catch (IOException e) {
             m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't initialize TCGP group IDs");
-            m2fLogger.logStackTrace(e);
-            return false;
-        }
-
-        // Read in the AllPrintings.json file
-        mtgjson_allPrintings printings;
-        try (FileReader fr = new FileReader("AllPrintings.json", StandardCharsets.UTF_8)) {
-            printings = gsonReader.fromJson(fr, mtgjson_allPrintings.class);
-        } catch (IOException e) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read AllPrintings.json");
             m2fLogger.logStackTrace(e);
             return false;
         }
@@ -334,12 +351,6 @@ public class PatchBuilder {
             return false;
         }
 
-        // Write the metadata so we won't re-download AllPrintings.json
-        if (!writeFile(newMeta, gsonReader, new File(Filenames.PATCHES_DIR, Filenames.META_FILE), false)) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't write " + Filenames.META_FILE);
-            return false;
-        }
-
         m2fLogger.log(m2fLogger.LogLevel.INFO, "Done building patches");
         return true;
     }
@@ -349,26 +360,19 @@ public class PatchBuilder {
      * Download and unzip AllPrintings.json if there is a newer version
      *
      * @param gsonReader A Gson to read metadata with
+     * @param meta       The old metadata. May be null
      * @return the new metadata
      */
-    private static mtgjson_metafile downloadLatestAllPrintings(Gson gsonReader) {
-        mtgjson_metafile newMeta;
+    private static boolean downloadLatestAllPrintings(Gson gsonReader, mtgjson_meta meta) {
+        boolean downloaded = false;
         try (BufferedReader in = new BufferedReader(new InputStreamReader(new URL("https://mtgjson.com/api/v5/Meta.json").openStream(), StandardCharsets.UTF_8))) {
             // Read current metadata from the web
-            newMeta = gsonReader.fromJson(in, mtgjson_metafile.class);
-
-            // Read in last known metadata from file
-            mtgjson_metafile oldMeta = null;
-            try (FileReader fr = new FileReader(new File(Filenames.PATCHES_DIR, Filenames.META_FILE), StandardCharsets.UTF_8)) {
-                oldMeta = gsonReader.fromJson(fr, mtgjson_metafile.class);
-            } catch (IOException e) {
-                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read local metadata");
-            }
+            mtgjson_metafile newMeta = gsonReader.fromJson(in, mtgjson_metafile.class);
 
             // If there's a mismatch
-            if (null == oldMeta ||
-                    !oldMeta.data.version.equals(newMeta.data.version) ||
-                    !oldMeta.meta.version.equals(newMeta.meta.version)) {
+            if (null == meta ||
+                    !meta.version.equals(newMeta.data.version) ||
+                    !meta.version.equals(newMeta.meta.version)) {
                 // Download and unzip new AllPrintings.json.zip
                 try (ZipInputStream allPrintings = new ZipInputStream(new URL("https://mtgjson.com/api/v5/AllPrintings.json.zip").openStream())) {
                     ZipEntry zipEntry = allPrintings.getNextEntry();
@@ -384,13 +388,14 @@ public class PatchBuilder {
                         }
                         zipEntry = allPrintings.getNextEntry();
                     }
+                    downloaded = true;
                 }
             }
         } catch (IOException e) {
             m2fLogger.logStackTrace(e);
-            newMeta = null;
+            downloaded = false;
         }
-        return newMeta;
+        return downloaded;
     }
 
     /**
