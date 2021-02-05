@@ -353,7 +353,7 @@ public class PatchBuilder {
      */
     private static mtgjson_metafile downloadLatestAllPrintings(Gson gsonReader) {
         mtgjson_metafile newMeta;
-        try (BufferedReader in = new BufferedReader(new InputStreamReader(new URL("https://mtgjson.com/api/v5/Meta.json").openStream()))) {
+        try (BufferedReader in = new BufferedReader(new InputStreamReader(new URL("https://mtgjson.com/api/v5/Meta.json").openStream(), StandardCharsets.UTF_8))) {
             // Read current metadata from the web
             newMeta = gsonReader.fromJson(in, mtgjson_metafile.class);
 

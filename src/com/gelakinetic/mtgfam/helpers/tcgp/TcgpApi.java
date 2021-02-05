@@ -181,7 +181,7 @@ public class TcgpApi {
             GsonBuilder builder = new GsonBuilder();
             AccessToken.setDateFormat(builder);
             AccessToken token = builder.create()
-                    .fromJson(new InputStreamReader(inStream), AccessToken.class);
+                    .fromJson(new InputStreamReader(inStream, StandardCharsets.UTF_8), AccessToken.class);
             this.mAccessToken = token.access_token;
 
             // Clean up
@@ -345,7 +345,7 @@ public class TcgpApi {
             }
 
             // Parse the json out of the response and save it
-            ProductInformation information = (new Gson()).fromJson(new InputStreamReader(inStream),
+            ProductInformation information = (new Gson()).fromJson(new InputStreamReader(inStream, StandardCharsets.UTF_8),
                     ProductInformation.class);
 
             // Clean up
@@ -399,7 +399,7 @@ public class TcgpApi {
 
             // Parse the json out of the response and save it
             ProductMarketPrice price = new Gson()
-                    .fromJson(new InputStreamReader(inStream), ProductMarketPrice.class);
+                    .fromJson(new InputStreamReader(inStream, StandardCharsets.UTF_8), ProductMarketPrice.class);
 
             // Clean up
             inStream.close();
@@ -453,7 +453,7 @@ public class TcgpApi {
             GsonBuilder builder = new GsonBuilder();
             CatalogData.CatalogDataItem.setDateFormat(builder);
             ProductDetails details = builder.create()
-                    .fromJson(new InputStreamReader(inStream), ProductDetails.class);
+                    .fromJson(new InputStreamReader(inStream, StandardCharsets.UTF_8), ProductDetails.class);
 
             // Clean up
             inStream.close();
@@ -500,7 +500,7 @@ public class TcgpApi {
 
             // Parse the json out of the response and save it
             CategoryGroups groups = new Gson()
-                    .fromJson(new InputStreamReader(inStream), CategoryGroups.class);
+                    .fromJson(new InputStreamReader(inStream, StandardCharsets.UTF_8), CategoryGroups.class);
 
             // Clean up
             inStream.close();

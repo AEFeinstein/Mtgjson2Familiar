@@ -74,7 +74,7 @@ public class CompRulesScraper {
         StringBuilder problematicLines = new StringBuilder();
 
         // Download the rules, one line at a time
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(new URL(rulesUrl).openStream()))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(new URL(rulesUrl).openStream(), StandardCharsets.UTF_8))) {
             // Don't initially add lines
             boolean addLines = false;
             //  Read the file, one line at a time 

@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 
 public class TcgpHelper {
@@ -20,7 +21,7 @@ public class TcgpHelper {
         api = new TcgpApi();
 
         /* Request a token. This will initialize the TcgpApi object */
-        TcgpKeys keys = new Gson().fromJson(new InputStreamReader(new FileInputStream(keyFile)), TcgpKeys.class);
+        TcgpKeys keys = new Gson().fromJson(new InputStreamReader(new FileInputStream(keyFile), StandardCharsets.UTF_8), TcgpKeys.class);
         //noinspection ConstantConditions
         api.getAccessToken(keys.PUBLIC_KEY, keys.PRIVATE_KEY, keys.ACCESS_TOKEN);
     }
