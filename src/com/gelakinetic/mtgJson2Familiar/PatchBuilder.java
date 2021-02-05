@@ -529,7 +529,7 @@ public class PatchBuilder {
 
         if (shouldZip) {
             try (OutputStreamWriter osw = new OutputStreamWriter(new GZIPOutputStream(new FileOutputStream(outFile)), StandardCharsets.UTF_8)) {
-                osw.write(serializer.toJson(object));
+                osw.write(serializer.toJson(object).replace("\r", ""));
             } catch (IOException e) {
                 m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to write " + object.toString() + " to " + outFile);
                 m2fLogger.logStackTrace(e);
@@ -537,7 +537,7 @@ public class PatchBuilder {
             }
         } else {
             try (OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(outFile), StandardCharsets.UTF_8)) {
-                osw.write(serializer.toJson(object));
+                osw.write(serializer.toJson(object).replace("\r", ""));
             } catch (IOException e) {
                 m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to write " + object.toString() + " to " + outFile);
                 m2fLogger.logStackTrace(e);

@@ -123,9 +123,9 @@ public class CompRulesScraper {
         // If there were no errors or problematic lines
         try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(Filenames.RULES_DIR, Filenames.COMP_RULES)), StandardCharsets.UTF_8))) {
             // Write the rules to the file
-            bw.write(GetEmbeddedDate(date));
+            bw.write(GetEmbeddedDate(date).replace("\r", ""));
             bw.write("\n\n");
-            bw.write(compRules.toString());
+            bw.write(compRules.toString().replace("\r", ""));
         } catch (IOException e) {
             m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error writing rules");
             m2fLogger.logStackTrace(e);

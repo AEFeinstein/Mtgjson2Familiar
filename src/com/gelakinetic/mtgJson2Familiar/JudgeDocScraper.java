@@ -200,7 +200,7 @@ public class JudgeDocScraper {
             LocalDateTime now = LocalDateTime.now();
             bw.write(String.format("%d-%02d-%02d\n", now.getYear(), now.getMonthValue() - 1, now.getDayOfMonth()));
             // Write the HTML
-            bw.write(parsedDoc);
+            bw.write(parsedDoc.replace("\r", ""));
         } catch (IOException e) {
             m2fLogger.log(m2fLogger.LogLevel.DEBUG, "EXCEPTION!!! " + e.getMessage());
             m2fLogger.logStackTrace(e);
