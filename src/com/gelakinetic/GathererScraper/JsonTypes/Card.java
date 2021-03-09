@@ -9,10 +9,7 @@ import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /*
  * This class contains all information about a scraped card
@@ -209,6 +206,21 @@ public class Card implements Comparable<Card> {
             this.mWatermark = this.mWatermark.substring(0, 1).toUpperCase() + this.mWatermark.substring(1);
         }
         this.mRarity = orig.rarity.toUpperCase().charAt(0);
+
+        // Adjust rarities
+        if ('S' == this.mRarity) {
+            if (origSet.name.toLowerCase().contains("time")) {
+                // Special -> Timeshifted
+                this.mRarity = 'T';
+            } else if ("CMR".equals(origSet.code)) {
+                // Special -> Common, Prismatic Piper
+                this.mRarity = 'C';
+            }
+        } else if ('B' == this.mRarity) {
+            // Bonus -> Mythic
+            this.mRarity = 'M';
+        }
+
         switch (this.mRarity) {
             case 'C':
             case 'U':
