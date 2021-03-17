@@ -10,6 +10,9 @@ import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_metafile;
 import com.gelakinetic.mtgfam.helpers.tcgp.TcgpHelper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.*;
 import java.net.URL;
@@ -17,10 +20,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
+import java.util.*;
 import java.util.zip.GZIPOutputStream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
@@ -43,20 +43,26 @@ public class PatchBuilder {
                 .setPrettyPrinting()
                 .create();
 
-        // Try to read in the current AllPrintings.json file
-        boolean newDownload;
-        mtgjson_allPrintings printings = null;
+        // Get the metadata for the local "AllPrintings.json" file
+        mtgjson_allPrintings printings;
         try (FileReader fr = new FileReader("AllPrintings.json", StandardCharsets.UTF_8)) {
             printings = gsonReader.fromJson(fr, mtgjson_allPrintings.class);
-            // Get the latest data from mtgjson if it's newer than what we last used
-            newDownload = downloadLatestAllPrintings(gsonReader, printings.meta);
         } catch (FileNotFoundException e) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "AllPrintings.json not found, downloading");
-            newDownload = downloadLatestAllPrintings(gsonReader, null);
+            printings = null;
         } catch (IOException e) {
             m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read AllPrintings.json");
             m2fLogger.logStackTrace(e);
             return false;
+        }
+
+        // Try to read in the current AllPrintings.json file
+        boolean newDownload;
+        if (null == printings) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "AllPrintings.json not found, downloading");
+            newDownload = downloadLatestAllPrintings(gsonReader, null);
+        } else {
+            // Get the latest data from mtgjson if it's newer than what we last used
+            newDownload = downloadLatestAllPrintings(gsonReader, printings.meta);
         }
 
         // If a new AllPrintings.json was downloaded, read it
@@ -90,6 +96,9 @@ public class PatchBuilder {
             m2fLogger.logStackTrace(e);
             return false;
         }
+
+        // Get list of Expansions on Gatherer
+        ArrayList<String> gathererExpansions = getGathererExpansionList();
 
         // Save promo planes to re-add later
         ArrayList<Card> promoPlanes = new ArrayList<>();
@@ -224,6 +233,19 @@ public class PatchBuilder {
                         if (c.mMultiverseId > -1 || isArenaOnly) {
                             newPatch.mCards.add(c);
 
+                            buildCardLegalities(legal, orig, c);
+                        }
+                    }
+
+                    // If no cards were added, but the expansion exists on Gatherer
+                    if (newPatch.mCards.isEmpty() && gathererExpansions.contains(set.name.toLowerCase())) {
+                        m2fLogger.log(m2fLogger.LogLevel.INFO, "Adding " + set.name + " (no multiverseID, on Gatherer)");
+
+                        // Add all the cards anyway
+                        for (mtgjson_card orig : set.cards) {
+                            // Parse it
+                            Card c = new Card(orig, set, newExpansion, scm);
+                            newPatch.mCards.add(c);
                             buildCardLegalities(legal, orig, c);
                         }
                     }
@@ -551,5 +573,27 @@ public class PatchBuilder {
         }
 
         return true;
+    }
+
+    /**
+     * Get a list of expansions listed on Gatherer
+     *
+     * @return The list of expansions on Gatherer, all lowercase
+     */
+    static ArrayList<String> getGathererExpansionList() {
+        ArrayList<String> expansions = new ArrayList<>();
+        Document gathererMain = NetUtils.ConnectWithRetries("http://gatherer.wizards.com/Pages/Default.aspx");
+        if (null != gathererMain) {
+            Elements expansionElements = gathererMain.getElementsByAttributeValueContaining("name", "setAddText");
+
+            for (Element expansionElement : expansionElements) {
+                for (Element e : expansionElement.getAllElements()) {
+                    if (e.ownText().length() > 0) {
+                        expansions.add(e.ownText().toLowerCase());
+                    }
+                }
+            }
+        }
+        return expansions;
     }
 }
