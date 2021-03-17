@@ -217,8 +217,13 @@ public class Card implements Comparable<Card> {
                 this.mRarity = 'C';
             }
         } else if ('B' == this.mRarity) {
-            // Bonus -> Mythic
-            this.mRarity = 'M';
+            if (origSet.name.toLowerCase().contains("time")) {
+                // Bonus -> Timeshifted
+                this.mRarity = 'T';
+            } else {
+                // Bonus -> Mythic
+                this.mRarity = 'M';
+            }
         }
 
         switch (this.mRarity) {
