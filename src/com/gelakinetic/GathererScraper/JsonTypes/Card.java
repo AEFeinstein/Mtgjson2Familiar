@@ -194,7 +194,11 @@ public class Card implements Comparable<Card> {
 
         // TODO Familiar treats half mana CMC incorrectly
         this.mCmc = (int) orig.convertedManaCost;
-        this.mManaCost = orig.manaCost;
+        if (null != orig.manaCost) {
+            this.mManaCost = orig.manaCost.replace("/", "");
+        } else {
+            this.mManaCost = null;
+        }
 
         this.mColor = colorListToString(orig.colors);
         this.mColorIdentity = colorListToString(orig.colorIdentity);
