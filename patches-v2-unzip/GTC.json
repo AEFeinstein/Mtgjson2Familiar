@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "33724b682746f5fc66265c3d08e320e5",
+    "digest": "1e60e1f841779e57b9c4df06a4e5f58e",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GTC_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GTC_M.png",
@@ -2102,7 +2102,7 @@
       "manaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Homunculus",
-      "text": "{1}{G}: Frilled Oculus gets +2/+2 until end of turn. Activate this ability only once each turn.",
+      "text": "{1}{G}: Frilled Oculus gets +2/+2 until end of turn. Activate only once each turn.",
       "flavor": "\"Understand the Simic? That's about as easy as winning a staring contest with a homunculus.\"<br>-Dars Gostok, Firefist captain",
       "expansion": "GTC",
       "scryfallSetCode": "GTC",
@@ -10070,7 +10070,7 @@
       "manaCost": "{3}{R}{G}",
       "cmc": 5,
       "type": "Sorcery",
-      "text": "Destroy target land. Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.",
+      "text": "Destroy target land. Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
       "flavor": "\"Izzet contraptions pollute our lands. Burn them down, kill the makers, cleanse the earth.\"<br>-Nedja, Gruul shaman",
       "expansion": "GTC",
       "scryfallSetCode": "GTC",
@@ -10936,7 +10936,7 @@
       "manaCost": "{2}{G}{U}{U}",
       "cmc": 5,
       "type": "Instant",
-      "text": "Counter target spell. Create an X/X green Ooze creature token, where X is that spell's converted mana cost.",
+      "text": "Counter target spell. Create an X/X green Ooze creature token, where X is that spell's mana value.",
       "flavor": "\"The Simic can grow anything out of a puddle of sludge. I just hope they never join forces with the Golgari.\"<br>-Teysa Karlov, Grand Envoy of Orzhov",
       "expansion": "GTC",
       "scryfallSetCode": "GTC",
@@ -12837,7 +12837,7 @@
     },
     {
       "name": "Arrows of Justice",
-      "manaCost": "{2}{R/W}",
+      "manaCost": "{2}{RW}",
       "cmc": 3,
       "type": "Instant",
       "text": "Arrows of Justice deals 4 damage to target attacking or blocking creature.",
@@ -12899,7 +12899,7 @@
     },
     {
       "name": "Beckon Apparition",
-      "manaCost": "{W/B}",
+      "manaCost": "{WB}",
       "cmc": 1,
       "type": "Instant",
       "text": "Exile target card from a graveyard. Create a 1/1 white and black Spirit creature token with flying.",
@@ -12961,7 +12961,7 @@
     },
     {
       "name": "Biomass Mutation",
-      "manaCost": "{X}{G/U}{G/U}",
+      "manaCost": "{X}{GU}{GU}",
       "cmc": 2,
       "type": "Instant",
       "text": "Creatures you control have base power and toughness X/X until end of turn.",
@@ -13023,7 +13023,7 @@
     },
     {
       "name": "Bioshift",
-      "manaCost": "{G/U}",
+      "manaCost": "{GU}",
       "cmc": 1,
       "type": "Instant",
       "text": "Move any number of +1/+1 counters from target creature onto another target creature with the same controller.",
@@ -13085,7 +13085,7 @@
     },
     {
       "name": "Boros Reckoner",
-      "manaCost": "{R/W}{R/W}{R/W}",
+      "manaCost": "{RW}{RW}{RW}",
       "cmc": 3,
       "type": "Creature - Minotaur Wizard",
       "text": "Whenever Boros Reckoner is dealt damage, it deals that much damage to any target.<br>{R/W}: Boros Reckoner gains first strike until end of turn.",
@@ -13147,7 +13147,7 @@
     },
     {
       "name": "Burning-Tree Emissary",
-      "manaCost": "{R/G}{R/G}",
+      "manaCost": "{RG}{RG}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "When Burning-Tree Emissary enters the battlefield, add {R}{G}.",
@@ -13209,7 +13209,7 @@
     },
     {
       "name": "Coerced Confession",
-      "manaCost": "{4}{U/B}",
+      "manaCost": "{4}{UB}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Target player mills four cards. You draw a card for each creature card put into their graveyard this way.",
@@ -13271,7 +13271,7 @@
     },
     {
       "name": "Deathcult Rogue",
-      "manaCost": "{1}{U/B}{U/B}",
+      "manaCost": "{1}{UB}{UB}",
       "cmc": 3,
       "type": "Creature - Human Rogue",
       "text": "Deathcult Rogue can't be blocked except by Rogues.",
@@ -13333,7 +13333,7 @@
     },
     {
       "name": "Gift of Orzhova",
-      "manaCost": "{1}{W/B}{W/B}",
+      "manaCost": "{1}{WB}{WB}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+1 and has flying and lifelink.",
@@ -13395,7 +13395,7 @@
     },
     {
       "name": "Immortal Servitude",
-      "manaCost": "{X}{W/B}{W/B}{W/B}",
+      "manaCost": "{X}{WB}{WB}{WB}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Return each creature card with converted mana cost X from your graveyard to the battlefield.",
@@ -13457,7 +13457,7 @@
     },
     {
       "name": "Merfolk of the Depths",
-      "manaCost": "{4}{G/U}{G/U}",
+      "manaCost": "{4}{GU}{GU}",
       "cmc": 6,
       "type": "Creature - Merfolk Soldier",
       "text": "Flash (You may cast this spell any time you could cast an instant.)",
@@ -13519,7 +13519,7 @@
     },
     {
       "name": "Nightveil Specter",
-      "manaCost": "{U/B}{U/B}{U/B}",
+      "manaCost": "{UB}{UB}{UB}",
       "cmc": 3,
       "type": "Creature - Specter",
       "text": "Flying<br>Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of their library.<br>You may play lands and cast spells from among cards exiled with Nightveil Specter.",
@@ -13580,7 +13580,7 @@
     },
     {
       "name": "Pit Fight",
-      "manaCost": "{1}{R/G}",
+      "manaCost": "{1}{RG}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)",
@@ -13642,7 +13642,7 @@
     },
     {
       "name": "Rubblebelt Raiders",
-      "manaCost": "{1}{R/G}{R/G}{R/G}",
+      "manaCost": "{1}{RG}{RG}{RG}",
       "cmc": 4,
       "type": "Creature - Human Warrior",
       "text": "Whenever Rubblebelt Raiders attacks, put a +1/+1 counter on it for each attacking creature you control.",
@@ -13704,7 +13704,7 @@
     },
     {
       "name": "Shattering Blow",
-      "manaCost": "{1}{R/W}",
+      "manaCost": "{1}{RW}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile target artifact.",

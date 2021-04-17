@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "606530096dd7d0e366cb8855d350d000",
+    "digest": "ced17c4d53ecd394f962887c69bb50fe",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SHM_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SHM_R.png",
@@ -1184,7 +1184,7 @@
     },
     {
       "name": "Spectral Procession",
-      "manaCost": "{2/W}{2/W}{2/W}",
+      "manaCost": "{2W}{2W}{2W}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Create three 1/1 white Spirit creature tokens with flying.",
@@ -1448,10 +1448,10 @@
     },
     {
       "name": "Advice from the Fae",
-      "manaCost": "{2/U}{2/U}{2/U}",
+      "manaCost": "{2U}{2U}{2U}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "({2/U} can be paid with any two mana or with {U}. This card's converted mana cost is 6.)<br>Look at the top five cards of your library. If you control more creatures than each other player, put two of those cards into your hand. Otherwise, put one of them into your hand. Then put the rest on the bottom of your library in any order.",
+      "text": "({2/U} can be paid with any two mana or with {U}. This card's mana value is 6.)<br>Look at the top five cards of your library. If you control more creatures than each other player, put two of those cards into your hand. Otherwise, put one of them into your hand. Then put the rest on the bottom of your library in any order.",
       "expansion": "SHM",
       "scryfallSetCode": "SHM",
       "rarity": "U",
@@ -2456,7 +2456,7 @@
       "manaCost": "{3}{U}",
       "cmc": 4,
       "type": "Enchantment",
-      "text": "At the beginning of your upkeep, you may exchange control of target nonland permanent you control and target nonland permanent an opponent controls with an equal or lesser converted mana cost.",
+      "text": "At the beginning of your upkeep, you may exchange control of target nonland permanent you control and target nonland permanent an opponent controls with an equal or lesser mana value.",
       "expansion": "SHM",
       "scryfallSetCode": "SHM",
       "rarity": "R",
@@ -2980,7 +2980,7 @@
     },
     {
       "name": "Beseech the Queen",
-      "manaCost": "{2/B}{2/B}{2/B}",
+      "manaCost": "{2B}{2B}{2B}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "({2/B} can be paid with any two mana or with {B}. This card's converted mana cost is 6.)<br>Search your library for a card with converted mana cost less than or equal to the number of lands you control, reveal it, and put it into your hand. Then shuffle your library.",
@@ -3142,7 +3142,7 @@
       "manaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Elemental Shaman",
-      "text": "{T}: Target player discards a card. Activate this ability only during your turn.<br>Put a -1/-1 counter on Cinderhaze Wretch: Untap Cinderhaze Wretch.",
+      "text": "{T}: Target player discards a card. Activate only during your turn.<br>Put a -1/-1 counter on Cinderhaze Wretch: Untap Cinderhaze Wretch.",
       "flavor": "Thick smoke billows and twists to form disturbing faces that cackle and click their teeth to the popping embers.",
       "expansion": "SHM",
       "scryfallSetCode": "SHM",
@@ -4829,7 +4829,7 @@
     },
     {
       "name": "Flame Javelin",
-      "manaCost": "{2/R}{2/R}{2/R}",
+      "manaCost": "{2R}{2R}{2R}",
       "cmc": 6,
       "type": "Instant",
       "text": "({2/R} can be paid with any two mana or with {R}. This card's converted mana cost is 6.)<br>Flame Javelin deals 4 damage to any target.",
@@ -5202,7 +5202,7 @@
       "manaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Enchantment",
-      "text": "{X}, Discard a card with converted mana cost X: Knollspine Invocation deals X damage to any target.",
+      "text": "{X}, Discard a card with mana value X: Knollspine Invocation deals X damage to any target.",
       "flavor": "Witches tempted by the power of flame gathered to study in the ruins of Spinerock Knoll.",
       "expansion": "SHM",
       "scryfallSetCode": "SHM",
@@ -5944,7 +5944,7 @@
       "manaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
-      "text": "When Farhaven Elf enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "When Farhaven Elf enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "flavor": "\"Verdant bloom does exist. It merely hides for its own safety.\"",
       "expansion": "SHM",
       "scryfallSetCode": "SHM",
@@ -6893,10 +6893,10 @@
     },
     {
       "name": "Tower Above",
-      "manaCost": "{2/G}{2/G}{2/G}",
+      "manaCost": "{2G}{2G}{2G}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "({2/G} can be paid with any two mana or with {G}. This card's converted mana cost is 6.)<br>Until end of turn, target creature gets +4/+4 and gains trample, wither, and \"When this creature attacks, target creature blocks it this turn if able.\" (It deals damage to creatures in the form of -1/-1 counters.)",
+      "text": "({2/G} can be paid with any two mana or with {G}. This card's mana value is 6.)<br>Until end of turn, target creature gets +4/+4 and gains trample, wither, and \"When this creature attacks, target creature blocks it this turn if able.\" (It deals damage to creatures in the form of -1/-1 counters.)",
       "expansion": "SHM",
       "scryfallSetCode": "SHM",
       "rarity": "U",
@@ -7155,7 +7155,7 @@
     },
     {
       "name": "Aethertow",
-      "manaCost": "{3}{W/U}",
+      "manaCost": "{3}{WU}",
       "cmc": 4,
       "type": "Instant",
       "text": "Put target attacking or blocking creature on top of its owner's library.<br>Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)",
@@ -7207,10 +7207,10 @@
     },
     {
       "name": "Augury Adept",
-      "manaCost": "{1}{W/U}{W/U}",
+      "manaCost": "{1}{WU}{WU}",
       "cmc": 3,
       "type": "Creature - Kithkin Wizard",
-      "text": "Whenever Augury Adept deals combat damage to a player, reveal the top card of your library and put that card into your hand. You gain life equal to its converted mana cost.",
+      "text": "Whenever Augury Adept deals combat damage to a player, reveal the top card of your library and put that card into your hand. You gain life equal to its mana value.",
       "flavor": "Moonstones grant limited foresight but unlimited advantages.",
       "expansion": "SHM",
       "scryfallSetCode": "SHM",
@@ -7260,7 +7260,7 @@
     },
     {
       "name": "Barrenton Cragtreads",
-      "manaCost": "{2}{W/U}{W/U}",
+      "manaCost": "{2}{WU}{WU}",
       "cmc": 4,
       "type": "Creature - Kithkin Scout",
       "text": "Barrenton Cragtreads can't be blocked by red creatures.",
@@ -7313,7 +7313,7 @@
     },
     {
       "name": "Curse of Chains",
-      "manaCost": "{1}{W/U}",
+      "manaCost": "{1}{WU}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>At the beginning of each upkeep, tap enchanted creature.",
@@ -7366,7 +7366,7 @@
     },
     {
       "name": "Enchanted Evening",
-      "manaCost": "{3}{W/U}{W/U}",
+      "manaCost": "{3}{WU}{WU}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "All permanents are enchantments in addition to their other types.",
@@ -7419,7 +7419,7 @@
     },
     {
       "name": "Glamer Spinners",
-      "manaCost": "{4}{W/U}",
+      "manaCost": "{4}{WU}",
       "cmc": 5,
       "type": "Creature - Faerie Wizard",
       "text": "Flash<br>Flying<br>When Glamer Spinners enters the battlefield, attach all Auras enchanting target permanent to another permanent with the same controller.",
@@ -7471,7 +7471,7 @@
     },
     {
       "name": "Godhead of Awe",
-      "manaCost": "{W/U}{W/U}{W/U}{W/U}{W/U}",
+      "manaCost": "{WU}{WU}{WU}{WU}{WU}",
       "cmc": 5,
       "type": "Creature - Spirit Avatar",
       "text": "Flying<br>Other creatures have base power and toughness 1/1.",
@@ -7524,7 +7524,7 @@
     },
     {
       "name": "Mirrorweave",
-      "manaCost": "{2}{W/U}{W/U}",
+      "manaCost": "{2}{WU}{WU}",
       "cmc": 4,
       "type": "Instant",
       "text": "Each other creature becomes a copy of target nonlegendary creature until end of turn.",
@@ -7577,7 +7577,7 @@
     },
     {
       "name": "Mistmeadow Witch",
-      "manaCost": "{1}{W/U}",
+      "manaCost": "{1}{WU}",
       "cmc": 2,
       "type": "Creature - Kithkin Wizard",
       "text": "{2}{W}{U}: Exile target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -7630,7 +7630,7 @@
     },
     {
       "name": "Plumeveil",
-      "manaCost": "{W/U}{W/U}{W/U}",
+      "manaCost": "{WU}{WU}{WU}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Flash<br>Defender, flying",
@@ -7683,7 +7683,7 @@
     },
     {
       "name": "Puresight Merrow",
-      "manaCost": "{W/U}{W/U}",
+      "manaCost": "{WU}{WU}",
       "cmc": 2,
       "type": "Creature - Merfolk Wizard",
       "text": "{W/U}, {Q}: Look at the top card of your library. You may exile that card. ({Q} is the untap symbol.)",
@@ -7736,7 +7736,7 @@
     },
     {
       "name": "Repel Intruders",
-      "manaCost": "{3}{W/U}",
+      "manaCost": "{3}{WU}",
       "cmc": 4,
       "type": "Instant",
       "text": "Create two 1/1 white Kithkin Soldier creature tokens if {W} was spent to cast this spell. Counter up to one target creature spell if {U} was spent to cast this spell. (Do both if {W}{U} was spent.)",
@@ -7788,7 +7788,7 @@
     },
     {
       "name": "Silkbind Faerie",
-      "manaCost": "{2}{W/U}",
+      "manaCost": "{2}{WU}",
       "cmc": 3,
       "type": "Creature - Faerie Rogue",
       "text": "Flying<br>{1}{W/U}, {Q}: Tap target creature. ({Q} is the untap symbol.)",
@@ -7841,7 +7841,7 @@
     },
     {
       "name": "Somnomancer",
-      "manaCost": "{1}{W/U}",
+      "manaCost": "{1}{WU}",
       "cmc": 2,
       "type": "Creature - Kithkin Wizard",
       "text": "When Somnomancer enters the battlefield, you may tap target creature.",
@@ -7894,7 +7894,7 @@
     },
     {
       "name": "Steel of the Godhead",
-      "manaCost": "{2}{W/U}",
+      "manaCost": "{2}{WU}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>As long as enchanted creature is white, it gets +1/+1 and has lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)<br>As long as enchanted creature is blue, it gets +1/+1 and can't be blocked.",
@@ -7946,7 +7946,7 @@
     },
     {
       "name": "Swans of Bryn Argoll",
-      "manaCost": "{2}{W/U}{W/U}",
+      "manaCost": "{2}{WU}{WU}",
       "cmc": 4,
       "type": "Creature - Bird Spirit",
       "text": "Flying<br>If a source would deal damage to Swans of Bryn Argoll, prevent that damage. The source's controller draws cards equal to the damage prevented this way.",
@@ -7999,7 +7999,7 @@
     },
     {
       "name": "Thistledown Duo",
-      "manaCost": "{2}{W/U}",
+      "manaCost": "{2}{WU}",
       "cmc": 3,
       "type": "Creature - Kithkin Soldier Wizard",
       "text": "Whenever you cast a white spell, Thistledown Duo gets +1/+1 until end of turn.<br>Whenever you cast a blue spell, Thistledown Duo gains flying until end of turn.",
@@ -8051,7 +8051,7 @@
     },
     {
       "name": "Thistledown Liege",
-      "manaCost": "{1}{W/U}{W/U}{W/U}",
+      "manaCost": "{1}{WU}{WU}{WU}",
       "cmc": 4,
       "type": "Creature - Kithkin Knight",
       "text": "Flash<br>Other white creatures you control get +1/+1.<br>Other blue creatures you control get +1/+1.",
@@ -8104,7 +8104,7 @@
     },
     {
       "name": "Thoughtweft Gambit",
-      "manaCost": "{4}{W/U}{W/U}",
+      "manaCost": "{4}{WU}{WU}",
       "cmc": 6,
       "type": "Instant",
       "text": "Tap all creatures your opponents control and untap all creatures you control.",
@@ -8157,7 +8157,7 @@
     },
     {
       "name": "Turn to Mist",
-      "manaCost": "{1}{W/U}",
+      "manaCost": "{1}{WU}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -8210,7 +8210,7 @@
     },
     {
       "name": "Worldpurge",
-      "manaCost": "{4}{W/U}{W/U}{W/U}{W/U}",
+      "manaCost": "{4}{WU}{WU}{WU}{WU}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Return all permanents to their owners' hands. Each player chooses up to seven cards in their hand, then shuffles the rest into their library. Each player loses all unspent mana.",
@@ -8263,7 +8263,7 @@
     },
     {
       "name": "Zealous Guardian",
-      "manaCost": "{W/U}",
+      "manaCost": "{WU}",
       "cmc": 1,
       "type": "Creature - Kithkin Soldier",
       "text": "Flash",
@@ -8316,7 +8316,7 @@
     },
     {
       "name": "Cemetery Puca",
-      "manaCost": "{1}{U/B}{U/B}",
+      "manaCost": "{1}{UB}{UB}",
       "cmc": 3,
       "type": "Creature - Shapeshifter",
       "text": "Whenever a creature dies, you may pay {1}. If you do, Cemetery Puca becomes a copy of that creature, except it has this ability.",
@@ -8369,7 +8369,7 @@
     },
     {
       "name": "Dire Undercurrents",
-      "manaCost": "{3}{U/B}{U/B}",
+      "manaCost": "{3}{UB}{UB}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Whenever a blue creature enters the battlefield under your control, you may have target player draw a card.<br>Whenever a black creature enters the battlefield under your control, you may have target player discard a card.",
@@ -8421,7 +8421,7 @@
     },
     {
       "name": "Dream Salvage",
-      "manaCost": "{U/B}",
+      "manaCost": "{UB}",
       "cmc": 1,
       "type": "Instant",
       "text": "Draw cards equal to the number of cards target opponent discarded this turn.",
@@ -8474,7 +8474,7 @@
     },
     {
       "name": "Fate Transfer",
-      "manaCost": "{1}{U/B}",
+      "manaCost": "{1}{UB}",
       "cmc": 2,
       "type": "Instant",
       "text": "Move all counters from target creature onto another target creature.",
@@ -8527,7 +8527,7 @@
     },
     {
       "name": "Ghastlord of Fugue",
-      "manaCost": "{U/B}{U/B}{U/B}{U/B}{U/B}",
+      "manaCost": "{UB}{UB}{UB}{UB}{UB}",
       "cmc": 5,
       "type": "Creature - Spirit Avatar",
       "text": "Ghastlord of Fugue can't be blocked.<br>Whenever Ghastlord of Fugue deals combat damage to a player, that player reveals their hand. You choose a card from it. That player exiles that card.",
@@ -8580,7 +8580,7 @@
     },
     {
       "name": "Glen Elendra Liege",
-      "manaCost": "{1}{U/B}{U/B}{U/B}",
+      "manaCost": "{1}{UB}{UB}{UB}",
       "cmc": 4,
       "type": "Creature - Faerie Knight",
       "text": "Flying<br>Other blue creatures you control get +1/+1.<br>Other black creatures you control get +1/+1.",
@@ -8633,7 +8633,7 @@
     },
     {
       "name": "Gravelgill Axeshark",
-      "manaCost": "{4}{U/B}",
+      "manaCost": "{4}{UB}",
       "cmc": 5,
       "type": "Creature - Merfolk Soldier",
       "text": "Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
@@ -8686,7 +8686,7 @@
     },
     {
       "name": "Gravelgill Duo",
-      "manaCost": "{2}{U/B}",
+      "manaCost": "{2}{UB}",
       "cmc": 3,
       "type": "Creature - Merfolk Rogue Warrior",
       "text": "Whenever you cast a blue spell, Gravelgill Duo gets +1/+1 until end of turn.<br>Whenever you cast a black spell, Gravelgill Duo gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)",
@@ -8738,7 +8738,7 @@
     },
     {
       "name": "Helm of the Ghastlord",
-      "manaCost": "{3}{U/B}",
+      "manaCost": "{3}{UB}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>As long as enchanted creature is blue, it gets +1/+1 and has \"Whenever this creature deals damage to an opponent, draw a card.\"<br>As long as enchanted creature is black, it gets +1/+1 and has \"Whenever this creature deals damage to an opponent, that player discards a card.\"",
@@ -8790,7 +8790,7 @@
     },
     {
       "name": "Inkfathom Infiltrator",
-      "manaCost": "{U/B}{U/B}",
+      "manaCost": "{UB}{UB}",
       "cmc": 2,
       "type": "Creature - Merfolk Rogue",
       "text": "Inkfathom Infiltrator can't block and can't be blocked.",
@@ -8843,7 +8843,7 @@
     },
     {
       "name": "Inkfathom Witch",
-      "manaCost": "{1}{U/B}",
+      "manaCost": "{1}{UB}",
       "cmc": 2,
       "type": "Creature - Merfolk Wizard",
       "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>{2}{U}{B}: Each unblocked creature has base power and toughness 4/1 until end of turn.",
@@ -8896,7 +8896,7 @@
     },
     {
       "name": "Memory Plunder",
-      "manaCost": "{U/B}{U/B}{U/B}{U/B}",
+      "manaCost": "{UB}{UB}{UB}{UB}",
       "cmc": 4,
       "type": "Instant",
       "text": "You may cast target instant or sorcery card from an opponent's graveyard without paying its mana cost.",
@@ -8949,7 +8949,7 @@
     },
     {
       "name": "Memory Sluice",
-      "manaCost": "{U/B}",
+      "manaCost": "{UB}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player mills four cards.<br>Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)",
@@ -9001,7 +9001,7 @@
     },
     {
       "name": "Merrow Grimeblotter",
-      "manaCost": "{3}{U/B}",
+      "manaCost": "{3}{UB}",
       "cmc": 4,
       "type": "Creature - Merfolk Wizard",
       "text": "{1}{U/B}, {Q}: Target creature gets -2/-0 until end of turn. ({Q} is the untap symbol.)",
@@ -9054,7 +9054,7 @@
     },
     {
       "name": "Oona, Queen of the Fae",
-      "manaCost": "{3}{U/B}{U/B}{U/B}",
+      "manaCost": "{3}{UB}{UB}{UB}",
       "cmc": 6,
       "type": "Legendary Creature - Faerie Wizard",
       "text": "Flying<br>{X}{U/B}: Choose a color. Target opponent exiles the top X cards of their library. For each card of the chosen color exiled this way, create a 1/1 blue and black Faerie Rogue creature token with flying.",
@@ -9106,7 +9106,7 @@
     },
     {
       "name": "Oona's Gatewarden",
-      "manaCost": "{U/B}",
+      "manaCost": "{UB}",
       "cmc": 1,
       "type": "Creature - Faerie Soldier",
       "text": "Defender, flying<br>Wither (This deals damage to creatures in the form of -1/-1 counters.)",
@@ -9159,7 +9159,7 @@
     },
     {
       "name": "River's Grasp",
-      "manaCost": "{3}{U/B}",
+      "manaCost": "{3}{UB}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "If {U} was spent to cast this spell, return up to one target creature to its owner's hand. If {B} was spent to cast this spell, target player reveals their hand, you choose a nonland card from it, then that player discards that card. (Do both if {U}{B} was spent.)",
@@ -9211,7 +9211,7 @@
     },
     {
       "name": "Scarscale Ritual",
-      "manaCost": "{1}{U/B}",
+      "manaCost": "{1}{UB}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, put a -1/-1 counter on a creature you control.<br>Draw two cards.",
@@ -9264,7 +9264,7 @@
     },
     {
       "name": "Sygg, River Cutthroat",
-      "manaCost": "{U/B}{U/B}",
+      "manaCost": "{UB}{UB}",
       "cmc": 2,
       "type": "Legendary Creature - Merfolk Rogue",
       "text": "At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. (Damage causes loss of life.)",
@@ -9317,7 +9317,7 @@
     },
     {
       "name": "Torpor Dust",
-      "manaCost": "{2}{U/B}",
+      "manaCost": "{2}{UB}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Flash<br>Enchant creature<br>Enchanted creature gets -3/-0.",
@@ -9370,7 +9370,7 @@
     },
     {
       "name": "Wanderbrine Rootcutters",
-      "manaCost": "{2}{U/B}{U/B}",
+      "manaCost": "{2}{UB}{UB}",
       "cmc": 4,
       "type": "Creature - Merfolk Rogue",
       "text": "Wanderbrine Rootcutters can't be blocked by green creatures.",
@@ -9423,7 +9423,7 @@
     },
     {
       "name": "Wasp Lancer",
-      "manaCost": "{U/B}{U/B}{U/B}",
+      "manaCost": "{UB}{UB}{UB}",
       "cmc": 3,
       "type": "Creature - Faerie Soldier",
       "text": "Flying",
@@ -9476,7 +9476,7 @@
     },
     {
       "name": "Ashenmoor Gouger",
-      "manaCost": "{B/R}{B/R}{B/R}",
+      "manaCost": "{BR}{BR}{BR}",
       "cmc": 3,
       "type": "Creature - Elemental Warrior",
       "text": "Ashenmoor Gouger can't block.",
@@ -9529,7 +9529,7 @@
     },
     {
       "name": "Ashenmoor Liege",
-      "manaCost": "{1}{B/R}{B/R}{B/R}",
+      "manaCost": "{1}{BR}{BR}{BR}",
       "cmc": 4,
       "type": "Creature - Elemental Knight",
       "text": "Other black creatures you control get +1/+1.<br>Other red creatures you control get +1/+1.<br>Whenever Ashenmoor Liege becomes the target of a spell or ability an opponent controls, that player loses 4 life.",
@@ -9582,7 +9582,7 @@
     },
     {
       "name": "Cultbrand Cinder",
-      "manaCost": "{4}{B/R}",
+      "manaCost": "{4}{BR}",
       "cmc": 5,
       "type": "Creature - Elemental Shaman",
       "text": "When Cultbrand Cinder enters the battlefield, put a -1/-1 counter on target creature.",
@@ -9635,7 +9635,7 @@
     },
     {
       "name": "Demigod of Revenge",
-      "manaCost": "{B/R}{B/R}{B/R}{B/R}{B/R}",
+      "manaCost": "{BR}{BR}{BR}{BR}{BR}",
       "cmc": 5,
       "type": "Creature - Spirit Avatar",
       "text": "When you cast this spell, return all cards named Demigod of Revenge from your graveyard to the battlefield.<br>Flying, haste",
@@ -9688,7 +9688,7 @@
     },
     {
       "name": "Din of the Fireherd",
-      "manaCost": "{5}{B/R}{B/R}{B/R}",
+      "manaCost": "{5}{BR}{BR}{BR}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Create a 5/5 black and red Elemental creature token. Target opponent sacrifices a creature for each black creature you control, then sacrifices a land for each red creature you control.",
@@ -9741,7 +9741,7 @@
     },
     {
       "name": "Emberstrike Duo",
-      "manaCost": "{1}{B/R}",
+      "manaCost": "{1}{BR}",
       "cmc": 2,
       "type": "Creature - Elemental Warrior Shaman",
       "text": "Whenever you cast a black spell, Emberstrike Duo gets +1/+1 until end of turn.<br>Whenever you cast a red spell, Emberstrike Duo gains first strike until end of turn.",
@@ -9793,7 +9793,7 @@
     },
     {
       "name": "Everlasting Torment",
-      "manaCost": "{2}{B/R}",
+      "manaCost": "{2}{BR}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Players can't gain life.<br>Damage can't be prevented.<br>All damage is dealt as though its source had wither. (A source with wither deals damage to creatures in the form of -1/-1 counters.)",
@@ -9846,7 +9846,7 @@
     },
     {
       "name": "Fists of the Demigod",
-      "manaCost": "{1}{B/R}",
+      "manaCost": "{1}{BR}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>As long as enchanted creature is black, it gets +1/+1 and has wither. (It deals damage to creatures in the form of -1/-1 counters.)<br>As long as enchanted creature is red, it gets +1/+1 and has first strike.",
@@ -9898,7 +9898,7 @@
     },
     {
       "name": "Fulminator Mage",
-      "manaCost": "{1}{B/R}{B/R}",
+      "manaCost": "{1}{BR}{BR}",
       "cmc": 3,
       "type": "Creature - Elemental Shaman",
       "text": "Sacrifice Fulminator Mage: Destroy target nonbasic land.",
@@ -9951,7 +9951,7 @@
     },
     {
       "name": "Grief Tyrant",
-      "manaCost": "{5}{B/R}",
+      "manaCost": "{5}{BR}",
       "cmc": 6,
       "type": "Creature - Horror",
       "text": "Grief Tyrant enters the battlefield with four -1/-1 counters on it.<br>When Grief Tyrant dies, put a -1/-1 counter on target creature for each -1/-1 counter on Grief Tyrant.",
@@ -10003,7 +10003,7 @@
     },
     {
       "name": "Kulrath Knight",
-      "manaCost": "{3}{B/R}{B/R}",
+      "manaCost": "{3}{BR}{BR}",
       "cmc": 5,
       "type": "Creature - Elemental Knight",
       "text": "Flying<br>Wither (This deals damage to creatures in the form of -1/-1 counters.)<br>Creatures your opponents control with counters on them can't attack or block.",
@@ -10056,7 +10056,7 @@
     },
     {
       "name": "Manaforge Cinder",
-      "manaCost": "{B/R}",
+      "manaCost": "{BR}",
       "cmc": 1,
       "type": "Creature - Elemental Shaman",
       "text": "{1}: Add {B} or {R}. Activate this ability no more than three times each turn.",
@@ -10109,7 +10109,7 @@
     },
     {
       "name": "Murderous Redcap",
-      "manaCost": "{2}{B/R}{B/R}",
+      "manaCost": "{2}{BR}{BR}",
       "cmc": 4,
       "type": "Creature - Goblin Assassin",
       "text": "When Murderous Redcap enters the battlefield, it deals damage equal to its power to any target.<br>Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
@@ -10161,7 +10161,7 @@
     },
     {
       "name": "Poison the Well",
-      "manaCost": "{2}{B/R}{B/R}",
+      "manaCost": "{2}{BR}{BR}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy target land. Poison the Well deals 2 damage to that land's controller.",
@@ -10214,7 +10214,7 @@
     },
     {
       "name": "Scar",
-      "manaCost": "{B/R}",
+      "manaCost": "{BR}",
       "cmc": 1,
       "type": "Instant",
       "text": "Put a -1/-1 counter on target creature.",
@@ -10267,7 +10267,7 @@
     },
     {
       "name": "Sootstoke Kindler",
-      "manaCost": "{1}{B/R}",
+      "manaCost": "{1}{BR}",
       "cmc": 2,
       "type": "Creature - Elemental Shaman",
       "text": "Haste<br>{T}: Target black or red creature gains haste until end of turn.",
@@ -10320,7 +10320,7 @@
     },
     {
       "name": "Sootwalkers",
-      "manaCost": "{2}{B/R}{B/R}",
+      "manaCost": "{2}{BR}{BR}",
       "cmc": 4,
       "type": "Creature - Elemental Rogue",
       "text": "Sootwalkers can't be blocked by white creatures.",
@@ -10373,7 +10373,7 @@
     },
     {
       "name": "Spiteflame Witch",
-      "manaCost": "{1}{B/R}",
+      "manaCost": "{1}{BR}",
       "cmc": 2,
       "type": "Creature - Elemental Shaman",
       "text": "{B}{R}: Each player loses 1 life.",
@@ -10426,7 +10426,7 @@
     },
     {
       "name": "Spiteful Visions",
-      "manaCost": "{2}{B/R}{B/R}",
+      "manaCost": "{2}{BR}{BR}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "At the beginning of each player's draw step, that player draws an additional card.<br>Whenever a player draws a card, Spiteful Visions deals 1 damage to that player.",
@@ -10479,7 +10479,7 @@
     },
     {
       "name": "Torrent of Souls",
-      "manaCost": "{4}{B/R}",
+      "manaCost": "{4}{BR}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Return up to one target creature card from your graveyard to the battlefield if {B} was spent to cast this spell. Creatures target player controls get +2/+0 and gain haste until end of turn if {R} was spent to cast this spell. (Do both if {B}{R} was spent.)",
@@ -10531,7 +10531,7 @@
     },
     {
       "name": "Traitor's Roar",
-      "manaCost": "{4}{B/R}",
+      "manaCost": "{4}{BR}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Tap target untapped creature. It deals damage equal to its power to its controller.<br>Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)",
@@ -10583,7 +10583,7 @@
     },
     {
       "name": "Tyrannize",
-      "manaCost": "{3}{B/R}{B/R}",
+      "manaCost": "{3}{BR}{BR}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Target player discards their hand unless they pay 7 life.",
@@ -10636,7 +10636,7 @@
     },
     {
       "name": "Boartusk Liege",
-      "manaCost": "{1}{R/G}{R/G}{R/G}",
+      "manaCost": "{1}{RG}{RG}{RG}",
       "cmc": 4,
       "type": "Creature - Goblin Knight",
       "text": "Trample<br>Other red creatures you control get +1/+1.<br>Other green creatures you control get +1/+1.",
@@ -10689,7 +10689,7 @@
     },
     {
       "name": "Boggart Ram-Gang",
-      "manaCost": "{R/G}{R/G}{R/G}",
+      "manaCost": "{RG}{RG}{RG}",
       "cmc": 3,
       "type": "Creature - Goblin Warrior",
       "text": "Haste<br>Wither (This deals damage to creatures in the form of -1/-1 counters.)",
@@ -10742,7 +10742,7 @@
     },
     {
       "name": "Deus of Calamity",
-      "manaCost": "{R/G}{R/G}{R/G}{R/G}{R/G}",
+      "manaCost": "{RG}{RG}{RG}{RG}{RG}",
       "cmc": 5,
       "type": "Creature - Spirit Avatar",
       "text": "Trample<br>Whenever Deus of Calamity deals 6 or more damage to an opponent, destroy target land that player controls.",
@@ -10795,7 +10795,7 @@
     },
     {
       "name": "Firespout",
-      "manaCost": "{2}{R/G}",
+      "manaCost": "{2}{RG}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Firespout deals 3 damage to each creature without flying if {R} was spent to cast this spell and 3 damage to each creature with flying if {G} was spent to cast this spell. (Do both if {R}{G} was spent.)",
@@ -10847,7 +10847,7 @@
     },
     {
       "name": "Fossil Find",
-      "manaCost": "{R/G}",
+      "manaCost": "{RG}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Return a card at random from your graveyard to your hand, then reorder your graveyard as you choose.",
@@ -10900,7 +10900,7 @@
     },
     {
       "name": "Giantbaiting",
-      "manaCost": "{2}{R/G}",
+      "manaCost": "{2}{RG}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Create a 4/4 red and green Giant Warrior creature token with haste. Exile it at the beginning of the next end step.<br>Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it.)",
@@ -10952,7 +10952,7 @@
     },
     {
       "name": "Guttural Response",
-      "manaCost": "{R/G}",
+      "manaCost": "{RG}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target blue instant spell.",
@@ -11005,7 +11005,7 @@
     },
     {
       "name": "Impromptu Raid",
-      "manaCost": "{3}{R/G}",
+      "manaCost": "{3}{RG}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "{2}{R/G}: Reveal the top card of your library. If it isn't a creature card, put it into your graveyard. Otherwise, put that card onto the battlefield. That creature gains haste. Sacrifice it at the beginning of the next end step.",
@@ -11058,7 +11058,7 @@
     },
     {
       "name": "Loamdragger Giant",
-      "manaCost": "{4}{R/G}{R/G}{R/G}",
+      "manaCost": "{4}{RG}{RG}{RG}",
       "cmc": 7,
       "type": "Creature - Giant Warrior",
       "flavor": "Giants sleep soundly and long, sometimes for long enough that a crust of earth and moss grows over them. But inevitably something disturbs their slumber, and they wake unhappy.",
@@ -11110,7 +11110,7 @@
     },
     {
       "name": "Manamorphose",
-      "manaCost": "{1}{R/G}",
+      "manaCost": "{1}{RG}",
       "cmc": 2,
       "type": "Instant",
       "text": "Add two mana in any combination of colors.<br>Draw a card.",
@@ -11163,7 +11163,7 @@
     },
     {
       "name": "Morselhoarder",
-      "manaCost": "{4}{R/G}{R/G}",
+      "manaCost": "{4}{RG}{RG}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "Morselhoarder enters the battlefield with two -1/-1 counters on it.<br>Remove a -1/-1 counter from Morselhoarder: Add one mana of any color.",
@@ -11216,7 +11216,7 @@
     },
     {
       "name": "Mudbrawler Raiders",
-      "manaCost": "{2}{R/G}{R/G}",
+      "manaCost": "{2}{RG}{RG}",
       "cmc": 4,
       "type": "Creature - Goblin Warrior",
       "text": "Mudbrawler Raiders can't be blocked by blue creatures.",
@@ -11269,7 +11269,7 @@
     },
     {
       "name": "Rosheen Meanderer",
-      "manaCost": "{3}{R/G}",
+      "manaCost": "{3}{RG}",
       "cmc": 4,
       "type": "Legendary Creature - Giant Shaman",
       "text": "{T}: Add {C}{C}{C}{C}. Spend this mana only on costs that contain {X}.",
@@ -11322,7 +11322,7 @@
     },
     {
       "name": "Runes of the Deus",
-      "manaCost": "{4}{R/G}",
+      "manaCost": "{4}{RG}",
       "cmc": 5,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>As long as enchanted creature is red, it gets +1/+1 and has double strike. (It deals both first-strike and regular combat damage.)<br>As long as enchanted creature is green, it gets +1/+1 and has trample.",
@@ -11374,7 +11374,7 @@
     },
     {
       "name": "Scuzzback Marauders",
-      "manaCost": "{4}{R/G}",
+      "manaCost": "{4}{RG}",
       "cmc": 5,
       "type": "Creature - Goblin Warrior",
       "text": "Trample<br>Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
@@ -11426,7 +11426,7 @@
     },
     {
       "name": "Scuzzback Scrapper",
-      "manaCost": "{R/G}",
+      "manaCost": "{RG}",
       "cmc": 1,
       "type": "Creature - Goblin Warrior",
       "text": "Wither (This deals damage to creatures in the form of -1/-1 counters.)",
@@ -11479,7 +11479,7 @@
     },
     {
       "name": "Tattermunge Duo",
-      "manaCost": "{2}{R/G}",
+      "manaCost": "{2}{RG}",
       "cmc": 3,
       "type": "Creature - Goblin Warrior Shaman",
       "text": "Whenever you cast a red spell, Tattermunge Duo gets +1/+1 until end of turn.<br>Whenever you cast a green spell, Tattermunge Duo gains forestwalk until end of turn. (It can't be blocked as long as defending player controls a Forest.)",
@@ -11531,7 +11531,7 @@
     },
     {
       "name": "Tattermunge Maniac",
-      "manaCost": "{R/G}",
+      "manaCost": "{RG}",
       "cmc": 1,
       "type": "Creature - Goblin Warrior",
       "text": "Tattermunge Maniac attacks each combat if able.",
@@ -11584,7 +11584,7 @@
     },
     {
       "name": "Tattermunge Witch",
-      "manaCost": "{1}{R/G}",
+      "manaCost": "{1}{RG}",
       "cmc": 2,
       "type": "Creature - Goblin Shaman",
       "text": "{R}{G}: Each blocked creature gets +1/+0 and gains trample until end of turn.",
@@ -11637,7 +11637,7 @@
     },
     {
       "name": "Valleymaker",
-      "manaCost": "{5}{R/G}",
+      "manaCost": "{5}{RG}",
       "cmc": 6,
       "type": "Creature - Giant Shaman",
       "text": "{T}, Sacrifice a Mountain: Valleymaker deals 3 damage to target creature.<br>{T}, Sacrifice a Forest: Choose a player. That player adds {G}{G}{G}.",
@@ -11690,7 +11690,7 @@
     },
     {
       "name": "Vexing Shusher",
-      "manaCost": "{R/G}{R/G}",
+      "manaCost": "{RG}{RG}",
       "cmc": 2,
       "type": "Creature - Goblin Shaman",
       "text": "This spell can't be countered.<br>{R/G}: Target spell can't be countered.",
@@ -11743,7 +11743,7 @@
     },
     {
       "name": "Wort, the Raidmother",
-      "manaCost": "{4}{R/G}{R/G}",
+      "manaCost": "{4}{RG}{RG}",
       "cmc": 6,
       "type": "Legendary Creature - Goblin Shaman",
       "text": "When Wort, the Raidmother enters the battlefield, create two 1/1 red and green Goblin Warrior creature tokens.<br>Each red or green instant or sorcery spell you cast has conspire. (As you cast the spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.)",
@@ -11795,7 +11795,7 @@
     },
     {
       "name": "Barkshell Blessing",
-      "manaCost": "{G/W}",
+      "manaCost": "{GW}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +2/+2 until end of turn.<br>Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)",
@@ -11847,7 +11847,7 @@
     },
     {
       "name": "Dawnglow Infusion",
-      "manaCost": "{X}{G/W}",
+      "manaCost": "{X}{GW}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "You gain X life if {G} was spent to cast this spell and X life if {W} was spent to cast this spell. (Do both if {G}{W} was spent.)",
@@ -11900,7 +11900,7 @@
     },
     {
       "name": "Elvish Hexhunter",
-      "manaCost": "{G/W}",
+      "manaCost": "{GW}",
       "cmc": 1,
       "type": "Creature - Elf Shaman",
       "text": "{G/W}, {T}, Sacrifice Elvish Hexhunter: Destroy target enchantment.",
@@ -11953,7 +11953,7 @@
     },
     {
       "name": "Fracturing Gust",
-      "manaCost": "{2}{G/W}{G/W}{G/W}",
+      "manaCost": "{2}{GW}{GW}{GW}",
       "cmc": 5,
       "type": "Instant",
       "text": "Destroy all artifacts and enchantments. You gain 2 life for each permanent destroyed this way.",
@@ -12006,7 +12006,7 @@
     },
     {
       "name": "Heartmender",
-      "manaCost": "{2}{G/W}{G/W}",
+      "manaCost": "{2}{GW}{GW}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "At the beginning of your upkeep, remove a -1/-1 counter from each creature you control.<br>Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
@@ -12058,7 +12058,7 @@
     },
     {
       "name": "Kitchen Finks",
-      "manaCost": "{1}{G/W}{G/W}",
+      "manaCost": "{1}{GW}{GW}",
       "cmc": 3,
       "type": "Creature - Ouphe",
       "text": "When Kitchen Finks enters the battlefield, you gain 2 life.<br>Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
@@ -12111,7 +12111,7 @@
     },
     {
       "name": "Medicine Runner",
-      "manaCost": "{1}{G/W}",
+      "manaCost": "{1}{GW}",
       "cmc": 2,
       "type": "Creature - Elf Cleric",
       "text": "When Medicine Runner enters the battlefield, you may remove a counter from target permanent.",
@@ -12164,7 +12164,7 @@
     },
     {
       "name": "Mercy Killing",
-      "manaCost": "{2}{G/W}",
+      "manaCost": "{2}{GW}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target creature's controller sacrifices it, then creates X 1/1 green and white Elf Warrior creature tokens, where X is that creature's power.",
@@ -12217,7 +12217,7 @@
     },
     {
       "name": "Old Ghastbark",
-      "manaCost": "{3}{G/W}{G/W}",
+      "manaCost": "{3}{GW}{GW}",
       "cmc": 5,
       "type": "Creature - Treefolk Warrior",
       "flavor": "\"Beware of trees that talk. Their words are threats. And mind the ones that sway and creak. They too threaten us, but in a foreign tongue.\"<br>-The Book of Other Folk",
@@ -12269,7 +12269,7 @@
     },
     {
       "name": "Oracle of Nectars",
-      "manaCost": "{2}{G/W}",
+      "manaCost": "{2}{GW}",
       "cmc": 3,
       "type": "Creature - Elf Cleric",
       "text": "{X}, {T}: You gain X life.",
@@ -12322,7 +12322,7 @@
     },
     {
       "name": "Oversoul of Dusk",
-      "manaCost": "{G/W}{G/W}{G/W}{G/W}{G/W}",
+      "manaCost": "{GW}{GW}{GW}{GW}{GW}",
       "cmc": 5,
       "type": "Creature - Spirit Avatar",
       "text": "Protection from blue, from black, and from red",
@@ -12375,7 +12375,7 @@
     },
     {
       "name": "Raven's Run Dragoon",
-      "manaCost": "{2}{G/W}{G/W}",
+      "manaCost": "{2}{GW}{GW}",
       "cmc": 4,
       "type": "Creature - Elf Knight",
       "text": "Raven's Run Dragoon can't be blocked by black creatures.",
@@ -12428,7 +12428,7 @@
     },
     {
       "name": "Reknit",
-      "manaCost": "{1}{G/W}",
+      "manaCost": "{1}{GW}",
       "cmc": 2,
       "type": "Instant",
       "text": "Regenerate target permanent.",
@@ -12481,7 +12481,7 @@
     },
     {
       "name": "Rhys the Redeemed",
-      "manaCost": "{G/W}",
+      "manaCost": "{GW}",
       "cmc": 1,
       "type": "Legendary Creature - Elf Warrior",
       "text": "{2}{G/W}, {T}: Create a 1/1 green and white Elf Warrior creature token.<br>{4}{G/W}{G/W}, {T}: For each creature token you control, create a token that's a copy of that creature.",
@@ -12534,7 +12534,7 @@
     },
     {
       "name": "Safehold Duo",
-      "manaCost": "{3}{G/W}",
+      "manaCost": "{3}{GW}",
       "cmc": 4,
       "type": "Creature - Elf Warrior Shaman",
       "text": "Whenever you cast a green spell, Safehold Duo gets +1/+1 until end of turn.<br>Whenever you cast a white spell, Safehold Duo gains vigilance until end of turn.",
@@ -12586,7 +12586,7 @@
     },
     {
       "name": "Safehold Elite",
-      "manaCost": "{1}{G/W}",
+      "manaCost": "{1}{GW}",
       "cmc": 2,
       "type": "Creature - Elf Scout",
       "text": "Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
@@ -12639,7 +12639,7 @@
     },
     {
       "name": "Safewright Quest",
-      "manaCost": "{G/W}",
+      "manaCost": "{GW}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Search your library for a Forest or Plains card, reveal it, and put it into your hand. Then shuffle your library.",
@@ -12692,7 +12692,7 @@
     },
     {
       "name": "Seedcradle Witch",
-      "manaCost": "{G/W}",
+      "manaCost": "{GW}",
       "cmc": 1,
       "type": "Creature - Elf Shaman",
       "text": "{2}{G}{W}: Target creature gets +3/+3 until end of turn. Untap that creature.",
@@ -12745,7 +12745,7 @@
     },
     {
       "name": "Shield of the Oversoul",
-      "manaCost": "{2}{G/W}",
+      "manaCost": "{2}{GW}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>As long as enchanted creature is green, it gets +1/+1 and has indestructible. (Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)<br>As long as enchanted creature is white, it gets +1/+1 and has flying.",
@@ -12797,7 +12797,7 @@
     },
     {
       "name": "Wheel of Sun and Moon",
-      "manaCost": "{G/W}{G/W}",
+      "manaCost": "{GW}{GW}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant player<br>If a card would be put into enchanted player's graveyard from anywhere, instead that card is revealed and put on the bottom of that player's library.",
@@ -12850,7 +12850,7 @@
     },
     {
       "name": "Wilt-Leaf Cavaliers",
-      "manaCost": "{G/W}{G/W}{G/W}",
+      "manaCost": "{GW}{GW}{GW}",
       "cmc": 3,
       "type": "Creature - Elf Knight",
       "text": "Vigilance",
@@ -12903,7 +12903,7 @@
     },
     {
       "name": "Wilt-Leaf Liege",
-      "manaCost": "{1}{G/W}{G/W}{G/W}",
+      "manaCost": "{1}{GW}{GW}{GW}",
       "cmc": 4,
       "type": "Creature - Elf Knight",
       "text": "Other green creatures you control get +1/+1.<br>Other white creatures you control get +1/+1.<br>If a spell or ability an opponent controls causes you to discard Wilt-Leaf Liege, put it onto the battlefield instead of putting it into your graveyard.",
@@ -13693,7 +13693,7 @@
     },
     {
       "name": "Reaper King",
-      "manaCost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
+      "manaCost": "{2W}{2U}{2B}{2R}{2G}",
       "cmc": 10,
       "type": "Legendary Artifact Creature - Scarecrow",
       "text": "({2/W} can be paid with any two mana or with {W}. This card's converted mana cost is 10.)<br>Other Scarecrow creatures you control get +1/+1.<br>Whenever another Scarecrow enters the battlefield under your control, destroy target permanent.",
@@ -14380,7 +14380,7 @@
       "name": "Leechridden Swamp",
       "cmc": 0,
       "type": "Land - Swamp",
-      "text": "({T}: Add {B}.)<br>Leechridden Swamp enters the battlefield tapped.<br>{B}, {T}: Each opponent loses 1 life. Activate this ability only if you control two or more black permanents.",
+      "text": "({T}: Add {B}.)<br>Leechridden Swamp enters the battlefield tapped.<br>{B}, {T}: Each opponent loses 1 life. Activate only if you control two or more black permanents.",
       "expansion": "SHM",
       "scryfallSetCode": "SHM",
       "rarity": "U",
@@ -14431,7 +14431,7 @@
       "name": "Madblind Mountain",
       "cmc": 0,
       "type": "Land - Mountain",
-      "text": "({T}: Add {R}.)<br>Madblind Mountain enters the battlefield tapped.<br>{R}, {T}: Shuffle your library. Activate this ability only if you control two or more red permanents.",
+      "text": "({T}: Add {R}.)<br>Madblind Mountain enters the battlefield tapped.<br>{R}, {T}: Shuffle your library. Activate only if you control two or more red permanents.",
       "expansion": "SHM",
       "scryfallSetCode": "SHM",
       "rarity": "U",
@@ -14688,7 +14688,7 @@
       "name": "Sapseep Forest",
       "cmc": 0,
       "type": "Land - Forest",
-      "text": "({T}: Add {G}.)<br>Sapseep Forest enters the battlefield tapped.<br>{G}, {T}: You gain 1 life. Activate this ability only if you control two or more green permanents.",
+      "text": "({T}: Add {G}.)<br>Sapseep Forest enters the battlefield tapped.<br>{G}, {T}: You gain 1 life. Activate only if you control two or more green permanents.",
       "expansion": "SHM",
       "scryfallSetCode": "SHM",
       "rarity": "U",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "from_the_vault",
-    "digest": "97ae5d5e73edb7720342da42222e7a16",
+    "digest": "8ff0ac4c575c14b30b64bc68051ad950",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/V16_M.png"
     ]
@@ -18,7 +18,7 @@
   "cards": [
     {
       "name": "Beseech the Queen",
-      "manaCost": "{2/B}{2/B}{2/B}",
+      "manaCost": "{2B}{2B}{2B}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "({2/B} can be paid with any two mana or with {B}. This card's converted mana cost is 6.)<br>Search your library for a card with converted mana cost less than or equal to the number of lands you control, reveal it, and put it into your hand. Then shuffle your library.",
@@ -178,7 +178,7 @@
       "manaCost": "{3}{G}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Elf Wizard",
-      "text": "Whenever you cast a green creature spell, you may search your library for a creature card and reveal it. If you do, shuffle your library and put that card on top of it.<br>Whenever you cast a blue creature spell, reveal the top card of your library. If it's a creature card, put that card into your hand.",
+      "text": "Whenever you cast a green creature spell, you may search your library for a creature card, reveal it, then shuffle and put that card on top.<br>Whenever you cast a blue creature spell, reveal the top card of your library. If it's a creature card, put that card into your hand.",
       "expansion": "V16",
       "scryfallSetCode": "V16",
       "rarity": "M",
@@ -257,7 +257,7 @@
       "name": "Tolaria West",
       "cmc": 0,
       "type": "Land",
-      "text": "Tolaria West enters the battlefield tapped.<br>{T}: Add {U}.<br>Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a card with converted mana cost 0, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)",
+      "text": "Tolaria West enters the battlefield tapped.<br>{T}: Add {U}.<br>Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a card with mana value 0, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
       "expansion": "V16",
       "scryfallSetCode": "V16",
       "rarity": "M",

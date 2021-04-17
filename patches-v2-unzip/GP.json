@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "a101c051bcd78a3ed8a75853fac595b1",
+    "digest": "42aac1c106d29412a40273a8a296ee8a",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GP_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GP_R.png",
@@ -182,7 +182,7 @@
       "manaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Advisor",
-      "text": "{X}, {T}: Each creature with converted mana cost X can't attack or block this turn.",
+      "text": "{X}, {T}: Each creature with mana value X can't attack or block this turn.",
       "flavor": "\" . . . and you must also apply for an application license, file documents 136(iv) and 22-C and -D in triplicate, pay all requisite fees, request a . . .\"",
       "expansion": "GP",
       "scryfallSetCode": "GPT",
@@ -4059,7 +4059,7 @@
       "manaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Phoenix",
-      "text": "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)<br>Flying<br>{R}{R}{R}: Return Skarrgan Firebird from your graveyard to your hand. Activate this ability only if an opponent was dealt damage this turn.",
+      "text": "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)<br>Flying<br>{R}{R}{R}: Return Skarrgan Firebird from your graveyard to your hand. Activate only if an opponent was dealt damage this turn.",
       "expansion": "GP",
       "scryfallSetCode": "GPT",
       "rarity": "R",
@@ -7479,7 +7479,7 @@
     },
     {
       "name": "Debtors' Knell",
-      "manaCost": "{4}{W/B}{W/B}{W/B}",
+      "manaCost": "{4}{WB}{WB}{WB}",
       "cmc": 7,
       "type": "Enchantment",
       "text": "({W/B} can be paid with either {W} or {B}.)<br>At the beginning of your upkeep, put target creature card from a graveyard onto the battlefield under your control.",
@@ -7533,7 +7533,7 @@
     },
     {
       "name": "Djinn Illuminatus",
-      "manaCost": "{5}{U/R}{U/R}",
+      "manaCost": "{5}{UR}{UR}",
       "cmc": 7,
       "type": "Creature - Djinn",
       "text": "({U/R} can be paid with either {U} or {R}.)<br>Flying<br>Each instant and sorcery spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)",
@@ -7586,7 +7586,7 @@
     },
     {
       "name": "Giant Solifuge",
-      "manaCost": "{2}{R/G}{R/G}",
+      "manaCost": "{2}{RG}{RG}",
       "cmc": 4,
       "type": "Creature - Insect",
       "text": "({R/G} can be paid with either {R} or {G}.)<br>Trample; haste; shroud (This creature can't be the target of spells or abilities.)",
@@ -7640,7 +7640,7 @@
     },
     {
       "name": "Gruul Guildmage",
-      "manaCost": "{R/G}{R/G}",
+      "manaCost": "{RG}{RG}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "({R/G} can be paid with either {R} or {G}.)<br>{3}{R}, Sacrifice a land: Gruul Guildmage deals 2 damage to target player or planeswalker.<br>{3}{G}: Target creature gets +2/+2 until end of turn.",
@@ -7693,10 +7693,10 @@
     },
     {
       "name": "Izzet Guildmage",
-      "manaCost": "{U/R}{U/R}",
+      "manaCost": "{UR}{UR}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
-      "text": "({U/R} can be paid with either {U} or {R}.)<br>{2}{U}: Copy target instant spell you control with converted mana cost 2 or less. You may choose new targets for the copy.<br>{2}{R}: Copy target sorcery spell you control with converted mana cost 2 or less. You may choose new targets for the copy.",
+      "text": "({U/R} can be paid with either {U} or {R}.)<br>{2}{U}: Copy target instant spell you control with mana value 2 or less. You may choose new targets for the copy.<br>{2}{R}: Copy target sorcery spell you control with mana value 2 or less. You may choose new targets for the copy.",
       "expansion": "GP",
       "scryfallSetCode": "GPT",
       "rarity": "U",
@@ -7746,7 +7746,7 @@
     },
     {
       "name": "Mourning Thrull",
-      "manaCost": "{1}{W/B}",
+      "manaCost": "{1}{WB}",
       "cmc": 2,
       "type": "Creature - Thrull",
       "text": "({W/B} can be paid with either {W} or {B}.)<br>Flying<br>Whenever Mourning Thrull deals damage, you gain that much life.",
@@ -7800,7 +7800,7 @@
     },
     {
       "name": "Orzhov Guildmage",
-      "manaCost": "{W/B}{W/B}",
+      "manaCost": "{WB}{WB}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{2}{W}: Target player gains 1 life.<br>{2}{B}: Each player loses 1 life.",
@@ -7853,7 +7853,7 @@
     },
     {
       "name": "Petrahydrox",
-      "manaCost": "{3}{U/R}",
+      "manaCost": "{3}{UR}",
       "cmc": 4,
       "type": "Creature - Weird",
       "text": "({U/R} can be paid with either {U} or {R}.)<br>When Petrahydrox becomes the target of a spell or ability, return Petrahydrox to its owner's hand.",
@@ -7907,7 +7907,7 @@
     },
     {
       "name": "Wild Cantor",
-      "manaCost": "{R/G}",
+      "manaCost": "{RG}",
       "cmc": 1,
       "type": "Creature - Human Druid",
       "text": "({R/G} can be paid with either {R} or {G}.)<br>Sacrifice Wild Cantor: Add one mana of any color.",

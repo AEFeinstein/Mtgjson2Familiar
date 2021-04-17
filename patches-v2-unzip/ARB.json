@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "d89a532444ce61b98b8fd6d198332271",
+    "digest": "a3b2eef15530d73facf5592395b7ac76",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ARB_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ARB_M.png",
@@ -498,7 +498,7 @@
       "manaCost": "{4}{W}{U}",
       "cmc": 6,
       "type": "Artifact Creature - Beast",
-      "text": "Defender<br>Plainscycling {2}, islandcycling {2} ({2}, Discard this card: Search your library for a Plains or Island card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "Defender<br>Plainscycling {2}, islandcycling {2} ({2}, Discard this card: Search your library for a Plains or Island card, reveal it, put it into your hand, then shuffle.)",
       "expansion": "ARB",
       "scryfallSetCode": "ARB",
       "rarity": "C",
@@ -2074,7 +2074,7 @@
       "manaCost": "{4}{B}{R}",
       "cmc": 6,
       "type": "Creature - Elemental",
-      "text": "Haste<br>Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "Haste<br>Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle.)",
       "expansion": "ARB",
       "scryfallSetCode": "ARB",
       "rarity": "C",
@@ -3178,7 +3178,7 @@
       "manaCost": "{4}{R}{G}",
       "cmc": 6,
       "type": "Creature - Beast",
-      "text": "Mountaincycling {2}, forestcycling {2} ({2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "Mountaincycling {2}, forestcycling {2} ({2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, put it into your hand, then shuffle.)",
       "expansion": "ARB",
       "scryfallSetCode": "ARB",
       "rarity": "C",
@@ -3862,7 +3862,7 @@
       "manaCost": "{4}{G}{W}",
       "cmc": 6,
       "type": "Creature - Spider",
-      "text": "Reach (This creature can block creatures with flying.)<br>Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your library for a Forest or Plains card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "Reach (This creature can block creatures with flying.)<br>Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your library for a Forest or Plains card, reveal it, put it into your hand, then shuffle.)",
       "expansion": "ARB",
       "scryfallSetCode": "ARB",
       "rarity": "C",
@@ -6868,7 +6868,7 @@
     },
     {
       "name": "Arsenal Thresher",
-      "manaCost": "{2}{W/B}{U}",
+      "manaCost": "{2}{WB}{U}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
       "text": "As Arsenal Thresher enters the battlefield, you may reveal any number of other artifact cards from your hand. Arsenal Thresher enters the battlefield with a +1/+1 counter on it for each card revealed this way.",
@@ -6920,7 +6920,7 @@
     },
     {
       "name": "Esper Stormblade",
-      "manaCost": "{W/B}{U}",
+      "manaCost": "{WB}{U}",
       "cmc": 2,
       "type": "Artifact Creature - Vedalken Wizard",
       "text": "As long as you control another multicolored permanent, Esper Stormblade gets +1/+1 and has flying.",
@@ -6973,7 +6973,7 @@
     },
     {
       "name": "Thopter Foundry",
-      "manaCost": "{W/B}{U}",
+      "manaCost": "{WB}{U}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, Sacrifice a nontoken artifact: Create a 1/1 blue Thopter artifact creature token with flying. You gain 1 life.",
@@ -7026,7 +7026,7 @@
     },
     {
       "name": "Grixis Grimblade",
-      "manaCost": "{U/R}{B}",
+      "manaCost": "{UR}{B}",
       "cmc": 2,
       "type": "Creature - Zombie Warrior",
       "text": "As long as you control another multicolored permanent, Grixis Grimblade gets +1/+1 and has deathtouch. (Any amount of damage it deals to a creature is enough to destroy that creature.)",
@@ -7078,7 +7078,7 @@
     },
     {
       "name": "Sewn-Eye Drake",
-      "manaCost": "{2}{U/R}{B}",
+      "manaCost": "{2}{UR}{B}",
       "cmc": 4,
       "type": "Creature - Zombie Drake",
       "text": "Flying, haste",
@@ -7131,7 +7131,7 @@
     },
     {
       "name": "Slave of Bolas",
-      "manaCost": "{3}{U/R}{B}",
+      "manaCost": "{3}{UR}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Gain control of target creature. Untap that creature. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
@@ -7184,7 +7184,7 @@
     },
     {
       "name": "Giant Ambush Beetle",
-      "manaCost": "{3}{B/G}{R}",
+      "manaCost": "{3}{BG}{R}",
       "cmc": 5,
       "type": "Creature - Insect",
       "text": "Haste<br>When Giant Ambush Beetle enters the battlefield, you may have target creature block it this turn if able.",
@@ -7237,7 +7237,7 @@
     },
     {
       "name": "Jund Hackblade",
-      "manaCost": "{B/G}{R}",
+      "manaCost": "{BG}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Berserker",
       "text": "As long as you control another multicolored permanent, Jund Hackblade gets +1/+1 and has haste.",
@@ -7290,7 +7290,7 @@
     },
     {
       "name": "Sangrite Backlash",
-      "manaCost": "{B/G}{R}",
+      "manaCost": "{BG}{R}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +3/-3.",
@@ -7343,7 +7343,7 @@
     },
     {
       "name": "Marisi's Twinclaws",
-      "manaCost": "{2}{R/W}{G}",
+      "manaCost": "{2}{RW}{G}",
       "cmc": 4,
       "type": "Creature - Cat Warrior",
       "text": "Double strike",
@@ -7396,7 +7396,7 @@
     },
     {
       "name": "Naya Hushblade",
-      "manaCost": "{R/W}{G}",
+      "manaCost": "{RW}{G}",
       "cmc": 2,
       "type": "Creature - Elf Rogue",
       "text": "As long as you control another multicolored permanent, Naya Hushblade gets +1/+1 and has shroud. (It can't be the target of spells or abilities.)",
@@ -7448,7 +7448,7 @@
     },
     {
       "name": "Trace of Abundance",
-      "manaCost": "{R/W}{G}",
+      "manaCost": "{RW}{G}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant land<br>Enchanted land has shroud. (It can't be the target of spells or abilities.)<br>Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.",
@@ -7500,7 +7500,7 @@
     },
     {
       "name": "Bant Sureblade",
-      "manaCost": "{G/U}{W}",
+      "manaCost": "{GU}{W}",
       "cmc": 2,
       "type": "Creature - Human Soldier",
       "text": "As long as you control another multicolored permanent, Bant Sureblade gets +1/+1 and has first strike.",
@@ -7553,7 +7553,7 @@
     },
     {
       "name": "Crystallization",
-      "manaCost": "{G/U}{W}",
+      "manaCost": "{GU}{W}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't attack or block.<br>When enchanted creature becomes the target of a spell or ability, exile that creature.",
@@ -7605,7 +7605,7 @@
     },
     {
       "name": "Messenger Falcons",
-      "manaCost": "{2}{G/U}{W}",
+      "manaCost": "{2}{GU}{W}",
       "cmc": 4,
       "type": "Creature - Bird",
       "text": "Flying<br>When Messenger Falcons enters the battlefield, draw a card.",

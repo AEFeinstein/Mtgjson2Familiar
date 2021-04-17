@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "09eacef0c85aff32b27b4b47960b733c",
+    "digest": "110b51d1a7a7f50e3fe6412f1402617f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/RNA_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/RNA_M.png",
@@ -2285,7 +2285,7 @@
       "manaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
-      "text": "At the beginning of your upkeep, scry 1.<br>{5}{U}: Exchange control of Eyes Everywhere and target nonland permanent. Activate this ability only any time you could cast a sorcery.",
+      "text": "At the beginning of your upkeep, scry 1.<br>{5}{U}: Exchange control of Eyes Everywhere and target nonland permanent. Activate only as a sorcery.",
       "flavor": "\"They've got eyes inside my head!\"",
       "expansion": "RNA",
       "scryfallSetCode": "RNA",
@@ -8089,7 +8089,7 @@
       "manaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
-      "text": "Search your library for a basic land card or Gate card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "Search your library for a basic land card or Gate card, reveal it, put it into your hand, then shuffle.",
       "flavor": "\"If you don't have a destination in mind, the route is all that matters.\"<br>-Tamina, district guide",
       "expansion": "RNA",
       "scryfallSetCode": "RNA",
@@ -11531,7 +11531,7 @@
       "manaCost": "{W}{U}",
       "cmc": 2,
       "type": "Legendary Creature - Human Soldier",
-      "text": "Each opponent can't cast noncreature spells with converted mana cost greater than the number of lands that player controls.<br>Whenever an opponent casts a spell, if no mana was spent to cast it, counter that spell.",
+      "text": "Each opponent can't cast noncreature spells with mana value greater than the number of lands that player controls.<br>Whenever an opponent casts a spell, if no mana was spent to cast it, counter that spell.",
       "flavor": "\"I told Jace that Ravnica would fall apart if he didn't take his responsibilities seriously. I didn't want to be right.\"",
       "expansion": "RNA",
       "scryfallSetCode": "RNA",
@@ -13191,7 +13191,7 @@
     },
     {
       "name": "Footlight Fiend",
-      "manaCost": "{B/R}",
+      "manaCost": "{BR}",
       "cmc": 1,
       "type": "Creature - Devil",
       "text": "When Footlight Fiend dies, it deals 1 damage to any target.",
@@ -13253,7 +13253,7 @@
     },
     {
       "name": "Rubble Slinger",
-      "manaCost": "{2}{R/G}",
+      "manaCost": "{2}{RG}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
       "text": "Reach",
@@ -13315,7 +13315,7 @@
     },
     {
       "name": "Scuttlegator",
-      "manaCost": "{4}{G/U}{G/U}",
+      "manaCost": "{4}{GU}{GU}",
       "cmc": 6,
       "type": "Creature - Crab Turtle Crocodile",
       "text": "Defender<br>{6}{G/U}{G/U}: Adapt 3. (If this creature has no +1/+1 counters on it, put three +1/+1 counters on it.)<br>As long as Scuttlegator has a +1/+1 counter on it, it can attack as though it didn't have defender.",
@@ -13376,7 +13376,7 @@
     },
     {
       "name": "Senate Griffin",
-      "manaCost": "{2}{W/U}{W/U}",
+      "manaCost": "{2}{WU}{WU}",
       "cmc": 4,
       "type": "Creature - Griffin",
       "text": "Flying<br>When Senate Griffin enters the battlefield, scry 1.",
@@ -13438,7 +13438,7 @@
     },
     {
       "name": "Vizkopa Vampire",
-      "manaCost": "{2}{W/B}",
+      "manaCost": "{2}{WB}",
       "cmc": 3,
       "type": "Creature - Vampire",
       "text": "Lifelink",
@@ -13500,7 +13500,7 @@
     },
     {
       "name": "Bedeck",
-      "manaCost": "{B/R}{B/R}",
+      "manaCost": "{BR}{BR}",
       "cmc": 8,
       "type": "Instant",
       "text": "Target creature gets +3/-3 until end of turn.",
@@ -13622,7 +13622,7 @@
     },
     {
       "name": "Carnival",
-      "manaCost": "{B/R}",
+      "manaCost": "{BR}",
       "cmc": 5,
       "type": "Instant",
       "text": "Carnival deals 1 damage to target creature or planeswalker and 1 damage to that permanent's controller.",
@@ -13744,7 +13744,7 @@
     },
     {
       "name": "Collision",
-      "manaCost": "{1}{R/G}",
+      "manaCost": "{1}{RG}",
       "cmc": 4,
       "type": "Instant",
       "text": "Collision deals 6 damage to target creature with flying.",
@@ -13866,7 +13866,7 @@
     },
     {
       "name": "Consecrate",
-      "manaCost": "{1}{W/B}",
+      "manaCost": "{1}{WB}",
       "cmc": 6,
       "type": "Instant",
       "text": "Exile target card from a graveyard.<br>Draw a card.",
@@ -13988,7 +13988,7 @@
     },
     {
       "name": "Depose",
-      "manaCost": "{1}{W/U}",
+      "manaCost": "{1}{WU}",
       "cmc": 6,
       "type": "Instant",
       "text": "Tap target creature.<br>Draw a card.",
@@ -14110,7 +14110,7 @@
     },
     {
       "name": "Incubation",
-      "manaCost": "{G/U}",
+      "manaCost": "{GU}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Look at the top five cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
@@ -14232,7 +14232,7 @@
     },
     {
       "name": "Repudiate",
-      "manaCost": "{G/U}{G/U}",
+      "manaCost": "{GU}{GU}",
       "cmc": 5,
       "type": "Instant",
       "text": "Counter target activated or triggered ability. (Mana abilities can't be targeted.)",
@@ -14354,10 +14354,10 @@
     },
     {
       "name": "Revival",
-      "manaCost": "{W/B}{W/B}",
+      "manaCost": "{WB}{WB}",
       "cmc": 8,
       "type": "Sorcery",
-      "text": "Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.",
+      "text": "Return target creature card with mana value 3 or less from your graveyard to the battlefield.",
       "expansion": "RNA",
       "scryfallSetCode": "RNA",
       "rarity": "R",
@@ -14476,7 +14476,7 @@
     },
     {
       "name": "Thrash",
-      "manaCost": "{R/G}{R/G}",
+      "manaCost": "{RG}{RG}",
       "cmc": 6,
       "type": "Instant",
       "text": "Target creature you control deals damage equal to its power to target creature or planeswalker you don't control.",
@@ -14598,7 +14598,7 @@
     },
     {
       "name": "Warrant",
-      "manaCost": "{W/U}{W/U}",
+      "manaCost": "{WU}{WU}",
       "cmc": 7,
       "type": "Instant",
       "text": "Put target attacking or blocking creature on top of its owner's library.",

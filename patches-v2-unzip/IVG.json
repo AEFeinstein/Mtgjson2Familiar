@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "a96b7815708e54cc63c1b5a12c76481e",
+    "digest": "0142648df06c9ec6fcc56cf4b700c9f0",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IVG_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IVG_M.png",
@@ -97,10 +97,10 @@
     },
     {
       "name": "Izzet Guildmage",
-      "manaCost": "{U/R}{U/R}",
+      "manaCost": "{UR}{UR}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
-      "text": "({U/R} can be paid with either {U} or {R}.)<br>{2}{U}: Copy target instant spell you control with converted mana cost 2 or less. You may choose new targets for the copy.<br>{2}{R}: Copy target sorcery spell you control with converted mana cost 2 or less. You may choose new targets for the copy.",
+      "text": "({U/R} can be paid with either {U} or {R}.)<br>{2}{U}: Copy target instant spell you control with mana value 2 or less. You may choose new targets for the copy.<br>{2}{R}: Copy target sorcery spell you control with mana value 2 or less. You may choose new targets for the copy.",
       "expansion": "IVG",
       "scryfallSetCode": "DDJ",
       "rarity": "U",
@@ -200,7 +200,7 @@
     },
     {
       "name": "Shrewd Hatchling",
-      "manaCost": "{3}{U/R}",
+      "manaCost": "{3}{UR}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Shrewd Hatchling enters the battlefield with four -1/-1 counters on it.<br>{U/R}: Target creature can't block Shrewd Hatchling this turn.<br>Whenever you cast a blue spell, remove a -1/-1 counter from Shrewd Hatchling.<br>Whenever you cast a red spell, remove a -1/-1 counter from Shrewd Hatchling.",
@@ -301,7 +301,7 @@
     },
     {
       "name": "Djinn Illuminatus",
-      "manaCost": "{5}{U/R}{U/R}",
+      "manaCost": "{5}{UR}{UR}",
       "cmc": 7,
       "type": "Creature - Djinn",
       "text": "({U/R} can be paid with either {U} or {R}.)<br>Flying<br>Each instant and sorcery spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)",
@@ -1519,7 +1519,7 @@
       "manaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Human Minion",
-      "text": "Sacrifice a creature: Target player discards two cards. Activate this ability only any time you could cast a sorcery.",
+      "text": "Sacrifice a creature: Target player discards two cards. Activate only as a sorcery.",
       "flavor": "\"Victory in the pits is almost as rewarding as the methods I use to achieve it.\"",
       "expansion": "IVG",
       "scryfallSetCode": "DDJ",
@@ -1567,7 +1567,7 @@
     },
     {
       "name": "Gleancrawler",
-      "manaCost": "{3}{B/G}{B/G}{B/G}",
+      "manaCost": "{3}{BG}{BG}{BG}",
       "cmc": 6,
       "type": "Creature - Insect Horror",
       "text": "({B/G} can be paid with either {B} or {G}.)<br>Trample<br>At the beginning of your end step, return to your hand all creature cards in your graveyard that were put there from the battlefield this turn.",
@@ -1592,7 +1592,7 @@
     },
     {
       "name": "Doomgape",
-      "manaCost": "{4}{B/G}{B/G}{B/G}",
+      "manaCost": "{4}{BG}{BG}{BG}",
       "cmc": 7,
       "type": "Creature - Elemental",
       "text": "Trample<br>At the beginning of your upkeep, sacrifice a creature. You gain life equal to that creature's toughness.",

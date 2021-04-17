@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "18504872046f56975e2897873beb3114",
+    "digest": "b491dff0f859d9acdb5d38499be25ddd",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/RTR_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/RTR_M.png",
@@ -7537,7 +7537,7 @@
       "manaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Plant",
-      "text": "Defender<br>When Gatecreeper Vine enters the battlefield, you may search your library for a basic land card or a Gate card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "Defender<br>When Gatecreeper Vine enters the battlefield, you may search your library for a basic land card or a Gate card, reveal it, put it into your hand, then shuffle.",
       "flavor": "Every inch of Ravnica is home to something.",
       "expansion": "RTR",
       "scryfallSetCode": "RTR",
@@ -8147,7 +8147,7 @@
       "manaCost": "{3}{G}",
       "cmc": 4,
       "type": "Sorcery",
-      "text": "Search your library for up to three basic land cards, reveal them, and put them into your hand. Then shuffle your library.",
+      "text": "Search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.",
       "flavor": "Raked by vertical spikes of glass and stone, Ravnica's vistas offer only a rare glimpse of the horizon.",
       "expansion": "RTR",
       "scryfallSetCode": "RTR",
@@ -8574,7 +8574,7 @@
       "manaCost": "{B}{G}",
       "cmc": 2,
       "type": "Instant",
-      "text": "This spell can't be countered.<br>Destroy target nonland permanent with converted mana cost 3 or less.",
+      "text": "This spell can't be countered.<br>Destroy target nonland permanent with mana value 3 or less.",
       "flavor": "The Izzet quickly suspended their policy of lifetime guarantees.",
       "expansion": "RTR",
       "scryfallSetCode": "RTR",
@@ -9870,7 +9870,7 @@
       "manaCost": "{5}{U}{R}",
       "cmc": 7,
       "type": "Instant",
-      "text": "Search your library for an instant card with converted mana cost 3, reveal it, and put it into your hand. Then repeat this process for instant cards with converted mana costs 2 and 1. Then shuffle your library.",
+      "text": "Search your library for an instant card with mana value 3, reveal it, and put it into your hand. Then repeat this process for instant cards with mana values 2 and 1. Then shuffle.",
       "expansion": "RTR",
       "scryfallSetCode": "RTR",
       "rarity": "R",
@@ -10671,7 +10671,7 @@
       "manaCost": "{2}{B}{G}",
       "cmc": 4,
       "type": "Sorcery",
-      "text": "Search your library for up to two creature cards and reveal them. Put one into your hand and the other into your graveyard. Then shuffle your library.",
+      "text": "Search your library for up to two creature cards and reveal them. Put one into your hand and the other into your graveyard. Then shuffle.",
       "flavor": "\"The Izzet are searching for something. Discern what or die trying.\"",
       "expansion": "RTR",
       "scryfallSetCode": "RTR",
@@ -12823,7 +12823,7 @@
     },
     {
       "name": "Azor's Elocutors",
-      "manaCost": "{3}{W/U}{W/U}",
+      "manaCost": "{3}{WU}{WU}",
       "cmc": 5,
       "type": "Creature - Human Advisor",
       "text": "At the beginning of your upkeep, put a filibuster counter on Azor's Elocutors. Then if Azor's Elocutors has five or more filibuster counters on it, you win the game.<br>Whenever a source deals damage to you, remove a filibuster counter from Azor's Elocutors.",
@@ -12884,7 +12884,7 @@
     },
     {
       "name": "Blistercoil Weird",
-      "manaCost": "{U/R}",
+      "manaCost": "{UR}",
       "cmc": 1,
       "type": "Creature - Weird",
       "text": "Whenever you cast an instant or sorcery spell, Blistercoil Weird gets +1/+1 until end of turn. Untap it.",
@@ -12946,7 +12946,7 @@
     },
     {
       "name": "Cryptborn Horror",
-      "manaCost": "{1}{B/R}{B/R}",
+      "manaCost": "{1}{BR}{BR}",
       "cmc": 3,
       "type": "Creature - Horror",
       "text": "Trample<br>Cryptborn Horror enters the battlefield with X +1/+1 counters on it, where X is the total life lost by your opponents this turn.",
@@ -13008,7 +13008,7 @@
     },
     {
       "name": "Deathrite Shaman",
-      "manaCost": "{B/G}",
+      "manaCost": "{BG}",
       "cmc": 1,
       "type": "Creature - Elf Shaman",
       "text": "{T}: Exile target land card from a graveyard. Add one mana of any color.<br>{B}, {T}: Exile target instant or sorcery card from a graveyard. Each opponent loses 2 life.<br>{G}, {T}: Exile target creature card from a graveyard. You gain 2 life.",
@@ -13069,7 +13069,7 @@
     },
     {
       "name": "Dryad Militant",
-      "manaCost": "{G/W}",
+      "manaCost": "{GW}",
       "cmc": 1,
       "type": "Creature - Dryad Soldier",
       "text": "If an instant or sorcery card would be put into a graveyard from anywhere, exile it instead.",
@@ -13131,7 +13131,7 @@
     },
     {
       "name": "Frostburn Weird",
-      "manaCost": "{U/R}{U/R}",
+      "manaCost": "{UR}{UR}",
       "cmc": 2,
       "type": "Creature - Weird",
       "text": "{U/R}: Frostburn Weird gets +1/-1 until end of turn.",
@@ -13193,7 +13193,7 @@
     },
     {
       "name": "Golgari Longlegs",
-      "manaCost": "{3}{B/G}{B/G}",
+      "manaCost": "{3}{BG}{BG}",
       "cmc": 5,
       "type": "Creature - Insect",
       "flavor": "Despite its enormous stature, it can fold itself into a tunnel with startling quickness, vanishing back into the undercity.",
@@ -13254,7 +13254,7 @@
     },
     {
       "name": "Growing Ranks",
-      "manaCost": "{2}{G/W}{G/W}",
+      "manaCost": "{2}{GW}{GW}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, populate. (Create a token that's a copy of a creature token you control.)",
@@ -13316,7 +13316,7 @@
     },
     {
       "name": "Judge's Familiar",
-      "manaCost": "{W/U}",
+      "manaCost": "{WU}",
       "cmc": 1,
       "type": "Creature - Bird",
       "text": "Flying<br>Sacrifice Judge's Familiar: Counter target instant or sorcery spell unless its controller pays {1}.",
@@ -13378,7 +13378,7 @@
     },
     {
       "name": "Nivmagus Elemental",
-      "manaCost": "{U/R}",
+      "manaCost": "{UR}",
       "cmc": 1,
       "type": "Creature - Elemental",
       "text": "Exile an instant or sorcery spell you control: Put two +1/+1 counters on Nivmagus Elemental. (That spell won't resolve.)",
@@ -13440,7 +13440,7 @@
     },
     {
       "name": "Rakdos Cackler",
-      "manaCost": "{B/R}",
+      "manaCost": "{BR}",
       "cmc": 1,
       "type": "Creature - Devil",
       "text": "Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)",
@@ -13502,7 +13502,7 @@
     },
     {
       "name": "Rakdos Shred-Freak",
-      "manaCost": "{B/R}{B/R}",
+      "manaCost": "{BR}{BR}",
       "cmc": 2,
       "type": "Creature - Human Berserker",
       "text": "Haste",
@@ -13564,7 +13564,7 @@
     },
     {
       "name": "Slitherhead",
-      "manaCost": "{B/G}",
+      "manaCost": "{BG}",
       "cmc": 1,
       "type": "Creature - Plant Zombie",
       "text": "Scavenge {0} ({0}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)",
@@ -13626,7 +13626,7 @@
     },
     {
       "name": "Sundering Growth",
-      "manaCost": "{G/W}{G/W}",
+      "manaCost": "{GW}{GW}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target artifact or enchantment, then populate. (Create a token that's a copy of a creature token you control.)",
@@ -13688,7 +13688,7 @@
     },
     {
       "name": "Vassal Soul",
-      "manaCost": "{1}{W/U}{W/U}",
+      "manaCost": "{1}{WU}{WU}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "Flying",

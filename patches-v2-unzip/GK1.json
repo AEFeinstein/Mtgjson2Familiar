@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "box",
-    "digest": "f642fc00579f1b8f32a3b90c460a1b7e",
+    "digest": "283374902a7f3ff91886c5e6d5165317",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GK1_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GK1_M.png",
@@ -518,10 +518,10 @@
     },
     {
       "name": "Dimir Guildmage",
-      "manaCost": "{U/B}{U/B}",
+      "manaCost": "{UB}{UB}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
-      "text": "({U/B} can be paid with either {U} or {B}.)<br>{3}{U}: Target player draws a card. Activate this ability only any time you could cast a sorcery.<br>{3}{B}: Target player discards a card. Activate this ability only any time you could cast a sorcery.",
+      "text": "({U/B} can be paid with either {U} or {B}.)<br>{3}{U}: Target player draws a card. Activate only as a sorcery.<br>{3}{B}: Target player discards a card. Activate only as a sorcery.",
       "expansion": "GK1",
       "scryfallSetCode": "GK1",
       "rarity": "U",
@@ -767,7 +767,7 @@
     },
     {
       "name": "Nightveil Specter",
-      "manaCost": "{U/B}{U/B}{U/B}",
+      "manaCost": "{UB}{UB}{UB}",
       "cmc": 3,
       "type": "Creature - Specter",
       "text": "Flying<br>Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of their library.<br>You may play lands and cast spells from among cards exiled with Nightveil Specter.",
@@ -1424,7 +1424,7 @@
     },
     {
       "name": "Djinn Illuminatus",
-      "manaCost": "{5}{U/R}{U/R}",
+      "manaCost": "{5}{UR}{UR}",
       "cmc": 7,
       "type": "Creature - Djinn",
       "text": "({U/R} can be paid with either {U} or {R}.)<br>Flying<br>Each instant and sorcery spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)",
@@ -2295,7 +2295,7 @@
       "manaCost": "{B}{G}",
       "cmc": 2,
       "type": "Instant",
-      "text": "This spell can't be countered.<br>Destroy target nonland permanent with converted mana cost 3 or less.",
+      "text": "This spell can't be countered.<br>Destroy target nonland permanent with mana value 3 or less.",
       "flavor": "The Izzet quickly suspended their policy of lifetime guarantees.",
       "expansion": "GK1",
       "scryfallSetCode": "GK1",
@@ -2375,7 +2375,7 @@
     },
     {
       "name": "Deathrite Shaman",
-      "manaCost": "{B/G}",
+      "manaCost": "{BG}",
       "cmc": 1,
       "type": "Creature - Elf Shaman",
       "text": "{T}: Exile target land card from a graveyard. Add one mana of any color.<br>{B}, {T}: Exile target instant or sorcery card from a graveyard. Each opponent loses 2 life.<br>{G}, {T}: Exile target creature card from a graveyard. You gain 2 life.",
@@ -3410,7 +3410,7 @@
     },
     {
       "name": "Boros Reckoner",
-      "manaCost": "{R/W}{R/W}{R/W}",
+      "manaCost": "{RW}{RW}{RW}",
       "cmc": 3,
       "type": "Creature - Minotaur Wizard",
       "text": "Whenever Boros Reckoner is dealt damage, it deals that much damage to any target.<br>{R/W}: Boros Reckoner gains first strike until end of turn.",
@@ -3539,7 +3539,7 @@
       "manaCost": "{3}{R}{W}{W}",
       "cmc": 6,
       "type": "Creature - Angel",
-      "text": "Flying, first strike<br>At the beginning of your upkeep, if Firemane Angel is in your graveyard or on the battlefield, you may gain 1 life.<br>{6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate this ability only during your upkeep.",
+      "text": "Flying, first strike<br>At the beginning of your upkeep, if Firemane Angel is in your graveyard or on the battlefield, you may gain 1 life.<br>{6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate only during your upkeep.",
       "expansion": "GK1",
       "scryfallSetCode": "GK1",
       "rarity": "R",
@@ -3703,7 +3703,7 @@
     },
     {
       "name": "Master Warcraft",
-      "manaCost": "{2}{R/W}{R/W}",
+      "manaCost": "{2}{RW}{RW}",
       "cmc": 4,
       "type": "Instant",
       "text": "Cast this spell only before attackers are declared.<br>You choose which creatures attack this turn.<br>You choose which creatures block this turn and how those creatures block.",
@@ -4448,7 +4448,7 @@
     },
     {
       "name": "Dryad Militant",
-      "manaCost": "{G/W}",
+      "manaCost": "{GW}",
       "cmc": 1,
       "type": "Creature - Dryad Soldier",
       "text": "If an instant or sorcery card would be put into a graveyard from anywhere, exile it instead.",
@@ -4532,7 +4532,7 @@
     },
     {
       "name": "Growing Ranks",
-      "manaCost": "{2}{G/W}{G/W}",
+      "manaCost": "{2}{GW}{GW}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, populate. (Create a token that's a copy of a creature token you control.)",
@@ -4657,7 +4657,7 @@
     },
     {
       "name": "Privileged Position",
-      "manaCost": "{2}{G/W}{G/W}{G/W}",
+      "manaCost": "{2}{GW}{GW}{GW}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "({G/W} can be paid with either {G} or {W}.)<br>Other permanents you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)",
@@ -4782,7 +4782,7 @@
     },
     {
       "name": "Selesnya Guildmage",
-      "manaCost": "{G/W}{G/W}",
+      "manaCost": "{GW}{GW}",
       "cmc": 2,
       "type": "Creature - Elf Wizard",
       "text": "{3}{G}: Create a 1/1 green Saproling creature token.<br>{3}{W}: Creatures you control get +1/+1 until end of turn.",
@@ -4823,7 +4823,7 @@
     },
     {
       "name": "Sundering Growth",
-      "manaCost": "{G/W}{G/W}",
+      "manaCost": "{GW}{GW}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target artifact or enchantment, then populate. (Create a token that's a copy of a creature token you control.)",
