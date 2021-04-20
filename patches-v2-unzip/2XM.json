@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "masters",
-    "digest": "39747a3c0193f2f38bcaa0d8966fdd7f",
+    "digest": "931ff58102152ef079472a00f90dbb93",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/2XM_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/2XM_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Karn Liberated",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Legendary Planeswalker - Karn",
       "text": "[+4]: Target player exiles a card from their hand.<br>[−3]: Exile target permanent.<br>[−14]: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn Liberated. Then put those cards onto the battlefield under your control.",
@@ -58,6 +59,7 @@
     {
       "name": "Alabaster Mage",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{1}{W}: Target creature you control gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)",
@@ -95,6 +97,7 @@
     {
       "name": "Ancestral Blade",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "When Ancestral Blade enters the battlefield, create a 1/1 white Soldier creature token, then attach Ancestral Blade to it.<br>Equipped creature gets +1/+1.<br>Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -131,6 +134,7 @@
     {
       "name": "Angel of the Dawn",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Angel",
       "text": "Flying<br>When Angel of the Dawn enters the battlefield, creatures you control get +1/+1 and gain vigilance until end of turn.",
@@ -168,6 +172,7 @@
     {
       "name": "Archangel of Thune",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Angel",
       "text": "Flying<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)<br>Whenever you gain life, put a +1/+1 counter on each creature you control.",
@@ -205,9 +210,10 @@
     {
       "name": "Auriok Salvagers",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Soldier",
-      "text": "{1}{W}: Return target artifact card with converted mana cost 1 or less from your graveyard to your hand.",
+      "text": "{1}{W}: Return target artifact card with mana value 1 or less from your graveyard to your hand.",
       "flavor": "\"Memnarch or the vedalken salvage most of the large machines, leaving us only scraps. Scraps are enough.\"",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -242,9 +248,10 @@
     {
       "name": "Austere Command",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Choose two -<br>• Destroy all artifacts.<br>• Destroy all enchantments.<br>• Destroy all creatures with converted mana cost 3 or less.<br>• Destroy all creatures with converted mana cost 4 or greater.",
+      "text": "Choose two -<br>• Destroy all artifacts.<br>• Destroy all enchantments.<br>• Destroy all creatures with mana value 3 or less.<br>• Destroy all creatures with mana value 4 or greater.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -278,6 +285,7 @@
     {
       "name": "Avacyn, Angel of Hope",
       "manaCost": "{5}{W}{W}{W}",
+      "sortedManaCost": "{5}{W}{W}{W}",
       "cmc": 8,
       "type": "Legendary Creature - Angel",
       "text": "Flying, vigilance, indestructible<br>Other permanents you control have indestructible.",
@@ -315,6 +323,7 @@
     {
       "name": "Blade Splicer",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Artificer",
       "text": "When Blade Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.<br>Golems you control have first strike.",
@@ -352,6 +361,7 @@
     {
       "name": "Boon Reflection",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "If you would gain life, you gain twice that much life instead.",
@@ -389,6 +399,7 @@
     {
       "name": "Council's Judgment",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Will of the council - Starting with you, each player votes for a nonland permanent you don't control. Exile each permanent with the most votes or tied for most votes.",
@@ -426,6 +437,7 @@
     {
       "name": "Crib Swap",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Tribal Instant - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Exile target creature. Its controller creates a 1/1 colorless Shapeshifter creature token with changeling.",
@@ -462,6 +474,7 @@
     {
       "name": "Crusader of Odric",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Soldier",
       "text": "Crusader of Odric's power and toughness are each equal to the number of creatures you control.",
@@ -499,6 +512,7 @@
     {
       "name": "Ethersworn Canonist",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Artifact Creature - Human Cleric",
       "text": "Each player who has cast a nonartifact spell this turn can't cast additional nonartifact spells.",
@@ -536,6 +550,7 @@
     {
       "name": "Fencing Ace",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Soldier",
       "text": "Double strike",
@@ -573,6 +588,7 @@
     {
       "name": "Flickerwisp",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Flying<br>When Flickerwisp enters the battlefield, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -610,6 +626,7 @@
     {
       "name": "Fortify",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Creatures you control get +2/+0 until end of turn.<br>• Creatures you control get +0/+2 until end of turn.",
@@ -647,6 +664,7 @@
     {
       "name": "Glint-Sleeve Artisan",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Dwarf Artificer",
       "text": "Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)",
@@ -684,6 +702,7 @@
     {
       "name": "Kemba, Kha Regent",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Cat Cleric",
       "text": "At the beginning of your upkeep, create a 2/2 white Cat creature token for each Equipment attached to Kemba, Kha Regent.",
@@ -721,9 +740,10 @@
     {
       "name": "Land Tax",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Enchantment",
-      "text": "At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle your library.",
+      "text": "At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "M",
@@ -757,6 +777,7 @@
     {
       "name": "Leonin Abunas",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Cat Cleric",
       "text": "Artifacts you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)",
@@ -794,6 +815,7 @@
     {
       "name": "Master Splicer",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Artificer",
       "text": "When Master Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.<br>Golems you control get +1/+1.",
@@ -831,6 +853,7 @@
     {
       "name": "Myrsmith",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Artificer",
       "text": "Whenever you cast an artifact spell, you may pay {1}. If you do, create a 1/1 colorless Myr artifact creature token.",
@@ -868,6 +891,7 @@
     {
       "name": "Open the Vaults",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Return all artifact and enchantment cards from all graveyards to the battlefield under their owners' control. (Auras with nothing to enchant remain in graveyards.)",
@@ -905,9 +929,10 @@
     {
       "name": "Path to Exile",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
-      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.",
+      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "U",
@@ -941,6 +966,7 @@
     {
       "name": "Puresteel Paladin",
       "manaCost": "{W}{W}",
+      "sortedManaCost": "{W}{W}",
       "cmc": 2,
       "type": "Creature - Human Knight",
       "text": "Whenever an Equipment enters the battlefield under your control, you may draw a card.<br>Metalcraft - Equipment you control have equip {0} as long as you control three or more artifacts.",
@@ -977,6 +1003,7 @@
     {
       "name": "Remember the Fallen",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Choose one or both -<br>• Return target creature card from your graveyard to your hand.<br>• Return target artifact card from your graveyard to your hand.",
@@ -1014,6 +1041,7 @@
     {
       "name": "Revoke Existence",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile target artifact or enchantment.",
@@ -1051,6 +1079,7 @@
     {
       "name": "Sanctum Gargoyle",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Artifact Creature - Gargoyle",
       "text": "Flying<br>When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.",
@@ -1088,6 +1117,7 @@
     {
       "name": "Sanctum Spirit",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Spirit",
       "text": "Lifelink<br>Discard a historic card: Sanctum Spirit gains indestructible until end of turn. (Artifacts, legendaries, and Sagas are historic.)",
@@ -1125,9 +1155,10 @@
     {
       "name": "Stoneforge Mystic",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Kor Artificer",
-      "text": "When Stoneforge Mystic enters the battlefield, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle your library.<br>{1}{W}, {T}: You may put an Equipment card from your hand onto the battlefield.",
+      "text": "When Stoneforge Mystic enters the battlefield, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle.<br>{1}{W}, {T}: You may put an Equipment card from your hand onto the battlefield.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -1161,9 +1192,10 @@
     {
       "name": "Stonehewer Giant",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Giant Warrior",
-      "text": "Vigilance<br>{1}{W}, {T}: Search your library for an Equipment card and put it onto the battlefield. Attach it to a creature you control. Then shuffle your library.",
+      "text": "Vigilance<br>{1}{W}, {T}: Search your library for an Equipment card, put it onto the battlefield, attach it to a creature you control, then shuffle.",
       "flavor": "\"No matter how strong, an unarmed fighter is no more than a fool.\"",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -1198,6 +1230,7 @@
     {
       "name": "Strength of Arms",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +2/+2 until end of turn. If you control an Equipment, create a 1/1 white Human Soldier creature token.",
@@ -1235,6 +1268,7 @@
     {
       "name": "Tempered Steel",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Artifact creatures you control get +2/+2.",
@@ -1272,6 +1306,7 @@
     {
       "name": "Thraben Inspector",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Soldier",
       "text": "When Thraben Inspector enters the battlefield, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
@@ -1309,6 +1344,7 @@
     {
       "name": "Topple the Statue",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Tap target permanent. If it's an artifact, destroy it.<br>Draw a card.",
@@ -1346,6 +1382,7 @@
     {
       "name": "Valor in Akros",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Whenever a creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
@@ -1383,6 +1420,7 @@
     {
       "name": "Valorous Stance",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Target creature gains indestructible until end of turn.<br>• Destroy target creature with toughness 4 or greater.",
@@ -1420,6 +1458,7 @@
     {
       "name": "Wrath of God",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all creatures. They can't be regenerated.",
@@ -1456,6 +1495,7 @@
     {
       "name": "Apprentice Wizard",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "{U}, {T}: Add {C}{C}{C}.",
@@ -1493,9 +1533,10 @@
     {
       "name": "Arcum Dagsson",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Artificer",
-      "text": "{T}: Target artifact creature's controller sacrifices it. That player may search their library for a noncreature artifact card, put it onto the battlefield, then shuffle their library.",
+      "text": "{T}: Target artifact creature's controller sacrifices it. That player may search their library for a noncreature artifact card, put it onto the battlefield, then shuffle.",
       "flavor": "\"Artifice sundered the world. It shall not again wreak such sorrow.\"",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -1530,6 +1571,7 @@
     {
       "name": "Argivian Restoration",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Return target artifact card from your graveyard to the battlefield.",
@@ -1567,6 +1609,7 @@
     {
       "name": "Braids, Conjurer Adept",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Wizard",
       "text": "At the beginning of each player's upkeep, that player may put an artifact, creature, or land card from their hand onto the battlefield.",
@@ -1604,6 +1647,7 @@
     {
       "name": "Brainstorm",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
@@ -1641,6 +1685,7 @@
     {
       "name": "Cloudreader Sphinx",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Sphinx",
       "text": "Flying<br>When Cloudreader Sphinx enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
@@ -1677,6 +1722,7 @@
     {
       "name": "Corridor Monitor",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Artifact Creature - Construct",
       "text": "When Corridor Monitor enters the battlefield, untap target artifact or creature you control.",
@@ -1714,6 +1760,7 @@
     {
       "name": "Cyclonic Rift",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return target nonland permanent you don't control to its owner's hand.<br>Overload {6}{U} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -1751,6 +1798,7 @@
     {
       "name": "Deepglow Skate",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Fish",
       "text": "When Deepglow Skate enters the battlefield, double the number of each kind of counter on any number of target permanents.",
@@ -1788,6 +1836,7 @@
     {
       "name": "Esperzoa",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Artifact Creature - Jellyfish",
       "text": "Flying<br>At the beginning of your upkeep, return an artifact you control to its owner's hand.",
@@ -1825,6 +1874,7 @@
     {
       "name": "Faerie Mechanist",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Artifact Creature - Faerie Artificer",
       "text": "Flying<br>When Faerie Mechanist enters the battlefield, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
@@ -1861,6 +1911,7 @@
     {
       "name": "Force of Will",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.<br>Counter target spell.",
@@ -1898,6 +1949,7 @@
     {
       "name": "Frogify",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature loses all abilities and is a blue Frog creature with base power and toughness 1/1. (It loses all other card types and creature types.)",
@@ -1935,6 +1987,7 @@
     {
       "name": "Grand Architect",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Vedalken Artificer",
       "text": "Other blue creatures you control get +1/+1.<br>{U}: Target artifact creature becomes blue until end of turn.<br>Tap an untapped blue creature you control: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
@@ -1971,6 +2024,7 @@
     {
       "name": "Hinder",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Counter target spell. If that spell is countered this way, put that card on the top or bottom of its owner's library instead of into that player's graveyard.",
@@ -2008,6 +2062,7 @@
     {
       "name": "Inkwell Leviathan",
       "manaCost": "{7}{U}{U}",
+      "sortedManaCost": "{7}{U}{U}",
       "cmc": 9,
       "type": "Artifact Creature - Leviathan",
       "text": "Trample<br>Islandwalk (This creature can't be blocked as long as defending player controls an Island.)<br>Shroud (This creature can't be the target of spells or abilities.)",
@@ -2045,6 +2100,7 @@
     {
       "name": "Jace, the Mind Sculptor",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Jace",
       "text": "[+2]: Look at the top card of target player's library. You may put that card on the bottom of that player's library.<br>[0]: Draw three cards, then put two cards from your hand on top of your library in any order.<br>[−1]: Return target creature to its owner's hand.<br>[−12]: Exile all cards from target player's library, then that player shuffles their hand into their library.",
@@ -2081,6 +2137,7 @@
     {
       "name": "Master of Etherium",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Artifact Creature - Vedalken Wizard",
       "text": "Master of Etherium's power and toughness are each equal to the number of artifacts you control.<br>Other artifact creatures you control get +1/+1.",
@@ -2118,6 +2175,7 @@
     {
       "name": "Master Transmuter",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Artifact Creature - Human Artificer",
       "text": "{U}, {T}, Return an artifact you control to its owner's hand: You may put an artifact card from your hand onto the battlefield.",
@@ -2155,6 +2213,7 @@
     {
       "name": "Metallic Rebuke",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)<br>Counter target spell unless its controller pays {3}.",
@@ -2192,6 +2251,7 @@
     {
       "name": "Parasitic Strix",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Artifact Creature - Bird",
       "text": "Flying<br>When Parasitic Strix enters the battlefield, if you control a black permanent, target player loses 2 life and you gain 2 life.",
@@ -2229,6 +2289,7 @@
     {
       "name": "Phyrexian Metamorph",
       "manaCost": "{3}{UP}",
+      "sortedManaCost": "{3}{UP}",
       "cmc": 4,
       "type": "Artifact Creature - Shapeshifter",
       "text": "({U/P} can be paid with either {U} or 2 life.)<br>You may have Phyrexian Metamorph enter the battlefield as a copy of any artifact or creature on the battlefield, except it's an artifact in addition to its other types.",
@@ -2265,6 +2326,7 @@
     {
       "name": "Pongify",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Destroy target creature. It can't be regenerated. Its controller creates a 3/3 green Ape creature token.",
@@ -2302,6 +2364,7 @@
     {
       "name": "Relic Runner",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Rogue",
       "text": "Relic Runner can't be blocked if you've cast a historic spell this turn. (Artifacts, legendaries, and Sagas are historic.)",
@@ -2339,9 +2402,10 @@
     {
       "name": "Reshape",
       "manaCost": "{X}{U}{U}",
+      "sortedManaCost": "{X}{U}{U}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "As an additional cost to cast this spell, sacrifice an artifact.<br>Search your library for an artifact card with converted mana cost X or less and put it onto the battlefield. Then shuffle your library.",
+      "text": "As an additional cost to cast this spell, sacrifice an artifact.<br>Search your library for an artifact card with mana value X or less, put it onto the battlefield, then shuffle.",
       "flavor": "\"Today's paperweight, tomorrow's leveler.\"<br>-Bruenna, Neurok leader",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -2376,6 +2440,7 @@
     {
       "name": "Riddlesmith",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Artificer",
       "text": "Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.",
@@ -2413,6 +2478,7 @@
     {
       "name": "Rush of Knowledge",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Draw cards equal to the highest mana value among permanents you control.",
@@ -2450,6 +2516,7 @@
     {
       "name": "Sentinel of the Pearl Trident",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Merfolk Soldier",
       "text": "Flash<br>When Sentinel of the Pearl Trident enters the battlefield, you may exile target historic permanent you control. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step. (Artifacts, legendaries, and Sagas are historic.)",
@@ -2486,6 +2553,7 @@
     {
       "name": "Serra Sphinx",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Creature - Sphinx",
       "text": "Flying, vigilance",
@@ -2523,6 +2591,7 @@
     {
       "name": "Sift",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw three cards, then discard a card.",
@@ -2560,6 +2629,7 @@
     {
       "name": "Steel Sabotage",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Choose one -<br>• Counter target artifact spell.<br>• Return target artifact to its owner's hand.",
@@ -2597,6 +2667,7 @@
     {
       "name": "Thirst for Knowledge",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Draw three cards. Then discard two cards unless you discard an artifact card.",
@@ -2634,6 +2705,7 @@
     {
       "name": "Thought Reflection",
       "manaCost": "{4}{U}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}{U}",
       "cmc": 7,
       "type": "Enchantment",
       "text": "If you would draw a card, draw two cards instead.",
@@ -2671,9 +2743,10 @@
     {
       "name": "Treasure Mage",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
-      "text": "When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Treasure Mage enters the battlefield, you may search your library for an artifact card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "U",
@@ -2707,6 +2780,7 @@
     {
       "name": "Vedalken Infuser",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Vedalken Wizard",
       "text": "At the beginning of your upkeep, you may put a charge counter on target artifact.",
@@ -2744,6 +2818,7 @@
     {
       "name": "Well of Ideas",
       "manaCost": "{5}{U}",
+      "sortedManaCost": "{5}{U}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "When Well of Ideas enters the battlefield, draw two cards.<br>At the beginning of each other player's draw step, that player draws an additional card.<br>At the beginning of your draw step, draw two additional cards.",
@@ -2780,9 +2855,10 @@
     {
       "name": "Ad Nauseam",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Instant",
-      "text": "Reveal the top card of your library and put that card into your hand. You lose life equal to its converted mana cost. You may repeat this process any number of times.",
+      "text": "Reveal the top card of your library and put that card into your hand. You lose life equal to its mana value. You may repeat this process any number of times.",
       "flavor": "When the task spilled over into undeath, he stopped calling it his life's work.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -2817,6 +2893,7 @@
     {
       "name": "Beacon of Unrest",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Put target artifact or creature card from a graveyard onto the battlefield under your control. Shuffle Beacon of Unrest into its owner's library.",
@@ -2854,6 +2931,7 @@
     {
       "name": "Bone Picker",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Bird",
       "text": "This spell costs {3} less to cast if a creature died this turn.<br>Flying, deathtouch",
@@ -2891,6 +2969,7 @@
     {
       "name": "Cast Down",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target nonlegendary creature.",
@@ -2928,6 +3007,7 @@
     {
       "name": "Costly Plunder",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice an artifact or creature.<br>Draw two cards.",
@@ -2965,6 +3045,7 @@
     {
       "name": "Dark Confidant",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its mana value.",
@@ -3002,6 +3083,7 @@
     {
       "name": "Death's Shadow",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Avatar",
       "text": "Death's Shadow gets -X/-X, where X is your life total.",
@@ -3039,6 +3121,7 @@
     {
       "name": "Defiant Salvager",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Aetherborn Artificer",
       "text": "Sacrifice an artifact or creature: Put a +1/+1 counter on Defiant Salvager. Activate only as a sorcery.",
@@ -3076,6 +3159,7 @@
     {
       "name": "Dire Fleet Hoarder",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Pirate",
       "text": "When Dire Fleet Hoarder dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -3113,6 +3197,7 @@
     {
       "name": "Disciple of Bolas",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Human Wizard",
       "text": "When Disciple of Bolas enters the battlefield, sacrifice another creature. You gain X life and draw X cards, where X is that creature's power.",
@@ -3150,6 +3235,7 @@
     {
       "name": "Disciple of the Vault",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Human Cleric",
       "text": "Whenever an artifact is put into a graveyard from the battlefield, you may have target opponent lose 1 life.",
@@ -3187,6 +3273,7 @@
     {
       "name": "Divest",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You choose an artifact or creature card from it. That player discards that card.",
@@ -3224,6 +3311,7 @@
     {
       "name": "Doomed Necromancer",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Human Cleric Mercenary",
       "text": "{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.",
@@ -3261,6 +3349,7 @@
     {
       "name": "Dread Return",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Return target creature card from your graveyard to the battlefield.<br>Flashback-Sacrifice three creatures. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -3298,6 +3387,7 @@
     {
       "name": "Driver of the Dead",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Vampire",
       "text": "When Driver of the Dead dies, return target creature card with mana value 2 or less from your graveyard to the battlefield.",
@@ -3335,6 +3425,7 @@
     {
       "name": "Drown in Sorrow",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "All creatures get -2/-2 until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
@@ -3372,6 +3463,7 @@
     {
       "name": "Executioner's Capsule",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{1}{B}, {T}, Sacrifice Executioner's Capsule: Destroy target nonblack creature.",
@@ -3409,9 +3501,10 @@
     {
       "name": "Fatal Push",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
-      "text": "Destroy target creature if it has converted mana cost 2 or less.<br>Revolt - Destroy that creature if it has converted mana cost 4 or less instead if a permanent you controlled left the battlefield this turn.",
+      "text": "Destroy target creature if it has mana value 2 or less.<br>Revolt - Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "U",
@@ -3445,9 +3538,10 @@
     {
       "name": "Geth, Lord of the Vault",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Zombie",
-      "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>{X}{B}: Put target artifact or creature card with converted mana cost X from an opponent's graveyard onto the battlefield under your control tapped. Then that player mills X cards.",
+      "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>{X}{B}: Put target artifact or creature card with mana value X from an opponent's graveyard onto the battlefield under your control tapped. Then that player mills X cards.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "M",
@@ -3481,6 +3575,7 @@
     {
       "name": "Glaze Fiend",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Artifact Creature - Illusion",
       "text": "Flying<br>Whenever another artifact enters the battlefield under your control, Glaze Fiend gets +2/+2 until end of turn.",
@@ -3518,6 +3613,7 @@
     {
       "name": "Heartless Pillage",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Target opponent discards two cards.<br>Raid - If you attacked this turn, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -3554,6 +3650,7 @@
     {
       "name": "Magus of the Abyss",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Human Wizard",
       "text": "At the beginning of each player's upkeep, destroy target nonartifact creature that player controls of their choice. It can't be regenerated.",
@@ -3591,6 +3688,7 @@
     {
       "name": "Magus of the Will",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "{2}{B}, {T}, Exile Magus of the Will: Until end of turn, you may play lands and cast spells from your graveyard. If a card would be put into your graveyard from anywhere this turn, exile that card instead.",
@@ -3628,6 +3726,7 @@
     {
       "name": "Morkrut Banshee",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Spirit",
       "text": "Morbid - When Morkrut Banshee enters the battlefield, if a creature died this turn, target creature gets -4/-4 until end of turn.",
@@ -3665,6 +3764,7 @@
     {
       "name": "Oubliette",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Oubliette enters the battlefield, target creature phases out until Oubliette leaves the battlefield. Tap that creature as it phases in this way. (Auras and Equipment phase out with it. While permanents are phased out, they're treated as though they don't exist.)",
@@ -3701,6 +3801,7 @@
     {
       "name": "Ovalchase Daredevil",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Human Pilot",
       "text": "Whenever an artifact enters the battlefield under your control, you may return Ovalchase Daredevil from your graveyard to your hand.",
@@ -3738,6 +3839,7 @@
     {
       "name": "Painsmith",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Artificer",
       "text": "Whenever you cast an artifact spell, you may have target creature get +2/+0 and gain deathtouch until end of turn.",
@@ -3775,6 +3877,7 @@
     {
       "name": "Ravenous Trap",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Instant - Trap",
       "text": "If an opponent had three or more cards put into their graveyard from anywhere this turn, you may pay {0} rather than pay this spell's mana cost.<br>Exile all cards from target player's graveyard.",
@@ -3811,6 +3914,7 @@
     {
       "name": "Salvage Titan",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Artifact Creature - Golem",
       "text": "You may sacrifice three artifacts rather than pay this spell's mana cost.<br>Exile three artifact cards from your graveyard: Return Salvage Titan from your graveyard to your hand.",
@@ -3847,6 +3951,7 @@
     {
       "name": "Silumgar Scavenger",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Zombie Bird",
       "text": "Flying<br>Exploit (When this creature enters the battlefield, you may sacrifice a creature.)<br>Whenever another creature you control dies, put a +1/+1 counter on Silumgar Scavenger. It gains haste until end of turn if it exploited that creature.",
@@ -3883,9 +3988,10 @@
     {
       "name": "Skirsdag High Priest",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
-      "text": "Morbid - {T}, Tap two untapped creatures you control: Create a 5/5 black Demon creature token with flying. Activate this ability only if a creature died this turn.",
+      "text": "Morbid - {T}, Tap two untapped creatures you control: Create a 5/5 black Demon creature token with flying. Activate only if a creature died this turn.",
       "flavor": "\"Thraben's pleas fall on deaf ears. Ours do not.\"",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -3920,6 +4026,7 @@
     {
       "name": "Skithiryx, the Blight Dragon",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Legendary Creature - Dragon Skeleton",
       "text": "Flying<br>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>{B}: Skithiryx, the Blight Dragon gains haste until end of turn.<br>{B}{B}: Regenerate Skithiryx.",
@@ -3956,6 +4063,7 @@
     {
       "name": "Supernatural Stamina",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
@@ -3993,6 +4101,7 @@
     {
       "name": "Thoughtseize",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.",
@@ -4030,6 +4139,7 @@
     {
       "name": "Toxic Deluge",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, pay X life.<br>All creatures get -X/-X until end of turn.",
@@ -4067,6 +4177,7 @@
     {
       "name": "Twisted Abomination",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Zombie Mutant",
       "text": "{B}: Regenerate Twisted Abomination.<br>Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
@@ -4103,6 +4214,7 @@
     {
       "name": "Vampire Hexmage",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Creature - Vampire Shaman",
       "text": "First strike<br>Sacrifice Vampire Hexmage: Remove all counters from target permanent.",
@@ -4140,6 +4252,7 @@
     {
       "name": "Wound Reflection",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "At the beginning of each end step, each opponent loses life equal to the life they lost this turn. (Damage causes loss of life.)",
@@ -4177,6 +4290,7 @@
     {
       "name": "Abrade",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Abrade deals 3 damage to target creature.<br>• Destroy target artifact.",
@@ -4214,6 +4328,7 @@
     {
       "name": "Balduvian Rage",
       "manaCost": "{X}{R}",
+      "sortedManaCost": "{X}{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target attacking creature gets +X/+0 until end of turn.<br>Draw a card at the beginning of the next turn's upkeep.",
@@ -4251,6 +4366,7 @@
     {
       "name": "Battle-Rattle Shaman",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Goblin Shaman",
       "text": "At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn.",
@@ -4288,6 +4404,7 @@
     {
       "name": "Blasphemous Act",
       "manaCost": "{8}{R}",
+      "sortedManaCost": "{8}{R}",
       "cmc": 9,
       "type": "Sorcery",
       "text": "This spell costs {1} less to cast for each creature on the battlefield.<br>Blasphemous Act deals 13 damage to each creature.",
@@ -4325,6 +4442,7 @@
     {
       "name": "Blood Moon",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Nonbasic lands are Mountains.",
@@ -4362,6 +4480,7 @@
     {
       "name": "Bloodshot Trainee",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Goblin Warrior",
       "text": "{T}: Bloodshot Trainee deals 4 damage to target creature. Activate only if Bloodshot Trainee's power is 4 or greater.",
@@ -4399,6 +4518,7 @@
     {
       "name": "Brimstone Volley",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Brimstone Volley deals 3 damage to any target.<br>Morbid - Brimstone Volley deals 5 damage instead if a creature died this turn.",
@@ -4436,6 +4556,7 @@
     {
       "name": "Cathartic Reunion",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, discard two cards.<br>Draw three cards.",
@@ -4473,6 +4594,7 @@
     {
       "name": "Cragganwick Cremator",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Giant Shaman",
       "text": "When Cragganwick Cremator enters the battlefield, discard a card at random. If you discard a creature card this way, Cragganwick Cremator deals damage equal to that card's power to target player or planeswalker.",
@@ -4510,6 +4632,7 @@
     {
       "name": "Dismantle",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target artifact. If that artifact had counters on it, put that many +1/+1 counters or charge counters on an artifact you control.",
@@ -4547,6 +4670,7 @@
     {
       "name": "Dualcaster Mage",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Flash<br>When Dualcaster Mage enters the battlefield, copy target instant or sorcery spell. You may choose new targets for the copy.",
@@ -4584,6 +4708,7 @@
     {
       "name": "Galvanic Blast",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Galvanic Blast deals 2 damage to any target.<br>Metalcraft - Galvanic Blast deals 4 damage instead if you control three or more artifacts.",
@@ -4621,6 +4746,7 @@
     {
       "name": "Goblin Gaveleer",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Warrior",
       "text": "Trample<br>Goblin Gaveleer gets +2/+0 for each Equipment attached to it.",
@@ -4658,6 +4784,7 @@
     {
       "name": "Goblin Guide",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Scout",
       "text": "Haste<br>Whenever Goblin Guide attacks, defending player reveals the top card of their library. If it's a land card, that player puts it into their hand.",
@@ -4695,9 +4822,10 @@
     {
       "name": "Godo, Bandit Warlord",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Human Barbarian",
-      "text": "When Godo, Bandit Warlord enters the battlefield, you may search your library for an Equipment card and put it onto the battlefield. If you do, shuffle your library.<br>Whenever Godo attacks for the first time each turn, untap it and all Samurai you control. After this phase, there is an additional combat phase.",
+      "text": "When Godo, Bandit Warlord enters the battlefield, you may search your library for an Equipment card, put it onto the battlefield, then shuffle.<br>Whenever Godo attacks for the first time each turn, untap it and all Samurai you control. After this phase, there is an additional combat phase.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -4731,6 +4859,7 @@
     {
       "name": "Grim Lavamancer",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Human Wizard",
       "text": "{R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to any target.",
@@ -4768,6 +4897,7 @@
     {
       "name": "Heat Shimmer",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Create a token that's a copy of target creature, except it has haste and \"At the beginning of the end step, exile this permanent.\"",
@@ -4805,9 +4935,10 @@
     {
       "name": "Imperial Recruiter",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Advisor",
-      "text": "When Imperial Recruiter enters the battlefield, search your library for a creature card with power 2 or less, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Imperial Recruiter enters the battlefield, search your library for a creature card with power 2 or less, reveal it, put it into your hand, then shuffle.",
       "flavor": "A passionate recruiter will win a war before the first arrow flies.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -4842,6 +4973,7 @@
     {
       "name": "Ion Storm",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{1}{R}, Remove a +1/+1 counter or a charge counter from a permanent you control: Ion Storm deals 2 damage to any target.",
@@ -4879,9 +5011,10 @@
     {
       "name": "Kazuul's Toll Collector",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Ogre Warrior",
-      "text": "{0}: Attach target Equipment you control to Kazuul's Toll Collector. Activate this ability only any time you could cast a sorcery.",
+      "text": "{0}: Attach target Equipment you control to Kazuul's Toll Collector. Activate only as a sorcery.",
       "flavor": "Travelers are advised to bring extra swords, preferably shiny ones.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -4916,6 +5049,7 @@
     {
       "name": "Kuldotha Flamefiend",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "When Kuldotha Flamefiend enters the battlefield, you may sacrifice an artifact. If you do, Kuldotha Flamefiend deals 4 damage divided as you choose among any number of targets.",
@@ -4952,6 +5086,7 @@
     {
       "name": "Lightning Axe",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, discard a card or pay {5}.<br>Lightning Axe deals 5 damage to target creature.",
@@ -4989,6 +5124,7 @@
     {
       "name": "Mana Echoes",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Whenever a creature enters the battlefield, you may add an amount of {C} equal to the number of creatures you control that share a creature type with it.",
@@ -5026,6 +5162,7 @@
     {
       "name": "Orcish Vandal",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Orc Warrior",
       "text": "{T}, Sacrifice an artifact: Orcish Vandal deals 2 damage to any target.",
@@ -5063,6 +5200,7 @@
     {
       "name": "Pyrewild Shaman",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Shaman",
       "text": "Bloodrush - {1}{R}, Discard Pyrewild Shaman: Target attacking creature gets +3/+1 until end of turn.<br>Whenever one or more creatures you control deal combat damage to a player, if Pyrewild Shaman is in your graveyard, you may pay {3}. If you do, return Pyrewild Shaman to your hand.",
@@ -5099,6 +5237,7 @@
     {
       "name": "Rage Reflection",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "Creatures you control have double strike.",
@@ -5136,6 +5275,7 @@
     {
       "name": "Rapacious Dragon",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Dragon",
       "text": "Flying<br>When Rapacious Dragon enters the battlefield, create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -5173,6 +5313,7 @@
     {
       "name": "Ravenous Intruder",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Gremlin",
       "text": "Sacrifice an artifact: Ravenous Intruder gets +2/+2 until end of turn.",
@@ -5210,6 +5351,7 @@
     {
       "name": "Rolling Earthquake",
       "manaCost": "{X}{R}",
+      "sortedManaCost": "{X}{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Rolling Earthquake deals X damage to each creature without horsemanship and each player.",
@@ -5247,6 +5389,7 @@
     {
       "name": "Salivating Gremlins",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Gremlin",
       "text": "Whenever an artifact enters the battlefield under your control, Salivating Gremlins gets +2/+0 and gains trample until end of turn.",
@@ -5284,6 +5427,7 @@
     {
       "name": "Skinbrand Goblin",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Warrior",
       "text": "Bloodrush - {R}, Discard Skinbrand Goblin: Target attacking creature gets +2/+1 until end of turn.",
@@ -5321,6 +5465,7 @@
     {
       "name": "Sneak Attack",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "{R}: You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice the creature at the beginning of the next end step.",
@@ -5357,6 +5502,7 @@
     {
       "name": "Temur Battle Rage",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gains double strike until end of turn.<br>Ferocious - That creature also gains trample until end of turn if you control a creature with power 4 or greater.",
@@ -5393,6 +5539,7 @@
     {
       "name": "Thopter Engineer",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Artificer",
       "text": "When Thopter Engineer enters the battlefield, create a 1/1 colorless Thopter artifact creature token with flying.<br>Artifact creatures you control have haste. (They can attack and {T} as soon as they come under your control.)",
@@ -5429,6 +5576,7 @@
     {
       "name": "Trash for Treasure",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, sacrifice an artifact.<br>Return target artifact card from your graveyard to the battlefield.",
@@ -5466,6 +5614,7 @@
     {
       "name": "Tuktuk the Explorer",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Goblin",
       "text": "Haste<br>When Tuktuk the Explorer dies, create Tuktuk the Returned, a legendary 5/5 colorless Goblin Golem artifact creature token.",
@@ -5503,6 +5652,7 @@
     {
       "name": "Weapon Surge",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature you control gets +1/+0 and gains first strike until end of turn.<br>Overload {1}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -5539,9 +5689,10 @@
     {
       "name": "Ancient Stirrings",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
-      "text": "Look at the top five cards of your library. You may reveal a colorless card from among them and put it into your hand. Then put the rest on the bottom of your library in any order. (Cards with no colored mana in their mana costs are colorless. Lands are also colorless.)",
+      "text": "Look at the top five cards of your library. You may reveal a colorless card from among them and put it into your hand. Then put the rest on the bottom of your library in any order.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "C",
@@ -5575,6 +5726,7 @@
     {
       "name": "Avenger of Zendikar",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Elemental",
       "text": "When Avenger of Zendikar enters the battlefield, create a 0/1 green Plant creature token for each land you control.<br>Landfall - Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control.",
@@ -5611,6 +5763,7 @@
     {
       "name": "Awakening Zone",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, you may create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this creature: Add {C}.\"",
@@ -5648,6 +5801,7 @@
     {
       "name": "Bloodbriar",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Plant Elemental",
       "text": "Whenever you sacrifice another permanent, put a +1/+1 counter on Bloodbriar.",
@@ -5685,6 +5839,7 @@
     {
       "name": "Bloodspore Thrinax",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Lizard",
       "text": "Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)<br>Each other creature you control enters the battlefield with an additional X +1/+1 counters on it, where X is the number of +1/+1 counters on Bloodspore Thrinax.",
@@ -5721,6 +5876,7 @@
     {
       "name": "Champion of Lambholt",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
       "text": "Creatures with power less than Champion of Lambholt's power can't block creatures you control.<br>Whenever another creature enters the battlefield under your control, put a +1/+1 counter on Champion of Lambholt.",
@@ -5757,6 +5913,7 @@
     {
       "name": "Chatter of the Squirrel",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Create a 1/1 green Squirrel creature token.<br>Flashback {1}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -5793,9 +5950,10 @@
     {
       "name": "Chord of Calling",
       "manaCost": "{X}{G}{G}{G}",
+      "sortedManaCost": "{X}{G}{G}{G}",
       "cmc": 3,
       "type": "Instant",
-      "text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)<br>Search your library for a creature card with converted mana cost X or less and put it onto the battlefield. Then shuffle your library.",
+      "text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)<br>Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -5829,6 +5987,7 @@
     {
       "name": "Clear Shot",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target creature you control gets +1/+1 until end of turn. It deals damage equal to its power to target creature you don't control.",
@@ -5866,6 +6025,7 @@
     {
       "name": "Conclave Naturalists",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Dryad",
       "text": "When Conclave Naturalists enters the battlefield, you may destroy target artifact or enchantment.",
@@ -5903,6 +6063,7 @@
     {
       "name": "Crop Rotation",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a land.<br>Search your library for a land card, put that card onto the battlefield, then shuffle.",
@@ -5940,6 +6101,7 @@
     {
       "name": "Crushing Vines",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target creature with flying.<br>• Destroy target artifact.",
@@ -5977,6 +6139,7 @@
     {
       "name": "Death-Hood Cobra",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Snake",
       "text": "{1}{G}: Death-Hood Cobra gains reach until end of turn.<br>{1}{G}: Death-Hood Cobra gains deathtouch until end of turn.",
@@ -6014,6 +6177,7 @@
     {
       "name": "Doubling Season",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.<br>If an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead.",
@@ -6050,9 +6214,10 @@
     {
       "name": "Elvish Aberration",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Creature - Elf Mutant",
-      "text": "{T}: Add {G}{G}{G}.<br>Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "{T}: Add {G}{G}{G}.<br>Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "C",
@@ -6086,6 +6251,7 @@
     {
       "name": "Enlarge",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (A creature with trample can deal excess combat damage to the player or planeswalker it's attacking.)",
@@ -6123,6 +6289,7 @@
     {
       "name": "Exploration",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment",
       "text": "You may play an additional land on each of your turns.",
@@ -6160,9 +6327,10 @@
     {
       "name": "Fierce Empath",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf",
-      "text": "When Fierce Empath enters the battlefield, you may search your library for a creature card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Fierce Empath enters the battlefield, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "C",
@@ -6196,6 +6364,7 @@
     {
       "name": "Gelatinous Genesis",
       "manaCost": "{X}{X}{G}",
+      "sortedManaCost": "{X}{X}{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Create X X/X green Ooze creature tokens.",
@@ -6233,6 +6402,7 @@
     {
       "name": "Greater Good",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Sacrifice a creature: Draw cards equal to the sacrificed creature's power, then discard three cards.",
@@ -6270,6 +6440,7 @@
     {
       "name": "Heartbeat of Spring",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever a player taps a land for mana, that player adds one mana of any type that land produced.",
@@ -6307,6 +6478,7 @@
     {
       "name": "Invigorate",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "If you control a Forest, rather than pay this spell's mana cost, you may have an opponent gain 3 life.<br>Target creature gets +4/+4 until end of turn.",
@@ -6343,6 +6515,7 @@
     {
       "name": "Kozilek's Predator",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Eldrazi Drone",
       "text": "When Kozilek's Predator enters the battlefield, create two 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\"",
@@ -6380,6 +6553,7 @@
     {
       "name": "Liege of the Tangle",
       "manaCost": "{6}{G}{G}",
+      "sortedManaCost": "{6}{G}{G}",
       "cmc": 8,
       "type": "Creature - Elemental",
       "text": "Trample<br>Whenever Liege of the Tangle deals combat damage to a player, you may choose any number of target lands you control and put an awakening counter on each of them. Each of those lands is an 8/8 green Elemental creature for as long as it has an awakening counter on it. They're still lands.",
@@ -6416,6 +6590,7 @@
     {
       "name": "Mana Reflection",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "If you tap a permanent for mana, it produces twice as much of that mana instead.",
@@ -6453,6 +6628,7 @@
     {
       "name": "Might of the Masses",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +1/+1 until end of turn for each creature you control.",
@@ -6490,6 +6666,7 @@
     {
       "name": "Noble Hierarch",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human Druid",
       "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)<br>{T}: Add {G}, {W}, or {U}.",
@@ -6527,6 +6704,7 @@
     {
       "name": "Reclamation Sage",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Shaman",
       "text": "When Reclamation Sage enters the battlefield, you may destroy target artifact or enchantment.",
@@ -6564,6 +6742,7 @@
     {
       "name": "Shamanic Revelation",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Draw a card for each creature you control.<br>Ferocious - You gain 4 life for each creature you control with power 4 or greater.",
@@ -6601,6 +6780,7 @@
     {
       "name": "Skullmulcher",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)<br>When Skullmulcher enters the battlefield, draw a card for each creature it devoured.",
@@ -6637,6 +6817,7 @@
     {
       "name": "Sylvan Might",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +2/+2 and gains trample until end of turn.<br>Flashback {2}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -6673,6 +6854,7 @@
     {
       "name": "Terastodon",
       "manaCost": "{6}{G}{G}",
+      "sortedManaCost": "{6}{G}{G}",
       "cmc": 8,
       "type": "Creature - Elephant",
       "text": "When Terastodon enters the battlefield, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller creates a 3/3 green Elephant creature token.",
@@ -6709,6 +6891,7 @@
     {
       "name": "Thragtusk",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Beast",
       "text": "When Thragtusk enters the battlefield, you gain 5 life.<br>When Thragtusk leaves the battlefield, create a 3/3 green Beast creature token.",
@@ -6746,6 +6929,7 @@
     {
       "name": "Ulvenwald Mysteries",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever a nontoken creature you control dies, investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")<br>Whenever you sacrifice a Clue, create a 1/1 white Human Soldier creature token.",
@@ -6782,6 +6966,7 @@
     {
       "name": "Vengevine",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Haste<br>Whenever you cast a spell, if it's the second creature spell you cast this turn, you may return Vengevine from your graveyard to the battlefield.",
@@ -6819,6 +7004,7 @@
     {
       "name": "Veteran Explorer",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human Soldier Scout",
       "text": "When Veteran Explorer dies, each player may search their library for up to two basic land cards, put them onto the battlefield, then shuffle.",
@@ -6855,9 +7041,10 @@
     {
       "name": "Whisperer of the Wilds",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
-      "text": "{T}: Add {G}.<br>Ferocious - {T}: Add {G}{G}. Activate this ability only if you control a creature with power 4 or greater.",
+      "text": "{T}: Add {G}.<br>Ferocious - {T}: Add {G}{G}. Activate only if you control a creature with power 4 or greater.",
       "flavor": "She speaks only in whispers but can be heard over the fiercest storm.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -6892,6 +7079,7 @@
     {
       "name": "Woodland Champion",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Scout",
       "text": "Whenever one or more tokens enter the battlefield under your control, put that many +1/+1 counters on Woodland Champion.",
@@ -6929,6 +7117,7 @@
     {
       "name": "Arixmethes, Slumbering Isle",
       "manaCost": "{2}{G}{U}",
+      "sortedManaCost": "{2}{U}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Kraken",
       "text": "Arixmethes, Slumbering Isle enters the battlefield tapped with five slumber counters on it.<br>As long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)<br>Whenever you cast a spell, you may remove a slumber counter from Arixmethes.<br>{T}: Add {G}{U}.",
@@ -6965,6 +7154,7 @@
     {
       "name": "Atraxa, Praetors' Voice",
       "manaCost": "{G}{W}{U}{B}",
+      "sortedManaCost": "{W}{U}{B}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Angel Horror",
       "text": "Flying, vigilance, deathtouch, lifelink<br>At the beginning of your end step, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -7001,6 +7191,7 @@
     {
       "name": "Baleful Strix",
       "manaCost": "{U}{B}",
+      "sortedManaCost": "{U}{B}",
       "cmc": 2,
       "type": "Artifact Creature - Bird",
       "text": "Flying, deathtouch<br>When Baleful Strix enters the battlefield, draw a card.",
@@ -7038,6 +7229,7 @@
     {
       "name": "Breya, Etherium Shaper",
       "manaCost": "{W}{U}{B}{R}",
+      "sortedManaCost": "{W}{U}{B}{R}",
       "cmc": 4,
       "type": "Legendary Artifact Creature - Human",
       "text": "When Breya, Etherium Shaper enters the battlefield, create two 1/1 blue Thopter artifact creature tokens with flying.<br>{2}, Sacrifice two artifacts: Choose one -<br>• Breya deals 3 damage to target player or planeswalker.<br>• Target creature gets -4/-4 until end of turn.<br>• You gain 5 life.",
@@ -7074,6 +7266,7 @@
     {
       "name": "Brudiclad, Telchor Engineer",
       "manaCost": "{4}{U}{R}",
+      "sortedManaCost": "{4}{U}{R}",
       "cmc": 6,
       "type": "Legendary Artifact Creature - Artificer",
       "text": "Creature tokens you control have haste.<br>At the beginning of combat on your turn, create a 2/1 blue Myr artifact creature token. Then you may choose a token you control. If you do, each other token you control becomes a copy of that token.",
@@ -7110,6 +7303,7 @@
     {
       "name": "Deathreap Ritual",
       "manaCost": "{2}{B}{G}",
+      "sortedManaCost": "{2}{B}{G}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Morbid - At the beginning of each end step, if a creature died this turn, you may draw a card.",
@@ -7147,6 +7341,7 @@
     {
       "name": "Falkenrath Aristocrat",
       "manaCost": "{2}{B}{R}",
+      "sortedManaCost": "{2}{B}{R}",
       "cmc": 4,
       "type": "Creature - Vampire Noble",
       "text": "Flying, haste<br>Sacrifice a creature: Falkenrath Aristocrat gains indestructible until end of turn. If the sacrificed creature was a Human, put a +1/+1 counter on Falkenrath Aristocrat.",
@@ -7184,6 +7379,7 @@
     {
       "name": "Fulminator Mage",
       "manaCost": "{1}{BR}{BR}",
+      "sortedManaCost": "{1}{BR}{BR}",
       "cmc": 3,
       "type": "Creature - Elemental Shaman",
       "text": "Sacrifice Fulminator Mage: Destroy target nonbasic land.",
@@ -7221,6 +7417,7 @@
     {
       "name": "Geist of Saint Traft",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Spirit Cleric",
       "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)<br>Whenever Geist of Saint Traft attacks, create a 4/4 white Angel creature token with flying that's tapped and attacking. Exile that token at end of combat.",
@@ -7257,6 +7454,7 @@
     {
       "name": "Ghor-Clan Rampager",
       "manaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{R}{G}",
       "cmc": 4,
       "type": "Creature - Beast",
       "text": "Trample<br>Bloodrush - {R}{G}, Discard Ghor-Clan Rampager: Target attacking creature gets +4/+4 and gains trample until end of turn.",
@@ -7294,6 +7492,7 @@
     {
       "name": "Glassdust Hulk",
       "manaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{W}{U}",
       "cmc": 5,
       "type": "Artifact Creature - Golem",
       "text": "Whenever another artifact enters the battlefield under your control, Glassdust Hulk gets +1/+1 until end of turn and can't be blocked this turn.<br>Cycling {W/U} ({W/U}, Discard this card: Draw a card.)",
@@ -7330,6 +7529,7 @@
     {
       "name": "Hanna, Ship's Navigator",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Human Artificer",
       "text": "{1}{W}{U}, {T}: Return target artifact or enchantment card from your graveyard to your hand.",
@@ -7367,6 +7567,7 @@
     {
       "name": "Hidden Stockpile",
       "manaCost": "{W}{B}",
+      "sortedManaCost": "{W}{B}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Revolt - At the beginning of your end step, if a permanent you controlled left the battlefield this turn, create a 1/1 colorless Servo artifact creature token.<br>{1}, Sacrifice a creature: Scry 1.",
@@ -7403,6 +7604,7 @@
     {
       "name": "Izzet Charm",
       "manaCost": "{U}{R}",
+      "sortedManaCost": "{U}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Counter target noncreature spell unless its controller pays {2}.<br>• Izzet Charm deals 2 damage to target creature.<br>• Draw two cards, then discard two cards.",
@@ -7439,6 +7641,7 @@
     {
       "name": "Jhoira, Weatherlight Captain",
       "manaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{U}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Human Artificer",
       "text": "Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)",
@@ -7476,6 +7679,7 @@
     {
       "name": "Kaalia of the Vast",
       "manaCost": "{1}{R}{W}{B}",
+      "sortedManaCost": "{1}{W}{B}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Human Cleric",
       "text": "Flying<br>Whenever Kaalia of the Vast attacks an opponent, you may put an Angel, Demon, or Dragon creature card from your hand onto the battlefield tapped and attacking that opponent.",
@@ -7513,6 +7717,7 @@
     {
       "name": "Karrthus, Tyrant of Jund",
       "manaCost": "{4}{B}{R}{G}",
+      "sortedManaCost": "{4}{B}{R}{G}",
       "cmc": 7,
       "type": "Legendary Creature - Dragon",
       "text": "Flying, haste<br>When Karrthus, Tyrant of Jund enters the battlefield, gain control of all Dragons, then untap all Dragons.<br>Other Dragon creatures you control have haste.",
@@ -7549,6 +7754,7 @@
     {
       "name": "Maelstrom Nexus",
       "manaCost": "{W}{U}{B}{R}{G}",
+      "sortedManaCost": "{W}{U}{B}{R}{G}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "The first spell you cast each turn has cascade. (When you cast your first spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)",
@@ -7585,6 +7791,7 @@
     {
       "name": "Maelstrom Pulse",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target nonland permanent and all other permanents with the same name as that permanent.",
@@ -7622,6 +7829,7 @@
     {
       "name": "Manamorphose",
       "manaCost": "{1}{RG}",
+      "sortedManaCost": "{1}{RG}",
       "cmc": 2,
       "type": "Instant",
       "text": "Add two mana in any combination of colors.<br>Draw a card.",
@@ -7659,6 +7867,7 @@
     {
       "name": "Mazirek, Kraul Death Priest",
       "manaCost": "{3}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Insect Shaman",
       "text": "Flying<br>Whenever a player sacrifices another permanent, put a +1/+1 counter on each creature you control.",
@@ -7696,6 +7905,7 @@
     {
       "name": "Meddling Mage",
       "manaCost": "{W}{U}",
+      "sortedManaCost": "{W}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "As Meddling Mage enters the battlefield, choose a nonland card name.<br>Spells with the chosen name can't be cast.",
@@ -7733,6 +7943,7 @@
     {
       "name": "Merciless Eviction",
       "manaCost": "{4}{W}{B}",
+      "sortedManaCost": "{4}{W}{B}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Choose one -<br>• Exile all artifacts.<br>• Exile all creatures.<br>• Exile all enchantments.<br>• Exile all planeswalkers.",
@@ -7769,6 +7980,7 @@
     {
       "name": "Progenitor Mimic",
       "manaCost": "{4}{G}{U}",
+      "sortedManaCost": "{4}{U}{G}",
       "cmc": 6,
       "type": "Creature - Shapeshifter",
       "text": "You may have Progenitor Mimic enter the battlefield as a copy of any creature on the battlefield, except it has \"At the beginning of your upkeep, if this creature isn't a token, create a token that's a copy of this creature.\"",
@@ -7805,6 +8017,7 @@
     {
       "name": "Rhys the Redeemed",
       "manaCost": "{GW}",
+      "sortedManaCost": "{GW}",
       "cmc": 1,
       "type": "Legendary Creature - Elf Warrior",
       "text": "{2}{G/W}, {T}: Create a 1/1 green and white Elf Warrior creature token.<br>{4}{G/W}{G/W}, {T}: For each creature token you control, create a token that's a copy of that creature.",
@@ -7842,6 +8055,7 @@
     {
       "name": "Riku of Two Reflections",
       "manaCost": "{2}{G}{U}{R}",
+      "sortedManaCost": "{2}{U}{R}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Human Wizard",
       "text": "Whenever you cast an instant or sorcery spell, you may pay {U}{R}. If you do, copy that spell. You may choose new targets for the copy.<br>Whenever another nontoken creature enters the battlefield under your control, you may pay {G}{U}. If you do, create a token that's a copy of that creature.",
@@ -7878,9 +8092,10 @@
     {
       "name": "Savageborn Hydra",
       "manaCost": "{X}{R}{G}",
+      "sortedManaCost": "{X}{R}{G}",
       "cmc": 2,
       "type": "Creature - Hydra",
-      "text": "Double strike<br>Savageborn Hydra enters the battlefield with X +1/+1 counters on it.<br>{1}{R/G}: Put a +1/+1 counter on Savageborn Hydra. Activate this ability only any time you could cast a sorcery.",
+      "text": "Double strike<br>Savageborn Hydra enters the battlefield with X +1/+1 counters on it.<br>{1}{R/G}: Put a +1/+1 counter on Savageborn Hydra. Activate only as a sorcery.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -7914,6 +8129,7 @@
     {
       "name": "The Scarab God",
       "manaCost": "{3}{U}{B}",
+      "sortedManaCost": "{3}{U}{B}",
       "cmc": 5,
       "type": "Legendary Creature - God",
       "text": "At the beginning of your upkeep, each opponent loses X life and you scry X, where X is the number of Zombies you control.<br>{2}{U}{B}: Exile target creature card from a graveyard. Create a token that's a copy of it, except it's a 4/4 black Zombie.<br>When The Scarab God dies, return it to its owner's hand at the beginning of the next end step.",
@@ -7950,6 +8166,7 @@
     {
       "name": "Selesnya Guildmage",
       "manaCost": "{GW}{GW}",
+      "sortedManaCost": "{GW}{GW}",
       "cmc": 2,
       "type": "Creature - Elf Wizard",
       "text": "{3}{G}: Create a 1/1 green Saproling creature token.<br>{3}{W}: Creatures you control get +1/+1 until end of turn.",
@@ -7986,6 +8203,7 @@
     {
       "name": "Sen Triplets",
       "manaCost": "{2}{W}{U}{B}",
+      "sortedManaCost": "{2}{W}{U}{B}",
       "cmc": 5,
       "type": "Legendary Artifact Creature - Human Wizard",
       "text": "At the beginning of your upkeep, choose target opponent. This turn, that player can't cast spells or activate abilities and plays with their hand revealed. You may play lands and cast spells from that player's hand this turn.",
@@ -8023,6 +8241,7 @@
     {
       "name": "Sharuum the Hegemon",
       "manaCost": "{3}{W}{U}{B}",
+      "sortedManaCost": "{3}{W}{U}{B}",
       "cmc": 6,
       "type": "Legendary Artifact Creature - Sphinx",
       "text": "Flying<br>When Sharuum the Hegemon enters the battlefield, you may return target artifact card from your graveyard to the battlefield.",
@@ -8060,6 +8279,7 @@
     {
       "name": "Sphinx Summoner",
       "manaCost": "{3}{U}{B}",
+      "sortedManaCost": "{3}{U}{B}",
       "cmc": 5,
       "type": "Artifact Creature - Sphinx",
       "text": "Flying<br>When Sphinx Summoner enters the battlefield, you may search your library for an artifact creature card, reveal it, put it into your hand. then shuffle.",
@@ -8096,6 +8316,7 @@
     {
       "name": "Swiftblade Vindicator",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Creature - Human Soldier",
       "text": "Double strike, vigilance, trample",
@@ -8133,6 +8354,7 @@
     {
       "name": "Thopter Foundry",
       "manaCost": "{WB}{U}",
+      "sortedManaCost": "{U}{WB}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, Sacrifice a nontoken artifact: Create a 1/1 blue Thopter artifact creature token with flying. You gain 1 life.",
@@ -8170,6 +8392,7 @@
     {
       "name": "Time Sieve",
       "manaCost": "{U}{B}",
+      "sortedManaCost": "{U}{B}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{T}, Sacrifice five artifacts: Take an extra turn after this one.",
@@ -8207,6 +8430,7 @@
     {
       "name": "Unlicensed Disintegration",
       "manaCost": "{1}{B}{R}",
+      "sortedManaCost": "{1}{B}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target creature. If you control an artifact, Unlicensed Disintegration deals 3 damage to that creature's controller.",
@@ -8244,6 +8468,7 @@
     {
       "name": "Vexing Shusher",
       "manaCost": "{RG}{RG}",
+      "sortedManaCost": "{RG}{RG}",
       "cmc": 2,
       "type": "Creature - Goblin Shaman",
       "text": "This spell can't be countered.<br>{R/G}: Target spell can't be countered.",
@@ -8281,6 +8506,7 @@
     {
       "name": "Vish Kal, Blood Arbiter",
       "manaCost": "{4}{W}{B}{B}",
+      "sortedManaCost": "{4}{W}{B}{B}",
       "cmc": 7,
       "type": "Legendary Creature - Vampire",
       "text": "Flying, lifelink<br>Sacrifice a creature: Put X +1/+1 counters on Vish Kal, Blood Arbiter, where X is the sacrificed creature's power.<br>Remove all +1/+1 counters from Vish Kal: Target creature gets -1/-1 until end of turn for each +1/+1 counter removed this way.",
@@ -8317,6 +8543,7 @@
     {
       "name": "Voice of Resurgence",
       "manaCost": "{G}{W}",
+      "sortedManaCost": "{W}{G}",
       "cmc": 2,
       "type": "Creature - Elemental",
       "text": "Whenever an opponent casts a spell during your turn or when Voice of Resurgence dies, create a green and white Elemental creature token with \"This creature's power and toughness are each equal to the number of creatures you control.\"",
@@ -8353,6 +8580,7 @@
     {
       "name": "Weapons Trainer",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Creature - Human Soldier Ally",
       "text": "Other creatures you control get +1/+0 as long as you control an Equipment.",
@@ -8390,6 +8618,7 @@
     {
       "name": "Yavimaya's Embrace",
       "manaCost": "{5}{G}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}{G}",
       "cmc": 8,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>You control enchanted creature.<br>Enchanted creature gets +2/+2 and has trample.",
@@ -8426,6 +8655,7 @@
     {
       "name": "Accomplished Automaton",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Construct",
       "text": "Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)",
@@ -8463,6 +8693,7 @@
     {
       "name": "Adaptive Automaton",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Construct",
       "text": "As Adaptive Automaton enters the battlefield, choose a creature type.<br>Adaptive Automaton is the chosen type in addition to its other types.<br>Other creatures you control of the chosen type get +1/+1.",
@@ -8500,6 +8731,7 @@
     {
       "name": "Basalt Monolith",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Basalt Monolith doesn't untap during your untap step.<br>{T}: Add {C}{C}{C}.<br>{3}: Untap Basalt Monolith.",
@@ -8536,6 +8768,7 @@
     {
       "name": "Basilisk Collar",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature has deathtouch and lifelink.<br>Equip {2}",
@@ -8573,6 +8806,7 @@
     {
       "name": "Batterskull",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +4/+4 and has vigilance and lifelink.<br>{3}: Return Batterskull to its owner's hand.<br>Equip {5}",
@@ -8609,6 +8843,7 @@
     {
       "name": "Blightsteel Colossus",
       "manaCost": "{12}",
+      "sortedManaCost": "{12}",
       "cmc": 12,
       "type": "Artifact Creature - Golem",
       "text": "Trample, infect, indestructible<br>If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blightsteel Colossus and shuffle it into its owner's library instead.",
@@ -8645,6 +8880,7 @@
     {
       "name": "Bosh, Iron Golem",
       "manaCost": "{8}",
+      "sortedManaCost": "{8}",
       "cmc": 8,
       "type": "Legendary Artifact Creature - Golem",
       "text": "Trample<br>{3}{R}, Sacrifice an artifact: Bosh, Iron Golem deals damage equal to the sacrificed artifact's mana value to any target.",
@@ -8682,6 +8918,7 @@
     {
       "name": "Cathodion",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Construct",
       "text": "When Cathodion dies, add {C}{C}{C}.",
@@ -8719,6 +8956,7 @@
     {
       "name": "Chief of the Foundry",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Construct",
       "text": "Other artifact creatures you control get +1/+1.",
@@ -8756,6 +8994,7 @@
     {
       "name": "Chromatic Star",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{1}, {T}, Sacrifice Chromatic Star: Add one mana of any color.<br>When Chromatic Star is put into a graveyard from the battlefield, draw a card.",
@@ -8792,6 +9031,7 @@
     {
       "name": "Chrome Mox",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "Imprint - When Chrome Mox enters the battlefield, you may exile a nonartifact, nonland card from your hand.<br>{T}: Add one mana of any of the exiled card's colors.",
@@ -8828,6 +9068,7 @@
     {
       "name": "Clone Shell",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact Creature - Shapeshifter",
       "text": "Imprint - When Clone Shell enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library in any order.<br>When Clone Shell dies, turn the exiled card face up. If it's a creature card, put it onto the battlefield under your control.",
@@ -8864,6 +9105,7 @@
     {
       "name": "Cogwork Assembler",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Assembly-Worker",
       "text": "{7}: Create a token that's a copy of target artifact. That token gains haste. Exile it at the beginning of the next end step.",
@@ -8901,6 +9143,7 @@
     {
       "name": "Conjurer's Closet",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "At the beginning of your end step, you may exile target creature you control, then return that card to the battlefield under your control.",
@@ -8938,6 +9181,7 @@
     {
       "name": "Coretapper",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Myr",
       "text": "{T}: Put a charge counter on target artifact.<br>Sacrifice Coretapper: Put two charge counters on target artifact.",
@@ -8975,6 +9219,7 @@
     {
       "name": "Cranial Plating",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+0 for each artifact you control.<br>{B}{B}: Attach Cranial Plating to target creature you control.<br>Equip {1}",
@@ -9011,6 +9256,7 @@
     {
       "name": "Culling Dais",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{T}, Sacrifice a creature: Put a charge counter on Culling Dais.<br>{1}, Sacrifice Culling Dais: Draw a card for each charge counter on Culling Dais.",
@@ -9048,6 +9294,7 @@
     {
       "name": "Darksteel Axe",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Indestructible (Effects that say \"destroy\" don't destroy this artifact.)<br>Equipped creature gets +2/+0.<br>Equip {2}",
@@ -9085,6 +9332,7 @@
     {
       "name": "Darksteel Forge",
       "manaCost": "{9}",
+      "sortedManaCost": "{9}",
       "cmc": 9,
       "type": "Artifact",
       "text": "Artifacts you control have indestructible. (Effects that say \"destroy\" don't destroy them. Artifact creatures with indestructible can't be destroyed by damage.)",
@@ -9122,6 +9370,7 @@
     {
       "name": "Duplicant",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Shapeshifter",
       "text": "Imprint - When Duplicant enters the battlefield, you may exile target nontoken creature.<br>As long as a card exiled with Duplicant is a creature card, Duplicant has the power, toughness, and creature types of the last creature card exiled with Duplicant. It's still a Shapeshifter.",
@@ -9158,6 +9407,7 @@
     {
       "name": "Eager Construct",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Construct",
       "text": "When Eager Construct enters the battlefield, each player may scry 1. (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)",
@@ -9195,6 +9445,7 @@
     {
       "name": "Endless Atlas",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{2}, {T}: Draw a card. Activate only if you control three or more lands with the same name.",
@@ -9232,9 +9483,10 @@
     {
       "name": "Engineered Explosives",
       "manaCost": "{X}",
+      "sortedManaCost": "{X}",
       "cmc": 0,
       "type": "Artifact",
-      "text": "Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)<br>{2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Engineered Explosives.",
+      "text": "Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)<br>{2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with mana value equal to the number of charge counters on Engineered Explosives.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -9268,6 +9520,7 @@
     {
       "name": "Ensnaring Bridge",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Creatures with power greater than the number of cards in your hand can't attack.",
@@ -9305,6 +9558,7 @@
     {
       "name": "Everflowing Chalice",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "Multikicker {2}<br>Everflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.<br>{T}: Add {C} for each charge counter on Everflowing Chalice.",
@@ -9341,9 +9595,10 @@
     {
       "name": "Expedition Map",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
-      "text": "{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, and put it into your hand. Then shuffle your library.",
+      "text": "{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, put it into your hand, then shuffle.",
       "flavor": "\"I use maps to find out where explorers have already been. Then I go the other way.\"<br>-Javad Nasrin, Ondu relic hunter",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -9378,6 +9633,7 @@
     {
       "name": "Flayer Husk",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +1/+1.<br>Equip {2}",
@@ -9414,6 +9670,7 @@
     {
       "name": "Gleaming Barrier",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Wall",
       "text": "Defender<br>When Gleaming Barrier dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -9451,6 +9708,7 @@
     {
       "name": "Golem Artisan",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact Creature - Golem",
       "text": "{2}: Target artifact creature gets +1/+1 until end of turn.<br>{2}: Target artifact creature gains your choice of flying, trample, or haste until end of turn.",
@@ -9488,6 +9746,7 @@
     {
       "name": "Golem-Skin Gauntlets",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+0 for each Equipment attached to it.<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)",
@@ -9524,6 +9783,7 @@
     {
       "name": "Hammer of Nazahn",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Legendary Artifact - Equipment",
       "text": "Whenever Hammer of Nazahn or another Equipment enters the battlefield under your control, you may attach that Equipment to target creature you control.<br>Equipped creature gets +2/+0 and has indestructible.<br>Equip {4}",
@@ -9560,6 +9820,7 @@
     {
       "name": "Ichor Wellspring",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "When Ichor Wellspring enters the battlefield or is put into a graveyard from the battlefield, draw a card.",
@@ -9597,6 +9858,7 @@
     {
       "name": "Iron Bully",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Golem",
       "text": "Menace (This creature can't be blocked except by two or more creatures.)<br>When Iron Bully enters the battlefield, put a +1/+1 counter on target creature.",
@@ -9634,6 +9896,7 @@
     {
       "name": "Iron League Steed",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
       "text": "Haste<br>Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)",
@@ -9671,9 +9934,10 @@
     {
       "name": "Isochron Scepter",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
-      "text": "Imprint - When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.<br>{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+      "text": "Imprint - When Isochron Scepter enters the battlefield, you may exile an instant card with mana value 2 or less from your hand.<br>{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -9707,6 +9971,7 @@
     {
       "name": "Jhoira's Familiar",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Bird",
       "text": "Flying<br>Historic spells you cast cost {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)",
@@ -9744,9 +10009,10 @@
     {
       "name": "Kuldotha Forgemaster",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact Creature - Construct",
-      "text": "{T}, Sacrifice three artifacts: Search your library for an artifact card and put it onto the battlefield. Then shuffle your library.",
+      "text": "{T}, Sacrifice three artifacts: Search your library for an artifact card, put it onto the battlefield, then shuffle.",
       "flavor": "The goblins say it used to be larger, before it began to stoke the Great Furnace with pieces of itself.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -9781,6 +10047,7 @@
     {
       "name": "Lightning Greaves",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)<br>Equip {0}",
@@ -9818,6 +10085,7 @@
     {
       "name": "Lux Cannon",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{T}: Put a charge counter on Lux Cannon.<br>{T}, Remove three charge counters from Lux Cannon: Destroy target permanent.",
@@ -9855,6 +10123,7 @@
     {
       "name": "Magnifying Glass",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{T}: Add {C}.<br>{4}, {T}: Investigate. (Create a colorless Clue artifact token with \"{2}, Sacrifice this artifact: Draw a card.\")",
@@ -9892,6 +10161,7 @@
     {
       "name": "Mana Crypt",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "At the beginning of your upkeep, flip a coin. If you lose the flip, Mana Crypt deals 3 damage to you.<br>{T}: Add {C}{C}.",
@@ -9928,6 +10198,7 @@
     {
       "name": "Masterwork of Ingenuity",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "You may have Masterwork of Ingenuity enter the battlefield as a copy of any Equipment on the battlefield.",
@@ -9965,6 +10236,7 @@
     {
       "name": "Mesmeric Orb",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Whenever a permanent becomes untapped, that permanent's controller mills a card.",
@@ -10002,6 +10274,7 @@
     {
       "name": "Metalspinner's Puzzleknot",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "When Metalspinner's Puzzleknot enters the battlefield, you draw a card and you lose 1 life.<br>{2}{B}, Sacrifice Metalspinner's Puzzleknot: You draw a card and you lose 1 life.",
@@ -10038,6 +10311,7 @@
     {
       "name": "Mishra's Bauble",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "{T}, Sacrifice Mishra's Bauble: Look at the top card of target player's library. Draw a card at the beginning of the next turn's upkeep.",
@@ -10075,9 +10349,10 @@
     {
       "name": "Mox Opal",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Legendary Artifact",
-      "text": "Metalcraft - {T}: Add one mana of any color. Activate this ability only if you control three or more artifacts.",
+      "text": "Metalcraft - {T}: Add one mana of any color. Activate only if you control three or more artifacts.",
       "flavor": "The suns of Mirrodin have shone upon perfection only once.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -10112,6 +10387,7 @@
     {
       "name": "Myr Battlesphere",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Myr Construct",
       "text": "When Myr Battlesphere enters the battlefield, create four 1/1 colorless Myr artifact creature tokens.<br>Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking.",
@@ -10148,6 +10424,7 @@
     {
       "name": "Myr Retriever",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Myr",
       "text": "When Myr Retriever dies, return another target artifact card from your graveyard to your hand.",
@@ -10185,6 +10462,7 @@
     {
       "name": "O-Naginata",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "O-Naginata can be attached only to a creature with power 3 or greater.<br>Equipped creature gets +3/+0 and has trample.<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -10221,6 +10499,7 @@
     {
       "name": "Oblivion Stone",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{4}, {T}: Put a fate counter on target permanent.<br>{5}, {T}, Sacrifice Oblivion Stone: Destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents.",
@@ -10257,6 +10536,7 @@
     {
       "name": "Peace Strider",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
       "text": "When Peace Strider enters the battlefield, you gain 3 life.",
@@ -10294,6 +10574,7 @@
     {
       "name": "Pentad Prism",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)<br>Remove a charge counter from Pentad Prism: Add one mana of any color.",
@@ -10330,6 +10611,7 @@
     {
       "name": "Phyrexian Revoker",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Horror",
       "text": "As Phyrexian Revoker enters the battlefield, choose a nonland card name.<br>Activated abilities of sources with the chosen name can't be activated.",
@@ -10367,6 +10649,7 @@
     {
       "name": "Pyrite Spellbomb",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{R}, Sacrifice Pyrite Spellbomb: It deals 2 damage to any target.<br>{1}, Sacrifice Pyrite Spellbomb: Draw a card.",
@@ -10404,9 +10687,10 @@
     {
       "name": "Ratchet Bomb",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
-      "text": "{T}: Put a charge counter on Ratchet Bomb.<br>{T}, Sacrifice Ratchet Bomb: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Ratchet Bomb.",
+      "text": "{T}: Put a charge counter on Ratchet Bomb.<br>{T}, Sacrifice Ratchet Bomb: Destroy each nonland permanent with mana value equal to the number of charge counters on Ratchet Bomb.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -10440,6 +10724,7 @@
     {
       "name": "Sandstone Oracle",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Sphinx",
       "text": "Flying<br>When Sandstone Oracle enters the battlefield, choose an opponent. If that player has more cards in hand than you, draw cards equal to the difference.",
@@ -10476,6 +10761,7 @@
     {
       "name": "Sculpting Steel",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "You may have Sculpting Steel enter the battlefield as a copy of any artifact on the battlefield.",
@@ -10513,6 +10799,7 @@
     {
       "name": "Sickleslicer",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +2/+2.<br>Equip {4}",
@@ -10549,6 +10836,7 @@
     {
       "name": "Skinwing",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +2/+2 and has flying.<br>Equip {6}",
@@ -10585,6 +10873,7 @@
     {
       "name": "Spellskite",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Horror",
       "text": "{U/P}: Change a target of target spell or ability to Spellskite. ({U/P} can be paid with either {U} or 2 life.)",
@@ -10622,6 +10911,7 @@
     {
       "name": "Sphinx of the Guildpact",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Sphinx",
       "text": "Sphinx of the Guildpact is all colors.<br>Flying<br>Hexproof from monocolored (This creature can't be the target of monocolored spells or abilities your opponents control.)",
@@ -10658,6 +10948,7 @@
     {
       "name": "Springleaf Drum",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{T}, Tap an untapped creature you control: Add one mana of any color.",
@@ -10695,6 +10986,7 @@
     {
       "name": "Sundering Titan",
       "manaCost": "{8}",
+      "sortedManaCost": "{8}",
       "cmc": 8,
       "type": "Artifact Creature - Golem",
       "text": "When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
@@ -10732,9 +11024,10 @@
     {
       "name": "Sunforger",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
-      "text": "Equipped creature gets +4/+0.<br>{R}{W}, Unattach Sunforger: Search your library for a red or white instant card with converted mana cost 4 or less and cast that card without paying its mana cost. Then shuffle your library.<br>Equip {3}",
+      "text": "Equipped creature gets +4/+0.<br>{R}{W}, Unattach Sunforger: Search your library for a red or white instant card with mana value 4 or less and cast that card without paying its mana cost. Then shuffle.<br>Equip {3}",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -10768,6 +11061,7 @@
     {
       "name": "Surge Node",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "Surge Node enters the battlefield with six charge counters on it.<br>{1}, {T}, Remove a charge counter from Surge Node: Put a charge counter on target artifact.",
@@ -10805,6 +11099,7 @@
     {
       "name": "Sword of Body and Mind",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from green and from blue.<br>Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player mills ten cards.<br>Equip {2}",
@@ -10841,6 +11136,7 @@
     {
       "name": "Sword of Feast and Famine",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from black and from green.<br>Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.<br>Equip {2}",
@@ -10877,6 +11173,7 @@
     {
       "name": "Sword of Fire and Ice",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from red and from blue.<br>Whenever equipped creature deals combat damage to a player, Sword of Fire and Ice deals 2 damage to any target and you draw a card.<br>Equip {2}",
@@ -10913,6 +11210,7 @@
     {
       "name": "Sword of Light and Shadow",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from white and from black.<br>Whenever equipped creature deals combat damage to a player, you gain 3 life and you may return up to one target creature card from your graveyard to your hand.<br>Equip {2}",
@@ -10949,6 +11247,7 @@
     {
       "name": "Sword of the Meek",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+2.<br>Equip {2}<br>Whenever a 1/1 creature enters the battlefield under your control, you may return Sword of the Meek from your graveyard to the battlefield, then attach it to that creature.",
@@ -10985,6 +11284,7 @@
     {
       "name": "Sword of War and Peace",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from red and from white.<br>Whenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand.<br>Equip {2}",
@@ -11021,6 +11321,7 @@
     {
       "name": "Throne of Geth",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{T}, Sacrifice an artifact: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -11058,9 +11359,10 @@
     {
       "name": "Treasure Keeper",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
-      "text": "When Treasure Keeper dies, reveal cards from the top of your library until you reveal a nonland card with converted mana cost 3 or less. You may cast that card without paying its mana cost. Put all revealed cards not cast this way on the bottom of your library in a random order.",
+      "text": "When Treasure Keeper dies, reveal cards from the top of your library until you reveal a nonland card with mana value 3 or less. You may cast that card without paying its mana cost. Put all revealed cards not cast this way on the bottom of your library in a random order.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "U",
@@ -11094,6 +11396,7 @@
     {
       "name": "Trinisphere",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "As long as Trinisphere is untapped, each spell that would cost less than three mana to cast costs three mana to cast. (Additional mana in the cost may be paid with any color of mana or colorless mana. For example, a spell that would cost {1}{B} to cast costs {2}{B} to cast instead.)",
@@ -11130,6 +11433,7 @@
     {
       "name": "Tumble Magnet",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Tumble Magnet enters the battlefield with three charge counters on it.<br>{T}, Remove a charge counter from Tumble Magnet: Tap target artifact or creature.",
@@ -11167,6 +11471,7 @@
     {
       "name": "Vulshok Gauntlets",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +4/+2 and doesn't untap during its controller's untap step.<br>Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)",
@@ -11203,6 +11508,7 @@
     {
       "name": "Walking Ballista",
       "manaCost": "{X}{X}",
+      "sortedManaCost": "{X}{X}",
       "cmc": 0,
       "type": "Artifact Creature - Construct",
       "text": "Walking Ballista enters the battlefield with X +1/+1 counters on it.<br>{4}: Put a +1/+1 counter on Walking Ballista.<br>Remove a +1/+1 counter from Walking Ballista: It deals 1 damage to any target.",
@@ -11239,6 +11545,7 @@
     {
       "name": "Welding Jar",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "Sacrifice Welding Jar: Regenerate target artifact.",
@@ -11276,6 +11583,7 @@
     {
       "name": "Wurmcoil Engine",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Wurm",
       "text": "Deathtouch, lifelink<br>When Wurmcoil Engine dies, create a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink.",
@@ -11349,7 +11657,7 @@
       "name": "Ash Barrens",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}: Add {C}.<br>Basic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "{T}: Add {C}.<br>Basic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "U",
@@ -12171,6 +12479,7 @@
     {
       "name": "Karn Liberated",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Legendary Planeswalker - Karn",
       "text": "[+4]: Target player exiles a card from their hand.<br>[−3]: Exile target permanent.<br>[−14]: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn Liberated. Then put those cards onto the battlefield under your control.",
@@ -12207,6 +12516,7 @@
     {
       "name": "Jace, the Mind Sculptor",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Jace",
       "text": "[+2]: Look at the top card of target player's library. You may put that card on the bottom of that player's library.<br>[0]: Draw three cards, then put two cards from your hand on top of your library in any order.<br>[−1]: Return target creature to its owner's hand.<br>[−12]: Exile all cards from target player's library, then that player shuffles their hand into their library.",
@@ -12243,6 +12553,7 @@
     {
       "name": "Avacyn, Angel of Hope",
       "manaCost": "{5}{W}{W}{W}",
+      "sortedManaCost": "{5}{W}{W}{W}",
       "cmc": 8,
       "type": "Legendary Creature - Angel",
       "text": "Flying, vigilance, indestructible<br>Other permanents you control have indestructible.",
@@ -12263,6 +12574,7 @@
     {
       "name": "Council's Judgment",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Will of the council - Starting with you, each player votes for a nonland permanent you don't control. Exile each permanent with the most votes or tied for most votes.",
@@ -12288,9 +12600,10 @@
     {
       "name": "Stoneforge Mystic",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Kor Artificer",
-      "text": "When Stoneforge Mystic enters the battlefield, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle your library.<br>{1}{W}, {T}: You may put an Equipment card from your hand onto the battlefield.",
+      "text": "When Stoneforge Mystic enters the battlefield, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle.<br>{1}{W}, {T}: You may put an Equipment card from your hand onto the battlefield.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -12324,6 +12637,7 @@
     {
       "name": "Brainstorm",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
@@ -12357,6 +12671,7 @@
     {
       "name": "Cyclonic Rift",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return target nonland permanent you don't control to its owner's hand.<br>Overload {6}{U} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -12377,6 +12692,7 @@
     {
       "name": "Force of Will",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.<br>Counter target spell.",
@@ -12397,6 +12713,7 @@
     {
       "name": "Phyrexian Metamorph",
       "manaCost": "{3}{UP}",
+      "sortedManaCost": "{3}{UP}",
       "cmc": 4,
       "type": "Artifact Creature - Shapeshifter",
       "text": "({U/P} can be paid with either {U} or 2 life.)<br>You may have Phyrexian Metamorph enter the battlefield as a copy of any artifact or creature on the battlefield, except it's an artifact in addition to its other types.",
@@ -12416,6 +12733,7 @@
     {
       "name": "Dark Confidant",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its mana value.",
@@ -12436,9 +12754,10 @@
     {
       "name": "Fatal Push",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
-      "text": "Destroy target creature if it has converted mana cost 2 or less.<br>Revolt - Destroy that creature if it has converted mana cost 4 or less instead if a permanent you controlled left the battlefield this turn.",
+      "text": "Destroy target creature if it has mana value 2 or less.<br>Revolt - Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn.",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
       "rarity": "R",
@@ -12455,6 +12774,7 @@
     {
       "name": "Thoughtseize",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.",
@@ -12475,6 +12795,7 @@
     {
       "name": "Toxic Deluge",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, pay X life.<br>All creatures get -X/-X until end of turn.",
@@ -12495,6 +12816,7 @@
     {
       "name": "Blood Moon",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Nonbasic lands are Mountains.",
@@ -12515,6 +12837,7 @@
     {
       "name": "Goblin Guide",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Scout",
       "text": "Haste<br>Whenever Goblin Guide attacks, defending player reveals the top card of their library. If it's a land card, that player puts it into their hand.",
@@ -12535,6 +12858,7 @@
     {
       "name": "Sneak Attack",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "{R}: You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice the creature at the beginning of the next end step.",
@@ -12555,6 +12879,7 @@
     {
       "name": "Crop Rotation",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a land.<br>Search your library for a land card, put that card onto the battlefield, then shuffle.",
@@ -12575,6 +12900,7 @@
     {
       "name": "Doubling Season",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.<br>If an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead.",
@@ -12594,6 +12920,7 @@
     {
       "name": "Exploration",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment",
       "text": "You may play an additional land on each of your turns.",
@@ -12614,6 +12941,7 @@
     {
       "name": "Noble Hierarch",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human Druid",
       "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)<br>{T}: Add {G}, {W}, or {U}.",
@@ -12634,6 +12962,7 @@
     {
       "name": "Atraxa, Praetors' Voice",
       "manaCost": "{G}{W}{U}{B}",
+      "sortedManaCost": "{W}{U}{B}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Angel Horror",
       "text": "Flying, vigilance, deathtouch, lifelink<br>At the beginning of your end step, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -12653,6 +12982,7 @@
     {
       "name": "Kaalia of the Vast",
       "manaCost": "{1}{R}{W}{B}",
+      "sortedManaCost": "{1}{W}{B}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Human Cleric",
       "text": "Flying<br>Whenever Kaalia of the Vast attacks an opponent, you may put an Angel, Demon, or Dragon creature card from your hand onto the battlefield tapped and attacking that opponent.",
@@ -12673,6 +13003,7 @@
     {
       "name": "Meddling Mage",
       "manaCost": "{W}{U}",
+      "sortedManaCost": "{W}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "As Meddling Mage enters the battlefield, choose a nonland card name.<br>Spells with the chosen name can't be cast.",
@@ -12693,6 +13024,7 @@
     {
       "name": "Batterskull",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +4/+4 and has vigilance and lifelink.<br>{3}: Return Batterskull to its owner's hand.<br>Equip {5}",
@@ -12712,6 +13044,7 @@
     {
       "name": "Blightsteel Colossus",
       "manaCost": "{12}",
+      "sortedManaCost": "{12}",
       "cmc": 12,
       "type": "Artifact Creature - Golem",
       "text": "Trample, infect, indestructible<br>If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blightsteel Colossus and shuffle it into its owner's library instead.",
@@ -12731,6 +13064,7 @@
     {
       "name": "Chrome Mox",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "Imprint - When Chrome Mox enters the battlefield, you may exile a nonartifact, nonland card from your hand.<br>{T}: Add one mana of any of the exiled card's colors.",
@@ -12750,9 +13084,10 @@
     {
       "name": "Expedition Map",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
-      "text": "{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, and put it into your hand. Then shuffle your library.",
+      "text": "{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, put it into your hand, then shuffle.",
       "flavor": "\"Let's see. I've been here, here, here, here, and here. Where next?\"<br>-Olenn, tireless traveler",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -12770,6 +13105,7 @@
     {
       "name": "Lightning Greaves",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)<br>Equip {0}",
@@ -12790,6 +13126,7 @@
     {
       "name": "Mana Crypt",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "At the beginning of your upkeep, flip a coin. If you lose the flip, Mana Crypt deals 3 damage to you.<br>{T}: Add {C}{C}.",
@@ -12810,9 +13147,10 @@
     {
       "name": "Mox Opal",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Legendary Artifact",
-      "text": "Metalcraft - {T}: Add one mana of any color. Activate this ability only if you control three or more artifacts.",
+      "text": "Metalcraft - {T}: Add one mana of any color. Activate only if you control three or more artifacts.",
       "flavor": "What crossed her mind defied Orthodoxy: could there be perfection beyond compleation?",
       "expansion": "2XM",
       "scryfallSetCode": "2XM",
@@ -12830,6 +13168,7 @@
     {
       "name": "Sword of Body and Mind",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from green and from blue.<br>Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player mills ten cards.<br>Equip {2}",
@@ -12849,6 +13188,7 @@
     {
       "name": "Sword of Feast and Famine",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from black and from green.<br>Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.<br>Equip {2}",
@@ -12868,6 +13208,7 @@
     {
       "name": "Sword of Fire and Ice",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from red and from blue.<br>Whenever equipped creature deals combat damage to a player, Sword of Fire and Ice deals 2 damage to any target and you draw a card.<br>Equip {2}",
@@ -12887,6 +13228,7 @@
     {
       "name": "Sword of Light and Shadow",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from white and from black.<br>Whenever equipped creature deals combat damage to a player, you gain 3 life and you may return up to one target creature card from your graveyard to your hand.<br>Equip {2}",
@@ -12906,6 +13248,7 @@
     {
       "name": "Sword of War and Peace",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from red and from white.<br>Whenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand.<br>Equip {2}",
@@ -12925,6 +13268,7 @@
     {
       "name": "Wurmcoil Engine",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Wurm",
       "text": "Deathtouch, lifelink<br>When Wurmcoil Engine dies, create a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "0142648df06c9ec6fcc56cf4b700c9f0",
+    "digest": "93fad1d3a15b17aad0e3e14b6794856f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IVG_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IVG_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Niv-Mizzet, the Firemind",
       "manaCost": "{2}{U}{U}{R}{R}",
+      "sortedManaCost": "{2}{U}{U}{R}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon Wizard",
       "text": "Flying<br>Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.<br>{T}: Draw a card.",
@@ -47,6 +48,7 @@
     {
       "name": "Kiln Fiend",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Elemental Beast",
       "text": "Whenever you cast an instant or sorcery spell, Kiln Fiend gets +3/+0 until end of turn.",
@@ -72,6 +74,7 @@
     {
       "name": "Goblin Electromancer",
       "manaCost": "{U}{R}",
+      "sortedManaCost": "{U}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Wizard",
       "text": "Instant and sorcery spells you cast cost {1} less to cast.",
@@ -98,6 +101,7 @@
     {
       "name": "Izzet Guildmage",
       "manaCost": "{UR}{UR}",
+      "sortedManaCost": "{UR}{UR}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "({U/R} can be paid with either {U} or {R}.)<br>{2}{U}: Copy target instant spell you control with mana value 2 or less. You may choose new targets for the copy.<br>{2}{R}: Copy target sorcery spell you control with mana value 2 or less. You may choose new targets for the copy.",
@@ -123,6 +127,7 @@
     {
       "name": "Gelectrode",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Creature - Weird",
       "text": "{T}: Gelectrode deals 1 damage to any target.<br>Whenever you cast an instant or sorcery spell, you may untap Gelectrode.",
@@ -149,6 +154,7 @@
     {
       "name": "Wee Dragonauts",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Creature - Faerie Wizard",
       "text": "Flying<br>Whenever you cast an instant or sorcery spell, Wee Dragonauts gets +2/+0 until end of turn.",
@@ -175,6 +181,7 @@
     {
       "name": "Steamcore Weird",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Weird",
       "text": "When Steamcore Weird enters the battlefield, if {R} was spent to cast it, it deals 2 damage to any target.",
@@ -201,6 +208,7 @@
     {
       "name": "Shrewd Hatchling",
       "manaCost": "{3}{UR}",
+      "sortedManaCost": "{3}{UR}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Shrewd Hatchling enters the battlefield with four -1/-1 counters on it.<br>{U/R}: Target creature can't block Shrewd Hatchling this turn.<br>Whenever you cast a blue spell, remove a -1/-1 counter from Shrewd Hatchling.<br>Whenever you cast a red spell, remove a -1/-1 counter from Shrewd Hatchling.",
@@ -225,6 +233,7 @@
     {
       "name": "Ogre Savant",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Ogre Wizard",
       "text": "When Ogre Savant enters the battlefield, if {U} was spent to cast it, return target creature to its owner's hand.",
@@ -251,6 +260,7 @@
     {
       "name": "Galvanoth",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Beast",
       "text": "At the beginning of your upkeep, you may look at the top card of your library. You may cast it without paying its mana cost if it's an instant or sorcery spell.",
@@ -276,6 +286,7 @@
     {
       "name": "Izzet Chronarch",
       "manaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{U}{R}",
       "cmc": 5,
       "type": "Creature - Human Wizard",
       "text": "When Izzet Chronarch enters the battlefield, return target instant or sorcery card from your graveyard to your hand.",
@@ -302,6 +313,7 @@
     {
       "name": "Djinn Illuminatus",
       "manaCost": "{5}{UR}{UR}",
+      "sortedManaCost": "{5}{UR}{UR}",
       "cmc": 7,
       "type": "Creature - Djinn",
       "text": "({U/R} can be paid with either {U} or {R}.)<br>Flying<br>Each instant and sorcery spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)",
@@ -327,6 +339,7 @@
     {
       "name": "Brainstorm",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
@@ -352,6 +365,7 @@
     {
       "name": "Force Spike",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {1}.",
@@ -377,6 +391,7 @@
     {
       "name": "Magma Spray",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead.",
@@ -402,9 +417,10 @@
     {
       "name": "Isochron Scepter",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
-      "text": "Imprint - When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.<br>{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+      "text": "Imprint - When Isochron Scepter enters the battlefield, you may exile an instant card with mana value 2 or less from your hand.<br>{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
       "expansion": "IVG",
       "scryfallSetCode": "DDJ",
       "rarity": "U",
@@ -426,6 +442,7 @@
     {
       "name": "Izzet Signet",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, {T}: Add {U}{R}.",
@@ -452,6 +469,7 @@
     {
       "name": "Call to Heel",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return target creature to its owner's hand. Its controller draws a card.",
@@ -477,6 +495,7 @@
     {
       "name": "Train of Thought",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Replicate {1}{U} (When you cast this spell, copy it for each time you paid its replicate cost.)<br>Draw a card.",
@@ -503,6 +522,7 @@
     {
       "name": "Pyromatics",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Replicate {1}{R} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)<br>Pyromatics deals 1 damage to any target.",
@@ -528,6 +548,7 @@
     {
       "name": "Izzet Charm",
       "manaCost": "{U}{R}",
+      "sortedManaCost": "{U}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Counter target noncreature spell unless its controller pays {2}.<br>• Izzet Charm deals 2 damage to target creature.<br>• Draw two cards, then discard two cards.",
@@ -553,6 +574,7 @@
     {
       "name": "Reminisce",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Target player shuffles their graveyard into their library.",
@@ -578,6 +600,7 @@
     {
       "name": "Thunderheads",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Replicate {2}{U} (When you cast this spell, copy it for each time you paid its replicate cost.)<br>Create a 3/3 blue Weird creature token with defender and flying. Exile it at the beginning of the next end step.",
@@ -604,6 +627,7 @@
     {
       "name": "Vacuumelt",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Replicate {2}{U} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)<br>Return target creature to its owner's hand.",
@@ -629,6 +653,7 @@
     {
       "name": "Dissipate",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
@@ -654,6 +679,7 @@
     {
       "name": "Quicksilver Dagger",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has \"{T}: This creature deals 1 damage to target player or planeswalker. You draw a card.\"",
@@ -679,6 +705,7 @@
     {
       "name": "Prophetic Bolt",
       "manaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{U}{R}",
       "cmc": 5,
       "type": "Instant",
       "text": "Prophetic Bolt deals 4 damage to any target. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.",
@@ -703,9 +730,10 @@
     {
       "name": "Overwhelming Intellect",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Instant",
-      "text": "Counter target creature spell. Draw cards equal to that spell's converted mana cost.",
+      "text": "Counter target creature spell. Draw cards equal to that spell's mana value.",
       "flavor": "\"My brain hurts.\"",
       "expansion": "IVG",
       "scryfallSetCode": "DDJ",
@@ -728,6 +756,7 @@
     {
       "name": "Sphinx-Bone Wand",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact",
       "text": "Whenever you cast an instant or sorcery spell, you may put a charge counter on Sphinx-Bone Wand. If you do, Sphinx-Bone Wand deals damage equal to the number of charge counters on it to any target.",
@@ -753,6 +782,7 @@
     {
       "name": "Street Spasm",
       "manaCost": "{X}{R}",
+      "sortedManaCost": "{X}{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Street Spasm deals X damage to target creature without flying you don't control.<br>Overload {X}{X}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -778,6 +808,7 @@
     {
       "name": "Invoke the Firemind",
       "manaCost": "{X}{U}{U}{R}",
+      "sortedManaCost": "{X}{U}{U}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Choose one -<br>• Draw X cards.<br>• Invoke the Firemind deals X damage to any target.",
@@ -804,6 +835,7 @@
     {
       "name": "Fire",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Fire deals 2 damage divided as you choose among one or two targets.",
@@ -828,6 +860,7 @@
     {
       "name": "Ice",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Tap target permanent.<br>Draw a card.",
@@ -1091,6 +1124,7 @@
     {
       "name": "Jarad, Golgari Lich Lord",
       "manaCost": "{B}{B}{G}{G}",
+      "sortedManaCost": "{B}{B}{G}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Zombie Elf",
       "text": "Jarad, Golgari Lich Lord gets +1/+1 for each creature card in your graveyard.<br>{1}{B}{G}, Sacrifice another creature: Each opponent loses life equal to the sacrificed creature's power.<br>Sacrifice a Swamp and a Forest: Return Jarad from your graveyard to your hand.",
@@ -1116,6 +1150,7 @@
     {
       "name": "Plagued Rusalka",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Spirit",
       "text": "{B}, Sacrifice a creature: Target creature gets -1/-1 until end of turn.",
@@ -1141,6 +1176,7 @@
     {
       "name": "Elves of Deep Shadow",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {B}. Elves of Deep Shadow deals 1 damage to you.",
@@ -1167,6 +1203,7 @@
     {
       "name": "Golgari Thug",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Warrior",
       "text": "When Golgari Thug dies, put target creature card from your graveyard on top of your library.<br>Dredge 4 (If you would draw a card, you may mill four cards instead. If you do, return this card from your graveyard to your hand.)",
@@ -1192,6 +1229,7 @@
     {
       "name": "Ravenous Rats",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Rat",
       "text": "When Ravenous Rats enters the battlefield, target opponent discards a card.",
@@ -1217,6 +1255,7 @@
     {
       "name": "Reassembling Skeleton",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Skeleton Warrior",
       "text": "{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.",
@@ -1242,6 +1281,7 @@
     {
       "name": "Boneyard Wurm",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Wurm",
       "text": "Boneyard Wurm's power and toughness are each equal to the number of creature cards in your graveyard.",
@@ -1267,6 +1307,7 @@
     {
       "name": "Korozda Guildmage",
       "manaCost": "{B}{G}",
+      "sortedManaCost": "{B}{G}",
       "cmc": 2,
       "type": "Creature - Elf Shaman",
       "text": "{1}{B}{G}: Target creature gets +1/+1 and gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>{2}{B}{G}, Sacrifice a nontoken creature: Create X 1/1 green Saproling creature tokens, where X is the sacrificed creature's toughness.",
@@ -1292,9 +1333,10 @@
     {
       "name": "Putrid Leech",
       "manaCost": "{B}{G}",
+      "sortedManaCost": "{B}{G}",
       "cmc": 2,
       "type": "Creature - Zombie Leech",
-      "text": "Pay 2 life: Putrid Leech gets +2/+2 until end of turn. Activate this ability only once each turn.",
+      "text": "Pay 2 life: Putrid Leech gets +2/+2 until end of turn. Activate only once each turn.",
       "flavor": "It reacted to Naya's overabundant food supply by growing additional mouths.",
       "expansion": "IVG",
       "scryfallSetCode": "DDJ",
@@ -1317,6 +1359,7 @@
     {
       "name": "Stinkweed Imp",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Imp",
       "text": "Flying<br>Whenever Stinkweed Imp deals combat damage to a creature, destroy that creature.<br>Dredge 5 (If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.)",
@@ -1342,6 +1385,7 @@
     {
       "name": "Eternal Witness",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Human Shaman",
       "text": "When Eternal Witness enters the battlefield, you may return target card from your graveyard to your hand.",
@@ -1367,6 +1411,7 @@
     {
       "name": "Dreg Mangler",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Creature - Plant Zombie",
       "text": "Haste<br>Scavenge {3}{B}{G} ({3}{B}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)",
@@ -1392,6 +1437,7 @@
     {
       "name": "Shambling Shell",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Creature - Plant Zombie",
       "text": "Sacrifice Shambling Shell: Put a +1/+1 counter on target creature.<br>Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)",
@@ -1417,9 +1463,10 @@
     {
       "name": "Brain Weevil",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Insect",
-      "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>Sacrifice Brain Weevil: Target player discards two cards. Activate this ability only any time you could cast a sorcery.",
+      "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>Sacrifice Brain Weevil: Target player discards two cards. Activate only as a sorcery.",
       "expansion": "IVG",
       "scryfallSetCode": "DDJ",
       "rarity": "C",
@@ -1441,6 +1488,7 @@
     {
       "name": "Greater Mossdog",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Plant Dog",
       "text": "Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)",
@@ -1467,6 +1515,7 @@
     {
       "name": "Golgari Grave-Troll",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Troll Skeleton",
       "text": "Golgari Grave-Troll enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard.<br>{1}, Remove a +1/+1 counter from Golgari Grave-Troll: Regenerate Golgari Grave-Troll.<br>Dredge 6 (If you would draw a card, you may mill six cards instead. If you do, return this card from your graveyard to your hand.)",
@@ -1492,6 +1541,7 @@
     {
       "name": "Stingerfling Spider",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Spider",
       "text": "Reach<br>When Stingerfling Spider enters the battlefield, you may destroy target creature with flying.",
@@ -1517,6 +1567,7 @@
     {
       "name": "Sadistic Hypnotist",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Human Minion",
       "text": "Sacrifice a creature: Target player discards two cards. Activate only as a sorcery.",
@@ -1542,6 +1593,7 @@
     {
       "name": "Golgari Rotwurm",
       "manaCost": "{3}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}",
       "cmc": 5,
       "type": "Creature - Zombie Wurm",
       "text": "{B}, Sacrifice a creature: Target player loses 1 life.",
@@ -1568,6 +1620,7 @@
     {
       "name": "Gleancrawler",
       "manaCost": "{3}{BG}{BG}{BG}",
+      "sortedManaCost": "{3}{BG}{BG}{BG}",
       "cmc": 6,
       "type": "Creature - Insect Horror",
       "text": "({B/G} can be paid with either {B} or {G}.)<br>Trample<br>At the beginning of your end step, return to your hand all creature cards in your graveyard that were put there from the battlefield this turn.",
@@ -1593,6 +1646,7 @@
     {
       "name": "Doomgape",
       "manaCost": "{4}{BG}{BG}{BG}",
+      "sortedManaCost": "{4}{BG}{BG}{BG}",
       "cmc": 7,
       "type": "Creature - Elemental",
       "text": "Trample<br>At the beginning of your upkeep, sacrifice a creature. You gain life equal to that creature's toughness.",
@@ -1618,6 +1672,7 @@
     {
       "name": "Golgari Signet",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, {T}: Add {B}{G}.",
@@ -1644,6 +1699,7 @@
     {
       "name": "Ghoul's Feast",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard.",
@@ -1669,6 +1725,7 @@
     {
       "name": "Yoke of the Damned",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When a creature dies, destroy enchanted creature.",
@@ -1694,6 +1751,7 @@
     {
       "name": "Life from the Loam",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Return up to three target land cards from your graveyard to your hand.<br>Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)",
@@ -1719,6 +1777,7 @@
     {
       "name": "Golgari Germination",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever a nontoken creature you control dies, create a 1/1 green Saproling creature token.",
@@ -1745,6 +1804,7 @@
     {
       "name": "Putrefy",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target artifact or creature. It can't be regenerated.",
@@ -1771,6 +1831,7 @@
     {
       "name": "Feast or Famine",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Choose one -<br>• Create a 2/2 black Zombie creature token.<br>• Destroy target nonartifact, nonblack creature. It can't be regenerated.",
@@ -1796,6 +1857,7 @@
     {
       "name": "Nightmare Void",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You choose a card from it. That player discards that card.<br>Dredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)",
@@ -1821,6 +1883,7 @@
     {
       "name": "Vigor Mortis",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Return target creature card from your graveyard to the battlefield. If {G} was spent to cast this spell, that creature enters the battlefield with an additional +1/+1 counter on it.",
@@ -1847,6 +1910,7 @@
     {
       "name": "Grim Flowering",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Draw a card for each creature card in your graveyard.",
@@ -1872,6 +1936,7 @@
     {
       "name": "Twilight's Call",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "You may cast Twilight's Call as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)<br>Each player returns all creature cards from their graveyard to the battlefield.",
@@ -1897,6 +1962,7 @@
     {
       "name": "Life",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "All lands you control become 1/1 creatures until end of turn. They're still lands.",
@@ -1921,9 +1987,10 @@
     {
       "name": "Death",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 3,
       "type": "Sorcery",
-      "text": "Return target creature card from your graveyard to the battlefield. You lose life equal to its converted mana cost.",
+      "text": "Return target creature card from your graveyard to the battlefield. You lose life equal to its mana value.",
       "expansion": "IVG",
       "scryfallSetCode": "DDJ",
       "rarity": "U",

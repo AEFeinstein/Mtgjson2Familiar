@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "4fdf7128af50c21a30dd548e101a1ca5",
+    "digest": "9ea4e0f66aed45047837683ba7474c80",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PS_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PS_R.png",
@@ -21,6 +21,7 @@
     {
       "name": "Ertai, the Corrupted",
       "manaCost": "{2}{W}{U}{B}",
+      "sortedManaCost": "{2}{W}{U}{B}",
       "cmc": 5,
       "type": "Legendary Creature - Human Wizard",
       "text": "{U}, {T}, Sacrifice a creature or enchantment: Counter target spell.",
@@ -54,9 +55,10 @@
     {
       "name": "Skyship Weatherlight",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Legendary Artifact",
-      "text": "When Skyship Weatherlight enters the battlefield, search your library for any number of artifact and/or creature cards and exile them. Then shuffle your library.<br>{4}, {T}: Choose a card at random that was exiled with Skyship Weatherlight. Put that card into its owner's hand.",
+      "text": "When Skyship Weatherlight enters the battlefield, search your library for any number of artifact and/or creature cards, exile them, then shuffle.<br>{4}, {T}: Choose a card at random that was exiled with Skyship Weatherlight. Put that card into its owner's hand.",
       "expansion": "PS",
       "scryfallSetCode": "PLS",
       "rarity": "R",
@@ -86,6 +88,7 @@
     {
       "name": "Tahngarth, Talruum Hero",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Minotaur Warrior",
       "text": "Vigilance<br>{1}{R}, {T}: Tahngarth, Talruum Hero deals damage equal to its power to target creature. That creature deals damage equal to its power to Tahngarth.",
@@ -118,6 +121,7 @@
     {
       "name": "Aura Blast",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target enchantment.<br>Draw a card.",
@@ -163,6 +167,7 @@
     {
       "name": "Aurora Griffin",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Griffin",
       "text": "Flying<br>{W}: Target permanent becomes white until end of turn.",
@@ -208,6 +213,7 @@
     {
       "name": "Disciple of Kangee",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "{U}, {T}: Target creature gains flying and becomes blue until end of turn.",
@@ -253,6 +259,7 @@
     {
       "name": "Dominaria's Judgment",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Until end of turn, creatures you control gain protection from white if you control a Plains, from blue if you control an Island, from black if you control a Swamp, from red if you control a Mountain, and from green if you control a Forest.",
@@ -297,6 +304,7 @@
     {
       "name": "Guard Dogs",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Dog",
       "text": "{2}{W}, {T}: Choose a permanent you control. Prevent all combat damage target creature would deal this turn if it shares a color with that permanent.",
@@ -342,6 +350,7 @@
     {
       "name": "Heroic Defiance",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +3/+3 unless it shares a color with the most common color among all permanents or a color tied for most common.",
@@ -387,6 +396,7 @@
     {
       "name": "Hobble",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When Hobble enters the battlefield, draw a card.<br>Enchanted creature can't attack.<br>Enchanted creature can't block if it's black.",
@@ -431,6 +441,7 @@
     {
       "name": "Honorable Scout",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Soldier Scout",
       "text": "When Honorable Scout enters the battlefield, you gain 2 life for each black and/or red creature target opponent controls.",
@@ -476,6 +487,7 @@
     {
       "name": "Lashknife Barrier",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Lashknife Barrier enters the battlefield, draw a card.<br>If a source would deal damage to a creature you control, it deals that much damage minus 1 to that creature instead.",
@@ -520,6 +532,7 @@
     {
       "name": "March of Souls",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Destroy all creatures. They can't be regenerated. For each creature destroyed this way, its controller creates a 1/1 white Spirit creature token with flying.",
@@ -564,6 +577,7 @@
     {
       "name": "Orim's Chant",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Kicker {W} (You may pay an additional {W} as you cast this spell.)<br>Target player can't cast spells this turn. If this spell was kicked, creatures can't attack this turn.",
@@ -608,9 +622,10 @@
     {
       "name": "Planeswalker's Mirth",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
-      "text": "{3}{W}: Target opponent reveals a card at random from their hand. You gain life equal to that card's converted mana cost.",
+      "text": "{3}{W}: Target opponent reveals a card at random from their hand. You gain life equal to that card's mana value.",
       "flavor": "\"I enjoy a good joke as much as the next guy.\"<br>-Commodore Guff",
       "expansion": "PS",
       "scryfallSetCode": "PLS",
@@ -653,6 +668,7 @@
     {
       "name": "Pollen Remedy",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Kicker-Sacrifice a land. (You may sacrifice a land in addition to any other costs as you cast this spell.)<br>Prevent the next 3 damage that would be dealt this turn to any number of targets, divided as you choose. If this spell was kicked, prevent the next 6 damage this way instead.",
@@ -697,6 +713,7 @@
     {
       "name": "Samite Elder",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Cleric",
       "text": "{T}: Creatures you control gain protection from the colors of target permanent you control until end of turn.",
@@ -741,6 +758,7 @@
     {
       "name": "Samite Pilgrim",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "text": "Domain - {T}: Prevent the next X damage that would be dealt to target creature this turn, where X is the number of basic land types among lands you control.",
@@ -785,6 +803,7 @@
     {
       "name": "Sunscape Battlemage",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Kicker {1}{G} and/or {2}{U} (You may pay an additional {1}{G} and/or {2}{U} as you cast this spell.)<br>When Sunscape Battlemage enters the battlefield, if it was kicked with its {1}{G} kicker, destroy target creature with flying.<br>When Sunscape Battlemage enters the battlefield, if it was kicked with its {2}{U} kicker, draw two cards.",
@@ -829,6 +848,7 @@
     {
       "name": "Sunscape Familiar",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Wall",
       "text": "Defender (This creature can't attack.)<br>Green spells and blue spells you cast cost {1} less to cast.",
@@ -874,6 +894,7 @@
     {
       "name": "Surprise Deployment",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Cast this spell only during combat.<br>You may put a nonwhite creature card from your hand onto the battlefield. At the beginning of the next end step, return that creature to your hand. (Return it only if it's on the battlefield.)",
@@ -918,6 +939,7 @@
     {
       "name": "Voice of All",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Angel",
       "text": "Flying<br>As Voice of All enters the battlefield, choose a color.<br>Voice of All has protection from the chosen color.",
@@ -962,6 +984,7 @@
     {
       "name": "Allied Strategies",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Domain - Target player draws a card for each basic land type among lands they control.",
@@ -1007,6 +1030,7 @@
     {
       "name": "Arctic Merfolk",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk",
       "text": "Kicker-Return a creature you control to its owner's hand. (You may return a creature you control to its owner's hand in addition to any other costs as you cast this spell.)<br>If Arctic Merfolk was kicked, it enters the battlefield with a +1/+1 counter on it.",
@@ -1051,6 +1075,7 @@
     {
       "name": "Confound",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target spell that targets a creature.<br>Draw a card.",
@@ -1096,6 +1121,7 @@
     {
       "name": "Dralnu's Pet",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Shapeshifter",
       "text": "Kicker-{2}{B}, Discard a creature card. (You may pay {2}{B} and discard a creature card in addition to any other costs as you cast this spell.)<br>If Dralnu's Pet was kicked, it enters the battlefield with flying and with X +1/+1 counters on it, where X is the discarded card's mana value.",
@@ -1140,6 +1166,7 @@
     {
       "name": "Ertai's Trickery",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell if it was kicked.",
@@ -1185,6 +1212,7 @@
     {
       "name": "Escape Routes",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{2}{U}: Return target white or black creature you control to its owner's hand.",
@@ -1230,6 +1258,7 @@
     {
       "name": "Gainsay",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target blue spell.",
@@ -1275,6 +1304,7 @@
     {
       "name": "Hunting Drake",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Drake",
       "text": "Flying<br>When Hunting Drake enters the battlefield, put target red or green creature on top of its owner's library.",
@@ -1320,6 +1350,7 @@
     {
       "name": "Planar Overlay",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Each player chooses a land they control of each basic land type. Return those lands to their owners' hands.",
@@ -1365,6 +1396,7 @@
     {
       "name": "Planeswalker's Mischief",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{3}{U}: Target opponent reveals a card at random from their hand. If it's an instant or sorcery card, exile it. You may cast it without paying its mana cost for as long as it remains exiled. At the beginning of the next end step, if you haven't cast it, return it to its owner's hand. Activate only as a sorcery.",
@@ -1409,6 +1441,7 @@
     {
       "name": "Rushing River",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Kicker-Sacrifice a land. (You may sacrifice a land in addition to any other costs as you cast this spell.)<br>Return target nonland permanent to its owner's hand. If this spell was kicked, return another target nonland permanent to its owner's hand.",
@@ -1453,6 +1486,7 @@
     {
       "name": "Sea Snidd",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Beast",
       "text": "{T}: Target land becomes the basic land type of your choice until end of turn.",
@@ -1498,6 +1532,7 @@
     {
       "name": "Shifting Sky",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "As Shifting Sky enters the battlefield, choose a color.<br>All nonland permanents are the chosen color.",
@@ -1543,6 +1578,7 @@
     {
       "name": "Sisay's Ingenuity",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When Sisay's Ingenuity enters the battlefield, draw a card.<br>Enchanted creature has \"{2}{U}: Target creature becomes the color of your choice until end of turn.\"",
@@ -1587,6 +1623,7 @@
     {
       "name": "Sleeping Potion",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When Sleeping Potion enters the battlefield, tap enchanted creature.<br>Enchanted creature doesn't untap during its controller's untap step.<br>When enchanted creature becomes the target of a spell or ability, sacrifice Sleeping Potion.",
@@ -1631,6 +1668,7 @@
     {
       "name": "Stormscape Battlemage",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Metathran Wizard",
       "text": "Kicker {W} and/or {2}{B} (You may pay an additional {W} and/or {2}{B} as you cast this spell.)<br>When Stormscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, you gain 3 life.<br>When Stormscape Battlemage enters the battlefield, if it was kicked with its {2}{B} kicker, destroy target nonblack creature. That creature can't be regenerated.",
@@ -1675,6 +1713,7 @@
     {
       "name": "Stormscape Familiar",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Bird",
       "text": "Flying<br>White spells and black spells you cast cost {1} less to cast.",
@@ -1720,6 +1759,7 @@
     {
       "name": "Sunken Hope",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "At the beginning of each player's upkeep, that player returns a creature they control to its owner's hand.",
@@ -1765,6 +1805,7 @@
     {
       "name": "Waterspout Elemental",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Kicker {U} (You may pay an additional {U} as you cast this spell.)<br>Flying<br>When Waterspout Elemental enters the battlefield, if it was kicked, return all other creatures to their owners' hands and you skip your next turn.",
@@ -1809,6 +1850,7 @@
     {
       "name": "Bog Down",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Kicker-Sacrifice two lands. (You may sacrifice two lands in addition to any other costs as you cast this spell.)<br>Target player discards two cards. If this spell was kicked, that player discards three cards instead.",
@@ -1853,6 +1895,7 @@
     {
       "name": "Dark Suspicions",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "At the beginning of each opponent's upkeep, that player loses X life, where X is the number of cards in that player's hand minus the number of cards in your hand.",
@@ -1898,6 +1941,7 @@
     {
       "name": "Death Bomb",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Destroy target nonblack creature. It can't be regenerated. Its controller loses 2 life.",
@@ -1943,9 +1987,10 @@
     {
       "name": "Diabolic Intent",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Search your library for a card and put that card into your hand. Then shuffle your library.",
+      "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Search your library for a card, put that card into your hand, then shuffle.",
       "expansion": "PS",
       "scryfallSetCode": "PLS",
       "rarity": "R",
@@ -1987,6 +2032,7 @@
     {
       "name": "Exotic Disease",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Domain - Target player loses X life and you gain X life, where X is the number of basic land types among lands you control.",
@@ -2032,6 +2078,7 @@
     {
       "name": "Lord of the Undead",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Zombie",
       "text": "Other Zombie creatures get +1/+1.<br>{1}{B}, {T}: Return target Zombie card from your graveyard to your hand.",
@@ -2077,6 +2124,7 @@
     {
       "name": "Maggot Carrier",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Zombie",
       "text": "When Maggot Carrier enters the battlefield, each player loses 1 life.",
@@ -2122,6 +2170,7 @@
     {
       "name": "Morgue Toad",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Frog",
       "text": "Sacrifice Morgue Toad: Add {U}{R}.",
@@ -2167,6 +2216,7 @@
     {
       "name": "Nightscape Battlemage",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Zombie Wizard",
       "text": "Kicker {2}{U} and/or {2}{R} (You may pay an additional {2}{U} and/or {2}{R} as you cast this spell.)<br>When Nightscape Battlemage enters the battlefield, if it was kicked with its {2}{U} kicker, return up to two target nonblack creatures to their owners' hands.<br>When Nightscape Battlemage enters the battlefield, if it was kicked with its {2}{R} kicker, destroy target land.",
@@ -2211,6 +2261,7 @@
     {
       "name": "Nightscape Familiar",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Zombie",
       "text": "Blue spells and red spells you cast cost {1} less to cast.<br>{1}{B}: Regenerate Nightscape Familiar.",
@@ -2256,6 +2307,7 @@
     {
       "name": "Noxious Vapors",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Each player reveals their hand, chooses one card of each color from it, then discards all other nonland cards.",
@@ -2301,6 +2353,7 @@
     {
       "name": "Phyrexian Bloodstock",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Zombie",
       "text": "When Phyrexian Bloodstock leaves the battlefield, destroy target white creature. It can't be regenerated.",
@@ -2346,6 +2399,7 @@
     {
       "name": "Phyrexian Scuta",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Zombie",
       "text": "Kicker-Pay 3 life. (You may pay 3 life in addition to any other costs as you cast this spell.)<br>If Phyrexian Scuta was kicked, it enters the battlefield with two +1/+1 counters on it.",
@@ -2390,6 +2444,7 @@
     {
       "name": "Planeswalker's Scorn",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{3}{B}: Target opponent reveals a card at random from their hand. Target creature gets -X/-X until end of turn, where X is the revealed card's mana value. Activate only as a sorcery.",
@@ -2434,6 +2489,7 @@
     {
       "name": "Shriek of Dread",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)",
@@ -2479,6 +2535,7 @@
     {
       "name": "Sinister Strength",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +3/+1 and is black.",
@@ -2524,6 +2581,7 @@
     {
       "name": "Slay",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target green creature. It can't be regenerated.<br>Draw a card.",
@@ -2569,6 +2627,7 @@
     {
       "name": "Volcano Imp",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Imp",
       "text": "Flying<br>{1}{R}: Volcano Imp gains first strike until end of turn.",
@@ -2614,6 +2673,7 @@
     {
       "name": "Warped Devotion",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever a permanent is returned to a player's hand, that player discards a card.",
@@ -2659,6 +2719,7 @@
     {
       "name": "Caldera Kavu",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Kavu",
       "text": "{1}{B}: Caldera Kavu gets +1/+1 until end of turn.<br>{G}: Caldera Kavu becomes the color of your choice until end of turn.",
@@ -2704,6 +2765,7 @@
     {
       "name": "Deadapult",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{R}, Sacrifice a Zombie: Deadapult deals 2 damage to any target.",
@@ -2749,6 +2811,7 @@
     {
       "name": "Flametongue Kavu",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Kavu",
       "text": "When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.",
@@ -2794,6 +2857,7 @@
     {
       "name": "Goblin Game",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Each player hides at least one item, then all players reveal them simultaneously. Each player loses life equal to the number of items they revealed. The player who revealed the fewest items then loses half their life, rounded up. If two or more players are tied for fewest, each loses half their life, rounded up.",
@@ -2838,6 +2902,7 @@
     {
       "name": "Implode",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Destroy target land.<br>Draw a card.",
@@ -2883,6 +2948,7 @@
     {
       "name": "Insolence",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Whenever enchanted creature becomes tapped, Insolence deals 2 damage to that creature's controller.",
@@ -2928,6 +2994,7 @@
     {
       "name": "Kavu Recluse",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Kavu",
       "text": "{T}: Target land becomes a Forest until end of turn.",
@@ -2973,6 +3040,7 @@
     {
       "name": "Keldon Mantle",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>{B}: Regenerate enchanted creature.<br>{R}: Enchanted creature gets +1/+0 until end of turn.<br>{G}: Enchanted creature gains trample until end of turn.",
@@ -3017,6 +3085,7 @@
     {
       "name": "Magma Burst",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Kicker-Sacrifice two lands. (You may sacrifice two lands in addition to any other costs as you cast this spell.)<br>Magma Burst deals 3 damage to any target. If this spell was kicked, it deals 3 damage to another target.",
@@ -3061,6 +3130,7 @@
     {
       "name": "Mire Kavu",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Kavu",
       "text": "Mire Kavu gets +1/+1 as long as you control a Swamp.",
@@ -3106,6 +3176,7 @@
     {
       "name": "Mogg Jailer",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin",
       "text": "Mogg Jailer can't attack if defending player controls an untapped creature with power 2 or less.",
@@ -3151,6 +3222,7 @@
     {
       "name": "Mogg Sentry",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Warrior",
       "text": "Whenever an opponent casts a spell, Mogg Sentry gets +2/+2 until end of turn.",
@@ -3196,6 +3268,7 @@
     {
       "name": "Planeswalker's Fury",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{3}{R}: Target opponent reveals a card at random from their hand. Planeswalker's Fury deals damage equal to that card's mana value to that player. Activate only as a sorcery.",
@@ -3240,6 +3313,7 @@
     {
       "name": "Singe",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Singe deals 1 damage to target creature. That creature becomes black until end of turn.",
@@ -3285,6 +3359,7 @@
     {
       "name": "Slingshot Goblin",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin",
       "text": "{R}, {T}: Slingshot Goblin deals 2 damage to target blue creature.",
@@ -3330,6 +3405,7 @@
     {
       "name": "Strafe",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Strafe deals 3 damage to target nonred creature.",
@@ -3375,6 +3451,7 @@
     {
       "name": "Tahngarth, Talruum Hero",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Minotaur Warrior",
       "text": "Vigilance<br>{1}{R}, {T}: Tahngarth, Talruum Hero deals damage equal to its power to target creature. That creature deals damage equal to its power to Tahngarth.",
@@ -3419,6 +3496,7 @@
     {
       "name": "Thunderscape Battlemage",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Kicker {1}{B} and/or {G} (You may pay an additional {1}{B} and/or {G} as you cast this spell.)<br>When Thunderscape Battlemage enters the battlefield, if it was kicked with its {1}{B} kicker, target player discards two cards.<br>When Thunderscape Battlemage enters the battlefield, if it was kicked with its {G} kicker, destroy target enchantment.",
@@ -3463,6 +3541,7 @@
     {
       "name": "Thunderscape Familiar",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Kavu",
       "text": "First strike<br>Black spells and green spells you cast cost {1} less to cast.",
@@ -3508,6 +3587,7 @@
     {
       "name": "Alpha Kavu",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Kavu",
       "text": "{1}{G}: Target Kavu creature gets -1/+1 until end of turn.",
@@ -3553,6 +3633,7 @@
     {
       "name": "Amphibious Kavu",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Kavu",
       "text": "Whenever Amphibious Kavu blocks or becomes blocked by one or more blue and/or black creatures, Amphibious Kavu gets +3/+3 until end of turn.",
@@ -3598,6 +3679,7 @@
     {
       "name": "Falling Timber",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Kicker-Sacrifice a land. (You may sacrifice a land in addition to any other costs as you cast this spell.)<br>Prevent all combat damage target creature would deal this turn. If this spell was kicked, prevent all combat damage another target creature would deal this turn.",
@@ -3642,6 +3724,7 @@
     {
       "name": "Gaea's Herald",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf",
       "text": "Creature spells can't be countered.",
@@ -3687,6 +3770,7 @@
     {
       "name": "Gaea's Might",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Domain - Target creature gets +1/+1 until end of turn for each basic land type among lands you control.",
@@ -3732,6 +3816,7 @@
     {
       "name": "Magnigoth Treefolk",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Treefolk",
       "text": "Domain - For each basic land type among lands you control, Magnigoth Treefolk has landwalk of that type. (It can't be blocked as long as defending player controls a land of that type.)",
@@ -3776,6 +3861,7 @@
     {
       "name": "Mirrorwood Treefolk",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Treefolk",
       "text": "{2}{R}{W}: The next time damage would be dealt to Mirrorwood Treefolk this turn, that damage is dealt to any target instead.",
@@ -3821,6 +3907,7 @@
     {
       "name": "Multani's Harmony",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has \"{T}: Add one mana of any color.\"",
@@ -3866,6 +3953,7 @@
     {
       "name": "Nemata, Grove Guardian",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Treefolk",
       "text": "{2}{G}: Create a 1/1 green Saproling creature token.<br>Sacrifice a Saproling: Saproling creatures get +1/+1 until end of turn.",
@@ -3910,6 +3998,7 @@
     {
       "name": "Planeswalker's Favor",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{3}{G}: Target opponent reveals a card at random from their hand. Target creature gets +X/+X until end of turn, where X is the revealed card's mana value.",
@@ -3955,6 +4044,7 @@
     {
       "name": "Primal Growth",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Kicker-Sacrifice a creature. (You may sacrifice a creature in addition to any other costs as you cast this spell.)<br>Search your library for a basic land card, put that card onto the battlefield, then shuffle. If this spell was kicked, instead search your library for up to two basic land cards, put them onto the battlefield, then shuffle.",
@@ -3999,6 +4089,7 @@
     {
       "name": "Pygmy Kavu",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Kavu",
       "text": "When Pygmy Kavu enters the battlefield, draw a card for each black creature your opponents control.",
@@ -4044,6 +4135,7 @@
     {
       "name": "Quirion Dryad",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Dryad",
       "text": "Whenever you cast a spell that's white, blue, black, or red, put a +1/+1 counter on Quirion Dryad.",
@@ -4089,6 +4181,7 @@
     {
       "name": "Quirion Explorer",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Druid Scout",
       "text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
@@ -4134,6 +4227,7 @@
     {
       "name": "Root Greevil",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Beast",
       "text": "{2}{G}, {T}, Sacrifice Root Greevil: Destroy all enchantments of the color of your choice.",
@@ -4179,6 +4273,7 @@
     {
       "name": "Skyshroud Blessing",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "All lands gain shroud until end of turn. (They can't be the targets of spells or abilities.)<br>Draw a card.",
@@ -4224,6 +4319,7 @@
     {
       "name": "Stone Kavu",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Kavu",
       "text": "{R}: Stone Kavu gets +1/+0 until end of turn.<br>{W}: Stone Kavu gets +0/+1 until end of turn.",
@@ -4269,6 +4365,7 @@
     {
       "name": "Thornscape Battlemage",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Wizard",
       "text": "Kicker {R} and/or {W} (You may pay an additional {R} and/or {W} as you cast this spell.)<br>When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to any target.<br>When Thornscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, destroy target artifact.",
@@ -4313,6 +4410,7 @@
     {
       "name": "Thornscape Familiar",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Insect",
       "text": "Red spells and white spells you cast cost {1} less to cast.",
@@ -4358,6 +4456,7 @@
     {
       "name": "Ancient Spider",
       "manaCost": "{2}{G}{W}",
+      "sortedManaCost": "{2}{W}{G}",
       "cmc": 4,
       "type": "Creature - Spider",
       "text": "First strike; reach (This creature can block creatures with flying.)",
@@ -4403,6 +4502,7 @@
     {
       "name": "Cavern Harpy",
       "manaCost": "{U}{B}",
+      "sortedManaCost": "{U}{B}",
       "cmc": 2,
       "type": "Creature - Harpy Beast",
       "text": "Flying<br>When Cavern Harpy enters the battlefield, return a blue or black creature you control to its owner's hand.<br>Pay 1 life: Return Cavern Harpy to its owner's hand.",
@@ -4447,6 +4547,7 @@
     {
       "name": "Cloud Cover",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Whenever another permanent you control becomes the target of a spell or ability an opponent controls, you may return that permanent to its owner's hand.",
@@ -4491,6 +4592,7 @@
     {
       "name": "Crosis's Charm",
       "manaCost": "{U}{B}{R}",
+      "sortedManaCost": "{U}{B}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Return target permanent to its owner's hand.<br>• Destroy target nonblack creature. It can't be regenerated.<br>• Destroy target artifact.",
@@ -4535,6 +4637,7 @@
     {
       "name": "Darigaaz's Charm",
       "manaCost": "{B}{R}{G}",
+      "sortedManaCost": "{B}{R}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Return target creature card from your graveyard to your hand.<br>• Darigaaz's Charm deals 3 damage to any target.<br>• Target creature gets +3/+3 until end of turn.",
@@ -4579,6 +4682,7 @@
     {
       "name": "Daring Leap",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target creature gets +1/+1 and gains flying and first strike until end of turn.",
@@ -4624,6 +4728,7 @@
     {
       "name": "Destructive Flow",
       "manaCost": "{B}{R}{G}",
+      "sortedManaCost": "{B}{R}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "At the beginning of each player's upkeep, that player sacrifices a nonbasic land.",
@@ -4669,6 +4774,7 @@
     {
       "name": "Doomsday Specter",
       "manaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{U}{B}",
       "cmc": 4,
       "type": "Creature - Specter",
       "text": "Flying<br>When Doomsday Specter enters the battlefield, return a blue or black creature you control to its owner's hand.<br>Whenever Doomsday Specter deals combat damage to a player, look at that player's hand and choose a card from it. The player discards that card.",
@@ -4713,6 +4819,7 @@
     {
       "name": "Dralnu's Crusade",
       "manaCost": "{1}{B}{R}",
+      "sortedManaCost": "{1}{B}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Goblin creatures get +1/+1.<br>All Goblins are black and are Zombies in addition to their other creature types.",
@@ -4758,6 +4865,7 @@
     {
       "name": "Dromar's Charm",
       "manaCost": "{W}{U}{B}",
+      "sortedManaCost": "{W}{U}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• You gain 5 life.<br>• Counter target spell.<br>• Target creature gets -2/-2 until end of turn.",
@@ -4802,9 +4910,10 @@
     {
       "name": "Eladamri's Call",
       "manaCost": "{G}{W}",
+      "sortedManaCost": "{W}{G}",
       "cmc": 2,
       "type": "Instant",
-      "text": "Search your library for a creature card, reveal that card, put it into your hand, then shuffle your library.",
+      "text": "Search your library for a creature card, reveal that card, put it into your hand, then shuffle.",
       "flavor": "Tribal rivalries and petty disputes were laid aside at Eladamri's summons.",
       "expansion": "PS",
       "scryfallSetCode": "PLS",
@@ -4847,6 +4956,7 @@
     {
       "name": "Ertai, the Corrupted",
       "manaCost": "{2}{W}{U}{B}",
+      "sortedManaCost": "{2}{W}{U}{B}",
       "cmc": 5,
       "type": "Legendary Creature - Human Wizard",
       "text": "{U}, {T}, Sacrifice a creature or enchantment: Counter target spell.",
@@ -4892,6 +5002,7 @@
     {
       "name": "Fleetfoot Panther",
       "manaCost": "{1}{G}{W}",
+      "sortedManaCost": "{1}{W}{G}",
       "cmc": 3,
       "type": "Creature - Cat",
       "text": "Flash<br>When Fleetfoot Panther enters the battlefield, return a green or white creature you control to its owner's hand.",
@@ -4936,6 +5047,7 @@
     {
       "name": "Gerrard's Command",
       "manaCost": "{G}{W}",
+      "sortedManaCost": "{W}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Untap target creature. It gets +3/+3 until end of turn.",
@@ -4981,6 +5093,7 @@
     {
       "name": "Horned Kavu",
       "manaCost": "{R}{G}",
+      "sortedManaCost": "{R}{G}",
       "cmc": 2,
       "type": "Creature - Kavu",
       "text": "When Horned Kavu enters the battlefield, return a red or green creature you control to its owner's hand.",
@@ -5026,6 +5139,7 @@
     {
       "name": "Hull Breach",
       "manaCost": "{R}{G}",
+      "sortedManaCost": "{R}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Choose one -<br>• Destroy target artifact.<br>• Destroy target enchantment.<br>• Destroy target artifact and target enchantment.",
@@ -5071,6 +5185,7 @@
     {
       "name": "Keldon Twilight",
       "manaCost": "{1}{B}{R}",
+      "sortedManaCost": "{1}{B}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "At the beginning of each player's end step, if no creatures attacked this turn, that player sacrifices a creature they controlled since the beginning of the turn.",
@@ -5115,6 +5230,7 @@
     {
       "name": "Lava Zombie",
       "manaCost": "{1}{B}{R}",
+      "sortedManaCost": "{1}{B}{R}",
       "cmc": 3,
       "type": "Creature - Zombie",
       "text": "When Lava Zombie enters the battlefield, return a black or red creature you control to its owner's hand.<br>{2}: Lava Zombie gets +1/+0 until end of turn.",
@@ -5159,6 +5275,7 @@
     {
       "name": "Malicious Advice",
       "manaCost": "{X}{U}{B}",
+      "sortedManaCost": "{X}{U}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Tap X target artifacts, creatures, and/or lands. You lose X life.",
@@ -5204,6 +5321,7 @@
     {
       "name": "Marsh Crocodile",
       "manaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{U}{B}",
       "cmc": 4,
       "type": "Creature - Crocodile",
       "text": "When Marsh Crocodile enters the battlefield, return a blue or black creature you control to its owner's hand.<br>When Marsh Crocodile enters the battlefield, each player discards a card.",
@@ -5248,6 +5366,7 @@
     {
       "name": "Meddling Mage",
       "manaCost": "{W}{U}",
+      "sortedManaCost": "{W}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "As Meddling Mage enters the battlefield, choose a nonland card name.<br>Spells with the chosen name can't be cast.",
@@ -5293,6 +5412,7 @@
     {
       "name": "Natural Emergence",
       "manaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{R}{G}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "When Natural Emergence enters the battlefield, return a red or green enchantment you control to its owner's hand.<br>Lands you control are 2/2 creatures with first strike. They're still lands.",
@@ -5337,6 +5457,7 @@
     {
       "name": "Phyrexian Tyranny",
       "manaCost": "{U}{B}{R}",
+      "sortedManaCost": "{U}{B}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever a player draws a card, that player loses 2 life unless they pay {2}.",
@@ -5382,6 +5503,7 @@
     {
       "name": "Questing Phelddagrif",
       "manaCost": "{1}{G}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}{G}",
       "cmc": 4,
       "type": "Creature - Phelddagrif",
       "text": "{G}: Questing Phelddagrif gets +1/+1 until end of turn. Target opponent creates a 1/1 green Hippo creature token.<br>{W}: Questing Phelddagrif gains protection from black and from red until end of turn. Target opponent gains 2 life.<br>{U}: Questing Phelddagrif gains flying until end of turn. Target opponent may draw a card.",
@@ -5426,6 +5548,7 @@
     {
       "name": "Radiant Kavu",
       "manaCost": "{R}{G}{W}",
+      "sortedManaCost": "{W}{R}{G}",
       "cmc": 3,
       "type": "Creature - Kavu",
       "text": "{R}{G}{W}: Prevent all combat damage blue creatures and black creatures would deal this turn.",
@@ -5471,6 +5594,7 @@
     {
       "name": "Razing Snidd",
       "manaCost": "{4}{B}{R}",
+      "sortedManaCost": "{4}{B}{R}",
       "cmc": 6,
       "type": "Creature - Beast",
       "text": "When Razing Snidd enters the battlefield, return a black or red creature you control to its owner's hand.<br>When Razing Snidd enters the battlefield, each player sacrifices a land.",
@@ -5515,6 +5639,7 @@
     {
       "name": "Rith's Charm",
       "manaCost": "{R}{G}{W}",
+      "sortedManaCost": "{W}{R}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target nonbasic land.<br>• Create three 1/1 green Saproling creature tokens.<br>• Prevent all damage a source of your choice would deal this turn.",
@@ -5559,6 +5684,7 @@
     {
       "name": "Sawtooth Loon",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Creature - Bird",
       "text": "Flying<br>When Sawtooth Loon enters the battlefield, return a white or blue creature you control to its owner's hand.<br>When Sawtooth Loon enters the battlefield, draw two cards, then put two cards from your hand on the bottom of your library.",
@@ -5603,6 +5729,7 @@
     {
       "name": "Shivan Wurm",
       "manaCost": "{3}{R}{G}",
+      "sortedManaCost": "{3}{R}{G}",
       "cmc": 5,
       "type": "Creature - Wurm",
       "text": "Trample<br>When Shivan Wurm enters the battlefield, return a red or green creature you control to its owner's hand.",
@@ -5647,6 +5774,7 @@
     {
       "name": "Silver Drake",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Creature - Drake",
       "text": "Flying<br>When Silver Drake enters the battlefield, return a white or blue creature you control to its owner's hand.",
@@ -5691,6 +5819,7 @@
     {
       "name": "Sparkcaster",
       "manaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{R}{G}",
       "cmc": 4,
       "type": "Creature - Kavu",
       "text": "When Sparkcaster enters the battlefield, return a red or green creature you control to its owner's hand.<br>When Sparkcaster enters the battlefield, it deals 1 damage to target player or planeswalker.",
@@ -5735,6 +5864,7 @@
     {
       "name": "Steel Leaf Paladin",
       "manaCost": "{4}{G}{W}",
+      "sortedManaCost": "{4}{W}{G}",
       "cmc": 6,
       "type": "Creature - Elf Knight",
       "text": "First strike<br>When Steel Leaf Paladin enters the battlefield, return a green or white creature you control to its owner's hand.",
@@ -5779,6 +5909,7 @@
     {
       "name": "Terminate",
       "manaCost": "{B}{R}",
+      "sortedManaCost": "{B}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target creature. It can't be regenerated.",
@@ -5824,6 +5955,7 @@
     {
       "name": "Treva's Charm",
       "manaCost": "{G}{W}{U}",
+      "sortedManaCost": "{W}{U}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target enchantment.<br>• Exile target attacking creature.<br>• Draw a card, then discard a card.",
@@ -5868,6 +6000,7 @@
     {
       "name": "Urza's Guilt",
       "manaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{U}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Each player draws two cards, then discards three cards, then loses 4 life.",
@@ -5913,6 +6046,7 @@
     {
       "name": "Draco",
       "manaCost": "{16}",
+      "sortedManaCost": "{16}",
       "cmc": 16,
       "type": "Artifact Creature - Dragon",
       "text": "Domain - This spell costs {2} less to cast for each basic land type among lands you control.<br>Flying<br>Domain - At the beginning of your upkeep, sacrifice Draco unless you pay {10}. This cost is reduced by {2} for each basic land type among lands you control.",
@@ -5957,6 +6091,7 @@
     {
       "name": "Mana Cylix",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{1}, {T}: Add one mana of any color.",
@@ -6002,9 +6137,10 @@
     {
       "name": "Skyship Weatherlight",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Legendary Artifact",
-      "text": "When Skyship Weatherlight enters the battlefield, search your library for any number of artifact and/or creature cards and exile them. Then shuffle your library.<br>{4}, {T}: Choose a card at random that was exiled with Skyship Weatherlight. Put that card into its owner's hand.",
+      "text": "When Skyship Weatherlight enters the battlefield, search your library for any number of artifact and/or creature cards, exile them, then shuffle.<br>{4}, {T}: Choose a card at random that was exiled with Skyship Weatherlight. Put that card into its owner's hand.",
       "expansion": "PS",
       "scryfallSetCode": "PLS",
       "rarity": "R",
@@ -6042,6 +6178,7 @@
     {
       "name": "Star Compass",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Star Compass enters the battlefield tapped.<br>{T}: Add one mana of any color that a basic land you control could produce.",
@@ -6087,6 +6224,7 @@
     {
       "name": "Stratadon",
       "manaCost": "{10}",
+      "sortedManaCost": "{10}",
       "cmc": 10,
       "type": "Artifact Creature - Beast",
       "text": "Domain - This spell costs {1} less to cast for each basic land type among lands you control.<br>Trample",
@@ -6392,7 +6530,7 @@
       "name": "Terminal Moraine",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}: Add {C}.<br>{2}, {T}, Sacrifice Terminal Moraine: Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.",
+      "text": "{T}: Add {C}.<br>{2}, {T}, Sacrifice Terminal Moraine: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
       "expansion": "PS",
       "scryfallSetCode": "PLS",
       "rarity": "U",

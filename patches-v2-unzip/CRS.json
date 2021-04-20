@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "commander",
-    "digest": "6f18b50b210b5fee145c1c00a0fd8b95",
+    "digest": "a48c6c6aaf49a2a65a53a3c23153fbc5",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CRS_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CRS_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Chaos Warp",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
@@ -60,6 +61,7 @@
     {
       "name": "Decree of Pain",
       "manaCost": "{6}{B}{B}",
+      "sortedManaCost": "{6}{B}{B}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Destroy all creatures. They can't be regenerated. Draw a card for each creature destroyed this way.<br>Cycling {3}{B}{B} ({3}{B}{B}, Discard this card: Draw a card.)<br>When you cycle Decree of Pain, all creatures get -2/-2 until end of turn.",
@@ -79,6 +81,7 @@
     {
       "name": "Desertion",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "Counter target spell. If an artifact or creature spell is countered this way, put that card onto the battlefield under your control instead of into its owner's graveyard.",
@@ -99,9 +102,10 @@
     {
       "name": "Diaochan, Artful Beauty",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Human Advisor",
-      "text": "{T}: Destroy target creature of your choice, then destroy target creature of an opponent's choice. Activate this ability only during your turn, before attackers are declared.",
+      "text": "{T}: Destroy target creature of your choice, then destroy target creature of an opponent's choice. Activate only during your turn, before attackers are declared.",
       "expansion": "CRS",
       "scryfallSetCode": "CM1",
       "rarity": "R",
@@ -118,6 +122,7 @@
     {
       "name": "Dragonlair Spider",
       "manaCost": "{2}{R}{R}{G}{G}",
+      "sortedManaCost": "{2}{R}{R}{G}{G}",
       "cmc": 6,
       "type": "Creature - Spider",
       "text": "Reach<br>Whenever an opponent casts a spell, create a 1/1 green Insect creature token.",
@@ -138,6 +143,7 @@
     {
       "name": "Duplicant",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Shapeshifter",
       "text": "Imprint - When Duplicant enters the battlefield, you may exile target nontoken creature.<br>As long as a card exiled with Duplicant is a creature card, Duplicant has the power, toughness, and creature types of the last creature card exiled with Duplicant. It's still a Shapeshifter.",
@@ -157,6 +163,7 @@
     {
       "name": "Edric, Spymaster of Trest",
       "manaCost": "{1}{G}{U}",
+      "sortedManaCost": "{1}{U}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Rogue",
       "text": "Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.",
@@ -177,6 +184,7 @@
     {
       "name": "Kaalia of the Vast",
       "manaCost": "{1}{R}{W}{B}",
+      "sortedManaCost": "{1}{W}{B}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Human Cleric",
       "text": "Flying<br>Whenever Kaalia of the Vast attacks an opponent, you may put an Angel, Demon, or Dragon creature card from your hand onto the battlefield tapped and attacking that opponent.",
@@ -197,9 +205,10 @@
     {
       "name": "Loyal Retainers",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Advisor",
-      "text": "Sacrifice Loyal Retainers: Return target legendary creature card from your graveyard to the battlefield. Activate this ability only during your turn, before attackers are declared.",
+      "text": "Sacrifice Loyal Retainers: Return target legendary creature card from your graveyard to the battlefield. Activate only during your turn, before attackers are declared.",
       "expansion": "CRS",
       "scryfallSetCode": "CM1",
       "rarity": "U",
@@ -216,6 +225,7 @@
     {
       "name": "Maelstrom Wanderer",
       "manaCost": "{5}{G}{U}{R}",
+      "sortedManaCost": "{5}{U}{R}{G}",
       "cmc": 8,
       "type": "Legendary Creature - Elemental",
       "text": "Creatures you control have haste.<br>Cascade, cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order. Then do it again.)",
@@ -235,6 +245,7 @@
     {
       "name": "The Mimeoplasm",
       "manaCost": "{2}{B}{G}{U}",
+      "sortedManaCost": "{2}{U}{B}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Ooze",
       "text": "As The Mimeoplasm enters the battlefield, you may exile two creature cards from graveyards. If you do, it enters the battlefield as a copy of one of those cards with a number of additional +1/+1 counters on it equal to the power of the other card.",
@@ -254,6 +265,7 @@
     {
       "name": "Mind's Eye",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "Whenever an opponent draws a card, you may pay {1}. If you do, draw a card.",
@@ -274,6 +286,7 @@
     {
       "name": "Mirari's Wake",
       "manaCost": "{3}{G}{W}",
+      "sortedManaCost": "{3}{W}{G}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Creatures you control get +1/+1.<br>Whenever you tap a land for mana, add one mana of any type that land produced.",
@@ -294,6 +307,7 @@
     {
       "name": "Rhystic Study",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
@@ -314,6 +328,7 @@
     {
       "name": "Scroll Rack",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, {T}: Exile any number of cards from your hand face down. Put that many cards from the top of your library into your hand. Then look at the exiled cards and put them on top of your library in any order.",
@@ -333,6 +348,7 @@
     {
       "name": "Sylvan Library",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "At the beginning of your draw step, you may draw two additional cards. If you do, choose two cards in your hand drawn this turn. For each of those cards, pay 4 life or put the card on top of your library.",
@@ -352,6 +368,7 @@
     {
       "name": "Vela the Night-Clad",
       "manaCost": "{4}{U}{B}",
+      "sortedManaCost": "{4}{U}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Human Wizard",
       "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>Other creatures you control have intimidate.<br>Whenever Vela the Night-Clad or another creature you control leaves the battlefield, each opponent loses 1 life.",

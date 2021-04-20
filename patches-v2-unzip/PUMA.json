@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "masterpiece",
-    "digest": "53015cb8062f4315cfbed2d13c86432e",
+    "digest": "48707e3e6588045968fc795533c7336b",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PUMA_M.png"
     ]
@@ -37,6 +37,7 @@
     {
       "name": "Balefire Dragon",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Creature - Dragon",
       "text": "Flying<br>Whenever Balefire Dragon deals combat damage to a player, it deals that much damage to each creature that player controls.",
@@ -56,6 +57,7 @@
     {
       "name": "Bitterblossom",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Tribal Enchantment - Faerie",
       "text": "At the beginning of your upkeep, you lose 1 life and create a 1/1 black Faerie Rogue creature token with flying.",
@@ -147,9 +149,10 @@
     {
       "name": "Demonic Tutor",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "text": "Search your library for a card, put that card into your hand, then shuffle.",
       "expansion": "PUMA",
       "scryfallSetCode": "PUMA",
       "rarity": "M",
@@ -166,6 +169,7 @@
     {
       "name": "Emrakul, the Aeons Torn",
       "manaCost": "{15}",
+      "sortedManaCost": "{15}",
       "cmc": 15,
       "type": "Legendary Creature - Eldrazi",
       "text": "This spell can't be countered.<br>When you cast this spell, take an extra turn after this one.<br>Flying, protection from spells that are one or more colors, annihilator 6<br>When Emrakul, the Aeons Torn is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
@@ -185,9 +189,10 @@
     {
       "name": "Engineered Explosives",
       "manaCost": "{X}",
+      "sortedManaCost": "{X}",
       "cmc": 0,
       "type": "Artifact",
-      "text": "Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)<br>{2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Engineered Explosives.",
+      "text": "Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)<br>{2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with mana value equal to the number of charge counters on Engineered Explosives.",
       "expansion": "PUMA",
       "scryfallSetCode": "PUMA",
       "rarity": "M",
@@ -204,6 +209,7 @@
     {
       "name": "Eternal Witness",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Human Shaman",
       "text": "When Eternal Witness enters the battlefield, you may return target card from your graveyard to your hand.",
@@ -223,6 +229,7 @@
     {
       "name": "Fulminator Mage",
       "manaCost": "{1}{BR}{BR}",
+      "sortedManaCost": "{1}{BR}{BR}",
       "cmc": 3,
       "type": "Creature - Elemental Shaman",
       "text": "Sacrifice Fulminator Mage: Destroy target nonbasic land.",
@@ -242,9 +249,10 @@
     {
       "name": "Gaddock Teeg",
       "manaCost": "{G}{W}",
+      "sortedManaCost": "{W}{G}",
       "cmc": 2,
       "type": "Legendary Creature - Kithkin Advisor",
-      "text": "Noncreature spells with converted mana cost 4 or greater can't be cast.<br>Noncreature spells with {X} in their mana costs can't be cast.",
+      "text": "Noncreature spells with mana value 4 or greater can't be cast.<br>Noncreature spells with {X} in their mana costs can't be cast.",
       "expansion": "PUMA",
       "scryfallSetCode": "PUMA",
       "rarity": "M",
@@ -261,6 +269,7 @@
     {
       "name": "Goryo's Vengeance",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant - Arcane",
       "text": "Return target legendary creature card from your graveyard to the battlefield. That creature gains haste. Exile it at the beginning of the next end step.<br>Splice onto Arcane {2}{B} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
@@ -298,6 +307,7 @@
     {
       "name": "Karn Liberated",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Legendary Planeswalker - Karn",
       "text": "[+4]: Target player exiles a card from their hand.<br>[−3]: Exile target permanent.<br>[−14]: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn Liberated. Then put those cards onto the battlefield under your control.",
@@ -317,6 +327,7 @@
     {
       "name": "Kitchen Finks",
       "manaCost": "{1}{GW}{GW}",
+      "sortedManaCost": "{1}{GW}{GW}",
       "cmc": 3,
       "type": "Creature - Ouphe",
       "text": "When Kitchen Finks enters the battlefield, you gain 2 life.<br>Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
@@ -336,6 +347,7 @@
     {
       "name": "Kozilek, Butcher of Truth",
       "manaCost": "{10}",
+      "sortedManaCost": "{10}",
       "cmc": 10,
       "type": "Legendary Creature - Eldrazi",
       "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
@@ -373,6 +385,7 @@
     {
       "name": "Leovold, Emissary of Trest",
       "manaCost": "{B}{G}{U}",
+      "sortedManaCost": "{U}{B}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Advisor",
       "text": "Each opponent can't draw more than one card each turn.<br>Whenever you or a permanent you control becomes the target of a spell or ability an opponent controls, you may draw a card.",
@@ -392,6 +405,7 @@
     {
       "name": "Life from the Loam",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Return up to three target land cards from your graveyard to your hand.<br>Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)",
@@ -411,6 +425,7 @@
     {
       "name": "Liliana of the Veil",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Liliana",
       "text": "[+1]: Each player discards a card.<br>[−2]: Target player sacrifices a creature.<br>[−6]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.",
@@ -430,6 +445,7 @@
     {
       "name": "Lord of Extinction",
       "manaCost": "{3}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Lord of Extinction's power and toughness are each equal to the number of cards in all graveyards.",
@@ -449,6 +465,7 @@
     {
       "name": "Maelstrom Pulse",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target nonland permanent and all other permanents with the same name as that permanent.",
@@ -468,6 +485,7 @@
     {
       "name": "Mana Vault",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "Mana Vault doesn't untap during your untap step.<br>At the beginning of your upkeep, you may pay {4}. If you do, untap Mana Vault.<br>At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.<br>{T}: Add {C}{C}{C}.",
@@ -487,6 +505,7 @@
     {
       "name": "Mikaeus, the Unhallowed",
       "manaCost": "{3}{B}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Zombie Cleric",
       "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>Whenever a Human deals damage to you, destroy it.<br>Other non-Human creatures you control get +1/+1 and have undying. (When a creature with undying dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
@@ -506,6 +525,7 @@
     {
       "name": "Noble Hierarch",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human Druid",
       "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)<br>{T}: Add {G}, {W}, or {U}.",
@@ -525,6 +545,7 @@
     {
       "name": "Platinum Emperion",
       "manaCost": "{8}",
+      "sortedManaCost": "{8}",
       "cmc": 8,
       "type": "Artifact Creature - Golem",
       "text": "Your life total can't change. (You can't gain or lose life. You can't pay any amount of life except 0.)",
@@ -562,9 +583,10 @@
     {
       "name": "Reanimate",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
-      "text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its converted mana cost.",
+      "text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its mana value.",
       "expansion": "PUMA",
       "scryfallSetCode": "PUMA",
       "rarity": "M",
@@ -581,6 +603,7 @@
     {
       "name": "Sigarda, Host of Herons",
       "manaCost": "{2}{G}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Angel",
       "text": "Flying, hexproof<br>Spells and abilities your opponents control can't cause you to sacrifice permanents.",
@@ -600,6 +623,7 @@
     {
       "name": "Snapcaster Mage",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "Flash<br>When Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)",
@@ -637,6 +661,7 @@
     {
       "name": "Tarmogoyf",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Lhurgoyf",
       "text": "Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1.",
@@ -656,6 +681,7 @@
     {
       "name": "Tasigur, the Golden Fang",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Human Shaman",
       "text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)<br>{2}{G/U}{G/U}: Mill two cards, then return a nonland card of an opponent's choice from your graveyard to your hand.",
@@ -675,6 +701,7 @@
     {
       "name": "Temporal Manipulation",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Take an extra turn after this one.",
@@ -694,6 +721,7 @@
     {
       "name": "Through the Breach",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Instant - Arcane",
       "text": "You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.<br>Splice onto Arcane {2}{R}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
@@ -713,6 +741,7 @@
     {
       "name": "Ulamog, the Infinite Gyre",
       "manaCost": "{11}",
+      "sortedManaCost": "{11}",
       "cmc": 11,
       "type": "Legendary Creature - Eldrazi",
       "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
@@ -750,6 +779,7 @@
     {
       "name": "Vengevine",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Haste<br>Whenever you cast a spell, if it's the second creature spell you cast this turn, you may return Vengevine from your graveyard to the battlefield.",

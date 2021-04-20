@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "masterpiece",
-    "digest": "a115c398fb6faa408e27c39c770a5ce8",
+    "digest": "af062313e284279b4cd22f87dd488fc0",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MPSAKH_M.png"
     ]
@@ -19,9 +19,10 @@
     {
       "name": "Austere Command",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Choose two -<br>• Destroy all artifacts.<br>• Destroy all enchantments.<br>• Destroy all creatures with converted mana cost 3 or less.<br>• Destroy all creatures with converted mana cost 4 or greater.",
+      "text": "Choose two -<br>• Destroy all artifacts.<br>• Destroy all enchantments.<br>• Destroy all creatures with mana value 3 or less.<br>• Destroy all creatures with mana value 4 or greater.",
       "expansion": "MPSAKH",
       "scryfallSetCode": "MP2",
       "rarity": "M",
@@ -38,6 +39,7 @@
     {
       "name": "Aven Mindcensor",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Bird Wizard",
       "text": "Flash<br>Flying<br>If an opponent would search a library, that player searches the top four cards of that library instead.",
@@ -57,6 +59,7 @@
     {
       "name": "Containment Priest",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "text": "Flash<br>If a nontoken creature would enter the battlefield and it wasn't cast, exile it instead.",
@@ -76,9 +79,10 @@
     {
       "name": "Loyal Retainers",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Advisor",
-      "text": "Sacrifice Loyal Retainers: Return target legendary creature card from your graveyard to the battlefield. Activate this ability only during your turn, before attackers are declared.",
+      "text": "Sacrifice Loyal Retainers: Return target legendary creature card from your graveyard to the battlefield. Activate only during your turn, before attackers are declared.",
       "expansion": "MPSAKH",
       "scryfallSetCode": "MP2",
       "rarity": "M",
@@ -95,6 +99,7 @@
     {
       "name": "Oketra the True",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Legendary Creature - God",
       "text": "Double strike, indestructible<br>Oketra the True can't attack or block unless you control at least three other creatures.<br>{3}{W}: Create a 1/1 white Warrior creature token with vigilance.",
@@ -114,6 +119,7 @@
     {
       "name": "Worship",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.",
@@ -133,6 +139,7 @@
     {
       "name": "Wrath of God",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all creatures. They can't be regenerated.",
@@ -152,6 +159,7 @@
     {
       "name": "Consecrated Sphinx",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Creature - Sphinx",
       "text": "Flying<br>Whenever an opponent draws a card, you may draw two cards.",
@@ -171,9 +179,10 @@
     {
       "name": "Counterbalance",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Enchantment",
-      "text": "Whenever an opponent casts a spell, you may reveal the top card of your library. If you do, counter that spell if it has the same converted mana cost as the revealed card.",
+      "text": "Whenever an opponent casts a spell, you may reveal the top card of your library. If you do, counter that spell if it has the same mana value as the revealed card.",
       "expansion": "MPSAKH",
       "scryfallSetCode": "MP2",
       "rarity": "M",
@@ -190,6 +199,7 @@
     {
       "name": "Counterspell",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target spell.",
@@ -209,6 +219,7 @@
     {
       "name": "Cryptic Command",
       "manaCost": "{1}{U}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Choose two -<br>• Counter target spell.<br>• Return target permanent to its owner's hand.<br>• Tap all creatures your opponents control.<br>• Draw a card.",
@@ -228,6 +239,7 @@
     {
       "name": "Daze",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "You may return an Island you control to its owner's hand rather than pay this spell's mana cost.<br>Counter target spell unless its controller pays {1}.",
@@ -247,6 +259,7 @@
     {
       "name": "Divert",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Change the target of target spell with a single target unless that spell's controller pays {2}.",
@@ -266,6 +279,7 @@
     {
       "name": "Force of Will",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.<br>Counter target spell.",
@@ -285,6 +299,7 @@
     {
       "name": "Kefnet the Mindful",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Legendary Creature - God",
       "text": "Flying, indestructible<br>Kefnet the Mindful can't attack or block unless you have seven or more cards in hand.<br>{3}{U}: Draw a card, then you may return a land you control to its owner's hand.",
@@ -304,6 +319,7 @@
     {
       "name": "Pact of Negation",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Instant",
       "text": "Counter target spell.<br>At the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.",
@@ -323,6 +339,7 @@
     {
       "name": "Spell Pierce",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target noncreature spell unless its controller pays {2}.",
@@ -342,6 +359,7 @@
     {
       "name": "Stifle",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target activated or triggered ability. (Mana abilities can't be targeted.)",
@@ -361,6 +379,7 @@
     {
       "name": "Attrition",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{B}, Sacrifice a creature: Destroy target nonblack creature.",
@@ -380,6 +399,7 @@
     {
       "name": "Bontu the Glorified",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Legendary Creature - God",
       "text": "Menace, indestructible<br>Bontu the Glorified can't attack or block unless a creature died under your control this turn.<br>{1}{B}, Sacrifice another creature: Scry 1. Each opponent loses 1 life and you gain 1 life.",
@@ -399,6 +419,7 @@
     {
       "name": "Dark Ritual",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Add {B}{B}{B}.",
@@ -418,9 +439,10 @@
     {
       "name": "Diabolic Intent",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Search your library for a card and put that card into your hand. Then shuffle your library.",
+      "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Search your library for a card, put that card into your hand, then shuffle.",
       "expansion": "MPSAKH",
       "scryfallSetCode": "MP2",
       "rarity": "M",
@@ -437,6 +459,7 @@
     {
       "name": "Entomb",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Search your library for a card, put that card into your graveyard, then shuffle.",
@@ -456,6 +479,7 @@
     {
       "name": "Mind Twist",
       "manaCost": "{X}{B}",
+      "sortedManaCost": "{X}{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player discards X cards at random.",
@@ -475,6 +499,7 @@
     {
       "name": "Aggravated Assault",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery.",
@@ -494,6 +519,7 @@
     {
       "name": "Chain Lightning",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Chain Lightning deals 3 damage to any target. Then that player or that permanent's controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy.",
@@ -513,6 +539,7 @@
     {
       "name": "Hazoret the Fervent",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Legendary Creature - God",
       "text": "Indestructible, haste<br>Hazoret the Fervent can't attack or block unless you have one or fewer cards in hand.<br>{2}{R}, Discard a card: Hazoret deals 2 damage to each opponent.",
@@ -532,6 +559,7 @@
     {
       "name": "Rhonas the Indomitable",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Legendary Creature - God",
       "text": "Deathtouch, indestructible<br>Rhonas the Indomitable can't attack or block unless you control another creature with power 4 or greater.<br>{2}{G}: Another target creature gets +2/+0 and gains trample until end of turn.",
@@ -551,6 +579,7 @@
     {
       "name": "Maelstrom Pulse",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target nonland permanent and all other permanents with the same name as that permanent.",
@@ -570,6 +599,7 @@
     {
       "name": "Vindicate",
       "manaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{W}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target permanent.",
@@ -589,6 +619,7 @@
     {
       "name": "Armageddon",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all lands.",
@@ -608,6 +639,7 @@
     {
       "name": "Capsize",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)<br>Return target permanent to its owner's hand.",
@@ -627,6 +659,7 @@
     {
       "name": "Forbid",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Buyback-Discard two cards. (You may discard two cards in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves.)<br>Counter target spell.",
@@ -646,6 +679,7 @@
     {
       "name": "Omniscience",
       "manaCost": "{7}{U}{U}{U}",
+      "sortedManaCost": "{7}{U}{U}{U}",
       "cmc": 10,
       "type": "Enchantment",
       "text": "You may cast spells from your hand without paying their mana costs.",
@@ -665,6 +699,7 @@
     {
       "name": "Opposition",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Tap an untapped creature you control: Tap target artifact, creature, or land.",
@@ -684,6 +719,7 @@
     {
       "name": "Sunder",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "Return all lands to their owners' hands.",
@@ -703,9 +739,10 @@
     {
       "name": "Threads of Disloyalty",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
-      "text": "Enchant creature with converted mana cost 2 or less<br>You control enchanted creature.",
+      "text": "Enchant creature with mana value 2 or less<br>You control enchanted creature.",
       "expansion": "MPSAKH",
       "scryfallSetCode": "MP2",
       "rarity": "M",
@@ -722,6 +759,7 @@
     {
       "name": "Avatar of Woe",
       "manaCost": "{6}{B}{B}",
+      "sortedManaCost": "{6}{B}{B}",
       "cmc": 8,
       "type": "Creature - Avatar",
       "text": "If there are ten or more creature cards total in all graveyards, this spell costs {6} less to cast.<br>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>{T}: Destroy target creature. It can't be regenerated.",
@@ -741,6 +779,7 @@
     {
       "name": "Damnation",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all creatures. They can't be regenerated.",
@@ -760,6 +799,7 @@
     {
       "name": "Desolation Angel",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Angel",
       "text": "Kicker {W}{W} (You may pay an additional {W}{W} as you cast this spell.)<br>Flying<br>When Desolation Angel enters the battlefield, destroy all lands you control. If it was kicked, destroy all lands instead.",
@@ -779,6 +819,7 @@
     {
       "name": "Diabolic Edict",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target player sacrifices a creature.",
@@ -798,6 +839,7 @@
     {
       "name": "Doomsday",
       "manaCost": "{B}{B}{B}",
+      "sortedManaCost": "{B}{B}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Search your library and graveyard for five cards and exile the rest. Put the chosen cards on top of your library in any order. You lose half your life, rounded up.",
@@ -817,6 +859,7 @@
     {
       "name": "No Mercy",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Whenever a creature deals damage to you, destroy it.",
@@ -836,6 +879,7 @@
     {
       "name": "Slaughter Pact",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Instant",
       "text": "Destroy target nonblack creature.<br>At the beginning of your next upkeep, pay {2}{B}. If you don't, you lose the game.",
@@ -855,6 +899,7 @@
     {
       "name": "Thoughtseize",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.",
@@ -874,6 +919,7 @@
     {
       "name": "Blood Moon",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Nonbasic lands are Mountains.",
@@ -893,6 +939,7 @@
     {
       "name": "Boil",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Destroy all Islands.",
@@ -912,6 +959,7 @@
     {
       "name": "Shatterstorm",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all artifacts. They can't be regenerated.",
@@ -931,6 +979,7 @@
     {
       "name": "Through the Breach",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Instant - Arcane",
       "text": "You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.<br>Splice onto Arcane {2}{R}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
@@ -950,6 +999,7 @@
     {
       "name": "Choke",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Islands don't untap during their controllers' untap steps.",
@@ -969,6 +1019,7 @@
     {
       "name": "The Locust God",
       "manaCost": "{4}{U}{R}",
+      "sortedManaCost": "{4}{U}{R}",
       "cmc": 6,
       "type": "Legendary Creature - God",
       "text": "Flying<br>Whenever you draw a card, create a 1/1 blue and red Insect creature token with flying and haste.<br>{2}{U}{R}: Draw a card, then discard a card.<br>When The Locust God dies, return it to its owner's hand at the beginning of the next end step.",
@@ -988,6 +1039,7 @@
     {
       "name": "Lord of Extinction",
       "manaCost": "{3}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Lord of Extinction's power and toughness are each equal to the number of cards in all graveyards.",
@@ -1007,6 +1059,7 @@
     {
       "name": "The Scarab God",
       "manaCost": "{3}{U}{B}",
+      "sortedManaCost": "{3}{U}{B}",
       "cmc": 5,
       "type": "Legendary Creature - God",
       "text": "At the beginning of your upkeep, each opponent loses X life and you scry X, where X is the number of Zombies you control.<br>{2}{U}{B}: Exile target creature card from a graveyard. Create a token that's a copy of it, except it's a 4/4 black Zombie.<br>When The Scarab God dies, return it to its owner's hand at the beginning of the next end step.",
@@ -1026,6 +1079,7 @@
     {
       "name": "The Scorpion God",
       "manaCost": "{3}{B}{R}",
+      "sortedManaCost": "{3}{B}{R}",
       "cmc": 5,
       "type": "Legendary Creature - God",
       "text": "Whenever a creature with a -1/-1 counter on it dies, draw a card.<br>{1}{B}{R}: Put a -1/-1 counter on another target creature.<br>When The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.",

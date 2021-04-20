@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "03f8091dccfd55998b16e8ef941a4030",
+    "digest": "5de027f5f0f3a58d94c58b4ffc5140fb",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/XLN_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/XLN_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Adanto Vanguard",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Vampire Soldier",
       "text": "As long as Adanto Vanguard is attacking, it gets +2/+0.<br>Pay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
@@ -82,6 +83,7 @@
     {
       "name": "Ashes of the Abhorrent",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Players can't cast spells from graveyards or activate abilities of cards in graveyards.<br>Whenever a creature dies, you gain 1 life.",
@@ -143,6 +145,7 @@
     {
       "name": "Axis of Mortality",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, you may have two target players exchange life totals.",
@@ -204,6 +207,7 @@
     {
       "name": "Bellowing Aegisaur",
       "manaCost": "{5}{W}",
+      "sortedManaCost": "{5}{W}",
       "cmc": 6,
       "type": "Creature - Dinosaur",
       "text": "Enrage - Whenever Bellowing Aegisaur is dealt damage, put a +1/+1 counter on each other creature you control.",
@@ -265,9 +269,10 @@
     {
       "name": "Bishop of Rebirth",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Vampire Cleric",
-      "text": "Vigilance<br>Whenever Bishop of Rebirth attacks, you may return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.",
+      "text": "Vigilance<br>Whenever Bishop of Rebirth attacks, you may return target creature card with mana value 3 or less from your graveyard to the battlefield.",
       "flavor": "\"In the death of the foe lies the resurrection of the faithful.\"",
       "expansion": "XLN",
       "scryfallSetCode": "XLN",
@@ -326,6 +331,7 @@
     {
       "name": "Bishop's Soldier",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Vampire Soldier",
       "text": "Lifelink",
@@ -387,6 +393,7 @@
     {
       "name": "Bright Reprisal",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Instant",
       "text": "Destroy target attacking creature.<br>Draw a card.",
@@ -448,6 +455,7 @@
     {
       "name": "Demystify",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Destroy target enchantment.",
@@ -509,6 +517,7 @@
     {
       "name": "Duskborne Skymarcher",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Vampire Cleric",
       "text": "Flying<br>{W}, {T}: Target attacking Vampire gets +1/+1 until end of turn.",
@@ -570,6 +579,7 @@
     {
       "name": "Emissary of Sunrise",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Cleric",
       "text": "First strike<br>When Emissary of Sunrise enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -630,6 +640,7 @@
     {
       "name": "Encampment Keeper",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Dog",
       "text": "First strike<br>{7}{W}, {T}, Sacrifice Encampment Keeper: Creatures you control get +2/+2 until end of turn.",
@@ -691,6 +702,7 @@
     {
       "name": "Glorifier of Dusk",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Vampire Soldier",
       "text": "Pay 2 life: Glorifier of Dusk gains flying until end of turn.<br>Pay 2 life: Glorifier of Dusk gains vigilance until end of turn.",
@@ -752,6 +764,7 @@
     {
       "name": "Goring Ceratops",
       "manaCost": "{5}{W}{W}",
+      "sortedManaCost": "{5}{W}{W}",
       "cmc": 7,
       "type": "Creature - Dinosaur",
       "text": "Double strike<br>Whenever Goring Ceratops attacks, other creatures you control gain double strike until end of turn.",
@@ -813,6 +826,7 @@
     {
       "name": "Imperial Aerosaur",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Dinosaur",
       "text": "Flying<br>When Imperial Aerosaur enters the battlefield, another target creature you control gets +1/+1 and gains flying until end of turn.",
@@ -874,6 +888,7 @@
     {
       "name": "Imperial Lancer",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Knight",
       "text": "Imperial Lancer has double strike as long as you control a Dinosaur.",
@@ -935,6 +950,7 @@
     {
       "name": "Inspiring Cleric",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Vampire Cleric",
       "text": "When Inspiring Cleric enters the battlefield, you gain 4 life.",
@@ -996,6 +1012,7 @@
     {
       "name": "Ixalan's Binding",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "When Ixalan's Binding enters the battlefield, exile target nonland permanent an opponent controls until Ixalan's Binding leaves the battlefield.<br>Your opponents can't cast spells with the same name as the exiled card.",
@@ -1058,6 +1075,7 @@
     {
       "name": "Kinjalli's Caller",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Cleric",
       "text": "Dinosaur spells you cast cost {1} less to cast.",
@@ -1119,6 +1137,7 @@
     {
       "name": "Kinjalli's Sunwing",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Dinosaur",
       "text": "Flying<br>Creatures your opponents control enter the battlefield tapped.",
@@ -1180,6 +1199,7 @@
     {
       "name": "Legion Conquistador",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Vampire Soldier",
       "text": "When Legion Conquistador enters the battlefield, you may search your library for any number of cards named Legion Conquistador, reveal them, put them into your hand, then shuffle.",
@@ -1241,6 +1261,7 @@
     {
       "name": "Legion's Judgment",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target creature with power 4 or greater.",
@@ -1302,6 +1323,7 @@
     {
       "name": "Legion's Landing",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Legendary Enchantment",
       "text": "When Legion's Landing enters the battlefield, create a 1/1 white Vampire creature token with lifelink.<br>When you attack with three or more creatures, transform Legion's Landing.",
@@ -1422,6 +1444,7 @@
     {
       "name": "Looming Altisaur",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Dinosaur",
       "flavor": "Nature can't be tamed, but the Sun Empire believes that humans are made stronger when they test themselves against the wild strength of the dinosaurs.",
@@ -1482,6 +1505,7 @@
     {
       "name": "Mavren Fein, Dusk Apostle",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Vampire Cleric",
       "text": "Whenever one or more nontoken Vampires you control attack, create a 1/1 white Vampire creature token with lifelink.",
@@ -1543,6 +1567,7 @@
     {
       "name": "Paladin of the Bloodstained",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Vampire Knight",
       "text": "When Paladin of the Bloodstained enters the battlefield, create a 1/1 white Vampire creature token with lifelink.",
@@ -1604,6 +1629,7 @@
     {
       "name": "Pious Interdiction",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When Pious Interdiction enters the battlefield, you gain 2 life.<br>Enchanted creature can't attack or block.",
@@ -1665,9 +1691,10 @@
     {
       "name": "Priest of the Wakening Sun",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Cleric",
-      "text": "At the beginning of your upkeep, you may reveal a Dinosaur card from your hand. If you do, you gain 2 life.<br>{3}{W}{W}, Sacrifice Priest of the Wakening Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "At the beginning of your upkeep, you may reveal a Dinosaur card from your hand. If you do, you gain 2 life.<br>{3}{W}{W}, Sacrifice Priest of the Wakening Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle.",
       "expansion": "XLN",
       "scryfallSetCode": "XLN",
       "rarity": "R",
@@ -1725,6 +1752,7 @@
     {
       "name": "Pterodon Knight",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Knight",
       "text": "Pterodon Knight has flying as long as you control a Dinosaur.",
@@ -1786,6 +1814,7 @@
     {
       "name": "Queen's Commission",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Create two 1/1 white Vampire creature tokens with lifelink.",
@@ -1847,6 +1876,7 @@
     {
       "name": "Rallying Roar",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Creatures you control get +1/+1 until end of turn. Untap them.",
@@ -1908,6 +1938,7 @@
     {
       "name": "Raptor Companion",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Dinosaur",
       "flavor": "A raptor will follow any order as long as that order is \"hunt,\" \"kill,\" or \"go for the guts.\"",
@@ -1968,6 +1999,7 @@
     {
       "name": "Ritual of Rejuvenation",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "You gain 4 life.<br>Draw a card.",
@@ -2029,6 +2061,7 @@
     {
       "name": "Sanguine Sacrament",
       "manaCost": "{X}{W}{W}",
+      "sortedManaCost": "{X}{W}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "You gain twice X life. Put Sanguine Sacrament on the bottom of its owner's library.",
@@ -2090,6 +2123,7 @@
     {
       "name": "Settle the Wreckage",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle.",
@@ -2150,6 +2184,7 @@
     {
       "name": "Sheltering Light",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gains indestructible until end of turn. Scry 1. (Damage and effects that say \"destroy\" don't destroy the creature.)",
@@ -2211,6 +2246,7 @@
     {
       "name": "Shining Aerosaur",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Dinosaur",
       "text": "Flying",
@@ -2272,6 +2308,7 @@
     {
       "name": "Skyblade of the Legion",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Vampire Soldier",
       "text": "Flying",
@@ -2333,6 +2370,7 @@
     {
       "name": "Slash of Talons",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Slash of Talons deals 2 damage to target attacking or blocking creature.",
@@ -2394,6 +2432,7 @@
     {
       "name": "Steadfast Armasaur",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Dinosaur",
       "text": "Vigilance<br>{1}{W}, {T}: Steadfast Armasaur deals damage equal to its toughness to target creature blocking or blocked by it.",
@@ -2455,6 +2494,7 @@
     {
       "name": "Sunrise Seeker",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Human Scout",
       "text": "Vigilance<br>When Sunrise Seeker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -2515,6 +2555,7 @@
     {
       "name": "Territorial Hammerskull",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Dinosaur",
       "text": "Whenever Territorial Hammerskull attacks, tap target creature an opponent controls.",
@@ -2576,6 +2617,7 @@
     {
       "name": "Tocatli Honor Guard",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Soldier",
       "text": "Creatures entering the battlefield don't cause abilities to trigger.",
@@ -2637,6 +2679,7 @@
     {
       "name": "Vampire's Zeal",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +2/+2 until end of turn. If it's a Vampire, it gains first strike until end of turn.",
@@ -2698,6 +2741,7 @@
     {
       "name": "Wakening Sun's Avatar",
       "manaCost": "{5}{W}{W}{W}",
+      "sortedManaCost": "{5}{W}{W}{W}",
       "cmc": 8,
       "type": "Creature - Dinosaur Avatar",
       "text": "When Wakening Sun's Avatar enters the battlefield, if you cast it from your hand, destroy all non-Dinosaur creatures.",
@@ -2759,6 +2803,7 @@
     {
       "name": "Air Elemental",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Flying",
@@ -2820,6 +2865,7 @@
     {
       "name": "Arcane Adaptation",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "As Arcane Adaptation enters the battlefield, choose a creature type.<br>Creatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.",
@@ -2880,6 +2926,7 @@
     {
       "name": "Cancel",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Counter target spell.",
@@ -2941,6 +2988,7 @@
     {
       "name": "Chart a Course",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Draw two cards. Then discard a card unless you attacked this turn.",
@@ -3002,6 +3050,7 @@
     {
       "name": "Daring Saboteur",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Pirate",
       "text": "{2}{U}: Daring Saboteur can't be blocked this turn.<br>Whenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card.",
@@ -3063,9 +3112,10 @@
     {
       "name": "Deadeye Quartermaster",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Human Pirate",
-      "text": "When Deadeye Quartermaster enters the battlefield, you may search your library for an Equipment or Vehicle card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Deadeye Quartermaster enters the battlefield, you may search your library for an Equipment or Vehicle card, reveal it, put it into your hand, then shuffle.",
       "flavor": "\"Welcome aboard, mate! You're going to need this.\"",
       "expansion": "XLN",
       "scryfallSetCode": "XLN",
@@ -3124,6 +3174,7 @@
     {
       "name": "Deeproot Waters",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever you cast a Merfolk spell, create a 1/1 blue Merfolk creature token with hexproof. (A creature with hexproof can't be the target of spells or abilities your opponents control.)",
@@ -3185,6 +3236,7 @@
     {
       "name": "Depths of Desire",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Return target creature to its owner's hand. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -3246,6 +3298,7 @@
     {
       "name": "Dive Down",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature you control gets +0/+3 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
@@ -3307,6 +3360,7 @@
     {
       "name": "Dreamcaller Siren",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Siren Pirate",
       "text": "Flash<br>Flying<br>Dreamcaller Siren can block only creatures with flying.<br>When Dreamcaller Siren enters the battlefield, if you control another Pirate, tap up to two target nonland permanents.",
@@ -3367,6 +3421,7 @@
     {
       "name": "Entrancing Melody",
       "manaCost": "{X}{U}{U}",
+      "sortedManaCost": "{X}{U}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Gain control of target creature with mana value X.",
@@ -3428,6 +3483,7 @@
     {
       "name": "Favorable Winds",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Creatures you control with flying get +1/+1.",
@@ -3489,6 +3545,7 @@
     {
       "name": "Fleet Swallower",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Creature - Fish",
       "text": "Whenever Fleet Swallower attacks, target player mills half their library, rounded up.",
@@ -3550,6 +3607,7 @@
     {
       "name": "Headwater Sentries",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Merfolk Warrior",
       "flavor": "\"The elders say that if the intruders discovered the secret of the golden city, it would mean an end to our people.\"",
@@ -3610,6 +3668,7 @@
     {
       "name": "Herald of Secret Streams",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Merfolk Warrior",
       "text": "Creatures you control with +1/+1 counters on them can't be blocked.",
@@ -3671,6 +3730,7 @@
     {
       "name": "Jace, Cunning Castaway",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Jace",
       "text": "[+1]: Whenever one or more creatures you control deal combat damage to a player this turn, draw a card, then discard a card.<br>[−2]: Create a 2/2 blue Illusion creature token with \"When this creature becomes the target of a spell, sacrifice it.\"<br>[−5]: Create two tokens that are copies of Jace, Cunning Castaway, except they're not legendary.",
@@ -3731,6 +3791,7 @@
     {
       "name": "Kopala, Warden of Waves",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Merfolk Wizard",
       "text": "Spells your opponents cast that target a Merfolk you control cost {2} more to cast.<br>Abilities your opponents activate that target a Merfolk you control cost {2} more to activate.",
@@ -3792,6 +3853,7 @@
     {
       "name": "Lookout's Dispersal",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "This spell costs {1} less to cast if you control a Pirate.<br>Counter target spell unless its controller pays {4}.",
@@ -3853,6 +3915,7 @@
     {
       "name": "Navigator's Ruin",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Raid - At the beginning of your end step, if you attacked this turn, target opponent mills four cards.",
@@ -3914,6 +3977,7 @@
     {
       "name": "One With the Wind",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has flying.",
@@ -3975,6 +4039,7 @@
     {
       "name": "Opt",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Scry 1.<br>Draw a card.",
@@ -4036,6 +4101,7 @@
     {
       "name": "Overflowing Insight",
       "manaCost": "{4}{U}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}{U}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Target player draws seven cards.",
@@ -4097,6 +4163,7 @@
     {
       "name": "Perilous Voyage",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return target nonland permanent you don't control to its owner's hand. If its mana value was 2 or less, scry 2.",
@@ -4159,6 +4226,7 @@
     {
       "name": "Pirate's Prize",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw two cards. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -4220,6 +4288,7 @@
     {
       "name": "Prosperous Pirates",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Human Pirate",
       "text": "When Prosperous Pirates enters the battlefield, create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -4281,6 +4350,7 @@
     {
       "name": "River Sneak",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Warrior",
       "text": "River Sneak can't be blocked.<br>Whenever another Merfolk enters the battlefield under your control, River Sneak gets +1/+1 until end of turn.",
@@ -4342,6 +4412,7 @@
     {
       "name": "River's Rebuke",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Return all nonland permanents target player controls to their owner's hand.",
@@ -4404,6 +4475,7 @@
     {
       "name": "Run Aground",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Put target artifact or creature on top of its owner's library.",
@@ -4465,6 +4537,7 @@
     {
       "name": "Sailor of Means",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Pirate",
       "text": "When Sailor of Means enters the battlefield, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -4526,6 +4599,7 @@
     {
       "name": "Search for Azcanta",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Legendary Enchantment",
       "text": "At the beginning of your upkeep, look at the top card of your library. You may put it into your graveyard. Then if you have seven or more cards in your graveyard, you may transform Search for Azcanta.",
@@ -4646,6 +4720,7 @@
     {
       "name": "Shaper Apprentice",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Wizard",
       "text": "Shaper Apprentice has flying as long as you control another Merfolk.",
@@ -4707,6 +4782,7 @@
     {
       "name": "Shipwreck Looter",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Pirate",
       "text": "Raid - When Shipwreck Looter enters the battlefield, if you attacked this turn, you may draw a card. If you do, discard a card.",
@@ -4768,6 +4844,7 @@
     {
       "name": "Shore Keeper",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Trilobite",
       "text": "{7}{U}, {T}, Sacrifice Shore Keeper: Draw three cards.",
@@ -4829,6 +4906,7 @@
     {
       "name": "Siren Lookout",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Siren Pirate",
       "text": "Flying<br>When Siren Lookout enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -4889,6 +4967,7 @@
     {
       "name": "Siren Stormtamer",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Siren Pirate Wizard",
       "text": "Flying<br>{U}, Sacrifice Siren Stormtamer: Counter target spell or ability that targets you or a creature you control.",
@@ -4950,6 +5029,7 @@
     {
       "name": "Siren's Ruse",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile target creature you control, then return that card to the battlefield under its owner's control. If a Pirate was exiled this way, draw a card.",
@@ -5011,6 +5091,7 @@
     {
       "name": "Spell Pierce",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target noncreature spell unless its controller pays {2}.",
@@ -5072,9 +5153,10 @@
     {
       "name": "Spell Swindle",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Instant",
-      "text": "Counter target spell. Create X Treasure tokens, where X is that spell's converted mana cost. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+      "text": "Counter target spell. Create X Treasure tokens, where X is that spell's mana value. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
       "expansion": "XLN",
       "scryfallSetCode": "XLN",
       "rarity": "R",
@@ -5132,6 +5214,7 @@
     {
       "name": "Storm Fleet Aerialist",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Pirate",
       "text": "Flying<br>Raid - Storm Fleet Aerialist enters the battlefield with a +1/+1 counter on it if you attacked this turn.",
@@ -5193,6 +5276,7 @@
     {
       "name": "Storm Fleet Spy",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Pirate",
       "text": "Raid - When Storm Fleet Spy enters the battlefield, if you attacked this turn, draw a card.",
@@ -5254,6 +5338,7 @@
     {
       "name": "Storm Sculptor",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Merfolk Wizard",
       "text": "Storm Sculptor can't be blocked.<br>When Storm Sculptor enters the battlefield, return a creature you control to its owner's hand.",
@@ -5315,6 +5400,7 @@
     {
       "name": "Tempest Caller",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Merfolk Wizard",
       "text": "When Tempest Caller enters the battlefield, tap all creatures target opponent controls.",
@@ -5376,6 +5462,7 @@
     {
       "name": "Watertrap Weaver",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Merfolk Wizard",
       "text": "When Watertrap Weaver enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
@@ -5437,6 +5524,7 @@
     {
       "name": "Wind Strider",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Merfolk Wizard",
       "text": "Flash<br>Flying",
@@ -5498,6 +5586,7 @@
     {
       "name": "Anointed Deacon",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Vampire Cleric",
       "text": "At the beginning of combat on your turn, you may have target Vampire get +2/+0 until end of turn.",
@@ -5559,6 +5648,7 @@
     {
       "name": "Arguel's Blood Fast",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Legendary Enchantment",
       "text": "{1}{B}, Pay 2 life: Draw a card.<br>At the beginning of your upkeep, if you have 5 or less life, you may transform Arguel's Blood Fast.",
@@ -5680,6 +5770,7 @@
     {
       "name": "Bishop of the Bloodstained",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Vampire Cleric",
       "text": "When Bishop of the Bloodstained enters the battlefield, target opponent loses 1 life for each Vampire you control.",
@@ -5741,6 +5832,7 @@
     {
       "name": "Blight Keeper",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Bat Imp",
       "text": "Flying<br>{7}{B}, {T}, Sacrifice Blight Keeper: Target opponent loses 4 life and you gain 4 life.",
@@ -5802,6 +5894,7 @@
     {
       "name": "Bloodcrazed Paladin",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Vampire Knight",
       "text": "Flash<br>Bloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.",
@@ -5863,6 +5956,7 @@
     {
       "name": "Boneyard Parley",
       "manaCost": "{5}{B}{B}",
+      "sortedManaCost": "{5}{B}{B}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Exile up to five target creature cards from graveyards. An opponent separates those cards into two piles. Put all cards from the pile of your choice onto the battlefield under your control and the rest into their owners' graveyards.",
@@ -5923,6 +6017,7 @@
     {
       "name": "Contract Killing",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Destroy target creature. Create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -5984,6 +6079,7 @@
     {
       "name": "Costly Plunder",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice an artifact or creature.<br>Draw two cards.",
@@ -6045,6 +6141,7 @@
     {
       "name": "Dark Nourishment",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Instant",
       "text": "Dark Nourishment deals 3 damage to any target. You gain 3 life.",
@@ -6106,6 +6203,7 @@
     {
       "name": "Deadeye Tormentor",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Human Pirate",
       "text": "Raid - When Deadeye Tormentor enters the battlefield, if you attacked this turn, target opponent discards a card.",
@@ -6167,6 +6265,7 @@
     {
       "name": "Deadeye Tracker",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Human Pirate",
       "text": "{1}{B}, {T}: Exile two target cards from an opponent's graveyard. Deadeye Tracker explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -6227,6 +6326,7 @@
     {
       "name": "Deathless Ancient",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Creature - Vampire Knight",
       "text": "Flying<br>Tap three untapped Vampires you control: Return Deathless Ancient from your graveyard to your hand.",
@@ -6288,6 +6388,7 @@
     {
       "name": "Desperate Castaways",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Pirate",
       "text": "Desperate Castaways can't attack unless you control an artifact.",
@@ -6349,6 +6450,7 @@
     {
       "name": "Dire Fleet Hoarder",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Pirate",
       "text": "When Dire Fleet Hoarder dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -6410,6 +6512,7 @@
     {
       "name": "Dire Fleet Interloper",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Human Pirate",
       "text": "Menace<br>When Dire Fleet Interloper enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -6470,6 +6573,7 @@
     {
       "name": "Dire Fleet Ravager",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Orc Pirate Wizard",
       "text": "Menace, deathtouch<br>When Dire Fleet Ravager enters the battlefield, each player loses a third of their life, rounded up.",
@@ -6531,6 +6635,7 @@
     {
       "name": "Duress",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
@@ -6592,6 +6697,7 @@
     {
       "name": "Fathom Fleet Captain",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Pirate",
       "text": "Menace<br>Whenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.",
@@ -6653,6 +6759,7 @@
     {
       "name": "Fathom Fleet Cutthroat",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Human Pirate",
       "text": "When Fathom Fleet Cutthroat enters the battlefield, destroy target creature an opponent controls that was dealt damage this turn.",
@@ -6714,6 +6821,7 @@
     {
       "name": "Grim Captain's Call",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Return a Pirate card from your graveyard to your hand, then do the same for Vampire, Dinosaur, and Merfolk.",
@@ -6775,6 +6883,7 @@
     {
       "name": "Heartless Pillage",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Target opponent discards two cards.<br>Raid - If you attacked this turn, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -6835,6 +6944,7 @@
     {
       "name": "Kitesail Freebooter",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Pirate",
       "text": "Flying<br>When Kitesail Freebooter enters the battlefield, target opponent reveals their hand. You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.",
@@ -6895,6 +7005,7 @@
     {
       "name": "Lurking Chupacabra",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Beast Horror",
       "text": "Whenever a creature you control explores, target creature an opponent controls gets -2/-2 until end of turn.",
@@ -6956,6 +7067,7 @@
     {
       "name": "March of the Drowned",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Choose one -<br>• Return target creature card from your graveyard to your hand.<br>• Return two target Pirate cards from your graveyard to your hand.",
@@ -7016,6 +7128,7 @@
     {
       "name": "Mark of the Vampire",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has lifelink.",
@@ -7077,6 +7190,7 @@
     {
       "name": "Queen's Agent",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Vampire Scout",
       "text": "Lifelink<br>When Queen's Agent enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -7137,6 +7251,7 @@
     {
       "name": "Queen's Bay Soldier",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Vampire Soldier",
       "flavor": "The soldiers of the Legion of Dusk have come to the colonies at Queen's Bay in search of glory and riches. They are veterans of centuries of warfare, and they thirst for conquest.",
@@ -7197,6 +7312,7 @@
     {
       "name": "Raiders' Wake",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Whenever an opponent discards a card, that player loses 2 life.<br>Raid - At the beginning of your end step, if you attacked this turn, target opponent discards a card.",
@@ -7258,6 +7374,7 @@
     {
       "name": "Revel in Riches",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Whenever a creature an opponent controls dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")<br>At the beginning of your upkeep, if you control ten or more Treasures, you win the game.",
@@ -7318,6 +7435,7 @@
     {
       "name": "Ruin Raider",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Orc Pirate",
       "text": "Raid - At the beginning of your end step, if you attacked this turn, reveal the top card of your library and put that card into your hand. You lose life equal to the card's mana value.",
@@ -7378,6 +7496,7 @@
     {
       "name": "Ruthless Knave",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Orc Pirate",
       "text": "{2}{B}, Sacrifice a creature: Create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")<br>Sacrifice three Treasures: Draw a card.",
@@ -7439,6 +7558,7 @@
     {
       "name": "Sanctum Seeker",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Vampire Knight",
       "text": "Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.",
@@ -7500,6 +7620,7 @@
     {
       "name": "Seekers' Squire",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Scout",
       "text": "When Seekers' Squire enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -7561,6 +7682,7 @@
     {
       "name": "Skittering Heartstopper",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Insect",
       "text": "{B}: Skittering Heartstopper gains deathtouch until end of turn.",
@@ -7622,6 +7744,7 @@
     {
       "name": "Skulduggery",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Until end of turn, target creature you control gets +1/+1 and target creature an opponent controls gets -1/-1.",
@@ -7683,6 +7806,7 @@
     {
       "name": "Skymarch Bloodletter",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Vampire Soldier",
       "text": "Flying<br>When Skymarch Bloodletter enters the battlefield, target opponent loses 1 life and you gain 1 life.",
@@ -7744,6 +7868,7 @@
     {
       "name": "Spreading Rot",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Destroy target land. Its controller loses 2 life.",
@@ -7805,6 +7930,7 @@
     {
       "name": "Sword-Point Diplomacy",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays 3 life. Then exile the rest.",
@@ -7866,6 +7992,7 @@
     {
       "name": "Vanquish the Weak",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target creature with power 3 or less.",
@@ -7927,6 +8054,7 @@
     {
       "name": "Vicious Conquistador",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Vampire Soldier",
       "text": "Whenever Vicious Conquistador attacks, each opponent loses 1 life.",
@@ -7988,6 +8116,7 @@
     {
       "name": "Vraska's Contempt",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Exile target creature or planeswalker. You gain 2 life.",
@@ -8050,6 +8179,7 @@
     {
       "name": "Walk the Plank",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Destroy target non-Merfolk creature.",
@@ -8111,6 +8241,7 @@
     {
       "name": "Wanted Scoundrels",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Pirate",
       "text": "When Wanted Scoundrels dies, target opponent creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -8172,6 +8303,7 @@
     {
       "name": "Angrath's Marauders",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Creature - Human Pirate",
       "text": "If a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.",
@@ -8233,6 +8365,7 @@
     {
       "name": "Bonded Horncrest",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Dinosaur",
       "text": "Bonded Horncrest can't attack or block alone.",
@@ -8294,6 +8427,7 @@
     {
       "name": "Brazen Buccaneers",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Human Pirate",
       "text": "Haste<br>When Brazen Buccaneers enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -8354,6 +8488,7 @@
     {
       "name": "Burning Sun's Avatar",
       "manaCost": "{3}{R}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}{R}",
       "cmc": 6,
       "type": "Creature - Dinosaur Avatar",
       "text": "When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent or planeswalker and 3 damage to up to one target creature.",
@@ -8415,6 +8550,7 @@
     {
       "name": "Captain Lannery Storm",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Human Pirate",
       "text": "Haste<br>Whenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")<br>Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.",
@@ -8475,6 +8611,7 @@
     {
       "name": "Captivating Crew",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Human Pirate",
       "text": "{3}{R}: Gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn. Activate only as a sorcery.",
@@ -8536,6 +8673,7 @@
     {
       "name": "Charging Monstrosaur",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Dinosaur",
       "text": "Trample, haste",
@@ -8597,6 +8735,7 @@
     {
       "name": "Demolish",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy target artifact or land.",
@@ -8658,6 +8797,7 @@
     {
       "name": "Dinosaur Stampede",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Attacking creatures get +2/+0 until end of turn. Dinosaurs you control gain trample until end of turn.",
@@ -8719,6 +8859,7 @@
     {
       "name": "Dual Shot",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Dual Shot deals 1 damage to each of up to two target creatures.",
@@ -8780,6 +8921,7 @@
     {
       "name": "Fathom Fleet Firebrand",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Pirate",
       "text": "{1}{R}: Fathom Fleet Firebrand gets +1/+0 until end of turn.",
@@ -8841,6 +8983,7 @@
     {
       "name": "Fiery Cannonade",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Fiery Cannonade deals 2 damage to each non-Pirate creature.",
@@ -8902,6 +9045,7 @@
     {
       "name": "Fire Shrine Keeper",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Elemental",
       "text": "Menace<br>{7}{R}, {T}, Sacrifice Fire Shrine Keeper: It deals 3 damage to each of up to two target creatures.",
@@ -8963,6 +9107,7 @@
     {
       "name": "Firecannon Blast",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Firecannon Blast deals 3 damage to target creature.<br>Raid - Firecannon Blast deals 6 damage instead if you attacked this turn.",
@@ -9024,6 +9169,7 @@
     {
       "name": "Frenzied Raptor",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Dinosaur",
       "flavor": "Sun Empire warriors are taught to emulate the fearless raptors that fling themselves against towers of horn and muscle a hundred times their size.",
@@ -9084,6 +9230,7 @@
     {
       "name": "Headstrong Brute",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Orc Pirate",
       "text": "Headstrong Brute can't block.<br>Headstrong Brute has menace as long as you control another Pirate.",
@@ -9145,6 +9292,7 @@
     {
       "name": "Hijack",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Gain control of target artifact or creature until end of turn. Untap it. It gains haste until end of turn.",
@@ -9206,6 +9354,7 @@
     {
       "name": "Lightning Strike",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Lightning Strike deals 3 damage to any target.",
@@ -9267,6 +9416,7 @@
     {
       "name": "Lightning-Rig Crew",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Pirate",
       "text": "{T}: Lightning-Rig Crew deals 1 damage to each opponent.<br>Whenever you cast a Pirate spell, untap Lightning-Rig Crew.",
@@ -9328,6 +9478,7 @@
     {
       "name": "Makeshift Munitions",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "{1}, Sacrifice an artifact or creature: Makeshift Munitions deals 1 damage to any target.",
@@ -9389,6 +9540,7 @@
     {
       "name": "Nest Robber",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Dinosaur",
       "text": "Haste",
@@ -9450,6 +9602,7 @@
     {
       "name": "Otepec Huntmaster",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "Dinosaur spells you cast cost {1} less to cast.<br>{T}: Target Dinosaur gains haste until end of turn.",
@@ -9511,6 +9664,7 @@
     {
       "name": "Rampaging Ferocidon",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Dinosaur",
       "text": "Menace<br>Players can't gain life.<br>Whenever another creature enters the battlefield, Rampaging Ferocidon deals 1 damage to that creature's controller.",
@@ -9572,6 +9726,7 @@
     {
       "name": "Raptor Hatchling",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Dinosaur",
       "text": "Enrage - Whenever Raptor Hatchling is dealt damage, create a 3/3 green Dinosaur creature token with trample.",
@@ -9633,9 +9788,10 @@
     {
       "name": "Repeating Barrage",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Sorcery",
-      "text": "Repeating Barrage deals 3 damage to any target.<br>Raid - {3}{R}{R}: Return Repeating Barrage from your graveyard to your hand. Activate this ability only if you attacked this turn.",
+      "text": "Repeating Barrage deals 3 damage to any target.<br>Raid - {3}{R}{R}: Return Repeating Barrage from your graveyard to your hand. Activate only if you attacked this turn.",
       "expansion": "XLN",
       "scryfallSetCode": "XLN",
       "rarity": "R",
@@ -9693,6 +9849,7 @@
     {
       "name": "Rigging Runner",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Pirate",
       "text": "First strike<br>Raid - Rigging Runner enters the battlefield with a +1/+1 counter on it if you attacked this turn.",
@@ -9754,6 +9911,7 @@
     {
       "name": "Rile",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Rile deals 1 damage to target creature you control. That creature gains trample until end of turn.<br>Draw a card.",
@@ -9815,6 +9973,7 @@
     {
       "name": "Rowdy Crew",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Human Pirate",
       "text": "Trample<br>When Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random. If two cards that share a card type are discarded this way, put two +1/+1 counters on Rowdy Crew.",
@@ -9875,6 +10034,7 @@
     {
       "name": "Rummaging Goblin",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Rogue",
       "text": "{T}, Discard a card: Draw a card.",
@@ -9936,6 +10096,7 @@
     {
       "name": "Star of Extinction",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Destroy target land. Star of Extinction deals 20 damage to each creature and each planeswalker.",
@@ -9997,6 +10158,7 @@
     {
       "name": "Storm Fleet Arsonist",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Orc Pirate",
       "text": "Raid - When Storm Fleet Arsonist enters the battlefield, if you attacked this turn, target opponent sacrifices a permanent.",
@@ -10058,6 +10220,7 @@
     {
       "name": "Storm Fleet Pyromancer",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Human Pirate Wizard",
       "text": "Raid - When Storm Fleet Pyromancer enters the battlefield, if you attacked this turn, Storm Fleet Pyromancer deals 2 damage to any target.",
@@ -10118,6 +10281,7 @@
     {
       "name": "Sun-Crowned Hunters",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Dinosaur",
       "text": "Enrage - Whenever Sun-Crowned Hunters is dealt damage, it deals 3 damage to target opponent or planeswalker.",
@@ -10179,6 +10343,7 @@
     {
       "name": "Sunbird's Invocation",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's mana value. You may cast a spell with mana value X or less from among cards revealed this way without paying its mana cost. Put the rest on the bottom of your library in a random order.",
@@ -10239,6 +10404,7 @@
     {
       "name": "Sure Strike",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +3/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)",
@@ -10300,6 +10466,7 @@
     {
       "name": "Swashbuckling",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has haste.",
@@ -10361,6 +10528,7 @@
     {
       "name": "Thrash of Raptors",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Dinosaur",
       "text": "As long as you control another Dinosaur, Thrash of Raptors gets +2/+0 and has trample.",
@@ -10422,6 +10590,7 @@
     {
       "name": "Tilonalli's Knight",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Knight",
       "text": "Whenever Tilonalli's Knight attacks, if you control a Dinosaur, Tilonalli's Knight gets +1/+1 until end of turn.",
@@ -10483,6 +10652,7 @@
     {
       "name": "Tilonalli's Skinshifter",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Shaman",
       "text": "Haste<br>Whenever Tilonalli's Skinshifter attacks, it becomes a copy of another target nonlegendary attacking creature until end of turn.",
@@ -10544,6 +10714,7 @@
     {
       "name": "Trove of Temptation",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Each opponent must attack you or a planeswalker you control with at least one creature each combat if able.<br>At the beginning of your end step, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -10604,6 +10775,7 @@
     {
       "name": "Unfriendly Fire",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Instant",
       "text": "Unfriendly Fire deals 4 damage to any target.",
@@ -10665,6 +10837,7 @@
     {
       "name": "Vance's Blasting Cannons",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Legendary Enchantment",
       "text": "At the beginning of your upkeep, exile the top card of your library. If it's a nonland card, you may cast that card this turn.<br>Whenever you cast your third spell in a turn, you may transform Vance's Blasting Cannons.",
@@ -10786,6 +10959,7 @@
     {
       "name": "Wily Goblin",
       "manaCost": "{R}{R}",
+      "sortedManaCost": "{R}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Pirate",
       "text": "When Wily Goblin enters the battlefield, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -10847,6 +11021,7 @@
     {
       "name": "Ancient Brontodon",
       "manaCost": "{6}{G}{G}",
+      "sortedManaCost": "{6}{G}{G}",
       "cmc": 8,
       "type": "Creature - Dinosaur",
       "flavor": "It is taller than all but the tallest trees, and older than all but the oldest.",
@@ -10907,6 +11082,7 @@
     {
       "name": "Atzocan Archer",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Human Archer",
       "text": "Reach<br>When Atzocan Archer enters the battlefield, you may have it fight another target creature. (Each deals damage equal to its power to the other.)",
@@ -10968,6 +11144,7 @@
     {
       "name": "Blinding Fog",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Prevent all damage that would be dealt to creatures this turn. Creatures you control gain hexproof until end of turn. (They can't be the targets of spells or abilities your opponents control.)",
@@ -11029,6 +11206,7 @@
     {
       "name": "Blossom Dryad",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Dryad",
       "text": "{T}: Untap target land.",
@@ -11090,6 +11268,7 @@
     {
       "name": "Carnage Tyrant",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Dinosaur",
       "text": "This spell can't be countered.<br>Trample, hexproof",
@@ -11151,6 +11330,7 @@
     {
       "name": "Colossal Dreadmaw",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Dinosaur",
       "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
@@ -11212,6 +11392,7 @@
     {
       "name": "Commune with Dinosaurs",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Look at the top five cards of your library. You may reveal a Dinosaur or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
@@ -11272,6 +11453,7 @@
     {
       "name": "Crash the Ramparts",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target creature gets +3/+3 and gains trample until end of turn.",
@@ -11333,6 +11515,7 @@
     {
       "name": "Crushing Canopy",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target creature with flying.<br>• Destroy target enchantment.",
@@ -11394,6 +11577,7 @@
     {
       "name": "Deathgorge Scavenger",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Dinosaur",
       "text": "Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard. If a creature card is exiled this way, you gain 2 life. If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn.",
@@ -11454,6 +11638,7 @@
     {
       "name": "Deeproot Champion",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Merfolk Shaman",
       "text": "Whenever you cast a noncreature spell, put a +1/+1 counter on Deeproot Champion.",
@@ -11515,6 +11700,7 @@
     {
       "name": "Deeproot Warrior",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Merfolk Warrior",
       "text": "Whenever Deeproot Warrior becomes blocked, it gets +1/+1 until end of turn.",
@@ -11576,6 +11762,7 @@
     {
       "name": "Drover of the Mighty",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Druid",
       "text": "Drover of the Mighty gets +2/+2 as long as you control a Dinosaur.<br>{T}: Add one mana of any color.",
@@ -11637,6 +11824,7 @@
     {
       "name": "Emergent Growth",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Target creature gets +5/+5 until end of turn and must be blocked this turn if able.",
@@ -11698,6 +11886,7 @@
     {
       "name": "Emperor's Vanguard",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Human Scout",
       "text": "Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -11758,6 +11947,7 @@
     {
       "name": "Grazing Whiptail",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Dinosaur",
       "text": "Reach",
@@ -11819,6 +12009,7 @@
     {
       "name": "Growing Rites of Itlimoc",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Legendary Enchantment",
       "text": "When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.<br>At the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.",
@@ -11939,6 +12130,7 @@
     {
       "name": "Ixalli's Diviner",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Druid",
       "text": "When Ixalli's Diviner enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -11999,6 +12191,7 @@
     {
       "name": "Ixalli's Keeper",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "{7}{G}, {T}, Sacrifice Ixalli's Keeper: Target creature gets +5/+5 and gains trample until end of turn.",
@@ -12060,6 +12253,7 @@
     {
       "name": "Jade Guardian",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Merfolk Shaman",
       "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)<br>When Jade Guardian enters the battlefield, put a +1/+1 counter on target Merfolk you control.",
@@ -12121,6 +12315,7 @@
     {
       "name": "Jungle Delver",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Merfolk Warrior",
       "text": "{3}{G}: Put a +1/+1 counter on Jungle Delver.",
@@ -12182,6 +12377,7 @@
     {
       "name": "Kumena's Speaker",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Merfolk Shaman",
       "text": "Kumena's Speaker gets +1/+1 as long as you control another Merfolk or an Island.",
@@ -12243,6 +12439,7 @@
     {
       "name": "Merfolk Branchwalker",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Merfolk Scout",
       "text": "When Merfolk Branchwalker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -12303,6 +12500,7 @@
     {
       "name": "New Horizons",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant land<br>When New Horizons enters the battlefield, put a +1/+1 counter on target creature you control.<br>Enchanted land has \"{T}: Add two mana of any one color.\"",
@@ -12363,9 +12561,10 @@
     {
       "name": "Old-Growth Dryads",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Dryad",
-      "text": "When Old-Growth Dryads enters the battlefield, each opponent may search their library for a basic land card, put it onto the battlefield tapped, then shuffle their library.",
+      "text": "When Old-Growth Dryads enters the battlefield, each opponent may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "flavor": "\"The jungle was here before any city. It will be here after the last city falls.\"",
       "expansion": "XLN",
       "scryfallSetCode": "XLN",
@@ -12424,6 +12623,7 @@
     {
       "name": "Pounce",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)",
@@ -12485,9 +12685,10 @@
     {
       "name": "Ranging Raptors",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Dinosaur",
-      "text": "Enrage - Whenever Ranging Raptors is dealt damage, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "Enrage - Whenever Ranging Raptors is dealt damage, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "flavor": "They cover their territory like a tide of teeth and claws.",
       "expansion": "XLN",
       "scryfallSetCode": "XLN",
@@ -12546,6 +12747,7 @@
     {
       "name": "Ravenous Daggertooth",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Dinosaur",
       "text": "Enrage - Whenever Ravenous Daggertooth is dealt damage, you gain 2 life.",
@@ -12607,6 +12809,7 @@
     {
       "name": "Ripjaw Raptor",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Dinosaur",
       "text": "Enrage - Whenever Ripjaw Raptor is dealt damage, draw a card.",
@@ -12668,6 +12871,7 @@
     {
       "name": "River Heralds' Boon",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Put a +1/+1 counter on target creature and a +1/+1 counter on up to one target Merfolk.",
@@ -12729,6 +12933,7 @@
     {
       "name": "Savage Stomp",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "This spell costs {2} less to cast if it targets a Dinosaur you control.<br>Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)",
@@ -12789,6 +12994,7 @@
     {
       "name": "Shapers' Sanctuary",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment",
       "text": "Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may draw a card.",
@@ -12850,6 +13056,7 @@
     {
       "name": "Slice in Twain",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Instant",
       "text": "Destroy target artifact or enchantment.<br>Draw a card.",
@@ -12911,6 +13118,7 @@
     {
       "name": "Snapping Sailback",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Dinosaur",
       "text": "Flash<br>Enrage - Whenever Snapping Sailback is dealt damage, put a +1/+1 counter on it. (It must survive the damage to get the counter.)",
@@ -12972,6 +13180,7 @@
     {
       "name": "Spike-Tailed Ceratops",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Dinosaur",
       "text": "Spike-Tailed Ceratops can block an additional creature each combat.",
@@ -13033,6 +13242,7 @@
     {
       "name": "Thundering Spineback",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Dinosaur",
       "text": "Other Dinosaurs you control get +1/+1.<br>{5}{G}: Create a 3/3 green Dinosaur creature token with trample.",
@@ -13094,6 +13304,7 @@
     {
       "name": "Tishana's Wayfinder",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Merfolk Scout",
       "text": "When Tishana's Wayfinder enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
@@ -13155,6 +13366,7 @@
     {
       "name": "Verdant Rebirth",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Until end of turn, target creature gains \"When this creature dies, return it to its owner's hand.\"<br>Draw a card.",
@@ -13216,6 +13428,7 @@
     {
       "name": "Verdant Sun's Avatar",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Dinosaur Avatar",
       "text": "Whenever Verdant Sun's Avatar or another creature enters the battlefield under your control, you gain life equal to that creature's toughness.",
@@ -13277,6 +13490,7 @@
     {
       "name": "Vineshaper Mystic",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Merfolk Shaman",
       "text": "When Vineshaper Mystic enters the battlefield, put a +1/+1 counter on each of up to two target Merfolk you control.",
@@ -13338,6 +13552,7 @@
     {
       "name": "Waker of the Wilds",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Merfolk Shaman",
       "text": "{X}{G}{G}: Put X +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature with haste. It's still a land.",
@@ -13399,6 +13614,7 @@
     {
       "name": "Wildgrowth Walker",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elemental",
       "text": "Whenever a creature you control explores, put a +1/+1 counter on Wildgrowth Walker and you gain 3 life.",
@@ -13460,6 +13676,7 @@
     {
       "name": "Admiral Beckett Brass",
       "manaCost": "{1}{U}{B}{R}",
+      "sortedManaCost": "{1}{U}{B}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Human Pirate",
       "text": "Other Pirates you control get +1/+1.<br>At the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.",
@@ -13521,6 +13738,7 @@
     {
       "name": "Belligerent Brontodon",
       "manaCost": "{5}{G}{W}",
+      "sortedManaCost": "{5}{W}{G}",
       "cmc": 7,
       "type": "Creature - Dinosaur",
       "text": "Each creature you control assigns combat damage equal to its toughness rather than its power.",
@@ -13582,6 +13800,7 @@
     {
       "name": "Call to the Feast",
       "manaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{W}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Create three 1/1 white Vampire creature tokens with lifelink.",
@@ -13643,6 +13862,7 @@
     {
       "name": "Deadeye Plunderers",
       "manaCost": "{3}{U}{B}",
+      "sortedManaCost": "{3}{U}{B}",
       "cmc": 5,
       "type": "Creature - Human Pirate",
       "text": "Deadeye Plunderers gets +1/+1 for each artifact you control.<br>{2}{U}{B}: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -13704,6 +13924,7 @@
     {
       "name": "Dire Fleet Captain",
       "manaCost": "{B}{R}",
+      "sortedManaCost": "{B}{R}",
       "cmc": 2,
       "type": "Creature - Orc Pirate",
       "text": "Whenever Dire Fleet Captain attacks, it gets +1/+1 until end of turn for each other attacking Pirate.",
@@ -13765,6 +13986,7 @@
     {
       "name": "Gishath, Sun's Avatar",
       "manaCost": "{5}{R}{G}{W}",
+      "sortedManaCost": "{5}{W}{R}{G}",
       "cmc": 8,
       "type": "Legendary Creature - Dinosaur Avatar",
       "text": "Vigilance, trample, haste<br>Whenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.",
@@ -13825,6 +14047,7 @@
     {
       "name": "Hostage Taker",
       "manaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{U}{B}",
       "cmc": 4,
       "type": "Creature - Human Pirate",
       "text": "When Hostage Taker enters the battlefield, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.",
@@ -13885,6 +14108,7 @@
     {
       "name": "Huatli, Warrior Poet",
       "manaCost": "{3}{R}{W}",
+      "sortedManaCost": "{3}{W}{R}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Huatli",
       "text": "[+2]: You gain life equal to the greatest power among creatures you control.<br>[0]: Create a 3/3 green Dinosaur creature token with trample.<br>[−X]: Huatli, Warrior Poet deals X damage divided as you choose among any number of target creatures. Creatures dealt damage this way can't block this turn.",
@@ -13945,6 +14169,7 @@
     {
       "name": "Marauding Looter",
       "manaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{U}{R}",
       "cmc": 4,
       "type": "Creature - Human Pirate",
       "text": "Raid - At the beginning of your end step, if you attacked this turn, you may draw a card. If you do, discard a card.",
@@ -14006,6 +14231,7 @@
     {
       "name": "Raging Swordtooth",
       "manaCost": "{3}{R}{G}",
+      "sortedManaCost": "{3}{R}{G}",
       "cmc": 5,
       "type": "Creature - Dinosaur",
       "text": "Trample<br>When Raging Swordtooth enters the battlefield, it deals 1 damage to each other creature.",
@@ -14067,6 +14293,7 @@
     {
       "name": "Regisaur Alpha",
       "manaCost": "{3}{R}{G}",
+      "sortedManaCost": "{3}{R}{G}",
       "cmc": 5,
       "type": "Creature - Dinosaur",
       "text": "Other Dinosaurs you control have haste.<br>When Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature token with trample.",
@@ -14128,6 +14355,7 @@
     {
       "name": "Shapers of Nature",
       "manaCost": "{1}{G}{U}",
+      "sortedManaCost": "{1}{U}{G}",
       "cmc": 3,
       "type": "Creature - Merfolk Shaman",
       "text": "{3}{G}: Put a +1/+1 counter on target creature.<br>{2}{U}, Remove a +1/+1 counter from a creature you control: Draw a card.",
@@ -14189,6 +14417,7 @@
     {
       "name": "Sky Terror",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Creature - Dinosaur",
       "text": "Flying, menace",
@@ -14250,6 +14479,7 @@
     {
       "name": "Tishana, Voice of Thunder",
       "manaCost": "{5}{G}{U}",
+      "sortedManaCost": "{5}{U}{G}",
       "cmc": 7,
       "type": "Legendary Creature - Merfolk Shaman",
       "text": "Tishana, Voice of Thunder's power and toughness are each equal to the number of cards in your hand.<br>You have no maximum hand size.<br>When Tishana enters the battlefield, draw a card for each creature you control.",
@@ -14310,9 +14540,10 @@
     {
       "name": "Vona, Butcher of Magan",
       "manaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{W}{B}",
       "cmc": 5,
       "type": "Legendary Creature - Vampire Knight",
-      "text": "Vigilance, lifelink<br>{T}, Pay 7 life: Destroy target nonland permanent. Activate this ability only during your turn.",
+      "text": "Vigilance, lifelink<br>{T}, Pay 7 life: Destroy target nonland permanent. Activate only during your turn.",
       "flavor": "\"For four hundred years, I have led armies of conquest. These lands hold nothing that can stand against me.\"",
       "expansion": "XLN",
       "scryfallSetCode": "XLN",
@@ -14371,6 +14602,7 @@
     {
       "name": "Vraska, Relic Seeker",
       "manaCost": "{4}{B}{G}",
+      "sortedManaCost": "{4}{B}{G}",
       "cmc": 6,
       "type": "Legendary Planeswalker - Vraska",
       "text": "[+2]: Create a 2/2 black Pirate creature token with menace.<br>[−3]: Destroy target artifact, creature, or enchantment. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")<br>[−10]: Target player's life total becomes 1.",
@@ -14431,6 +14663,7 @@
     {
       "name": "Cobbled Wings",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature has flying.<br>Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -14492,6 +14725,7 @@
     {
       "name": "Conqueror's Galleon",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact - Vehicle",
       "text": "When Conqueror's Galleon attacks, exile it at end of combat, then return it to the battlefield transformed under your control.<br>Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)",
@@ -14611,6 +14845,7 @@
     {
       "name": "Dowsing Dagger",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "When Dowsing Dagger enters the battlefield, target opponent creates two 0/2 green Plant creature tokens with defender.<br>Equipped creature gets +2/+1.<br>Whenever equipped creature deals combat damage to a player, you may transform Dowsing Dagger.<br>Equip {2}",
@@ -14731,6 +14966,7 @@
     {
       "name": "Dusk Legion Dreadnought",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact - Vehicle",
       "text": "Vigilance<br>Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",
@@ -14792,6 +15028,7 @@
     {
       "name": "Elaborate Firecannon",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Elaborate Firecannon doesn't untap during your untap step.<br>{4}, {T}: Elaborate Firecannon deals 2 damage to any target.<br>At the beginning of your upkeep, you may discard a card. If you do, untap Elaborate Firecannon.",
@@ -14852,6 +15089,7 @@
     {
       "name": "Fell Flagship",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Vehicle",
       "text": "Pirates you control get +1/+0.<br>Whenever Fell Flagship deals combat damage to a player, that player discards a card.<br>Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
@@ -14912,6 +15150,7 @@
     {
       "name": "Gilded Sentinel",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Golem",
       "flavor": "The River Heralds fight to keep all others from reaching the golden city. The city has its own defenses.",
@@ -14972,6 +15211,7 @@
     {
       "name": "Hierophant's Chalice",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "When Hierophant's Chalice enters the battlefield, target opponent loses 1 life and you gain 1 life.<br>{T}: Add {C}.",
@@ -15033,6 +15273,7 @@
     {
       "name": "Pillar of Origins",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "As Pillar of Origins enters the battlefield, choose a creature type.<br>{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.",
@@ -15093,6 +15334,7 @@
     {
       "name": "Pirate's Cutlass",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "When Pirate's Cutlass enters the battlefield, attach it to target Pirate you control.<br>Equipped creature gets +2/+1.<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -15153,6 +15395,7 @@
     {
       "name": "Primal Amulet",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "Instant and sorcery spells you cast cost {1} less to cast.<br>Whenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it, you may remove those counters and transform it.",
@@ -15272,6 +15515,7 @@
     {
       "name": "Prying Blade",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+0.<br>Whenever equipped creature deals combat damage to a player, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -15332,6 +15576,7 @@
     {
       "name": "Sentinel Totem",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "When Sentinel Totem enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)<br>{T}, Exile Sentinel Totem: Exile all cards from all graveyards.",
@@ -15392,6 +15637,7 @@
     {
       "name": "Shadowed Caravel",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Vehicle",
       "text": "Whenever a creature you control explores, put a +1/+1 counter on Shadowed Caravel.<br>Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",
@@ -15452,6 +15698,7 @@
     {
       "name": "Sleek Schooner",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Vehicle",
       "text": "Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",
@@ -15513,6 +15760,7 @@
     {
       "name": "Sorcerous Spyglass",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "As Sorcerous Spyglass enters the battlefield, look at an opponent's hand, then choose any card name.<br>Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
@@ -15573,6 +15821,7 @@
     {
       "name": "Thaumatic Compass",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{3}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.<br>At the beginning of your end step, if you control seven or more lands, transform Thaumatic Compass.",
@@ -15696,6 +15945,7 @@
     {
       "name": "Treasure Map",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, {T}: Scry 1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map, and create three Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -15816,6 +16066,7 @@
     {
       "name": "Vanquisher's Banner",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "As Vanquisher's Banner enters the battlefield, choose a creature type.<br>Creatures you control of the chosen type get +1/+1.<br>Whenever you cast a creature spell of the chosen type, draw a card.",
@@ -15997,7 +16248,7 @@
       "name": "Field of Ruin",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}: Add {C}.<br>{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles their library.",
+      "text": "{T}: Add {C}.<br>{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles.",
       "expansion": "XLN",
       "scryfallSetCode": "XLN",
       "rarity": "U",
@@ -16714,6 +16965,7 @@
     {
       "name": "Jace, Ingenious Mind-Mage",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Legendary Planeswalker - Jace",
       "text": "[+1]: Draw a card.<br>[+1]: Untap all creatures you control.<br>[−9]: Gain control of up to three target creatures.",
@@ -16774,6 +17026,7 @@
     {
       "name": "Castaway's Despair",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When Castaway's Despair enters the battlefield, tap enchanted creature.<br>Enchanted creature doesn't untap during its controller's untap step.",
@@ -16834,6 +17087,7 @@
     {
       "name": "Grasping Current",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Return up to two target creatures to their owner's hand.<br>Search your library and/or graveyard for a card named Jace, Ingenious Mind-Mage, reveal it, and put it into your hand. If you searched your library this way, shuffle.",
@@ -16894,6 +17148,7 @@
     {
       "name": "Jace's Sentinel",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Warrior",
       "text": "As long as you control a Jace planeswalker, Jace's Sentinel gets +1/+0 and can't be blocked.",
@@ -17015,6 +17270,7 @@
     {
       "name": "Huatli, Dinosaur Knight",
       "manaCost": "{4}{R}{W}",
+      "sortedManaCost": "{4}{W}{R}",
       "cmc": 6,
       "type": "Legendary Planeswalker - Huatli",
       "text": "[+2]: Put two +1/+1 counters on up to one target Dinosaur you control.<br>[−3]: Target Dinosaur you control deals damage equal to its power to target creature you don't control.<br>[−7]: Dinosaurs you control get +4/+4 until end of turn.",
@@ -17075,6 +17331,7 @@
     {
       "name": "Huatli's Snubhorn",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Dinosaur",
       "text": "Vigilance (Attacking doesn't cause this creature to tap.)",
@@ -17136,6 +17393,7 @@
     {
       "name": "Huatli's Spurring",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +2/+0 until end of turn. If you control a Huatli planeswalker, that creature gets +4/+0 until end of turn instead.",
@@ -17197,6 +17455,7 @@
     {
       "name": "Sun-Blessed Mount",
       "manaCost": "{3}{R}{W}",
+      "sortedManaCost": "{3}{W}{R}",
       "cmc": 5,
       "type": "Creature - Dinosaur",
       "text": "When Sun-Blessed Mount enters the battlefield, you may search your library and/or graveyard for a card named Huatli, Dinosaur Knight, reveal it, then put it into your hand. If you searched your library this way, shuffle.",

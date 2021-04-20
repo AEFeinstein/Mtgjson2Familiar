@@ -8,7 +8,7 @@
     "isOnlineOnly": true,
     "borderColor": "Black",
     "type": "promo",
-    "digest": "8049daa0b9450394edbe9c80312e6fb2",
+    "digest": "612b170ce281db51e00f2f0ed07fcc02",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PANA_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PANA_M.png",
@@ -19,6 +19,7 @@
     {
       "name": "Ral, Izzet Viceroy",
       "manaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{U}{R}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Ral",
       "text": "[+1]: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.<br>[−3]: Ral, Izzet Viceroy deals damage to target creature equal to the total number of instant and sorcery cards you own in exile and in your graveyard.<br>[−8]: You get an emblem with \"Whenever you cast an instant or sorcery spell, this emblem deals 4 damage to any target and you draw two cards.\"",
@@ -38,6 +39,7 @@
     {
       "name": "Teferi, Hero of Dominaria",
       "manaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{W}{U}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Teferi",
       "text": "[+1]: Draw a card. At the beginning of the next end step, untap up to two lands.<br>[−3]: Put target nonland permanent into its owner's library third from the top.<br>[−8]: You get an emblem with \"Whenever you draw a card, exile target permanent an opponent controls.\"",
@@ -57,9 +59,10 @@
     {
       "name": "Vraska, Golgari Queen",
       "manaCost": "{2}{B}{G}",
+      "sortedManaCost": "{2}{B}{G}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Vraska",
-      "text": "[+2]: You may sacrifice another permanent. If you do, you gain 1 life and draw a card.<br>[−3]: Destroy target nonland permanent with converted mana cost 3 or less.<br>[−9]: You get an emblem with \"Whenever a creature you control deals combat damage to a player, that player loses the game.\"",
+      "text": "[+2]: You may sacrifice another permanent. If you do, you gain 1 life and draw a card.<br>[−3]: Destroy target nonland permanent with mana value 3 or less.<br>[−9]: You get an emblem with \"Whenever a creature you control deals combat damage to a player, that player loses the game.\"",
       "expansion": "PANA",
       "scryfallSetCode": "PANA",
       "rarity": "M",
@@ -76,6 +79,7 @@
     {
       "name": "Llanowar Elves",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {G}.",
@@ -95,6 +99,7 @@
     {
       "name": "Firemind's Research",
       "manaCost": "{U}{R}",
+      "sortedManaCost": "{U}{R}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Whenever you cast an instant or sorcery spell, put a charge counter on Firemind's Research.<br>{1}{U}, Remove two charge counters from Firemind's Research: Draw a card.<br>{1}{R}, Remove five charge counters from Firemind's Research: It deals 5 damage to any target.",
@@ -114,6 +119,7 @@
     {
       "name": "Duress",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
@@ -133,6 +139,7 @@
     {
       "name": "Ghalta, Primal Hunger",
       "manaCost": "{10}{G}{G}",
+      "sortedManaCost": "{10}{G}{G}",
       "cmc": 12,
       "type": "Legendary Creature - Elder Dinosaur",
       "text": "This spell costs {X} less to cast, where X is the total power of creatures you control.<br>Trample",
@@ -152,6 +159,7 @@
     {
       "name": "Rhys the Redeemed",
       "manaCost": "{GW}",
+      "sortedManaCost": "{GW}",
       "cmc": 1,
       "type": "Legendary Creature - Elf Warrior",
       "text": "{2}{G/W}, {T}: Create a 1/1 green and white Elf Warrior creature token.<br>{4}{G/W}{G/W}, {T}: For each creature token you control, create a token that's a copy of that creature.",
@@ -171,6 +179,7 @@
     {
       "name": "Talrand, Sky Summoner",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Merfolk Wizard",
       "text": "Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying.",
@@ -191,6 +200,7 @@
     {
       "name": "The Gitrog Monster",
       "manaCost": "{3}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Frog Horror",
       "text": "Deathtouch<br>At the beginning of your upkeep, sacrifice The Gitrog Monster unless you sacrifice a land.<br>You may play an additional land on each of your turns.<br>Whenever one or more land cards are put into your graveyard from anywhere, draw a card.",
@@ -210,6 +220,7 @@
     {
       "name": "Bladewing the Risen",
       "manaCost": "{3}{B}{B}{R}{R}",
+      "sortedManaCost": "{3}{B}{B}{R}{R}",
       "cmc": 7,
       "type": "Legendary Creature - Zombie Dragon",
       "text": "Flying<br>When Bladewing the Risen enters the battlefield, you may return target Dragon permanent card from your graveyard to the battlefield.<br>{B}{R}: Dragon creatures get +1/+1 until end of turn.",
@@ -229,6 +240,7 @@
     {
       "name": "Hanna, Ship's Navigator",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Human Artificer",
       "text": "{1}{W}{U}, {T}: Return target artifact or enchantment card from your graveyard to your hand.",

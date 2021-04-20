@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "246d367e3a4c40b4b9212ceab110077f",
+    "digest": "b56526d7ef0e334c013f922acb013f58",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AKH_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AKH_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Angel of Sanctions",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Angel",
       "text": "Flying<br>When Angel of Sanctions enters the battlefield, you may exile target nonland permanent an opponent controls until Angel of Sanctions leaves the battlefield.<br>Embalm {5}{W} ({5}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Angel with no mana cost. Embalm only as a sorcery.)",
@@ -82,6 +83,7 @@
     {
       "name": "Anointed Procession",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.",
@@ -144,6 +146,7 @@
     {
       "name": "Anointer Priest",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "text": "Whenever a creature token enters the battlefield under your control, you gain 1 life.<br>Embalm {3}{W} ({3}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Cleric with no mana cost. Embalm only as a sorcery.)",
@@ -204,6 +207,7 @@
     {
       "name": "Approach of the Second Sun",
       "manaCost": "{6}{W}",
+      "sortedManaCost": "{6}{W}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "If this spell was cast from your hand and you've cast another spell named Approach of the Second Sun this game, you win the game. Otherwise, put Approach of the Second Sun into its owner's library seventh from the top and you gain 7 life.",
@@ -264,6 +268,7 @@
     {
       "name": "Aven Mindcensor",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Bird Wizard",
       "text": "Flash<br>Flying<br>If an opponent would search a library, that player searches the top four cards of that library instead.",
@@ -325,6 +330,7 @@
     {
       "name": "Binding Mummy",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Zombie",
       "text": "Whenever another Zombie enters the battlefield under your control, you may tap target artifact or creature.",
@@ -386,6 +392,7 @@
     {
       "name": "Cartouche of Solidarity",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Enchantment - Aura Cartouche",
       "text": "Enchant creature you control<br>When Cartouche of Solidarity enters the battlefield, create a 1/1 white Warrior creature token with vigilance.<br>Enchanted creature gets +1/+1 and has first strike.",
@@ -446,6 +453,7 @@
     {
       "name": "Cast Out",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Flash<br>When Cast Out enters the battlefield, exile target nonland permanent an opponent controls until Cast Out leaves the battlefield.<br>Cycling {W} ({W}, Discard this card: Draw a card.)",
@@ -506,6 +514,7 @@
     {
       "name": "Compulsory Rest",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't attack or block.<br>Enchanted creature has \"{2}, Sacrifice this creature: You gain 2 life.\"",
@@ -567,9 +576,10 @@
     {
       "name": "Devoted Crop-Mate",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
-      "text": "You may exert Devoted Crop-Mate as it attacks. When you do, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield. (An exerted creature won't untap during your next untap step.)",
+      "text": "You may exert Devoted Crop-Mate as it attacks. When you do, return target creature card with mana value 2 or less from your graveyard to the battlefield. (An exerted creature won't untap during your next untap step.)",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
       "rarity": "U",
@@ -627,6 +637,7 @@
     {
       "name": "Djeru's Resolve",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Untap target creature. Prevent all damage that would be dealt to it this turn.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -688,6 +699,7 @@
     {
       "name": "Fan Bearer",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Zombie",
       "text": "{2}, {T}: Tap target creature.",
@@ -749,6 +761,7 @@
     {
       "name": "Forsake the Worldly",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Exile target artifact or enchantment.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -810,6 +823,7 @@
     {
       "name": "Gideon of the Trials",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Gideon",
       "text": "[+1]: Until your next turn, prevent all damage target permanent would deal.<br>[0]: Until end of turn, Gideon of the Trials becomes a 4/4 Human Soldier creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.<br>[0]: You get an emblem with \"As long as you control a Gideon planeswalker, you can't lose the game and your opponents can't win the game.\"",
@@ -870,6 +884,7 @@
     {
       "name": "Gideon's Intervention",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "As Gideon's Intervention enters the battlefield, choose a card name.<br>Your opponents can't cast spells with the chosen name.<br>Prevent all damage that would be dealt to you and permanents you control by sources with the chosen name.",
@@ -931,6 +946,7 @@
     {
       "name": "Glory-Bound Initiate",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Warrior",
       "text": "You may exert Glory-Bound Initiate as it attacks. When you do, it gets +1/+3 and gains lifelink until end of turn. (An exerted creature won't untap during your next untap step.)",
@@ -992,6 +1008,7 @@
     {
       "name": "Gust Walker",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "You may exert Gust Walker as it attacks. When you do, it gets +1/+1 and gains flying until end of turn. (An exerted creature won't untap during your next untap step.)",
@@ -1053,6 +1070,7 @@
     {
       "name": "Impeccable Timing",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Impeccable Timing deals 3 damage to target attacking or blocking creature.",
@@ -1114,6 +1132,7 @@
     {
       "name": "In Oketra's Name",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Zombies you control get +2/+1 until end of turn. Other creatures you control get +1/+1 until end of turn.",
@@ -1175,6 +1194,7 @@
     {
       "name": "Mighty Leap",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +2/+2 and gains flying until end of turn.",
@@ -1236,6 +1256,7 @@
     {
       "name": "Oketra the True",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Legendary Creature - God",
       "text": "Double strike, indestructible<br>Oketra the True can't attack or block unless you control at least three other creatures.<br>{3}{W}: Create a 1/1 white Warrior creature token with vigilance.",
@@ -1296,6 +1317,7 @@
     {
       "name": "Oketra's Attendant",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Bird Soldier",
       "text": "Flying<br>Cycling {2} ({2}, Discard this card: Draw a card.)<br>Embalm {3}{W}{W} ({3}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Bird Soldier with no mana cost. Embalm only as a sorcery.)",
@@ -1356,6 +1378,7 @@
     {
       "name": "Protection of the Hekma",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "If a source an opponent controls would deal damage to you, prevent 1 of that damage.",
@@ -1417,6 +1440,7 @@
     {
       "name": "Regal Caracal",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Cat",
       "text": "Other Cats you control get +1/+1 and have lifelink.<br>When Regal Caracal enters the battlefield, create two 1/1 white Cat creature tokens with lifelink.",
@@ -1478,6 +1502,7 @@
     {
       "name": "Renewed Faith",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "You gain 6 life.<br>Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)<br>When you cycle Renewed Faith, you may gain 2 life.",
@@ -1540,6 +1565,7 @@
     {
       "name": "Rhet-Crop Spearmaster",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
       "text": "You may exert Rhet-Crop Spearmaster as it attacks. When you do, it gets +1/+0 and gains first strike until end of turn. (An exerted creature won't untap during your next untap step.)",
@@ -1601,6 +1627,7 @@
     {
       "name": "Sacred Cat",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Cat",
       "text": "Lifelink<br>Embalm {W} ({W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Cat with no mana cost. Embalm only as a sorcery.)",
@@ -1661,6 +1688,7 @@
     {
       "name": "Seraph of the Suns",
       "manaCost": "{5}{W}{W}",
+      "sortedManaCost": "{5}{W}{W}",
       "cmc": 7,
       "type": "Creature - Angel",
       "text": "Flying<br>Indestructible (Damage and effects that say \"destroy\" don't destroy this creature. If its toughness is 0 or less, it's still put into its owner's graveyard.)",
@@ -1722,6 +1750,7 @@
     {
       "name": "Sparring Mummy",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Zombie",
       "text": "When Sparring Mummy enters the battlefield, untap target creature.",
@@ -1783,6 +1812,7 @@
     {
       "name": "Supply Caravan",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Camel",
       "text": "When Supply Caravan enters the battlefield, if you control a tapped creature, create a 1/1 white Warrior creature token with vigilance.",
@@ -1844,6 +1874,7 @@
     {
       "name": "Tah-Crop Elite",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Bird Warrior",
       "text": "Flying<br>You may exert Tah-Crop Elite as it attacks. When you do, creatures you control get +1/+1 until end of turn. (An exerted creature won't untap during your next untap step.)",
@@ -1904,6 +1935,7 @@
     {
       "name": "Those Who Serve",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Zombie",
       "flavor": "\"The dead perform all the work here-farming, building, teaching, even embalming their fellow mummies. The living need do nothing but train. What system could be more perfect?\"<br>-Temmet, vizier of Naktamun",
@@ -1964,6 +1996,7 @@
     {
       "name": "Time to Reflect",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Exile target creature that blocked or was blocked by a Zombie this turn.",
@@ -2025,6 +2058,7 @@
     {
       "name": "Trial of Solidarity",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Trial of Solidarity enters the battlefield, creatures you control get +2/+1 and gain vigilance until end of turn.<br>When a Cartouche enters the battlefield under your control, return Trial of Solidarity to its owner's hand.",
@@ -2086,6 +2120,7 @@
     {
       "name": "Trueheart Duelist",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Warrior",
       "text": "Trueheart Duelist can block an additional creature each combat.<br>Embalm {2}{W} ({2}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Warrior with no mana cost. Embalm only as a sorcery.)",
@@ -2146,6 +2181,7 @@
     {
       "name": "Unwavering Initiate",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
       "text": "Vigilance<br>Embalm {4}{W} ({4}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Warrior with no mana cost. Embalm only as a sorcery.)",
@@ -2206,6 +2242,7 @@
     {
       "name": "Vizier of Deferment",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Cleric",
       "text": "Flash<br>When Vizier of Deferment enters the battlefield, you may exile target creature if it attacked or blocked this turn. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -2266,6 +2303,7 @@
     {
       "name": "Vizier of Remedies",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "text": "If one or more -1/-1 counters would be put on a creature you control, that many -1/-1 counters minus one are put on it instead.",
@@ -2327,6 +2365,7 @@
     {
       "name": "Winged Shepherd",
       "manaCost": "{5}{W}",
+      "sortedManaCost": "{5}{W}",
       "cmc": 6,
       "type": "Creature - Angel",
       "text": "Flying, vigilance<br>Cycling {W} ({W}, Discard this card: Draw a card.)",
@@ -2388,6 +2427,7 @@
     {
       "name": "Ancient Crab",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Crab",
       "flavor": "The banks of the Luxa River attract all manner of predator but only the most resilient of prey.",
@@ -2448,6 +2488,7 @@
     {
       "name": "Angler Drake",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Creature - Drake",
       "text": "Flying<br>When Angler Drake enters the battlefield, you may return target creature to its owner's hand.",
@@ -2509,9 +2550,10 @@
     {
       "name": "As Foretold",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
-      "text": "At the beginning of your upkeep, put a time counter on As Foretold.<br>Once each turn, you may pay {0} rather than pay the mana cost for a spell you cast with converted mana cost X or less, where X is the number of time counters on As Foretold.",
+      "text": "At the beginning of your upkeep, put a time counter on As Foretold.<br>Once each turn, you may pay {0} rather than pay the mana cost for a spell you cast with mana value X or less, where X is the number of time counters on As Foretold.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
       "rarity": "M",
@@ -2569,6 +2611,7 @@
     {
       "name": "Aven Initiate",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Bird Warrior",
       "text": "Flying<br>Embalm {6}{U} ({6}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Bird Warrior with no mana cost. Embalm only as a sorcery.)",
@@ -2629,6 +2672,7 @@
     {
       "name": "Cancel",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Counter target spell.",
@@ -2690,6 +2734,7 @@
     {
       "name": "Cartouche of Knowledge",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Enchantment - Aura Cartouche",
       "text": "Enchant creature you control<br>When Cartouche of Knowledge enters the battlefield, draw a card.<br>Enchanted creature gets +1/+1 and has flying.",
@@ -2751,6 +2796,7 @@
     {
       "name": "Censor",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {1}.<br>Cycling {U} ({U}, Discard this card: Draw a card.)",
@@ -2812,6 +2858,7 @@
     {
       "name": "Compelling Argument",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target player mills five cards.<br>Cycling {U} ({U}, Discard this card: Draw a card.)",
@@ -2873,6 +2920,7 @@
     {
       "name": "Cryptic Serpent",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Creature - Serpent",
       "text": "This spell costs {1} less to cast for each instant and sorcery card in your graveyard.",
@@ -2934,6 +2982,7 @@
     {
       "name": "Curator of Mysteries",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Sphinx",
       "text": "Flying<br>Whenever you cycle or discard another card, scry 1.<br>Cycling {U} ({U}, Discard this card: Draw a card.)",
@@ -2995,6 +3044,7 @@
     {
       "name": "Decision Paralysis",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
@@ -3056,6 +3106,7 @@
     {
       "name": "Drake Haven",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever you cycle or discard a card, you may pay {1}. If you do, create a 2/2 blue Drake creature token with flying.",
@@ -3117,6 +3168,7 @@
     {
       "name": "Essence Scatter",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target creature spell.",
@@ -3178,6 +3230,7 @@
     {
       "name": "Floodwaters",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Return up to two target creatures to their owners' hands.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -3239,6 +3292,7 @@
     {
       "name": "Galestrike",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Return target tapped creature to its owner's hand.<br>Draw a card.",
@@ -3300,6 +3354,7 @@
     {
       "name": "Glyph Keeper",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Creature - Sphinx",
       "text": "Flying<br>Whenever Glyph Keeper becomes the target of a spell or ability for the first time each turn, counter that spell or ability.<br>Embalm {5}{U}{U} ({5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Sphinx with no mana cost. Embalm only as a sorcery.)",
@@ -3360,6 +3415,7 @@
     {
       "name": "Hekma Sentinels",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Cleric",
       "text": "Whenever you cycle or discard a card, Hekma Sentinels gets +1/+1 until end of turn.",
@@ -3421,6 +3477,7 @@
     {
       "name": "Hieroglyphic Illumination",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Draw two cards.<br>Cycling {U} ({U}, Discard this card: Draw a card.)",
@@ -3482,6 +3539,7 @@
     {
       "name": "Illusory Wrappings",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has base power and toughness 0/2.",
@@ -3543,6 +3601,7 @@
     {
       "name": "Kefnet the Mindful",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Legendary Creature - God",
       "text": "Flying, indestructible<br>Kefnet the Mindful can't attack or block unless you have seven or more cards in hand.<br>{3}{U}: Draw a card, then you may return a land you control to its owner's hand.",
@@ -3603,6 +3662,7 @@
     {
       "name": "Labyrinth Guardian",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Illusion Warrior",
       "text": "When Labyrinth Guardian becomes the target of a spell, sacrifice it.<br>Embalm {3}{U} ({3}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Illusion Warrior with no mana cost. Embalm only as a sorcery.)",
@@ -3663,6 +3723,7 @@
     {
       "name": "Lay Claim",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Enchantment - Aura",
       "text": "Enchant permanent<br>You control enchanted permanent.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -3724,6 +3785,7 @@
     {
       "name": "Naga Oracle",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Naga Cleric",
       "text": "When Naga Oracle enters the battlefield, look at the top three cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.",
@@ -3785,6 +3847,7 @@
     {
       "name": "New Perspectives",
       "manaCost": "{5}{U}",
+      "sortedManaCost": "{5}{U}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "When New Perspectives enters the battlefield, draw three cards.<br>As long as you have seven or more cards in hand, you may pay {0} rather than pay cycling costs.",
@@ -3846,6 +3909,7 @@
     {
       "name": "Open into Wonder",
       "manaCost": "{X}{U}{U}",
+      "sortedManaCost": "{X}{U}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "X target creatures can't be blocked this turn. Until end of turn, those creatures gain \"Whenever this creature deals combat damage to a player, draw a card.\"",
@@ -3907,6 +3971,7 @@
     {
       "name": "Pull from Tomorrow",
       "manaCost": "{X}{U}{U}",
+      "sortedManaCost": "{X}{U}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Draw X cards, then discard a card.",
@@ -3968,6 +4033,7 @@
     {
       "name": "River Serpent",
       "manaCost": "{5}{U}",
+      "sortedManaCost": "{5}{U}",
       "cmc": 6,
       "type": "Creature - Serpent",
       "text": "River Serpent can't attack unless there are five or more cards in your graveyard.<br>Cycling {U} ({U}, Discard this card: Draw a card.)",
@@ -4029,6 +4095,7 @@
     {
       "name": "Sacred Excavation",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Return up to two target cards with cycling from your graveyard to your hand.",
@@ -4090,6 +4157,7 @@
     {
       "name": "Scribe of the Mindful",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Cleric",
       "text": "{1}, {T}, Sacrifice Scribe of the Mindful: Return target instant or sorcery card from your graveyard to your hand.",
@@ -4151,9 +4219,10 @@
     {
       "name": "Seeker of Insight",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
-      "text": "{T}: Draw a card, then discard a card. Activate this ability only if you've cast a noncreature spell this turn.",
+      "text": "{T}: Draw a card, then discard a card. Activate only if you've cast a noncreature spell this turn.",
       "flavor": "The Trial of Knowledge challenges and broadens the minds of initiates.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
@@ -4212,6 +4281,7 @@
     {
       "name": "Shimmerscale Drake",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Drake",
       "text": "Flying<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -4273,6 +4343,7 @@
     {
       "name": "Slither Blade",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Naga Rogue",
       "text": "Slither Blade can't be blocked.",
@@ -4334,6 +4405,7 @@
     {
       "name": "Tah-Crop Skirmisher",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Naga Warrior",
       "text": "Embalm {3}{U} ({3}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Naga Warrior with no mana cost. Embalm only as a sorcery.)",
@@ -4395,6 +4467,7 @@
     {
       "name": "Trial of Knowledge",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "When Trial of Knowledge enters the battlefield, draw three cards, then discard a card.<br>When a Cartouche enters the battlefield under your control, return Trial of Knowledge to its owner's hand.",
@@ -4455,6 +4528,7 @@
     {
       "name": "Vizier of Many Faces",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Shapeshifter Cleric",
       "text": "You may have Vizier of Many Faces enter the battlefield as a copy of any creature on the battlefield, except if Vizier of Many Faces was embalmed, the token has no mana cost, it's white, and it's a Zombie in addition to its other types.<br>Embalm {3}{U}{U}",
@@ -4515,6 +4589,7 @@
     {
       "name": "Vizier of Tumbling Sands",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Cleric",
       "text": "{T}: Untap another target permanent.<br>Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)<br>When you cycle Vizier of Tumbling Sands, untap target permanent.",
@@ -4576,6 +4651,7 @@
     {
       "name": "Winds of Rebuke",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return target nonland permanent to its owner's hand. Each player mills two cards.",
@@ -4637,6 +4713,7 @@
     {
       "name": "Zenith Seeker",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Bird Wizard",
       "text": "Flying<br>Whenever you cycle or discard a card, target creature gains flying until end of turn.",
@@ -4698,6 +4775,7 @@
     {
       "name": "Archfiend of Ifnir",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Demon",
       "text": "Flying<br>Whenever you cycle or discard another card, put a -1/-1 counter on each creature your opponents control.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -4758,6 +4836,7 @@
     {
       "name": "Baleful Ammit",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Crocodile Demon",
       "text": "Lifelink<br>When Baleful Ammit enters the battlefield, put a -1/-1 counter on target creature you control.",
@@ -4819,6 +4898,7 @@
     {
       "name": "Blighted Bat",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Zombie Bat",
       "text": "Flying<br>{1}: Blighted Bat gains haste until end of turn.",
@@ -4880,6 +4960,7 @@
     {
       "name": "Bone Picker",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Bird",
       "text": "This spell costs {3} less to cast if a creature died this turn.<br>Flying, deathtouch",
@@ -4941,6 +5022,7 @@
     {
       "name": "Bontu the Glorified",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Legendary Creature - God",
       "text": "Menace, indestructible<br>Bontu the Glorified can't attack or block unless a creature died under your control this turn.<br>{1}{B}, Sacrifice another creature: Scry 1. Each opponent loses 1 life and you gain 1 life.",
@@ -5001,6 +5083,7 @@
     {
       "name": "Cartouche of Ambition",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment - Aura Cartouche",
       "text": "Enchant creature you control<br>When Cartouche of Ambition enters the battlefield, you may put a -1/-1 counter on target creature.<br>Enchanted creature gets +1/+1 and has lifelink.",
@@ -5061,6 +5144,7 @@
     {
       "name": "Cruel Reality",
       "manaCost": "{5}{B}{B}",
+      "sortedManaCost": "{5}{B}{B}",
       "cmc": 7,
       "type": "Enchantment - Aura Curse",
       "text": "Enchant player<br>At the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker. If the player can't, they lose 5 life.",
@@ -5123,6 +5207,7 @@
     {
       "name": "Cursed Minotaur",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Zombie Minotaur",
       "text": "Menace (This creature can't be blocked except by two or more creatures.)",
@@ -5184,6 +5269,7 @@
     {
       "name": "Dispossess",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Choose an artifact card name. Search target opponent's graveyard, hand, and library for any number of cards with the chosen name and exile them. Then that player shuffles.",
@@ -5244,6 +5330,7 @@
     {
       "name": "Doomed Dissenter",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human",
       "text": "When Doomed Dissenter dies, create a 2/2 black Zombie creature token.",
@@ -5305,6 +5392,7 @@
     {
       "name": "Dread Wanderer",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Zombie Jackal",
       "text": "Dread Wanderer enters the battlefield tapped.<br>{2}{B}: Return Dread Wanderer from your graveyard to the battlefield. Activate only as a sorcery and only if you have one or fewer cards in hand.",
@@ -5365,6 +5453,7 @@
     {
       "name": "Dune Beetle",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Insect",
       "flavor": "The scouring sands of Shefet polish its carapace, and the ranks of the cursed fill its belly.",
@@ -5425,6 +5514,7 @@
     {
       "name": "Faith of the Devoted",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever you cycle or discard a card, you may pay {1}. If you do, each opponent loses 2 life and you gain 2 life.",
@@ -5486,6 +5576,7 @@
     {
       "name": "Festering Mummy",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Zombie",
       "text": "When Festering Mummy dies, you may put a -1/-1 counter on target creature.",
@@ -5547,6 +5638,7 @@
     {
       "name": "Final Reward",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Instant",
       "text": "Exile target creature.",
@@ -5608,6 +5700,7 @@
     {
       "name": "Gravedigger",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Zombie",
       "text": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.",
@@ -5669,6 +5762,7 @@
     {
       "name": "Grim Strider",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Horror",
       "text": "Grim Strider gets -1/-1 for each card in your hand.",
@@ -5730,6 +5824,7 @@
     {
       "name": "Horror of the Broken Lands",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Horror",
       "text": "Whenever you cycle or discard another card, Horror of the Broken Lands gets +2/+1 until end of turn.<br>Cycling {B} ({B}, Discard this card: Draw a card.)",
@@ -5791,6 +5886,7 @@
     {
       "name": "Lay Bare the Heart",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target opponent reveals their hand. You choose a nonlegendary, nonland card from it. That player discards that card.",
@@ -5852,6 +5948,7 @@
     {
       "name": "Liliana, Death's Majesty",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Liliana",
       "text": "[+1]: Create a 2/2 black Zombie creature token. Mill two cards.<br>[−3]: Return target creature card from your graveyard to the battlefield. That creature is a black Zombie in addition to its other colors and types.<br>[−7]: Destroy all non-Zombie creatures.",
@@ -5912,6 +6009,7 @@
     {
       "name": "Liliana's Mastery",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Zombies you control get +1/+1.<br>When Liliana's Mastery enters the battlefield, create two 2/2 black Zombie creature tokens.",
@@ -5973,6 +6071,7 @@
     {
       "name": "Lord of the Accursed",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Zombie",
       "text": "Other Zombies you control get +1/+1.<br>{1}{B}, {T}: All Zombies gain menace until end of turn.",
@@ -6034,6 +6133,7 @@
     {
       "name": "Miasmic Mummy",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Zombie Jackal",
       "text": "When Miasmic Mummy enters the battlefield, each player discards a card.",
@@ -6095,6 +6195,7 @@
     {
       "name": "Nest of Scarabs",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever you put one or more -1/-1 counters on a creature, create that many 1/1 black Insect creature tokens.",
@@ -6156,6 +6257,7 @@
     {
       "name": "Painful Lesson",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Target player draws two cards and loses 2 life.",
@@ -6217,6 +6319,7 @@
     {
       "name": "Pitiless Vizier",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Minotaur Cleric",
       "text": "Whenever you cycle or discard a card, Pitiless Vizier gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)",
@@ -6277,6 +6380,7 @@
     {
       "name": "Plague Belcher",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Zombie Beast",
       "text": "Menace<br>When Plague Belcher enters the battlefield, put two -1/-1 counters on target creature you control.<br>Whenever another Zombie you control dies, each opponent loses 1 life.",
@@ -6337,6 +6441,7 @@
     {
       "name": "Ruthless Sniper",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Human Archer",
       "text": "Whenever you cycle or discard a card, you may pay {1}. If you do, put a -1/-1 counter on target creature.",
@@ -6398,6 +6503,7 @@
     {
       "name": "Scarab Feast",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Exile up to three target cards from a single graveyard.<br>Cycling {B} ({B}, Discard this card: Draw a card.)",
@@ -6459,6 +6565,7 @@
     {
       "name": "Shadow of the Grave",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return to your hand all cards in your graveyard that you cycled or discarded this turn.",
@@ -6520,6 +6627,7 @@
     {
       "name": "Soulstinger",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Scorpion Demon",
       "text": "When Soulstinger enters the battlefield, put two -1/-1 counters on target creature you control.<br>When Soulstinger dies, you may put a -1/-1 counter on target creature for each -1/-1 counter on Soulstinger.",
@@ -6580,6 +6688,7 @@
     {
       "name": "Splendid Agony",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Distribute two -1/-1 counters among one or two target creatures.",
@@ -6641,6 +6750,7 @@
     {
       "name": "Stir the Sands",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Create three 2/2 black Zombie creature tokens.<br>Cycling {3}{B} ({3}{B}, Discard this card: Draw a card.)<br>When you cycle Stir the Sands, create a 2/2 black Zombie creature token.",
@@ -6701,6 +6811,7 @@
     {
       "name": "Supernatural Stamina",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Until end of turn, target creature gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\"",
@@ -6762,6 +6873,7 @@
     {
       "name": "Trespasser's Curse",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment - Aura Curse",
       "text": "Enchant player<br>Whenever a creature enters the battlefield under enchanted player's control, that player loses 1 life and you gain 1 life.",
@@ -6823,6 +6935,7 @@
     {
       "name": "Trial of Ambition",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "When Trial of Ambition enters the battlefield, target opponent sacrifices a creature.<br>When a Cartouche enters the battlefield under your control, return Trial of Ambition to its owner's hand.",
@@ -6883,6 +6996,7 @@
     {
       "name": "Unburden",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Target player discards two cards.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -6944,6 +7058,7 @@
     {
       "name": "Wander in Death",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Return up to two target creature cards from your graveyard to your hand.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -7005,6 +7120,7 @@
     {
       "name": "Wasteland Scorpion",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Scorpion",
       "text": "Deathtouch<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -7066,6 +7182,7 @@
     {
       "name": "Ahn-Crop Crasher",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Minotaur Warrior",
       "text": "Haste<br>You may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn. (An exerted creature won't untap during your next untap step.)",
@@ -7127,6 +7244,7 @@
     {
       "name": "Battlefield Scavenger",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Jackal Rogue",
       "text": "You may exert Battlefield Scavenger as it attacks. (It won't untap during your next untap step.)<br>Whenever you exert a creature, you may discard a card. If you do, draw a card.",
@@ -7187,6 +7305,7 @@
     {
       "name": "Blazing Volley",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Blazing Volley deals 1 damage to each creature your opponents control.",
@@ -7248,6 +7367,7 @@
     {
       "name": "Bloodlust Inciter",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Human Warrior",
       "text": "{T}: Target creature gains haste until end of turn.",
@@ -7309,6 +7429,7 @@
     {
       "name": "Bloodrage Brawler",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Minotaur Warrior",
       "text": "When Bloodrage Brawler enters the battlefield, discard a card.",
@@ -7370,6 +7491,7 @@
     {
       "name": "Brute Strength",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +3/+1 and gains trample until end of turn.",
@@ -7431,6 +7553,7 @@
     {
       "name": "By Force",
       "manaCost": "{X}{R}",
+      "sortedManaCost": "{X}{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Destroy X target artifacts.",
@@ -7493,6 +7616,7 @@
     {
       "name": "Cartouche of Zeal",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Enchantment - Aura Cartouche",
       "text": "Enchant creature you control<br>When Cartouche of Zeal enters the battlefield, target creature can't block this turn.<br>Enchanted creature gets +1/+1 and has haste.",
@@ -7554,6 +7678,7 @@
     {
       "name": "Combat Celebrant",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
       "text": "If Combat Celebrant hasn't been exerted this turn, you may exert it as it attacks. When you do, untap all other creatures you control and after this phase, there is an additional combat phase. (An exerted creature won't untap during your next untap step.)",
@@ -7614,6 +7739,7 @@
     {
       "name": "Consuming Fervor",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +3/+3 and has \"At the beginning of your upkeep, put a -1/-1 counter on this creature.\"",
@@ -7675,6 +7801,7 @@
     {
       "name": "Deem Worthy",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Instant",
       "text": "Deem Worthy deals 7 damage to target creature.<br>Cycling {3}{R} ({3}{R}, Discard this card: Draw a card.)<br>When you cycle Deem Worthy, you may have it deal 2 damage to target creature.",
@@ -7735,6 +7862,7 @@
     {
       "name": "Desert Cerodon",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Creature - Beast",
       "text": "Cycling {R} ({R}, Discard this card: Draw a card.)",
@@ -7796,6 +7924,7 @@
     {
       "name": "Electrify",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Electrify deals 4 damage to target creature.",
@@ -7857,6 +7986,7 @@
     {
       "name": "Emberhorn Minotaur",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Minotaur Warrior",
       "text": "You may exert Emberhorn Minotaur as it attacks. When you do, it gets +1/+1 and gains menace until end of turn. (An exerted creature won't untap during your next untap step.)",
@@ -7918,6 +8048,7 @@
     {
       "name": "Flameblade Adept",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Jackal Warrior",
       "text": "Menace<br>Whenever you cycle or discard a card, Flameblade Adept gets +1/+0 until end of turn.",
@@ -7979,6 +8110,7 @@
     {
       "name": "Fling",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Fling deals damage equal to the sacrificed creature's power to any target.",
@@ -8040,6 +8172,7 @@
     {
       "name": "Glorious End",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)<br>At the beginning of your next end step, you lose the game.",
@@ -8100,6 +8233,7 @@
     {
       "name": "Glorybringer",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Dragon",
       "text": "Flying, haste<br>You may exert Glorybringer as it attacks. When you do, it deals 4 damage to target non-Dragon creature an opponent controls. (An exerted creature won't untap during your next untap step.)",
@@ -8161,6 +8295,7 @@
     {
       "name": "Harsh Mentor",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "text": "Whenever an opponent activates an ability of an artifact, creature, or land on the battlefield, if it isn't a mana ability, Harsh Mentor deals 2 damage to that player.",
@@ -8222,6 +8357,7 @@
     {
       "name": "Hazoret the Fervent",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Legendary Creature - God",
       "text": "Indestructible, haste<br>Hazoret the Fervent can't attack or block unless you have one or fewer cards in hand.<br>{2}{R}, Discard a card: Hazoret deals 2 damage to each opponent.",
@@ -8282,6 +8418,7 @@
     {
       "name": "Hazoret's Favor",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "At the beginning of combat on your turn, you may have target creature you control get +2/+0 and gain haste until end of turn. If you do, sacrifice it at the beginning of the next end step.",
@@ -8343,6 +8480,7 @@
     {
       "name": "Heart-Piercer Manticore",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Manticore",
       "text": "When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creature's power to any target.<br>Embalm {5}{R} ({5}{R}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Manticore with no mana cost. Embalm only as a sorcery.)",
@@ -8403,6 +8541,7 @@
     {
       "name": "Hyena Pack",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Hyena",
       "flavor": "With carrion a rarity in the Broken Lands, the hyenas that stalk the deserts hunt in packs.",
@@ -8463,6 +8602,7 @@
     {
       "name": "Limits of Solidarity",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -8524,6 +8664,7 @@
     {
       "name": "Magma Spray",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead.",
@@ -8585,6 +8726,7 @@
     {
       "name": "Manticore of the Gauntlet",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Manticore",
       "text": "When Manticore of the Gauntlet enters the battlefield, put a -1/-1 counter on target creature you control. Manticore of the Gauntlet deals 3 damage to target opponent or planeswalker.",
@@ -8646,6 +8788,7 @@
     {
       "name": "Minotaur Sureshot",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Minotaur Archer",
       "text": "Reach (This creature can block creatures with flying.)<br>{1}{R}: Minotaur Sureshot gets +1/+0 until end of turn.",
@@ -8707,6 +8850,7 @@
     {
       "name": "Nef-Crop Entangler",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Warrior",
       "text": "Trample<br>You may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until end of turn. (An exerted creature won't untap during your next untap step.)",
@@ -8768,6 +8912,7 @@
     {
       "name": "Nimble-Blade Khenra",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Jackal Warrior",
       "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
@@ -8829,6 +8974,7 @@
     {
       "name": "Pathmaker Initiate",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{T}: Target creature with power 2 or less can't be blocked this turn.",
@@ -8890,6 +9036,7 @@
     {
       "name": "Pursue Glory",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Attacking creatures get +2/+0 until end of turn.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -8951,6 +9098,7 @@
     {
       "name": "Soul-Scar Mage",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Human Wizard",
       "text": "Prowess<br>If a source you control would deal noncombat damage to a creature an opponent controls, put that many -1/-1 counters on that creature instead.",
@@ -9011,6 +9159,7 @@
     {
       "name": "Sweltering Suns",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Sweltering Suns deals 3 damage to each creature.<br>Cycling {3} ({3}, Discard this card: Draw a card.)",
@@ -9072,6 +9221,7 @@
     {
       "name": "Thresher Lizard",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Lizard",
       "text": "Thresher Lizard gets +1/+2 as long as you have one or fewer cards in hand.",
@@ -9133,6 +9283,7 @@
     {
       "name": "Tormenting Voice",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, discard a card.<br>Draw two cards.",
@@ -9194,6 +9345,7 @@
     {
       "name": "Trial of Zeal",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Trial of Zeal enters the battlefield, it deals 3 damage to any target.<br>When a Cartouche enters the battlefield under your control, return Trial of Zeal to its owner's hand.",
@@ -9255,6 +9407,7 @@
     {
       "name": "Trueheart Twins",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Jackal Warrior",
       "text": "You may exert Trueheart Twins as it attacks. (It won't untap during your next untap step.)<br>Whenever you exert a creature, creatures you control get +1/+0 until end of turn.",
@@ -9316,6 +9469,7 @@
     {
       "name": "Violent Impact",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy target artifact or land.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -9377,6 +9531,7 @@
     {
       "name": "Warfire Javelineer",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Minotaur Warrior",
       "text": "When Warfire Javelineer enters the battlefield, it deals X damage to target creature an opponent controls, where X is the number of instant and sorcery cards in your graveyard.",
@@ -9438,6 +9593,7 @@
     {
       "name": "Benefaction of Rhonas",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Reveal the top five cards of your library. You may put a creature card and/or an enchantment card from among them into your hand. Put the rest into your graveyard.",
@@ -9499,6 +9655,7 @@
     {
       "name": "Bitterblade Warrior",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Jackal Warrior",
       "text": "You may exert Bitterblade Warrior as it attacks. When you do, it gets +1/+0 and gains deathtouch until end of turn. (An exerted creature won't untap during your next untap step.)",
@@ -9560,6 +9717,7 @@
     {
       "name": "Cartouche of Strength",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura Cartouche",
       "text": "Enchant creature you control<br>When Cartouche of Strength enters the battlefield, you may have enchanted creature fight target creature an opponent controls. (Each deals damage equal to its power to the other.)<br>Enchanted creature gets +1/+1 and has trample.",
@@ -9620,6 +9778,7 @@
     {
       "name": "Champion of Rhonas",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Jackal Warrior",
       "text": "You may exert Champion of Rhonas as it attacks. When you do, you may put a creature card from your hand onto the battlefield. (An exerted creature won't untap during your next untap step.)",
@@ -9681,6 +9840,7 @@
     {
       "name": "Channeler Initiate",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Druid",
       "text": "When Channeler Initiate enters the battlefield, put three -1/-1 counters on target creature you control.<br>{T}, Remove a -1/-1 counter from Channeler Initiate: Add one mana of any color.",
@@ -9741,6 +9901,7 @@
     {
       "name": "Colossapede",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Insect",
       "flavor": "\"If it is bigger, you must be faster. If it is stronger, you must be sharper. Anything less, and you will never seize a place in our God-Pharaoh's perfect afterlife.\"<br>-Rhonas, god of strength",
@@ -9801,6 +9962,7 @@
     {
       "name": "Crocodile of the Crossing",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Crocodile",
       "text": "Haste<br>When Crocodile of the Crossing enters the battlefield, put a -1/-1 counter on target creature you control.",
@@ -9862,6 +10024,7 @@
     {
       "name": "Defiant Greatmaw",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Hippo",
       "text": "When Defiant Greatmaw enters the battlefield, put two -1/-1 counters on target creature you control.<br>Whenever you put one or more -1/-1 counters on Defiant Greatmaw, remove a -1/-1 counter from another target creature you control.",
@@ -9922,6 +10085,7 @@
     {
       "name": "Dissenter's Deliverance",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target artifact.<br>Cycling {G} ({G}, Discard this card: Draw a card.)",
@@ -9983,6 +10147,7 @@
     {
       "name": "Exemplar of Strength",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Warrior",
       "text": "When Exemplar of Strength enters the battlefield, put three -1/-1 counters on target creature you control.<br>Whenever Exemplar of Strength attacks, remove a -1/-1 counter from it. If you do, you gain 1 life.",
@@ -10044,6 +10209,7 @@
     {
       "name": "Giant Spider",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Spider",
       "text": "Reach (This creature can block creatures with flying.)",
@@ -10105,6 +10271,7 @@
     {
       "name": "Gift of Paradise",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant land<br>When Gift of Paradise enters the battlefield, you gain 3 life.<br>Enchanted land has \"{T}: Add two mana of any one color.\"",
@@ -10165,6 +10332,7 @@
     {
       "name": "Greater Sandwurm",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Wurm",
       "text": "Greater Sandwurm can't be blocked by creatures with power 2 or less.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -10226,6 +10394,7 @@
     {
       "name": "Hapatra's Mark",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature you control gains hexproof until end of turn. Remove all -1/-1 counters from it. (A creature with hexproof can't be the target of spells or abilities your opponents control.)",
@@ -10287,6 +10456,7 @@
     {
       "name": "Harvest Season",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Search your library for up to X basic land cards, where X is the number of tapped creatures you control, put those cards onto the battlefield tapped, then shuffle.",
@@ -10348,6 +10518,7 @@
     {
       "name": "Haze of Pollen",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Prevent all combat damage that would be dealt this turn.<br>Cycling {3} ({3}, Discard this card: Draw a card.)",
@@ -10409,6 +10580,7 @@
     {
       "name": "Honored Hydra",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Creature - Snake Hydra",
       "text": "Trample<br>Embalm {3}{G} ({3}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Snake Hydra with no mana cost. Embalm only as a sorcery.)",
@@ -10470,6 +10642,7 @@
     {
       "name": "Hooded Brawler",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Naga Warrior",
       "text": "You may exert Hooded Brawler as it attacks. When you do, it gets +2/+2 until end of turn. (An exerted creature won't untap during your next untap step.)",
@@ -10531,6 +10704,7 @@
     {
       "name": "Initiate's Companion",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Cat",
       "text": "Whenever Initiate's Companion deals combat damage to a player, untap target creature or land.",
@@ -10592,6 +10766,7 @@
     {
       "name": "Manglehorn",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Beast",
       "text": "When Manglehorn enters the battlefield, you may destroy target artifact.<br>Artifacts your opponents control enter the battlefield tapped.",
@@ -10653,6 +10828,7 @@
     {
       "name": "Naga Vitalist",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Naga Druid",
       "text": "{T}: Add one mana of any type that a land you control could produce.",
@@ -10714,6 +10890,7 @@
     {
       "name": "Oashra Cultivator",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human Druid",
       "text": "{2}{G}, {T}, Sacrifice Oashra Cultivator: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
@@ -10775,6 +10952,7 @@
     {
       "name": "Ornery Kudu",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Antelope",
       "text": "When Ornery Kudu enters the battlefield, put a -1/-1 counter on target creature you control.",
@@ -10836,6 +11014,7 @@
     {
       "name": "Pouncing Cheetah",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Cat",
       "text": "Flash",
@@ -10897,6 +11076,7 @@
     {
       "name": "Prowling Serpopard",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Cat Snake",
       "text": "This spell can't be countered.<br>Creature spells you control can't be countered.",
@@ -10958,6 +11138,7 @@
     {
       "name": "Quarry Hauler",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Camel",
       "text": "When Quarry Hauler enters the battlefield, for each kind of counter on target permanent, put another counter of that kind on it or remove one from it.",
@@ -11019,6 +11200,7 @@
     {
       "name": "Rhonas the Indomitable",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Legendary Creature - God",
       "text": "Deathtouch, indestructible<br>Rhonas the Indomitable can't attack or block unless you control another creature with power 4 or greater.<br>{2}{G}: Another target creature gets +2/+0 and gains trample until end of turn.",
@@ -11079,6 +11261,7 @@
     {
       "name": "Sandwurm Convergence",
       "manaCost": "{6}{G}{G}",
+      "sortedManaCost": "{6}{G}{G}",
       "cmc": 8,
       "type": "Enchantment",
       "text": "Creatures with flying can't attack you or planeswalkers you control.<br>At the beginning of your end step, create a 5/5 green Wurm creature token.",
@@ -11140,6 +11323,7 @@
     {
       "name": "Scaled Behemoth",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Crocodile",
       "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)",
@@ -11201,6 +11385,7 @@
     {
       "name": "Shed Weakness",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +2/+2 until end of turn. You may remove a -1/-1 counter from it.",
@@ -11262,6 +11447,7 @@
     {
       "name": "Shefet Monitor",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Creature - Lizard",
       "text": "Cycling {3}{G} ({3}{G}, Discard this card: Draw a card.)<br>When you cycle Shefet Monitor, you may search your library for a basic land card or a Desert card, put it onto the battlefield, then shuffle. (Do this before you draw.)",
@@ -11322,6 +11508,7 @@
     {
       "name": "Sixth Sense",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has \"Whenever this creature deals combat damage to a player, you may draw a card.\"",
@@ -11383,6 +11570,7 @@
     {
       "name": "Spidery Grasp",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Untap target creature. It gets +2/+4 and gains reach until end of turn. (It can block creatures with flying.)",
@@ -11444,6 +11632,7 @@
     {
       "name": "Stinging Shot",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Put three -1/-1 counters on target creature with flying.<br>Cycling {2} ({2}, Discard this card: Draw a card.)",
@@ -11505,6 +11694,7 @@
     {
       "name": "Synchronized Strike",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Untap up to two target creatures. They each get +2/+2 until end of turn.",
@@ -11566,6 +11756,7 @@
     {
       "name": "Trial of Strength",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Trial of Strength enters the battlefield, create a 4/2 green Beast creature token.<br>When a Cartouche enters the battlefield under your control, return Trial of Strength to its owner's hand.",
@@ -11627,6 +11818,7 @@
     {
       "name": "Vizier of the Menagerie",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Naga Cleric",
       "text": "You may look at the top card of your library any time.<br>You may cast creature spells from the top of your library.<br>You may spend mana as though it were mana of any type to cast creature spells.",
@@ -11687,6 +11879,7 @@
     {
       "name": "Watchful Naga",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Naga Wizard",
       "text": "You may exert Watchful Naga as it attacks. When you do, draw a card. (An exerted creature won't untap during your next untap step.)",
@@ -11748,6 +11941,7 @@
     {
       "name": "Ahn-Crop Champion",
       "manaCost": "{2}{G}{W}",
+      "sortedManaCost": "{2}{W}{G}",
       "cmc": 4,
       "type": "Creature - Human Warrior",
       "text": "You may exert Ahn-Crop Champion as it attacks. When you do, untap all other creatures you control. (An exerted creature won't untap during your next untap step.)",
@@ -11809,6 +12003,7 @@
     {
       "name": "Aven Wind Guide",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Creature - Bird Warrior",
       "text": "Flying, vigilance<br>Creature tokens you control have flying and vigilance.<br>Embalm {4}{W}{U} ({4}{W}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Bird Warrior with no mana cost. Embalm only as a sorcery.)",
@@ -11869,6 +12064,7 @@
     {
       "name": "Bounty of the Luxa",
       "manaCost": "{2}{G}{U}",
+      "sortedManaCost": "{2}{U}{G}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "At the beginning of your precombat main phase, remove all flood counters from Bounty of the Luxa. If no counters were removed this way, put a flood counter on Bounty of the Luxa and draw a card. Otherwise, add {C}{G}{U}.",
@@ -11929,6 +12125,7 @@
     {
       "name": "Decimator Beetle",
       "manaCost": "{3}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}",
       "cmc": 5,
       "type": "Creature - Insect",
       "text": "When Decimator Beetle enters the battlefield, put a -1/-1 counter on target creature you control.<br>Whenever Decimator Beetle attacks, remove a -1/-1 counter from target creature you control and put a -1/-1 counter on up to one target creature defending player controls.",
@@ -11989,6 +12186,7 @@
     {
       "name": "Enigma Drake",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Creature - Drake",
       "text": "Flying<br>Enigma Drake's power is equal to the number of instant and sorcery cards in your graveyard.",
@@ -12050,6 +12248,7 @@
     {
       "name": "Hapatra, Vizier of Poisons",
       "manaCost": "{B}{G}",
+      "sortedManaCost": "{B}{G}",
       "cmc": 2,
       "type": "Legendary Creature - Human Cleric",
       "text": "Whenever Hapatra, Vizier of Poisons deals combat damage to a player, you may put a -1/-1 counter on target creature.<br>Whenever you put one or more -1/-1 counters on a creature, create a 1/1 green Snake creature token with deathtouch.",
@@ -12111,6 +12310,7 @@
     {
       "name": "Honored Crop-Captain",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Creature - Human Warrior",
       "text": "Whenever Honored Crop-Captain attacks, other attacking creatures get +1/+0 until end of turn.",
@@ -12172,6 +12372,7 @@
     {
       "name": "Khenra Charioteer",
       "manaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{R}{G}",
       "cmc": 3,
       "type": "Creature - Jackal Warrior",
       "text": "Trample<br>Other creatures you control have trample.",
@@ -12233,6 +12434,7 @@
     {
       "name": "Merciless Javelineer",
       "manaCost": "{2}{B}{R}",
+      "sortedManaCost": "{2}{B}{R}",
       "cmc": 4,
       "type": "Creature - Minotaur Warrior",
       "text": "{2}, Discard a card: Put a -1/-1 counter on target creature. That creature can't block this turn.",
@@ -12294,6 +12496,7 @@
     {
       "name": "Neheb, the Worthy",
       "manaCost": "{1}{B}{R}",
+      "sortedManaCost": "{1}{B}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Minotaur Warrior",
       "text": "First strike<br>Other Minotaurs you control have first strike.<br>As long as you have one or fewer cards in hand, Minotaurs you control get +2/+0.<br>Whenever Neheb, the Worthy deals combat damage to a player, each player discards a card.",
@@ -12354,9 +12557,10 @@
     {
       "name": "Nissa, Steward of Elements",
       "manaCost": "{X}{G}{U}",
+      "sortedManaCost": "{X}{U}{G}",
       "cmc": 2,
       "type": "Legendary Planeswalker - Nissa",
-      "text": "[+2]: Scry 2.<br>[0]: Look at the top card of your library. If it's a land card or a creature card with converted mana cost less than or equal to the number of loyalty counters on Nissa, Steward of Elements, you may put that card onto the battlefield.<br>[−6]: Untap up to two target lands you control. They become 5/5 Elemental creatures with flying and haste until end of turn. They're still lands.",
+      "text": "[+2]: Scry 2.<br>[0]: Look at the top card of your library. If it's a land card or a creature card with mana value less than or equal to the number of loyalty counters on Nissa, Steward of Elements, you may put that card onto the battlefield.<br>[−6]: Untap up to two target lands you control. They become 5/5 Elemental creatures with flying and haste until end of turn. They're still lands.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
       "rarity": "M",
@@ -12414,6 +12618,7 @@
     {
       "name": "Samut, Voice of Dissent",
       "manaCost": "{3}{R}{G}",
+      "sortedManaCost": "{3}{R}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Human Warrior",
       "text": "Flash<br>Double strike, vigilance, haste<br>Other creatures you control have haste.<br>{W}, {T}: Untap another target creature.",
@@ -12475,6 +12680,7 @@
     {
       "name": "Shadowstorm Vizier",
       "manaCost": "{U}{B}",
+      "sortedManaCost": "{U}{B}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "text": "Flying<br>Whenever you cycle or discard a card, Shadowstorm Vizier gets +1/+1 until end of turn.",
@@ -12536,6 +12742,7 @@
     {
       "name": "Temmet, Vizier of Naktamun",
       "manaCost": "{W}{U}",
+      "sortedManaCost": "{W}{U}",
       "cmc": 2,
       "type": "Legendary Creature - Human Cleric",
       "text": "At the beginning of combat on your turn, target creature token you control gets +1/+1 until end of turn and can't be blocked this turn.<br>Embalm {3}{W}{U} ({3}{W}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Cleric with no mana cost. Embalm only as a sorcery.)",
@@ -12596,6 +12803,7 @@
     {
       "name": "Wayward Servant",
       "manaCost": "{W}{B}",
+      "sortedManaCost": "{W}{B}",
       "cmc": 2,
       "type": "Creature - Zombie",
       "text": "Whenever another Zombie enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.",
@@ -12657,6 +12865,7 @@
     {
       "name": "Weaver of Currents",
       "manaCost": "{1}{G}{U}",
+      "sortedManaCost": "{1}{U}{G}",
       "cmc": 3,
       "type": "Creature - Naga Druid",
       "text": "{T}: Add {C}{C}.",
@@ -12718,6 +12927,7 @@
     {
       "name": "Dusk",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 9,
       "type": "Sorcery",
       "text": "Destroy all creatures with power 3 or greater.",
@@ -12778,6 +12988,7 @@
     {
       "name": "Dawn",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 9,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Return all creature cards with power 2 or less from your graveyard to your hand.",
@@ -12838,6 +13049,7 @@
     {
       "name": "Commit",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 10,
       "type": "Instant",
       "text": "Put target spell or nonland permanent into its owner's library second from the top.",
@@ -12898,6 +13110,7 @@
     {
       "name": "Memory",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 10,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Each player shuffles their hand and graveyard into their library, then draws seven cards.",
@@ -12958,6 +13171,7 @@
     {
       "name": "Never",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Destroy target creature or planeswalker.",
@@ -13018,6 +13232,7 @@
     {
       "name": "Return",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Exile target card from a graveyard. Create a 2/2 black Zombie creature token.",
@@ -13078,6 +13293,7 @@
     {
       "name": "Insult",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Damage can't be prevented this turn. If a source you control would deal damage this turn, it deals double that damage instead.",
@@ -13138,6 +13354,7 @@
     {
       "name": "Injury",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Injury deals 2 damage to target creature and 2 damage to target player or planeswalker.",
@@ -13198,6 +13415,7 @@
     {
       "name": "Mouth",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Create a 3/3 green Hippo creature token.",
@@ -13258,6 +13476,7 @@
     {
       "name": "Feed",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Draw a card for each creature you control with power 3 or greater.",
@@ -13318,6 +13537,7 @@
     {
       "name": "Start",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 6,
       "type": "Instant",
       "text": "Create two 1/1 white Warrior creature tokens with vigilance.",
@@ -13378,6 +13598,7 @@
     {
       "name": "Finish",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>As an additional cost to cast Finish, sacrifice a creature.<br>Destroy target creature.",
@@ -13438,6 +13659,7 @@
     {
       "name": "Reduce",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 6,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {3}.",
@@ -13498,6 +13720,7 @@
     {
       "name": "Rubble",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Up to three target lands don't untap during their controller's next untap step.",
@@ -13558,6 +13781,7 @@
     {
       "name": "Destined",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 6,
       "type": "Instant",
       "text": "Target creature gets +1/+0 and gains indestructible until end of turn.",
@@ -13618,6 +13842,7 @@
     {
       "name": "Lead",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>All creatures able to block target creature this turn do so.",
@@ -13678,6 +13903,7 @@
     {
       "name": "Onward",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 6,
       "type": "Instant",
       "text": "Target creature gets +X/+0 until end of turn, where X is its power.",
@@ -13738,6 +13964,7 @@
     {
       "name": "Victory",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Target creature gains double strike until end of turn.",
@@ -13798,9 +14025,10 @@
     {
       "name": "Spring",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 9,
       "type": "Sorcery",
-      "text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
       "rarity": "U",
@@ -13858,6 +14086,7 @@
     {
       "name": "Mind",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 9,
       "type": "Instant",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Draw two cards.",
@@ -13918,6 +14147,7 @@
     {
       "name": "Prepare",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 6,
       "type": "Instant",
       "text": "Untap target creature. It gets +2/+2 and gains lifelink until end of turn.",
@@ -13978,6 +14208,7 @@
     {
       "name": "Fight",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Target creature you control fights target creature an opponent controls.",
@@ -14038,6 +14269,7 @@
     {
       "name": "Failure",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Return target spell to its owner's hand.",
@@ -14098,6 +14330,7 @@
     {
       "name": "Comply",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Choose a card name. Until your next turn, your opponents can't cast spells with the chosen name.",
@@ -14158,6 +14391,7 @@
     {
       "name": "Rags",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 11,
       "type": "Sorcery",
       "text": "All creatures get -2/-2 until end of turn.",
@@ -14218,6 +14452,7 @@
     {
       "name": "Riches",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 11,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Each opponent chooses a creature they control. You gain control of those creatures.",
@@ -14278,6 +14513,7 @@
     {
       "name": "Cut",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Cut deals 4 damage to target creature.",
@@ -14338,6 +14574,7 @@
     {
       "name": "Ribbons",
       "manaCost": "{X}{B}{B}",
+      "sortedManaCost": "{X}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Each opponent loses X life.",
@@ -14398,6 +14635,7 @@
     {
       "name": "Heaven",
       "manaCost": "{X}{G}",
+      "sortedManaCost": "{X}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Heaven deals X damage to each creature with flying.",
@@ -14458,6 +14696,7 @@
     {
       "name": "Earth",
       "manaCost": "{X}{R}{R}",
+      "sortedManaCost": "{X}{R}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)<br>Earth deals X damage to each creature without flying.",
@@ -14518,6 +14757,7 @@
     {
       "name": "Bontu's Monument",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Legendary Artifact",
       "text": "Black creature spells you cast cost {1} less to cast.<br>Whenever you cast a creature spell, each opponent loses 1 life and you gain 1 life.",
@@ -14579,9 +14819,10 @@
     {
       "name": "Edifice of Authority",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
-      "text": "{1}, {T}: Target creature can't attack this turn. Put a brick counter on Edifice of Authority.<br>{1}, {T}: Until your next turn, target creature can't attack or block and its activated abilities can't be activated. Activate this ability only if there are three or more brick counters on Edifice of Authority.",
+      "text": "{1}, {T}: Target creature can't attack this turn. Put a brick counter on Edifice of Authority.<br>{1}, {T}: Until your next turn, target creature can't attack or block and its activated abilities can't be activated. Activate only if there are three or more brick counters on Edifice of Authority.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
       "rarity": "U",
@@ -14639,6 +14880,7 @@
     {
       "name": "Embalmer's Tools",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Activated abilities of creature cards in your graveyard cost {1} less to activate.<br>Tap an untapped Zombie you control: Target player mills a card.",
@@ -14700,9 +14942,10 @@
     {
       "name": "Gate to the Afterlife",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
-      "text": "Whenever a nontoken creature you control dies, you gain 1 life. Then you may draw a card. If you do, discard a card.<br>{2}, {T}, Sacrifice Gate to the Afterlife: Search your graveyard, hand, and/or library for a card named God-Pharaoh's Gift and put it onto the battlefield. If you search your library this way, shuffle it. Activate this ability only if there are six or more creature cards in your graveyard.",
+      "text": "Whenever a nontoken creature you control dies, you gain 1 life. Then you may draw a card. If you do, discard a card.<br>{2}, {T}, Sacrifice Gate to the Afterlife: Search your graveyard, hand, and/or library for a card named God-Pharaoh's Gift and put it onto the battlefield. If you search your library this way, shuffle. Activate only if there are six or more creature cards in your graveyard.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
       "rarity": "U",
@@ -14760,6 +15003,7 @@
     {
       "name": "Hazoret's Monument",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Legendary Artifact",
       "text": "Red creature spells you cast cost {1} less to cast.<br>Whenever you cast a creature spell, you may discard a card. If you do, draw a card.",
@@ -14821,6 +15065,7 @@
     {
       "name": "Honed Khopesh",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+1.<br>Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -14882,6 +15127,7 @@
     {
       "name": "Kefnet's Monument",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Legendary Artifact",
       "text": "Blue creature spells you cast cost {1} less to cast.<br>Whenever you cast a creature spell, target creature an opponent controls doesn't untap during its controller's next untap step.",
@@ -14943,9 +15189,10 @@
     {
       "name": "Luxa River Shrine",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
-      "text": "{1}, {T}: You gain 1 life. Put a brick counter on Luxa River Shrine.<br>{T}: You gain 2 life. Activate this ability only if there are three or more brick counters on Luxa River Shrine.",
+      "text": "{1}, {T}: You gain 1 life. Put a brick counter on Luxa River Shrine.<br>{T}: You gain 2 life. Activate only if there are three or more brick counters on Luxa River Shrine.",
       "flavor": "Without the God-Pharaoh, there would be no Luxa. Without the Luxa, there would be no life.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
@@ -15004,6 +15251,7 @@
     {
       "name": "Oketra's Monument",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Legendary Artifact",
       "text": "White creature spells you cast cost {1} less to cast.<br>Whenever you cast a creature spell, create a 1/1 white Warrior creature token with vigilance.",
@@ -15065,9 +15313,10 @@
     {
       "name": "Oracle's Vault",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
-      "text": "{2}, {T}: Exile the top card of your library. Until end of turn, you may play that card. Put a brick counter on Oracle's Vault.<br>{T}: Exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. Activate this ability only if there are three or more brick counters on Oracle's Vault.",
+      "text": "{2}, {T}: Exile the top card of your library. Until end of turn, you may play that card. Put a brick counter on Oracle's Vault.<br>{T}: Exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. Activate only if there are three or more brick counters on Oracle's Vault.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
       "rarity": "R",
@@ -15125,9 +15374,10 @@
     {
       "name": "Pyramid of the Pantheon",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
-      "text": "{2}, {T}: Add one mana of any color. Put a brick counter on Pyramid of the Pantheon.<br>{T}: Add three mana of any one color. Activate this ability only if there are three or more brick counters on Pyramid of the Pantheon.",
+      "text": "{2}, {T}: Add one mana of any color. Put a brick counter on Pyramid of the Pantheon.<br>{T}: Add three mana of any one color. Activate only if there are three or more brick counters on Pyramid of the Pantheon.",
       "flavor": "Five gods, one purpose.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
@@ -15186,6 +15436,7 @@
     {
       "name": "Rhonas's Monument",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Legendary Artifact",
       "text": "Green creature spells you cast cost {1} less to cast.<br>Whenever you cast a creature spell, target creature you control gets +2/+2 and gains trample until end of turn.",
@@ -15247,6 +15498,7 @@
     {
       "name": "Throne of the God-Pharaoh",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Legendary Artifact",
       "text": "At the beginning of your end step, each opponent loses life equal to the number of tapped creatures you control.",
@@ -15308,6 +15560,7 @@
     {
       "name": "Watchers of the Dead",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Cat",
       "text": "Exile Watchers of the Dead: Each opponent chooses two cards in their graveyard and exiles the rest.",
@@ -15489,7 +15742,7 @@
       "name": "Cradle of the Accursed",
       "cmc": 0,
       "type": "Land - Desert",
-      "text": "{T}: Add {C}.<br>{3}, {T}, Sacrifice Cradle of the Accursed: Create a 2/2 black Zombie creature token. Activate this ability only any time you could cast a sorcery.",
+      "text": "{T}: Add {C}.<br>{3}, {T}, Sacrifice Cradle of the Accursed: Create a 2/2 black Zombie creature token. Activate only as a sorcery.",
       "flavor": "Many such monuments dot the wasteland known as Ifnir.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
@@ -15549,7 +15802,7 @@
       "name": "Evolving Wilds",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "flavor": "\"Don't you ever wonder what lies beyond the Hekma? Beyond the reach of the gods? Beyond the horns on the horizon?\"<br>-Samut, initiate of Tah crop",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
@@ -15668,7 +15921,7 @@
       "name": "Grasping Dunes",
       "cmc": 0,
       "type": "Land - Desert",
-      "text": "{T}: Add {C}.<br>{1}, {T}, Sacrifice Grasping Dunes: Put a -1/-1 counter on target creature. Activate this ability only any time you could cast a sorcery.",
+      "text": "{T}: Add {C}.<br>{1}, {T}, Sacrifice Grasping Dunes: Put a -1/-1 counter on target creature. Activate only as a sorcery.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
       "rarity": "U",
@@ -16383,6 +16636,7 @@
     {
       "name": "Gideon, Martial Paragon",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Gideon",
       "text": "[+2]: Untap all creatures you control. Those creatures get +1/+1 until end of turn.<br>[0]: Until end of turn, Gideon, Martial Paragon becomes a 5/5 Human Soldier creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.<br>[−10]: Creatures you control get +2/+2 until end of turn. Tap all creatures your opponents control.",
@@ -16443,9 +16697,10 @@
     {
       "name": "Companion of the Trials",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Bird Soldier",
-      "text": "Flying<br>{1}{W}: Untap target creature. Activate this ability only if you control a Gideon planeswalker.",
+      "text": "Flying<br>{1}{W}: Untap target creature. Activate only if you control a Gideon planeswalker.",
       "flavor": "\"The fiercest loyalties are earned in battle.\"<br>-Gideon Jura",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
@@ -16504,9 +16759,10 @@
     {
       "name": "Gideon's Resolve",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Enchantment",
-      "text": "When Gideon's Resolve enters the battlefield, you may search your library and/or graveyard for a card named Gideon, Martial Paragon, reveal it, and put it into your hand. If you search your library this way, shuffle it.<br>Creatures you control get +1/+1.",
+      "text": "When Gideon's Resolve enters the battlefield, you may search your library and/or graveyard for a card named Gideon, Martial Paragon, reveal it, and put it into your hand. If you search your library this way, shuffle.<br>Creatures you control get +1/+1.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
       "rarity": "R",
@@ -16564,6 +16820,7 @@
     {
       "name": "Graceful Cat",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Cat",
       "text": "Whenever Graceful Cat attacks, it gets +1/+1 until end of turn.",
@@ -16685,6 +16942,7 @@
     {
       "name": "Liliana, Death Wielder",
       "manaCost": "{5}{B}{B}",
+      "sortedManaCost": "{5}{B}{B}",
       "cmc": 7,
       "type": "Legendary Planeswalker - Liliana",
       "text": "[+2]: Put a -1/-1 counter on up to one target creature.<br>[−3]: Destroy target creature with a -1/-1 counter on it.<br>[−10]: Return all creature cards from your graveyard to the battlefield.",
@@ -16745,9 +17003,10 @@
     {
       "name": "Desiccated Naga",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Zombie Naga",
-      "text": "{3}{B}: Target opponent loses 2 life and you gain 2 life. Activate this ability only if you control a Liliana planeswalker.",
+      "text": "{3}{B}: Target opponent loses 2 life and you gain 2 life. Activate only if you control a Liliana planeswalker.",
       "flavor": "\"The nature of this plane makes it almost too easy for me to command the dead.\"<br>-Liliana Vess",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
@@ -16806,9 +17065,10 @@
     {
       "name": "Liliana's Influence",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Put a -1/-1 counter on each creature you don't control. You may search your library and/or graveyard for a card named Liliana, Death Wielder, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+      "text": "Put a -1/-1 counter on each creature you don't control. You may search your library and/or graveyard for a card named Liliana, Death Wielder, reveal it, and put it into your hand. If you search your library this way, shuffle.",
       "expansion": "AKH",
       "scryfallSetCode": "AKH",
       "rarity": "R",
@@ -16866,6 +17126,7 @@
     {
       "name": "Tattered Mummy",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Zombie Jackal",
       "text": "When Tattered Mummy dies, each opponent loses 2 life.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "box",
-    "digest": "e7a3c702d3fb3f396dcdb1c75a7470d0",
+    "digest": "fec9c33eb83605692e70f8da89208caf",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MD1_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MD1_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Soul Warden",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Cleric",
       "text": "Whenever another creature enters the battlefield, you gain 1 life.",
@@ -42,6 +43,7 @@
     {
       "name": "Tidehollow Sculler",
       "manaCost": "{W}{B}",
+      "sortedManaCost": "{W}{B}",
       "cmc": 2,
       "type": "Artifact Creature - Zombie",
       "text": "When Tidehollow Sculler enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card.<br>When Tidehollow Sculler leaves the battlefield, return the exiled card to its owner's hand.",
@@ -61,9 +63,10 @@
     {
       "name": "Path to Exile",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
-      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.",
+      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
       "expansion": "MD1",
       "scryfallSetCode": "MD1",
       "rarity": "U",
@@ -80,6 +83,7 @@
     {
       "name": "Inquisition of Kozilek",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You choose a nonland card from it with mana value 3 or less. That player discards that card.",
@@ -100,6 +104,7 @@
     {
       "name": "Shrine of Loyal Legions",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "At the beginning of your upkeep or whenever you cast a white spell, put a charge counter on Shrine of Loyal Legions.<br>{3}, {T}, Sacrifice Shrine of Loyal Legions: Create a 1/1 colorless Myr artifact creature token for each charge counter on Shrine of Loyal Legions.",
@@ -120,6 +125,7 @@
     {
       "name": "Honor of the Pure",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "White creatures you control get +1/+1.",
@@ -140,6 +146,7 @@
     {
       "name": "Intangible Virtue",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Creature tokens you control get +1/+1 and have vigilance.",
@@ -160,6 +167,7 @@
     {
       "name": "Raise the Alarm",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Create two 1/1 white Soldier creature tokens.",
@@ -180,6 +188,7 @@
     {
       "name": "Zealous Persecution",
       "manaCost": "{W}{B}",
+      "sortedManaCost": "{W}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.",
@@ -200,6 +209,7 @@
     {
       "name": "Sword of Feast and Famine",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from black and from green.<br>Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.<br>Equip {2}",
@@ -220,6 +230,7 @@
     {
       "name": "Lingering Souls",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Create two 1/1 white Spirit creature tokens with flying.<br>Flashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -240,6 +251,7 @@
     {
       "name": "Spectral Procession",
       "manaCost": "{2W}{2W}{2W}",
+      "sortedManaCost": "{2W}{2W}{2W}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Create three 1/1 white Spirit creature tokens with flying.",
@@ -260,6 +272,7 @@
     {
       "name": "Elspeth, Knight-Errant",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Elspeth",
       "text": "[+1]: Create a 1/1 white Soldier creature token.<br>[+1]: Target creature gets +3/+3 and gains flying until end of turn.<br>[−8]: You get an emblem with \"Artifacts, creatures, enchantments, and lands you control have indestructible.\"",
@@ -408,6 +421,7 @@
     {
       "name": "Relic of Progenitus",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{T}: Target player exiles a card from their graveyard.<br>{1}, Exile Relic of Progenitus: Exile all cards from all graveyards. Draw a card.",
@@ -428,6 +442,7 @@
     {
       "name": "Burrenton Forge-Tender",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Kithkin Wizard",
       "text": "Protection from red<br>Sacrifice Burrenton Forge-Tender: Prevent all damage a red source of your choice would deal this turn.",
@@ -448,6 +463,7 @@
     {
       "name": "Duress",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
@@ -468,6 +484,7 @@
     {
       "name": "Kataki, War's Wage",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Legendary Creature - Spirit",
       "text": "All artifacts have \"At the beginning of your upkeep, sacrifice this artifact unless you pay {1}.\"",
@@ -488,6 +505,7 @@
     {
       "name": "Dismember",
       "manaCost": "{1}{BP}{BP}",
+      "sortedManaCost": "{1}{BP}{BP}",
       "cmc": 3,
       "type": "Instant",
       "text": "({B/P} can be paid with either {B} or 2 life.)<br>Target creature gets -5/-5 until end of turn.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "ed685ad7ba7fec53f07c361166aa93c9",
+    "digest": "7ae964b459b2bdc7fbfed1ba7fa35084",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/JOU_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/JOU_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Aegis of the Gods",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment Creature - Human Soldier",
       "text": "You have hexproof. (You can't be the target of spells or abilities your opponents control.)",
@@ -83,6 +84,7 @@
     {
       "name": "Ajani's Presence",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Strive - This spell costs {2}{W} more to cast for each target beyond the first.<br>Any number of target creatures each get +1/+1 and gain indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy them.)",
@@ -143,6 +145,7 @@
     {
       "name": "Akroan Mastiff",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Dog",
       "text": "{W}, {T}: Tap target creature.",
@@ -204,6 +207,7 @@
     {
       "name": "Armament of Nyx",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has double strike as long as it's an enchantment. Otherwise, prevent all damage that would be dealt by enchanted creature. (A creature with double strike deals both first-strike and regular combat damage.)",
@@ -264,6 +268,7 @@
     {
       "name": "Banishing Light",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield.",
@@ -324,6 +329,7 @@
     {
       "name": "Dawnbringer Charioteers",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Human Soldier",
       "text": "Flying, lifelink<br>Heroic - Whenever you cast a spell that targets Dawnbringer Charioteers, put a +1/+1 counter on Dawnbringer Charioteers.",
@@ -385,9 +391,10 @@
     {
       "name": "Deicide",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
-      "text": "Exile target enchantment. If the exiled card is a God card, search its controller's graveyard, hand, and library for any number of cards with the same name as that card and exile them, then that player shuffles their library.",
+      "text": "Exile target enchantment. If the exiled card is a God card, search its controller's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles.",
       "flavor": "\"It is done.\"<br>-Elspeth",
       "expansion": "JOU",
       "scryfallSetCode": "JOU",
@@ -446,6 +453,7 @@
     {
       "name": "Dictate of Heliod",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Flash<br>Creatures you control get +2/+2.",
@@ -507,6 +515,7 @@
     {
       "name": "Eagle of the Watch",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Bird",
       "text": "Flying, vigilance",
@@ -568,6 +577,7 @@
     {
       "name": "Eidolon of Rhetoric",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment Creature - Spirit",
       "text": "Each player can't cast more than one spell each turn.",
@@ -629,6 +639,7 @@
     {
       "name": "Font of Vigor",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "{2}{W}, Sacrifice Font of Vigor: You gain 7 life.",
@@ -690,6 +701,7 @@
     {
       "name": "Godsend",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Legendary Artifact - Equipment",
       "text": "Equipped creature gets +3/+3.<br>Whenever equipped creature blocks or becomes blocked by one or more creatures, you may exile one of those creatures.<br>Your opponents can't cast spells with the same name as a card exiled with Godsend.<br>Equip {3}",
@@ -750,6 +762,7 @@
     {
       "name": "Harvestguard Alseids",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment Creature - Nymph",
       "text": "Constellation - Whenever Harvestguard Alseids or another enchantment enters the battlefield under your control, prevent all damage that would be dealt to target creature this turn.",
@@ -811,6 +824,7 @@
     {
       "name": "Lagonna-Band Trailblazer",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Centaur Scout",
       "text": "Heroic - Whenever you cast a spell that targets Lagonna-Band Trailblazer, put a +1/+1 counter on Lagonna-Band Trailblazer.",
@@ -872,6 +886,7 @@
     {
       "name": "Launch the Fleet",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Strive - This spell costs {1} more to cast for each target beyond the first.<br>Until end of turn, any number of target creatures each gain \"Whenever this creature attacks, create a 1/1 white Soldier creature token that's tapped and attacking.\"",
@@ -932,6 +947,7 @@
     {
       "name": "Leonin Iconoclast",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Cat Monk",
       "text": "Heroic - Whenever you cast a spell that targets Leonin Iconoclast, destroy target enchantment creature an opponent controls.",
@@ -993,6 +1009,7 @@
     {
       "name": "Mortal Obstinacy",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature you control<br>Enchanted creature gets +1/+1.<br>Whenever enchanted creature deals combat damage to a player, you may sacrifice Mortal Obstinacy. If you do, destroy target enchantment.",
@@ -1053,6 +1070,7 @@
     {
       "name": "Nyx-Fleece Ram",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment Creature - Sheep",
       "text": "At the beginning of your upkeep, you gain 1 life.",
@@ -1114,6 +1132,7 @@
     {
       "name": "Oppressive Rays",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't attack or block unless its controller pays {3}.<br>Activated abilities of enchanted creature cost {3} more to activate.",
@@ -1174,6 +1193,7 @@
     {
       "name": "Oreskos Swiftclaw",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Cat Warrior",
       "flavor": "After the Battle of Pharagax Bridge, the Champion spent many months among the leonin of Oreskos. She found that they were quick to take offense, not because they were thin-skinned, but because they were always eager for a fight.<br>-The Theriad",
@@ -1234,6 +1254,7 @@
     {
       "name": "Phalanx Formation",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Strive - This spell costs {1}{W} more to cast for each target beyond the first.<br>Any number of target creatures each gain double strike until end of turn. (They deal both first-strike and regular combat damage.)",
@@ -1294,6 +1315,7 @@
     {
       "name": "Quarry Colossus",
       "manaCost": "{5}{W}{W}",
+      "sortedManaCost": "{5}{W}{W}",
       "cmc": 7,
       "type": "Creature - Giant",
       "text": "When Quarry Colossus enters the battlefield, put target creature into its owner's library just beneath the top X cards of that library, where X is the number of Plains you control.",
@@ -1354,6 +1376,7 @@
     {
       "name": "Reprisal",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target creature with power 4 or greater. It can't be regenerated.",
@@ -1415,6 +1438,7 @@
     {
       "name": "Sightless Brawler",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment Creature - Human Warrior",
       "text": "Bestow {4}{W} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)<br>Sightless Brawler can't attack alone.<br>Enchanted creature gets +3/+2 and can't attack alone.",
@@ -1475,6 +1499,7 @@
     {
       "name": "Skybind",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Constellation - Whenever Skybind or another enchantment enters the battlefield under your control, exile target nonenchantment permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -1535,6 +1560,7 @@
     {
       "name": "Skyspear Cavalry",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Human Soldier",
       "text": "Flying<br>Double strike (This creature deals both first-strike and regular combat damage.)",
@@ -1596,6 +1622,7 @@
     {
       "name": "Stonewise Fortifier",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{4}{W}: Prevent all damage that would be dealt to Stonewise Fortifier by target creature this turn.",
@@ -1657,6 +1684,7 @@
     {
       "name": "Supply-Line Cranes",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Bird",
       "text": "Flying<br>When Supply-Line Cranes enters the battlefield, put a +1/+1 counter on target creature.",
@@ -1718,9 +1746,10 @@
     {
       "name": "Tethmos High Priest",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Cat Cleric",
-      "text": "Heroic - Whenever you cast a spell that targets Tethmos High Priest, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.",
+      "text": "Heroic - Whenever you cast a spell that targets Tethmos High Priest, return target creature card with mana value 2 or less from your graveyard to the battlefield.",
       "flavor": "\"Death is tyranny. Like all tyranny, it must be opposed.\"",
       "expansion": "JOU",
       "scryfallSetCode": "JOU",
@@ -1779,6 +1808,7 @@
     {
       "name": "Aerial Formation",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Strive - This spell costs {2}{U} more to cast for each target beyond the first.<br>Any number of target creatures each get +1/+1 and gain flying until end of turn.",
@@ -1839,6 +1869,7 @@
     {
       "name": "Battlefield Thaumaturge",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "Each instant and sorcery spell you cast costs {1} less to cast for each creature it targets.<br>Heroic - Whenever you cast a spell that targets Battlefield Thaumaturge, Battlefield Thaumaturge gains hexproof until end of turn.",
@@ -1899,6 +1930,7 @@
     {
       "name": "Cloaked Siren",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Siren",
       "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying",
@@ -1960,6 +1992,7 @@
     {
       "name": "Countermand",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Counter target spell. Its controller mills four cards.",
@@ -2021,6 +2054,7 @@
     {
       "name": "Crystalline Nautilus",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment Creature - Nautilus",
       "text": "Bestow {3}{U}{U} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)<br>When Crystalline Nautilus becomes the target of a spell or ability, sacrifice it.<br>Enchanted creature gets +4/+4 and has \"When this creature becomes the target of a spell or ability, sacrifice it.\"",
@@ -2081,6 +2115,7 @@
     {
       "name": "Dakra Mystic",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Merfolk Wizard",
       "text": "{U}, {T}: Each player reveals the top card of their library. You may put the revealed cards into their owners' graveyards. If you don't, each player draws a card.",
@@ -2142,6 +2177,7 @@
     {
       "name": "Daring Thief",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Rogue",
       "text": "Inspired - Whenever Daring Thief becomes untapped, you may exchange control of target nonland permanent you control and target permanent an opponent controls that shares a card type with it.",
@@ -2203,6 +2239,7 @@
     {
       "name": "Dictate of Kruphix",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Flash<br>At the beginning of each player's draw step, that player draws an additional card.",
@@ -2264,6 +2301,7 @@
     {
       "name": "Font of Fortunes",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "{1}{U}, Sacrifice Font of Fortunes: Draw two cards.",
@@ -2325,6 +2363,7 @@
     {
       "name": "Godhunter Octopus",
       "manaCost": "{5}{U}",
+      "sortedManaCost": "{5}{U}",
       "cmc": 6,
       "type": "Creature - Octopus",
       "text": "Godhunter Octopus can't attack unless defending player controls an enchantment or an enchanted permanent.",
@@ -2386,6 +2425,7 @@
     {
       "name": "Hour of Need",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Strive - This spell costs {1}{U} more to cast for each target beyond the first.<br>Exile any number of target creatures. For each creature exiled this way, its controller creates a 4/4 blue Sphinx creature token with flying.",
@@ -2446,6 +2486,7 @@
     {
       "name": "Hubris",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return target creature and all Auras attached to it to their owners' hands.",
@@ -2507,6 +2548,7 @@
     {
       "name": "Hypnotic Siren",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Enchantment Creature - Siren",
       "text": "Bestow {5}{U}{U} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)<br>Flying<br>You control enchanted creature.<br>Enchanted creature gets +1/+1 and has flying.",
@@ -2567,9 +2609,10 @@
     {
       "name": "Interpret the Signs",
       "manaCost": "{5}{U}",
+      "sortedManaCost": "{5}{U}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Scry 3, then reveal the top card of your library. Draw cards equal to that card's converted mana cost. (To scry 3, look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "text": "Scry 3, then reveal the top card of your library. Draw cards equal to that card's mana value. (To scry 3, look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
       "expansion": "JOU",
       "scryfallSetCode": "JOU",
       "rarity": "U",
@@ -2627,6 +2670,7 @@
     {
       "name": "Kiora's Dismissal",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Strive - This spell costs {U} more to cast for each target beyond the first.<br>Return any number of target enchantments to their owners' hands.",
@@ -2687,6 +2731,7 @@
     {
       "name": "Pin to the Earth",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets -6/-0.",
@@ -2748,6 +2793,7 @@
     {
       "name": "Polymorphous Rush",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Strive - This spell costs {1}{U} more to cast for each target beyond the first.<br>Choose a creature on the battlefield. Any number of target creatures you control each become a copy of that creature until end of turn.",
@@ -2808,6 +2854,7 @@
     {
       "name": "Pull from the Deep",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Return up to one target instant card and up to one target sorcery card from your graveyard to your hand. Exile Pull from the Deep.",
@@ -2869,6 +2916,7 @@
     {
       "name": "Riptide Chimera",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment Creature - Chimera",
       "text": "Flying<br>At the beginning of your upkeep, return an enchantment you control to its owner's hand.",
@@ -2930,6 +2978,7 @@
     {
       "name": "Rise of Eagles",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Create two 2/2 blue Bird enchantment creature tokens with flying. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
@@ -2991,6 +3040,7 @@
     {
       "name": "Sage of Hours",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "Heroic - Whenever you cast a spell that targets Sage of Hours, put a +1/+1 counter on it.<br>Remove all +1/+1 counters from Sage of Hours: For each five counters removed this way, take an extra turn after this one.",
@@ -3051,6 +3101,7 @@
     {
       "name": "Scourge of Fleets",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Creature - Kraken",
       "text": "When Scourge of Fleets enters the battlefield, return each creature your opponents control with toughness X or less to its owner's hand, where X is the number of Islands you control.",
@@ -3111,6 +3162,7 @@
     {
       "name": "Sigiled Starfish",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Starfish",
       "text": "{T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
@@ -3172,6 +3224,7 @@
     {
       "name": "Thassa's Devourer",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Enchantment Creature - Elemental",
       "text": "Constellation - Whenever Thassa's Devourer or another enchantment enters the battlefield under your control, target player mills two cards.",
@@ -3233,6 +3286,7 @@
     {
       "name": "Thassa's Ire",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Enchantment",
       "text": "{3}{U}: You may tap or untap target creature.",
@@ -3294,6 +3348,7 @@
     {
       "name": "Triton Cavalry",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Merfolk Soldier",
       "text": "Heroic - Whenever you cast a spell that targets Triton Cavalry, you may return target enchantment to its owner's hand.",
@@ -3355,6 +3410,7 @@
     {
       "name": "Triton Shorestalker",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Merfolk Rogue",
       "text": "Triton Shorestalker can't be blocked.",
@@ -3416,6 +3472,7 @@
     {
       "name": "War-Wing Siren",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Siren Soldier",
       "text": "Flying<br>Heroic - Whenever you cast a spell that targets War-Wing Siren, put a +1/+1 counter on War-Wing Siren.",
@@ -3477,6 +3534,7 @@
     {
       "name": "Whitewater Naiads",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Enchantment Creature - Nymph",
       "text": "Constellation - Whenever Whitewater Naiads or another enchantment enters the battlefield under your control, target creature can't be blocked this turn.",
@@ -3538,6 +3596,7 @@
     {
       "name": "Agent of Erebos",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Enchantment Creature - Zombie",
       "text": "Constellation - Whenever Agent of Erebos or another enchantment enters the battlefield under your control, exile all cards from target player's graveyard.",
@@ -3599,6 +3658,7 @@
     {
       "name": "Aspect of Gorgon",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+3 and has deathtouch. (Any amount of damage it deals to a creature is enough to destroy it.)",
@@ -3660,6 +3720,7 @@
     {
       "name": "Bloodcrazed Hoplite",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Soldier",
       "text": "Heroic - Whenever you cast a spell that targets Bloodcrazed Hoplite, put a +1/+1 counter on it.<br>Whenever a +1/+1 counter is put on Bloodcrazed Hoplite, remove a +1/+1 counter from target creature an opponent controls.",
@@ -3720,6 +3781,7 @@
     {
       "name": "Brain Maggot",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment Creature - Insect",
       "text": "When Brain Maggot enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card until Brain Maggot leaves the battlefield.",
@@ -3780,6 +3842,7 @@
     {
       "name": "Cast into Darkness",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets -2/-0 and can't block.",
@@ -3841,6 +3904,7 @@
     {
       "name": "Cruel Feeding",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Strive - This spell costs {2}{B} more to cast for each target beyond the first.<br>Any number of target creatures each get +1/+0 and gain lifelink until end of turn. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)",
@@ -3901,6 +3965,7 @@
     {
       "name": "Dictate of Erebos",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Flash<br>Whenever a creature you control dies, each opponent sacrifices a creature.",
@@ -3962,6 +4027,7 @@
     {
       "name": "Doomwake Giant",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Enchantment Creature - Giant",
       "text": "Constellation - Whenever Doomwake Giant or another enchantment enters the battlefield under your control, creatures your opponents control get -1/-1 until end of turn.",
@@ -4023,6 +4089,7 @@
     {
       "name": "Dreadbringer Lampads",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Enchantment Creature - Nymph",
       "text": "Constellation - Whenever Dreadbringer Lampads or another enchantment enters the battlefield under your control, target creature gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)",
@@ -4083,6 +4150,7 @@
     {
       "name": "Extinguish All Hope",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Destroy all nonenchantment creatures.",
@@ -4144,6 +4212,7 @@
     {
       "name": "Feast of Dreams",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target enchanted creature or enchantment creature.",
@@ -4205,6 +4274,7 @@
     {
       "name": "Felhide Petrifier",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Minotaur Warrior",
       "text": "Deathtouch<br>Other Minotaur creatures you control have deathtouch.",
@@ -4266,6 +4336,7 @@
     {
       "name": "Font of Return",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "{3}{B}, Sacrifice Font of Return: Return up to three target creature cards from your graveyard to your hand.",
@@ -4327,6 +4398,7 @@
     {
       "name": "Gnarled Scarhide",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Enchantment Creature - Minotaur",
       "text": "Bestow {3}{B} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)<br>Gnarled Scarhide can't block.<br>Enchanted creature gets +2/+1 and can't block.",
@@ -4387,6 +4459,7 @@
     {
       "name": "Grim Guardian",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment Creature - Zombie",
       "text": "Constellation - Whenever Grim Guardian or another enchantment enters the battlefield under your control, each opponent loses 1 life.",
@@ -4448,6 +4521,7 @@
     {
       "name": "King Macar, the Gold-Cursed",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Legendary Creature - Human Noble",
       "text": "Inspired - Whenever King Macar, the Gold-Cursed becomes untapped, you may exile target creature. If you do, create a Gold token. (It's an artifact with \"Sacrifice this artifact: Add one mana of any color.\")",
@@ -4508,6 +4582,7 @@
     {
       "name": "Master of the Feast",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Enchantment Creature - Demon",
       "text": "Flying<br>At the beginning of your upkeep, each opponent draws a card.",
@@ -4569,6 +4644,7 @@
     {
       "name": "Nightmarish End",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target creature gets -X/-X until end of turn, where X is the number of cards in your hand.",
@@ -4630,6 +4706,7 @@
     {
       "name": "Nyx Infusion",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 as long as it's an enchantment. Otherwise, it gets -2/-2.",
@@ -4691,6 +4768,7 @@
     {
       "name": "Pharika's Chosen",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Snake",
       "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
@@ -4752,6 +4830,7 @@
     {
       "name": "Returned Reveler",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Zombie Satyr",
       "text": "When Returned Reveler dies, each player mills three cards.",
@@ -4813,6 +4892,7 @@
     {
       "name": "Ritual of the Returned",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Exile target creature card from your graveyard. Create a black Zombie creature token. Its power is equal to that card's power and its toughness is equal to that card's toughness.",
@@ -4874,6 +4954,7 @@
     {
       "name": "Rotted Hulk",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "flavor": "The hulk rose from the sea and loomed over the Champion. Pinned beneath the twisting, rotted planks of wood was the body of Kaliaros, the helmsman of her former crew, and beside him the captain, Photine.<br>-The Theriad",
@@ -4934,6 +5015,7 @@
     {
       "name": "Silence the Believers",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Strive - This spell costs {2}{B} more to cast for each target beyond the first.<br>Exile any number of target creatures and all Auras attached to them.",
@@ -4994,6 +5076,7 @@
     {
       "name": "Spiteful Blow",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Destroy target creature and target land.",
@@ -5055,6 +5138,7 @@
     {
       "name": "Squelching Leeches",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Leech",
       "text": "Squelching Leeches's power and toughness are each equal to the number of Swamps you control.",
@@ -5116,6 +5200,7 @@
     {
       "name": "Thoughtrender Lamia",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Enchantment Creature - Lamia",
       "text": "Constellation - Whenever Thoughtrender Lamia or another enchantment enters the battlefield under your control, each opponent discards a card.",
@@ -5177,6 +5262,7 @@
     {
       "name": "Tormented Thoughts",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Target player discards a number of cards equal to the sacrificed creature's power.",
@@ -5238,6 +5324,7 @@
     {
       "name": "Worst Fears",
       "manaCost": "{7}{B}",
+      "sortedManaCost": "{7}{B}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "You control target player during that player's next turn. Exile Worst Fears. (You see all cards that player could see and make all decisions for the player.)",
@@ -5299,6 +5386,7 @@
     {
       "name": "Akroan Line Breaker",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
       "text": "Heroic - Whenever you cast a spell that targets Akroan Line Breaker, Akroan Line Breaker gets +2/+0 and gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)",
@@ -5360,6 +5448,7 @@
     {
       "name": "Bearer of the Heavens",
       "manaCost": "{7}{R}",
+      "sortedManaCost": "{7}{R}",
       "cmc": 8,
       "type": "Creature - Giant",
       "text": "When Bearer of the Heavens dies, destroy all permanents at the beginning of the next end step.",
@@ -5421,6 +5510,7 @@
     {
       "name": "Bladetusk Boar",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Boar",
       "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)",
@@ -5482,6 +5572,7 @@
     {
       "name": "Blinding Flare",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Strive - This spell costs {R} more to cast for each target beyond the first.<br>Any number of target creatures can't block this turn.",
@@ -5542,6 +5633,7 @@
     {
       "name": "Cyclops of Eternal Fury",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Enchantment Creature - Cyclops",
       "text": "Creatures you control have haste.",
@@ -5603,6 +5695,7 @@
     {
       "name": "Dictate of the Twin Gods",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Flash<br>If a source would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.",
@@ -5664,9 +5757,10 @@
     {
       "name": "Eidolon of the Great Revel",
       "manaCost": "{R}{R}",
+      "sortedManaCost": "{R}{R}",
       "cmc": 2,
       "type": "Enchantment Creature - Spirit",
-      "text": "Whenever a player casts a spell with converted mana cost 3 or less, Eidolon of the Great Revel deals 2 damage to that player.",
+      "text": "Whenever a player casts a spell with mana value 3 or less, Eidolon of the Great Revel deals 2 damage to that player.",
       "flavor": "Xenagos reveled while Theros burned.",
       "expansion": "JOU",
       "scryfallSetCode": "JOU",
@@ -5725,6 +5819,7 @@
     {
       "name": "Flamespeaker's Will",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature you control<br>Enchanted creature gets +1/+1.<br>Whenever enchanted creature deals combat damage to a player, you may sacrifice Flamespeaker's Will. If you do, destroy target artifact.",
@@ -5785,6 +5880,7 @@
     {
       "name": "Flurry of Horns",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Create two 2/3 red Minotaur creature tokens with haste.",
@@ -5846,6 +5942,7 @@
     {
       "name": "Font of Ire",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "{3}{R}, Sacrifice Font of Ire: It deals 5 damage to target player or planeswalker.",
@@ -5907,6 +6004,7 @@
     {
       "name": "Forgeborn Oreads",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Enchantment Creature - Nymph",
       "text": "Constellation - Whenever Forgeborn Oreads or another enchantment enters the battlefield under your control, Forgeborn Oreads deals 1 damage to any target.",
@@ -5968,6 +6066,7 @@
     {
       "name": "Gluttonous Cyclops",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Creature - Cyclops",
       "text": "{5}{R}{R}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)",
@@ -6029,6 +6128,7 @@
     {
       "name": "Harness by Force",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Strive - This spell costs {2}{R} more to cast for each target beyond the first.<br>Gain control of any number of target creatures until end of turn. Untap those creatures. They gain haste until end of turn.",
@@ -6089,6 +6189,7 @@
     {
       "name": "Knowledge and Power",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Whenever you scry, you may pay {2}. If you do, Knowledge and Power deals 2 damage to any target.",
@@ -6150,6 +6251,7 @@
     {
       "name": "Lightning Diadem",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When Lightning Diadem enters the battlefield, it deals 2 damage to any target.<br>Enchanted creature gets +2/+2.",
@@ -6211,6 +6313,7 @@
     {
       "name": "Magma Spray",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead.",
@@ -6272,6 +6375,7 @@
     {
       "name": "Mogis's Warhound",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment Creature - Dog",
       "text": "Bestow {2}{R} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)<br>Mogis's Warhound attacks each combat if able.<br>Enchanted creature gets +2/+2 and attacks each combat if able.",
@@ -6332,6 +6436,7 @@
     {
       "name": "Pensive Minotaur",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Minotaur Warrior",
       "flavor": "The Champion and her companions marched through the night, but the battle was over before they arrived. In the middle of the carnage sat a solitary minotaur, lost in what seemed to the Champion to be thought.<br>-The Theriad",
@@ -6392,6 +6497,7 @@
     {
       "name": "Prophetic Flamespeaker",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Human Shaman",
       "text": "Double strike, trample<br>Whenever Prophetic Flamespeaker deals combat damage to a player, exile the top card of your library. You may play it this turn.",
@@ -6453,6 +6559,7 @@
     {
       "name": "Riddle of Lightning",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Instant",
       "text": "Choose any target. Scry 3, then reveal the top card of your library. Riddle of Lightning deals damage equal to that card's mana value to that permanent or player.",
@@ -6513,6 +6620,7 @@
     {
       "name": "Rollick of Abandon",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "All creatures get +2/-2 until end of turn.",
@@ -6574,6 +6682,7 @@
     {
       "name": "Rouse the Mob",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Strive - This spell costs {2}{R} more to cast for each target beyond the first.<br>Any number of target creatures each get +2/+0 and gain trample until end of turn.",
@@ -6634,6 +6743,7 @@
     {
       "name": "Satyr Hoplite",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Satyr Soldier",
       "text": "Heroic - Whenever you cast a spell that targets Satyr Hoplite, put a +1/+1 counter on Satyr Hoplite.",
@@ -6695,6 +6805,7 @@
     {
       "name": "Sigiled Skink",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Lizard",
       "text": "Whenever Sigiled Skink attacks, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
@@ -6756,6 +6867,7 @@
     {
       "name": "Spawn of Thraxes",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Creature - Dragon",
       "text": "Flying<br>When Spawn of Thraxes enters the battlefield, it deals damage to any target equal to the number of Mountains you control.",
@@ -6817,6 +6929,7 @@
     {
       "name": "Spite of Mogis",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Spite of Mogis deals damage to target creature equal to the number of instant and sorcery cards in your graveyard. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
@@ -6877,6 +6990,7 @@
     {
       "name": "Starfall",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Instant",
       "text": "Starfall deals 3 damage to target creature. If that creature is an enchantment, Starfall deals 3 damage to that creature's controller.",
@@ -6938,6 +7052,7 @@
     {
       "name": "Twinflame",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Strive - This spell costs {2}{R} more to cast for each target beyond the first.<br>Choose any number of target creatures you control. For each of them, create a token that's a copy of that creature, except it has haste. Exile those tokens at the beginning of the next end step.",
@@ -6998,6 +7113,7 @@
     {
       "name": "Wildfire Cerberus",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Dog",
       "text": "{5}{R}{R}: Monstrosity 1. (If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)<br>When Wildfire Cerberus becomes monstrous, it deals 2 damage to each opponent and each creature they control.",
@@ -7058,6 +7174,7 @@
     {
       "name": "Bassara Tower Archer",
       "manaCost": "{G}{G}",
+      "sortedManaCost": "{G}{G}",
       "cmc": 2,
       "type": "Creature - Human Archer",
       "text": "Hexproof, reach",
@@ -7119,6 +7236,7 @@
     {
       "name": "Colossal Heroics",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Strive - This spell costs {1}{G} more to cast for each target beyond the first.<br>Any number of target creatures each get +2/+2 until end of turn. Untap those creatures.",
@@ -7179,6 +7297,7 @@
     {
       "name": "Consign to Dust",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Strive - This spell costs {2}{G} more to cast for each target beyond the first.<br>Destroy any number of target artifacts and/or enchantments.",
@@ -7239,6 +7358,7 @@
     {
       "name": "Desecration Plague",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy target enchantment or land.",
@@ -7300,6 +7420,7 @@
     {
       "name": "Dictate of Karametra",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Flash<br>Whenever a player taps a land for mana, that player adds one mana of any type that land produced.",
@@ -7361,6 +7482,7 @@
     {
       "name": "Eidolon of Blossoms",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Enchantment Creature - Spirit",
       "text": "Constellation - Whenever Eidolon of Blossoms or another enchantment enters the battlefield under your control, draw a card.",
@@ -7422,9 +7544,10 @@
     {
       "name": "Font of Fertility",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment",
-      "text": "{1}{G}, Sacrifice Font of Fertility: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "{1}{G}, Sacrifice Font of Fertility: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "flavor": "Drink deep, and know the path to the heart of the wilds.",
       "expansion": "JOU",
       "scryfallSetCode": "JOU",
@@ -7483,6 +7606,7 @@
     {
       "name": "Golden Hind",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elk",
       "text": "{T}: Add {G}.",
@@ -7544,6 +7668,7 @@
     {
       "name": "Goldenhide Ox",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Enchantment Creature - Ox",
       "text": "Constellation - Whenever Goldenhide Ox or another enchantment enters the battlefield under your control, target creature must be blocked this turn if able.",
@@ -7605,6 +7730,7 @@
     {
       "name": "Heroes' Bane",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Hydra",
       "text": "Heroes' Bane enters the battlefield with four +1/+1 counters on it.<br>{2}{G}{G}: Put X +1/+1 counters on Heroes' Bane, where X is its power.",
@@ -7666,6 +7792,7 @@
     {
       "name": "Humbler of Mortals",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Enchantment Creature - Elemental",
       "text": "Constellation - Whenever Humbler of Mortals or another enchantment enters the battlefield under your control, creatures you control gain trample until end of turn.",
@@ -7727,6 +7854,7 @@
     {
       "name": "Hydra Broodmaster",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Hydra",
       "text": "{X}{X}{G}: Monstrosity X. (If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)<br>When Hydra Broodmaster becomes monstrous, create X X/X green Hydra creature tokens.",
@@ -7787,6 +7915,7 @@
     {
       "name": "Kruphix's Insight",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Reveal the top six cards of your library. Put up to three enchantment cards from among them into your hand and the rest of the revealed cards into your graveyard.",
@@ -7848,6 +7977,7 @@
     {
       "name": "Market Festival",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant land<br>Whenever enchanted land is tapped for mana, its controller adds an additional two mana in any combination of colors.",
@@ -7909,6 +8039,7 @@
     {
       "name": "Nature's Panoply",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Strive - This spell costs {2}{G} more to cast for each target beyond the first.<br>Choose any number of target creatures. Put a +1/+1 counter on each of them.",
@@ -7970,6 +8101,7 @@
     {
       "name": "Nessian Game Warden",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Beast",
       "text": "When Nessian Game Warden enters the battlefield, look at the top X cards of your library, where X is the number of Forests you control. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
@@ -8030,6 +8162,7 @@
     {
       "name": "Oakheart Dryads",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment Creature - Nymph Dryad",
       "text": "Constellation - Whenever Oakheart Dryads or another enchantment enters the battlefield under your control, target creature gets +1/+1 until end of turn.",
@@ -8091,6 +8224,7 @@
     {
       "name": "Pheres-Band Thunderhoof",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Centaur Warrior",
       "text": "Heroic - Whenever you cast a spell that targets Pheres-Band Thunderhoof, put two +1/+1 counters on Pheres-Band Thunderhoof.",
@@ -8152,6 +8286,7 @@
     {
       "name": "Pheres-Band Warchief",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Centaur Warrior",
       "text": "Vigilance, trample<br>Other Centaur creatures you control get +1/+1 and have vigilance and trample.",
@@ -8213,6 +8348,7 @@
     {
       "name": "Ravenous Leucrocota",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Beast",
       "text": "Vigilance<br>{6}{G}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)",
@@ -8274,6 +8410,7 @@
     {
       "name": "Renowned Weaver",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human Shaman",
       "text": "{1}{G}, Sacrifice Renowned Weaver: Create a 1/3 green Spider enchantment creature token with reach. (It can block creatures with flying.)",
@@ -8335,6 +8472,7 @@
     {
       "name": "Reviving Melody",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Choose one or both -<br>• Return target creature card from your graveyard to your hand.<br>• Return target enchantment card from your graveyard to your hand.",
@@ -8396,6 +8534,7 @@
     {
       "name": "Satyr Grovedancer",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Satyr Shaman",
       "text": "When Satyr Grovedancer enters the battlefield, put a +1/+1 counter on target creature.",
@@ -8457,6 +8596,7 @@
     {
       "name": "Setessan Tactics",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Strive - This spell costs {G} more to cast for each target beyond the first.<br>Until end of turn, any number of target creatures each get +1/+1 and gain \"{T}: This creature fights another target creature.\"",
@@ -8517,6 +8657,7 @@
     {
       "name": "Solidarity of Heroes",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Strive - This spell costs {1}{G} more to cast for each target beyond the first.<br>Choose any number of target creatures. Double the number of +1/+1 counters on each of them.",
@@ -8577,6 +8718,7 @@
     {
       "name": "Spirespine",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment Creature - Beast",
       "text": "Bestow {4}{G} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)<br>Spirespine blocks each combat if able.<br>Enchanted creature gets +4/+1 and blocks each combat if able.",
@@ -8637,6 +8779,7 @@
     {
       "name": "Strength from the Fallen",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Constellation - Whenever Strength from the Fallen or another enchantment enters the battlefield under your control, target creature gets +X/+X until end of turn, where X is the number of creature cards in your graveyard.",
@@ -8697,6 +8840,7 @@
     {
       "name": "Swarmborn Giant",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Giant",
       "text": "When you're dealt combat damage, sacrifice Swarmborn Giant.<br>{4}{G}{G}: Monstrosity 2. (If this creature isn't monstrous, put two +1/+1 counters on it and it becomes monstrous.)<br>As long as Swarmborn Giant is monstrous, it has reach.",
@@ -8757,6 +8901,7 @@
     {
       "name": "Ajani, Mentor of Heroes",
       "manaCost": "{3}{G}{W}",
+      "sortedManaCost": "{3}{W}{G}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Ajani",
       "text": "[+1]: Distribute three +1/+1 counters among one, two, or three target creatures you control.<br>[+1]: Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.<br>[−8]: You gain 100 life.",
@@ -8817,6 +8962,7 @@
     {
       "name": "Athreos, God of Passage",
       "manaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{W}{B}",
       "cmc": 3,
       "type": "Legendary Enchantment Creature - God",
       "text": "Indestructible<br>As long as your devotion to white and black is less than seven, Athreos isn't a creature.<br>Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life.",
@@ -8877,6 +9023,7 @@
     {
       "name": "Desperate Stand",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Strive - This spell costs {R}{W} more to cast for each target beyond the first.<br>Any number of target creatures each get +2/+0 and gain first strike and vigilance until end of turn.",
@@ -8938,9 +9085,10 @@
     {
       "name": "Disciple of Deceit",
       "manaCost": "{U}{B}",
+      "sortedManaCost": "{U}{B}",
       "cmc": 2,
       "type": "Creature - Human Rogue",
-      "text": "Inspired - Whenever Disciple of Deceit becomes untapped, you may discard a nonland card. If you do, search your library for a card with the same converted mana cost as that card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "Inspired - Whenever Disciple of Deceit becomes untapped, you may discard a nonland card. If you do, search your library for a card with the same mana value as that card, reveal it, put it into your hand, then shuffle.",
       "expansion": "JOU",
       "scryfallSetCode": "JOU",
       "rarity": "U",
@@ -8998,6 +9146,7 @@
     {
       "name": "Fleetfeather Cockatrice",
       "manaCost": "{3}{G}{U}",
+      "sortedManaCost": "{3}{U}{G}",
       "cmc": 5,
       "type": "Creature - Cockatrice",
       "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying, deathtouch<br>{5}{G}{U}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)",
@@ -9058,6 +9207,7 @@
     {
       "name": "Iroas, God of Victory",
       "manaCost": "{2}{R}{W}",
+      "sortedManaCost": "{2}{W}{R}",
       "cmc": 4,
       "type": "Legendary Enchantment Creature - God",
       "text": "Indestructible<br>As long as your devotion to red and white is less than seven, Iroas isn't a creature.<br>Creatures you control have menace.<br>Prevent all damage that would be dealt to attacking creatures you control.",
@@ -9118,6 +9268,7 @@
     {
       "name": "Keranos, God of Storms",
       "manaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{U}{R}",
       "cmc": 5,
       "type": "Legendary Enchantment Creature - God",
       "text": "Indestructible<br>As long as your devotion to blue and red is less than seven, Keranos isn't a creature.<br>Reveal the first card you draw on each of your turns. Whenever you reveal a land card this way, draw a card. Whenever you reveal a nonland card this way, Keranos deals 3 damage to any target.",
@@ -9178,6 +9329,7 @@
     {
       "name": "Kruphix, God of Horizons",
       "manaCost": "{3}{G}{U}",
+      "sortedManaCost": "{3}{U}{G}",
       "cmc": 5,
       "type": "Legendary Enchantment Creature - God",
       "text": "Indestructible<br>As long as your devotion to green and blue is less than seven, Kruphix isn't a creature.<br>You have no maximum hand size.<br>If you would lose unspent mana, that mana becomes colorless instead.",
@@ -9238,6 +9390,7 @@
     {
       "name": "Nyx Weaver",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Enchantment Creature - Spider",
       "text": "Reach<br>At the beginning of your upkeep, mill two cards.<br>{1}{B}{G}, Exile Nyx Weaver: Return target card from your graveyard to your hand.",
@@ -9298,6 +9451,7 @@
     {
       "name": "Pharika, God of Affliction",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Legendary Enchantment Creature - God",
       "text": "Indestructible<br>As long as your devotion to black and green is less than seven, Pharika isn't a creature.<br>{B}{G}: Exile target creature card from a graveyard. Its owner creates a 1/1 black and green Snake enchantment creature token with deathtouch.",
@@ -9358,6 +9512,7 @@
     {
       "name": "Revel of the Fallen God",
       "manaCost": "{3}{R}{R}{G}{G}",
+      "sortedManaCost": "{3}{R}{R}{G}{G}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Create four 2/2 red and green Satyr creature tokens with haste.",
@@ -9419,6 +9574,7 @@
     {
       "name": "Stormchaser Chimera",
       "manaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{U}{R}",
       "cmc": 4,
       "type": "Creature - Chimera",
       "text": "Flying<br>{2}{U}{R}: Scry 1, then reveal the top card of your library. Stormchaser Chimera gets +X/+0 until end of turn, where X is that card's mana value. (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)",
@@ -9479,6 +9635,7 @@
     {
       "name": "Underworld Coinsmith",
       "manaCost": "{W}{B}",
+      "sortedManaCost": "{W}{B}",
       "cmc": 2,
       "type": "Enchantment Creature - Human Cleric",
       "text": "Constellation - Whenever Underworld Coinsmith or another enchantment enters the battlefield under your control, you gain 1 life.<br>{W}{B}, Pay 1 life: Each opponent loses 1 life.",
@@ -9540,6 +9697,7 @@
     {
       "name": "Armory of Iroas",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Whenever equipped creature attacks, put a +1/+1 counter on it.<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -9601,6 +9759,7 @@
     {
       "name": "Chariot of Victory",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature has first strike, trample, and haste.<br>Equip {1}",
@@ -9662,6 +9821,7 @@
     {
       "name": "Deserter's Quarters",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "You may choose not to untap Deserter's Quarters during your untap step.<br>{6}, {T}: Tap target creature. It doesn't untap during its controller's untap step for as long as Deserter's Quarters remains tapped.",
@@ -9723,6 +9883,7 @@
     {
       "name": "Gold-Forged Sentinel",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Chimera",
       "text": "Flying",
@@ -9784,6 +9945,7 @@
     {
       "name": "Hall of Triumph",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Legendary Artifact",
       "text": "As Hall of Triumph enters the battlefield, choose a color.<br>Creatures you control of the chosen color get +1/+1.",

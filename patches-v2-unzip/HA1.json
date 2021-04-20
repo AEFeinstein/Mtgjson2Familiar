@@ -8,7 +8,7 @@
     "isOnlineOnly": true,
     "borderColor": "Black",
     "type": "box",
-    "digest": "1cb2a6f8bb53770d2e622619d3a0b029",
+    "digest": "61613237ce342fae43fb6e5a392035be",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HA1_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HA1_R.png",
@@ -19,6 +19,7 @@
     {
       "name": "Serra Ascendant",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Monk",
       "text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)<br>As long as you have 30 or more life, Serra Ascendant gets +5/+5 and has flying.",
@@ -38,6 +39,7 @@
     {
       "name": "Soul Warden",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Cleric",
       "text": "Whenever another creature enters the battlefield, you gain 1 life.",
@@ -58,6 +60,7 @@
     {
       "name": "Kinsbaile Cavalier",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Kithkin Knight",
       "text": "Knight creatures you control have double strike.",
@@ -78,6 +81,7 @@
     {
       "name": "Treasure Hunt",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Reveal cards from the top of your library until you reveal a nonland card, then put all cards revealed this way into your hand.",
@@ -98,6 +102,7 @@
     {
       "name": "Distant Melody",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Choose a creature type. Draw a card for each permanent you control of that type.",
@@ -118,6 +123,7 @@
     {
       "name": "Cryptbreaker",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Zombie",
       "text": "{1}{B}, {T}, Discard a card: Create a 2/2 black Zombie creature token.<br>Tap three untapped Zombies you control: You draw a card and you lose 1 life.",
@@ -137,6 +143,7 @@
     {
       "name": "Hypnotic Specter",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Specter",
       "text": "Flying<br>Whenever Hypnotic Specter deals damage to an opponent, that player discards a card at random.",
@@ -157,6 +164,7 @@
     {
       "name": "Phyrexian Arena",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, you draw a card and you lose 1 life.",
@@ -177,6 +185,7 @@
     {
       "name": "Tendrils of Corruption",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control.",
@@ -197,6 +206,7 @@
     {
       "name": "Kiln Fiend",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Elemental Beast",
       "text": "Whenever you cast an instant or sorcery spell, Kiln Fiend gets +3/+0 until end of turn.",
@@ -217,9 +227,10 @@
     {
       "name": "Goblin Matron",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin",
-      "text": "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle your library.",
+      "text": "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle.",
       "flavor": "A mother only a child could love.",
       "expansion": "HA1",
       "scryfallSetCode": "HA1",
@@ -237,6 +248,7 @@
     {
       "name": "Hidetsugu's Second Rite",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "If target player has exactly 10 life, Hidetsugu's Second Rite deals 10 damage to that player.",
@@ -257,6 +269,7 @@
     {
       "name": "Elvish Visionary",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Shaman",
       "text": "When Elvish Visionary enters the battlefield, draw a card.",
@@ -277,6 +290,7 @@
     {
       "name": "Fauna Shaman",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Shaman",
       "text": "{G}, {T}, Discard a creature card: Search your library for a creature card, reveal it, put it into your hand, then shuffle.",
@@ -297,6 +311,7 @@
     {
       "name": "Imperious Perfect",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Warrior",
       "text": "Other Elves you control get +1/+1.<br>{G}, {T}: Create a 1/1 green Elf Warrior creature token.",
@@ -317,6 +332,7 @@
     {
       "name": "Burning-Tree Emissary",
       "manaCost": "{RG}{RG}",
+      "sortedManaCost": "{RG}{RG}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "When Burning-Tree Emissary enters the battlefield, add {R}{G}.",
@@ -338,9 +354,10 @@
     {
       "name": "Captain Sisay",
       "manaCost": "{2}{G}{W}",
+      "sortedManaCost": "{2}{W}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Human Soldier",
-      "text": "{T}: Search your library for a legendary card, reveal that card, and put it into your hand. Then shuffle your library.",
+      "text": "{T}: Search your library for a legendary card, reveal that card, put it into your hand, then shuffle.",
       "expansion": "HA1",
       "scryfallSetCode": "HA1",
       "rarity": "R",
@@ -357,6 +374,7 @@
     {
       "name": "Ornithopter",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact Creature - Thopter",
       "text": "Flying",
@@ -377,6 +395,7 @@
     {
       "name": "Mind Stone",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{T}: Add {C}.<br>{1}, {T}, Sacrifice Mind Stone: Draw a card.",
@@ -396,6 +415,7 @@
     {
       "name": "Darksteel Reactor",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "Indestructible (Effects that say \"destroy\" don't destroy this artifact.)<br>At the beginning of your upkeep, you may put a charge counter on Darksteel Reactor.<br>When Darksteel Reactor has twenty or more charge counters on it, you win the game.",

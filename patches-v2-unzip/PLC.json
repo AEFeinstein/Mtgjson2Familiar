@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "5e0d9c5e23b5663c56cc809e7a6dd835",
+    "digest": "edb58436be4f66ea1316861b58c73368",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PLC_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PLC_R.png",
@@ -21,6 +21,7 @@
     {
       "name": "Aven Riftwatcher",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Bird Rebel Soldier",
       "text": "Flying<br>Vanishing 3 (This creature enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)<br>When Aven Riftwatcher enters the battlefield or leaves the battlefield, you gain 2 life.",
@@ -73,9 +74,10 @@
     {
       "name": "Benalish Commander",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Soldier",
-      "text": "Benalish Commander's power and toughness are each equal to the number of Soldiers you control.<br>Suspend X-{X}{W}{W}. X can't be 0. (Rather than cast this card from your hand, you may pay {X}{W}{W} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>Whenever a time counter is removed from Benalish Commander while it's exiled, create a 1/1 white Soldier creature token.",
+      "text": "Benalish Commander's power and toughness are each equal to the number of Soldiers you control.<br>Suspend X-{X}{W}{W}. X can't be 0.<br>Whenever a time counter is removed from Benalish Commander while it's exiled, create a 1/1 white Soldier creature token.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
       "rarity": "R",
@@ -125,6 +127,7 @@
     {
       "name": "Crovax, Ascendant Hero",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Human Noble",
       "text": "Other white creatures get +1/+1.<br>Nonwhite creatures get -1/-1.<br>Pay 2 life: Return Crovax, Ascendant Hero to its owner's hand.",
@@ -178,6 +181,7 @@
     {
       "name": "Dawn Charm",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Prevent all combat damage that would be dealt this turn.<br>• Regenerate target creature.<br>• Counter target spell that targets you.",
@@ -230,6 +234,7 @@
     {
       "name": "Dust Elemental",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying; fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>When Dust Elemental enters the battlefield, return three creatures you control to their owner's hand.",
@@ -282,6 +287,7 @@
     {
       "name": "Ghost Tactician",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Spirit Spellshaper",
       "text": "{W}, {T}, Discard a card: Creatures you control get +1/+0 until end of turn.",
@@ -335,6 +341,7 @@
     {
       "name": "Heroes Remembered",
       "manaCost": "{6}{W}{W}{W}",
+      "sortedManaCost": "{6}{W}{W}{W}",
       "cmc": 9,
       "type": "Sorcery",
       "text": "You gain 20 life.<br>Suspend 10-{W} (Rather than cast this card from your hand, you may pay {W} and exile it with ten time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
@@ -387,6 +394,7 @@
     {
       "name": "Magus of the Tabernacle",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Wizard",
       "text": "All creatures have \"At the beginning of your upkeep, sacrifice this creature unless you pay {1}.\"",
@@ -440,6 +448,7 @@
     {
       "name": "Mantle of Leadership",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Enchant creature<br>Whenever a creature enters the battlefield, enchanted creature gets +2/+2 until end of turn.",
@@ -492,6 +501,7 @@
     {
       "name": "Pallid Mycoderm",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Fungus",
       "text": "At the beginning of your upkeep, put a spore counter on Pallid Mycoderm.<br>Remove three spore counters from Pallid Mycoderm: Create a 1/1 green Saproling creature token.<br>Sacrifice a Saproling: Each creature you control that's a Fungus or a Saproling gets +1/+1 until end of turn.",
@@ -544,6 +554,7 @@
     {
       "name": "Poultice Sliver",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Sliver",
       "text": "All Slivers have \"{2}, {T}: Regenerate target Sliver.\" (The next time that Sliver would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
@@ -597,6 +608,7 @@
     {
       "name": "Rebuff the Wicked",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell that targets a permanent you control.",
@@ -650,6 +662,7 @@
     {
       "name": "Retether",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Return each Aura card from your graveyard to the battlefield. Only creatures can be enchanted this way. (Aura cards that can't enchant a creature on the battlefield remain in your graveyard.)",
@@ -703,9 +716,10 @@
     {
       "name": "Riftmarked Knight",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Human Rebel Knight",
-      "text": "Protection from black; flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)<br>Suspend 3-{1}{W}{W} (Rather than cast this card from your hand, you may pay {1}{W}{W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>When the last time counter is removed from Riftmarked Knight while it's exiled, create a 2/2 black Knight creature token with flanking, protection from white, and haste.",
+      "text": "Protection from black; flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)<br>Suspend 3-{1}{W}{W}<br>When the last time counter is removed from Riftmarked Knight while it's exiled, create a 2/2 black Knight creature token with flanking, protection from white, and haste.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
       "rarity": "U",
@@ -755,6 +769,7 @@
     {
       "name": "Saltblast",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Destroy target nonwhite permanent.",
@@ -808,6 +823,7 @@
     {
       "name": "Saltfield Recluse",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Rebel Cleric",
       "text": "{T}: Target creature gets -2/-0 until end of turn.",
@@ -861,6 +877,7 @@
     {
       "name": "Serra's Boon",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+2 as long as it's white. Otherwise, it gets -2/-1.",
@@ -914,6 +931,7 @@
     {
       "name": "Shade of Trokair",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Shade",
       "text": "{W}: Shade of Trokair gets +1/+1 until end of turn.<br>Suspend 3-{W} (Rather than cast this card from your hand, you may pay {W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)",
@@ -966,9 +984,10 @@
     {
       "name": "Stonecloaker",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Gargoyle",
-      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying<br>When Stonecloaker enters the battlefield, return a creature you control to its owner's hand.<br>When Stonecloaker enters the battlefield, exile target card from a graveyard.",
+      "text": "Flash<br>Flying<br>When Stonecloaker enters the battlefield, return a creature you control to its owner's hand.<br>When Stonecloaker enters the battlefield, exile target card from a graveyard.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
       "rarity": "U",
@@ -1018,6 +1037,7 @@
     {
       "name": "Stormfront Riders",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Human Soldier",
       "text": "Flying<br>When Stormfront Riders enters the battlefield, return two creatures you control to their owner's hand.<br>Whenever Stormfront Riders or another creature is returned to your hand from the battlefield, create a 1/1 white Soldier creature token.",
@@ -1070,6 +1090,7 @@
     {
       "name": "Voidstone Gargoyle",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Gargoyle",
       "text": "Flying<br>As Voidstone Gargoyle enters the battlefield, choose a nonland card name.<br>Spells with the chosen name can't be cast.<br>Activated abilities of sources with the chosen name can't be activated.",
@@ -1122,9 +1143,10 @@
     {
       "name": "Whitemane Lion",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Cat",
-      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>When Whitemane Lion enters the battlefield, return a creature you control to its owner's hand.",
+      "text": "Flash<br>When Whitemane Lion enters the battlefield, return a creature you control to its owner's hand.",
       "flavor": "Saltfield nomads call a sudden storm a \"whitemane.\"",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
@@ -1175,6 +1197,7 @@
     {
       "name": "Calciderm",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Beast",
       "text": "Shroud (This creature can't be the target of spells or abilities.)<br>Vanishing 4 (This creature enters the battlefield with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
@@ -1227,6 +1250,7 @@
     {
       "name": "Malach of the Dawn",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Angel",
       "text": "Flying<br>{W}{W}{W}: Regenerate Malach of the Dawn.",
@@ -1280,6 +1304,7 @@
     {
       "name": "Mana Tithe",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {1}.",
@@ -1333,6 +1358,7 @@
     {
       "name": "Mesa Enchantress",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Human Druid",
       "text": "Whenever you cast an enchantment spell, you may draw a card.",
@@ -1386,6 +1412,7 @@
     {
       "name": "Mycologist",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Druid",
       "text": "At the beginning of your upkeep, put a spore counter on Mycologist.<br>Remove three spore counters from Mycologist: Create a 1/1 green Saproling creature token.<br>Sacrifice a Saproling: You gain 2 life.",
@@ -1438,6 +1465,7 @@
     {
       "name": "Porphyry Nodes",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, destroy the creature with the least power. It can't be regenerated. If two or more creatures are tied for least power, you choose one of them.<br>When there are no creatures on the battlefield, sacrifice Porphyry Nodes.",
@@ -1490,6 +1518,7 @@
     {
       "name": "Revered Dead",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Spirit Soldier",
       "text": "{W}: Regenerate Revered Dead.",
@@ -1543,6 +1572,7 @@
     {
       "name": "Sinew Sliver",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "All Sliver creatures get +1/+1.",
@@ -1596,6 +1626,7 @@
     {
       "name": "Sunlance",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Sunlance deals 3 damage to target nonwhite creature.",
@@ -1649,9 +1680,10 @@
     {
       "name": "Aeon Chronicler",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Creature - Avatar",
-      "text": "Aeon Chronicler's power and toughness are each equal to the number of cards in your hand.<br>Suspend X-{X}{3}{U}. X can't be 0. (Rather than cast this card from your hand, you may pay {X}{3}{U} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>Whenever a time counter is removed from Aeon Chronicler while it's exiled, draw a card.",
+      "text": "Aeon Chronicler's power and toughness are each equal to the number of cards in your hand.<br>Suspend X-{X}{3}{U}. X can't be 0.<br>Whenever a time counter is removed from Aeon Chronicler while it's exiled, draw a card.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
       "rarity": "R",
@@ -1701,6 +1733,7 @@
     {
       "name": "Aquamorph Entity",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Shapeshifter",
       "text": "As Aquamorph Entity enters the battlefield or is turned face up, it becomes your choice of 5/1 or 1/5.<br>Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -1753,6 +1786,7 @@
     {
       "name": "Auramancer's Guise",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 for each Aura attached to it and has vigilance.",
@@ -1806,6 +1840,7 @@
     {
       "name": "Body Double",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Shapeshifter",
       "text": "You may have Body Double enter the battlefield as a copy of any creature card in a graveyard.",
@@ -1859,6 +1894,7 @@
     {
       "name": "Braids, Conjurer Adept",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Wizard",
       "text": "At the beginning of each player's upkeep, that player may put an artifact, creature, or land card from their hand onto the battlefield.",
@@ -1912,6 +1948,7 @@
     {
       "name": "Chronozoa",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Illusion",
       "text": "Flying<br>Vanishing 3 (This creature enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)<br>When Chronozoa dies, if it had no time counters on it, create two tokens that are copies of it.",
@@ -1964,6 +2001,7 @@
     {
       "name": "Dichotomancy",
       "manaCost": "{7}{U}{U}",
+      "sortedManaCost": "{7}{U}{U}",
       "cmc": 9,
       "type": "Sorcery",
       "text": "For each tapped nonland permanent target opponent controls, search that player's library for a card with the same name as that permanent. Put those cards onto the battlefield under your control, then that player shuffles.<br>Suspend 3-{1}{U}{U} (Rather than cast this card from your hand, you may pay {1}{U}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
@@ -2016,6 +2054,7 @@
     {
       "name": "Dismal Failure",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Counter target spell. Its controller discards a card.",
@@ -2069,6 +2108,7 @@
     {
       "name": "Dreamscape Artist",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Spellshaper",
       "text": "{2}{U}, {T}, Discard a card, Sacrifice a land: Search your library for up to two basic land cards, put them onto the battlefield, then shuffle.",
@@ -2122,9 +2162,10 @@
     {
       "name": "Erratic Mutation",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
-      "text": "Choose target creature. Reveal cards from the top of your library until you reveal a nonland card. That creature gets +X/-X until end of turn, where X is that card's converted mana cost. Put all cards revealed this way on the bottom of your library in any order.",
+      "text": "Choose target creature. Reveal cards from the top of your library until you reveal a nonland card. That creature gets +X/-X until end of turn, where X is that card's mana value. Put all cards revealed this way on the bottom of your library in any order.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
       "rarity": "C",
@@ -2174,6 +2215,7 @@
     {
       "name": "Jodah's Avenger",
       "manaCost": "{5}{U}",
+      "sortedManaCost": "{5}{U}",
       "cmc": 6,
       "type": "Creature - Shapeshifter",
       "text": "{0}: Until end of turn, Jodah's Avenger gets -1/-1 and gains your choice of double strike, protection from red, vigilance, or shadow. (A creature with shadow can block or be blocked by only creatures with shadow.)",
@@ -2226,6 +2268,7 @@
     {
       "name": "Magus of the Bazaar",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{T}: Draw two cards, then discard three cards.",
@@ -2279,6 +2322,7 @@
     {
       "name": "Pongify",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Destroy target creature. It can't be regenerated. Its controller creates a 3/3 green Ape creature token.",
@@ -2332,6 +2376,7 @@
     {
       "name": "Reality Acid",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant permanent<br>Vanishing 3 (This Aura enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)<br>When Reality Acid leaves the battlefield, enchanted permanent's controller sacrifices it.",
@@ -2384,6 +2429,7 @@
     {
       "name": "Shaper Parasite",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Illusion",
       "text": "Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Shaper Parasite is turned face up, target creature gets +2/-2 or -2/+2 until end of turn.",
@@ -2436,9 +2482,10 @@
     {
       "name": "Spellshift",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Instant",
-      "text": "Counter target instant or sorcery spell. Its controller reveals cards from the top of their library until they reveal an instant or sorcery card. That player may cast that card without paying its mana cost. Then the player shuffles their library.",
+      "text": "Counter target instant or sorcery spell. Its controller reveals cards from the top of their library until they reveal an instant or sorcery card. That player may cast that card without paying its mana cost. Then the player shuffles.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
       "rarity": "R",
@@ -2488,6 +2535,7 @@
     {
       "name": "Synchronous Sliver",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Sliver",
       "text": "All Sliver creatures have vigilance.",
@@ -2541,6 +2589,7 @@
     {
       "name": "Tidewalker",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Tidewalker enters the battlefield with a time counter on it for each Island you control.<br>Vanishing (At the beginning of your upkeep, remove a time counter from this creature. When the last is removed, sacrifice it.)<br>Tidewalker's power and toughness are each equal to the number of time counters on it.",
@@ -2593,9 +2642,10 @@
     {
       "name": "Timebender",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Human Wizard",
-      "text": "Morph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Timebender is turned face up, choose one -<br>• Remove two time counters from target permanent or suspended card.<br>• Put two time counters on target permanent with a time counter on it or suspended card.",
+      "text": "Morph {U}<br>When Timebender is turned face up, choose one -<br>• Remove two time counters from target permanent or suspended card.<br>• Put two time counters on target permanent with a time counter on it or suspended card.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
       "rarity": "U",
@@ -2645,6 +2695,7 @@
     {
       "name": "Veiling Oddity",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Illusion",
       "text": "Suspend 4-{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>When the last time counter is removed from Veiling Oddity while it's exiled, creatures can't be blocked this turn.",
@@ -2697,6 +2748,7 @@
     {
       "name": "Venarian Glimmer",
       "manaCost": "{X}{U}",
+      "sortedManaCost": "{X}{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target player reveals their hand. You choose a nonland card with mana value X or less from it. That player discards that card.",
@@ -2750,6 +2802,7 @@
     {
       "name": "Wistful Thinking",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Target player draws two cards, then discards four cards.",
@@ -2803,6 +2856,7 @@
     {
       "name": "Frozen Aether",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Artifacts, creatures, and lands your opponents control enter the battlefield tapped.",
@@ -2856,6 +2910,7 @@
     {
       "name": "Gossamer Phantasm",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Illusion",
       "text": "Flying<br>When Gossamer Phantasm becomes the target of a spell or ability, sacrifice it.",
@@ -2909,6 +2964,7 @@
     {
       "name": "Merfolk Thaumaturgist",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Merfolk Wizard",
       "text": "{T}: Switch target creature's power and toughness until end of turn.",
@@ -2962,6 +3018,7 @@
     {
       "name": "Ovinize",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Until end of turn, target creature loses all abilities and has base power and toughness 0/1.",
@@ -3015,6 +3072,7 @@
     {
       "name": "Piracy Charm",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Choose one -<br>• Target creature gains islandwalk until end of turn. (It can't be blocked as long as defending player controls an Island.)<br>• Target creature gets +2/-1 until end of turn.<br>• Target player discards a card.",
@@ -3067,6 +3125,7 @@
     {
       "name": "Primal Plasma",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Elemental Shapeshifter",
       "text": "As Primal Plasma enters the battlefield, it becomes your choice of a 3/3 creature, a 2/2 creature with flying, or a 1/6 creature with defender.",
@@ -3120,6 +3179,7 @@
     {
       "name": "Riptide Pilferer",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Rogue",
       "text": "Whenever Riptide Pilferer deals combat damage to a player, that player discards a card.<br>Morph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -3172,6 +3232,7 @@
     {
       "name": "Serendib Sorcerer",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "{T}: Target creature other than Serendib Sorcerer has base power and toughness 0/2 until end of turn.",
@@ -3225,6 +3286,7 @@
     {
       "name": "Serra Sphinx",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Creature - Sphinx",
       "text": "Flying, vigilance",
@@ -3278,6 +3340,7 @@
     {
       "name": "Big Game Hunter",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Human Rebel Assassin",
       "text": "When Big Game Hunter enters the battlefield, destroy target creature with power 4 or greater. It can't be regenerated.<br>Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
@@ -3330,6 +3393,7 @@
     {
       "name": "Blightspeaker",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Rebel Cleric",
       "text": "{T}: Target player loses 1 life.<br>{4}, {T}: Search your library for a Rebel permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.",
@@ -3383,6 +3447,7 @@
     {
       "name": "Brain Gorgers",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Zombie",
       "text": "When you cast this spell, any player may sacrifice a creature. If a player does, counter Brain Gorgers.<br>Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
@@ -3436,6 +3501,7 @@
     {
       "name": "Circle of Affliction",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "As Circle of Affliction enters the battlefield, choose a color.<br>Whenever a source of the chosen color deals damage to you, you may pay {1}. If you do, target player loses 1 life and you gain 1 life.",
@@ -3488,6 +3554,7 @@
     {
       "name": "Cradle to Grave",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target nonblack creature that entered the battlefield this turn.",
@@ -3541,6 +3608,7 @@
     {
       "name": "Dash Hopes",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "When you cast this spell, any player may pay 5 life. If a player does, counter Dash Hopes.<br>Counter target spell.",
@@ -3594,6 +3662,7 @@
     {
       "name": "Deadly Grub",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Insect",
       "text": "Vanishing 3 (This creature enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)<br>When Deadly Grub dies, if it had no time counters on it, create a 6/1 green Insect creature token with shroud. (It can't be the target of spells or abilities.)",
@@ -3646,6 +3715,7 @@
     {
       "name": "Enslave",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>You control enchanted creature.<br>At the beginning of your upkeep, enchanted creature deals 1 damage to its owner.",
@@ -3698,6 +3768,7 @@
     {
       "name": "Extirpate",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)<br>Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for all cards with the same name as that card and exile them. Then that player shuffles.",
@@ -3750,6 +3821,7 @@
     {
       "name": "Imp's Mischief",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Change the target of target spell with a single target. You lose life equal to that spell's mana value.",
@@ -3803,6 +3875,7 @@
     {
       "name": "Magus of the Coffers",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Human Wizard",
       "text": "{2}, {T}: Add {B} for each Swamp you control.",
@@ -3856,6 +3929,7 @@
     {
       "name": "Midnight Charm",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Choose one -<br>• Midnight Charm deals 1 damage to target creature and you gain 1 life.<br>• Target creature gains first strike until end of turn.<br>• Tap target creature.",
@@ -3908,6 +3982,7 @@
     {
       "name": "Mirri the Cursed",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Legendary Creature - Vampire Cat",
       "text": "Flying, first strike, haste<br>Whenever Mirri the Cursed deals combat damage to a creature, put a +1/+1 counter on Mirri the Cursed.",
@@ -3961,9 +4036,10 @@
     {
       "name": "Muck Drubb",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Beast",
-      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>When Muck Drubb enters the battlefield, change the target of target spell that targets only a single creature to Muck Drubb.<br>Madness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+      "text": "Flash<br>When Muck Drubb enters the battlefield, change the target of target spell that targets only a single creature to Muck Drubb.<br>Madness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
       "rarity": "U",
@@ -4013,6 +4089,7 @@
     {
       "name": "Phantasmagorian",
       "manaCost": "{5}{B}{B}",
+      "sortedManaCost": "{5}{B}{B}",
       "cmc": 7,
       "type": "Creature - Horror",
       "text": "When you cast this spell, any player may discard three cards. If a player does, counter Phantasmagorian.<br>Discard three cards: Return Phantasmagorian from your graveyard to your hand.",
@@ -4065,6 +4142,7 @@
     {
       "name": "Ridged Kusite",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Horror Spellshaper",
       "text": "{1}{B}, {T}, Discard a card: Target creature gets +1/+0 and gains first strike until end of turn.",
@@ -4118,6 +4196,7 @@
     {
       "name": "Roiling Horror",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Horror",
       "text": "Roiling Horror's power and toughness are each equal to your life total minus the life total of an opponent with the most life.<br>Suspend X-{X}{B}{B}{B}. X can't be 0. (Rather than cast this card from your hand, you may pay {X}{B}{B}{B} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>Whenever a time counter is removed from Roiling Horror while it's exiled, target player loses 1 life and you gain 1 life.",
@@ -4170,6 +4249,7 @@
     {
       "name": "Spitting Sliver",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Sliver",
       "text": "All Sliver creatures have first strike.",
@@ -4223,6 +4303,7 @@
     {
       "name": "Temporal Extortion",
       "manaCost": "{B}{B}{B}{B}",
+      "sortedManaCost": "{B}{B}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "When you cast this spell, any player may pay half their life, rounded up. If a player does, counter Temporal Extortion.<br>Take an extra turn after this one.",
@@ -4276,6 +4357,7 @@
     {
       "name": "Treacherous Urge",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Instant",
       "text": "Target opponent reveals their hand. You may put a creature card from it onto the battlefield under your control. That creature gains haste. Sacrifice it at the beginning of the next end step.",
@@ -4328,6 +4410,7 @@
     {
       "name": "Waning Wurm",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Zombie Wurm",
       "text": "Vanishing 2 (This creature enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
@@ -4380,6 +4463,7 @@
     {
       "name": "Bog Serpent",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Serpent",
       "text": "Bog Serpent can't attack unless defending player controls a Swamp.<br>When you control no Swamps, sacrifice Bog Serpent.",
@@ -4433,6 +4517,7 @@
     {
       "name": "Damnation",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all creatures. They can't be regenerated.",
@@ -4485,6 +4570,7 @@
     {
       "name": "Dunerider Outlaw",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Creature - Human Rebel Rogue",
       "text": "Protection from green<br>At the beginning of each end step, if Dunerider Outlaw dealt damage to an opponent this turn, put a +1/+1 counter on it.",
@@ -4538,6 +4624,7 @@
     {
       "name": "Kor Dirge",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "All damage that would be dealt this turn to target creature you control by a source of your choice is dealt to another target creature instead.",
@@ -4591,6 +4678,7 @@
     {
       "name": "Melancholy",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When Melancholy enters the battlefield, tap enchanted creature.<br>Enchanted creature doesn't untap during its controller's untap step.<br>At the beginning of your upkeep, sacrifice Melancholy unless you pay {B}.",
@@ -4643,6 +4731,7 @@
     {
       "name": "Null Profusion",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "Skip your draw step.<br>Whenever you play a card, draw a card.<br>Your maximum hand size is two.",
@@ -4696,6 +4785,7 @@
     {
       "name": "Rathi Trapper",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Rebel Rogue",
       "text": "{B}, {T}: Tap target creature.",
@@ -4749,6 +4839,7 @@
     {
       "name": "Shrouded Lore",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target opponent chooses a card in your graveyard. You may pay {B}. If you do, repeat this process except that opponent can't choose a card already chosen for Shrouded Lore. Then put the last chosen card into your hand.",
@@ -4801,6 +4892,7 @@
     {
       "name": "Vampiric Link",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Whenever enchanted creature deals damage, you gain that much life.",
@@ -4854,6 +4946,7 @@
     {
       "name": "Aether Membrane",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Wall",
       "text": "Defender; reach (This creature can block creatures with flying.)<br>Whenever Aether Membrane blocks a creature, return that creature to its owner's hand at end of combat.",
@@ -4906,6 +4999,7 @@
     {
       "name": "Akroma, Angel of Fury",
       "manaCost": "{5}{R}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}{R}",
       "cmc": 8,
       "type": "Legendary Creature - Angel",
       "text": "This spell can't be countered.<br>Flying, trample, protection from white and from blue<br>{R}: Akroma, Angel of Fury gets +1/+0 until end of turn.<br>Morph {3}{R}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -4958,6 +5052,7 @@
     {
       "name": "Battering Sliver",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Creature - Sliver",
       "text": "All Sliver creatures have trample.",
@@ -5011,6 +5106,7 @@
     {
       "name": "Detritivore",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Lhurgoyf",
       "text": "Detritivore's power and toughness are each equal to the number of nonbasic land cards in your opponents' graveyards.<br>Suspend X-{X}{3}{R}. X can't be 0. (Rather than cast this card from your hand, you may pay {X}{3}{R} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>Whenever a time counter is removed from Detritivore while it's exiled, destroy target nonbasic land.",
@@ -5063,6 +5159,7 @@
     {
       "name": "Dust Corona",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+0 and can't be blocked by creatures with flying.",
@@ -5116,6 +5213,7 @@
     {
       "name": "Fatal Frenzy",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Until end of turn, target creature you control gains trample and gets +X/+0, where X is its power. Sacrifice it at the beginning of the next end step.",
@@ -5169,6 +5267,7 @@
     {
       "name": "Firefright Mage",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Spellshaper",
       "text": "{1}{R}, {T}, Discard a card: Target creature can't be blocked this turn except by artifact creatures and/or red creatures.",
@@ -5222,6 +5321,7 @@
     {
       "name": "Fury Charm",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target artifact.<br>• Target creature gets +1/+1 and gains trample until end of turn.<br>• Remove two time counters from target permanent or suspended card.",
@@ -5274,6 +5374,7 @@
     {
       "name": "Hammerheim Deadeye",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Giant Warrior",
       "text": "Echo {5}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>When Hammerheim Deadeye enters the battlefield, destroy target creature with flying.",
@@ -5326,6 +5427,7 @@
     {
       "name": "Keldon Marauders",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Warrior",
       "text": "Vanishing 2 (This creature enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)<br>When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player or planeswalker.",
@@ -5378,6 +5480,7 @@
     {
       "name": "Lavacore Elemental",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Vanishing 1 (This creature enters the battlefield with a time counter on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)<br>Whenever a creature you control deals combat damage to a player, put a time counter on Lavacore Elemental.",
@@ -5430,6 +5533,7 @@
     {
       "name": "Magus of the Arena",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Human Wizard",
       "text": "{3}, {T}: Tap target creature you control and target creature of an opponent's choice they control. Those creatures fight each other. (Each deals damage equal to its power to the other.)",
@@ -5483,9 +5587,10 @@
     {
       "name": "Needlepeak Spider",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Spider",
-      "text": "Reach (This creature can block creatures with flying.)",
+      "text": "Reach",
       "flavor": "\"It's a testament to the forests' devastation that giant spiders now make their homes amid Dominaria's barren spires.\"<br>-Aznaph, greenseeker",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
@@ -5536,6 +5641,7 @@
     {
       "name": "Shivan Meteor",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Shivan Meteor deals 13 damage to target creature.<br>Suspend 2-{1}{R}{R} (Rather than cast this card from your hand, you may pay {1}{R}{R} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
@@ -5588,6 +5694,7 @@
     {
       "name": "Stingscourger",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Warrior",
       "text": "Echo {3}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>When Stingscourger enters the battlefield, return target creature an opponent controls to its owner's hand.",
@@ -5640,9 +5747,10 @@
     {
       "name": "Sulfur Elemental",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Elemental",
-      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)<br>White creatures get +1/-1.",
+      "text": "Flash<br>Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)<br>White creatures get +1/-1.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
       "rarity": "U",
@@ -5692,6 +5800,7 @@
     {
       "name": "Timecrafting",
       "manaCost": "{X}{R}",
+      "sortedManaCost": "{X}{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Choose one -<br>• Remove X time counters from target permanent or suspended card.<br>• Put X time counters on target permanent with a time counter on it or suspended card.",
@@ -5745,6 +5854,7 @@
     {
       "name": "Torchling",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Shapeshifter",
       "text": "{R}: Untap Torchling.<br>{R}: Target creature blocks Torchling this turn if able.<br>{R}: Change the target of target spell that targets only Torchling.<br>{1}: Torchling gets +1/-1 until end of turn.<br>{1}: Torchling gets -1/+1 until end of turn.",
@@ -5797,6 +5907,7 @@
     {
       "name": "Volcano Hellion",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Hellion",
       "text": "Volcano Hellion has echo {X}, where X is your life total. (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>When Volcano Hellion enters the battlefield, it deals an amount of damage of your choice to you and target creature. The damage can't be prevented.",
@@ -5849,6 +5960,7 @@
     {
       "name": "Boom",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Destroy target land you control and target land you don't control.",
@@ -5901,6 +6013,7 @@
     {
       "name": "Bust",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Destroy all lands.",
@@ -5953,6 +6066,7 @@
     {
       "name": "Dead",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Dead deals 2 damage to target creature.",
@@ -6005,6 +6119,7 @@
     {
       "name": "Gone",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Return target creature you don't control to its owner's hand.",
@@ -6057,6 +6172,7 @@
     {
       "name": "Rough",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Rough deals 2 damage to each creature without flying.",
@@ -6109,6 +6225,7 @@
     {
       "name": "Tumble",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Tumble deals 6 damage to each creature with flying.",
@@ -6161,6 +6278,7 @@
     {
       "name": "Blood Knight",
       "manaCost": "{R}{R}",
+      "sortedManaCost": "{R}{R}",
       "cmc": 2,
       "type": "Creature - Human Knight",
       "text": "First strike, protection from white",
@@ -6214,6 +6332,7 @@
     {
       "name": "Brute Force",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +3/+3 until end of turn.",
@@ -6267,6 +6386,7 @@
     {
       "name": "Molten Firebird",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Phoenix",
       "text": "Flying<br>When Molten Firebird dies, return it to the battlefield under its owner's control at the beginning of the next end step and you skip your next draw step.<br>{4}{R}: Exile Molten Firebird.",
@@ -6319,6 +6439,7 @@
     {
       "name": "Prodigal Pyromancer",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "{T}: Prodigal Pyromancer deals 1 damage to any target.",
@@ -6372,6 +6493,7 @@
     {
       "name": "Pyrohemia",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "At the beginning of the end step, if no creatures are on the battlefield, sacrifice Pyrohemia.<br>{R}: Pyrohemia deals 1 damage to each creature and each player.",
@@ -6424,6 +6546,7 @@
     {
       "name": "Reckless Wurm",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Wurm",
       "text": "Trample<br>Madness {2}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
@@ -6477,6 +6600,7 @@
     {
       "name": "Shivan Wumpus",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Beast",
       "text": "Trample<br>When Shivan Wumpus enters the battlefield, any player may sacrifice a land. If a player does, put Shivan Wumpus on top of its owner's library.",
@@ -6530,6 +6654,7 @@
     {
       "name": "Simian Spirit Guide",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Ape Spirit",
       "text": "Exile Simian Spirit Guide from your hand: Add {R}.",
@@ -6583,6 +6708,7 @@
     {
       "name": "Skirk Shaman",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Shaman",
       "text": "Skirk Shaman can't be blocked except by artifact creatures and/or red creatures.",
@@ -6636,6 +6762,7 @@
     {
       "name": "Ana Battlemage",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Kicker {2}{U} and/or {1}{B} (You may pay an additional {2}{U} and/or {1}{B} as you cast this spell.)<br>When Ana Battlemage enters the battlefield, if it was kicked with its {2}{U} kicker, target player discards three cards.<br>When Ana Battlemage enters the battlefield, if it was kicked with its {1}{B} kicker, tap target untapped creature and that creature deals damage equal to its power to its controller.",
@@ -6688,6 +6815,7 @@
     {
       "name": "Citanul Woodreaders",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Human Druid",
       "text": "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)<br>When Citanul Woodreaders enters the battlefield, if it was kicked, draw two cards.",
@@ -6741,6 +6869,7 @@
     {
       "name": "Deadwood Treefolk",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Creature - Treefolk",
       "text": "Vanishing 3 (This creature enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)<br>When Deadwood Treefolk enters the battlefield or leaves the battlefield, return another target creature card from your graveyard to your hand.",
@@ -6793,6 +6922,7 @@
     {
       "name": "Evolution Charm",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Search your library for a basic land card, reveal it, put it into your hand, then shuffle.<br>• Return target creature card from your graveyard to your hand.<br>• Target creature gains flying until end of turn.",
@@ -6845,6 +6975,7 @@
     {
       "name": "Fungal Behemoth",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Fungus",
       "text": "Fungal Behemoth's power and toughness are each equal to the number of +1/+1 counters on creatures you control.<br>Suspend X-{X}{G}{G}. X can't be 0. (Rather than cast this card from your hand, you may pay {X}{G}{G} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>Whenever a time counter is removed from Fungal Behemoth while it's exiled, you may put a +1/+1 counter on target creature.",
@@ -6897,6 +7028,7 @@
     {
       "name": "Giant Dustwasp",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Insect",
       "text": "Flying<br>Suspend 4-{1}{G} (Rather than cast this card from your hand, you may pay {1}{G} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)",
@@ -6949,9 +7081,10 @@
     {
       "name": "Hunting Wilds",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Sorcery",
-      "text": "Kicker {3}{G} (You may pay an additional {3}{G} as you cast this spell.)<br>Search your library for up to two Forest cards, put them onto the battlefield tapped, then shuffle your library.<br>If this spell was kicked, untap all Forests put onto the battlefield this way. They become 3/3 green creatures with haste that are still lands.",
+      "text": "Kicker {3}{G} (You may pay an additional {3}{G} as you cast this spell.)<br>Search your library for up to two Forest cards, put them onto the battlefield tapped, then shuffle.<br>If this spell was kicked, untap all Forests put onto the battlefield this way. They become 3/3 green creatures with haste that are still lands.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
       "rarity": "U",
@@ -7001,6 +7134,7 @@
     {
       "name": "Jedit Ojanen of Efrava",
       "manaCost": "{3}{G}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Cat Warrior",
       "text": "Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)<br>Whenever Jedit Ojanen of Efrava attacks or blocks, create a 2/2 green Cat Warrior creature token with forestwalk.",
@@ -7054,6 +7188,7 @@
     {
       "name": "Kavu Predator",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Kavu",
       "text": "Trample<br>Whenever an opponent gains life, put that many +1/+1 counters on Kavu Predator.",
@@ -7107,6 +7242,7 @@
     {
       "name": "Life and Limb",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "All Forests and all Saprolings are 1/1 green Saproling creatures and Forest lands in addition to their other types. (They're affected by summoning sickness.)",
@@ -7160,9 +7296,10 @@
     {
       "name": "Magus of the Library",
       "manaCost": "{G}{G}",
+      "sortedManaCost": "{G}{G}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
-      "text": "{T}: Add {C}.<br>{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.",
+      "text": "{T}: Add {C}.<br>{T}: Draw a card. Activate only if you have exactly seven cards in hand.",
       "flavor": "The ancient books slowly crumbled, their secrets turning to dust. But their every word sings within the magus's head.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
@@ -7213,9 +7350,10 @@
     {
       "name": "Mire Boa",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Snake",
-      "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)<br>{G}: Regenerate Mire Boa.",
+      "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)<br>{G}: Regenerate Mire Boa. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
       "flavor": "Mire slime courses through its veins in place of blood. No sooner does it bleed than it opens its mouth to replace the loss.",
       "expansion": "PLC",
       "scryfallSetCode": "PLC",
@@ -7266,6 +7404,7 @@
     {
       "name": "Pouncing Wurm",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Wurm",
       "text": "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)<br>If Pouncing Wurm was kicked, it enters the battlefield with three +1/+1 counters on it and with haste.",
@@ -7318,6 +7457,7 @@
     {
       "name": "Psychotrope Thallid",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Fungus",
       "text": "At the beginning of your upkeep, put a spore counter on Psychotrope Thallid.<br>Remove three spore counters from Psychotrope Thallid: Create a 1/1 green Saproling creature token.<br>{1}, Sacrifice a Saproling: Draw a card.",
@@ -7370,6 +7510,7 @@
     {
       "name": "Reflex Sliver",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Sliver",
       "text": "All Sliver creatures have haste.",
@@ -7423,6 +7564,7 @@
     {
       "name": "Sophic Centaur",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Centaur Spellshaper",
       "text": "{2}{G}{G}, {T}, Discard a card: You gain 2 life for each card in your hand.",
@@ -7476,6 +7618,7 @@
     {
       "name": "Timbermare",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elemental Horse",
       "text": "Haste<br>Echo {5}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>When Timbermare enters the battlefield, tap all other creatures.",
@@ -7529,6 +7672,7 @@
     {
       "name": "Uktabi Drake",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Drake",
       "text": "Flying, haste<br>Echo {1}{G}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)",
@@ -7581,6 +7725,7 @@
     {
       "name": "Utopia Vow",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't attack or block.<br>Enchanted creature has \"{T}: Add one mana of any color.\"",
@@ -7634,6 +7779,7 @@
     {
       "name": "Vitaspore Thallid",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Fungus",
       "text": "At the beginning of your upkeep, put a spore counter on Vitaspore Thallid.<br>Remove three spore counters from Vitaspore Thallid: Create a 1/1 green Saproling creature token.<br>Sacrifice a Saproling: Target creature gains haste until end of turn.",
@@ -7686,6 +7832,7 @@
     {
       "name": "Wild Pair",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "Whenever a creature enters the battlefield, if you cast it from your hand, you may search your library for a creature card with the same total power and toughness, put it onto the battlefield, then shuffle.",
@@ -7738,6 +7885,7 @@
     {
       "name": "Essence Warden",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Shaman",
       "text": "Whenever another creature enters the battlefield, you gain 1 life.",
@@ -7791,6 +7939,7 @@
     {
       "name": "Fa'adiyah Seer",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "{T}: Draw a card and reveal it. If it isn't a land card, discard it.",
@@ -7844,6 +7993,7 @@
     {
       "name": "Gaea's Anthem",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Creatures you control get +1/+1.",
@@ -7897,6 +8047,7 @@
     {
       "name": "Groundbreaker",
       "manaCost": "{G}{G}{G}",
+      "sortedManaCost": "{G}{G}{G}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Trample, haste<br>At the beginning of the end step, sacrifice Groundbreaker.",
@@ -7950,6 +8101,7 @@
     {
       "name": "Harmonize",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw three cards.",
@@ -8003,6 +8155,7 @@
     {
       "name": "Healing Leaves",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Choose one -<br>• Target player gains 3 life.<br>• Prevent the next 3 damage that would be dealt to any target this turn.",
@@ -8056,6 +8209,7 @@
     {
       "name": "Hedge Troll",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Troll Cleric",
       "text": "Hedge Troll gets +1/+1 as long as you control a Plains.<br>{W}: Regenerate Hedge Troll.",
@@ -8109,6 +8263,7 @@
     {
       "name": "Keen Sense",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Whenever enchanted creature deals damage to an opponent, you may draw a card.",
@@ -8162,6 +8317,7 @@
     {
       "name": "Seal of Primordium",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Sacrifice Seal of Primordium: Destroy target artifact or enchantment.",
@@ -8215,6 +8371,7 @@
     {
       "name": "Cautery Sliver",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "All Slivers have \"{1}, Sacrifice this permanent: This permanent deals 1 damage to any target.\"<br>All Slivers have \"{1}, Sacrifice this permanent: Prevent the next 1 damage that would be dealt to target player, planeswalker, or Sliver creature this turn.\"",
@@ -8267,6 +8424,7 @@
     {
       "name": "Darkheart Sliver",
       "manaCost": "{B}{G}",
+      "sortedManaCost": "{B}{G}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "All Slivers have \"Sacrifice this permanent: You gain 3 life.\"",
@@ -8320,6 +8478,7 @@
     {
       "name": "Dormant Sliver",
       "manaCost": "{2}{G}{U}",
+      "sortedManaCost": "{2}{U}{G}",
       "cmc": 4,
       "type": "Creature - Sliver",
       "text": "All Sliver creatures have defender.<br>All Slivers have \"When this permanent enters the battlefield, draw a card.\"",
@@ -8373,6 +8532,7 @@
     {
       "name": "Frenetic Sliver",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Creature - Sliver",
       "text": "All Slivers have \"{0}: If this permanent is on the battlefield, flip a coin. If you win the flip, exile this permanent and return it to the battlefield under its owner's control at the beginning of the next end step. If you lose the flip, sacrifice it.\"",
@@ -8425,6 +8585,7 @@
     {
       "name": "Intet, the Dreamer",
       "manaCost": "{3}{G}{U}{R}",
+      "sortedManaCost": "{3}{U}{R}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Intet, the Dreamer deals combat damage to a player, you may pay {2}{U}. If you do, exile the top card of your library face down. You may look at that card for as long as it remains exiled. You may play that card without paying its mana cost for as long as Intet remains on the battlefield.",
@@ -8477,6 +8638,7 @@
     {
       "name": "Necrotic Sliver",
       "manaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{W}{B}",
       "cmc": 3,
       "type": "Creature - Sliver",
       "text": "All Slivers have \"{3}, Sacrifice this permanent: Destroy target permanent.\"",
@@ -8530,6 +8692,7 @@
     {
       "name": "Numot, the Devastator",
       "manaCost": "{3}{U}{R}{W}",
+      "sortedManaCost": "{3}{W}{U}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Numot, the Devastator deals combat damage to a player, you may pay {2}{R}. If you do, destroy up to two target lands.",
@@ -8582,6 +8745,7 @@
     {
       "name": "Oros, the Avenger",
       "manaCost": "{3}{R}{W}{B}",
+      "sortedManaCost": "{3}{W}{B}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Oros, the Avenger deals combat damage to a player, you may pay {2}{W}. If you do, Oros deals 3 damage to each nonwhite creature.",
@@ -8634,6 +8798,7 @@
     {
       "name": "Radha, Heir to Keld",
       "manaCost": "{R}{G}",
+      "sortedManaCost": "{R}{G}",
       "cmc": 2,
       "type": "Legendary Creature - Elf Warrior",
       "text": "Whenever Radha, Heir to Keld attacks, you may add {R}{R}.<br>{T}: Add {G}.",
@@ -8687,6 +8852,7 @@
     {
       "name": "Teneb, the Harvester",
       "manaCost": "{3}{W}{B}{G}",
+      "sortedManaCost": "{3}{W}{B}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Teneb, the Harvester deals combat damage to a player, you may pay {2}{B}. If you do, put target creature card from a graveyard onto the battlefield under your control.",
@@ -8739,6 +8905,7 @@
     {
       "name": "Vorosh, the Hunter",
       "manaCost": "{3}{B}{G}{U}",
+      "sortedManaCost": "{3}{U}{B}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Vorosh, the Hunter deals combat damage to a player, you may pay {2}{G}. If you do, put six +1/+1 counters on Vorosh.",

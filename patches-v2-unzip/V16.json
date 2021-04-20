@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "from_the_vault",
-    "digest": "8ff0ac4c575c14b30b64bc68051ad950",
+    "digest": "7952efa81b48ebe3619c8b3291389219",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/V16_M.png"
     ]
@@ -19,9 +19,10 @@
     {
       "name": "Beseech the Queen",
       "manaCost": "{2B}{2B}{2B}",
+      "sortedManaCost": "{2B}{2B}{2B}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "({2/B} can be paid with any two mana or with {B}. This card's converted mana cost is 6.)<br>Search your library for a card with converted mana cost less than or equal to the number of lands you control, reveal it, and put it into your hand. Then shuffle your library.",
+      "text": "({2/B} can be paid with any two mana or with {B}. This card's mana value is 6.)<br>Search your library for a card with mana value less than or equal to the number of lands you control, reveal it, put it into your hand, then shuffle.",
       "flavor": "Those who hear her go mad with inspiration.",
       "expansion": "V16",
       "scryfallSetCode": "V16",
@@ -39,6 +40,7 @@
     {
       "name": "Cabal Ritual",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Add {B}{B}{B}.<br>Threshold - Add {B}{B}{B}{B}{B} instead if seven or more cards are in your graveyard.",
@@ -59,9 +61,10 @@
     {
       "name": "Conflux",
       "manaCost": "{3}{W}{U}{B}{R}{G}",
+      "sortedManaCost": "{3}{W}{U}{B}{R}{G}",
       "cmc": 8,
       "type": "Sorcery",
-      "text": "Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.",
+      "text": "Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards, put them into your hand, then shuffle.",
       "flavor": "\"It's self-indulgent, I admit, but I do like to watch my own symphony play itself out.\"<br>-Nicol Bolas",
       "expansion": "V16",
       "scryfallSetCode": "V16",
@@ -97,6 +100,7 @@
     {
       "name": "Glissa, the Traitor",
       "manaCost": "{B}{G}{G}",
+      "sortedManaCost": "{B}{G}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Zombie Elf",
       "text": "First strike, deathtouch<br>Whenever a creature an opponent controls dies, you may return target artifact card from your graveyard to your hand.",
@@ -118,6 +122,7 @@
     {
       "name": "Helvault",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Legendary Artifact",
       "text": "{1}, {T}: Exile target creature you control.<br>{7}, {T}: Exile target creature you don't control.<br>When Helvault is put into a graveyard from the battlefield, return all cards exiled with it to the battlefield under their owners' control.",
@@ -137,6 +142,7 @@
     {
       "name": "Memnarch",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Legendary Artifact Creature - Wizard",
       "text": "{1}{U}{U}: Target permanent becomes an artifact in addition to its other types. (This effect lasts indefinitely.)<br>{3}{U}: Gain control of target artifact. (This effect lasts indefinitely.)",
@@ -157,9 +163,10 @@
     {
       "name": "Mind's Desire",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. (If it has X in its mana cost, X is 0.)<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+      "text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
       "expansion": "V16",
       "scryfallSetCode": "V16",
       "rarity": "M",
@@ -176,6 +183,7 @@
     {
       "name": "Momir Vig, Simic Visionary",
       "manaCost": "{3}{G}{U}",
+      "sortedManaCost": "{3}{U}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Elf Wizard",
       "text": "Whenever you cast a green creature spell, you may search your library for a creature card, reveal it, then shuffle and put that card on top.<br>Whenever you cast a blue creature spell, reveal the top card of your library. If it's a creature card, put that card into your hand.",
@@ -196,6 +204,7 @@
     {
       "name": "Near-Death Experience",
       "manaCost": "{2}{W}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}{W}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, if you have exactly 1 life, you win the game.",
@@ -216,6 +225,7 @@
     {
       "name": "Obliterate",
       "manaCost": "{6}{R}{R}",
+      "sortedManaCost": "{6}{R}{R}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "This spell can't be countered.<br>Destroy all artifacts, creatures, and lands. They can't be regenerated.",
@@ -236,6 +246,7 @@
     {
       "name": "Phyrexian Processor",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "As Phyrexian Processor enters the battlefield, pay any amount of life.<br>{4}, {T}: Create an X/X black Minion creature token, where X is the life paid as Phyrexian Processor entered the battlefield.",
@@ -274,6 +285,7 @@
     {
       "name": "Umezawa's Jitte",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Legendary Artifact - Equipment",
       "text": "Whenever equipped creature deals combat damage, put two charge counters on Umezawa's Jitte.<br>Remove a charge counter from Umezawa's Jitte: Choose one -<br>• Equipped creature gets +2/+2 until end of turn.<br>• Target creature gets -1/-1 until end of turn.<br>• You gain 2 life.<br>Equip {2}",
@@ -293,6 +305,7 @@
     {
       "name": "Unmask",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "You may exile a black card from your hand rather than pay this spell's mana cost.<br>Target player reveals their hand. You choose a nonland card from it. That player discards that card.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "30746a567953984f2461019b3399c0ab",
+    "digest": "9f98a0ea27fdecf24e4a342e5d7a2f26",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AVB_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AVB_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Ajani Vengeant",
       "manaCost": "{2}{R}{W}",
+      "sortedManaCost": "{2}{W}{R}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Ajani",
       "text": "[+1]: Target permanent doesn't untap during its controller's next untap step.<br>[−2]: Ajani Vengeant deals 3 damage to any target and you gain 3 life.<br>[−7]: Destroy all lands target player controls.",
@@ -58,6 +59,7 @@
     {
       "name": "Kird Ape",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Ape",
       "text": "Kird Ape gets +1/+2 as long as you control a Forest.",
@@ -95,6 +97,7 @@
     {
       "name": "Essence Warden",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Shaman",
       "text": "Whenever another creature enters the battlefield, you gain 1 life.",
@@ -132,6 +135,7 @@
     {
       "name": "Wild Nacatl",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Cat Warrior",
       "text": "Wild Nacatl gets +1/+1 as long as you control a Mountain.<br>Wild Nacatl gets +1/+1 as long as you control a Plains.",
@@ -169,6 +173,7 @@
     {
       "name": "Loam Lion",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Cat",
       "text": "Loam Lion gets +1/+2 as long as you control a Forest.",
@@ -206,6 +211,7 @@
     {
       "name": "Canyon Wildcat",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Cat",
       "text": "Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)",
@@ -243,6 +249,7 @@
     {
       "name": "Jade Mage",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "{2}{G}: Create a 1/1 green Saproling creature token.",
@@ -280,9 +287,10 @@
     {
       "name": "Sylvan Ranger",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Scout",
-      "text": "When Sylvan Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Sylvan Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
       "flavor": "\"Not all paths are found on the forest floor.\"",
       "expansion": "AVB",
       "scryfallSetCode": "DDH",
@@ -317,6 +325,7 @@
     {
       "name": "Ajani's Pridemate",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Cat Soldier",
       "text": "Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate.",
@@ -354,6 +363,7 @@
     {
       "name": "Qasali Pridemage",
       "manaCost": "{G}{W}",
+      "sortedManaCost": "{W}{G}",
       "cmc": 2,
       "type": "Creature - Cat Wizard",
       "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)<br>{1}, Sacrifice Qasali Pridemage: Destroy target artifact or enchantment.",
@@ -391,6 +401,7 @@
     {
       "name": "Grazing Gladehart",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Antelope",
       "text": "Landfall - Whenever a land enters the battlefield under your control, you may gain 2 life.",
@@ -428,6 +439,7 @@
     {
       "name": "Fleetfoot Panther",
       "manaCost": "{1}{G}{W}",
+      "sortedManaCost": "{1}{W}{G}",
       "cmc": 3,
       "type": "Creature - Cat",
       "text": "Flash<br>When Fleetfoot Panther enters the battlefield, return a green or white creature you control to its owner's hand.",
@@ -464,6 +476,7 @@
     {
       "name": "Woolly Thoctar",
       "manaCost": "{R}{G}{W}",
+      "sortedManaCost": "{W}{R}{G}",
       "cmc": 3,
       "type": "Creature - Beast",
       "flavor": "One of the most ferocious and deadly gargantuans, the thoctar never sees its worshippers, but it often awakens surrounded by gifts and sacrifices.",
@@ -500,6 +513,7 @@
     {
       "name": "Briarhorn",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Flash<br>When Briarhorn enters the battlefield, target creature gets +3/+3 until end of turn.<br>Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -536,6 +550,7 @@
     {
       "name": "Loxodon Hierarch",
       "manaCost": "{2}{G}{W}",
+      "sortedManaCost": "{2}{W}{G}",
       "cmc": 4,
       "type": "Creature - Elephant Cleric",
       "text": "When Loxodon Hierarch enters the battlefield, you gain 4 life.<br>{G}{W}, Sacrifice Loxodon Hierarch: Regenerate each creature you control.",
@@ -573,6 +588,7 @@
     {
       "name": "Spitemare",
       "manaCost": "{2}{RW}{RW}",
+      "sortedManaCost": "{2}{RW}{RW}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Whenever Spitemare is dealt damage, it deals that much damage to any target.",
@@ -610,6 +626,7 @@
     {
       "name": "Marisi's Twinclaws",
       "manaCost": "{2}{RW}{G}",
+      "sortedManaCost": "{2}{G}{RW}",
       "cmc": 4,
       "type": "Creature - Cat Warrior",
       "text": "Double strike",
@@ -647,6 +664,7 @@
     {
       "name": "Ageless Entity",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Whenever you gain life, put that many +1/+1 counters on Ageless Entity.",
@@ -684,6 +702,7 @@
     {
       "name": "Pride of Lions",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Cat",
       "text": "You may have Pride of Lions assign its combat damage as though it weren't blocked.",
@@ -721,6 +740,7 @@
     {
       "name": "Nacatl Hunt-Pride",
       "manaCost": "{5}{W}",
+      "sortedManaCost": "{5}{W}",
       "cmc": 6,
       "type": "Creature - Cat Warrior",
       "text": "Vigilance<br>{R}, {T}: Target creature can't block this turn.<br>{G}, {T}: Target creature blocks this turn if able.",
@@ -758,6 +778,7 @@
     {
       "name": "Firemane Angel",
       "manaCost": "{3}{R}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}{R}",
       "cmc": 6,
       "type": "Creature - Angel",
       "text": "Flying, first strike<br>At the beginning of your upkeep, if Firemane Angel is in your graveyard or on the battlefield, you may gain 1 life.<br>{6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate only during your upkeep.",
@@ -794,6 +815,7 @@
     {
       "name": "Ajani's Mantra",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, you may gain 1 life.",
@@ -831,6 +853,7 @@
     {
       "name": "Lightning Helix",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Lightning Helix deals 3 damage to any target and you gain 3 life.",
@@ -868,6 +891,7 @@
     {
       "name": "Lead the Stampede",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.",
@@ -904,6 +928,7 @@
     {
       "name": "Griffin Guide",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has flying.<br>When enchanted creature dies, create a 2/2 white Griffin creature token with flying.",
@@ -940,6 +965,7 @@
     {
       "name": "Recumbent Bliss",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't attack or block.<br>At the beginning of your upkeep, you may gain 1 life.",
@@ -977,6 +1003,7 @@
     {
       "name": "Searing Meditation",
       "manaCost": "{1}{R}{W}",
+      "sortedManaCost": "{1}{W}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever you gain life, you may pay {2}. If you do, Searing Meditation deals 2 damage to any target.",
@@ -1014,6 +1041,7 @@
     {
       "name": "Behemoth Sledge",
       "manaCost": "{1}{G}{W}",
+      "sortedManaCost": "{1}{W}{G}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has trample and lifelink.<br>Equip {3}",
@@ -1051,6 +1079,7 @@
     {
       "name": "Naya Charm",
       "manaCost": "{R}{G}{W}",
+      "sortedManaCost": "{W}{R}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Naya Charm deals 3 damage to target creature.<br>• Return target card from a graveyard to its owner's hand.<br>• Tap all creatures target player controls.",
@@ -1088,6 +1117,7 @@
     {
       "name": "Sylvan Bounty",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Instant",
       "text": "Target player gains 8 life.<br>Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
@@ -1125,6 +1155,7 @@
     {
       "name": "Titanic Ultimatum",
       "manaCost": "{R}{R}{G}{G}{G}{W}{W}",
+      "sortedManaCost": "{W}{W}{R}{R}{G}{G}{G}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Until end of turn, creatures you control get +5/+5 and gain first strike, trample, and lifelink.",
@@ -1163,7 +1194,7 @@
       "name": "Evolving Wilds",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "flavor": "Every world is an organism, able to grow new lands. Some just do it faster than others.",
       "expansion": "AVB",
       "scryfallSetCode": "DDH",
@@ -1288,7 +1319,7 @@
       "name": "Sapseep Forest",
       "cmc": 0,
       "type": "Land - Forest",
-      "text": "({T}: Add {G}.)<br>Sapseep Forest enters the battlefield tapped.<br>{G}, {T}: You gain 1 life. Activate this ability only if you control two or more green permanents.",
+      "text": "({T}: Add {G}.)<br>Sapseep Forest enters the battlefield tapped.<br>{G}, {T}: You gain 1 life. Activate only if you control two or more green permanents.",
       "expansion": "AVB",
       "scryfallSetCode": "DDH",
       "rarity": "U",
@@ -1430,6 +1461,7 @@
     {
       "name": "Nicol Bolas, Planeswalker",
       "manaCost": "{4}{U}{B}{B}{R}",
+      "sortedManaCost": "{4}{U}{B}{B}{R}",
       "cmc": 8,
       "type": "Legendary Planeswalker - Bolas",
       "text": "[+3]: Destroy target noncreature permanent.<br>[−2]: Gain control of target creature.<br>[−9]: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents.",
@@ -1466,6 +1498,7 @@
     {
       "name": "Surveilling Sprite",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Faerie Rogue",
       "text": "Flying<br>When Surveilling Sprite dies, you may draw a card.",
@@ -1503,6 +1536,7 @@
     {
       "name": "Nightscape Familiar",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Zombie",
       "text": "Blue spells and red spells you cast cost {1} less to cast.<br>{1}{B}: Regenerate Nightscape Familiar.",
@@ -1540,6 +1574,7 @@
     {
       "name": "Slavering Nulls",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Zombie",
       "text": "Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.",
@@ -1577,6 +1612,7 @@
     {
       "name": "Brackwater Elemental",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "When Brackwater Elemental attacks or blocks, sacrifice it at the beginning of the next end step.<br>Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
@@ -1613,6 +1649,7 @@
     {
       "name": "Morgue Toad",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Frog",
       "text": "Sacrifice Morgue Toad: Add {U}{R}.",
@@ -1650,6 +1687,7 @@
     {
       "name": "Hellfire Mongrel",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Elemental Dog",
       "text": "At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to that player.",
@@ -1687,6 +1725,7 @@
     {
       "name": "Dimir Cutpurse",
       "manaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{U}{B}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "Whenever Dimir Cutpurse deals combat damage to a player, that player discards a card and you draw a card.",
@@ -1724,6 +1763,7 @@
     {
       "name": "Steamcore Weird",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Weird",
       "text": "When Steamcore Weird enters the battlefield, if {R} was spent to cast it, it deals 2 damage to any target.",
@@ -1761,6 +1801,7 @@
     {
       "name": "Moroii",
       "manaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{U}{B}",
       "cmc": 4,
       "type": "Creature - Vampire",
       "text": "Flying<br>At the beginning of your upkeep, you lose 1 life.",
@@ -1798,6 +1839,7 @@
     {
       "name": "Blazing Specter",
       "manaCost": "{2}{B}{R}",
+      "sortedManaCost": "{2}{B}{R}",
       "cmc": 4,
       "type": "Creature - Specter",
       "text": "Flying, haste<br>Whenever Blazing Specter deals combat damage to a player, that player discards a card.",
@@ -1834,6 +1876,7 @@
     {
       "name": "Fire-Field Ogre",
       "manaCost": "{1}{U}{B}{R}",
+      "sortedManaCost": "{1}{U}{B}{R}",
       "cmc": 4,
       "type": "Creature - Ogre Mutant",
       "text": "First strike<br>Unearth {U}{B}{R} ({U}{B}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
@@ -1870,6 +1913,7 @@
     {
       "name": "Shriekmaw",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>When Shriekmaw enters the battlefield, destroy target nonartifact, nonblack creature.<br>Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -1906,6 +1950,7 @@
     {
       "name": "Ogre Savant",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Ogre Wizard",
       "text": "When Ogre Savant enters the battlefield, if {U} was spent to cast it, return target creature to its owner's hand.",
@@ -1943,9 +1988,10 @@
     {
       "name": "Jhessian Zombies",
       "manaCost": "{4}{U}{B}",
+      "sortedManaCost": "{4}{U}{B}",
       "cmc": 6,
       "type": "Creature - Zombie",
-      "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, put it into your hand, then shuffle.)",
       "expansion": "AVB",
       "scryfallSetCode": "DDH",
       "rarity": "C",
@@ -1979,6 +2025,7 @@
     {
       "name": "Igneous Pouncer",
       "manaCost": "{4}{B}{R}",
+      "sortedManaCost": "{4}{B}{R}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "Haste<br>Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle.)",
@@ -2015,6 +2062,7 @@
     {
       "name": "Vapor Snag",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Return target creature to its owner's hand. Its controller loses 1 life.",
@@ -2052,6 +2100,7 @@
     {
       "name": "Countersquall",
       "manaCost": "{U}{B}",
+      "sortedManaCost": "{U}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target noncreature spell. Its controller loses 2 life.",
@@ -2089,6 +2138,7 @@
     {
       "name": "Obelisk of Grixis",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{T}: Add {U}, {B}, or {R}.",
@@ -2126,6 +2176,7 @@
     {
       "name": "Recoil",
       "manaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{U}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Return target permanent to its owner's hand. Then that player discards a card.",
@@ -2163,6 +2214,7 @@
     {
       "name": "Undermine",
       "manaCost": "{U}{U}{B}",
+      "sortedManaCost": "{U}{U}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Counter target spell. Its controller loses 3 life.",
@@ -2200,6 +2252,7 @@
     {
       "name": "Grixis Charm",
       "manaCost": "{U}{B}{R}",
+      "sortedManaCost": "{U}{B}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Return target permanent to its owner's hand.<br>• Target creature gets -4/-4 until end of turn.<br>• Creatures you control get +2/+0 until end of turn.",
@@ -2237,6 +2290,7 @@
     {
       "name": "Icy Manipulator",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{1}, {T}: Tap target artifact, creature, or land.",
@@ -2274,6 +2328,7 @@
     {
       "name": "Deep Analysis",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Target player draws two cards.<br>Flashback-{1}{U}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -2311,6 +2366,7 @@
     {
       "name": "Agonizing Demise",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)<br>Destroy target nonblack creature. It can't be regenerated. If this spell was kicked, Agonizing Demise deals damage equal to that creature's power to the creature's controller.",
@@ -2347,6 +2403,7 @@
     {
       "name": "Slave of Bolas",
       "manaCost": "{3}{UR}{B}",
+      "sortedManaCost": "{3}{B}{UR}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Gain control of target creature. Untap that creature. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
@@ -2384,6 +2441,7 @@
     {
       "name": "Elder Mastery",
       "manaCost": "{3}{U}{B}{R}",
+      "sortedManaCost": "{3}{U}{B}{R}",
       "cmc": 6,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +3/+3 and has flying.<br>Whenever enchanted creature deals damage to a player, that player discards two cards.",
@@ -2421,6 +2479,7 @@
     {
       "name": "Cruel Ultimatum",
       "manaCost": "{U}{U}{B}{B}{B}{R}{R}",
+      "sortedManaCost": "{U}{U}{B}{B}{B}{R}{R}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life.",
@@ -2458,9 +2517,10 @@
     {
       "name": "Profane Command",
       "manaCost": "{X}{B}{B}",
+      "sortedManaCost": "{X}{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "Choose two -<br>• Target player loses X life.<br>• Return target creature card with converted mana cost X or less from your graveyard to the battlefield.<br>• Target creature gets -X/-X until end of turn.<br>• Up to X target creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)",
+      "text": "Choose two -<br>• Target player loses X life.<br>• Return target creature card with mana value X or less from your graveyard to the battlefield.<br>• Target creature gets -X/-X until end of turn.<br>• Up to X target creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)",
       "expansion": "AVB",
       "scryfallSetCode": "DDH",
       "rarity": "R",
@@ -2494,6 +2554,7 @@
     {
       "name": "Spite",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 8,
       "type": "Instant",
       "text": "Counter target noncreature spell.",
@@ -2530,6 +2591,7 @@
     {
       "name": "Malice",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 8,
       "type": "Instant",
       "text": "Destroy target nonblack creature. It can't be regenerated.",
@@ -2566,6 +2628,7 @@
     {
       "name": "Pain",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Target player discards a card.",
@@ -2602,6 +2665,7 @@
     {
       "name": "Suffering",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Destroy target land.",
@@ -2638,6 +2702,7 @@
     {
       "name": "Rise",
       "manaCost": "{U}{B}",
+      "sortedManaCost": "{U}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Return target creature card from a graveyard and target creature on the battlefield to their owners' hands.",
@@ -2674,6 +2739,7 @@
     {
       "name": "Fall",
       "manaCost": "{B}{R}",
+      "sortedManaCost": "{B}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Target player reveals two cards at random from their hand, then discards each nonland card revealed this way.",
@@ -2782,7 +2848,7 @@
       "name": "Terramorphic Expanse",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "flavor": "Take two steps north into the unsettled future, south into the unquiet past, east into the present day, or west into the great unknown.",
       "expansion": "AVB",
       "scryfallSetCode": "DDH",

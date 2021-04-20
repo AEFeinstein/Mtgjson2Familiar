@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "12135adb9548a009ffa9e6f7bbdbf877",
+    "digest": "13573042d82f2fc26b795f39fe68d402",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GVL_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GVL_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Garruk Wildspeaker",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Garruk",
       "text": "[+1]: Untap two target lands.<br>[−1]: Create a 3/3 green Beast creature token.<br>[−4]: Creatures you control get +3/+3 and gain trample until end of turn.",
@@ -41,9 +42,10 @@
     {
       "name": "Basking Rootwalla",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Lizard",
-      "text": "{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.<br>Madness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+      "text": "{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate only once each turn.<br>Madness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
       "expansion": "GVL",
       "scryfallSetCode": "DDD",
       "rarity": "C",
@@ -60,6 +62,7 @@
     {
       "name": "Albino Troll",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Troll",
       "text": "Echo {1}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>{1}{G}: Regenerate Albino Troll.",
@@ -79,6 +82,7 @@
     {
       "name": "Vine Trellis",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Plant Wall",
       "text": "Defender (This creature can't attack.)<br>{T}: Add {G}.",
@@ -99,6 +103,7 @@
     {
       "name": "Wild Mongrel",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Dog",
       "text": "Discard a card: Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn.",
@@ -119,6 +124,7 @@
     {
       "name": "Wirewood Savage",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf",
       "text": "Whenever a Beast enters the battlefield, you may draw a card.",
@@ -139,6 +145,7 @@
     {
       "name": "Blastoderm",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Beast",
       "text": "Shroud (This creature can't be the target of spells or abilities.)<br>Fading 3 (This creature enters the battlefield with three fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)",
@@ -158,6 +165,7 @@
     {
       "name": "Ravenous Baloth",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Beast",
       "text": "Sacrifice a Beast: You gain 4 life.",
@@ -178,6 +186,7 @@
     {
       "name": "Stampeding Wildebeests",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Antelope Beast",
       "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)<br>At the beginning of your upkeep, return a green creature you control to its owner's hand.",
@@ -198,6 +207,7 @@
     {
       "name": "Indrik Stomphowler",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Beast",
       "text": "When Indrik Stomphowler enters the battlefield, destroy target artifact or enchantment.",
@@ -218,9 +228,10 @@
     {
       "name": "Krosan Tusker",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Boar Beast",
-      "text": "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)<br>When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library. (Do this before you draw.)",
+      "text": "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)<br>When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle. (Do this before you draw.)",
       "expansion": "GVL",
       "scryfallSetCode": "DDD",
       "rarity": "C",
@@ -237,6 +248,7 @@
     {
       "name": "Plated Slagwurm",
       "manaCost": "{4}{G}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}{G}",
       "cmc": 7,
       "type": "Creature - Wurm",
       "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)",
@@ -257,6 +269,7 @@
     {
       "name": "Genju of the Cedars",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant Forest<br>{2}: Enchanted Forest becomes a 4/4 green Spirit creature until end of turn. It's still a land.<br>When enchanted Forest is put into a graveyard, you may return Genju of the Cedars from your graveyard to your hand.",
@@ -276,6 +289,7 @@
     {
       "name": "Giant Growth",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +3/+3 until end of turn.",
@@ -295,6 +309,7 @@
     {
       "name": "Rancor",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+0 and has trample.<br>When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.",
@@ -315,6 +330,7 @@
     {
       "name": "Lignify",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Tribal Enchantment - Treefolk Aura",
       "text": "Enchant creature<br>Enchanted creature is a Treefolk with base power and toughness 0/4 and loses all abilities.",
@@ -335,9 +351,10 @@
     {
       "name": "Nature's Lore",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "Search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.",
+      "text": "Search your library for a Forest card, put that card onto the battlefield, then shuffle.",
       "flavor": "Nature's secrets can be read on every tree, every branch, every leaf.",
       "expansion": "GVL",
       "scryfallSetCode": "DDD",
@@ -355,6 +372,7 @@
     {
       "name": "Elephant Guide",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +3/+3.<br>When enchanted creature dies, create a 3/3 green Elephant creature token.",
@@ -375,6 +393,7 @@
     {
       "name": "Invigorate",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "If you control a Forest, rather than pay this spell's mana cost, you may have an opponent gain 3 life.<br>Target creature gets +4/+4 until end of turn.",
@@ -394,6 +413,7 @@
     {
       "name": "Serrated Arrows",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "Serrated Arrows enters the battlefield with three arrowhead counters on it.<br>At the beginning of your upkeep, if there are no arrowhead counters on Serrated Arrows, sacrifice it.<br>{T}, Remove an arrowhead counter from Serrated Arrows: Put a -1/-1 counter on target creature.",
@@ -413,6 +433,7 @@
     {
       "name": "Harmonize",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw three cards.",
@@ -433,6 +454,7 @@
     {
       "name": "Rude Awakening",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Choose one -<br>• Untap all lands you control.<br>• Until end of turn, lands you control become 2/2 creatures that are still lands.<br>Entwine {2}{G} (Choose both if you pay the entwine cost.)",
@@ -452,6 +474,7 @@
     {
       "name": "Beast Attack",
       "manaCost": "{2}{G}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{G}",
       "cmc": 5,
       "type": "Instant",
       "text": "Create a 4/4 green Beast creature token.<br>Flashback {2}{G}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -471,6 +494,7 @@
     {
       "name": "Overrun",
       "manaCost": "{2}{G}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Creatures you control get +3/+3 and gain trample until end of turn.",
@@ -491,6 +515,7 @@
     {
       "name": "Windstorm",
       "manaCost": "{X}{G}",
+      "sortedManaCost": "{X}{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Windstorm deals X damage to each creature with flying.",
@@ -619,6 +644,7 @@
     {
       "name": "Liliana Vess",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Liliana",
       "text": "[+1]: Target player discards a card.<br>[−2]: Search your library for a card, then shuffle and put that card on top.<br>[−8]: Put all creature cards from all graveyards onto the battlefield under your control.",
@@ -638,6 +664,7 @@
     {
       "name": "Deathgreeter",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Human Shaman",
       "text": "Whenever another creature dies, you may gain 1 life.",
@@ -658,6 +685,7 @@
     {
       "name": "Ghost-Lit Stalker",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Spirit",
       "text": "{4}{B}, {T}: Target player discards two cards. Activate only as a sorcery.<br>Channel - {5}{B}{B}, Discard Ghost-Lit Stalker: Target player discards four cards. Activate only as a sorcery.",
@@ -677,6 +705,7 @@
     {
       "name": "Vampire Bats",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Bat",
       "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)<br>{B}: Vampire Bats gets +1/+0 until end of turn. Activate no more than twice each turn.",
@@ -696,6 +725,7 @@
     {
       "name": "Drudge Skeletons",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Skeleton",
       "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
@@ -716,6 +746,7 @@
     {
       "name": "Ravenous Rats",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Rat",
       "text": "When Ravenous Rats enters the battlefield, target opponent discards a card.",
@@ -736,6 +767,7 @@
     {
       "name": "Fleshbag Marauder",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Zombie Warrior",
       "text": "When Fleshbag Marauder enters the battlefield, each player sacrifices a creature.",
@@ -756,6 +788,7 @@
     {
       "name": "Phyrexian Rager",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Horror",
       "text": "When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life.",
@@ -776,6 +809,7 @@
     {
       "name": "Urborg Syphon-Mage",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Human Spellshaper",
       "text": "{2}{B}, {T}, Discard a card: Each other player loses 2 life. You gain life equal to the life lost this way.",
@@ -796,6 +830,7 @@
     {
       "name": "Wall of Bone",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Skeleton Wall",
       "text": "Defender (This creature can't attack.)<br>{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
@@ -816,6 +851,7 @@
     {
       "name": "Faerie Macabre",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Faerie Rogue",
       "text": "Flying<br>Discard Faerie Macabre: Exile up to two target cards from graveyards.",
@@ -836,6 +872,7 @@
     {
       "name": "Howling Banshee",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Spirit",
       "text": "Flying<br>When Howling Banshee enters the battlefield, each player loses 3 life.",
@@ -856,6 +893,7 @@
     {
       "name": "Keening Banshee",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Spirit",
       "text": "Flying<br>When Keening Banshee enters the battlefield, target creature gets -2/-2 until end of turn.",
@@ -876,6 +914,7 @@
     {
       "name": "Twisted Abomination",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Zombie Mutant",
       "text": "{B}: Regenerate Twisted Abomination.<br>Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
@@ -895,6 +934,7 @@
     {
       "name": "Skeletal Vampire",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Creature - Vampire Skeleton",
       "text": "Flying<br>When Skeletal Vampire enters the battlefield, create two 1/1 black Bat creature tokens with flying.<br>{3}{B}{B}, Sacrifice a Bat: Create two 1/1 black Bat creature tokens with flying.<br>Sacrifice a Bat: Regenerate Skeletal Vampire.",
@@ -914,6 +954,7 @@
     {
       "name": "Genju of the Fens",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant Swamp<br>{2}: Until end of turn, enchanted Swamp becomes a 2/2 black Spirit creature with \"{B}: This creature gets +1/+1 until end of turn.\" It's still a land.<br>When enchanted Swamp is put into a graveyard, you may return Genju of the Fens from your graveyard to your hand.",
@@ -933,6 +974,7 @@
     {
       "name": "Bad Moon",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Black creatures get +1/+1.",
@@ -952,6 +994,7 @@
     {
       "name": "Sign in Blood",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target player draws two cards and loses 2 life.",
@@ -972,6 +1015,7 @@
     {
       "name": "Vicious Hunger",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Vicious Hunger deals 2 damage to target creature and you gain 2 life.",
@@ -992,6 +1036,7 @@
     {
       "name": "Ichor Slick",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Target creature gets -3/-3 until end of turn.<br>Cycling {2} ({2}, Discard this card: Draw a card.)<br>Madness {3}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
@@ -1011,6 +1056,7 @@
     {
       "name": "Hideous End",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target nonblack creature. Its controller loses 2 life.",
@@ -1031,6 +1077,7 @@
     {
       "name": "Snuff Out",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "If you control a Swamp, you may pay 4 life rather than pay this spell's mana cost.<br>Destroy target nonblack creature. It can't be regenerated.",
@@ -1051,6 +1098,7 @@
     {
       "name": "Tendrils of Corruption",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control.",
@@ -1071,6 +1119,7 @@
     {
       "name": "Mutilate",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "All creatures get -1/-1 until end of turn for each Swamp you control.",
@@ -1091,6 +1140,7 @@
     {
       "name": "Rise from the Grave",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Put target creature card from a graveyard onto the battlefield under your control. That creature is a black Zombie in addition to its other colors and types.",
@@ -1111,6 +1161,7 @@
     {
       "name": "Corrupt",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Corrupt deals damage to any target equal to the number of Swamps you control. You gain life equal to the damage dealt this way.",
@@ -1131,6 +1182,7 @@
     {
       "name": "Enslave",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>You control enchanted creature.<br>At the beginning of your upkeep, enchanted creature deals 1 damage to its owner.",

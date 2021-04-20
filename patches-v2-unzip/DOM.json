@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "c7f4f9a1084f31861a268aa2aed1361e",
+    "digest": "219a445a81480a73a8cc6223e92f6e92",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DOM_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DOM_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Karn, Scion of Urza",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Karn",
       "text": "[+1]: Reveal the top two cards of your library. An opponent chooses one of them. Put that card into your hand and exile the other with a silver counter on it.<br>[−1]: Put a card you own with a silver counter on it from exile into your hand.<br>[−2]: Create a 0/0 colorless Construct artifact creature token with \"This creature gets +1/+1 for each artifact you control.\"",
@@ -82,6 +83,7 @@
     {
       "name": "Adamant Will",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +2/+2 and gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
@@ -143,6 +145,7 @@
     {
       "name": "Aven Sentry",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Bird Soldier",
       "text": "Flying",
@@ -204,9 +207,10 @@
     {
       "name": "Baird, Steward of Argive",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Soldier",
-      "text": "Vigilance<br>Creatures can't attack you or a planeswalker you control unless their controller pays {1} for each of those creatures.",
+      "text": "Vigilance<br>Creatures can't attack you or planeswalkers you control unless their controller pays {1} for each of those creatures.",
       "flavor": "\"The walls of Argive were built by a peaceful dynastic union that has guarded us against war for fifteen centuries. The lesson is clear.\"",
       "expansion": "DOM",
       "scryfallSetCode": "DOM",
@@ -265,6 +269,7 @@
     {
       "name": "Benalish Honor Guard",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Knight",
       "text": "Benalish Honor Guard gets +1/+0 for each legendary creature you control.",
@@ -326,6 +331,7 @@
     {
       "name": "Benalish Marshal",
       "manaCost": "{W}{W}{W}",
+      "sortedManaCost": "{W}{W}{W}",
       "cmc": 3,
       "type": "Creature - Human Knight",
       "text": "Other creatures you control get +1/+1.",
@@ -387,6 +393,7 @@
     {
       "name": "Blessed Light",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Instant",
       "text": "Exile target creature or enchantment.",
@@ -448,6 +455,7 @@
     {
       "name": "Board the Weatherlight",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Look at the top five cards of your library. You may reveal a historic card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (Artifacts, legendaries, and Sagas are historic.)",
@@ -509,6 +517,7 @@
     {
       "name": "Call the Cavalry",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Create two 2/2 white Knight creature tokens with vigilance.",
@@ -570,6 +579,7 @@
     {
       "name": "Charge",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Creatures you control get +1/+1 until end of turn.",
@@ -631,6 +641,7 @@
     {
       "name": "D'Avenant Trapper",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Archer",
       "text": "Whenever you cast a historic spell, tap target creature an opponent controls. (Artifacts, legendaries, and Sagas are historic.)",
@@ -692,6 +703,7 @@
     {
       "name": "Danitha Capashen, Paragon",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Human Knight",
       "text": "First strike, vigilance, lifelink<br>Aura and Equipment spells you cast cost {1} less to cast.",
@@ -753,6 +765,7 @@
     {
       "name": "Daring Archaeologist",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Artificer",
       "text": "When Daring Archaeologist enters the battlefield, you may return target artifact card from your graveyard to your hand.<br>Whenever you cast a historic spell, put a +1/+1 counter on Daring Archaeologist. (Artifacts, legendaries, and Sagas are historic.)",
@@ -813,6 +826,7 @@
     {
       "name": "Dauntless Bodyguard",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Knight",
       "text": "As Dauntless Bodyguard enters the battlefield, choose another creature you control.<br>Sacrifice Dauntless Bodyguard: The chosen creature gains indestructible until end of turn.",
@@ -874,6 +888,7 @@
     {
       "name": "Dub",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to its other types. (It deals combat damage before creatures without first strike.)",
@@ -935,6 +950,7 @@
     {
       "name": "Evra, Halcyon Witness",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Avatar",
       "text": "Lifelink<br>{4}: Exchange your life total with Evra, Halcyon Witness's power.",
@@ -996,6 +1012,7 @@
     {
       "name": "Excavation Elephant",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Elephant",
       "text": "Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)<br>When Excavation Elephant enters the battlefield, if it was kicked, return target artifact card from your graveyard to your hand.",
@@ -1056,6 +1073,7 @@
     {
       "name": "Fall of the Thran",
       "manaCost": "{5}{W}",
+      "sortedManaCost": "{5}{W}",
       "cmc": 6,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I - Destroy all lands.<br>II, III - Each player returns two land cards from their graveyard to the battlefield.",
@@ -1116,6 +1134,7 @@
     {
       "name": "Gideon's Reproach",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Gideon's Reproach deals 4 damage to target attacking or blocking creature.",
@@ -1177,6 +1196,7 @@
     {
       "name": "Healing Grace",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Prevent the next 3 damage that would be dealt to any target this turn by a source of your choice. You gain 3 life.",
@@ -1238,6 +1258,7 @@
     {
       "name": "History of Benalia",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I, II - Create a 2/2 white Knight creature token with vigilance.<br>III - Knights you control get +2/+1 until end of turn.",
@@ -1298,6 +1319,7 @@
     {
       "name": "Invoke the Divine",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target artifact or enchantment. You gain 4 life.",
@@ -1359,6 +1381,7 @@
     {
       "name": "Knight of Grace",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Knight",
       "text": "First strike<br>Hexproof from black (This creature can't be the target of black spells or abilities your opponents control.)<br>Knight of Grace gets +1/+0 as long as any player controls a black permanent.",
@@ -1420,6 +1443,7 @@
     {
       "name": "Knight of New Benalia",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Knight",
       "flavor": "The mage-smiths of New Benalia have perfected the art of blending fine steel and enchanted glass into weapons that are both beautiful and deadly. Only elite knights are entrusted with these martial works of art.",
@@ -1480,6 +1504,7 @@
     {
       "name": "Kwende, Pride of Femeref",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Knight",
       "text": "Double strike<br>Creatures you control with first strike have double strike.",
@@ -1541,6 +1566,7 @@
     {
       "name": "Lyra Dawnbringer",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Angel",
       "text": "Flying, first strike, lifelink<br>Other Angels you control get +1/+1 and have lifelink.",
@@ -1602,6 +1628,7 @@
     {
       "name": "Mesa Unicorn",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Unicorn",
       "text": "Lifelink",
@@ -1663,6 +1690,7 @@
     {
       "name": "On Serra's Wings",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Legendary Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature is legendary, gets +1/+1, and has flying, vigilance, and lifelink.",
@@ -1724,6 +1752,7 @@
     {
       "name": "Pegasus Courser",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Pegasus",
       "text": "Flying<br>Whenever Pegasus Courser attacks, another target attacking creature gains flying until end of turn.",
@@ -1785,6 +1814,7 @@
     {
       "name": "Sanctum Spirit",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Spirit",
       "text": "Lifelink<br>Discard a historic card: Sanctum Spirit gains indestructible until end of turn. (Artifacts, legendaries, and Sagas are historic.)",
@@ -1846,6 +1876,7 @@
     {
       "name": "Seal Away",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Flash<br>When Seal Away enters the battlefield, exile target tapped creature an opponent controls until Seal Away leaves the battlefield.",
@@ -1907,6 +1938,7 @@
     {
       "name": "Sergeant-at-Arms",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Soldier",
       "text": "Kicker {2}{W} (You may pay an additional {2}{W} as you cast this spell.)<br>When Sergeant-at-Arms enters the battlefield, if it was kicked, create two 1/1 white Soldier creature tokens.",
@@ -1968,6 +2000,7 @@
     {
       "name": "Serra Angel",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Angel",
       "text": "Flying, vigilance",
@@ -2029,6 +2062,7 @@
     {
       "name": "Serra Disciple",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Bird Cleric",
       "text": "Flying, first strike<br>Whenever you cast a historic spell, Serra Disciple gets +1/+1 until end of turn. (Artifacts, legendaries, and Sagas are historic.)",
@@ -2090,6 +2124,7 @@
     {
       "name": "Shalai, Voice of Plenty",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Angel",
       "text": "Flying<br>You, planeswalkers you control, and other creatures you control have hexproof.<br>{4}{G}{G}: Put a +1/+1 counter on each creature you control.",
@@ -2150,9 +2185,10 @@
     {
       "name": "Teshar, Ancestor's Apostle",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Bird Cleric",
-      "text": "Flying<br>Whenever you cast a historic spell, return target creature card with converted mana cost 3 or less from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)",
+      "text": "Flying<br>Whenever you cast a historic spell, return target creature card with mana value 3 or less from your graveyard to the battlefield. (Artifacts, legendaries, and Sagas are historic.)",
       "flavor": "\"The Ancestor saved us for a purpose.\"",
       "expansion": "DOM",
       "scryfallSetCode": "DOM",
@@ -2211,6 +2247,7 @@
     {
       "name": "Tragic Poet",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human",
       "text": "{T}, Sacrifice Tragic Poet: Return target enchantment card from your graveyard to your hand.",
@@ -2272,6 +2309,7 @@
     {
       "name": "Triumph of Gerrard",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I, II - Put a +1/+1 counter on target creature you control with the greatest power.<br>III - Target creature you control with the greatest power gains flying, first strike, and lifelink until end of turn.",
@@ -2332,6 +2370,7 @@
     {
       "name": "Urza's Ruinous Blast",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Legendary Sorcery",
       "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)<br>Exile all nonland permanents that aren't legendary.",
@@ -2393,6 +2432,7 @@
     {
       "name": "Academy Drake",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Drake",
       "text": "Kicker {4} (You may pay an additional {4} as you cast this spell.)<br>Flying<br>If Academy Drake was kicked, it enters the battlefield with two +1/+1 counters on it.",
@@ -2453,6 +2493,7 @@
     {
       "name": "Academy Journeymage",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Human Wizard",
       "text": "This spell costs {1} less to cast if you control a Wizard.<br>When Academy Journeymage enters the battlefield, return target creature an opponent controls to its owner's hand.",
@@ -2514,6 +2555,7 @@
     {
       "name": "The Antiquities War",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I, II - Look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.<br>III - Artifacts you control become artifact creatures with base power and toughness 5/5 until end of turn.",
@@ -2574,6 +2616,7 @@
     {
       "name": "Arcane Flight",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+1 and has flying.",
@@ -2635,6 +2678,7 @@
     {
       "name": "Artificer's Assistant",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Bird",
       "text": "Flying<br>Whenever you cast a historic spell, scry 1. (Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)",
@@ -2695,6 +2739,7 @@
     {
       "name": "Befuddle",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target creature gets -4/-0 until end of turn.<br>Draw a card.",
@@ -2756,6 +2801,7 @@
     {
       "name": "Blink of an Eye",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)<br>Return target nonland permanent to its owner's hand. If this spell was kicked, draw a card.",
@@ -2816,6 +2862,7 @@
     {
       "name": "Cloudreader Sphinx",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Sphinx",
       "text": "Flying<br>When Cloudreader Sphinx enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
@@ -2876,6 +2923,7 @@
     {
       "name": "Cold-Water Snapper",
       "manaCost": "{5}{U}",
+      "sortedManaCost": "{5}{U}",
       "cmc": 6,
       "type": "Creature - Turtle",
       "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)",
@@ -2937,6 +2985,7 @@
     {
       "name": "Curator's Ward",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant permanent<br>Enchanted permanent has hexproof.<br>When enchanted permanent leaves the battlefield, if it was historic, draw two cards. (Artifacts, legendaries, and Sagas are historic.)",
@@ -2997,6 +3046,7 @@
     {
       "name": "Deep Freeze",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has base power and toughness 0/4, has defender, loses all other abilities, and is a blue Wall in addition to its other colors and types.",
@@ -3058,6 +3108,7 @@
     {
       "name": "Diligent Excavator",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Artificer",
       "text": "Whenever you cast a historic spell, target player mills two cards. (Artifacts, legendaries, and Sagas are historic.)",
@@ -3119,6 +3170,7 @@
     {
       "name": "Divination",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Draw two cards.",
@@ -3180,6 +3232,7 @@
     {
       "name": "Homarid Explorer",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Homarid Scout",
       "text": "When Homarid Explorer enters the battlefield, target player mills four cards.",
@@ -3241,6 +3294,7 @@
     {
       "name": "In Bolas's Clutches",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Legendary Enchantment - Aura",
       "text": "Enchant permanent<br>You control enchanted permanent.<br>Enchanted permanent is legendary.",
@@ -3303,6 +3357,7 @@
     {
       "name": "Karn's Temporal Sundering",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Legendary Sorcery",
       "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)<br>Target player takes an extra turn after this one. Return up to one target nonland permanent to its owner's hand. Exile Karn's Temporal Sundering.",
@@ -3364,6 +3419,7 @@
     {
       "name": "Merfolk Trickster",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Wizard",
       "text": "Flash<br>When Merfolk Trickster enters the battlefield, tap target creature an opponent controls. It loses all abilities until end of turn.",
@@ -3425,6 +3481,7 @@
     {
       "name": "The Mirari Conjecture",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I - Return target instant card from your graveyard to your hand.<br>II - Return target sorcery card from your graveyard to your hand.<br>III - Until end of turn, whenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy.",
@@ -3485,6 +3542,7 @@
     {
       "name": "Naban, Dean of Iteration",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Legendary Creature - Human Wizard",
       "text": "If a Wizard entering the battlefield under your control causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
@@ -3546,6 +3604,7 @@
     {
       "name": "Naru Meha, Master Wizard",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Wizard",
       "text": "Flash<br>When Naru Meha, Master Wizard enters the battlefield, copy target instant or sorcery spell you control. You may choose new targets for the copy.<br>Other Wizards you control get +1/+1.",
@@ -3606,6 +3665,7 @@
     {
       "name": "Opt",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Scry 1.<br>Draw a card.",
@@ -3667,6 +3727,7 @@
     {
       "name": "Precognition Field",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "You may look at the top card of your library any time.<br>You may cast instant and sorcery spells from the top of your library.<br>{3}: Exile the top card of your library.",
@@ -3727,6 +3788,7 @@
     {
       "name": "Relic Runner",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Rogue",
       "text": "Relic Runner can't be blocked if you've cast a historic spell this turn. (Artifacts, legendaries, and Sagas are historic.)",
@@ -3788,6 +3850,7 @@
     {
       "name": "Rescue",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Return target permanent you control to its owner's hand.",
@@ -3849,6 +3912,7 @@
     {
       "name": "Sage of Lat-Nam",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Artificer",
       "text": "{T}, Sacrifice an artifact: Draw a card.",
@@ -3910,6 +3974,7 @@
     {
       "name": "Sentinel of the Pearl Trident",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Merfolk Soldier",
       "text": "Flash<br>When Sentinel of the Pearl Trident enters the battlefield, you may exile target historic permanent you control. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step. (Artifacts, legendaries, and Sagas are historic.)",
@@ -3970,6 +4035,7 @@
     {
       "name": "Slinn Voda, the Rising Deep",
       "manaCost": "{6}{U}{U}",
+      "sortedManaCost": "{6}{U}{U}",
       "cmc": 8,
       "type": "Legendary Creature - Leviathan",
       "text": "Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)<br>When Slinn Voda, the Rising Deep enters the battlefield, if it was kicked, return all creatures to their owners' hands except for Merfolk, Krakens, Leviathans, Octopuses, and Serpents.",
@@ -4030,6 +4096,7 @@
     {
       "name": "Syncopate",
       "manaCost": "{X}{U}",
+      "sortedManaCost": "{X}{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
@@ -4091,6 +4158,7 @@
     {
       "name": "Tempest Djinn",
       "manaCost": "{U}{U}{U}",
+      "sortedManaCost": "{U}{U}{U}",
       "cmc": 3,
       "type": "Creature - Djinn",
       "text": "Flying<br>Tempest Djinn gets +1/+0 for each basic Island you control.",
@@ -4152,6 +4220,7 @@
     {
       "name": "Tetsuko Umezawa, Fugitive",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Legendary Creature - Human Rogue",
       "text": "Creatures you control with power or toughness 1 or less can't be blocked.",
@@ -4213,6 +4282,7 @@
     {
       "name": "Time of Ice",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I, II - Tap target creature an opponent controls. It doesn't untap during its controller's untap step for as long as you control Time of Ice.<br>III - Return all tapped creatures to their owners' hands.",
@@ -4273,6 +4343,7 @@
     {
       "name": "Tolarian Scholar",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "flavor": "The Tolarian Academies embrace a tradition of study and research while discouraging the kinds of experiments that ruined the original island of Tolaria.",
@@ -4333,6 +4404,7 @@
     {
       "name": "Unwind",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Counter target noncreature spell. Untap up to three lands.",
@@ -4394,6 +4466,7 @@
     {
       "name": "Vodalian Arcanist",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Wizard",
       "text": "{T}: Add {C}. Spend this mana only to cast an instant or sorcery spell.",
@@ -4455,6 +4528,7 @@
     {
       "name": "Weight of Memory",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Draw three cards. Target player mills three cards.",
@@ -4516,6 +4590,7 @@
     {
       "name": "Wizard's Retort",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "This spell costs {1} less to cast if you control a Wizard.<br>Counter target spell.",
@@ -4577,6 +4652,7 @@
     {
       "name": "Zahid, Djinn of the Lamp",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Djinn",
       "text": "You may pay {3}{U} and tap an untapped artifact you control rather than pay this spell's mana cost.<br>Flying",
@@ -4638,6 +4714,7 @@
     {
       "name": "Blessing of Belzenlok",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +2/+1 until end of turn. If it's legendary, it also gains lifelink until end of turn.",
@@ -4699,6 +4776,7 @@
     {
       "name": "Cabal Evangel",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "flavor": "\"All hail the Demonlord Belzenlok, Evincar of the Stronghold, Scion of Darkness, Doom of Fools, Lord of the Wastes, Master of the Ebon Hand, Eternal Patriarch of the Cabal . . .\"",
@@ -4759,6 +4837,7 @@
     {
       "name": "Cabal Paladin",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Human Knight",
       "text": "Whenever you cast a historic spell, Cabal Paladin deals 2 damage to each opponent. (Artifacts, legendaries, and Sagas are historic.)",
@@ -4820,6 +4899,7 @@
     {
       "name": "Caligo Skin-Witch",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "Kicker {3}{B} (You may pay an additional {3}{B} as you cast this spell.)<br>When Caligo Skin-Witch enters the battlefield, if it was kicked, each opponent discards two cards.",
@@ -4881,6 +4961,7 @@
     {
       "name": "Cast Down",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target nonlegendary creature.",
@@ -4942,6 +5023,7 @@
     {
       "name": "Chainer's Torment",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I, II - Chainer's Torment deals 2 damage to each opponent and you gain 2 life.<br>III - Create an X/X black Nightmare Horror creature token, where X is half your life total, rounded up. It deals X damage to you.",
@@ -5002,6 +5084,7 @@
     {
       "name": "Dark Bargain",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Look at the top three cards of your library. Put two of them into your hand and the other into your graveyard. Dark Bargain deals 2 damage to you.",
@@ -5063,6 +5146,7 @@
     {
       "name": "Deathbloom Thallid",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Fungus",
       "text": "When Deathbloom Thallid dies, create a 1/1 green Saproling creature token.",
@@ -5124,6 +5208,7 @@
     {
       "name": "Demonic Vigor",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+1.<br>When enchanted creature dies, return that card to its owner's hand.",
@@ -5185,9 +5270,10 @@
     {
       "name": "Demonlord Belzenlok",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Elder Demon",
-      "text": "Flying, trample<br>When Demonlord Belzenlok enters the battlefield, exile cards from the top of your library until you exile a nonland card, then put that card into your hand. If the card's converted mana cost is 4 or greater, repeat this process. Demonlord Belzenlok deals 1 damage to you for each card put into your hand this way.",
+      "text": "Flying, trample<br>When Demonlord Belzenlok enters the battlefield, exile cards from the top of your library until you exile a nonland card, then put that card into your hand. If the card's mana value is 4 or greater, repeat this process. Demonlord Belzenlok deals 1 damage to you for each card put into your hand this way.",
       "expansion": "DOM",
       "scryfallSetCode": "DOM",
       "rarity": "M",
@@ -5245,6 +5331,7 @@
     {
       "name": "Divest",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You choose an artifact or creature card from it. That player discards that card.",
@@ -5306,6 +5393,7 @@
     {
       "name": "Dread Shade",
       "manaCost": "{B}{B}{B}",
+      "sortedManaCost": "{B}{B}{B}",
       "cmc": 3,
       "type": "Creature - Shade",
       "text": "{B}: Dread Shade gets +1/+1 until end of turn.",
@@ -5367,6 +5455,7 @@
     {
       "name": "Drudge Sentinel",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Skeleton Warrior",
       "text": "{3}: Tap Drudge Sentinel. It gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
@@ -5428,6 +5517,7 @@
     {
       "name": "The Eldest Reborn",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I - Each opponent sacrifices a creature or planeswalker.<br>II - Each opponent discards a card.<br>III - Put target creature or planeswalker card from a graveyard onto the battlefield under your control.",
@@ -5488,6 +5578,7 @@
     {
       "name": "Eviscerate",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy target creature.",
@@ -5549,6 +5640,7 @@
     {
       "name": "Feral Abomination",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Thrull",
       "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
@@ -5610,6 +5702,7 @@
     {
       "name": "Final Parting",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Search your library for two cards. Put one into your hand and the other into your graveyard. Then shuffle.",
@@ -5672,6 +5765,7 @@
     {
       "name": "Fungal Infection",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets -1/-1 until end of turn. Create a 1/1 green Saproling creature token.",
@@ -5733,6 +5827,7 @@
     {
       "name": "Josu Vess, Lich Knight",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Legendary Creature - Zombie Knight",
       "text": "Kicker {5}{B} (You may pay an additional {5}{B} as you cast this spell.)<br>Menace<br>When Josu Vess, Lich Knight enters the battlefield, if it was kicked, create eight 2/2 black Zombie Knight creature tokens with menace.",
@@ -5793,6 +5888,7 @@
     {
       "name": "Kazarov, Sengir Pureblood",
       "manaCost": "{5}{B}{B}",
+      "sortedManaCost": "{5}{B}{B}",
       "cmc": 7,
       "type": "Legendary Creature - Vampire",
       "text": "Flying<br>Whenever a creature an opponent controls is dealt damage, put a +1/+1 counter on Kazarov, Sengir Pureblood.<br>{3}{R}: Kazarov deals 2 damage to target creature.",
@@ -5853,6 +5949,7 @@
     {
       "name": "Knight of Malice",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Knight",
       "text": "First strike<br>Hexproof from white (This creature can't be the target of white spells or abilities your opponents control.)<br>Knight of Malice gets +1/+0 as long as any player controls a white permanent.",
@@ -5914,6 +6011,7 @@
     {
       "name": "Lich's Mastery",
       "manaCost": "{3}{B}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{B}",
       "cmc": 6,
       "type": "Legendary Enchantment",
       "text": "Hexproof<br>You can't lose the game.<br>Whenever you gain life, draw that many cards.<br>Whenever you lose life, for each 1 life you lost, exile a permanent you control or a card from your hand or graveyard.<br>When Lich's Mastery leaves the battlefield, you lose the game.",
@@ -5974,6 +6072,7 @@
     {
       "name": "Lingering Phantom",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Spirit",
       "text": "Whenever you cast a historic spell, you may pay {B}. If you do, return Lingering Phantom from your graveyard to your hand. (Artifacts, legendaries, and Sagas are historic.)",
@@ -6035,6 +6134,7 @@
     {
       "name": "Phyrexian Scriptures",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I - Put a +1/+1 counter on up to one target creature. That creature becomes an artifact in addition to its other types.<br>II - Destroy all nonartifact creatures.<br>III - Exile all cards from all opponents' graveyards.",
@@ -6096,6 +6196,7 @@
     {
       "name": "Rat Colony",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Rat",
       "text": "Rat Colony gets +1/+0 for each other Rat you control.<br>A deck can have any number of cards named Rat Colony.",
@@ -6157,6 +6258,7 @@
     {
       "name": "Rite of Belzenlok",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I, II - Create two 0/1 black Cleric creature tokens.<br>III - Create a 6/6 black Demon creature token with flying, trample, and \"At the beginning of your upkeep, sacrifice another creature. If you can't, this creature deals 6 damage to you.\"",
@@ -6217,6 +6319,7 @@
     {
       "name": "Settle the Score",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Exile target creature. Put two loyalty counters on a planeswalker you control.",
@@ -6279,6 +6382,7 @@
     {
       "name": "Soul Salvage",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Return up to two target creature cards from your graveyard to your hand.",
@@ -6340,6 +6444,7 @@
     {
       "name": "Stronghold Confessor",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Human Cleric",
       "text": "Kicker {3} (You may pay an additional {3} as you cast this spell.)<br>Menace (This creature can't be blocked except by two or more creatures.)<br>If Stronghold Confessor was kicked, it enters the battlefield with two +1/+1 counters on it.",
@@ -6400,6 +6505,7 @@
     {
       "name": "Thallid Omnivore",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Fungus",
       "text": "{1}, Sacrifice another creature: Thallid Omnivore gets +2/+2 until end of turn. If a Saproling was sacrificed this way, you gain 2 life.",
@@ -6461,6 +6567,7 @@
     {
       "name": "Thallid Soothsayer",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Fungus",
       "text": "{2}, Sacrifice a creature: Draw a card.",
@@ -6522,6 +6629,7 @@
     {
       "name": "Torgaar, Famine Incarnate",
       "manaCost": "{6}{B}{B}",
+      "sortedManaCost": "{6}{B}{B}",
       "cmc": 8,
       "type": "Legendary Creature - Avatar",
       "text": "As an additional cost to cast this spell, you may sacrifice any number of creatures. This spell costs {2} less to cast for each creature sacrificed this way.<br>When Torgaar, Famine Incarnate enters the battlefield, up to one target player's life total becomes half their starting life total, rounded down.",
@@ -6582,6 +6690,7 @@
     {
       "name": "Urgoros, the Empty One",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Specter",
       "text": "Flying<br>Whenever Urgoros, the Empty One deals combat damage to a player, that player discards a card at random. If the player can't, you draw a card.",
@@ -6643,6 +6752,7 @@
     {
       "name": "Vicious Offering",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Kicker-Sacrifice a creature. (You may sacrifice a creature in addition to any other costs as you cast this spell.)<br>Target creature gets -2/-2 until end of turn. If this spell was kicked, that creature gets -5/-5 until end of turn instead.",
@@ -6703,6 +6813,7 @@
     {
       "name": "Whisper, Blood Liturgist",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Legendary Creature - Human Cleric",
       "text": "{T}, Sacrifice two creatures: Return target creature card from your graveyard to the battlefield.",
@@ -6764,6 +6875,7 @@
     {
       "name": "Windgrace Acolyte",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Cat Warrior",
       "text": "Flying<br>When Windgrace Acolyte enters the battlefield, mill three cards and you gain 3 life.",
@@ -6825,6 +6937,7 @@
     {
       "name": "Yargle, Glutton of Urborg",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Legendary Creature - Frog Spirit",
       "flavor": "When Belzenlok's lieutenant Yar-Kul grew too ambitious, the Demonlord transformed him into a maggot. The frog that ate the maggot grew and grew, until a ravenous spirit burst from its body.",
@@ -6885,6 +6998,7 @@
     {
       "name": "Yawgmoth's Vile Offering",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Legendary Sorcery",
       "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)<br>Put up to one target creature or planeswalker card from a graveyard onto the battlefield under your control. Destroy up to one target creature or planeswalker. Exile Yawgmoth's Vile Offering.",
@@ -6946,6 +7060,7 @@
     {
       "name": "Bloodstone Goblin",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Warrior",
       "text": "Whenever you cast a spell, if that spell was kicked, Bloodstone Goblin gets +1/+1 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)",
@@ -7007,6 +7122,7 @@
     {
       "name": "Champion of the Flame",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Warrior",
       "text": "Trample<br>Champion of the Flame gets +2/+2 for each Aura and Equipment attached to it.",
@@ -7068,6 +7184,7 @@
     {
       "name": "Fervent Strike",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +1/+0 and gains first strike and haste until end of turn.",
@@ -7129,6 +7246,7 @@
     {
       "name": "Fiery Intervention",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Choose one -<br>• Fiery Intervention deals 5 damage to target creature.<br>• Destroy target artifact.",
@@ -7190,6 +7308,7 @@
     {
       "name": "Fight with Fire",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Kicker {5}{R} (You may pay an additional {5}{R} as you cast this spell.)<br>Fight with Fire deals 5 damage to target creature. If this spell was kicked, it deals 10 damage divided as you choose among any number of targets instead. (Those targets can include players and planeswalkers.)",
@@ -7250,6 +7369,7 @@
     {
       "name": "Fire Elemental",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "flavor": "\"The best way to learn from a book on pyromancy is to burn it.\"<br>-Jaya Ballard",
@@ -7310,6 +7430,7 @@
     {
       "name": "Firefist Adept",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Human Wizard",
       "text": "When Firefist Adept enters the battlefield, it deals X damage to target creature an opponent controls, where X is the number of Wizards you control.",
@@ -7371,6 +7492,7 @@
     {
       "name": "The First Eruption",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I - The First Eruption deals 1 damage to each creature without flying.<br>II - Add {R}{R}.<br>III - Sacrifice a Mountain. If you do, The First Eruption deals 3 damage to each creature.",
@@ -7431,6 +7553,7 @@
     {
       "name": "The Flame of Keld",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I - Discard your hand.<br>II - Draw two cards.<br>III - If a red source you control would deal damage to a permanent or player this turn, it deals that much damage plus 2 to that permanent or player instead.",
@@ -7491,6 +7614,7 @@
     {
       "name": "Frenzied Rage",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two or more creatures.)",
@@ -7552,6 +7676,7 @@
     {
       "name": "Ghitu Chronicler",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "Kicker {3}{R} (You may pay an additional {3}{R} as you cast this spell.)<br>When Ghitu Chronicler enters the battlefield, if it was kicked, return target instant or sorcery card from your graveyard to your hand.",
@@ -7613,6 +7738,7 @@
     {
       "name": "Ghitu Journeymage",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "When Ghitu Journeymage enters the battlefield, if you control another Wizard, Ghitu Journeymage deals 2 damage to each opponent.",
@@ -7674,6 +7800,7 @@
     {
       "name": "Ghitu Lavarunner",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Human Wizard",
       "text": "As long as there are two or more instant and/or sorcery cards in your graveyard, Ghitu Lavarunner gets +1/+0 and has haste.",
@@ -7735,6 +7862,7 @@
     {
       "name": "Goblin Barrage",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Kicker-Sacrifice an artifact or Goblin. (You may sacrifice an artifact or Goblin in addition to any other costs as you cast this spell.)<br>Goblin Barrage deals 4 damage to target creature. If this spell was kicked, it also deals 4 damage to target player or planeswalker.",
@@ -7795,6 +7923,7 @@
     {
       "name": "Goblin Chainwhirler",
       "manaCost": "{R}{R}{R}",
+      "sortedManaCost": "{R}{R}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Warrior",
       "text": "First strike<br>When Goblin Chainwhirler enters the battlefield, it deals 1 damage to each opponent and each creature and planeswalker they control.",
@@ -7856,6 +7985,7 @@
     {
       "name": "Goblin Warchief",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Warrior",
       "text": "Goblin spells you cast cost {1} less to cast.<br>Goblins you control have haste.",
@@ -7917,6 +8047,7 @@
     {
       "name": "Haphazard Bombardment",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "When Haphazard Bombardment enters the battlefield, choose four nonenchantment permanents you don't control and put an aim counter on each of them.<br>At the beginning of your end step, if two or more permanents you don't control have an aim counter on them, destroy one of those permanents at random.",
@@ -7977,6 +8108,7 @@
     {
       "name": "Jaya Ballard",
       "manaCost": "{2}{R}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}{R}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Jaya",
       "text": "[+1]: Add {R}{R}{R}. Spend this mana only to cast instant or sorcery spells.<br>[+1]: Discard up to three cards, then draw that many cards.<br>[−8]: You get an emblem with \"You may cast instant and sorcery spells from your graveyard. If a spell cast this way would be put into your graveyard, exile it instead.\"",
@@ -8037,6 +8169,7 @@
     {
       "name": "Jaya's Immolating Inferno",
       "manaCost": "{X}{R}{R}",
+      "sortedManaCost": "{X}{R}{R}",
       "cmc": 2,
       "type": "Legendary Sorcery",
       "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)<br>Jaya's Immolating Inferno deals X damage to each of up to three targets.",
@@ -8098,6 +8231,7 @@
     {
       "name": "Keldon Overseer",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
       "text": "Kicker {3}{R} (You may pay an additional {3}{R} as you cast this spell.)<br>Haste<br>When Keldon Overseer enters the battlefield, if it was kicked, gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
@@ -8158,6 +8292,7 @@
     {
       "name": "Keldon Raider",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Human Warrior",
       "text": "When Keldon Raider enters the battlefield, you may discard a card. If you do, draw a card.",
@@ -8219,6 +8354,7 @@
     {
       "name": "Keldon Warcaller",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Warrior",
       "text": "Whenever Keldon Warcaller attacks, put a lore counter on target Saga you control.",
@@ -8280,6 +8416,7 @@
     {
       "name": "Orcish Vandal",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Orc Warrior",
       "text": "{T}, Sacrifice an artifact: Orcish Vandal deals 2 damage to any target.",
@@ -8341,6 +8478,7 @@
     {
       "name": "Radiating Lightning",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Radiating Lightning deals 3 damage to target player and 1 damage to each creature that player controls.",
@@ -8402,6 +8540,7 @@
     {
       "name": "Rampaging Cyclops",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Cyclops",
       "text": "Rampaging Cyclops gets -2/-0 as long as two or more creatures are blocking it.",
@@ -8463,6 +8602,7 @@
     {
       "name": "Run Amok",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target attacking creature gets +3/+3 and gains trample until end of turn.",
@@ -8524,6 +8664,7 @@
     {
       "name": "Seismic Shift",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy target land. Up to two target creatures can't block this turn.",
@@ -8585,6 +8726,7 @@
     {
       "name": "Shivan Fire",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Kicker {4} (You may pay an additional {4} as you cast this spell.)<br>Shivan Fire deals 2 damage to target creature. If this spell was kicked, it deals 4 damage instead.",
@@ -8646,6 +8788,7 @@
     {
       "name": "Siege-Gang Commander",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Goblin",
       "text": "When Siege-Gang Commander enters the battlefield, create three 1/1 red Goblin creature tokens.<br>{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to any target.",
@@ -8707,6 +8850,7 @@
     {
       "name": "Skirk Prospector",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin",
       "text": "Sacrifice a Goblin: Add {R}.",
@@ -8768,6 +8912,7 @@
     {
       "name": "Skizzik",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Kicker {R} (You may pay an additional {R} as you cast this spell.)<br>Trample, haste<br>At the beginning of the end step, if Skizzik wasn't kicked, sacrifice it.",
@@ -8829,6 +8974,7 @@
     {
       "name": "Squee, the Immortal",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Goblin",
       "text": "You may cast Squee, the Immortal from your graveyard or from exile.",
@@ -8890,6 +9036,7 @@
     {
       "name": "Two-Headed Giant",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Giant Warrior",
       "text": "Whenever Two-Headed Giant attacks, flip two coins. If both coins come up heads, Two-Headed Giant gains double strike until end of turn. If both coins come up tails, Two-Headed Giant gains menace until end of turn.",
@@ -8951,6 +9098,7 @@
     {
       "name": "Valduk, Keeper of the Flame",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Human Shaman",
       "text": "At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, Keeper of the Flame, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step.",
@@ -9012,6 +9160,7 @@
     {
       "name": "Verix Bladewing",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Dragon",
       "text": "Kicker {3} (You may pay an additional {3} as you cast this spell.)<br>Flying<br>When Verix Bladewing enters the battlefield, if it was kicked, create Karox Bladewing, a legendary 4/4 red Dragon creature token with flying.",
@@ -9072,6 +9221,7 @@
     {
       "name": "Warcry Phoenix",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Phoenix",
       "text": "Flying, haste<br>Whenever you attack with three or more creatures, you may pay {2}{R}. If you do, return Warcry Phoenix from your graveyard to the battlefield tapped and attacking.",
@@ -9133,6 +9283,7 @@
     {
       "name": "Warlord's Fury",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Creatures you control gain first strike until end of turn.<br>Draw a card.",
@@ -9194,6 +9345,7 @@
     {
       "name": "Wizard's Lightning",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "This spell costs {2} less to cast if you control a Wizard.<br>Wizard's Lightning deals 3 damage to any target.",
@@ -9255,6 +9407,7 @@
     {
       "name": "Adventurous Impulse",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Look at the top three cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
@@ -9316,6 +9469,7 @@
     {
       "name": "Ancient Animus",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Put a +1/+1 counter on target creature you control if it's legendary. Then it fights target creature an opponent controls. (Each deals damage equal to its power to the other.)",
@@ -9377,6 +9531,7 @@
     {
       "name": "Arbor Armament",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Put a +1/+1 counter on target creature. That creature gains reach until end of turn.",
@@ -9438,6 +9593,7 @@
     {
       "name": "Baloth Gorger",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Beast",
       "text": "Kicker {4} (You may pay an additional {4} as you cast this spell.)<br>If Baloth Gorger was kicked, it enters the battlefield with three +1/+1 counters on it.",
@@ -9499,6 +9655,7 @@
     {
       "name": "Broken Bond",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Destroy target artifact or enchantment. You may put a land card from your hand onto the battlefield.",
@@ -9561,6 +9718,7 @@
     {
       "name": "Corrosive Ooze",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Ooze",
       "text": "Whenever Corrosive Ooze blocks or becomes blocked by an equipped creature, destroy all Equipment attached to that creature at end of combat.",
@@ -9622,6 +9780,7 @@
     {
       "name": "Elfhame Druid",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {G}.<br>{T}: Add {G}{G}. Spend this mana only to cast kicked spells.",
@@ -9683,6 +9842,7 @@
     {
       "name": "Fungal Plots",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "{1}{G}, Exile a creature card from your graveyard: Create a 1/1 green Saproling creature token.<br>Sacrifice two Saprolings: You gain 2 life and draw a card.",
@@ -9744,6 +9904,7 @@
     {
       "name": "Gaea's Blessing",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target player shuffles up to three target cards from their graveyard into their library.<br>Draw a card.<br>When Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library.",
@@ -9804,6 +9965,7 @@
     {
       "name": "Gaea's Protector",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elemental Warrior",
       "text": "Gaea's Protector must be blocked if able.",
@@ -9865,6 +10027,7 @@
     {
       "name": "Gift of Growth",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Kicker {2} (You may pay an additional {2} as you cast this spell.)<br>Untap target creature. It gets +2/+2 until end of turn. If this spell was kicked, that creature gets +4/+4 until end of turn instead.",
@@ -9925,9 +10088,10 @@
     {
       "name": "Grow from the Ashes",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
-      "text": "Kicker {2} (You may pay an additional {2} as you cast this spell.)<br>Search your library for a basic land card, put it onto the battlefield, then shuffle your library. If this spell was kicked, instead search your library for two basic land cards, put them onto the battlefield, then shuffle your library.",
+      "text": "Kicker {2} (You may pay an additional {2} as you cast this spell.)<br>Search your library for a basic land card, put it onto the battlefield, then shuffle. If this spell was kicked, instead search your library for two basic land cards, put them onto the battlefield, then shuffle.",
       "expansion": "DOM",
       "scryfallSetCode": "DOM",
       "rarity": "C",
@@ -9985,6 +10149,7 @@
     {
       "name": "Grunn, the Lonely King",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Ape Warrior",
       "text": "Kicker {3} (You may pay an additional {3} as you cast this spell.)<br>If Grunn, the Lonely King was kicked, it enters the battlefield with five +1/+1 counters on it.<br>Whenever Grunn attacks alone, double its power and toughness until end of turn.",
@@ -10045,9 +10210,10 @@
     {
       "name": "Kamahl's Druidic Vow",
       "manaCost": "{X}{G}{G}",
+      "sortedManaCost": "{X}{G}{G}",
       "cmc": 2,
       "type": "Legendary Sorcery",
-      "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)<br>Look at the top X cards of your library. You may put any number of land and/or legendary permanent cards with converted mana cost X or less from among them onto the battlefield. Put the rest into your graveyard.",
+      "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)<br>Look at the top X cards of your library. You may put any number of land and/or legendary permanent cards with mana value X or less from among them onto the battlefield. Put the rest into your graveyard.",
       "flavor": "Centuries ago, a barbarian laid his rage to rest.",
       "expansion": "DOM",
       "scryfallSetCode": "DOM",
@@ -10106,6 +10272,7 @@
     {
       "name": "Krosan Druid",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Centaur Druid",
       "text": "Kicker {4}{G} (You may pay an additional {4}{G} as you cast this spell.)<br>When Krosan Druid enters the battlefield, if it was kicked, you gain 10 life.",
@@ -10167,6 +10334,7 @@
     {
       "name": "Llanowar Elves",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {G}.",
@@ -10228,6 +10396,7 @@
     {
       "name": "Llanowar Envoy",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Scout",
       "text": "{1}{G}: Add one mana of any color.",
@@ -10289,6 +10458,7 @@
     {
       "name": "Llanowar Scout",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Scout",
       "text": "{T}: You may put a land card from your hand onto the battlefield.",
@@ -10350,6 +10520,7 @@
     {
       "name": "Mammoth Spider",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Spider",
       "text": "Reach (This creature can block creatures with flying.)",
@@ -10411,6 +10582,7 @@
     {
       "name": "Marwyn, the Nurturer",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Druid",
       "text": "Whenever another Elf enters the battlefield under your control, put a +1/+1 counter on Marwyn, the Nurturer.<br>{T}: Add an amount of {G} equal to Marwyn's power.",
@@ -10472,6 +10644,7 @@
     {
       "name": "The Mending of Dominaria",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I, II - Mill two cards, then you may return a creature card from your graveyard to your hand.<br>III - Return all land cards from your graveyard to the battlefield, then shuffle your graveyard into your library.",
@@ -10532,6 +10705,7 @@
     {
       "name": "Multani, Yavimaya's Avatar",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Elemental Avatar",
       "text": "Reach, trample<br>Multani, Yavimaya's Avatar gets +1/+1 for each land you control and each land card in your graveyard.<br>{1}{G}, Return two lands you control to their owner's hand: Return Multani from your graveyard to your hand.",
@@ -10592,6 +10766,7 @@
     {
       "name": "Nature's Spiral",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Return target permanent card from your graveyard to your hand.",
@@ -10653,6 +10828,7 @@
     {
       "name": "Pierce the Sky",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Pierce the Sky deals 7 damage to target creature with flying.",
@@ -10714,6 +10890,7 @@
     {
       "name": "Primordial Wurm",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Wurm",
       "flavor": "\"You can hear its tail thrashing from a mile away. Keep in mind that its jaws may already be half a mile closer.\"<br>-Jenson Carthalion, Yavimaya exile",
@@ -10774,6 +10951,7 @@
     {
       "name": "Saproling Migration",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Kicker {4} (You may pay an additional {4} as you cast this spell.)<br>Create two 1/1 green Saproling creature tokens. If this spell was kicked, create four of those tokens instead.",
@@ -10835,6 +11013,7 @@
     {
       "name": "Song of Freyalise",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment - Saga",
       "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I, II - Until your next turn, creatures you control gain \"{T}: Add one mana of any color.\"<br>III - Put a +1/+1 counter on each creature you control. Those creatures gain vigilance, trample, and indestructible until end of turn.",
@@ -10895,6 +11074,7 @@
     {
       "name": "Spore Swarm",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Instant",
       "text": "Create three 1/1 green Saproling creature tokens.",
@@ -10956,6 +11136,7 @@
     {
       "name": "Sporecrown Thallid",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Fungus",
       "text": "Each other creature you control that's a Fungus or Saproling gets +1/+1.",
@@ -11017,6 +11198,7 @@
     {
       "name": "Steel Leaf Champion",
       "manaCost": "{G}{G}{G}",
+      "sortedManaCost": "{G}{G}{G}",
       "cmc": 3,
       "type": "Creature - Elf Knight",
       "text": "Steel Leaf Champion can't be blocked by creatures with power 2 or less.",
@@ -11078,6 +11260,7 @@
     {
       "name": "Sylvan Awakening",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Until your next turn, all lands you control become 2/2 Elemental creatures with reach, indestructible, and haste. They're still lands.",
@@ -11139,6 +11322,7 @@
     {
       "name": "Territorial Allosaurus",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Dinosaur",
       "text": "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)<br>When Territorial Allosaurus enters the battlefield, if it was kicked, it fights another target creature.",
@@ -11200,6 +11384,7 @@
     {
       "name": "Thorn Elemental",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Elemental",
       "text": "You may have Thorn Elemental assign its combat damage as though it weren't blocked.",
@@ -11261,6 +11446,7 @@
     {
       "name": "Untamed Kavu",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Kavu",
       "text": "Kicker {3} (You may pay an additional {3} as you cast this spell.)<br>Vigilance, trample<br>If Untamed Kavu was kicked, it enters the battlefield with three +1/+1 counters on it.",
@@ -11321,6 +11507,7 @@
     {
       "name": "Verdant Force",
       "manaCost": "{5}{G}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}{G}",
       "cmc": 8,
       "type": "Creature - Elemental",
       "text": "At the beginning of each upkeep, create a 1/1 green Saproling creature token.",
@@ -11382,6 +11569,7 @@
     {
       "name": "Wild Onslaught",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Instant",
       "text": "Kicker {4} (You may pay an additional {4} as you cast this spell.)<br>Put a +1/+1 counter on each creature you control. If this spell was kicked, put two +1/+1 counters on each creature you control instead.",
@@ -11442,6 +11630,7 @@
     {
       "name": "Yavimaya Sapherd",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Fungus",
       "text": "When Yavimaya Sapherd enters the battlefield, create a 1/1 green Saproling creature token.",
@@ -11503,6 +11692,7 @@
     {
       "name": "Adeliz, the Cinder Wind",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Human Wizard",
       "text": "Flying, haste<br>Whenever you cast an instant or sorcery spell, Wizards you control get +1/+1 until end of turn.",
@@ -11564,6 +11754,7 @@
     {
       "name": "Arvad the Cursed",
       "manaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{W}{B}",
       "cmc": 5,
       "type": "Legendary Creature - Vampire Knight",
       "text": "Deathtouch, lifelink<br>Other legendary creatures you control get +2/+2.",
@@ -11625,6 +11816,7 @@
     {
       "name": "Aryel, Knight of Windgrace",
       "manaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{W}{B}",
       "cmc": 4,
       "type": "Legendary Creature - Human Knight",
       "text": "Vigilance<br>{2}{W}, {T}: Create a 2/2 white Knight creature token with vigilance.<br>{B}, {T}, Tap X untapped Knights you control: Destroy target creature with power X or less.",
@@ -11685,6 +11877,7 @@
     {
       "name": "Darigaaz Reincarnated",
       "manaCost": "{4}{B}{R}{G}",
+      "sortedManaCost": "{4}{B}{R}{G}",
       "cmc": 7,
       "type": "Legendary Creature - Dragon",
       "text": "Flying, trample, haste<br>If Darigaaz Reincarnated would die, instead exile it with three egg counters on it.<br>At the beginning of your upkeep, if Darigaaz is exiled with an egg counter on it, remove an egg counter from it. Then if Darigaaz has no egg counters on it, return it to the battlefield.",
@@ -11745,6 +11938,7 @@
     {
       "name": "Garna, the Bloodflame",
       "manaCost": "{3}{B}{R}",
+      "sortedManaCost": "{3}{B}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Human Warrior",
       "text": "Flash<br>When Garna, the Bloodflame enters the battlefield, return to your hand all creature cards in your graveyard that were put there from anywhere this turn.<br>Other creatures you control have haste.",
@@ -11805,6 +11999,7 @@
     {
       "name": "Grand Warlord Radha",
       "manaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{R}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Elf Warrior",
       "text": "Haste<br>Whenever one or more creatures you control attack, add that much mana in any combination of {R} and/or {G}. Until end of turn, you don't lose this mana as steps and phases end.",
@@ -11866,6 +12061,7 @@
     {
       "name": "Hallar, the Firefletcher",
       "manaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{R}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Archer",
       "text": "Trample<br>Whenever you cast a spell, if that spell was kicked, put a +1/+1 counter on Hallar, the Firefletcher, then Hallar deals damage equal to the number of +1/+1 counters on it to each opponent.",
@@ -11926,6 +12122,7 @@
     {
       "name": "Jhoira, Weatherlight Captain",
       "manaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{U}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Human Artificer",
       "text": "Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)",
@@ -11987,6 +12184,7 @@
     {
       "name": "Jodah, Archmage Eternal",
       "manaCost": "{1}{U}{R}{W}",
+      "sortedManaCost": "{1}{W}{U}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Human Wizard",
       "text": "Flying<br>You may pay {W}{U}{B}{R}{G} rather than pay the mana cost for spells that you cast.",
@@ -12048,6 +12246,7 @@
     {
       "name": "Muldrotha, the Gravetide",
       "manaCost": "{3}{B}{G}{U}",
+      "sortedManaCost": "{3}{U}{B}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Elemental Avatar",
       "text": "During each of your turns, you may play a land and cast a permanent spell of each permanent type from your graveyard. (If a card has multiple permanent types, choose one as you play it.)",
@@ -12109,6 +12308,7 @@
     {
       "name": "Oath of Teferi",
       "manaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{W}{U}",
       "cmc": 5,
       "type": "Legendary Enchantment",
       "text": "When Oath of Teferi enters the battlefield, exile another target permanent you control. Return it to the battlefield under its owner's control at the beginning of the next end step.<br>You may activate the loyalty abilities of planeswalkers you control twice each turn rather than only once.",
@@ -12170,6 +12370,7 @@
     {
       "name": "Primevals' Glorious Rebirth",
       "manaCost": "{5}{W}{B}",
+      "sortedManaCost": "{5}{W}{B}",
       "cmc": 7,
       "type": "Legendary Sorcery",
       "text": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)<br>Return all legendary permanent cards from your graveyard to the battlefield.",
@@ -12231,6 +12432,7 @@
     {
       "name": "Raff Capashen, Ship's Mage",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Wizard",
       "text": "Flash<br>Flying<br>You may cast historic spells as though they had flash. (Artifacts, legendaries, and Sagas are historic.)",
@@ -12291,6 +12493,7 @@
     {
       "name": "Rona, Disciple of Gix",
       "manaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{U}{B}",
       "cmc": 3,
       "type": "Legendary Creature - Human Artificer",
       "text": "When Rona, Disciple of Gix enters the battlefield, you may exile target historic card from your graveyard. (Artifacts, legendaries, and Sagas are historic.)<br>You may cast spells from among cards exiled with Rona.<br>{4}, {T}: Exile the top card of your library.",
@@ -12351,6 +12554,7 @@
     {
       "name": "Shanna, Sisay's Legacy",
       "manaCost": "{G}{W}",
+      "sortedManaCost": "{W}{G}",
       "cmc": 2,
       "type": "Legendary Creature - Human Warrior",
       "text": "Shanna, Sisay's Legacy can't be the target of abilities your opponents control.<br>Shanna gets +1/+1 for each creature you control.",
@@ -12412,6 +12616,7 @@
     {
       "name": "Slimefoot, the Stowaway",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Fungus",
       "text": "Whenever a Saproling you control dies, Slimefoot, the Stowaway deals 1 damage to each opponent and you gain 1 life.<br>{4}: Create a 1/1 green Saproling creature token.",
@@ -12473,6 +12678,7 @@
     {
       "name": "Tatyova, Benthic Druid",
       "manaCost": "{3}{G}{U}",
+      "sortedManaCost": "{3}{U}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Merfolk Druid",
       "text": "Whenever a land enters the battlefield under your control, you gain 1 life and draw a card.",
@@ -12534,6 +12740,7 @@
     {
       "name": "Teferi, Hero of Dominaria",
       "manaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{W}{U}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Teferi",
       "text": "[+1]: Draw a card. At the beginning of the next end step, untap up to two lands.<br>[−3]: Put target nonland permanent into its owner's library third from the top.<br>[−8]: You get an emblem with \"Whenever you draw a card, exile target permanent an opponent controls.\"",
@@ -12594,6 +12801,7 @@
     {
       "name": "Tiana, Ship's Caretaker",
       "manaCost": "{3}{R}{W}",
+      "sortedManaCost": "{3}{W}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Angel Artificer",
       "text": "Flying, first strike<br>Whenever an Aura or Equipment you control is put into a graveyard from the battlefield, you may return that card to its owner's hand at the beginning of the next end step.",
@@ -12655,6 +12863,7 @@
     {
       "name": "Aesthir Glider",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Bird Construct",
       "text": "Flying<br>Aesthir Glider can't block.",
@@ -12716,6 +12925,7 @@
     {
       "name": "Amaranthine Wall",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Wall",
       "text": "Defender<br>{2}: Amaranthine Wall gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
@@ -12777,6 +12987,7 @@
     {
       "name": "Blackblade Reforged",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Legendary Artifact - Equipment",
       "text": "Equipped creature gets +1/+1 for each land you control.<br>Equip legendary creature {3}<br>Equip {7}",
@@ -12838,6 +13049,7 @@
     {
       "name": "Bloodtallow Candle",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{6}, {T}, Sacrifice Bloodtallow Candle: Target creature gets -5/-5 until end of turn.",
@@ -12899,6 +13111,7 @@
     {
       "name": "Damping Sphere",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "If a land is tapped for two or more mana, it produces {C} instead of any other type and amount.<br>Each spell a player casts costs {1} more to cast for each other spell that player has cast this turn.",
@@ -12960,6 +13173,7 @@
     {
       "name": "Forebear's Blade",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +3/+0 and has vigilance and trample.<br>Whenever equipped creature dies, attach Forebear's Blade to target creature you control.<br>Equip {3}",
@@ -13020,6 +13234,7 @@
     {
       "name": "Gilded Lotus",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "{T}: Add three mana of any one color.",
@@ -13081,6 +13296,7 @@
     {
       "name": "Guardians of Koilos",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact Creature - Construct",
       "text": "When Guardians of Koilos enters the battlefield, you may return another target historic permanent you control to its owner's hand. (Artifacts, legendaries, and Sagas are historic.)",
@@ -13142,6 +13358,7 @@
     {
       "name": "Helm of the Host",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Legendary Artifact - Equipment",
       "text": "At the beginning of combat on your turn, create a token that's a copy of equipped creature, except the token isn't legendary if equipped creature is legendary. That token gains haste.<br>Equip {5}",
@@ -13203,6 +13420,7 @@
     {
       "name": "Howling Golem",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Golem",
       "text": "Whenever Howling Golem attacks or blocks, each player draws a card.",
@@ -13264,6 +13482,7 @@
     {
       "name": "Icy Manipulator",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{1}, {T}: Tap target artifact, creature, or land.",
@@ -13325,6 +13544,7 @@
     {
       "name": "Jhoira's Familiar",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Bird",
       "text": "Flying<br>Historic spells you cast cost {1} less to cast. (Artifacts, legendaries, and Sagas are historic.)",
@@ -13386,6 +13606,7 @@
     {
       "name": "Jousting Lance",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+0.<br>As long as it's your turn, equipped creature has first strike.<br>Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -13446,6 +13667,7 @@
     {
       "name": "Juggernaut",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Juggernaut",
       "text": "Juggernaut attacks each combat if able.<br>Juggernaut can't be blocked by Walls.",
@@ -13507,6 +13729,7 @@
     {
       "name": "Mishra's Self-Replicator",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact Creature - Assembly-Worker",
       "text": "Whenever you cast a historic spell, you may pay {1}. If you do, create a token that's a copy of Mishra's Self-Replicator. (Artifacts, legendaries, and Sagas are historic.)",
@@ -13568,6 +13791,7 @@
     {
       "name": "Mox Amber",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Legendary Artifact",
       "text": "{T}: Add one mana of any color among legendary creatures and planeswalkers you control.",
@@ -13629,6 +13853,7 @@
     {
       "name": "Navigator's Compass",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "When Navigator's Compass enters the battlefield, you gain 3 life.<br>{T}: Until end of turn, target land you control becomes the basic land type of your choice in addition to its other types.",
@@ -13690,6 +13915,7 @@
     {
       "name": "Pardic Wanderer",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Golem",
       "text": "Trample",
@@ -13751,6 +13977,7 @@
     {
       "name": "Powerstone Shard",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{T}: Add {C} for each artifact you control named Powerstone Shard.",
@@ -13812,6 +14039,7 @@
     {
       "name": "Shield of the Realm",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "If a source would deal damage to equipped creature, prevent 2 of that damage.<br>Equip {1}",
@@ -13873,6 +14101,7 @@
     {
       "name": "Short Sword",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+1.<br>Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -13934,9 +14163,10 @@
     {
       "name": "Skittering Surveyor",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Construct",
-      "text": "When Skittering Surveyor enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Skittering Surveyor enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
       "flavor": "Like a cross between a spider and a spyglass, but friendlier.",
       "expansion": "DOM",
       "scryfallSetCode": "DOM",
@@ -13995,6 +14225,7 @@
     {
       "name": "Sorcerer's Wand",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature has \"{T}: This creature deals 1 damage to target player or planeswalker. If this creature is a Wizard, it deals 2 damage instead.\"<br>Equip {3}",
@@ -14055,6 +14286,7 @@
     {
       "name": "Sparring Construct",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact Creature - Construct",
       "text": "When Sparring Construct dies, put a +1/+1 counter on target creature you control.",
@@ -14116,6 +14348,7 @@
     {
       "name": "Thran Temporal Gateway",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Legendary Artifact",
       "text": "{4}, {T}: You may put a historic permanent card from your hand onto the battlefield. (Artifacts, legendaries, and Sagas are historic.)",
@@ -14177,6 +14410,7 @@
     {
       "name": "Traxos, Scourge of Kroog",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Legendary Artifact Creature - Construct",
       "text": "Trample<br>Traxos, Scourge of Kroog enters the battlefield tapped and doesn't untap during your untap step.<br>Whenever you cast a historic spell, untap Traxos. (Artifacts, legendaries, and Sagas are historic.)",
@@ -14237,6 +14471,7 @@
     {
       "name": "Urza's Tome",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{3}, {T}: Draw a card. Then discard a card unless you exile a historic card from your graveyard. (Artifacts, legendaries, and Sagas are historic.)",
@@ -14298,6 +14533,7 @@
     {
       "name": "Voltaic Servant",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Construct",
       "text": "At the beginning of your end step, untap target artifact.",
@@ -14359,6 +14595,7 @@
     {
       "name": "Weatherlight",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Legendary Artifact - Vehicle",
       "text": "Flying<br>Whenever Weatherlight deals combat damage to a player, look at the top five cards of your library. You may reveal a historic card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (Artifacts, legendaries, and Sagas are historic.)<br>Crew 3",
@@ -15494,6 +15731,7 @@
     {
       "name": "Teferi, Timebender",
       "manaCost": "{4}{W}{U}",
+      "sortedManaCost": "{4}{W}{U}",
       "cmc": 6,
       "type": "Legendary Planeswalker - Teferi",
       "text": "[+2]: Untap up to one target artifact or creature.<br>[−3]: You gain 2 life and draw two cards.<br>[−9]: Take an extra turn after this one.",
@@ -15554,6 +15792,7 @@
     {
       "name": "Temporal Machinations",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Return target creature to its owner's hand. If you control an artifact, draw a card.",
@@ -15615,9 +15854,10 @@
     {
       "name": "Niambi, Faithful Healer",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Human Cleric",
-      "text": "When Niambi, Faithful Healer enters the battlefield, you may search your library and/or graveyard for a card named Teferi, Timebender, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+      "text": "When Niambi, Faithful Healer enters the battlefield, you may search your library and/or graveyard for a card named Teferi, Timebender, reveal it, and put it into your hand. If you search your library this way, shuffle.",
       "flavor": "\"My father will be happy to see you.\"",
       "expansion": "DOM",
       "scryfallSetCode": "DOM",
@@ -15676,6 +15916,7 @@
     {
       "name": "Teferi's Sentinel",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact Creature - Golem",
       "text": "As long as you control a Teferi planeswalker, Teferi's Sentinel gets +4/+0.",
@@ -15797,6 +16038,7 @@
     {
       "name": "Chandra, Bold Pyromancer",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Legendary Planeswalker - Chandra",
       "text": "[+1]: Add {R}{R}. Chandra, Bold Pyromancer deals 2 damage to target player.<br>[−3]: Chandra, Bold Pyromancer deals 3 damage to target creature or planeswalker.<br>[−7]: Chandra, Bold Pyromancer deals 10 damage to target player and each creature and planeswalker they control.",
@@ -15857,9 +16099,10 @@
     {
       "name": "Chandra's Outburst",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Sorcery",
-      "text": "Chandra's Outburst deals 4 damage to target player or planeswalker.<br>Search your library and/or graveyard for a card named Chandra, Bold Pyromancer, reveal it, and put it into your hand. If you search your library this way, shuffle it.",
+      "text": "Chandra's Outburst deals 4 damage to target player or planeswalker.<br>Search your library and/or graveyard for a card named Chandra, Bold Pyromancer, reveal it, and put it into your hand. If you search your library this way, shuffle.",
       "expansion": "DOM",
       "scryfallSetCode": "DOM",
       "rarity": "R",
@@ -15917,6 +16160,7 @@
     {
       "name": "Karplusan Hound",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Dog",
       "text": "Whenever Karplusan Hound attacks, if you control a Chandra planeswalker, this creature deals 2 damage to any target.",
@@ -15978,6 +16222,7 @@
     {
       "name": "Pyromantic Pilgrim",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)",
@@ -16099,6 +16344,7 @@
     {
       "name": "Firesong and Sunspeaker",
       "manaCost": "{4}{R}{W}",
+      "sortedManaCost": "{4}{W}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Minotaur Cleric",
       "text": "Red instant and sorcery spells you control have lifelink.<br>Whenever a white instant or sorcery spell causes you to gain life, Firesong and Sunspeaker deals 3 damage to target creature or player.",

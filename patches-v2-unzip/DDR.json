@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "dffe7d872235122e6874bc172f4586c9",
+    "digest": "a000465047ef87419f0706ecc8329ec2",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDR_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDR_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Nissa, Voice of Zendikar",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Nissa",
       "text": "[+1]: Create a 0/1 green Plant creature token.<br>[−2]: Put a +1/+1 counter on each creature you control.<br>[−7]: You gain X life and draw X cards, where X is the number of lands you control.",
@@ -46,6 +47,7 @@
     {
       "name": "Abundance",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order.",
@@ -70,6 +72,7 @@
     {
       "name": "Briarhorn",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Flash<br>When Briarhorn enters the battlefield, target creature gets +3/+3 until end of turn.<br>Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -94,6 +97,7 @@
     {
       "name": "Citanul Woodreaders",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Human Druid",
       "text": "Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)<br>When Citanul Woodreaders enters the battlefield, if it was kicked, draw two cards.",
@@ -119,9 +123,10 @@
     {
       "name": "Civic Wayfinder",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid Warrior",
-      "text": "When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.",
+      "text": "When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
       "flavor": "\"These alleys are not safe. Come, I can guide you back to the market square.\"",
       "expansion": "DDR",
       "scryfallSetCode": "DDR",
@@ -144,6 +149,7 @@
     {
       "name": "Cloudthresher",
       "manaCost": "{2}{G}{G}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{G}{G}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "Flash<br>Reach<br>When Cloudthresher enters the battlefield, it deals 2 damage to each creature with flying and each player.<br>Evoke {2}{G}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -168,6 +174,7 @@
     {
       "name": "Crop Rotation",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a land.<br>Search your library for a land card, put that card onto the battlefield, then shuffle.",
@@ -193,6 +200,7 @@
     {
       "name": "Elvish Visionary",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Shaman",
       "text": "When Elvish Visionary enters the battlefield, draw a card.",
@@ -218,6 +226,7 @@
     {
       "name": "Fertilid",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Fertilid enters the battlefield with two +1/+1 counters on it.<br>{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.",
@@ -242,6 +251,7 @@
     {
       "name": "Gaea's Blessing",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target player shuffles up to three target cards from their graveyard into their library.<br>Draw a card.<br>When Gaea's Blessing is put into your graveyard from your library, shuffle your graveyard into your library.",
@@ -266,6 +276,7 @@
     {
       "name": "Gilt-Leaf Seer",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Shaman",
       "text": "{G}, {T}: Look at the top two cards of your library, then put them back in any order.",
@@ -291,6 +302,7 @@
     {
       "name": "Jaddi Lifestrider",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "When Jaddi Lifestrider enters the battlefield, you may tap any number of untapped creatures you control. You gain 2 life for each creature tapped this way.",
@@ -316,9 +328,10 @@
     {
       "name": "Natural Connection",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
-      "text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "flavor": "\"Zendikar will not surrender, and neither can we.\"",
       "expansion": "DDR",
       "scryfallSetCode": "DDR",
@@ -341,6 +354,7 @@
     {
       "name": "Nissa's Chosen",
       "manaCost": "{G}{G}",
+      "sortedManaCost": "{G}{G}",
       "cmc": 2,
       "type": "Creature - Elf Warrior",
       "text": "If Nissa's Chosen would die, put it on the bottom of its owner's library instead.",
@@ -366,6 +380,7 @@
     {
       "name": "Oakgnarl Warrior",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Treefolk Warrior",
       "text": "Vigilance, trample",
@@ -391,6 +406,7 @@
     {
       "name": "Oran-Rief Hydra",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Hydra",
       "text": "Trample<br>Landfall - Whenever a land enters the battlefield under your control, put a +1/+1 counter on Oran-Rief Hydra. If that land is a Forest, put two +1/+1 counters on Oran-Rief Hydra instead.",
@@ -415,6 +431,7 @@
     {
       "name": "Oran-Rief Invoker",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "{8}: Oran-Rief Invoker gets +5/+5 and gains trample until end of turn.",
@@ -440,6 +457,7 @@
     {
       "name": "Saddleback Lagac",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Lizard",
       "text": "When Saddleback Lagac enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)",
@@ -465,6 +483,7 @@
     {
       "name": "Scythe Leopard",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Cat",
       "text": "Landfall - Whenever a land enters the battlefield under your control, Scythe Leopard gets +1/+1 until end of turn.",
@@ -490,6 +509,7 @@
     {
       "name": "Seek the Horizon",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.",
@@ -515,6 +535,7 @@
     {
       "name": "Thicket Elemental",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)<br>When Thicket Elemental enters the battlefield, if it was kicked, you may reveal cards from the top of your library until you reveal a creature card. If you do, put that card onto the battlefield and shuffle all other cards revealed this way into your library.",
@@ -539,9 +560,10 @@
     {
       "name": "Thornweald Archer",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Archer",
-      "text": "Reach (This creature can block creatures with flying.)<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
+      "text": "Reach, deathtouch",
       "flavor": "Their arrows are tipped with basilisk eyes and fletched with cockatrice feathers.",
       "expansion": "DDR",
       "scryfallSetCode": "DDR",
@@ -564,6 +586,7 @@
     {
       "name": "Vines of the Recluse",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +1/+2 and gains reach until end of turn. Untap it. (A creature with reach can block creatures with flying.)",
@@ -589,6 +612,7 @@
     {
       "name": "Walker of the Grove",
       "manaCost": "{6}{G}{G}",
+      "sortedManaCost": "{6}{G}{G}",
       "cmc": 8,
       "type": "Creature - Elemental",
       "text": "When Walker of the Grove leaves the battlefield, create a 4/4 green Elemental creature token.<br>Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -613,9 +637,10 @@
     {
       "name": "Wood Elves",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Scout",
-      "text": "When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.",
+      "text": "When Wood Elves enters the battlefield, search your library for a Forest card, put that card onto the battlefield, then shuffle.",
       "flavor": "Through the waves of Eldrazi attacks, the Murasan jungles seemed to regrow as soon as they were destroyed.",
       "expansion": "DDR",
       "scryfallSetCode": "DDR",
@@ -638,6 +663,7 @@
     {
       "name": "Woodborn Behemoth",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "As long as you control eight or more lands, Woodborn Behemoth gets +4/+4 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
@@ -845,6 +871,7 @@
     {
       "name": "Ob Nixilis Reignited",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Nixilis",
       "text": "[+1]: You draw a card and you lose 1 life.<br>[−3]: Destroy target creature.<br>[−8]: Target opponent gets an emblem with \"Whenever a player draws a card, you lose 2 life.\"",
@@ -869,6 +896,7 @@
     {
       "name": "Altar's Reap",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Draw two cards.",
@@ -894,6 +922,7 @@
     {
       "name": "Ambition's Cost",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "You draw three cards and you lose 3 life.",
@@ -919,6 +948,7 @@
     {
       "name": "Bala Ged Scorpion",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Scorpion",
       "text": "When Bala Ged Scorpion enters the battlefield, you may destroy target creature with power 1 or less.",
@@ -944,6 +974,7 @@
     {
       "name": "Blistergrub",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Horror",
       "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)<br>When Blistergrub dies, each opponent loses 2 life.",
@@ -969,6 +1000,7 @@
     {
       "name": "Cadaver Imp",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Imp",
       "text": "Flying<br>When Cadaver Imp enters the battlefield, you may return target creature card from your graveyard to your hand.",
@@ -994,6 +1026,7 @@
     {
       "name": "Carrier Thrall",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Vampire",
       "text": "When Carrier Thrall dies, create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\"",
@@ -1019,6 +1052,7 @@
     {
       "name": "Demon's Grasp",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Target creature gets -5/-5 until end of turn.",
@@ -1044,6 +1078,7 @@
     {
       "name": "Desecration Demon",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Demon",
       "text": "Flying<br>At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it.",
@@ -1068,6 +1103,7 @@
     {
       "name": "Despoiler of Souls",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Creature - Horror",
       "text": "Despoiler of Souls can't block.<br>{B}{B}, Exile two other creature cards from your graveyard: Return Despoiler of Souls from your graveyard to the battlefield.",
@@ -1093,6 +1129,7 @@
     {
       "name": "Disfigure",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets -2/-2 until end of turn.",
@@ -1118,6 +1155,7 @@
     {
       "name": "Doom Blade",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target nonblack creature.",
@@ -1143,6 +1181,7 @@
     {
       "name": "Fetid Imp",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Imp",
       "text": "Flying<br>{B}: Fetid Imp gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
@@ -1167,6 +1206,7 @@
     {
       "name": "Foul Imp",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Creature - Imp",
       "text": "Flying<br>When Foul Imp enters the battlefield, you lose 2 life.",
@@ -1192,6 +1232,7 @@
     {
       "name": "Giant Scorpion",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Scorpion",
       "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
@@ -1217,6 +1258,7 @@
     {
       "name": "Grim Discovery",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Choose one or both -<br>• Return target creature card from your graveyard to your hand.<br>• Return target land card from your graveyard to your hand.",
@@ -1242,6 +1284,7 @@
     {
       "name": "Hideous End",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target nonblack creature. Its controller loses 2 life.",
@@ -1267,6 +1310,7 @@
     {
       "name": "Indulgent Tormentor",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Demon",
       "text": "Flying<br>At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life.",
@@ -1292,6 +1336,7 @@
     {
       "name": "Innocent Blood",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Each player sacrifices a creature.",
@@ -1317,6 +1362,7 @@
     {
       "name": "Mire's Toll",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player reveals a number of cards from their hand equal to the number of Swamps you control. You choose one of them. That player discards that card.",
@@ -1342,6 +1388,7 @@
     {
       "name": "Pestilence Demon",
       "manaCost": "{5}{B}{B}{B}",
+      "sortedManaCost": "{5}{B}{B}{B}",
       "cmc": 8,
       "type": "Creature - Demon",
       "text": "Flying<br>{B}: Pestilence Demon deals 1 damage to each creature and each player.",
@@ -1367,6 +1414,7 @@
     {
       "name": "Priest of the Blood Rite",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Human Cleric",
       "text": "When Priest of the Blood Rite enters the battlefield, create a 5/5 black Demon creature token with flying.<br>At the beginning of your upkeep, you lose 2 life.",
@@ -1392,6 +1440,7 @@
     {
       "name": "Quest for the Gravelord",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Enchantment",
       "text": "Whenever a creature dies, you may put a quest counter on Quest for the Gravelord.<br>Remove three quest counters from Quest for the Gravelord and sacrifice it: Create a 5/5 black Zombie Giant creature token.",
@@ -1416,6 +1465,7 @@
     {
       "name": "Renegade Demon",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Demon",
       "flavor": "Confront it at your own peril, for it will confront you for its own amusement.",
@@ -1440,9 +1490,10 @@
     {
       "name": "Shadows of the Past",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment",
-      "text": "Whenever a creature dies, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)<br>{4}{B}: Each opponent loses 2 life and you gain 2 life. Activate this ability only if there are four or more creature cards in your graveyard.",
+      "text": "Whenever a creature dies, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)<br>{4}{B}: Each opponent loses 2 life and you gain 2 life. Activate only if there are four or more creature cards in your graveyard.",
       "expansion": "DDR",
       "scryfallSetCode": "DDR",
       "rarity": "U",
@@ -1464,6 +1515,7 @@
     {
       "name": "Smallpox",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Each player loses 1 life, discards a card, sacrifices a creature, then sacrifices a land.",
@@ -1489,6 +1541,7 @@
     {
       "name": "Squelching Leeches",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Leech",
       "text": "Squelching Leeches's power and toughness are each equal to the number of Swamps you control.",
@@ -1514,6 +1567,7 @@
     {
       "name": "Tendrils of Corruption",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control.",
@@ -1539,6 +1593,7 @@
     {
       "name": "Unhallowed Pact",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When enchanted creature dies, return that card to the battlefield under your control.",
@@ -1565,7 +1620,7 @@
       "name": "Leechridden Swamp",
       "cmc": 0,
       "type": "Land - Swamp",
-      "text": "({T}: Add {B}.)<br>Leechridden Swamp enters the battlefield tapped.<br>{B}, {T}: Each opponent loses 1 life. Activate this ability only if you control two or more black permanents.",
+      "text": "({T}: Add {B}.)<br>Leechridden Swamp enters the battlefield tapped.<br>{B}, {T}: Each opponent loses 1 life. Activate only if you control two or more black permanents.",
       "expansion": "DDR",
       "scryfallSetCode": "DDR",
       "rarity": "U",

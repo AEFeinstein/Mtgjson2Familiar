@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "planechase",
-    "digest": "7fe1f8a107cb9a0d4068e94295d4f4b3",
+    "digest": "0d4ee5e606d985e8e685c966c4917f0f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PC2_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PC2_M.png",
@@ -40,6 +40,7 @@
     {
       "name": "Armored Griffin",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Griffin",
       "text": "Flying, vigilance",
@@ -120,6 +121,7 @@
     {
       "name": "Auramancer",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.",
@@ -200,9 +202,10 @@
     {
       "name": "Auratouched Mage",
       "manaCost": "{5}{W}",
+      "sortedManaCost": "{5}{W}",
       "cmc": 6,
       "type": "Creature - Human Wizard",
-      "text": "When Auratouched Mage enters the battlefield, search your library for an Aura card that could enchant it. If Auratouched Mage is still on the battlefield, put that Aura card onto the battlefield attached to it. Otherwise, reveal the Aura card and put it into your hand. Then shuffle your library.",
+      "text": "When Auratouched Mage enters the battlefield, search your library for an Aura card that could enchant it. If Auratouched Mage is still on the battlefield, put that Aura card onto the battlefield attached to it. Otherwise, reveal the Aura card and put it into your hand. Then shuffle.",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
       "rarity": "U",
@@ -279,6 +282,7 @@
     {
       "name": "Cage of Hands",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't attack or block.<br>{1}{W}: Return Cage of Hands to its owner's hand.",
@@ -358,6 +362,7 @@
     {
       "name": "Celestial Ancient",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Flying<br>Whenever you cast an enchantment spell, put a +1/+1 counter on each creature you control.",
@@ -438,6 +443,7 @@
     {
       "name": "Felidar Umbra",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has lifelink.<br>{1}{W}: Attach Felidar Umbra to target creature you control.<br>Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)",
@@ -517,6 +523,7 @@
     {
       "name": "Ghostly Prison",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
@@ -597,6 +604,7 @@
     {
       "name": "Hyena Umbra",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+1 and has first strike.<br>Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)",
@@ -715,6 +723,7 @@
     {
       "name": "Kor Spiritdancer",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Kor Wizard",
       "text": "Kor Spiritdancer gets +2/+2 for each Aura attached to it.<br>Whenever you cast an Aura spell, you may draw a card.",
@@ -795,6 +804,7 @@
     {
       "name": "Mammoth Umbra",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +3/+3 and has vigilance.<br>Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)",
@@ -874,6 +884,7 @@
     {
       "name": "Sigil of the Empty Throne",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Whenever you cast an enchantment spell, create a 4/4 white Angel creature token with flying.",
@@ -954,6 +965,7 @@
     {
       "name": "Spirit Mantle",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+1 and has protection from creatures.",
@@ -1034,9 +1046,10 @@
     {
       "name": "Three Dreams",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Sorcery",
-      "text": "Search your library for up to three Aura cards with different names, reveal them, and put them into your hand. Then shuffle your library.",
+      "text": "Search your library for up to three Aura cards with different names, reveal them, put them into your hand, then shuffle.",
       "flavor": "\"Choose one to heal, one to harm, and one to grant you the prudence to use them.\"<br>-Miotri, auratouched mage",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
@@ -1075,6 +1088,7 @@
     {
       "name": "Augury Owl",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Bird",
       "text": "Flying<br>When Augury Owl enters the battlefield, scry 3. (Look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
@@ -1154,6 +1168,7 @@
     {
       "name": "Cancel",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Counter target spell.",
@@ -1234,6 +1249,7 @@
     {
       "name": "Concentrate",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw three cards.",
@@ -1353,6 +1369,7 @@
     {
       "name": "Guard Gomazoa",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Jellyfish",
       "text": "Defender, flying<br>Prevent all combat damage that would be dealt to Guard Gomazoa.",
@@ -1433,9 +1450,10 @@
     {
       "name": "Higure, the Still Wind",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Human Ninja",
-      "text": "Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Higure, the Still Wind deals combat damage to a player, you may search your library for a Ninja card, reveal it, and put it into your hand. If you do, shuffle your library.<br>{2}: Target Ninja creature can't be blocked this turn.",
+      "text": "Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Higure, the Still Wind deals combat damage to a player, you may search your library for a Ninja card, reveal it, put it into your hand, then shuffle.<br>{2}: Target Ninja creature can't be blocked this turn.",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
       "rarity": "R",
@@ -1512,6 +1530,7 @@
     {
       "name": "Illusory Angel",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Angel Illusion",
       "text": "Cast this spell only if you've cast another spell this turn.<br>Flying",
@@ -1592,6 +1611,7 @@
     {
       "name": "Mistblade Shinobi",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Ninja",
       "text": "Ninjutsu {U} ({U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Mistblade Shinobi deals combat damage to a player, you may return target creature that player controls to its owner's hand.",
@@ -1671,6 +1691,7 @@
     {
       "name": "Ninja of the Deep Hours",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Human Ninja",
       "text": "Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Ninja of the Deep Hours deals combat damage to a player, you may draw a card.",
@@ -1750,6 +1771,7 @@
     {
       "name": "Peregrine Drake",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Drake",
       "text": "Flying<br>When Peregrine Drake enters the battlefield, untap up to five lands.",
@@ -1830,6 +1852,7 @@
     {
       "name": "Primal Plasma",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Elemental Shapeshifter",
       "text": "As Primal Plasma enters the battlefield, it becomes your choice of a 3/3 creature, a 2/2 creature with flying, or a 1/6 creature with defender.",
@@ -1910,6 +1933,7 @@
     {
       "name": "Sakashima's Student",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Human Ninja",
       "text": "Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>You may have Sakashima's Student enter the battlefield as a copy of any creature on the battlefield, except it's a Ninja in addition to its other creature types.",
@@ -1989,6 +2013,7 @@
     {
       "name": "See Beyond",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Draw two cards, then shuffle a card from your hand into your library.",
@@ -2069,6 +2094,7 @@
     {
       "name": "Sunken Hope",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "At the beginning of each player's upkeep, that player returns a creature they control to its owner's hand.",
@@ -2149,9 +2175,10 @@
     {
       "name": "Walker of Secret Ways",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Ninja",
-      "text": "Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Walker of Secret Ways deals combat damage to a player, look at that player's hand.<br>{1}{U}: Return target Ninja you control to its owner's hand. Activate this ability only during your turn.",
+      "text": "Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Walker of Secret Ways deals combat damage to a player, look at that player's hand.<br>{1}{U}: Return target Ninja you control to its owner's hand. Activate only during your turn.",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
       "rarity": "U",
@@ -2228,6 +2255,7 @@
     {
       "name": "Wall of Frost",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Wall",
       "text": "Defender<br>Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step.",
@@ -2270,7 +2298,7 @@
       "name": "Orochi Colony",
       "cmc": 0,
       "type": "Plane - Kamigawa",
-      "text": "Whenever a creature you control deals combat damage to a player, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.<br>Whenever you roll {CHAOS}, target creature can't be blocked this turn.",
+      "text": "Whenever a creature you control deals combat damage to a player, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.<br>Whenever you roll {CHAOS}, target creature can't be blocked this turn.",
       "expansion": "PC2",
       "scryfallSetCode": "OPC2",
       "rarity": "C",
@@ -2308,6 +2336,7 @@
     {
       "name": "Whirlpool Warrior",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Merfolk Warrior",
       "text": "When Whirlpool Warrior enters the battlefield, shuffle the cards from your hand into your library, then draw that many cards.<br>{R}, Sacrifice Whirlpool Warrior: Each player shuffles the cards from their hand into their library, then draws that many cards.",
@@ -2348,6 +2377,7 @@
     {
       "name": "Assassinate",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target tapped creature.",
@@ -2428,6 +2458,7 @@
     {
       "name": "Cadaver Imp",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Imp",
       "text": "Flying<br>When Cadaver Imp enters the battlefield, you may return target creature card from your graveyard to your hand.",
@@ -2508,6 +2539,7 @@
     {
       "name": "Dark Hatchling",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Creature - Horror",
       "text": "Flying<br>When Dark Hatchling enters the battlefield, destroy target nonblack creature. It can't be regenerated.",
@@ -2587,6 +2619,7 @@
     {
       "name": "Ink-Eyes, Servant of Oni",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Rat Ninja",
       "text": "Ninjutsu {3}{B}{B} ({3}{B}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Ink-Eyes, Servant of Oni deals combat damage to a player, you may put target creature card from that player's graveyard onto the battlefield under your control.<br>{1}{B}: Regenerate Ink-Eyes.",
@@ -2666,6 +2699,7 @@
     {
       "name": "Liliana's Specter",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Specter",
       "text": "Flying<br>When Liliana's Specter enters the battlefield, each opponent discards a card.",
@@ -2746,6 +2780,7 @@
     {
       "name": "Okiba-Gang Shinobi",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Rat Ninja",
       "text": "Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Okiba-Gang Shinobi deals combat damage to a player, that player discards two cards.",
@@ -2825,6 +2860,7 @@
     {
       "name": "Skullsnatcher",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Rat Ninja",
       "text": "Ninjutsu {B} ({B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Skullsnatcher deals combat damage to a player, exile up to two target cards from that player's graveyard.",
@@ -2866,7 +2902,7 @@
       "name": "Talon Gates",
       "cmc": 0,
       "type": "Plane - Dominaria",
-      "text": "Any time you could cast a sorcery, you may exile a nonland card from your hand with X time counters on it, where X is its converted mana cost. If the exiled card doesn't have suspend, it gains suspend. (At the beginning of its owner's upkeep, they remove a time counter. When the last is removed, the player casts it without paying its mana cost. If it's a creature, it has haste.)<br>Whenever you roll {CHAOS}, remove two time counters from each suspended card you own.",
+      "text": "Any time you could cast a sorcery, you may exile a nonland card from your hand with X time counters on it, where X is its mana value. If the exiled card doesn't have suspend, it gains suspend. (At the beginning of its owner's upkeep, they remove a time counter. When the last is removed, the player casts it without paying its mana cost. If it's a creature, it has haste.)<br>Whenever you roll {CHAOS}, remove two time counters from each suspended card you own.",
       "expansion": "PC2",
       "scryfallSetCode": "OPC2",
       "rarity": "C",
@@ -2904,6 +2940,7 @@
     {
       "name": "Throat Slitter",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Rat Ninja",
       "text": "Ninjutsu {2}{B} ({2}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Throat Slitter deals combat damage to a player, destroy target nonblack creature that player controls.",
@@ -2945,7 +2982,7 @@
       "name": "Trail of the Mage-Rings",
       "cmc": 0,
       "type": "Plane - Vryn",
-      "text": "Instant and sorcery spells have rebound. (The spell's controller exiles the spell as it resolves if they cast it from their hand. At the beginning of that player's next upkeep, they may cast that card from exile without paying its mana cost.)<br>Whenever you roll {CHAOS}, you may search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "Instant and sorcery spells have rebound. (The spell's controller exiles the spell as it resolves if they cast it from their hand. At the beginning of that player's next upkeep, they may cast that card from exile without paying its mana cost.)<br>Whenever you roll {CHAOS}, you may search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",
       "expansion": "PC2",
       "scryfallSetCode": "OPC2",
       "rarity": "C",
@@ -2983,6 +3020,7 @@
     {
       "name": "Tormented Soul",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Spirit",
       "text": "Tormented Soul can't block and can't be blocked.",
@@ -3063,6 +3101,7 @@
     {
       "name": "Arc Trail",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Arc Trail deals 2 damage to any target and 1 damage to another target.",
@@ -3143,6 +3182,7 @@
     {
       "name": "Beetleback Chief",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Goblin Warrior",
       "text": "When Beetleback Chief enters the battlefield, create two 1/1 red Goblin creature tokens.",
@@ -3223,6 +3263,7 @@
     {
       "name": "Erratic Explosion",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Choose any target. Reveal cards from the top of your library until you reveal a nonland card. Erratic Explosion deals damage equal to that card's mana value to that permanent or player. Put the revealed cards on the bottom of your library in any order.",
@@ -3263,6 +3304,7 @@
     {
       "name": "Fiery Conclusion",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Fiery Conclusion deals 5 damage to target creature.",
@@ -3304,9 +3346,10 @@
     {
       "name": "Fiery Fall",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Instant",
-      "text": "Fiery Fall deals 5 damage to target creature.<br>Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "Fiery Fall deals 5 damage to target creature.<br>Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
       "flavor": "Jund feasts on the unprepared.",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
@@ -3345,6 +3388,7 @@
     {
       "name": "Fling",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Fling deals damage equal to the sacrificed creature's power to any target.",
@@ -3386,6 +3430,7 @@
     {
       "name": "Hellion Eruption",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Sacrifice all creatures you control, then create that many 4/4 red Hellion creature tokens.",
@@ -3427,6 +3472,7 @@
     {
       "name": "Hissing Iguanar",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Lizard",
       "text": "Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player or planeswalker.",
@@ -3468,6 +3514,7 @@
     {
       "name": "Mark of Mutiny",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn. (It can attack and {T} this turn.)",
@@ -3509,6 +3556,7 @@
     {
       "name": "Mass Mutiny",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "For each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain haste until end of turn.",
@@ -3550,6 +3598,7 @@
     {
       "name": "Mudbutton Torchrunner",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Warrior",
       "text": "When Mudbutton Torchrunner dies, it deals 3 damage to any target.",
@@ -3591,6 +3640,7 @@
     {
       "name": "Preyseizer Dragon",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Dragon",
       "text": "Flying<br>Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)<br>Whenever Preyseizer Dragon attacks, it deals damage to any target equal to the number of +1/+1 counters on Preyseizer Dragon.",
@@ -3631,6 +3681,7 @@
     {
       "name": "Rivals' Duel",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Choose two target creatures that share no creature types. Those creatures fight each other. (Each deals damage equal to its power to the other.)",
@@ -3672,6 +3723,7 @@
     {
       "name": "Thorn-Thrash Viashino",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Viashino Warrior",
       "text": "Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)<br>{G}: Thorn-Thrash Viashino gains trample until end of turn.",
@@ -3712,6 +3764,7 @@
     {
       "name": "Thunder-Thrash Elder",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Viashino Warrior",
       "text": "Devour 3 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with three times that many +1/+1 counters on it.)",
@@ -3753,6 +3806,7 @@
     {
       "name": "Warstorm Surge",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "Whenever a creature enters the battlefield under your control, it deals damage equal to its power to any target.",
@@ -3794,6 +3848,7 @@
     {
       "name": "Aura Gnarlid",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Beast",
       "text": "Creatures with power less than Aura Gnarlid's power can't block it.<br>Aura Gnarlid gets +1/+1 for each Aura on the battlefield.",
@@ -3835,6 +3890,7 @@
     {
       "name": "Awakening Zone",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, you may create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this creature: Add {C}.\"",
@@ -3876,6 +3932,7 @@
     {
       "name": "Beast Within",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
@@ -3917,6 +3974,7 @@
     {
       "name": "Boar Umbra",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +3/+3.<br>Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)",
@@ -3958,6 +4016,7 @@
     {
       "name": "Bramble Elemental",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Whenever an Aura becomes attached to Bramble Elemental, create two 1/1 green Saproling creature tokens.",
@@ -3999,6 +4058,7 @@
     {
       "name": "Brindle Shoat",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Boar",
       "text": "When Brindle Shoat dies, create a 3/3 green Boar creature token.",
@@ -4040,9 +4100,10 @@
     {
       "name": "Brutalizer Exarch",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Creature - Cleric",
-      "text": "When Brutalizer Exarch enters the battlefield, choose one -<br>• Search your library for a creature card, reveal it, then shuffle your library and put that card on top of it.<br>• Put target noncreature permanent on the bottom of its owner's library.",
+      "text": "When Brutalizer Exarch enters the battlefield, choose one -<br>• Search your library for a creature card, reveal it, then shuffle and put that card on top.<br>• Put target noncreature permanent on the bottom of its owner's library.",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
       "rarity": "U",
@@ -4080,6 +4141,7 @@
     {
       "name": "Cultivate",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
@@ -4121,6 +4183,7 @@
     {
       "name": "Dowsing Shaman",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Centaur Shaman",
       "text": "{2}{G}, {T}: Return target enchantment card from your graveyard to your hand.",
@@ -4162,6 +4225,7 @@
     {
       "name": "Dreampod Druid",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Druid",
       "text": "At the beginning of each upkeep, if Dreampod Druid is enchanted, create a 1/1 green Saproling creature token.",
@@ -4203,6 +4267,7 @@
     {
       "name": "Gluttonous Slime",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Ooze",
       "text": "Flash<br>Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)",
@@ -4244,6 +4309,7 @@
     {
       "name": "Lumberknot",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Treefolk",
       "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)<br>Whenever a creature dies, put a +1/+1 counter on Lumberknot.",
@@ -4285,6 +4351,7 @@
     {
       "name": "Mitotic Slime",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Ooze",
       "text": "When Mitotic Slime dies, create two 2/2 green Ooze creature tokens. They have \"When this creature dies, create two 1/1 green Ooze creature tokens.\"",
@@ -4325,6 +4392,7 @@
     {
       "name": "Mycoloth",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Fungus",
       "text": "Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)<br>At the beginning of your upkeep, create a 1/1 green Saproling creature token for each +1/+1 counter on Mycoloth.",
@@ -4365,6 +4433,7 @@
     {
       "name": "Nest Invader",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Eldrazi Drone",
       "text": "When Nest Invader enters the battlefield, create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this creature: Add {C}.\"",
@@ -4406,6 +4475,7 @@
     {
       "name": "Nullmage Advocate",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Insect Druid",
       "text": "{T}: Return two target cards from an opponent's graveyard to their hand. Destroy target artifact or enchantment.",
@@ -4447,9 +4517,10 @@
     {
       "name": "Ondu Giant",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Giant Druid",
-      "text": "When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "flavor": "Some druids nurture gardens. Others nurture continents.",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
@@ -4488,6 +4559,7 @@
     {
       "name": "Overrun",
       "manaCost": "{2}{G}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Creatures you control get +3/+3 and gain trample until end of turn.",
@@ -4529,6 +4601,7 @@
     {
       "name": "Penumbra Spider",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Spider",
       "text": "Reach<br>When Penumbra Spider dies, create a 2/4 black Spider creature token with reach.",
@@ -4570,6 +4643,7 @@
     {
       "name": "Predatory Urge",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has \"{T}: This creature deals damage equal to its power to target creature. That creature deals damage equal to its power to this creature.\"",
@@ -4610,6 +4684,7 @@
     {
       "name": "Quiet Disrepair",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant artifact or enchantment<br>At the beginning of your upkeep, choose one -<br>• Destroy enchanted permanent.<br>• You gain 2 life.",
@@ -4651,6 +4726,7 @@
     {
       "name": "Rancor",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+0 and has trample.<br>When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.",
@@ -4691,6 +4767,7 @@
     {
       "name": "Silhana Ledgewalker",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Rogue",
       "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)<br>Silhana Ledgewalker can't be blocked except by creatures with flying.",
@@ -4732,6 +4809,7 @@
     {
       "name": "Snake Umbra",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+1 and has \"Whenever this creature deals damage to an opponent, you may draw a card.\"<br>Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)",
@@ -4772,6 +4850,7 @@
     {
       "name": "Tukatongue Thallid",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Fungus",
       "text": "When Tukatongue Thallid dies, create a 1/1 green Saproling creature token.",
@@ -4813,9 +4892,10 @@
     {
       "name": "Viridian Emissary",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Scout",
-      "text": "When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
       "rarity": "C",
@@ -4853,6 +4933,7 @@
     {
       "name": "Wall of Blossoms",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Plant Wall",
       "text": "Defender<br>When Wall of Blossoms enters the battlefield, draw a card.",
@@ -4894,6 +4975,7 @@
     {
       "name": "Baleful Strix",
       "manaCost": "{U}{B}",
+      "sortedManaCost": "{U}{B}",
       "cmc": 2,
       "type": "Artifact Creature - Bird",
       "text": "Flying, deathtouch<br>When Baleful Strix enters the battlefield, draw a card.",
@@ -4935,6 +5017,7 @@
     {
       "name": "Bituminous Blast",
       "manaCost": "{3}{B}{R}",
+      "sortedManaCost": "{3}{B}{R}",
       "cmc": 5,
       "type": "Instant",
       "text": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)<br>Bituminous Blast deals 4 damage to target creature.",
@@ -4975,6 +5058,7 @@
     {
       "name": "Bloodbraid Elf",
       "manaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{R}{G}",
       "cmc": 4,
       "type": "Creature - Elf Berserker",
       "text": "Haste<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)",
@@ -5015,6 +5099,7 @@
     {
       "name": "Deny Reality",
       "manaCost": "{3}{U}{B}",
+      "sortedManaCost": "{3}{U}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)<br>Return target permanent to its owner's hand.",
@@ -5055,6 +5140,7 @@
     {
       "name": "Dimir Infiltrator",
       "manaCost": "{U}{B}",
+      "sortedManaCost": "{U}{B}",
       "cmc": 2,
       "type": "Creature - Spirit",
       "text": "Dimir Infiltrator can't be blocked.<br>Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
@@ -5095,6 +5181,7 @@
     {
       "name": "Dragonlair Spider",
       "manaCost": "{2}{R}{R}{G}{G}",
+      "sortedManaCost": "{2}{R}{R}{G}{G}",
       "cmc": 6,
       "type": "Creature - Spider",
       "text": "Reach<br>Whenever an opponent casts a spell, create a 1/1 green Insect creature token.",
@@ -5136,6 +5223,7 @@
     {
       "name": "Elderwood Scion",
       "manaCost": "{3}{G}{W}",
+      "sortedManaCost": "{3}{W}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Trample, lifelink<br>Spells you cast that target Elderwood Scion cost {2} less to cast.<br>Spells your opponents cast that target Elderwood Scion cost {2} more to cast.",
@@ -5177,6 +5265,7 @@
     {
       "name": "Enigma Sphinx",
       "manaCost": "{4}{W}{U}{B}",
+      "sortedManaCost": "{4}{W}{U}{B}",
       "cmc": 7,
       "type": "Artifact Creature - Sphinx",
       "text": "Flying<br>When Enigma Sphinx is put into your graveyard from the battlefield, put it into your library third from the top.<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)",
@@ -5217,6 +5306,7 @@
     {
       "name": "Enlisted Wurm",
       "manaCost": "{4}{G}{W}",
+      "sortedManaCost": "{4}{W}{G}",
       "cmc": 6,
       "type": "Creature - Wurm",
       "text": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)",
@@ -5258,6 +5348,7 @@
     {
       "name": "Etherium-Horn Sorcerer",
       "manaCost": "{4}{U}{R}",
+      "sortedManaCost": "{4}{U}{R}",
       "cmc": 6,
       "type": "Artifact Creature - Minotaur Wizard",
       "text": "{1}{U}{R}: Return Etherium-Horn Sorcerer to its owner's hand.<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)",
@@ -5298,6 +5389,7 @@
     {
       "name": "Fires of Yavimaya",
       "manaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{R}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Creatures you control have haste.<br>Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.",
@@ -5338,6 +5430,7 @@
     {
       "name": "Fusion Elemental",
       "manaCost": "{W}{U}{B}{R}{G}",
+      "sortedManaCost": "{W}{U}{B}{R}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "flavor": "As the shards merged into the Maelstrom, their mana energies fused into new monstrosities.",
@@ -5378,6 +5471,7 @@
     {
       "name": "Glen Elendra Liege",
       "manaCost": "{1}{UB}{UB}{UB}",
+      "sortedManaCost": "{1}{UB}{UB}{UB}",
       "cmc": 4,
       "type": "Creature - Faerie Knight",
       "text": "Flying<br>Other blue creatures you control get +1/+1.<br>Other black creatures you control get +1/+1.",
@@ -5419,6 +5513,7 @@
     {
       "name": "Hellkite Hatchling",
       "manaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{R}{G}",
       "cmc": 4,
       "type": "Creature - Dragon",
       "text": "Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)<br>Hellkite Hatchling has flying and trample if it devoured a creature.",
@@ -5460,6 +5555,7 @@
     {
       "name": "Indrik Umbra",
       "manaCost": "{4}{G}{W}",
+      "sortedManaCost": "{4}{W}{G}",
       "cmc": 6,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +4/+4 and has first strike, and all creatures able to block it do so.<br>Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)",
@@ -5500,6 +5596,7 @@
     {
       "name": "Inkfathom Witch",
       "manaCost": "{1}{UB}",
+      "sortedManaCost": "{1}{UB}",
       "cmc": 2,
       "type": "Creature - Merfolk Wizard",
       "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>{2}{U}{B}: Each unblocked creature has base power and toughness 4/1 until end of turn.",
@@ -5541,6 +5638,7 @@
     {
       "name": "Kathari Remnant",
       "manaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{U}{B}",
       "cmc": 4,
       "type": "Creature - Bird Skeleton",
       "text": "Flying<br>{B}: Regenerate Kathari Remnant.<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)",
@@ -5581,6 +5679,7 @@
     {
       "name": "Krond the Dawn-Clad",
       "manaCost": "{G}{G}{G}{W}{W}{W}",
+      "sortedManaCost": "{W}{W}{W}{G}{G}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Archon",
       "text": "Flying, vigilance<br>Whenever Krond the Dawn-Clad attacks, if it's enchanted, exile target permanent.",
@@ -5622,6 +5721,7 @@
     {
       "name": "Last Stand",
       "manaCost": "{W}{U}{B}{R}{G}",
+      "sortedManaCost": "{W}{U}{B}{R}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Target opponent loses 2 life for each Swamp you control. Last Stand deals damage to target creature equal to the number of Mountains you control. Create a 1/1 green Saproling creature token for each Forest you control. You gain 2 life for each Plains you control. Draw a card for each Island you control, then discard that many cards.",
@@ -5662,6 +5762,7 @@
     {
       "name": "Maelstrom Wanderer",
       "manaCost": "{5}{G}{U}{R}",
+      "sortedManaCost": "{5}{U}{R}{G}",
       "cmc": 8,
       "type": "Legendary Creature - Elemental",
       "text": "Creatures you control have haste.<br>Cascade, cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order. Then do it again.)",
@@ -5702,6 +5803,7 @@
     {
       "name": "Noggle Ransacker",
       "manaCost": "{2}{UR}",
+      "sortedManaCost": "{2}{UR}",
       "cmc": 3,
       "type": "Creature - Noggle Rogue",
       "text": "When Noggle Ransacker enters the battlefield, each player draws two cards, then discards a card at random.",
@@ -5743,6 +5845,7 @@
     {
       "name": "Pollenbright Wings",
       "manaCost": "{4}{G}{W}",
+      "sortedManaCost": "{4}{W}{G}",
       "cmc": 6,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has flying.<br>Whenever enchanted creature deals combat damage to a player, create that many 1/1 green Saproling creature tokens.",
@@ -5783,6 +5886,7 @@
     {
       "name": "Shardless Agent",
       "manaCost": "{1}{G}{U}",
+      "sortedManaCost": "{1}{U}{G}",
       "cmc": 3,
       "type": "Artifact Creature - Human Rogue",
       "text": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)",
@@ -5823,6 +5927,7 @@
     {
       "name": "Silent-Blade Oni",
       "manaCost": "{3}{U}{U}{B}{B}",
+      "sortedManaCost": "{3}{U}{U}{B}{B}",
       "cmc": 7,
       "type": "Creature - Demon Ninja",
       "text": "Ninjutsu {4}{U}{B} ({4}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Silent-Blade Oni deals combat damage to a player, look at that player's hand. You may cast a spell from among those cards without paying its mana cost.",
@@ -5863,6 +5968,7 @@
     {
       "name": "Thromok the Insatiable",
       "manaCost": "{3}{R}{G}",
+      "sortedManaCost": "{3}{R}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Hellion",
       "text": "Devour X, where X is the number of creatures devoured this way (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with X +1/+1 counters on it for each of those creatures.)",
@@ -5903,6 +6009,7 @@
     {
       "name": "Vela the Night-Clad",
       "manaCost": "{4}{U}{B}",
+      "sortedManaCost": "{4}{U}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Human Wizard",
       "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>Other creatures you control have intimidate.<br>Whenever Vela the Night-Clad or another creature you control leaves the battlefield, each opponent loses 1 life.",
@@ -5944,6 +6051,7 @@
     {
       "name": "Armillary Sphere",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{2}, {T}, Sacrifice Armillary Sphere: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.",
@@ -5985,6 +6093,7 @@
     {
       "name": "Farsight Mask",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "Whenever a source an opponent controls deals damage to you, if Farsight Mask is untapped, you may draw a card.",
@@ -6026,6 +6135,7 @@
     {
       "name": "Flayer Husk",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +1/+1.<br>Equip {2}",
@@ -6066,6 +6176,7 @@
     {
       "name": "Fractured Powerstone",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{T}: Add {C}.<br>{T}: Roll the planar die. Activate only as a sorcery.",
@@ -6107,6 +6218,7 @@
     {
       "name": "Quietus Spike",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature has deathtouch.<br>Whenever equipped creature deals combat damage to a player, that player loses half their life, rounded up.<br>Equip {3}",
@@ -6147,6 +6259,7 @@
     {
       "name": "Sai of the Shinobi",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+1.<br>Whenever a creature enters the battlefield under your control, you may attach Sai of the Shinobi to it.<br>Equip {2}",
@@ -6188,6 +6301,7 @@
     {
       "name": "Thran Golem",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact Creature - Golem",
       "text": "As long as Thran Golem is enchanted, it gets +2/+2 and has flying, first strike, and trample.",
@@ -6229,6 +6343,7 @@
     {
       "name": "Whispersilk Cloak",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature can't be blocked and has shroud. (It can't be the target of spells or abilities.)<br>Equip {2}",
@@ -6545,7 +6660,7 @@
       "name": "Krosan Verge",
       "cmc": 0,
       "type": "Land",
-      "text": "Krosan Verge enters the battlefield tapped.<br>{T}: Add {C}.<br>{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle your library.",
+      "text": "Krosan Verge enters the battlefield tapped.<br>{T}: Add {C}.<br>{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle.",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
       "rarity": "U",
@@ -6742,7 +6857,7 @@
       "name": "Tainted Isle",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}: Add {C}.<br>{T}: Add {U} or {B}. Activate this ability only if you control a Swamp.",
+      "text": "{T}: Add {C}.<br>{T}: Add {U} or {B}. Activate only if you control a Swamp.",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
       "rarity": "U",
@@ -6781,7 +6896,7 @@
       "name": "Terramorphic Expanse",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "expansion": "PC2",
       "scryfallSetCode": "PC2",
       "rarity": "C",

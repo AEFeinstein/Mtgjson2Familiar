@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "9b56ac84fbb4ffacef22f0eac5c3f594",
+    "digest": "9327c3c108796faec770073bd95b40a0",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/LRW_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/LRW_R.png",
@@ -21,6 +21,7 @@
     {
       "name": "Ajani Goldmane",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Ajani",
       "text": "[+1]: You gain 2 life.<br>[−1]: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.<br>[−6]: Create a white Avatar creature token. It has \"This creature's power and toughness are each equal to your life total.\"",
@@ -73,6 +74,7 @@
     {
       "name": "Arbiter of Knollridge",
       "manaCost": "{6}{W}",
+      "sortedManaCost": "{6}{W}",
       "cmc": 7,
       "type": "Creature - Giant Wizard",
       "text": "Vigilance<br>When Arbiter of Knollridge enters the battlefield, each player's life total becomes the highest life total among all players.",
@@ -126,9 +128,10 @@
     {
       "name": "Austere Command",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Choose two -<br>• Destroy all artifacts.<br>• Destroy all enchantments.<br>• Destroy all creatures with converted mana cost 3 or less.<br>• Destroy all creatures with converted mana cost 4 or greater.",
+      "text": "Choose two -<br>• Destroy all artifacts.<br>• Destroy all enchantments.<br>• Destroy all creatures with mana value 3 or less.<br>• Destroy all creatures with mana value 4 or greater.",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "R",
@@ -178,6 +181,7 @@
     {
       "name": "Avian Changeling",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Flying",
@@ -231,6 +235,7 @@
     {
       "name": "Battle Mastery",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has double strike. (It deals both first-strike and regular combat damage.)",
@@ -284,6 +289,7 @@
     {
       "name": "Brigid, Hero of Kinsbaile",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Kithkin Archer",
       "text": "First strike<br>{T}: Brigid, Hero of Kinsbaile deals 2 damage to each attacking or blocking creature target player controls.",
@@ -337,6 +343,7 @@
     {
       "name": "Burrenton Forge-Tender",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Kithkin Wizard",
       "text": "Protection from red<br>Sacrifice Burrenton Forge-Tender: Prevent all damage a red source of your choice would deal this turn.",
@@ -390,6 +397,7 @@
     {
       "name": "Cenn's Heir",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Kithkin Soldier",
       "text": "Whenever Cenn's Heir attacks, it gets +1/+1 until end of turn for each other attacking Kithkin.",
@@ -443,6 +451,7 @@
     {
       "name": "Changeling Hero",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Champion a creature (When this enters the battlefield, sacrifice it unless you exile another creature you control. When this leaves the battlefield, that card returns to the battlefield.)<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
@@ -495,6 +504,7 @@
     {
       "name": "Cloudgoat Ranger",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Giant Warrior",
       "text": "When Cloudgoat Ranger enters the battlefield, create three 1/1 white Kithkin Soldier creature tokens.<br>Tap three untapped Kithkin you control: Cloudgoat Ranger gets +2/+0 and gains flying until end of turn.",
@@ -547,6 +557,7 @@
     {
       "name": "Crib Swap",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Tribal Instant - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Exile target creature. Its controller creates a 1/1 colorless Shapeshifter creature token with changeling.",
@@ -599,6 +610,7 @@
     {
       "name": "Dawnfluke",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Flash<br>When Dawnfluke enters the battlefield, prevent the next 3 damage that would be dealt to any target this turn.<br>Evoke {W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -651,6 +663,7 @@
     {
       "name": "Entangling Trap",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Whenever you clash, tap target creature an opponent controls. If you won, that creature doesn't untap during its controller's next untap step. (This ability triggers after the clash ends.)",
@@ -703,9 +716,10 @@
     {
       "name": "Favor of the Mighty",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Tribal Enchantment - Giant",
-      "text": "Each creature with the highest converted mana cost has protection from all colors.",
+      "text": "Each creature with the highest mana value has protection from all colors.",
       "flavor": "\"What does a mountain fear of a fly? Giants are barely aware of us, let alone afraid.\"<br>-Gaddock Teeg",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
@@ -756,6 +770,7 @@
     {
       "name": "Galepowder Mage",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Kithkin Wizard",
       "text": "Flying<br>Whenever Galepowder Mage attacks, exile another target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -808,6 +823,7 @@
     {
       "name": "Goldmeadow Dodger",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Kithkin Rogue",
       "text": "Goldmeadow Dodger can't be blocked by creatures with power 4 or greater.",
@@ -861,6 +877,7 @@
     {
       "name": "Goldmeadow Harrier",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Kithkin Soldier",
       "text": "{W}, {T}: Tap target creature.",
@@ -914,6 +931,7 @@
     {
       "name": "Goldmeadow Stalwart",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Kithkin Soldier",
       "text": "As an additional cost to cast this spell, reveal a Kithkin card from your hand or pay {3}.",
@@ -967,6 +985,7 @@
     {
       "name": "Harpoon Sniper",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Merfolk Archer",
       "text": "{W}, {T}: Harpoon Sniper deals X damage to target attacking or blocking creature, where X is the number of Merfolk you control.",
@@ -1020,6 +1039,7 @@
     {
       "name": "Hillcomber Giant",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Giant Scout",
       "text": "Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)",
@@ -1073,6 +1093,7 @@
     {
       "name": "Hoofprints of the Stag",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Tribal Enchantment - Elemental",
       "text": "Whenever you draw a card, you may put a hoofprint counter on Hoofprints of the Stag.<br>{2}{W}, Remove four hoofprint counters from Hoofprints of the Stag: Create a 4/4 white Elemental creature token with flying. Activate only during your turn.",
@@ -1125,6 +1146,7 @@
     {
       "name": "Judge of Currents",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Merfolk Wizard",
       "text": "Whenever a Merfolk you control becomes tapped, you may gain 1 life.",
@@ -1178,6 +1200,7 @@
     {
       "name": "Kinsbaile Balloonist",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Kithkin Soldier",
       "text": "Flying<br>Whenever Kinsbaile Balloonist attacks, you may have target creature gain flying until end of turn.",
@@ -1231,6 +1254,7 @@
     {
       "name": "Kinsbaile Skirmisher",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Kithkin Soldier",
       "text": "When Kinsbaile Skirmisher enters the battlefield, target creature gets +1/+1 until end of turn.",
@@ -1284,6 +1308,7 @@
     {
       "name": "Kithkin Greatheart",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Kithkin Soldier",
       "text": "As long as you control a Giant, Kithkin Greatheart gets +1/+1 and has first strike.",
@@ -1337,6 +1362,7 @@
     {
       "name": "Kithkin Harbinger",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Kithkin Wizard",
       "text": "When Kithkin Harbinger enters the battlefield, you may search your library for a Kithkin card, reveal it, then shuffle and put that card on top.",
@@ -1390,6 +1416,7 @@
     {
       "name": "Kithkin Healer",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Kithkin Cleric",
       "text": "{T}: Prevent the next 1 damage that would be dealt to any target this turn.",
@@ -1443,6 +1470,7 @@
     {
       "name": "Knight of Meadowgrain",
       "manaCost": "{W}{W}",
+      "sortedManaCost": "{W}{W}",
       "cmc": 2,
       "type": "Creature - Kithkin Knight",
       "text": "First strike<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
@@ -1496,6 +1524,7 @@
     {
       "name": "Lairwatch Giant",
       "manaCost": "{5}{W}",
+      "sortedManaCost": "{5}{W}",
       "cmc": 6,
       "type": "Creature - Giant Warrior",
       "text": "Lairwatch Giant can block an additional creature each combat.<br>Whenever Lairwatch Giant blocks two or more creatures, it gains first strike until end of turn.",
@@ -1549,6 +1578,7 @@
     {
       "name": "Militia's Pride",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Tribal Enchantment - Kithkin",
       "text": "Whenever a nontoken creature you control attacks, you may pay {W}. If you do, create a 1/1 white Kithkin Soldier creature token that's tapped and attacking.",
@@ -1602,6 +1632,7 @@
     {
       "name": "Mirror Entity",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>{X}: Until end of turn, creatures you control have base power and toughness X/X and gain all creature types.",
@@ -1655,6 +1686,7 @@
     {
       "name": "Neck Snap",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Destroy target attacking or blocking creature.",
@@ -1708,6 +1740,7 @@
     {
       "name": "Oaken Brawler",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Treefolk Warrior",
       "text": "When Oaken Brawler enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Oaken Brawler. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
@@ -1760,6 +1793,7 @@
     {
       "name": "Oblivion Ring",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Oblivion Ring enters the battlefield, exile another target nonland permanent.<br>When Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner's control.",
@@ -1813,6 +1847,7 @@
     {
       "name": "Plover Knights",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Kithkin Knight",
       "text": "Flying, first strike",
@@ -1866,9 +1901,10 @@
     {
       "name": "Pollen Lullaby",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
-      "text": "Prevent all combat damage that would be dealt this turn. Clash with an opponent. If you win, creatures that player controls don't untap during the player's next untap step. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)",
+      "text": "Prevent all combat damage that would be dealt this turn. Clash with an opponent. If you win, creatures that player controls don't untap during the player's next untap step. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "U",
@@ -1918,6 +1954,7 @@
     {
       "name": "Purity",
       "manaCost": "{3}{W}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}{W}",
       "cmc": 6,
       "type": "Creature - Elemental Incarnation",
       "text": "Flying<br>If noncombat damage would be dealt to you, prevent that damage. You gain life equal to the damage prevented this way.<br>When Purity is put into a graveyard from anywhere, shuffle it into its owner's library.",
@@ -1970,6 +2007,7 @@
     {
       "name": "Sentry Oak",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Treefolk Warrior",
       "text": "Defender<br>At the beginning of combat on your turn, you may clash with an opponent. If you win, Sentry Oak gets +2/+0 and loses defender until end of turn. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
@@ -2022,6 +2060,7 @@
     {
       "name": "Shields of Velis Vel",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Tribal Instant - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Creatures target player controls get +0/+1 and gain all creature types until end of turn.",
@@ -2075,6 +2114,7 @@
     {
       "name": "Soaring Hope",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When Soaring Hope enters the battlefield, you gain 3 life.<br>Enchanted creature has flying.<br>{W}: Put Soaring Hope on top of its owner's library.",
@@ -2127,6 +2167,7 @@
     {
       "name": "Springjack Knight",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Kithkin Knight",
       "text": "Whenever Springjack Knight attacks, clash with an opponent. If you win, target creature gains double strike until end of turn. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
@@ -2179,6 +2220,7 @@
     {
       "name": "Summon the School",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Tribal Sorcery - Merfolk",
       "text": "Create two 1/1 blue Merfolk Wizard creature tokens.<br>Tap four untapped Merfolk you control: Return Summon the School from your graveyard to your hand.",
@@ -2232,6 +2274,7 @@
     {
       "name": "Surge of Thoughtweft",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Tribal Instant - Kithkin",
       "text": "Creatures you control get +1/+1 until end of turn. If you control a Kithkin, draw a card.",
@@ -2285,6 +2328,7 @@
     {
       "name": "Thoughtweft Trio",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Kithkin Soldier",
       "text": "First strike, vigilance<br>Champion a Kithkin (When this enters the battlefield, sacrifice it unless you exile another Kithkin you control. When this leaves the battlefield, that card returns to the battlefield.)<br>Thoughtweft Trio can block any number of creatures.",
@@ -2337,6 +2381,7 @@
     {
       "name": "Triclopean Sight",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Flash<br>Enchant creature<br>When Triclopean Sight enters the battlefield, untap enchanted creature.<br>Enchanted creature gets +1/+1 and has vigilance.",
@@ -2389,6 +2434,7 @@
     {
       "name": "Veteran of the Depths",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Merfolk Soldier",
       "text": "Whenever Veteran of the Depths becomes tapped, you may put a +1/+1 counter on it.",
@@ -2442,6 +2488,7 @@
     {
       "name": "Wellgabber Apothecary",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Merfolk Cleric",
       "text": "{1}{W}: Prevent all damage that would be dealt to target tapped Merfolk or Kithkin creature this turn.",
@@ -2495,6 +2542,7 @@
     {
       "name": "Wispmare",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Flying<br>When Wispmare enters the battlefield, destroy target enchantment.<br>Evoke {W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -2547,6 +2595,7 @@
     {
       "name": "Wizened Cenn",
       "manaCost": "{W}{W}",
+      "sortedManaCost": "{W}{W}",
       "cmc": 2,
       "type": "Creature - Kithkin Cleric",
       "text": "Other Kithkin creatures you control get +1/+1.",
@@ -2600,6 +2649,7 @@
     {
       "name": "Aethersnipe",
       "manaCost": "{5}{U}",
+      "sortedManaCost": "{5}{U}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "When Aethersnipe enters the battlefield, return target nonland permanent to its owner's hand.<br>Evoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -2652,6 +2702,7 @@
     {
       "name": "Amoeboid Changeling",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>{T}: Target creature gains all creature types until end of turn.<br>{T}: Target creature loses all creature types until end of turn.",
@@ -2704,6 +2755,7 @@
     {
       "name": "Aquitect's Will",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Tribal Sorcery - Merfolk",
       "text": "Put a flood counter on target land. That land is an Island in addition to its other types for as long as it has a flood counter on it. If you control a Merfolk, draw a card.",
@@ -2757,6 +2809,7 @@
     {
       "name": "Benthicore",
       "manaCost": "{6}{U}",
+      "sortedManaCost": "{6}{U}",
       "cmc": 7,
       "type": "Creature - Elemental",
       "text": "When Benthicore enters the battlefield, create two 1/1 blue Merfolk Wizard creature tokens.<br>Tap two untapped Merfolk you control: Untap Benthicore. It gains shroud until end of turn. (It can't be the target of spells or abilities.)",
@@ -2809,6 +2862,7 @@
     {
       "name": "Broken Ambitions",
       "manaCost": "{X}{U}",
+      "sortedManaCost": "{X}{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. Clash with an opponent. If you win, that spell's controller mills four cards. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
@@ -2861,6 +2915,7 @@
     {
       "name": "Captivating Glance",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>At the beginning of your end step, clash with an opponent. If you win, gain control of enchanted creature. Otherwise, that player gains control of enchanted creature. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
@@ -2913,6 +2968,7 @@
     {
       "name": "Cryptic Command",
       "manaCost": "{1}{U}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Choose two -<br>• Counter target spell.<br>• Return target permanent to its owner's hand.<br>• Tap all creatures your opponents control.<br>• Draw a card.",
@@ -2965,6 +3021,7 @@
     {
       "name": "Deeptread Merrow",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Rogue",
       "text": "{U}: Deeptread Merrow gains islandwalk until end of turn. (It can't be blocked as long as defending player controls an Island.)",
@@ -3018,6 +3075,7 @@
     {
       "name": "Drowner of Secrets",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Merfolk Wizard",
       "text": "Tap an untapped Merfolk you control: Target player mills a card.",
@@ -3071,6 +3129,7 @@
     {
       "name": "Ego Erasure",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Tribal Instant - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Creatures target player controls get -2/-0 and lose all creature types until end of turn.",
@@ -3124,6 +3183,7 @@
     {
       "name": "Ethereal Whiskergill",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Flying<br>Ethereal Whiskergill can't attack unless defending player controls an Island.",
@@ -3177,9 +3237,10 @@
     {
       "name": "Faerie Harbinger",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Faerie Wizard",
-      "text": "Flash<br>Flying<br>When Faerie Harbinger enters the battlefield, you may search your library for a Faerie card, reveal it, then shuffle your library and put that card on top of it.",
+      "text": "Flash<br>Flying<br>When Faerie Harbinger enters the battlefield, you may search your library for a Faerie card, reveal it, then shuffle and put that card on top.",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "U",
@@ -3229,6 +3290,7 @@
     {
       "name": "Faerie Trickery",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Tribal Instant - Faerie",
       "text": "Counter target non-Faerie spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
@@ -3282,6 +3344,7 @@
     {
       "name": "Fallowsage",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Merfolk Wizard",
       "text": "Whenever Fallowsage becomes tapped, you may draw a card.",
@@ -3335,6 +3398,7 @@
     {
       "name": "Familiar's Ruse",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, return a creature you control to its owner's hand.<br>Counter target spell.",
@@ -3388,6 +3452,7 @@
     {
       "name": "Fathom Trawl",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Reveal cards from the top of your library until you reveal three nonland cards. Put the nonland cards revealed this way into your hand, then put the rest of the revealed cards on the bottom of your library in any order.",
@@ -3440,6 +3505,7 @@
     {
       "name": "Forced Fruition",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "Whenever an opponent casts a spell, that player draws seven cards.",
@@ -3493,6 +3559,7 @@
     {
       "name": "Glen Elendra Pranksters",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Faerie Wizard",
       "text": "Flying<br>Whenever you cast a spell during an opponent's turn, you may return target creature you control to its owner's hand.",
@@ -3546,6 +3613,7 @@
     {
       "name": "Glimmerdust Nap",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant tapped creature<br>Enchanted creature doesn't untap during its controller's untap step.",
@@ -3599,6 +3667,7 @@
     {
       "name": "Guile",
       "manaCost": "{3}{U}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}{U}",
       "cmc": 6,
       "type": "Creature - Elemental Incarnation",
       "text": "Guile can't be blocked except by three or more creatures.<br>If a spell or ability you control would counter a spell, instead exile that spell and you may play that card without paying its mana cost.<br>When Guile is put into a graveyard from anywhere, shuffle it into its owner's library.",
@@ -3651,6 +3720,7 @@
     {
       "name": "Inkfathom Divers",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Creature - Merfolk Soldier",
       "text": "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)<br>When Inkfathom Divers enters the battlefield, look at the top four cards of your library, then put them back in any order.",
@@ -3704,6 +3774,7 @@
     {
       "name": "Jace Beleren",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Jace",
       "text": "[+2]: Each player draws a card.<br>[−1]: Target player draws a card.<br>[−10]: Target player mills twenty cards.",
@@ -3756,6 +3827,7 @@
     {
       "name": "Merrow Commerce",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Tribal Enchantment - Merfolk",
       "text": "At the beginning of your end step, untap all Merfolk you control.",
@@ -3809,6 +3881,7 @@
     {
       "name": "Merrow Harbinger",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Merfolk Wizard",
       "text": "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)<br>When Merrow Harbinger enters the battlefield, you may search your library for a Merfolk card, reveal it, then shuffle and put that card on top.",
@@ -3861,6 +3934,7 @@
     {
       "name": "Merrow Reejerey",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Merfolk Soldier",
       "text": "Other Merfolk creatures you control get +1/+1.<br>Whenever you cast a Merfolk spell, you may tap or untap target permanent.",
@@ -3914,6 +3988,7 @@
     {
       "name": "Mistbind Clique",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Faerie Wizard",
       "text": "Flash<br>Flying<br>Champion a Faerie (When this enters the battlefield, sacrifice it unless you exile another Faerie you control. When this leaves the battlefield, that card returns to the battlefield.)<br>When a Faerie is championed with Mistbind Clique, tap all lands target player controls.",
@@ -3966,6 +4041,7 @@
     {
       "name": "Mulldrifter",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Flying<br>When Mulldrifter enters the battlefield, draw two cards.<br>Evoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -4018,9 +4094,10 @@
     {
       "name": "Paperfin Rascal",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Merfolk Rogue",
-      "text": "When Paperfin Rascal enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Paperfin Rascal. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)",
+      "text": "When Paperfin Rascal enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Paperfin Rascal. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "C",
@@ -4070,6 +4147,7 @@
     {
       "name": "Pestermite",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Faerie Rogue",
       "text": "Flash<br>Flying<br>When Pestermite enters the battlefield, you may tap or untap target permanent.",
@@ -4123,9 +4201,10 @@
     {
       "name": "Ponder",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Sorcery",
-      "text": "Look at the top three cards of your library, then put them back in any order. You may shuffle your library.<br>Draw a card.",
+      "text": "Look at the top three cards of your library, then put them back in any order. You may shuffle.<br>Draw a card.",
       "flavor": "\"We see the same sky as you, just through a different lens.\"",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
@@ -4176,6 +4255,7 @@
     {
       "name": "Protective Bubble",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't be blocked and has shroud. (It can't be the target of spells or abilities.)",
@@ -4229,6 +4309,7 @@
     {
       "name": "Ringskipper",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Faerie Wizard",
       "text": "Flying<br>When Ringskipper dies, clash with an opponent. If you win, return Ringskipper to its owner's hand. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
@@ -4281,9 +4362,10 @@
     {
       "name": "Scattering Stroke",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Instant",
-      "text": "Counter target spell. Clash with an opponent. If you win, at the beginning of your next main phase, you may add an amount of {C} equal to that spell's converted mana cost. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)",
+      "text": "Counter target spell. Clash with an opponent. If you win, at the beginning of your next main phase, you may add an amount of {C} equal to that spell's mana value. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "U",
@@ -4333,6 +4415,7 @@
     {
       "name": "Scion of Oona",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Faerie Soldier",
       "text": "Flash<br>Flying<br>Other Faerie creatures you control get +1/+1.<br>Other Faeries you control have shroud. (They can't be the targets of spells or abilities.)",
@@ -4385,6 +4468,7 @@
     {
       "name": "Sentinels of Glen Elendra",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Faerie Soldier",
       "text": "Flash<br>Flying",
@@ -4438,6 +4522,7 @@
     {
       "name": "Shapesharer",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>{2}{U}: Target Shapeshifter becomes a copy of target creature until your next turn.",
@@ -4491,6 +4576,7 @@
     {
       "name": "Silvergill Adept",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Wizard",
       "text": "As an additional cost to cast this spell, reveal a Merfolk card from your hand or pay {3}.<br>When Silvergill Adept enters the battlefield, draw a card.",
@@ -4544,6 +4630,7 @@
     {
       "name": "Silvergill Douser",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Wizard",
       "text": "{T}: Target creature gets -X/-0 until end of turn, where X is the number of Merfolk and/or Faeries you control.",
@@ -4597,6 +4684,7 @@
     {
       "name": "Sower of Temptation",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Faerie Wizard",
       "text": "Flying<br>When Sower of Temptation enters the battlefield, gain control of target creature for as long as Sower of Temptation remains on the battlefield.",
@@ -4650,9 +4738,10 @@
     {
       "name": "Spellstutter Sprite",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Faerie Wizard",
-      "text": "Flash<br>Flying<br>When Spellstutter Sprite enters the battlefield, counter target spell with converted mana cost X or less, where X is the number of Faeries you control.",
+      "text": "Flash<br>Flying<br>When Spellstutter Sprite enters the battlefield, counter target spell with mana value X or less, where X is the number of Faeries you control.",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "C",
@@ -4702,6 +4791,7 @@
     {
       "name": "Stonybrook Angler",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Wizard",
       "text": "{1}{U}, {T}: You may tap or untap target creature.",
@@ -4755,6 +4845,7 @@
     {
       "name": "Streambed Aquitects",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Merfolk Scout",
       "text": "{T}: Target Merfolk creature gets +1/+1 and gains islandwalk until end of turn. (It can't be blocked as long as defending player controls an Island.)<br>{T}: Target land becomes an Island until end of turn.",
@@ -4808,6 +4899,7 @@
     {
       "name": "Surgespanner",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Merfolk Wizard",
       "text": "Whenever Surgespanner becomes tapped, you may pay {1}{U}. If you do, return target permanent to its owner's hand.",
@@ -4861,6 +4953,7 @@
     {
       "name": "Tideshaper Mystic",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Merfolk Wizard",
       "text": "{T}: Target land becomes the basic land type of your choice until end of turn. Activate only during your turn.",
@@ -4914,6 +5007,7 @@
     {
       "name": "Turtleshell Changeling",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>{1}{U}: Switch Turtleshell Changeling's power and toughness until end of turn.",
@@ -4967,6 +5061,7 @@
     {
       "name": "Wanderwine Prophets",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Creature - Merfolk Wizard",
       "text": "Champion a Merfolk (When this enters the battlefield, sacrifice it unless you exile another Merfolk you control. When this leaves the battlefield, that card returns to the battlefield.)<br>Whenever Wanderwine Prophets deals combat damage to a player, you may sacrifice a Merfolk. If you do, take an extra turn after this one.",
@@ -5019,9 +5114,10 @@
     {
       "name": "Whirlpool Whelm",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
-      "text": "Clash with an opponent, then return target creature to its owner's hand. If you win, you may put that creature on top of its owner's library instead. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)",
+      "text": "Clash with an opponent, then return target creature to its owner's hand. If you win, you may put that creature on top of its owner's library instead. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "C",
@@ -5071,6 +5167,7 @@
     {
       "name": "Wings of Velis Vel",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Tribal Instant - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Until end of turn, target creature has base power and toughness 4/4, gains all creature types, and gains flying.",
@@ -5124,6 +5221,7 @@
     {
       "name": "Zephyr Net",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has defender and flying.",
@@ -5177,6 +5275,7 @@
     {
       "name": "Black Poplar Shaman",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Treefolk Shaman",
       "text": "{2}{B}: Regenerate target Treefolk.",
@@ -5230,6 +5329,7 @@
     {
       "name": "Bog Hoodlums",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Goblin Warrior",
       "text": "Bog Hoodlums can't block.<br>When Bog Hoodlums enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Bog Hoodlums. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
@@ -5282,6 +5382,7 @@
     {
       "name": "Boggart Birth Rite",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Tribal Sorcery - Goblin",
       "text": "Return target Goblin card from your graveyard to your hand.",
@@ -5335,6 +5436,7 @@
     {
       "name": "Boggart Harbinger",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Goblin Shaman",
       "text": "When Boggart Harbinger enters the battlefield, you may search your library for a Goblin card, reveal it, then shuffle and put that card on top.",
@@ -5387,6 +5489,7 @@
     {
       "name": "Boggart Loggers",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Goblin Rogue",
       "text": "Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)<br>{2}{B}, Sacrifice Boggart Loggers: Destroy target Treefolk or Forest.",
@@ -5440,6 +5543,7 @@
     {
       "name": "Boggart Mob",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Goblin Warrior",
       "text": "Champion a Goblin (When this enters the battlefield, sacrifice it unless you exile another Goblin you control. When this leaves the battlefield, that card returns to the battlefield.)<br>Whenever a Goblin you control deals combat damage to a player, you may create a 1/1 black Goblin Rogue creature token.",
@@ -5492,6 +5596,7 @@
     {
       "name": "Cairn Wanderer",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>As long as a creature card with flying is in a graveyard, Cairn Wanderer has flying. The same is true for fear, first strike, double strike, deathtouch, haste, landwalk, lifelink, protection, reach, trample, shroud, and vigilance.",
@@ -5544,6 +5649,7 @@
     {
       "name": "Colfenor's Plans",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "When Colfenor's Plans enters the battlefield, exile the top seven cards of your library face down.<br>You may look at the cards exiled with Colfenor's Plans, and you may play lands and cast spells from among those cards.<br>Skip your draw step.<br>You can't cast more than one spell each turn.",
@@ -5596,6 +5702,7 @@
     {
       "name": "Dread",
       "manaCost": "{3}{B}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{B}",
       "cmc": 6,
       "type": "Creature - Elemental Incarnation",
       "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>Whenever a creature deals damage to you, destroy it.<br>When Dread is put into a graveyard from anywhere, shuffle it into its owner's library.",
@@ -5648,6 +5755,7 @@
     {
       "name": "Dreamspoiler Witches",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Faerie Wizard",
       "text": "Flying<br>Whenever you cast a spell during an opponent's turn, you may have target creature get -1/-1 until end of turn.",
@@ -5701,6 +5809,7 @@
     {
       "name": "Exiled Boggart",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Goblin Rogue",
       "text": "When Exiled Boggart dies, discard a card.",
@@ -5754,6 +5863,7 @@
     {
       "name": "Eyeblight's Ending",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Tribal Instant - Elf",
       "text": "Destroy target non-Elf creature.",
@@ -5807,6 +5917,7 @@
     {
       "name": "Facevaulter",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Goblin Warrior",
       "text": "{B}, Sacrifice a Goblin: Facevaulter gets +2/+2 until end of turn.",
@@ -5860,6 +5971,7 @@
     {
       "name": "Faerie Tauntings",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Tribal Enchantment - Faerie",
       "text": "Whenever you cast a spell during an opponent's turn, you may have each opponent lose 1 life.",
@@ -5913,6 +6025,7 @@
     {
       "name": "Final Revels",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Choose one -<br>• All creatures get +2/+0 until end of turn.<br>• All creatures get -0/-2 until end of turn.",
@@ -5966,6 +6079,7 @@
     {
       "name": "Fodder Launch",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Tribal Sorcery - Goblin",
       "text": "As an additional cost to cast this spell, sacrifice a Goblin.<br>Target creature gets -5/-5 until end of turn. Fodder Launch deals 5 damage to that creature's controller.",
@@ -6019,6 +6133,7 @@
     {
       "name": "Footbottom Feast",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Put any number of target creature cards from your graveyard on top of your library.<br>Draw a card.",
@@ -6072,6 +6187,7 @@
     {
       "name": "Ghostly Changeling",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>{1}{B}: Ghostly Changeling gets +1/+1 until end of turn.",
@@ -6125,9 +6241,10 @@
     {
       "name": "Hoarder's Greed",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Sorcery",
-      "text": "You lose 2 life and draw two cards, then clash with an opponent. If you win, repeat this process. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)",
+      "text": "You lose 2 life and draw two cards, then clash with an opponent. If you win, repeat this process. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "U",
@@ -6177,6 +6294,7 @@
     {
       "name": "Hornet Harasser",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Goblin Shaman",
       "text": "When Hornet Harasser dies, target creature gets -2/-2 until end of turn.",
@@ -6230,6 +6348,7 @@
     {
       "name": "Hunter of Eyeblights",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Elf Assassin",
       "text": "When Hunter of Eyeblights enters the battlefield, put a +1/+1 counter on target creature you don't control.<br>{2}{B}, {T}: Destroy target creature with a counter on it.",
@@ -6283,6 +6402,7 @@
     {
       "name": "Knucklebone Witch",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Goblin Shaman",
       "text": "Whenever a Goblin you control is put into a graveyard from the battlefield, you may put a +1/+1 counter on Knucklebone Witch.",
@@ -6336,6 +6456,7 @@
     {
       "name": "Liliana Vess",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Liliana",
       "text": "[+1]: Target player discards a card.<br>[−2]: Search your library for a card, then shuffle and put that card on top.<br>[−8]: Put all creature cards from all graveyards onto the battlefield under your control.",
@@ -6388,6 +6509,7 @@
     {
       "name": "Lys Alana Scarblade",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Elf Assassin",
       "text": "{T}, Discard an Elf card: Target creature gets -X/-X until end of turn, where X is the number of Elves you control.",
@@ -6441,6 +6563,7 @@
     {
       "name": "Mad Auntie",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Goblin Shaman",
       "text": "Other Goblin creatures you control get +1/+1.<br>{T}: Regenerate another target Goblin.",
@@ -6494,6 +6617,7 @@
     {
       "name": "Makeshift Mannequin",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Return target creature card from your graveyard to the battlefield with a mannequin counter on it. For as long as that creature has a mannequin counter on it, it has \"When this creature becomes the target of a spell or ability, sacrifice it.\"",
@@ -6547,6 +6671,7 @@
     {
       "name": "Marsh Flitter",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Faerie Rogue",
       "text": "Flying<br>When Marsh Flitter enters the battlefield, create two 1/1 black Goblin Rogue creature tokens.<br>Sacrifice a Goblin: Marsh Flitter has base power and toughness 3/3 until end of turn.",
@@ -6599,6 +6724,7 @@
     {
       "name": "Moonglove Winnower",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Elf Rogue",
       "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
@@ -6652,6 +6778,7 @@
     {
       "name": "Mournwhelk",
       "manaCost": "{6}{B}",
+      "sortedManaCost": "{6}{B}",
       "cmc": 7,
       "type": "Creature - Elemental",
       "text": "When Mournwhelk enters the battlefield, target player discards two cards.<br>Evoke {3}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -6705,6 +6832,7 @@
     {
       "name": "Nameless Inversion",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Tribal Instant - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Target creature gets +3/-3 and loses all creature types until end of turn.",
@@ -6758,6 +6886,7 @@
     {
       "name": "Nath's Buffoon",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Goblin Rogue",
       "text": "Protection from Elves",
@@ -6811,6 +6940,7 @@
     {
       "name": "Nectar Faerie",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Faerie Wizard",
       "text": "Flying<br>{B}, {T}: Target Faerie or Elf gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)",
@@ -6864,6 +6994,7 @@
     {
       "name": "Nettlevine Blight",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Enchantment - Aura",
       "text": "Enchant creature or land<br>Enchanted permanent has \"At the beginning of your end step, sacrifice this permanent and attach Nettlevine Blight to a creature or land you control.\"",
@@ -6916,6 +7047,7 @@
     {
       "name": "Nightshade Stinger",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Faerie Rogue",
       "text": "Flying<br>Nightshade Stinger can't block.",
@@ -6969,6 +7101,7 @@
     {
       "name": "Oona's Prowler",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Faerie Rogue",
       "text": "Flying<br>Discard a card: Oona's Prowler gets -2/-0 until end of turn. Any player may activate this ability.",
@@ -7022,6 +7155,7 @@
     {
       "name": "Peppersmoke",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Tribal Instant - Faerie",
       "text": "Target creature gets -1/-1 until end of turn. If you control a Faerie, draw a card.",
@@ -7075,9 +7209,10 @@
     {
       "name": "Profane Command",
       "manaCost": "{X}{B}{B}",
+      "sortedManaCost": "{X}{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "Choose two -<br>• Target player loses X life.<br>• Return target creature card with converted mana cost X or less from your graveyard to the battlefield.<br>• Target creature gets -X/-X until end of turn.<br>• Up to X target creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)",
+      "text": "Choose two -<br>• Target player loses X life.<br>• Return target creature card with mana value X or less from your graveyard to the battlefield.<br>• Target creature gets -X/-X until end of turn.<br>• Up to X target creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "R",
@@ -7127,6 +7262,7 @@
     {
       "name": "Prowess of the Fair",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Tribal Enchantment - Elf",
       "text": "Whenever another nontoken Elf is put into your graveyard from the battlefield, you may create a 1/1 green Elf Warrior creature token.",
@@ -7180,6 +7316,7 @@
     {
       "name": "Quill-Slinger Boggart",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Goblin Warrior",
       "text": "Whenever a player casts a Kithkin spell, you may have target player lose 1 life.",
@@ -7233,6 +7370,7 @@
     {
       "name": "Scarred Vinebreeder",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Elf Shaman",
       "text": "{2}{B}, Exile an Elf card from your graveyard: Scarred Vinebreeder gets +3/+3 until end of turn.",
@@ -7286,6 +7424,7 @@
     {
       "name": "Shriekmaw",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>When Shriekmaw enters the battlefield, destroy target nonartifact, nonblack creature.<br>Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -7338,6 +7477,7 @@
     {
       "name": "Skeletal Changeling",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>{1}{B}: Regenerate Skeletal Changeling.",
@@ -7391,6 +7531,7 @@
     {
       "name": "Spiderwig Boggart",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Goblin Shaman",
       "text": "When Spiderwig Boggart enters the battlefield, target creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)",
@@ -7444,6 +7585,7 @@
     {
       "name": "Squeaking Pie Sneak",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Goblin Rogue",
       "text": "As an additional cost to cast this spell, reveal a Goblin card from your hand or pay {3}.<br>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)",
@@ -7497,6 +7639,7 @@
     {
       "name": "Thieving Sprite",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Faerie Rogue",
       "text": "Flying<br>When Thieving Sprite enters the battlefield, target player reveals X cards from their hand, where X is the number of Faeries you control. You choose one of those cards. That player discards that card.",
@@ -7549,6 +7692,7 @@
     {
       "name": "Thorntooth Witch",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Treefolk Shaman",
       "text": "Whenever you cast a Treefolk spell, you may have target creature get +3/-3 until end of turn.",
@@ -7602,6 +7746,7 @@
     {
       "name": "Thoughtseize",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.",
@@ -7655,6 +7800,7 @@
     {
       "name": "Warren Pilferers",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Goblin Rogue",
       "text": "When Warren Pilferers enters the battlefield, return target creature card from your graveyard to your hand. If that card is a Goblin card, Warren Pilferers gains haste until end of turn.",
@@ -7708,6 +7854,7 @@
     {
       "name": "Weed Strangle",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Destroy target creature. Clash with an opponent. If you win, you gain life equal to that creature's toughness. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
@@ -7760,9 +7907,10 @@
     {
       "name": "Adder-Staff Boggart",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Warrior",
-      "text": "When Adder-Staff Boggart enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Adder-Staff Boggart. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)",
+      "text": "When Adder-Staff Boggart enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Adder-Staff Boggart. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "C",
@@ -7812,6 +7960,7 @@
     {
       "name": "Ashling the Pilgrim",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Legendary Creature - Elemental Shaman",
       "text": "{1}{R}: Put a +1/+1 counter on Ashling the Pilgrim. If this is the third time this ability has resolved this turn, remove all +1/+1 counters from Ashling the Pilgrim, and it deals that much damage to each creature and each player.",
@@ -7864,9 +8013,10 @@
     {
       "name": "Ashling's Prerogative",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment",
-      "text": "As Ashling's Prerogative enters the battlefield, choose odd or even. (Zero is even.)<br>Each creature with converted mana cost of the chosen value has haste.<br>Each creature without converted mana cost of the chosen value enters the battlefield tapped.",
+      "text": "As Ashling's Prerogative enters the battlefield, choose odd or even. (Zero is even.)<br>Each creature with mana value of the chosen quality has haste.<br>Each creature without mana value of the chosen quality enters the battlefield tapped.",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "R",
@@ -7916,6 +8066,7 @@
     {
       "name": "Axegrinder Giant",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Giant Warrior",
       "flavor": "The angriest of giants are often the most skillful weaponsmiths. Their grudges fuel endless sessions at the forge, all the while growling ferociously to themselves.",
@@ -7968,6 +8119,7 @@
     {
       "name": "Blades of Velis Vel",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Tribal Instant - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Up to two target creatures each get +2/+0 and gain all creature types until end of turn.",
@@ -8021,6 +8173,7 @@
     {
       "name": "Blind-Spot Giant",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Giant Warrior",
       "text": "Blind-Spot Giant can't attack or block unless you control another Giant.",
@@ -8074,6 +8227,7 @@
     {
       "name": "Boggart Forager",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Rogue",
       "text": "{R}, Sacrifice Boggart Forager: Target player shuffles their library.",
@@ -8127,6 +8281,7 @@
     {
       "name": "Boggart Shenanigans",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Tribal Enchantment - Goblin",
       "text": "Whenever another Goblin you control is put into a graveyard from the battlefield, you may have Boggart Shenanigans deal 1 damage to target player or planeswalker.",
@@ -8180,6 +8335,7 @@
     {
       "name": "Boggart Sprite-Chaser",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Warrior",
       "text": "As long as you control a Faerie, Boggart Sprite-Chaser gets +1/+1 and has flying.",
@@ -8233,6 +8389,7 @@
     {
       "name": "Caterwauling Boggart",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Goblin Shaman",
       "text": "Goblins you control and Elementals you control have menace. (They can't be blocked except by two or more creatures.)",
@@ -8286,6 +8443,7 @@
     {
       "name": "Ceaseless Searblades",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Elemental Warrior",
       "text": "Whenever you activate an ability of an Elemental, Ceaseless Searblades gets +1/+0 until end of turn.",
@@ -8339,6 +8497,7 @@
     {
       "name": "Chandra Nalaar",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Chandra",
       "text": "[+1]: Chandra Nalaar deals 1 damage to target player or planeswalker.<br>[−X]: Chandra Nalaar deals X damage to target creature.<br>[−8]: Chandra Nalaar deals 10 damage to target player or planeswalker and each creature that player or that planeswalker's controller controls.",
@@ -8391,6 +8550,7 @@
     {
       "name": "Changeling Berserker",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Haste<br>Champion a creature (When this enters the battlefield, sacrifice it unless you exile another creature you control. When this leaves the battlefield, that card returns to the battlefield.)",
@@ -8443,6 +8603,7 @@
     {
       "name": "Consuming Bonfire",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Tribal Sorcery - Elemental",
       "text": "Choose one -<br>• Consuming Bonfire deals 4 damage to target non-Elemental creature.<br>• Consuming Bonfire deals 7 damage to target Treefolk creature.",
@@ -8496,6 +8657,7 @@
     {
       "name": "Crush Underfoot",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Tribal Instant - Giant",
       "text": "Choose a Giant creature you control. It deals damage equal to its power to target creature.",
@@ -8549,6 +8711,7 @@
     {
       "name": "Faultgrinder",
       "manaCost": "{6}{R}",
+      "sortedManaCost": "{6}{R}",
       "cmc": 7,
       "type": "Creature - Elemental",
       "text": "Trample<br>When Faultgrinder enters the battlefield, destroy target land.<br>Evoke {4}{R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -8601,6 +8764,7 @@
     {
       "name": "Fire-Belly Changeling",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>{R}: Fire-Belly Changeling gets +1/+0 until end of turn. Activate no more than twice each turn.",
@@ -8654,6 +8818,7 @@
     {
       "name": "Flamekin Bladewhirl",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Elemental Warrior",
       "text": "As an additional cost to cast this spell, reveal an Elemental card from your hand or pay {3}.",
@@ -8707,6 +8872,7 @@
     {
       "name": "Flamekin Brawler",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Elemental Warrior",
       "text": "{R}: Flamekin Brawler gets +1/+0 until end of turn.",
@@ -8760,6 +8926,7 @@
     {
       "name": "Flamekin Harbinger",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Elemental Shaman",
       "text": "When Flamekin Harbinger enters the battlefield, you may search your library for an Elemental card, reveal it, then shuffle and put that card on top.",
@@ -8812,6 +8979,7 @@
     {
       "name": "Flamekin Spitfire",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Elemental Shaman",
       "text": "{3}{R}: Flamekin Spitfire deals 1 damage to any target.",
@@ -8865,9 +9033,10 @@
     {
       "name": "Giant Harbinger",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Giant Shaman",
-      "text": "When Giant Harbinger enters the battlefield, you may search your library for a Giant card, reveal it, then shuffle your library and put that card on top of it.",
+      "text": "When Giant Harbinger enters the battlefield, you may search your library for a Giant card, reveal it, then shuffle and put that card on top.",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "U",
@@ -8917,6 +9086,7 @@
     {
       "name": "Giant's Ire",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Tribal Sorcery - Giant",
       "text": "Giant's Ire deals 4 damage to target player or planeswalker. If you control a Giant, draw a card.",
@@ -8970,6 +9140,7 @@
     {
       "name": "Glarewielder",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Elemental Shaman",
       "text": "Haste<br>When Glarewielder enters the battlefield, up to two target creatures can't block this turn.<br>Evoke {1}{R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -9022,6 +9193,7 @@
     {
       "name": "Goatnapper",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Rogue",
       "text": "When Goatnapper enters the battlefield, untap target Goat and gain control of it until end of turn. It gains haste until end of turn.",
@@ -9075,6 +9247,7 @@
     {
       "name": "Hamletback Goliath",
       "manaCost": "{6}{R}",
+      "sortedManaCost": "{6}{R}",
       "cmc": 7,
       "type": "Creature - Giant Warrior",
       "text": "Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature's power.",
@@ -9128,6 +9301,7 @@
     {
       "name": "Hearthcage Giant",
       "manaCost": "{6}{R}{R}",
+      "sortedManaCost": "{6}{R}{R}",
       "cmc": 8,
       "type": "Creature - Giant Warrior",
       "text": "When Hearthcage Giant enters the battlefield, create two 3/1 red Elemental Shaman creature tokens.<br>Sacrifice an Elemental: Target Giant creature gets +3/+1 until end of turn.",
@@ -9181,6 +9355,7 @@
     {
       "name": "Heat Shimmer",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Create a token that's a copy of target creature, except it has haste and \"At the beginning of the end step, exile this permanent.\"",
@@ -9234,6 +9409,7 @@
     {
       "name": "Hostility",
       "manaCost": "{3}{R}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}{R}",
       "cmc": 6,
       "type": "Creature - Elemental Incarnation",
       "text": "Haste<br>If a spell you control would deal damage to an opponent, prevent that damage. Create a 3/1 red Elemental Shaman creature token with haste for each 1 damage prevented this way.<br>When Hostility is put into a graveyard from anywhere, shuffle it into its owner's library.",
@@ -9286,6 +9462,7 @@
     {
       "name": "Hurly-Burly",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Choose one -<br>• Hurly-Burly deals 1 damage to each creature without flying.<br>• Hurly-Burly deals 1 damage to each creature with flying.",
@@ -9339,6 +9516,7 @@
     {
       "name": "Incandescent Soulstoke",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Elemental Shaman",
       "text": "Other Elemental creatures you control get +1/+1.<br>{1}{R}, {T}: You may put an Elemental creature card from your hand onto the battlefield. That creature gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
@@ -9391,6 +9569,7 @@
     {
       "name": "Incendiary Command",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Choose two -<br>• Incendiary Command deals 4 damage to target player or planeswalker.<br>• Incendiary Command deals 2 damage to each creature.<br>• Destroy target nonbasic land.<br>• Each player discards all the cards in their hand, then draws that many cards.",
@@ -9443,6 +9622,7 @@
     {
       "name": "Ingot Chewer",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "When Ingot Chewer enters the battlefield, destroy target artifact.<br>Evoke {R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -9496,6 +9676,7 @@
     {
       "name": "Inner-Flame Acolyte",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Elemental Shaman",
       "text": "When Inner-Flame Acolyte enters the battlefield, target creature gets +2/+0 and gains haste until end of turn.<br>Evoke {R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -9548,6 +9729,7 @@
     {
       "name": "Inner-Flame Igniter",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Elemental Warrior",
       "text": "{2}{R}: Creatures you control get +1/+0 until end of turn. If this is the third time this ability has resolved this turn, creatures you control gain first strike until end of turn.",
@@ -9601,9 +9783,10 @@
     {
       "name": "Lash Out",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
-      "text": "Lash Out deals 3 damage to target creature. Clash with an opponent. If you win, Lash Out deals 3 damage to that creature's controller. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)",
+      "text": "Lash Out deals 3 damage to target creature. Clash with an opponent. If you win, Lash Out deals 3 damage to that creature's controller. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "C",
@@ -9653,6 +9836,7 @@
     {
       "name": "Lowland Oaf",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Giant Warrior",
       "text": "{T}: Target Goblin creature you control gets +1/+0 and gains flying until end of turn. Sacrifice that creature at the beginning of the next end step.",
@@ -9706,6 +9890,7 @@
     {
       "name": "Mudbutton Torchrunner",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Warrior",
       "text": "When Mudbutton Torchrunner dies, it deals 3 damage to any target.",
@@ -9759,6 +9944,7 @@
     {
       "name": "Needle Drop",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Needle Drop deals 1 damage to any target that was dealt damage this turn.<br>Draw a card.",
@@ -9812,6 +9998,7 @@
     {
       "name": "Nova Chaser",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Elemental Warrior",
       "text": "Trample<br>Champion an Elemental (When this enters the battlefield, sacrifice it unless you exile another Elemental you control. When this leaves the battlefield, that card returns to the battlefield.)",
@@ -9864,6 +10051,7 @@
     {
       "name": "Rebellion of the Flamekin",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Tribal Enchantment - Elemental",
       "text": "Whenever you clash, you may pay {1}. If you do, create a 3/1 red Elemental Shaman creature token. If you won, that token gains haste until end of turn. (This ability triggers after the clash ends.)",
@@ -9916,6 +10104,7 @@
     {
       "name": "Smokebraider",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Elemental Shaman",
       "text": "{T}: Add two mana in any combination of colors. Spend this mana only to cast Elemental spells or activate abilities of Elementals.",
@@ -9969,6 +10158,7 @@
     {
       "name": "Soulbright Flamekin",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Elemental Shaman",
       "text": "{2}: Target creature gains trample until end of turn. If this is the third time this ability has resolved this turn, you may add {R}{R}{R}{R}{R}{R}{R}{R}.",
@@ -10022,6 +10212,7 @@
     {
       "name": "Stinkdrinker Daredevil",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Rogue",
       "text": "Giant spells you cast cost {2} less to cast.",
@@ -10075,6 +10266,7 @@
     {
       "name": "Sunrise Sovereign",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Creature - Giant Warrior",
       "text": "Other Giant creatures you control get +2/+2 and have trample.",
@@ -10128,6 +10320,7 @@
     {
       "name": "Tar Pitcher",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Goblin Shaman",
       "text": "{T}, Sacrifice a Goblin: Tar Pitcher deals 2 damage to any target.",
@@ -10181,6 +10374,7 @@
     {
       "name": "Tarfire",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Tribal Instant - Goblin",
       "text": "Tarfire deals 2 damage to any target.",
@@ -10234,6 +10428,7 @@
     {
       "name": "Thundercloud Shaman",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Giant Shaman",
       "text": "When Thundercloud Shaman enters the battlefield, it deals damage equal to the number of Giants you control to each non-Giant creature.",
@@ -10287,6 +10482,7 @@
     {
       "name": "Wild Ricochet",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "You may choose new targets for target instant or sorcery spell. Then copy that spell. You may choose new targets for the copy.",
@@ -10340,6 +10536,7 @@
     {
       "name": "Battlewand Oak",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Treefolk Warrior",
       "text": "Whenever a Forest enters the battlefield under your control, Battlewand Oak gets +2/+2 until end of turn.<br>Whenever you cast a Treefolk spell, Battlewand Oak gets +2/+2 until end of turn.",
@@ -10392,6 +10589,7 @@
     {
       "name": "Bog-Strider Ash",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Treefolk Shaman",
       "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)<br>Whenever a player casts a Goblin spell, you may pay {G}. If you do, you gain 2 life.",
@@ -10445,6 +10643,7 @@
     {
       "name": "Briarhorn",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Flash<br>When Briarhorn enters the battlefield, target creature gets +3/+3 until end of turn.<br>Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -10497,6 +10696,7 @@
     {
       "name": "Changeling Titan",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Champion a creature (When this enters the battlefield, sacrifice it unless you exile another creature you control. When this leaves the battlefield, that card returns to the battlefield.)",
@@ -10549,6 +10749,7 @@
     {
       "name": "Cloudcrown Oak",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Treefolk Warrior",
       "text": "Reach (This creature can block creatures with flying.)",
@@ -10602,6 +10803,7 @@
     {
       "name": "Cloudthresher",
       "manaCost": "{2}{G}{G}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{G}{G}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "Flash<br>Reach<br>When Cloudthresher enters the battlefield, it deals 2 damage to each creature with flying and each player.<br>Evoke {2}{G}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -10654,6 +10856,7 @@
     {
       "name": "Dauntless Dourbark",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Treefolk Warrior",
       "text": "Dauntless Dourbark's power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.<br>Dauntless Dourbark has trample as long as you control another Treefolk.",
@@ -10706,6 +10909,7 @@
     {
       "name": "Elvish Branchbender",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
       "text": "{T}: Until end of turn, target Forest becomes an X/X Treefolk creature in addition to its other types, where X is the number of Elves you control.",
@@ -10759,6 +10963,7 @@
     {
       "name": "Elvish Eulogist",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Shaman",
       "text": "Sacrifice Elvish Eulogist: You gain 1 life for each Elf card in your graveyard.",
@@ -10812,6 +11017,7 @@
     {
       "name": "Elvish Handservant",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Warrior",
       "text": "Whenever a player casts a Giant spell, you may put a +1/+1 counter on Elvish Handservant.",
@@ -10865,9 +11071,10 @@
     {
       "name": "Elvish Harbinger",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
-      "text": "When Elvish Harbinger enters the battlefield, you may search your library for an Elf card, reveal it, then shuffle your library and put that card on top of it.<br>{T}: Add one mana of any color.",
+      "text": "When Elvish Harbinger enters the battlefield, you may search your library for an Elf card, reveal it, then shuffle and put that card on top.<br>{T}: Add one mana of any color.",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "U",
@@ -10917,6 +11124,7 @@
     {
       "name": "Elvish Promenade",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Tribal Sorcery - Elf",
       "text": "Create a 1/1 green Elf Warrior creature token for each Elf you control.",
@@ -10970,6 +11178,7 @@
     {
       "name": "Epic Proportions",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Enchantment - Aura",
       "text": "Flash<br>Enchant creature<br>Enchanted creature gets +5/+5 and has trample.",
@@ -11023,6 +11232,7 @@
     {
       "name": "Eyes of the Wisent",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Tribal Enchantment - Elemental",
       "text": "Whenever an opponent casts a blue spell during your turn, you may create a 4/4 green Elemental creature token.",
@@ -11076,6 +11286,7 @@
     {
       "name": "Fertile Ground",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant land<br>Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.",
@@ -11129,6 +11340,7 @@
     {
       "name": "Fistful of Force",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +2/+2 until end of turn. Clash with an opponent. If you win, that creature gets an additional +2/+2 and gains trample until end of turn. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
@@ -11181,6 +11393,7 @@
     {
       "name": "Garruk Wildspeaker",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Garruk",
       "text": "[+1]: Untap two target lands.<br>[−1]: Create a 3/3 green Beast creature token.<br>[−4]: Creatures you control get +3/+3 and gain trample until end of turn.",
@@ -11233,9 +11446,10 @@
     {
       "name": "Gilt-Leaf Ambush",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Tribal Instant - Elf",
-      "text": "Create two 1/1 green Elf Warrior creature tokens. Clash with an opponent. If you win, those creatures gain deathtouch until end of turn. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost. Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)",
+      "text": "Create two 1/1 green Elf Warrior creature tokens. Clash with an opponent. If you win, those creatures gain deathtouch until end of turn. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value. Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "C",
@@ -11285,6 +11499,7 @@
     {
       "name": "Gilt-Leaf Seer",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Shaman",
       "text": "{G}, {T}: Look at the top two cards of your library, then put them back in any order.",
@@ -11338,6 +11553,7 @@
     {
       "name": "Guardian of Cloverdell",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Treefolk Shaman",
       "text": "When Guardian of Cloverdell enters the battlefield, create three 1/1 white Kithkin Soldier creature tokens.<br>{G}, Sacrifice a Kithkin: You gain 1 life.",
@@ -11391,6 +11607,7 @@
     {
       "name": "Heal the Scars",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Instant",
       "text": "Regenerate target creature. You gain life equal to that creature's toughness.",
@@ -11444,6 +11661,7 @@
     {
       "name": "Hunt Down",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target creature blocks target creature this turn if able.",
@@ -11497,6 +11715,7 @@
     {
       "name": "Immaculate Magistrate",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elf Shaman",
       "text": "{T}: Put a +1/+1 counter on target creature for each Elf you control.",
@@ -11550,6 +11769,7 @@
     {
       "name": "Imperious Perfect",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Warrior",
       "text": "Other Elves you control get +1/+1.<br>{G}, {T}: Create a 1/1 green Elf Warrior creature token.",
@@ -11603,6 +11823,7 @@
     {
       "name": "Incremental Growth",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Put a +1/+1 counter on target creature, two +1/+1 counters on another target creature, and three +1/+1 counters on a third target creature.",
@@ -11656,6 +11877,7 @@
     {
       "name": "Jagged-Scar Archers",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Elf Archer",
       "text": "Jagged-Scar Archers's power and toughness are each equal to the number of Elves you control.<br>{T}: Jagged-Scar Archers deals damage equal to its power to target creature with flying.",
@@ -11708,6 +11930,7 @@
     {
       "name": "Kithkin Daggerdare",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Kithkin Soldier",
       "text": "{G}, {T}: Target attacking creature gets +2/+2 until end of turn.",
@@ -11761,6 +11984,7 @@
     {
       "name": "Kithkin Mourncaller",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Kithkin Scout",
       "text": "Whenever an attacking Kithkin or Elf is put into your graveyard from the battlefield, you may draw a card.",
@@ -11814,6 +12038,7 @@
     {
       "name": "Lace with Moonglove",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target creature gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy that creature.)<br>Draw a card.",
@@ -11867,6 +12092,7 @@
     {
       "name": "Lammastide Weave",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose a card name, then target player mills a card. If a card with the chosen name was milled this way, you gain life equal to its mana value.<br>Draw a card.",
@@ -11920,6 +12146,7 @@
     {
       "name": "Leaf Gilder",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {G}.",
@@ -11973,6 +12200,7 @@
     {
       "name": "Lignify",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Tribal Enchantment - Treefolk Aura",
       "text": "Enchant creature<br>Enchanted creature is a Treefolk with base power and toughness 0/4 and loses all abilities.",
@@ -12026,6 +12254,7 @@
     {
       "name": "Lys Alana Huntmaster",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elf Warrior",
       "text": "Whenever you cast an Elf spell, you may create a 1/1 green Elf Warrior creature token.",
@@ -12079,6 +12308,7 @@
     {
       "name": "Masked Admirers",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elf Shaman",
       "text": "When Masked Admirers enters the battlefield, draw a card.<br>Whenever you cast a creature spell, you may pay {G}{G}. If you do, return Masked Admirers from your graveyard to your hand.",
@@ -12132,9 +12362,10 @@
     {
       "name": "Nath's Elite",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Elf Warrior",
-      "text": "All creatures able to block Nath's Elite do so.<br>When Nath's Elite enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Nath's Elite. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)",
+      "text": "All creatures able to block Nath's Elite do so.<br>When Nath's Elite enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Nath's Elite. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "C",
@@ -12184,6 +12415,7 @@
     {
       "name": "Oakgnarl Warrior",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Treefolk Warrior",
       "text": "Vigilance, trample",
@@ -12237,9 +12469,10 @@
     {
       "name": "Primal Command",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Sorcery",
-      "text": "Choose two -<br>• Target player gains 7 life.<br>• Put target noncreature permanent on top of its owner's library.<br>• Target player shuffles their graveyard into their library.<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "Choose two -<br>• Target player gains 7 life.<br>• Put target noncreature permanent on top of its owner's library.<br>• Target player shuffles their graveyard into their library.<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle.",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "R",
@@ -12289,6 +12522,7 @@
     {
       "name": "Rootgrapple",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Tribal Instant - Treefolk",
       "text": "Destroy target noncreature permanent. If you control a Treefolk, draw a card.",
@@ -12342,9 +12576,10 @@
     {
       "name": "Seedguide Ash",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Treefolk Druid",
-      "text": "When Seedguide Ash dies, you may search your library for up to three Forest cards and put them onto the battlefield tapped. If you do, shuffle your library.",
+      "text": "When Seedguide Ash dies, you may search your library for up to three Forest cards, put them onto the battlefield tapped, then shuffle.",
       "flavor": "\"May you shade three generations of seedlings.\"",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
@@ -12395,6 +12630,7 @@
     {
       "name": "Spring Cleaning",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target enchantment. Clash with an opponent. If you win, destroy all enchantments your opponents control. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)",
@@ -12447,6 +12683,7 @@
     {
       "name": "Sylvan Echoes",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment",
       "text": "Whenever you clash and win, you may draw a card. (This ability triggers after the clash ends.)",
@@ -12500,6 +12737,7 @@
     {
       "name": "Timber Protector",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Treefolk Warrior",
       "text": "Other Treefolk creatures you control get +1/+1.<br>Other Treefolk and Forests you control have indestructible.",
@@ -12553,6 +12791,7 @@
     {
       "name": "Treefolk Harbinger",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Treefolk Druid",
       "text": "When Treefolk Harbinger enters the battlefield, you may search your library for a Treefolk or Forest card, reveal it, then shuffle and put that card on top.",
@@ -12605,6 +12844,7 @@
     {
       "name": "Vigor",
       "manaCost": "{3}{G}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}{G}",
       "cmc": 6,
       "type": "Creature - Elemental Incarnation",
       "text": "Trample<br>If damage would be dealt to another creature you control, prevent that damage. Put a +1/+1 counter on that creature for each 1 damage prevented this way.<br>When Vigor is put into a graveyard from anywhere, shuffle it into its owner's library.",
@@ -12657,6 +12897,7 @@
     {
       "name": "Warren-Scourge Elf",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Warrior",
       "text": "Protection from Goblins",
@@ -12710,6 +12951,7 @@
     {
       "name": "Woodland Changeling",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)",
@@ -12763,9 +13005,10 @@
     {
       "name": "Woodland Guidance",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Sorcery",
-      "text": "Return target card from your graveyard to your hand. Clash with an opponent. If you win, untap all Forests you control. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)<br>Exile Woodland Guidance.",
+      "text": "Return target card from your graveyard to your hand. Clash with an opponent. If you win, untap all Forests you control. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.)<br>Exile Woodland Guidance.",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
       "rarity": "U",
@@ -12815,6 +13058,7 @@
     {
       "name": "Wren's Run Packmaster",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elf Warrior",
       "text": "Champion an Elf (When this creature enters the battlefield, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield.)<br>{2}{G}: Create a 2/2 green Wolf creature token.<br>Wolves you control have deathtouch.",
@@ -12867,6 +13111,7 @@
     {
       "name": "Wren's Run Vanquisher",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Warrior",
       "text": "As an additional cost to cast this spell, reveal an Elf card from your hand or pay {3}.<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
@@ -12919,6 +13164,7 @@
     {
       "name": "Brion Stoutarm",
       "manaCost": "{2}{R}{W}",
+      "sortedManaCost": "{2}{W}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Giant Warrior",
       "text": "Lifelink<br>{R}, {T}, Sacrifice another creature: Brion Stoutarm deals damage equal to the sacrificed creature's power to target player or planeswalker.",
@@ -12971,6 +13217,7 @@
     {
       "name": "Doran, the Siege Tower",
       "manaCost": "{W}{B}{G}",
+      "sortedManaCost": "{W}{B}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Treefolk Shaman",
       "text": "Each creature assigns combat damage equal to its toughness rather than its power.",
@@ -13024,9 +13271,10 @@
     {
       "name": "Gaddock Teeg",
       "manaCost": "{G}{W}",
+      "sortedManaCost": "{W}{G}",
       "cmc": 2,
       "type": "Legendary Creature - Kithkin Advisor",
-      "text": "Noncreature spells with converted mana cost 4 or greater can't be cast.<br>Noncreature spells with {X} in their mana costs can't be cast.",
+      "text": "Noncreature spells with mana value 4 or greater can't be cast.<br>Noncreature spells with {X} in their mana costs can't be cast.",
       "flavor": "So great is his wisdom and spirit that many who have met him say that they stood before a giant of a man and talked to the wisest of the four winds.",
       "expansion": "LRW",
       "scryfallSetCode": "LRW",
@@ -13077,6 +13325,7 @@
     {
       "name": "Horde of Notions",
       "manaCost": "{W}{U}{B}{R}{G}",
+      "sortedManaCost": "{W}{U}{B}{R}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Elemental",
       "text": "Vigilance, trample, haste<br>{W}{U}{B}{R}{G}: You may play target Elemental card from your graveyard without paying its mana cost.",
@@ -13130,6 +13379,7 @@
     {
       "name": "Nath of the Gilt-Leaf",
       "manaCost": "{3}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Elf Warrior",
       "text": "At the beginning of your upkeep, you may have target opponent discard a card at random.<br>Whenever an opponent discards a card, you may create a 1/1 green Elf Warrior creature token.",
@@ -13183,6 +13433,7 @@
     {
       "name": "Sygg, River Guide",
       "manaCost": "{W}{U}",
+      "sortedManaCost": "{W}{U}",
       "cmc": 2,
       "type": "Legendary Creature - Merfolk Wizard",
       "text": "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)<br>{1}{W}: Target Merfolk you control gains protection from the color of your choice until end of turn.",
@@ -13236,6 +13487,7 @@
     {
       "name": "Wort, Boggart Auntie",
       "manaCost": "{2}{B}{R}",
+      "sortedManaCost": "{2}{B}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Goblin Shaman",
       "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>At the beginning of your upkeep, you may return target Goblin card from your graveyard to your hand.",
@@ -13289,6 +13541,7 @@
     {
       "name": "Wydwen, the Biting Gale",
       "manaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{U}{B}",
       "cmc": 4,
       "type": "Legendary Creature - Faerie Wizard",
       "text": "Flash<br>Flying<br>{U}{B}, Pay 1 life: Return Wydwen, the Biting Gale to its owner's hand.",
@@ -13342,6 +13595,7 @@
     {
       "name": "Colfenor's Urn",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Whenever a creature with toughness 4 or greater is put into your graveyard from the battlefield, you may exile it.<br>At the beginning of the end step, if three or more cards have been exiled with Colfenor's Urn, sacrifice it. If you do, return those cards to the battlefield under their owner's control.",
@@ -13394,6 +13648,7 @@
     {
       "name": "Deathrender",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2.<br>Whenever equipped creature dies, you may put a creature card from your hand onto the battlefield and attach Deathrender to it.<br>Equip {2}",
@@ -13446,6 +13701,7 @@
     {
       "name": "Dolmen Gate",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Prevent all combat damage that would be dealt to attacking creatures you control.",
@@ -13499,6 +13755,7 @@
     {
       "name": "Herbal Poultice",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "{3}, Sacrifice Herbal Poultice: Regenerate target creature.",
@@ -13552,6 +13809,7 @@
     {
       "name": "Moonglove Extract",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Sacrifice Moonglove Extract: It deals 2 damage to any target.",
@@ -13605,6 +13863,7 @@
     {
       "name": "Rings of Brighthearth",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Whenever you activate an ability, if it isn't a mana ability, you may pay {2}. If you do, copy that ability. You may choose new targets for the copy.",
@@ -13658,6 +13917,7 @@
     {
       "name": "Runed Stalactite",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+1 and is every creature type.<br>Equip {2}",
@@ -13711,6 +13971,7 @@
     {
       "name": "Springleaf Drum",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{T}, Tap an untapped creature you control: Add one mana of any color.",
@@ -13764,6 +14025,7 @@
     {
       "name": "Thorn of Amethyst",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Noncreature spells cost {1} more to cast.",
@@ -13817,6 +14079,7 @@
     {
       "name": "Thousand-Year Elixir",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "You may activate abilities of creatures you control as though those creatures had haste.<br>{1}, {T}: Untap target creature.",
@@ -13870,6 +14133,7 @@
     {
       "name": "Twinning Glass",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{1}, {T}: You may cast a spell from your hand without paying its mana cost if it has the same name as a spell that was cast this turn.",
@@ -13923,6 +14187,7 @@
     {
       "name": "Wanderer's Twig",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{1}, Sacrifice Wanderer's Twig: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",

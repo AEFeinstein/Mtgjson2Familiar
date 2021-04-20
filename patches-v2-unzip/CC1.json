@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "from_the_vault",
-    "digest": "2260050f3fc100908d9699842d10e0e8",
+    "digest": "edf34005b20710aecb238f9784781789",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CC1_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CC1_R.png"
@@ -20,6 +20,7 @@
     {
       "name": "Freyalise, Llanowar's Fury",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Freyalise",
       "text": "[+2]: Create a 1/1 green Elf Druid creature token with \"{T}: Add {G}.\"<br>[−2]: Destroy target artifact or enchantment.<br>[−6]: Draw a card for each green creature you control.<br>Freyalise, Llanowar's Fury can be your commander.",
@@ -39,6 +40,7 @@
     {
       "name": "Omnath, Locus of Mana",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elemental",
       "text": "You don't lose unspent green mana as steps and phases end.<br>Omnath, Locus of Mana gets +1/+1 for each unspent green mana you have.",
@@ -59,6 +61,7 @@
     {
       "name": "Bane of Progress",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "When Bane of Progress enters the battlefield, destroy all artifacts and enchantments. Put a +1/+1 counter on Bane of Progress for each permanent destroyed this way.",
@@ -79,6 +82,7 @@
     {
       "name": "Seedborn Muse",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Spirit",
       "text": "Untap all permanents you control during each other player's untap step.",
@@ -99,6 +103,7 @@
     {
       "name": "Sylvan Library",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "At the beginning of your draw step, you may draw two additional cards. If you do, choose two cards in your hand drawn this turn. For each of those cards, pay 4 life or put the card on top of your library.",
@@ -118,9 +123,10 @@
     {
       "name": "Worldly Tutor",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
-      "text": "Search your library for a creature card and reveal that card. Shuffle your library, then put the card on top of it.",
+      "text": "Search your library for a creature card, reveal it, then shuffle and put the card on top.",
       "flavor": "\"A single chord brings them to heel. A whole song, and they dance.\"<br>-Yisan, the wanderer bard",
       "expansion": "CC1",
       "scryfallSetCode": "CC1",
@@ -138,6 +144,7 @@
     {
       "name": "Sol Ring",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{T}: Add {C}{C}.",

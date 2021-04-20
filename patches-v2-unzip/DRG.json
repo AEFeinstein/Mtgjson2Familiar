@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "from_the_vault",
-    "digest": "dc3f58385879bcb789b3b3a99bc02007",
+    "digest": "101ceb1dd4536d1527f3a43fd2b81b34",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DRG_R.png"
     ]
@@ -19,6 +19,7 @@
     {
       "name": "Bladewing the Risen",
       "manaCost": "{3}{B}{B}{R}{R}",
+      "sortedManaCost": "{3}{B}{B}{R}{R}",
       "cmc": 7,
       "type": "Legendary Creature - Zombie Dragon",
       "text": "Flying<br>When Bladewing the Risen enters the battlefield, you may return target Dragon permanent card from your graveyard to the battlefield.<br>{B}{R}: Dragon creatures get +1/+1 until end of turn.",
@@ -38,6 +39,7 @@
     {
       "name": "Bogardan Hellkite",
       "manaCost": "{6}{R}{R}",
+      "sortedManaCost": "{6}{R}{R}",
       "cmc": 8,
       "type": "Creature - Dragon",
       "text": "Flash<br>Flying<br>When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of targets.",
@@ -58,6 +60,7 @@
     {
       "name": "Draco",
       "manaCost": "{16}",
+      "sortedManaCost": "{16}",
       "cmc": 16,
       "type": "Artifact Creature - Dragon",
       "text": "Domain - This spell costs {2} less to cast for each basic land type among lands you control.<br>Flying<br>Domain - At the beginning of your upkeep, sacrifice Draco unless you pay {10}. This cost is reduced by {2} for each basic land type among lands you control.",
@@ -77,6 +80,7 @@
     {
       "name": "Dragon Whelp",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Dragon",
       "text": "Flying<br>{R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step.",
@@ -97,9 +101,10 @@
     {
       "name": "Dragonstorm",
       "manaCost": "{8}{R}",
+      "sortedManaCost": "{8}{R}",
       "cmc": 9,
       "type": "Sorcery",
-      "text": "Search your library for a Dragon permanent card and put it onto the battlefield. Then shuffle your library.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+      "text": "Search your library for a Dragon permanent card, put it onto the battlefield, then shuffle.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
       "flavor": "Dragons come not in packs or in herds but in storms.",
       "expansion": "DRG",
       "scryfallSetCode": "DRB",
@@ -117,6 +122,7 @@
     {
       "name": "Ebon Dragon",
       "manaCost": "{5}{B}{B}",
+      "sortedManaCost": "{5}{B}{B}",
       "cmc": 7,
       "type": "Creature - Dragon",
       "text": "Flying<br>When Ebon Dragon enters the battlefield, you may have target opponent discard a card.",
@@ -137,6 +143,7 @@
     {
       "name": "Form of the Dragon",
       "manaCost": "{4}{R}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}{R}",
       "cmc": 7,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, Form of the Dragon deals 5 damage to any target.<br>At the beginning of each end step, your life total becomes 5.<br>Creatures without flying can't attack you.",
@@ -156,6 +163,7 @@
     {
       "name": "Hellkite Overlord",
       "manaCost": "{4}{B}{R}{R}{G}",
+      "sortedManaCost": "{4}{B}{R}{R}{G}",
       "cmc": 8,
       "type": "Creature - Dragon",
       "text": "Flying, trample, haste<br>{R}: Hellkite Overlord gets +1/+0 until end of turn.<br>{B}{G}: Regenerate Hellkite Overlord.",
@@ -176,6 +184,7 @@
     {
       "name": "Kokusho, the Evening Star",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon Spirit",
       "text": "Flying<br>When Kokusho, the Evening Star dies, each opponent loses 5 life. You gain life equal to the life lost this way.",
@@ -196,6 +205,7 @@
     {
       "name": "Nicol Bolas",
       "manaCost": "{2}{U}{U}{B}{B}{R}{R}",
+      "sortedManaCost": "{2}{U}{U}{B}{B}{R}{R}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.<br>Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.",
@@ -216,6 +226,7 @@
     {
       "name": "Niv-Mizzet, the Firemind",
       "manaCost": "{2}{U}{U}{R}{R}",
+      "sortedManaCost": "{2}{U}{U}{R}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon Wizard",
       "text": "Flying<br>Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.<br>{T}: Draw a card.",
@@ -236,6 +247,7 @@
     {
       "name": "Rith, the Awakener",
       "manaCost": "{3}{R}{G}{W}",
+      "sortedManaCost": "{3}{W}{R}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Rith, the Awakener deals combat damage to a player, you may pay {2}{G}. If you do, choose a color, then create a 1/1 green Saproling creature token for each permanent of that color.",
@@ -255,6 +267,7 @@
     {
       "name": "Shivan Dragon",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Dragon",
       "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)<br>{R}: Shivan Dragon gets +1/+0 until end of turn.",
@@ -275,6 +288,7 @@
     {
       "name": "Thunder Dragon",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Creature - Dragon",
       "text": "Flying<br>When Thunder Dragon enters the battlefield, it deals 3 damage to each creature without flying.",
@@ -295,6 +309,7 @@
     {
       "name": "Two-Headed Dragon",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Dragon",
       "text": "Flying<br>Menace (This creature can't be blocked except by two or more creatures.)<br>Two-Headed Dragon can block an additional creature each combat.<br>{1}{R}: Two-Headed Dragon gets +2/+0 until end of turn.",

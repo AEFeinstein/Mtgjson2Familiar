@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "1e85c8c8524fe3179cb32ce93fd7b2a0",
+    "digest": "513a8ff89db095e81d2a08d131c1fa4c",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DD3EVG_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DD3EVG_R.png",
@@ -21,6 +21,7 @@
     {
       "name": "Ambush Commander",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Elf",
       "text": "Forests you control are 1/1 green Elf creatures that are still lands.<br>{1}{G}, Sacrifice an Elf: Target creature gets +3/+3 until end of turn.",
@@ -40,6 +41,7 @@
     {
       "name": "Allosaurus Rider",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Elf Warrior",
       "text": "You may exile two green cards from your hand rather than pay this spell's mana cost.<br>Allosaurus Rider's power and toughness are each equal to 1 plus the number of lands you control.",
@@ -59,6 +61,7 @@
     {
       "name": "Elvish Eulogist",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Shaman",
       "text": "Sacrifice Elvish Eulogist: You gain 1 life for each Elf card in your graveyard.",
@@ -79,9 +82,10 @@
     {
       "name": "Elvish Harbinger",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
-      "text": "When Elvish Harbinger enters the battlefield, you may search your library for an Elf card, reveal it, then shuffle your library and put that card on top of it.<br>{T}: Add one mana of any color.",
+      "text": "When Elvish Harbinger enters the battlefield, you may search your library for an Elf card, reveal it, then shuffle and put that card on top.<br>{T}: Add one mana of any color.",
       "expansion": "DD3EVG",
       "scryfallSetCode": "EVG",
       "rarity": "U",
@@ -98,6 +102,7 @@
     {
       "name": "Elvish Warrior",
       "manaCost": "{G}{G}",
+      "sortedManaCost": "{G}{G}",
       "cmc": 2,
       "type": "Creature - Elf Warrior",
       "flavor": "\"My tales of war are the stories most asked for around the fires at night, but they're the ones I care least to tell.\"",
@@ -117,6 +122,7 @@
     {
       "name": "Gempalm Strider",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf",
       "text": "Cycling {2}{G}{G} ({2}{G}{G}, Discard this card: Draw a card.)<br>When you cycle Gempalm Strider, Elf creatures get +2/+2 until end of turn.",
@@ -136,6 +142,7 @@
     {
       "name": "Heedless One",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elf Avatar",
       "text": "Trample<br>Heedless One's power and toughness are each equal to the number of Elves on the battlefield.",
@@ -156,6 +163,7 @@
     {
       "name": "Imperious Perfect",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Warrior",
       "text": "Other Elves you control get +1/+1.<br>{G}, {T}: Create a 1/1 green Elf Warrior creature token.",
@@ -176,6 +184,7 @@
     {
       "name": "Llanowar Elves",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {G}.",
@@ -196,6 +205,7 @@
     {
       "name": "Lys Alana Huntmaster",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elf Warrior",
       "text": "Whenever you cast an Elf spell, you may create a 1/1 green Elf Warrior creature token.",
@@ -216,6 +226,7 @@
     {
       "name": "Stonewood Invoker",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Mutant",
       "text": "{7}{G}: Stonewood Invoker gets +5/+5 until end of turn.",
@@ -236,6 +247,7 @@
     {
       "name": "Sylvan Messenger",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elf",
       "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)<br>When Sylvan Messenger enters the battlefield, reveal the top four cards of your library. Put all Elf cards revealed this way into your hand and the rest on the bottom of your library in any order.",
@@ -255,6 +267,7 @@
     {
       "name": "Timberwatch Elf",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf",
       "text": "{T}: Target creature gets +X/+X until end of turn, where X is the number of Elves on the battlefield.",
@@ -275,6 +288,7 @@
     {
       "name": "Voice of the Woods",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Elf",
       "text": "Tap five untapped Elves you control: Create a 7/7 green Elemental creature token with trample.",
@@ -295,6 +309,7 @@
     {
       "name": "Wellwisher",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf",
       "text": "{T}: You gain 1 life for each Elf on the battlefield.",
@@ -315,9 +330,10 @@
     {
       "name": "Wirewood Herald",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf",
-      "text": "When Wirewood Herald dies, you may search your library for an Elf card, reveal that card, put it into your hand, then shuffle your library.",
+      "text": "When Wirewood Herald dies, you may search your library for an Elf card, reveal that card, put it into your hand, then shuffle.",
       "flavor": "The goblins laughed as the elf ran away, until more came back.",
       "expansion": "DD3EVG",
       "scryfallSetCode": "EVG",
@@ -335,9 +351,10 @@
     {
       "name": "Wirewood Symbiote",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Insect",
-      "text": "Return an Elf you control to its owner's hand: Untap target creature. Activate this ability only once each turn.",
+      "text": "Return an Elf you control to its owner's hand: Untap target creature. Activate only once each turn.",
       "flavor": "It drinks fatigue.",
       "expansion": "DD3EVG",
       "scryfallSetCode": "EVG",
@@ -355,9 +372,10 @@
     {
       "name": "Wood Elves",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Scout",
-      "text": "When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.",
+      "text": "When Wood Elves enters the battlefield, search your library for a Forest card, put that card onto the battlefield, then shuffle.",
       "flavor": "Every branch a crossroads, every vine a swift steed.",
       "expansion": "DD3EVG",
       "scryfallSetCode": "EVG",
@@ -375,6 +393,7 @@
     {
       "name": "Wren's Run Vanquisher",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Warrior",
       "text": "As an additional cost to cast this spell, reveal an Elf card from your hand or pay {3}.<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
@@ -394,6 +413,7 @@
     {
       "name": "Elvish Promenade",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Tribal Sorcery - Elf",
       "text": "Create a 1/1 green Elf Warrior creature token for each Elf you control.",
@@ -414,6 +434,7 @@
     {
       "name": "Giant Growth",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +3/+3 until end of turn.",
@@ -433,6 +454,7 @@
     {
       "name": "Harmonize",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw three cards.",
@@ -453,6 +475,7 @@
     {
       "name": "Wildsize",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target creature gets +2/+2 and gains trample until end of turn.<br>Draw a card.",
@@ -473,6 +496,7 @@
     {
       "name": "Moonglove Extract",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Sacrifice Moonglove Extract: It deals 2 damage to any target.",
@@ -493,6 +517,7 @@
     {
       "name": "Slate of Ancestry",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{4}, {T}, Discard your hand: Draw a card for each creature you control.",
@@ -621,6 +646,7 @@
     {
       "name": "Siege-Gang Commander",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Goblin",
       "text": "When Siege-Gang Commander enters the battlefield, create three 1/1 red Goblin creature tokens.<br>{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to any target.",
@@ -640,6 +666,7 @@
     {
       "name": "Akki Coalflinger",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Shaman",
       "text": "First strike<br>{R}, {T}: Attacking creatures gain first strike until end of turn.",
@@ -660,6 +687,7 @@
     {
       "name": "Clickslither",
       "manaCost": "{1}{R}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}{R}",
       "cmc": 4,
       "type": "Creature - Insect",
       "text": "Haste<br>Sacrifice a Goblin: Clickslither gets +2/+2 and gains trample until end of turn.",
@@ -680,6 +708,7 @@
     {
       "name": "Emberwilde Augur",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Shaman",
       "text": "Sacrifice Emberwilde Augur: It deals 3 damage to target player or planeswalker. Activate only during your upkeep.",
@@ -700,6 +729,7 @@
     {
       "name": "Flamewave Invoker",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Mutant",
       "text": "{7}{R}: Flamewave Invoker deals 5 damage to target player or planeswalker.",
@@ -720,6 +750,7 @@
     {
       "name": "Gempalm Incinerator",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin",
       "text": "Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)<br>When you cycle Gempalm Incinerator, you may have it deal X damage to target creature, where X is the number of Goblins on the battlefield.",
@@ -739,6 +770,7 @@
     {
       "name": "Goblin Cohort",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Warrior",
       "text": "Goblin Cohort can't attack unless you've cast a creature spell this turn.",
@@ -759,9 +791,10 @@
     {
       "name": "Goblin Matron",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin",
-      "text": "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle your library.",
+      "text": "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle.",
       "flavor": "There's always room for one more.",
       "expansion": "DD3EVG",
       "scryfallSetCode": "EVG",
@@ -779,6 +812,7 @@
     {
       "name": "Goblin Ringleader",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Goblin",
       "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>When Goblin Ringleader enters the battlefield, reveal the top four cards of your library. Put all Goblin cards revealed this way into your hand and the rest on the bottom of your library in any order.",
@@ -798,6 +832,7 @@
     {
       "name": "Goblin Sledder",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin",
       "text": "Sacrifice a Goblin: Target creature gets +1/+1 until end of turn.",
@@ -818,6 +853,7 @@
     {
       "name": "Goblin Warchief",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Warrior",
       "text": "Goblin spells you cast cost {1} less to cast.<br>Goblins you control have haste.",
@@ -838,6 +874,7 @@
     {
       "name": "Ib Halfheart, Goblin Tactician",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Goblin Advisor",
       "text": "Whenever another Goblin you control becomes blocked, sacrifice it. If you do, it deals 4 damage to each creature blocking it.<br>Sacrifice two Mountains: Create two 1/1 red Goblin creature tokens.",
@@ -858,6 +895,7 @@
     {
       "name": "Mogg Fanatic",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin",
       "text": "Sacrifice Mogg Fanatic: It deals 1 damage to any target.",
@@ -878,6 +916,7 @@
     {
       "name": "Mogg War Marshal",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Warrior",
       "text": "Echo {1}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>When Mogg War Marshal enters the battlefield or dies, create a 1/1 red Goblin creature token.",
@@ -897,6 +936,7 @@
     {
       "name": "Mudbutton Torchrunner",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Warrior",
       "text": "When Mudbutton Torchrunner dies, it deals 3 damage to any target.",
@@ -917,6 +957,7 @@
     {
       "name": "Raging Goblin",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Berserker",
       "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)",
@@ -937,6 +978,7 @@
     {
       "name": "Reckless One",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Goblin Avatar",
       "text": "Haste<br>Reckless One's power and toughness are each equal to the number of Goblins on the battlefield.",
@@ -957,6 +999,7 @@
     {
       "name": "Skirk Drill Sergeant",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin",
       "text": "Whenever Skirk Drill Sergeant or another Goblin dies, you may pay {2}{R}. If you do, reveal the top card of your library. If it's a Goblin permanent card, put it onto the battlefield. Otherwise, put it into your graveyard.",
@@ -977,6 +1020,7 @@
     {
       "name": "Skirk Fire Marshal",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Goblin",
       "text": "Protection from red<br>Tap five untapped Goblins you control: Skirk Fire Marshal deals 10 damage to each creature and each player.",
@@ -997,6 +1041,7 @@
     {
       "name": "Skirk Prospector",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin",
       "text": "Sacrifice a Goblin: Add {R}.",
@@ -1017,6 +1062,7 @@
     {
       "name": "Skirk Shaman",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Shaman",
       "text": "Skirk Shaman can't be blocked except by artifact creatures and/or red creatures.",
@@ -1037,6 +1083,7 @@
     {
       "name": "Tar Pitcher",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Goblin Shaman",
       "text": "{T}, Sacrifice a Goblin: Tar Pitcher deals 2 damage to any target.",
@@ -1057,6 +1104,7 @@
     {
       "name": "Boggart Shenanigans",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Tribal Enchantment - Goblin",
       "text": "Whenever another Goblin you control is put into a graveyard from the battlefield, you may have Boggart Shenanigans deal 1 damage to target player or planeswalker.",
@@ -1077,6 +1125,7 @@
     {
       "name": "Spitting Earth",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Spitting Earth deals damage to target creature equal to the number of Mountains you control.",
@@ -1097,6 +1146,7 @@
     {
       "name": "Tarfire",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Tribal Instant - Goblin",
       "text": "Tarfire deals 2 damage to any target.",

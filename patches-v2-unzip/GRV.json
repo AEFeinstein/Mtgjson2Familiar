@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "premium_deck",
-    "digest": "54e3e49ffbbec78d798880f09ac432a0",
+    "digest": "43806423083277e6380a42a5afab36aa",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GRV_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GRV_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Putrid Imp",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Zombie Imp",
       "text": "Discard a card: Putrid Imp gains flying until end of turn.<br>Threshold - As long as seven or more cards are in your graveyard, Putrid Imp gets +1/+1 and can't block.",
@@ -41,6 +42,7 @@
     {
       "name": "Hidden Horror",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Horror",
       "text": "When Hidden Horror enters the battlefield, sacrifice it unless you discard a creature card.",
@@ -61,6 +63,7 @@
     {
       "name": "Faceless Butcher",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Nightmare Horror",
       "text": "When Faceless Butcher enters the battlefield, exile target creature other than Faceless Butcher.<br>When Faceless Butcher leaves the battlefield, return the exiled card to the battlefield under its owner's control.",
@@ -80,6 +83,7 @@
     {
       "name": "Twisted Abomination",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Zombie Mutant",
       "text": "{B}: Regenerate Twisted Abomination.<br>Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
@@ -99,6 +103,7 @@
     {
       "name": "Crosis, the Purger",
       "manaCost": "{3}{U}{B}{R}",
+      "sortedManaCost": "{3}{U}{B}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Crosis, the Purger deals combat damage to a player, you may pay {2}{B}. If you do, choose a color, then that player reveals their hand and discards all cards of that color.",
@@ -118,6 +123,7 @@
     {
       "name": "Avatar of Woe",
       "manaCost": "{6}{B}{B}",
+      "sortedManaCost": "{6}{B}{B}",
       "cmc": 8,
       "type": "Creature - Avatar",
       "text": "If there are ten or more creature cards total in all graveyards, this spell costs {6} less to cast.<br>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>{T}: Destroy target creature. It can't be regenerated.",
@@ -137,6 +143,7 @@
     {
       "name": "Terastodon",
       "manaCost": "{6}{G}{G}",
+      "sortedManaCost": "{6}{G}{G}",
       "cmc": 8,
       "type": "Creature - Elephant",
       "text": "When Terastodon enters the battlefield, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller creates a 3/3 green Elephant creature token.",
@@ -156,6 +163,7 @@
     {
       "name": "Verdant Force",
       "manaCost": "{5}{G}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}{G}",
       "cmc": 8,
       "type": "Creature - Elemental",
       "text": "At the beginning of each upkeep, create a 1/1 green Saproling creature token.",
@@ -176,6 +184,7 @@
     {
       "name": "Sphinx of the Steel Wind",
       "manaCost": "{5}{W}{U}{B}",
+      "sortedManaCost": "{5}{W}{U}{B}",
       "cmc": 8,
       "type": "Artifact Creature - Sphinx",
       "text": "Flying, first strike, vigilance, lifelink, protection from red and from green",
@@ -196,6 +205,7 @@
     {
       "name": "Inkwell Leviathan",
       "manaCost": "{7}{U}{U}",
+      "sortedManaCost": "{7}{U}{U}",
       "cmc": 9,
       "type": "Artifact Creature - Leviathan",
       "text": "Trample<br>Islandwalk (This creature can't be blocked as long as defending player controls an Island.)<br>Shroud (This creature can't be the target of spells or abilities.)",
@@ -216,6 +226,7 @@
     {
       "name": "Blazing Archon",
       "manaCost": "{6}{W}{W}{W}",
+      "sortedManaCost": "{6}{W}{W}{W}",
       "cmc": 9,
       "type": "Creature - Archon",
       "text": "Flying<br>Creatures can't attack you.",
@@ -236,6 +247,7 @@
     {
       "name": "Cabal Therapy",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Choose a nonland card name. Target player reveals their hand and discards all cards with that name.<br>Flashback-Sacrifice a creature. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -255,6 +267,7 @@
     {
       "name": "Duress",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
@@ -275,6 +288,7 @@
     {
       "name": "Entomb",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Search your library for a card, put that card into your graveyard, then shuffle.",
@@ -295,9 +309,10 @@
     {
       "name": "Reanimate",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
-      "text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its converted mana cost.",
+      "text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its mana value.",
       "flavor": "\"You will learn to earn death.\"<br>-Volrath",
       "expansion": "GRV",
       "scryfallSetCode": "PD3",
@@ -315,6 +330,7 @@
     {
       "name": "Animate Dead",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature card in a graveyard<br>When Animate Dead enters the battlefield, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with Animate Dead.\" Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.<br>Enchanted creature gets -1/-0.",
@@ -334,6 +350,7 @@
     {
       "name": "Exhume",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Each player puts a creature card from their graveyard onto the battlefield.",
@@ -354,6 +371,7 @@
     {
       "name": "Sickening Dreams",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, discard X cards.<br>Sickening Dreams deals X damage to each creature and each player.",
@@ -374,6 +392,7 @@
     {
       "name": "Zombie Infestation",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Discard two cards: Create a 2/2 black Zombie creature token.",
@@ -394,9 +413,10 @@
     {
       "name": "Buried Alive",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
-      "text": "Search your library for up to three creature cards, put them into your graveyard, then shuffle your library.",
+      "text": "Search your library for up to three creature cards, put them into your graveyard, then shuffle.",
       "flavor": "The scrape of shovels and the tumble of cold dirt soon muffled their pleas.",
       "expansion": "GRV",
       "scryfallSetCode": "PD3",
@@ -414,6 +434,7 @@
     {
       "name": "Last Rites",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Discard any number of cards. Target player reveals their hand, then you choose a nonland card from it for each card discarded this way. That player discards those cards.",
@@ -433,6 +454,7 @@
     {
       "name": "Diabolic Servitude",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "When Diabolic Servitude enters the battlefield, return target creature card from your graveyard to the battlefield.<br>When the creature put onto the battlefield with Diabolic Servitude dies, exile it and return Diabolic Servitude to its owner's hand.<br>When Diabolic Servitude leaves the battlefield, exile the creature put onto the battlefield with Diabolic Servitude.",
@@ -452,6 +474,7 @@
     {
       "name": "Dread Return",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Return target creature card from your graveyard to the battlefield.<br>Flashback-Sacrifice three creatures. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "9942b097430abf1938034c61723f051f",
+    "digest": "61e94f941fcc10a184c18bd08e81d159",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/OGW_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/OGW_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Deceiver of Form",
       "manaCost": "{6}{C}",
+      "sortedManaCost": "{6}{C}",
       "cmc": 7,
       "type": "Creature - Eldrazi",
       "text": "({C} represents colorless mana.)<br>At the beginning of combat on your turn, reveal the top card of your library. If a creature card is revealed this way, you may have creatures you control other than Deceiver of Form become copies of that card until end of turn. You may put that card on the bottom of your library.",
@@ -82,6 +83,7 @@
     {
       "name": "Eldrazi Mimic",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Creature - Eldrazi",
       "text": "Whenever another colorless creature enters the battlefield under your control, you may change Eldrazi Mimic's base power and toughness to that creature's power and toughness until end of turn.",
@@ -143,6 +145,7 @@
     {
       "name": "Endbringer",
       "manaCost": "{5}{C}",
+      "sortedManaCost": "{5}{C}",
       "cmc": 6,
       "type": "Creature - Eldrazi",
       "text": "Untap Endbringer during each other player's untap step.<br>{T}: Endbringer deals 1 damage to any target.<br>{C}, {T}: Target creature can't attack or block this turn.<br>{C}{C}, {T}: Draw a card.",
@@ -203,9 +206,10 @@
     {
       "name": "Kozilek, the Great Distortion",
       "manaCost": "{8}{C}{C}",
+      "sortedManaCost": "{8}{C}{C}",
       "cmc": 10,
       "type": "Legendary Creature - Eldrazi",
-      "text": "When you cast this spell, if you have fewer than seven cards in hand, draw cards equal to the difference.<br>Menace<br>Discard a card with converted mana cost X: Counter target spell with converted mana cost X.",
+      "text": "When you cast this spell, if you have fewer than seven cards in hand, draw cards equal to the difference.<br>Menace<br>Discard a card with mana value X: Counter target spell with mana value X.",
       "flavor": "A void as cryptic as reality itself.",
       "expansion": "OGW",
       "scryfallSetCode": "OGW",
@@ -264,6 +268,7 @@
     {
       "name": "Kozilek's Pathfinder",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Creature - Eldrazi",
       "text": "{C}: Target creature can't block Kozilek's Pathfinder this turn. ({C} represents colorless mana.)",
@@ -325,9 +330,10 @@
     {
       "name": "Matter Reshaper",
       "manaCost": "{2}{C}",
+      "sortedManaCost": "{2}{C}",
       "cmc": 3,
       "type": "Creature - Eldrazi",
-      "text": "({C} represents colorless mana.)<br>When Matter Reshaper dies, reveal the top card of your library. You may put that card onto the battlefield if it's a permanent card with converted mana cost 3 or less. Otherwise, put that card into your hand.",
+      "text": "({C} represents colorless mana.)<br>When Matter Reshaper dies, reveal the top card of your library. You may put that card onto the battlefield if it's a permanent card with mana value 3 or less. Otherwise, put that card into your hand.",
       "expansion": "OGW",
       "scryfallSetCode": "OGW",
       "rarity": "R",
@@ -385,6 +391,7 @@
     {
       "name": "Reality Smasher",
       "manaCost": "{4}{C}",
+      "sortedManaCost": "{4}{C}",
       "cmc": 5,
       "type": "Creature - Eldrazi",
       "text": "({C} represents colorless mana.)<br>Trample, haste<br>Whenever Reality Smasher becomes the target of a spell an opponent controls, counter that spell unless its controller discards a card.",
@@ -446,6 +453,7 @@
     {
       "name": "Spatial Contortion",
       "manaCost": "{1}{C}",
+      "sortedManaCost": "{1}{C}",
       "cmc": 2,
       "type": "Instant",
       "text": "({C} represents colorless mana.)<br>Target creature gets +3/-3 until end of turn.",
@@ -507,6 +515,7 @@
     {
       "name": "Thought-Knot Seer",
       "manaCost": "{3}{C}",
+      "sortedManaCost": "{3}{C}",
       "cmc": 4,
       "type": "Creature - Eldrazi",
       "text": "({C} represents colorless mana.)<br>When Thought-Knot Seer enters the battlefield, target opponent reveals their hand. You choose a nonland card from it and exile that card.<br>When Thought-Knot Seer leaves the battlefield, target opponent draws a card.",
@@ -567,6 +576,7 @@
     {
       "name": "Walker of the Wastes",
       "manaCost": "{4}{C}",
+      "sortedManaCost": "{4}{C}",
       "cmc": 5,
       "type": "Creature - Eldrazi",
       "text": "({C} represents colorless mana.)<br>Trample<br>Walker of the Wastes gets +1/+1 for each land you control named Wastes.",
@@ -628,6 +638,7 @@
     {
       "name": "Warden of Geometries",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Creature - Eldrazi Drone",
       "text": "Vigilance<br>{T}: Add {C}. ({C} represents colorless mana.)",
@@ -689,6 +700,7 @@
     {
       "name": "Warping Wail",
       "manaCost": "{1}{C}",
+      "sortedManaCost": "{1}{C}",
       "cmc": 2,
       "type": "Instant",
       "text": "({C} represents colorless mana.)<br>Choose one -<br>• Exile target creature with power or toughness 1 or less.<br>• Counter target sorcery spell.<br>• Create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\"",
@@ -749,6 +761,7 @@
     {
       "name": "Eldrazi Displacer",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Eldrazi",
       "text": "Devoid (This card has no color.)<br>{2}{C}: Exile another target creature, then return it to the battlefield tapped under its owner's control. ({C} represents colorless mana.)",
@@ -809,6 +822,7 @@
     {
       "name": "Affa Protector",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Soldier Ally",
       "text": "Vigilance",
@@ -870,6 +884,7 @@
     {
       "name": "Allied Reinforcements",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Create two 2/2 white Knight Ally creature tokens.",
@@ -931,9 +946,10 @@
     {
       "name": "Call the Gatewatch",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Sorcery",
-      "text": "Search your library for a planeswalker card, reveal it, and put it into your hand. Then shuffle your library.",
+      "text": "Search your library for a planeswalker card, reveal it, put it into your hand, then shuffle.",
       "flavor": "\"I've heard it said that a Planeswalker is someone who can always run from danger. But Gideon's right: we're also the ones who can choose to stay.\"<br>-Jace Beleren",
       "expansion": "OGW",
       "scryfallSetCode": "OGW",
@@ -992,6 +1008,7 @@
     {
       "name": "Dazzling Reflection",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "You gain life equal to target creature's power. The next time that creature would deal damage this turn, prevent that damage.",
@@ -1053,6 +1070,7 @@
     {
       "name": "Expedition Raptor",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Bird",
       "text": "Flying<br>When Expedition Raptor enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)",
@@ -1113,6 +1131,7 @@
     {
       "name": "General Tazri",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Human Ally",
       "text": "When General Tazri enters the battlefield, you may search your library for an Ally creature card, reveal it, put it into your hand, then shuffle.<br>{W}{U}{B}{R}{G}: Ally creatures you control get +X/+X until end of turn, where X is the number of colors among those creatures.",
@@ -1173,6 +1192,7 @@
     {
       "name": "Immolating Glare",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target attacking creature.",
@@ -1234,6 +1254,7 @@
     {
       "name": "Iona's Blessing",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2, has vigilance, and can block an additional creature each combat.",
@@ -1295,6 +1316,7 @@
     {
       "name": "Isolation Zone",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "When Isolation Zone enters the battlefield, exile target creature or enchantment an opponent controls until Isolation Zone leaves the battlefield. (That permanent returns under its owner's control.)",
@@ -1356,6 +1378,7 @@
     {
       "name": "Kor Scythemaster",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Kor Soldier Ally",
       "text": "Kor Scythemaster has first strike as long as it's attacking.",
@@ -1417,6 +1440,7 @@
     {
       "name": "Kor Sky Climber",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Kor Soldier Ally",
       "text": "{1}{W}: Kor Sky Climber gains flying until end of turn.",
@@ -1478,6 +1502,7 @@
     {
       "name": "Linvala, the Preserver",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Angel",
       "text": "Flying<br>When Linvala, the Preserver enters the battlefield, if an opponent has more life than you, you gain 5 life.<br>When Linvala enters the battlefield, if an opponent controls more creatures than you, create a 3/3 white Angel creature token with flying.",
@@ -1538,6 +1563,7 @@
     {
       "name": "Make a Stand",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy them.)",
@@ -1599,6 +1625,7 @@
     {
       "name": "Makindi Aeronaut",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Kor Scout Ally",
       "text": "Flying",
@@ -1660,6 +1687,7 @@
     {
       "name": "Mighty Leap",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +2/+2 and gains flying until end of turn.",
@@ -1721,6 +1749,7 @@
     {
       "name": "Munda's Vanguard",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Kor Knight Ally",
       "text": "Cohort - {T}, Tap an untapped Ally you control: Put a +1/+1 counter on each creature you control.",
@@ -1782,6 +1811,7 @@
     {
       "name": "Oath of Gideon",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Legendary Enchantment",
       "text": "When Oath of Gideon enters the battlefield, create two 1/1 white Kor Ally creature tokens.<br>Each planeswalker you control enters the battlefield with an additional loyalty counter on it.",
@@ -1843,6 +1873,7 @@
     {
       "name": "Ondu War Cleric",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Cleric Ally",
       "text": "Cohort - {T}, Tap an untapped Ally you control: You gain 2 life.",
@@ -1904,6 +1935,7 @@
     {
       "name": "Relief Captain",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Kor Knight Ally",
       "text": "When Relief Captain enters the battlefield, support 3. (Put a +1/+1 counter on each of up to three other target creatures.)",
@@ -1965,6 +1997,7 @@
     {
       "name": "Searing Light",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Destroy target attacking or blocking creature with power 2 or less.",
@@ -2026,6 +2059,7 @@
     {
       "name": "Shoulder to Shoulder",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Support 2. (Put a +1/+1 counter on each of up to two target creatures.)<br>Draw a card.",
@@ -2087,6 +2121,7 @@
     {
       "name": "Spawnbinder Mage",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Wizard Ally",
       "text": "Cohort - {T}, Tap an untapped Ally you control: Tap target creature.",
@@ -2148,6 +2183,7 @@
     {
       "name": "Steppe Glider",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Flying, vigilance<br>{1}{W}: Target creature with a +1/+1 counter on it gains flying and vigilance until end of turn.",
@@ -2209,6 +2245,7 @@
     {
       "name": "Stone Haven Outfitter",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Kor Artificer Ally",
       "text": "Equipped creatures you control get +1/+1.<br>Whenever an equipped creature you control dies, draw a card.",
@@ -2270,6 +2307,7 @@
     {
       "name": "Stoneforge Acolyte",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Kor Artificer Ally",
       "text": "Cohort - {T}, Tap an untapped Ally you control: Look at the top four cards of your library. You may reveal an Equipment card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
@@ -2331,6 +2369,7 @@
     {
       "name": "Wall of Resurgence",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Wall",
       "text": "Defender<br>When Wall of Resurgence enters the battlefield, you may put three +1/+1 counters on target land you control. If you do, that land becomes a 0/0 Elemental creature with haste that's still a land.",
@@ -2391,6 +2430,7 @@
     {
       "name": "Abstruse Interference",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Devoid (This card has no color.)<br>Counter target spell unless its controller pays {1}. You create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\" ({C} represents colorless mana.)",
@@ -2451,6 +2491,7 @@
     {
       "name": "Blinding Drone",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>{C}, {T}: Tap target creature. ({C} represents colorless mana.)",
@@ -2512,6 +2553,7 @@
     {
       "name": "Cultivator Drone",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>{T}: Add {C}. Spend this mana only to cast a colorless spell, activate an ability of a colorless permanent, or pay a cost that contains {C}. ({C} represents colorless mana.)",
@@ -2572,6 +2614,7 @@
     {
       "name": "Deepfathom Skulker",
       "manaCost": "{5}{U}",
+      "sortedManaCost": "{5}{U}",
       "cmc": 6,
       "type": "Creature - Eldrazi",
       "text": "Devoid (This card has no color.)<br>Whenever a creature you control deals combat damage to a player, you may draw a card.<br>{3}{C}: Target creature can't be blocked this turn. ({C} represents colorless mana.)",
@@ -2632,6 +2675,7 @@
     {
       "name": "Dimensional Infiltrator",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Eldrazi",
       "text": "Devoid (This card has no color.)<br>Flash<br>Flying<br>{1}{C}: Target opponent exiles the top card of their library. If it's a land card, you may return Dimensional Infiltrator to its owner's hand. ({C} represents colorless mana.)",
@@ -2692,6 +2736,7 @@
     {
       "name": "Gravity Negator",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>Flying<br>Whenever Gravity Negator attacks, you may pay {C}. If you do, another target creature gains flying until end of turn. ({C} represents colorless mana.)",
@@ -2752,6 +2797,7 @@
     {
       "name": "Prophet of Distortion",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>{3}{C}: Draw a card. ({C} represents colorless mana.)",
@@ -2813,6 +2859,7 @@
     {
       "name": "Slip Through Space",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Devoid (This card has no color.)<br>Target creature can't be blocked this turn.<br>Draw a card.",
@@ -2874,6 +2921,7 @@
     {
       "name": "Thought Harvester",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>Flying<br>Whenever you cast a colorless spell, target opponent exiles the top card of their library.",
@@ -2935,6 +2983,7 @@
     {
       "name": "Void Shatter",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Devoid (This card has no color.)<br>Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
@@ -2996,6 +3045,7 @@
     {
       "name": "Ancient Crab",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Crab",
       "flavor": "After the fall of Sea Gate and the draining of the Halimar basin, the crab set off to find a new home.",
@@ -3056,6 +3106,7 @@
     {
       "name": "Comparative Analysis",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Surge {2}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>Target player draws two cards.",
@@ -3117,6 +3168,7 @@
     {
       "name": "Containment Membrane",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Surge {U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>Enchant creature<br>Enchanted creature doesn't untap during its controller's untap step.",
@@ -3177,6 +3229,7 @@
     {
       "name": "Crush of Tentacles",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Surge {3}{U}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>Return all nonland permanents to their owners' hands. If this spell's surge cost was paid, create an 8/8 blue Octopus creature token.",
@@ -3237,6 +3290,7 @@
     {
       "name": "Cyclone Sire",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Flying<br>When Cyclone Sire dies, you may put three +1/+1 counters on target land you control. If you do, that land becomes a 0/0 Elemental creature with haste that's still a land.",
@@ -3298,6 +3352,7 @@
     {
       "name": "Gift of Tusks",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Until end of turn, target creature loses all abilities and becomes a green Elephant with base power and toughness 3/3.",
@@ -3359,6 +3414,7 @@
     {
       "name": "Grip of the Roil",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Surge {1}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>Tap target creature. It doesn't untap during its controller's next untap step.<br>Draw a card.",
@@ -3419,6 +3475,7 @@
     {
       "name": "Hedron Alignment",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Hexproof<br>At the beginning of your upkeep, you may reveal your hand. If you do, you win the game if you own a card named Hedron Alignment in exile, in your hand, in your graveyard, and on the battlefield.<br>{1}{U}: Scry 1.",
@@ -3479,6 +3536,7 @@
     {
       "name": "Jwar Isle Avenger",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Sphinx",
       "text": "Surge {2}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>Flying",
@@ -3540,6 +3598,7 @@
     {
       "name": "Negate",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target noncreature spell.",
@@ -3601,6 +3660,7 @@
     {
       "name": "Oath of Jace",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Legendary Enchantment",
       "text": "When Oath of Jace enters the battlefield, draw three cards, then discard two cards.<br>At the beginning of your upkeep, scry X, where X is the number of planeswalkers you control.",
@@ -3662,6 +3722,7 @@
     {
       "name": "Overwhelming Denial",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Surge {U}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>This spell can't be countered.<br>Counter target spell.",
@@ -3722,6 +3783,7 @@
     {
       "name": "Roiling Waters",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Return up to two target creatures your opponents control to their owners' hands. Target player draws two cards.",
@@ -3783,6 +3845,7 @@
     {
       "name": "Sphinx of the Final Word",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Creature - Sphinx",
       "text": "This spell can't be countered.<br>Flying, hexproof<br>Instant and sorcery spells you control can't be countered.",
@@ -3844,6 +3907,7 @@
     {
       "name": "Sweep Away",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Return target creature to its owner's hand. If that creature is attacking, you may put it on top of its owner's library instead.",
@@ -3905,6 +3969,7 @@
     {
       "name": "Umara Entangler",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Rogue Ally",
       "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
@@ -3966,6 +4031,7 @@
     {
       "name": "Unity of Purpose",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Support 2. (Put a +1/+1 counter on each of up to two target creatures.)<br>Untap each creature you control with a +1/+1 counter on it.",
@@ -4027,6 +4093,7 @@
     {
       "name": "Bearer of Silence",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Eldrazi",
       "text": "Devoid (This card has no color.)<br>When you cast this spell, you may pay {1}{C}. If you do, target opponent sacrifices a creature. ({C} represents colorless mana.)<br>Flying<br>Bearer of Silence can't block.",
@@ -4087,6 +4154,7 @@
     {
       "name": "Dread Defiler",
       "manaCost": "{6}{B}",
+      "sortedManaCost": "{6}{B}",
       "cmc": 7,
       "type": "Creature - Eldrazi",
       "text": "Devoid (This card has no color.)<br>{3}{C}, Exile a creature card from your graveyard: Target opponent loses life equal to the exiled card's power. ({C} represents colorless mana.)",
@@ -4148,6 +4216,7 @@
     {
       "name": "Essence Depleter",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>{1}{C}: Target opponent loses 1 life and you gain 1 life. ({C} represents colorless mana.)",
@@ -4209,6 +4278,7 @@
     {
       "name": "Flaying Tendrils",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Devoid (This card has no color.)<br>All creatures get -2/-2 until end of turn. If a creature would die this turn, exile it instead.",
@@ -4270,6 +4340,7 @@
     {
       "name": "Havoc Sower",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>{1}{C}: Havoc Sower gets +2/+1 until end of turn. ({C} represents colorless mana.)",
@@ -4331,6 +4402,7 @@
     {
       "name": "Inverter of Truth",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Eldrazi",
       "text": "Devoid (This card has no color.)<br>Flying<br>When Inverter of Truth enters the battlefield, exile all cards from your library face down, then shuffle all cards from your graveyard into your library.",
@@ -4392,6 +4464,7 @@
     {
       "name": "Kozilek's Shrieker",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>{C}: Kozilek's Shrieker gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures. {C} represents colorless mana.)",
@@ -4453,9 +4526,10 @@
     {
       "name": "Kozilek's Translator",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Eldrazi Drone",
-      "text": "Devoid (This card has no color.)<br>Pay 1 life: Add {C}. Activate this ability only once each turn. ({C} represents colorless mana.)",
+      "text": "Devoid (This card has no color.)<br>Pay 1 life: Add {C}. Activate only once each turn. ({C} represents colorless mana.)",
       "flavor": "From nothingness, sustenance.",
       "expansion": "OGW",
       "scryfallSetCode": "OGW",
@@ -4514,6 +4588,7 @@
     {
       "name": "Oblivion Strike",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Devoid (This card has no color.)<br>Exile target creature.",
@@ -4575,6 +4650,7 @@
     {
       "name": "Reaver Drone",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>At the beginning of your upkeep, you lose 1 life unless you control another colorless creature.",
@@ -4636,6 +4712,7 @@
     {
       "name": "Sifter of Skulls",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Eldrazi",
       "text": "Devoid (This card has no color.)<br>Whenever another nontoken creature you control dies, create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\" ({C} represents colorless mana.)",
@@ -4696,6 +4773,7 @@
     {
       "name": "Sky Scourer",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>Flying<br>Whenever you cast a colorless spell, Sky Scourer gets +1/+0 until end of turn.",
@@ -4757,6 +4835,7 @@
     {
       "name": "Slaughter Drone",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>{C}: Slaughter Drone gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it. {C} represents colorless mana.)",
@@ -4818,6 +4897,7 @@
     {
       "name": "Unnatural Endurance",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Devoid (This card has no color.)<br>Target creature gets +2/+0 until end of turn. Regenerate it.",
@@ -4879,6 +4959,7 @@
     {
       "name": "Visions of Brutality",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Devoid (This card has no color.)<br>Enchant creature<br>Enchanted creature can't block.<br>Whenever enchanted creature deals damage, its controller loses that much life.",
@@ -4939,6 +5020,7 @@
     {
       "name": "Witness the End",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Devoid (This card has no color.)<br>Target opponent exiles two cards from their hand and loses 2 life.",
@@ -5000,6 +5082,7 @@
     {
       "name": "Corpse Churn",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Mill three cards, then you may return a creature card from your graveyard to your hand. (To mill a card, put the top card of your library into your graveyard.)",
@@ -5061,6 +5144,7 @@
     {
       "name": "Drana's Chosen",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Vampire Shaman Ally",
       "text": "Cohort - {T}, Tap an untapped Ally you control: Create a tapped 2/2 black Zombie creature token.",
@@ -5122,6 +5206,7 @@
     {
       "name": "Grasp of Darkness",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets -4/-4 until end of turn.",
@@ -5183,6 +5268,7 @@
     {
       "name": "Kalitas, Traitor of Ghet",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Legendary Creature - Vampire Warrior",
       "text": "Lifelink<br>If a nontoken creature an opponent controls would die, instead exile that card and create a 2/2 black Zombie creature token.<br>{2}{B}, Sacrifice another Vampire or Zombie: Put two +1/+1 counters on Kalitas, Traitor of Ghet.",
@@ -5243,6 +5329,7 @@
     {
       "name": "Malakir Soothsayer",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Vampire Shaman Ally",
       "text": "Cohort - {T}, Tap an untapped Ally you control: You draw a card and you lose 1 life.",
@@ -5304,6 +5391,7 @@
     {
       "name": "Null Caller",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Vampire Shaman",
       "text": "{3}{B}, Exile a creature card from your graveyard: Create a tapped 2/2 black Zombie creature token.",
@@ -5365,6 +5453,7 @@
     {
       "name": "Remorseless Punishment",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Target opponent loses 5 life unless that player discards two cards or sacrifices a creature or planeswalker. Repeat this process once.",
@@ -5426,6 +5515,7 @@
     {
       "name": "Tar Snare",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target creature gets -3/-2 until end of turn.",
@@ -5487,6 +5577,7 @@
     {
       "name": "Untamed Hunger",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two or more creatures.)",
@@ -5548,6 +5639,7 @@
     {
       "name": "Vampire Envoy",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Vampire Cleric Ally",
       "text": "Flying<br>Whenever Vampire Envoy becomes tapped, you gain 1 life.",
@@ -5609,6 +5701,7 @@
     {
       "name": "Zulaport Chainmage",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Human Shaman Ally",
       "text": "Cohort - {T}, Tap an untapped Ally you control: Target opponent loses 2 life.",
@@ -5670,6 +5763,7 @@
     {
       "name": "Consuming Sinkhole",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Devoid (This card has no color.)<br>Choose one -<br>• Exile target land creature.<br>• Consuming Sinkhole deals 4 damage to target player or planeswalker.",
@@ -5731,6 +5825,7 @@
     {
       "name": "Eldrazi Aggressor",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>Eldrazi Aggressor has haste as long as you control another colorless creature.",
@@ -5792,6 +5887,7 @@
     {
       "name": "Eldrazi Obligator",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Eldrazi",
       "text": "Devoid (This card has no color.)<br>When you cast this spell, you may pay {1}{C}. If you do, gain control of target creature until end of turn, untap that creature, and it gains haste until end of turn. ({C} represents colorless mana.)<br>Haste",
@@ -5852,6 +5948,7 @@
     {
       "name": "Immobilizer Eldrazi",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>{2}{C}: Each creature with toughness greater than its power can't block this turn. ({C} represents colorless mana.)",
@@ -5913,9 +6010,10 @@
     {
       "name": "Kozilek's Return",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
-      "text": "Devoid (This card has no color.)<br>Kozilek's Return deals 2 damage to each creature.<br>Whenever you cast an Eldrazi creature spell with converted mana cost 7 or greater, you may exile Kozilek's Return from your graveyard. If you do, Kozilek's Return deals 5 damage to each creature.",
+      "text": "Devoid (This card has no color.)<br>Kozilek's Return deals 2 damage to each creature.<br>Whenever you cast an Eldrazi creature spell with mana value 7 or greater, you may exile Kozilek's Return from your graveyard. If you do, Kozilek's Return deals 5 damage to each creature.",
       "expansion": "OGW",
       "scryfallSetCode": "OGW",
       "rarity": "M",
@@ -5973,6 +6071,7 @@
     {
       "name": "Maw of Kozilek",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>{C}: Maw of Kozilek gets +2/-2 until end of turn. ({C} represents colorless mana.)",
@@ -6034,6 +6133,7 @@
     {
       "name": "Reality Hemorrhage",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Devoid (This card has no color.)<br>Reality Hemorrhage deals 2 damage to any target.",
@@ -6095,6 +6195,7 @@
     {
       "name": "Akoum Flameseeker",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Shaman Ally",
       "text": "Cohort - {T}, Tap an untapped Ally you control: Discard a card. If you do, draw a card.",
@@ -6156,6 +6257,7 @@
     {
       "name": "Boulder Salvo",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Surge {1}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>Boulder Salvo deals 4 damage to target creature.",
@@ -6217,6 +6319,7 @@
     {
       "name": "Brute Strength",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +3/+1 and gains trample until end of turn.",
@@ -6278,6 +6381,7 @@
     {
       "name": "Chandra, Flamecaller",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Legendary Planeswalker - Chandra",
       "text": "[+1]: Create two 3/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.<br>[0]: Discard all the cards in your hand, then draw that many cards plus one.<br>[−X]: Chandra, Flamecaller deals X damage to each creature.",
@@ -6338,6 +6442,7 @@
     {
       "name": "Cinder Hellion",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Hellion",
       "text": "Trample<br>When Cinder Hellion enters the battlefield, it deals 2 damage to target opponent or planeswalker.",
@@ -6399,6 +6504,7 @@
     {
       "name": "Devour in Flames",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, return a land you control to its owner's hand.<br>Devour in Flames deals 5 damage to target creature or planeswalker.",
@@ -6460,6 +6566,7 @@
     {
       "name": "Embodiment of Fury",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Trample<br>Land creatures you control have trample.<br>Landfall - Whenever a land enters the battlefield under your control, you may have target land you control become a 3/3 Elemental creature with haste until end of turn. It's still a land.",
@@ -6520,6 +6627,7 @@
     {
       "name": "Expedite",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gains haste until end of turn.<br>Draw a card.",
@@ -6581,6 +6689,7 @@
     {
       "name": "Fall of the Titans",
       "manaCost": "{X}{X}{R}",
+      "sortedManaCost": "{X}{X}{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Surge {X}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>Fall of the Titans deals X damage to each of up to two targets.",
@@ -6642,9 +6751,10 @@
     {
       "name": "Goblin Dark-Dwellers",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Goblin",
-      "text": "Menace<br>When Goblin Dark-Dwellers enters the battlefield, you may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead.",
+      "text": "Menace<br>When Goblin Dark-Dwellers enters the battlefield, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard this turn, exile it instead.",
       "expansion": "OGW",
       "scryfallSetCode": "OGW",
       "rarity": "R",
@@ -6702,6 +6812,7 @@
     {
       "name": "Goblin Freerunner",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Goblin Warrior Ally",
       "text": "Surge {1}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>Menace (This creature can't be blocked except by two or more creatures.)",
@@ -6763,6 +6874,7 @@
     {
       "name": "Kazuul's Toll Collector",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Ogre Warrior",
       "text": "{0}: Attach target Equipment you control to Kazuul's Toll Collector. Activate only as a sorcery.",
@@ -6824,6 +6936,7 @@
     {
       "name": "Oath of Chandra",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Legendary Enchantment",
       "text": "When Oath of Chandra enters the battlefield, it deals 3 damage to target creature an opponent controls.<br>At the beginning of each end step, if a planeswalker entered the battlefield under your control this turn, Oath of Chandra deals 2 damage to each opponent.",
@@ -6885,6 +6998,7 @@
     {
       "name": "Press into Service",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Support 2. (Put a +1/+1 counter on each of up to two target creatures.)<br>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
@@ -6945,6 +7059,7 @@
     {
       "name": "Pyromancer's Assault",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Whenever you cast your second spell each turn, Pyromancer's Assault deals 2 damage to any target.",
@@ -7006,6 +7121,7 @@
     {
       "name": "Reckless Bushwhacker",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Warrior Ally",
       "text": "Surge {1}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>Haste<br>When Reckless Bushwhacker enters the battlefield, if its surge cost was paid, other creatures you control get +1/+0 and gain haste until end of turn.",
@@ -7066,6 +7182,7 @@
     {
       "name": "Sparkmage's Gambit",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Sparkmage's Gambit deals 1 damage to each of up to two target creatures. Those creatures can't block this turn.",
@@ -7127,6 +7244,7 @@
     {
       "name": "Tears of Valakut",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "This spell can't be countered.<br>Tears of Valakut deals 5 damage to target creature with flying.",
@@ -7188,6 +7306,7 @@
     {
       "name": "Tyrant of Valakut",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Creature - Dragon",
       "text": "Surge {3}{R}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)<br>Flying<br>When Tyrant of Valakut enters the battlefield, if its surge cost was paid, it deals 3 damage to any target.",
@@ -7248,6 +7367,7 @@
     {
       "name": "Zada's Commando",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Archer Ally",
       "text": "First strike<br>Cohort - {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage to target opponent or planeswalker.",
@@ -7309,6 +7429,7 @@
     {
       "name": "Birthing Hulk",
       "manaCost": "{6}{G}",
+      "sortedManaCost": "{6}{G}",
       "cmc": 7,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>When Birthing Hulk enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have \"Sacrifice this creature: Add {C}.\" ({C} represents colorless mana.)<br>{1}{C}: Regenerate Birthing Hulk.",
@@ -7369,9 +7490,10 @@
     {
       "name": "Ruin in Their Wake",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "Devoid (This card has no color.)<br>Search your library for a basic land card and reveal it. You may put that card onto the battlefield tapped if you control a land named Wastes. Otherwise, put that card into your hand. Then shuffle your library.",
+      "text": "Devoid (This card has no color.)<br>Search your library for a basic land card and reveal it. You may put that card onto the battlefield tapped if you control a land named Wastes. Otherwise, put that card into your hand. Then shuffle.",
       "expansion": "OGW",
       "scryfallSetCode": "OGW",
       "rarity": "U",
@@ -7429,6 +7551,7 @@
     {
       "name": "Scion Summoner",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>When Scion Summoner enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\" ({C} represents colorless mana.)",
@@ -7489,9 +7612,10 @@
     {
       "name": "Stalking Drone",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Eldrazi Drone",
-      "text": "Devoid (This card has no color.)<br>{C}: Stalking Drone gets +1/+2 until end of turn. Activate this ability only once each turn. ({C} represents colorless mana.)",
+      "text": "Devoid (This card has no color.)<br>{C}: Stalking Drone gets +1/+2 until end of turn. Activate only once each turn. ({C} represents colorless mana.)",
       "flavor": "As the Eldrazi adapted to the jungles of Zendikar, some took on the tactics of more familiar predators.",
       "expansion": "OGW",
       "scryfallSetCode": "OGW",
@@ -7550,6 +7674,7 @@
     {
       "name": "Vile Redeemer",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Eldrazi",
       "text": "Devoid (This card has no color.)<br>Flash<br>When you cast this spell, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have \"Sacrifice this creature: Add {C}.\"",
@@ -7610,6 +7735,7 @@
     {
       "name": "World Breaker",
       "manaCost": "{6}{G}",
+      "sortedManaCost": "{6}{G}",
       "cmc": 7,
       "type": "Creature - Eldrazi",
       "text": "Devoid (This card has no color.)<br>When you cast this spell, exile target artifact, enchantment, or land.<br>Reach<br>{2}{C}, Sacrifice a land: Return World Breaker from your graveyard to your hand. ({C} represents colorless mana.)",
@@ -7670,6 +7796,7 @@
     {
       "name": "Baloth Pup",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Beast",
       "text": "Baloth Pup has trample as long as it has a +1/+1 counter on it.",
@@ -7731,6 +7858,7 @@
     {
       "name": "Bonds of Mortality",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "When Bonds of Mortality enters the battlefield, draw a card.<br>{G}: Creatures your opponents control lose hexproof and indestructible until end of turn.",
@@ -7792,6 +7920,7 @@
     {
       "name": "Canopy Gorger",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Wurm",
       "flavor": "The settlement's defenders were glad to have such a massive, ferocious creature join the fight-but less glad to see it flatten their homes along the way.",
@@ -7852,6 +7981,7 @@
     {
       "name": "Elemental Uprising",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target land you control becomes a 4/4 Elemental creature with haste until end of turn. It's still a land. It must be blocked this turn if able.",
@@ -7913,6 +8043,7 @@
     {
       "name": "Embodiment of Insight",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Vigilance<br>Land creatures you control have vigilance.<br>Landfall - Whenever a land enters the battlefield under your control, you may have target land you control become a 3/3 Elemental creature with haste until end of turn. It's still a land.",
@@ -7973,6 +8104,7 @@
     {
       "name": "Gladehart Cavalry",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Elf Knight",
       "text": "When Gladehart Cavalry enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)<br>Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life.",
@@ -8033,6 +8165,7 @@
     {
       "name": "Harvester Troll",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Troll",
       "text": "When Harvester Troll enters the battlefield, you may sacrifice a creature or land. If you do, put two +1/+1 counters on Harvester Troll.",
@@ -8094,6 +8227,7 @@
     {
       "name": "Lead by Example",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Support 2. (Put a +1/+1 counter on each of up to two target creatures.)",
@@ -8155,9 +8289,10 @@
     {
       "name": "Loam Larva",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Insect",
-      "text": "When Loam Larva enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle your library and put that card on top of it.",
+      "text": "When Loam Larva enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.",
       "flavor": "The forest floor of Murasa is home to life as diverse and vibrant as that of the canopy above.",
       "expansion": "OGW",
       "scryfallSetCode": "OGW",
@@ -8216,6 +8351,7 @@
     {
       "name": "Natural State",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Destroy target artifact or enchantment with mana value 3 or less.",
@@ -8277,6 +8413,7 @@
     {
       "name": "Netcaster Spider",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Spider",
       "text": "Reach (This creature can block creatures with flying.)<br>Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +2/+0 until end of turn.",
@@ -8338,6 +8475,7 @@
     {
       "name": "Nissa, Voice of Zendikar",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Nissa",
       "text": "[+1]: Create a 0/1 green Plant creature token.<br>[−2]: Put a +1/+1 counter on each creature you control.<br>[−7]: You gain X life and draw X cards, where X is the number of lands you control.",
@@ -8398,6 +8536,7 @@
     {
       "name": "Nissa's Judgment",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Support 2. (Put a +1/+1 counter on each of up to two target creatures.)<br>Choose up to one target creature an opponent controls. Each creature you control with a +1/+1 counter on it deals damage equal to its power to that creature.",
@@ -8458,6 +8597,7 @@
     {
       "name": "Oath of Nissa",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Legendary Enchantment",
       "text": "When Oath of Nissa enters the battlefield, look at the top three cards of your library. You may reveal a creature, land, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.<br>You may spend mana as though it were mana of any color to cast planeswalker spells.",
@@ -8519,6 +8659,7 @@
     {
       "name": "Pulse of Murasa",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Return target creature or land card from a graveyard to its owner's hand. You gain 6 life.",
@@ -8580,6 +8721,7 @@
     {
       "name": "Saddleback Lagac",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Lizard",
       "text": "When Saddleback Lagac enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)",
@@ -8641,6 +8783,7 @@
     {
       "name": "Seed Guardian",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Reach<br>When Seed Guardian dies, create an X/X green Elemental creature token, where X is the number of creature cards in your graveyard.",
@@ -8702,6 +8845,7 @@
     {
       "name": "Sylvan Advocate",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Druid Ally",
       "text": "Vigilance<br>As long as you control six or more lands, Sylvan Advocate and land creatures you control get +2/+2.",
@@ -8763,6 +8907,7 @@
     {
       "name": "Tajuru Pathwarden",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Elf Warrior Ally",
       "text": "Vigilance, trample",
@@ -8824,6 +8969,7 @@
     {
       "name": "Vines of the Recluse",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +1/+2 and gains reach until end of turn. Untap it. (A creature with reach can block creatures with flying.)",
@@ -8885,6 +9031,7 @@
     {
       "name": "Zendikar Resurgent",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Enchantment",
       "text": "Whenever you tap a land for mana, add one mana of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)<br>Whenever you cast a creature spell, draw a card.",
@@ -8945,6 +9092,7 @@
     {
       "name": "Flayer Drone",
       "manaCost": "{1}{B}{R}",
+      "sortedManaCost": "{1}{B}{R}",
       "cmc": 3,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>First strike<br>Whenever another colorless creature enters the battlefield under your control, target opponent loses 1 life.",
@@ -9005,6 +9153,7 @@
     {
       "name": "Mindmelter",
       "manaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{U}{B}",
       "cmc": 3,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>Mindmelter can't be blocked.<br>{3}{C}: Target opponent exiles a card from their hand. Activate only as a sorcery. ({C} represents colorless mana.)",
@@ -9065,6 +9214,7 @@
     {
       "name": "Void Grafter",
       "manaCost": "{1}{G}{U}",
+      "sortedManaCost": "{1}{U}{G}",
       "cmc": 3,
       "type": "Creature - Eldrazi Drone",
       "text": "Devoid (This card has no color.)<br>Flash (You may cast this spell any time you could cast an instant.)<br>When Void Grafter enters the battlefield, another target creature you control gains hexproof until end of turn.",
@@ -9125,6 +9275,7 @@
     {
       "name": "Ayli, Eternal Pilgrim",
       "manaCost": "{W}{B}",
+      "sortedManaCost": "{W}{B}",
       "cmc": 2,
       "type": "Legendary Creature - Kor Cleric",
       "text": "Deathtouch<br>{1}, Sacrifice another creature: You gain life equal to the sacrificed creature's toughness.<br>{1}{W}{B}, Sacrifice another creature: Exile target nonland permanent. Activate only if you have at least 10 life more than your starting life total.",
@@ -9185,6 +9336,7 @@
     {
       "name": "Baloth Null",
       "manaCost": "{4}{B}{G}",
+      "sortedManaCost": "{4}{B}{G}",
       "cmc": 6,
       "type": "Creature - Zombie Beast",
       "text": "When Baloth Null enters the battlefield, return up to two target creature cards from your graveyard to your hand.",
@@ -9246,6 +9398,7 @@
     {
       "name": "Cliffhaven Vampire",
       "manaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{W}{B}",
       "cmc": 4,
       "type": "Creature - Vampire Warrior Ally",
       "text": "Flying<br>Whenever you gain life, each opponent loses 1 life.",
@@ -9307,6 +9460,7 @@
     {
       "name": "Joraga Auxiliary",
       "manaCost": "{1}{G}{W}",
+      "sortedManaCost": "{1}{W}{G}",
       "cmc": 3,
       "type": "Creature - Elf Soldier Ally",
       "text": "{4}{G}{W}: Support 2. (Put a +1/+1 counter on each of up to two other target creatures.)",
@@ -9368,6 +9522,7 @@
     {
       "name": "Jori En, Ruin Diver",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Merfolk Wizard",
       "text": "Whenever you cast your second spell each turn, draw a card.",
@@ -9429,6 +9584,7 @@
     {
       "name": "Mina and Denn, Wildborn",
       "manaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{R}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Elf Ally",
       "text": "You may play an additional land on each of your turns.<br>{R}{G}, Return a land you control to its owner's hand: Target creature gains trample until end of turn.",
@@ -9490,6 +9646,7 @@
     {
       "name": "Reflector Mage",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "When Reflector Mage enters the battlefield, return target creature an opponent controls to its owner's hand. That creature's owner can't cast spells with the same name as that creature until your next turn.",
@@ -9550,6 +9707,7 @@
     {
       "name": "Relentless Hunter",
       "manaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{R}{G}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
       "text": "{1}{R}{G}: Relentless Hunter gets +1/+1 and gains trample until end of turn.",
@@ -9611,6 +9769,7 @@
     {
       "name": "Stormchaser Mage",
       "manaCost": "{U}{R}",
+      "sortedManaCost": "{U}{R}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "Flying, haste<br>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
@@ -9672,6 +9831,7 @@
     {
       "name": "Weapons Trainer",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Creature - Human Soldier Ally",
       "text": "Other creatures you control get +1/+0 as long as you control an Equipment.",
@@ -9733,6 +9893,7 @@
     {
       "name": "Bone Saw",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+0.<br>Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -9794,6 +9955,7 @@
     {
       "name": "Captain's Claws",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+0.<br>Whenever equipped creature attacks, create a 1/1 white Kor Ally creature token that's tapped and attacking.<br>Equip {1}",
@@ -9855,6 +10017,7 @@
     {
       "name": "Chitinous Cloak",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has menace. (It can't be blocked except by two or more creatures.)<br>Equip {3}",
@@ -9916,6 +10079,7 @@
     {
       "name": "Hedron Crawler",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Construct",
       "text": "{T}: Add {C}. ({C} represents colorless mana.)",
@@ -9977,6 +10141,7 @@
     {
       "name": "Seer's Lantern",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{T}: Add {C}.<br>{2}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
@@ -10038,6 +10203,7 @@
     {
       "name": "Stoneforge Masterwork",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+1 for each other creature you control that shares a creature type with it.<br>Equip {2}",
@@ -10099,6 +10265,7 @@
     {
       "name": "Strider Harness",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+1 and has haste.<br>Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -10696,7 +10863,7 @@
       "name": "Sea Gate Wreckage",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}: Add {C}. ({C} represents colorless mana.)<br>{2}{C}, {T}: Draw a card. Activate this ability only if you have no cards in hand.",
+      "text": "{T}: Add {C}. ({C} represents colorless mana.)<br>{2}{C}, {T}: Draw a card. Activate only if you have no cards in hand.",
       "flavor": "Once a center for knowledge, Sea Gate now serves as a reminder of what was lost.",
       "expansion": "OGW",
       "scryfallSetCode": "OGW",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "commander",
-    "digest": "af6257a098c4930411f07870e8dfeb60",
+    "digest": "d54248dd34cfc3a7171732c30bfd0099",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/KHC_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/KHC_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Lathril, Blade of the Elves",
       "manaCost": "{2}{B}{G}",
+      "sortedManaCost": "{2}{B}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Elf Noble",
       "text": "Menace<br>Whenever Lathril, Blade of the Elves deals combat damage to a player, create that many 1/1 green Elf Warrior creature tokens.<br>{T}, Tap ten untapped Elves you control: Each opponent loses 10 life and you gain 10 life.",
@@ -78,6 +79,7 @@
     {
       "name": "Ranar the Ever-Watchful",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Spirit Warrior",
       "text": "Flying, vigilance<br>The first card you foretell each turn costs {0} to foretell.<br>Whenever a spell or ability you control exiles one or more cards from your hand and/or permanents from the battlefield, create a 1/1 white Spirit creature token with flying.",
@@ -134,6 +136,7 @@
     {
       "name": "Cosmic Intervention",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "If a permanent you control would be put into a graveyard from the battlefield this turn, exile it instead. Return it to the battlefield under its owner's control at the beginning of the next end step.<br>Foretell {1}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -191,9 +194,10 @@
     {
       "name": "Hero of Bretagard",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
-      "text": "Whenever you exile one or more cards from your hand and/or permanents from the battlefield, put that many +1/+1 counters on Hero of Bretagard.<br>As long as Hero of Bretagard has five or more counters on it, it has flying and is an Angel in addition to its other types.<br>As long as Hero of Bretagard has ten or more counters on it, it has indestructible and is a God in addition to its other types.",
+      "text": "Whenever a spell or ability you control exiles one or more cards from your hand and/or permanents from the battlefield, put that many +1/+1 counters on Hero of Bretagard.<br>As long as Hero of Bretagard has five or more counters on it, it has flying and is an Angel in addition to its other types.<br>As long as Hero of Bretagard has ten or more counters on it, it has indestructible and is a God in addition to its other types.",
       "expansion": "KHC",
       "scryfallSetCode": "KHC",
       "rarity": "R",
@@ -247,9 +251,10 @@
     {
       "name": "Stoic Farmer",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Dwarf Peasant",
-      "text": "When Stoic Farmer enters the battlefield, search your library for a basic Plains card and reveal it. If an opponent controls more lands than you, put it onto the battlefield tapped. Otherwise put it into your hand. Then shuffle your library.<br>Foretell {1}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+      "text": "When Stoic Farmer enters the battlefield, search your library for a basic Plains card and reveal it. If an opponent controls more lands than you, put it onto the battlefield tapped. Otherwise put it into your hand. Then shuffle.<br>Foretell {1}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
       "expansion": "KHC",
       "scryfallSetCode": "KHC",
       "rarity": "R",
@@ -304,6 +309,7 @@
     {
       "name": "Sage of the Beyond",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Creature - Spirit Giant",
       "text": "Flying<br>Spells you cast from anywhere other than your hand cost {2} less to cast.<br>Foretell {4}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -361,6 +367,7 @@
     {
       "name": "Spectral Deluge",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Return each creature your opponents control with toughness X or less to its owner's hand, where X is the number of Islands you control.<br>Foretell {1}{U}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -418,6 +425,7 @@
     {
       "name": "Tales of the Ancestors",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Each player with fewer cards in hand than the player with the most cards in hand draws cards equal to the difference.<br>Foretell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
@@ -475,6 +483,7 @@
     {
       "name": "Pact of the Serpent",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Choose a creature type. Target player draws X cards and loses X life, where X is the number of creatures they control of the chosen type.",
@@ -532,6 +541,7 @@
     {
       "name": "Ruthless Winnower",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Elf Rogue",
       "text": "At the beginning of each player's upkeep, that player sacrifices a non-Elf creature.",
@@ -589,6 +599,7 @@
     {
       "name": "Serpent's Soul-Jar",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Whenever an Elf you control dies, exile it.<br>{T}, Pay 2 life: Until end of turn, you may cast a creature spell from among cards exiled with Serpent's Soul-Jar.",
@@ -646,6 +657,7 @@
     {
       "name": "Bounty of Skemfar",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Reveal the top six cards of your library. You may put a land card from among them onto the battlefield tapped and an Elf card from among them into your hand. Put the rest on the bottom of your library in a random order.",
@@ -703,6 +715,7 @@
     {
       "name": "Crown of Skemfar",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+1 for each Elf you control and has reach.<br>{2}{G}: Return Crown of Skemfar from your graveyard to your hand.",
@@ -760,6 +773,7 @@
     {
       "name": "Wolverine Riders",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Elf Warrior",
       "text": "At the beginning of each upkeep, create a 1/1 green Elf Warrior creature token.<br>Whenever another Elf enters the battlefield under your control, you gain life equal to its toughness.",
@@ -817,6 +831,7 @@
     {
       "name": "Elderfang Venom",
       "manaCost": "{2}{B}{G}",
+      "sortedManaCost": "{2}{B}{G}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Attacking Elves you control have deathtouch.<br>Whenever an Elf you control dies, each opponent loses 1 life and you gain 1 life.",
@@ -874,6 +889,7 @@
     {
       "name": "Ethereal Valkyrie",
       "manaCost": "{4}{W}{U}",
+      "sortedManaCost": "{4}{W}{U}",
       "cmc": 6,
       "type": "Creature - Spirit Angel",
       "text": "Flying<br>Whenever Ethereal Valkyrie enters the battlefield or attacks, draw a card, then exile a card from your hand face down. It becomes foretold. Its foretell cost is its mana cost reduced by {2}. (On a later turn, you may cast it for its foretell cost, even if this creature has left the battlefield.)",
@@ -930,6 +946,7 @@
     {
       "name": "Angel of Finality",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Angel",
       "text": "Flying<br>When Angel of Finality enters the battlefield, exile all cards from target player's graveyard.",
@@ -987,6 +1004,7 @@
     {
       "name": "Angel of Serenity",
       "manaCost": "{4}{W}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}{W}",
       "cmc": 7,
       "type": "Creature - Angel",
       "text": "Flying<br>When Angel of Serenity enters the battlefield, you may exile up to three other target creatures from the battlefield and/or creature cards from graveyards.<br>When Angel of Serenity leaves the battlefield, return the exiled cards to their owners' hands.",
@@ -1043,6 +1061,7 @@
     {
       "name": "Banishing Light",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield.",
@@ -1100,6 +1119,7 @@
     {
       "name": "Cleansing Nova",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Choose one -<br>• Destroy all creatures.<br>• Destroy all artifacts and enchantments.",
@@ -1157,6 +1177,7 @@
     {
       "name": "Cloudgoat Ranger",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Giant Warrior",
       "text": "When Cloudgoat Ranger enters the battlefield, create three 1/1 white Kithkin Soldier creature tokens.<br>Tap three untapped Kithkin you control: Cloudgoat Ranger gets +2/+0 and gains flying until end of turn.",
@@ -1213,6 +1234,7 @@
     {
       "name": "Eerie Interlude",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Exile any number of target creatures you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.",
@@ -1270,6 +1292,7 @@
     {
       "name": "Evangel of Heliod",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Creature - Human Cleric",
       "text": "When Evangel of Heliod enters the battlefield, create a number of 1/1 white Soldier creature tokens equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)",
@@ -1326,6 +1349,7 @@
     {
       "name": "Flickerwisp",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Flying<br>When Flickerwisp enters the battlefield, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -1383,6 +1407,7 @@
     {
       "name": "Geist-Honored Monk",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Human Monk",
       "text": "Vigilance<br>Geist-Honored Monk's power and toughness are each equal to the number of creatures you control.<br>When Geist-Honored Monk enters the battlefield, create two 1/1 white Spirit creature tokens with flying.",
@@ -1439,6 +1464,7 @@
     {
       "name": "Ghostly Prison",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
@@ -1496,6 +1522,7 @@
     {
       "name": "Goldnight Commander",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Cleric Soldier",
       "text": "Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
@@ -1553,6 +1580,7 @@
     {
       "name": "Kor Cartographer",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Kor Scout",
       "text": "When Kor Cartographer enters the battlefield, you may search your library for a Plains card, put it onto the battlefield tapped, then shuffle.",
@@ -1610,6 +1638,7 @@
     {
       "name": "Marshal's Anthem",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Multikicker {1}{W} (You may pay an additional {1}{W} any number of times as you cast this spell.)<br>Creatures you control get +1/+1.<br>When Marshal's Anthem enters the battlefield, return up to X target creature cards from your graveyard to the battlefield, where X is the number of times Marshal's Anthem was kicked.",
@@ -1666,6 +1695,7 @@
     {
       "name": "Momentary Blink",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile target creature you control, then return it to the battlefield under its owner's control.<br>Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -1722,6 +1752,7 @@
     {
       "name": "Restoration Angel",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Angel",
       "text": "Flash<br>Flying<br>When Restoration Angel enters the battlefield, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.",
@@ -1778,6 +1809,7 @@
     {
       "name": "Return to Dust",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Exile target artifact or enchantment. If you cast this spell during your main phase, you may exile up to one other target artifact or enchantment.",
@@ -1835,6 +1867,7 @@
     {
       "name": "Storm Herd",
       "manaCost": "{8}{W}{W}",
+      "sortedManaCost": "{8}{W}{W}",
       "cmc": 10,
       "type": "Sorcery",
       "text": "Create X 1/1 white Pegasus creature tokens with flying, where X is your life total.",
@@ -1892,6 +1925,7 @@
     {
       "name": "Sun Titan",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Creature - Giant",
       "text": "Vigilance<br>Whenever Sun Titan enters the battlefield or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield.",
@@ -1949,6 +1983,7 @@
     {
       "name": "Wall of Omens",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Wall",
       "text": "Defender<br>When Wall of Omens enters the battlefield, draw a card.",
@@ -2006,6 +2041,7 @@
     {
       "name": "Arcane Artisan",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "{2}{U}, {T}: Target player draws a card, then exiles a card from their hand. If a creature card is exiled this way, that player creates a token that's a copy of that card.<br>When Arcane Artisan leaves the battlefield, exile all tokens created with it at the beginning of the next end step.",
@@ -2062,6 +2098,7 @@
     {
       "name": "Curse of the Swine",
       "manaCost": "{X}{U}{U}",
+      "sortedManaCost": "{X}{U}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile X target creatures. For each creature exiled this way, its controller creates a 2/2 green Boar creature token.",
@@ -2119,6 +2156,7 @@
     {
       "name": "Day of the Dragons",
       "manaCost": "{4}{U}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}{U}",
       "cmc": 7,
       "type": "Enchantment",
       "text": "When Day of the Dragons enters the battlefield, exile all creatures you control. Then create that many 5/5 red Dragon creature tokens with flying.<br>When Day of the Dragons leaves the battlefield, sacrifice all Dragons you control. Then return the exiled cards to the battlefield under your control.",
@@ -2175,6 +2213,7 @@
     {
       "name": "Ghostly Flicker",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Exile two target artifacts, creatures, and/or lands you control, then return those cards to the battlefield under your control.",
@@ -2232,6 +2271,7 @@
     {
       "name": "Inspired Sphinx",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Creature - Sphinx",
       "text": "Flying<br>When Inspired Sphinx enters the battlefield, draw cards equal to the number of opponents you have.<br>{3}{U}: Create a 1/1 colorless Thopter artifact creature token with flying.",
@@ -2288,6 +2328,7 @@
     {
       "name": "Mist Raven",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Bird",
       "text": "Flying<br>When Mist Raven enters the battlefield, return target creature to its owner's hand.",
@@ -2345,6 +2386,7 @@
     {
       "name": "Mulldrifter",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Flying<br>When Mulldrifter enters the battlefield, draw two cards.<br>Evoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -2401,6 +2443,7 @@
     {
       "name": "Sea Gate Oracle",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "When Sea Gate Oracle enters the battlefield, look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.",
@@ -2458,6 +2501,7 @@
     {
       "name": "Synthetic Destiny",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Instant",
       "text": "Exile all creatures you control. At the beginning of the next end step, reveal cards from the top of your library until you reveal that many creature cards, put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.",
@@ -2515,6 +2559,7 @@
     {
       "name": "Whirler Rogue",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Human Rogue Artificer",
       "text": "When Whirler Rogue enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.<br>Tap two untapped artifacts you control: Target creature can't be blocked this turn.",
@@ -2571,6 +2616,7 @@
     {
       "name": "Windfall",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.",
@@ -2628,6 +2674,7 @@
     {
       "name": "Ambition's Cost",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "You draw three cards and you lose 3 life.",
@@ -2685,6 +2732,7 @@
     {
       "name": "Eyeblight Cullers",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Elf Warrior",
       "text": "When Eyeblight Cullers dies, create three 1/1 green Elf Warrior creature tokens, then mill three cards. (Put the top three cards of your library into your graveyard.)",
@@ -2742,6 +2790,7 @@
     {
       "name": "Eyeblight Massacre",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Non-Elf creatures get -2/-2 until end of turn.",
@@ -2799,6 +2848,7 @@
     {
       "name": "Lys Alana Scarblade",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Elf Assassin",
       "text": "{T}, Discard an Elf card: Target creature gets -X/-X until end of turn, where X is the number of Elves you control.",
@@ -2856,6 +2906,7 @@
     {
       "name": "Miara, Thorn of the Glade",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Legendary Creature - Elf Scout",
       "text": "Whenever Miara, Thorn of the Glade or another Elf you control dies, you may pay {1} and 1 life. If you do, draw a card.<br>Partner (You can have two commanders if both have partner.)",
@@ -2913,6 +2964,7 @@
     {
       "name": "Pride of the Perfect",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Elves you control get +2/+0.",
@@ -2970,6 +3022,7 @@
     {
       "name": "Prowess of the Fair",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Tribal Enchantment - Elf",
       "text": "Whenever another nontoken Elf is put into your graveyard from the battlefield, you may create a 1/1 green Elf Warrior creature token.",
@@ -3027,6 +3080,7 @@
     {
       "name": "Beast Whisperer",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elf Druid",
       "text": "Whenever you cast a creature spell, draw a card.",
@@ -3084,6 +3138,7 @@
     {
       "name": "Cultivator of Blades",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Elf Artificer",
       "text": "Fabricate 2 (When this creature enters the battlefield, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.)<br>Whenever Cultivator of Blades attacks, you may have other attacking creatures get +X/+X until end of turn, where X is Cultivator of Blades's power.",
@@ -3140,6 +3195,7 @@
     {
       "name": "Dwynen, Gilt-Leaf Daen",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Elf Warrior",
       "text": "Reach<br>Other Elf creatures you control get +1/+1.<br>Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control.",
@@ -3197,6 +3253,7 @@
     {
       "name": "Elvish Archdruid",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
       "text": "Other Elf creatures you control get +1/+1.<br>{T}: Add {G} for each Elf you control.",
@@ -3254,6 +3311,7 @@
     {
       "name": "Elvish Mystic",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {G}.",
@@ -3311,6 +3369,7 @@
     {
       "name": "Elvish Promenade",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Tribal Sorcery - Elf",
       "text": "Create a 1/1 green Elf Warrior creature token for each Elf you control.",
@@ -3368,6 +3427,7 @@
     {
       "name": "Elvish Rejuvenator",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
       "text": "When Elvish Rejuvenator enters the battlefield, look at the top five cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order.",
@@ -3424,6 +3484,7 @@
     {
       "name": "End-Raze Forerunners",
       "manaCost": "{5}{G}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}{G}",
       "cmc": 8,
       "type": "Creature - Boar",
       "text": "Vigilance, trample, haste<br>When End-Raze Forerunners enters the battlefield, other creatures you control get +2/+2 and gain vigilance and trample until end of turn.",
@@ -3481,6 +3542,7 @@
     {
       "name": "Farhaven Elf",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
       "text": "When Farhaven Elf enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
@@ -3538,6 +3600,7 @@
     {
       "name": "Harvest Season",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Search your library for up to X basic land cards, where X is the number of tapped creatures you control, put those cards onto the battlefield tapped, then shuffle.",
@@ -3595,6 +3658,7 @@
     {
       "name": "Imperious Perfect",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Warrior",
       "text": "Other Elves you control get +1/+1.<br>{G}, {T}: Create a 1/1 green Elf Warrior creature token.",
@@ -3652,6 +3716,7 @@
     {
       "name": "Jagged-Scar Archers",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Elf Archer",
       "text": "Jagged-Scar Archers's power and toughness are each equal to the number of Elves you control.<br>{T}: Jagged-Scar Archers deals damage equal to its power to target creature with flying.",
@@ -3708,6 +3773,7 @@
     {
       "name": "Llanowar Tribe",
       "manaCost": "{G}{G}{G}",
+      "sortedManaCost": "{G}{G}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {G}{G}{G}.",
@@ -3765,6 +3831,7 @@
     {
       "name": "Lys Alana Huntmaster",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elf Warrior",
       "text": "Whenever you cast an Elf spell, you may create a 1/1 green Elf Warrior creature token.",
@@ -3822,6 +3889,7 @@
     {
       "name": "Marwyn, the Nurturer",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Druid",
       "text": "Whenever another Elf enters the battlefield under your control, put a +1/+1 counter on Marwyn, the Nurturer.<br>{T}: Add an amount of {G} equal to Marwyn's power.",
@@ -3879,6 +3947,7 @@
     {
       "name": "Masked Admirers",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elf Shaman",
       "text": "When Masked Admirers enters the battlefield, draw a card.<br>Whenever you cast a creature spell, you may pay {G}{G}. If you do, return Masked Admirers from your graveyard to your hand.",
@@ -3936,6 +4005,7 @@
     {
       "name": "Nullmage Shepherd",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elf Shaman",
       "text": "Tap four untapped creatures you control: Destroy target artifact or enchantment.",
@@ -3993,6 +4063,7 @@
     {
       "name": "Numa, Joraga Chieftain",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Warrior",
       "text": "At the beginning of combat on your turn, you may pay {X}{X}. When you do, distribute X +1/+1 counters among any number of target Elves.<br>Partner (You can have two commanders if both have partner.)",
@@ -4050,6 +4121,7 @@
     {
       "name": "Reclamation Sage",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Shaman",
       "text": "When Reclamation Sage enters the battlefield, you may destroy target artifact or enchantment.",
@@ -4107,6 +4179,7 @@
     {
       "name": "Rhys the Exiled",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Warrior",
       "text": "Whenever Rhys the Exiled attacks, you gain 1 life for each Elf you control.<br>{B}, Sacrifice an Elf: Regenerate Rhys the Exiled.",
@@ -4164,9 +4237,10 @@
     {
       "name": "Springbloom Druid",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
-      "text": "When Springbloom Druid enters the battlefield, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.",
+      "text": "When Springbloom Druid enters the battlefield, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
       "flavor": "\"New growth applies a healing poultice to wounds long scabbed over.\"",
       "expansion": "KHC",
       "scryfallSetCode": "KHC",
@@ -4221,6 +4295,7 @@
     {
       "name": "Sylvan Messenger",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elf",
       "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)<br>When Sylvan Messenger enters the battlefield, reveal the top four cards of your library. Put all Elf cards revealed this way into your hand and the rest on the bottom of your library in any order.",
@@ -4277,6 +4352,7 @@
     {
       "name": "Timberwatch Elf",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf",
       "text": "{T}: Target creature gets +X/+X until end of turn, where X is the number of Elves on the battlefield.",
@@ -4334,6 +4410,7 @@
     {
       "name": "Voice of Many",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elf Druid",
       "text": "When Voice of Many enters the battlefield, draw a card for each opponent who controls fewer creatures than you.",
@@ -4391,6 +4468,7 @@
     {
       "name": "Voice of the Woods",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Elf",
       "text": "Tap five untapped Elves you control: Create a 7/7 green Elemental creature token with trample.",
@@ -4448,6 +4526,7 @@
     {
       "name": "Wirewood Channeler",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add X mana of any one color, where X is the number of Elves on the battlefield.",
@@ -4505,9 +4584,10 @@
     {
       "name": "Wood Elves",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Scout",
-      "text": "When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.",
+      "text": "When Wood Elves enters the battlefield, search your library for a Forest card, put that card onto the battlefield, then shuffle.",
       "flavor": "Every branch a crossroads, every vine a swift steed.",
       "expansion": "KHC",
       "scryfallSetCode": "KHC",
@@ -4562,6 +4642,7 @@
     {
       "name": "Abomination of Llanowar",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Horror",
       "text": "Vigilance; menace (This creature can't be blocked except by two or more creatures.)<br>Abomination of Llanowar's power and toughness are each equal to the number of Elves you control plus the number of Elf cards in your graveyard.",
@@ -4619,6 +4700,7 @@
     {
       "name": "Brago, King Eternal",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Spirit Noble",
       "text": "Flying<br>Whenever Brago, King Eternal deals combat damage to a player, exile any number of target nonland permanents you control, then return those cards to the battlefield under their owner's control.",
@@ -4676,6 +4758,7 @@
     {
       "name": "Casualties of War",
       "manaCost": "{2}{B}{B}{G}{G}",
+      "sortedManaCost": "{2}{B}{B}{G}{G}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Choose one or more -<br>• Destroy target artifact.<br>• Destroy target creature.<br>• Destroy target enchantment.<br>• Destroy target land.<br>• Destroy target planeswalker.",
@@ -4732,6 +4815,7 @@
     {
       "name": "Cloudblazer",
       "manaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{W}{U}",
       "cmc": 5,
       "type": "Creature - Human Scout",
       "text": "Flying<br>When Cloudblazer enters the battlefield, you gain 2 life and draw two cards.",
@@ -4789,6 +4873,7 @@
     {
       "name": "Empyrean Eagle",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Creature - Bird Spirit",
       "text": "Flying<br>Other creatures you control with flying get +1/+1.",
@@ -4846,6 +4931,7 @@
     {
       "name": "Golgari Findbroker",
       "manaCost": "{B}{B}{G}{G}",
+      "sortedManaCost": "{B}{B}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elf Shaman",
       "text": "When Golgari Findbroker enters the battlefield, return target permanent card from your graveyard to your hand.",
@@ -4903,9 +4989,10 @@
     {
       "name": "Migratory Route",
       "manaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{W}{U}",
       "cmc": 5,
       "type": "Sorcery",
-      "text": "Create four 1/1 white Bird creature tokens with flying.<br>Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "Create four 1/1 white Bird creature tokens with flying.<br>Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
       "expansion": "KHC",
       "scryfallSetCode": "KHC",
       "rarity": "U",
@@ -4959,6 +5046,7 @@
     {
       "name": "Mistmeadow Witch",
       "manaCost": "{1}{WU}",
+      "sortedManaCost": "{1}{WU}",
       "cmc": 2,
       "type": "Creature - Kithkin Wizard",
       "text": "{2}{W}{U}: Exile target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -5016,6 +5104,7 @@
     {
       "name": "Moldervine Reclamation",
       "manaCost": "{3}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Whenever a creature you control dies, you gain 1 life and draw a card.",
@@ -5073,6 +5162,7 @@
     {
       "name": "Poison-Tip Archer",
       "manaCost": "{2}{B}{G}",
+      "sortedManaCost": "{2}{B}{G}",
       "cmc": 4,
       "type": "Creature - Elf Archer",
       "text": "Reach (This creature can block creatures with flying.)<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)<br>Whenever another creature dies, each opponent loses 1 life.",
@@ -5129,6 +5219,7 @@
     {
       "name": "Putrefy",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target artifact or creature. It can't be regenerated.",
@@ -5186,6 +5277,7 @@
     {
       "name": "Shaman of the Pack",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Creature - Elf Shaman",
       "text": "When Shaman of the Pack enters the battlefield, target opponent loses life equal to the number of Elves you control.",
@@ -5243,6 +5335,7 @@
     {
       "name": "Soulherder",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "Whenever a creature is exiled from the battlefield, put a +1/+1 counter on Soulherder.<br>At the beginning of your end step, you may exile another target creature you control, then return that card to the battlefield under its owner's control.",
@@ -5300,6 +5393,7 @@
     {
       "name": "Thunderclap Wyvern",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Creature - Drake",
       "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying<br>Other creatures you control with flying get +1/+1.",
@@ -5357,6 +5451,7 @@
     {
       "name": "Twinblade Assassins",
       "manaCost": "{3}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}",
       "cmc": 5,
       "type": "Creature - Elf Assassin",
       "text": "At the beginning of your end step, if a creature died this turn, draw a card.",
@@ -5414,6 +5509,7 @@
     {
       "name": "Arcane Signet",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{T}: Add one mana of any color in your commander's color identity.",
@@ -5471,6 +5567,7 @@
     {
       "name": "Azorius Signet",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, {T}: Add {W}{U}.",
@@ -5528,9 +5625,10 @@
     {
       "name": "Burnished Hart",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Elk",
-      "text": "{3}, Sacrifice Burnished Hart: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.",
+      "text": "{3}, Sacrifice Burnished Hart: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
       "flavor": "Forged by divine hands to wander mortal realms.",
       "expansion": "KHC",
       "scryfallSetCode": "KHC",
@@ -5585,6 +5683,7 @@
     {
       "name": "Commander's Sphere",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{T}: Add one mana of any color in your commander's color identity.<br>Sacrifice Commander's Sphere: Draw a card.",
@@ -5642,6 +5741,7 @@
     {
       "name": "Marble Diamond",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Marble Diamond enters the battlefield tapped.<br>{T}: Add {W}.",
@@ -5699,6 +5799,7 @@
     {
       "name": "Meteor Golem",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Golem",
       "text": "When Meteor Golem enters the battlefield, destroy target nonland permanent an opponent controls.",
@@ -5756,6 +5857,7 @@
     {
       "name": "Mind Stone",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{T}: Add {C}.<br>{1}, {T}, Sacrifice Mind Stone: Draw a card.",
@@ -5813,6 +5915,7 @@
     {
       "name": "Sky Diamond",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Sky Diamond enters the battlefield tapped.<br>{T}: Add {U}.",
@@ -5870,6 +5973,7 @@
     {
       "name": "Sol Ring",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{T}: Add {C}{C}.",
@@ -5927,6 +6031,7 @@
     {
       "name": "Swiftfoot Boots",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature has hexproof and haste.<br>Equip {1}",
@@ -6152,7 +6257,7 @@
       "name": "Cryptic Caves",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}: Add {C}.<br>{1}, {T}, Sacrifice Cryptic Caves: Draw a card. Activate this ability only if you control five or more lands.",
+      "text": "{T}: Add {C}.<br>{1}, {T}, Sacrifice Cryptic Caves: Draw a card. Activate only if you control five or more lands.",
       "flavor": "Only when you've given up the search will the caves yield their secrets.",
       "expansion": "KHC",
       "scryfallSetCode": "KHC",

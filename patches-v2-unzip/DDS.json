@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "f42f71700f812becf62d0decd0b92b83",
+    "digest": "29bd7cc0ce3b5f5adee913737a94bd27",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDS_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDS_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Jhoira of the Ghitu",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Human Wizard",
       "text": "{2}, Exile a nonland card from your hand: Put four time counters on the exiled card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, cast it without paying its mana cost. If it's a creature, it has haste.)",
@@ -46,6 +47,7 @@
     {
       "name": "Beacon of Tomorrows",
       "manaCost": "{6}{U}{U}",
+      "sortedManaCost": "{6}{U}{U}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Target player takes an extra turn after this one. Shuffle Beacon of Tomorrows into its owner's library.",
@@ -71,6 +73,7 @@
     {
       "name": "Deep-Sea Kraken",
       "manaCost": "{7}{U}{U}{U}",
+      "sortedManaCost": "{7}{U}{U}{U}",
       "cmc": 10,
       "type": "Creature - Kraken",
       "text": "Deep-Sea Kraken can't be blocked.<br>Suspend 9-{2}{U} (Rather than cast this card from your hand, you may pay {2}{U} and exile it with nine time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>Whenever an opponent casts a spell, if Deep-Sea Kraken is suspended, remove a time counter from it.",
@@ -95,9 +98,10 @@
     {
       "name": "Mind's Desire",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. (If it has X in its mana cost, X is 0.)<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+      "text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
       "expansion": "DDS",
       "scryfallSetCode": "DDS",
       "rarity": "R",
@@ -119,6 +123,7 @@
     {
       "name": "Peer Through Depths",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant - Arcane",
       "text": "Look at the top five cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
@@ -143,6 +148,7 @@
     {
       "name": "Quicken",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "The next sorcery spell you cast this turn can be cast as though it had flash. (It can be cast any time you could cast an instant.)<br>Draw a card.",
@@ -168,6 +174,7 @@
     {
       "name": "Reach Through Mists",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant - Arcane",
       "text": "Draw a card.",
@@ -193,6 +200,7 @@
     {
       "name": "Sage-Eye Avengers",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Creature - Djinn Monk",
       "text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)<br>Whenever Sage-Eye Avengers attacks, you may return target creature to its owner's hand if its power is less than Sage-Eye Avengers's power.",
@@ -217,9 +225,10 @@
     {
       "name": "Sift Through Sands",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Instant - Arcane",
-      "text": "Draw two cards, then discard a card.<br>If you've cast a spell named Peer Through Depths and a spell named Reach Through Mists this turn, you may search your library for a card named The Unspeakable, put it onto the battlefield, then shuffle your library.",
+      "text": "Draw two cards, then discard a card.<br>If you've cast a spell named Peer Through Depths and a spell named Reach Through Mists this turn, you may search your library for a card named The Unspeakable, put it onto the battlefield, then shuffle.",
       "expansion": "DDS",
       "scryfallSetCode": "DDS",
       "rarity": "C",
@@ -241,6 +250,7 @@
     {
       "name": "Snap",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return target creature to its owner's hand. Untap up to two lands.",
@@ -266,6 +276,7 @@
     {
       "name": "Talrand, Sky Summoner",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Merfolk Wizard",
       "text": "Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying.",
@@ -291,6 +302,7 @@
     {
       "name": "Temporal Fissure",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Return target permanent to its owner's hand.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
@@ -315,6 +327,7 @@
     {
       "name": "The Unspeakable",
       "manaCost": "{6}{U}{U}{U}",
+      "sortedManaCost": "{6}{U}{U}{U}",
       "cmc": 9,
       "type": "Legendary Creature - Spirit",
       "text": "Flying, trample<br>Whenever The Unspeakable deals combat damage to a player, you may return target Arcane card from your graveyard to your hand.",
@@ -340,6 +353,7 @@
     {
       "name": "Desperate Ritual",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant - Arcane",
       "text": "Add {R}{R}{R}.<br>Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
@@ -364,6 +378,7 @@
     {
       "name": "Empty the Warrens",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Create two 1/1 red Goblin creature tokens.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
@@ -389,6 +404,7 @@
     {
       "name": "Grapeshot",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Grapeshot deals 1 damage to any target.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
@@ -414,6 +430,7 @@
     {
       "name": "Rift Bolt",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Rift Bolt deals 3 damage to any target.<br>Suspend 1-{R} (Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
@@ -438,6 +455,7 @@
     {
       "name": "Shivan Meteor",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Shivan Meteor deals 13 damage to target creature.<br>Suspend 2-{1}{R}{R} (Rather than cast this card from your hand, you may pay {1}{R}{R} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
@@ -462,6 +480,7 @@
     {
       "name": "Volcanic Vision",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Return target instant or sorcery card from your graveyard to your hand. Volcanic Vision deals damage equal to that card's mana value to each creature your opponents control. Exile Volcanic Vision.",
@@ -486,6 +505,7 @@
     {
       "name": "Young Pyromancer",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token.",
@@ -511,6 +531,7 @@
     {
       "name": "Firemind's Foresight",
       "manaCost": "{5}{U}{R}",
+      "sortedManaCost": "{5}{U}{R}",
       "cmc": 7,
       "type": "Instant",
       "text": "Search your library for an instant card with mana value 3, reveal it, and put it into your hand. Then repeat this process for instant cards with mana values 2 and 1. Then shuffle.",
@@ -535,6 +556,7 @@
     {
       "name": "Goblin Electromancer",
       "manaCost": "{U}{R}",
+      "sortedManaCost": "{U}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Wizard",
       "text": "Instant and sorcery spells you cast cost {1} less to cast.",
@@ -560,6 +582,7 @@
     {
       "name": "Jori En, Ruin Diver",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Merfolk Wizard",
       "text": "Whenever you cast your second spell each turn, draw a card.",
@@ -585,6 +608,7 @@
     {
       "name": "Nivix Cyclops",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Creature - Cyclops",
       "text": "Defender<br>Whenever you cast an instant or sorcery spell, Nivix Cyclops gets +3/+0 until end of turn and can attack this turn as though it didn't have defender.",
@@ -609,6 +633,7 @@
     {
       "name": "Spellheart Chimera",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Creature - Chimera",
       "text": "Flying, trample<br>Spellheart Chimera's power is equal to the number of instant and sorcery cards in your graveyard.",
@@ -634,6 +659,7 @@
     {
       "name": "Nucklavee",
       "manaCost": "{4}{UR}{UR}",
+      "sortedManaCost": "{4}{UR}{UR}",
       "cmc": 6,
       "type": "Creature - Beast",
       "text": "When Nucklavee enters the battlefield, you may return target red sorcery card from your graveyard to your hand.<br>When Nucklavee enters the battlefield, you may return target blue instant card from your graveyard to your hand.",
@@ -790,6 +816,7 @@
     {
       "name": "Lovisa Coldeyes",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Human",
       "text": "Each creature that's a Barbarian, a Warrior, or a Berserker gets +2/+2 and has haste.",
@@ -815,6 +842,7 @@
     {
       "name": "Beacon of Destruction",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Instant",
       "text": "Beacon of Destruction deals 5 damage to any target. Shuffle Beacon of Destruction into its owner's library.",
@@ -840,6 +868,7 @@
     {
       "name": "Boldwyr Intimidator",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Creature - Giant Warrior",
       "text": "Cowards can't block Warriors.<br>{R}: Target creature becomes a Coward until end of turn.<br>{2}{R}: Target creature becomes a Warrior until end of turn.",
@@ -865,6 +894,7 @@
     {
       "name": "Firebolt",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Firebolt deals 2 damage to any target.<br>Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -890,6 +920,7 @@
     {
       "name": "Gorehorn Minotaurs",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Minotaur Warrior",
       "text": "Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)",
@@ -915,6 +946,7 @@
     {
       "name": "Kamahl, Pit Fighter",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Human Barbarian",
       "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>{T}: Kamahl, Pit Fighter deals 3 damage to any target.",
@@ -940,6 +972,7 @@
     {
       "name": "Kruin Striker",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Human Warrior",
       "text": "Whenever another creature enters the battlefield under your control, Kruin Striker gets +1/+0 and gains trample until end of turn.",
@@ -965,6 +998,7 @@
     {
       "name": "Zo-Zu the Punisher",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Goblin Warrior",
       "text": "Whenever a land enters the battlefield, Zo-Zu the Punisher deals 2 damage to that land's controller.",
@@ -990,6 +1024,7 @@
     {
       "name": "Ambassador Oak",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Treefolk Warrior",
       "text": "When Ambassador Oak enters the battlefield, create a 1/1 green Elf Warrior creature token.",
@@ -1015,6 +1050,7 @@
     {
       "name": "Beast Attack",
       "manaCost": "{2}{G}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{G}",
       "cmc": 5,
       "type": "Instant",
       "text": "Create a 4/4 green Beast creature token.<br>Flashback {2}{G}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -1039,6 +1075,7 @@
     {
       "name": "Call of the Herd",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Create a 3/3 green Elephant creature token.<br>Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -1063,6 +1100,7 @@
     {
       "name": "Cloudcrown Oak",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Treefolk Warrior",
       "text": "Reach (This creature can block creatures with flying.)",
@@ -1088,6 +1126,7 @@
     {
       "name": "Harmonize",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw three cards.",
@@ -1113,6 +1152,7 @@
     {
       "name": "Increasing Savagery",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Put five +1/+1 counters on target creature. If this spell was cast from a graveyard, put ten +1/+1 counters on that creature instead.<br>Flashback {5}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -1137,6 +1177,7 @@
     {
       "name": "Rampant Growth",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
@@ -1162,6 +1203,7 @@
     {
       "name": "Roar of the Wurm",
       "manaCost": "{6}{G}",
+      "sortedManaCost": "{6}{G}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Create a 6/6 green Wurm creature token.<br>Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -1186,6 +1228,7 @@
     {
       "name": "Skarrgan Pit-Skulk",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human Warrior",
       "text": "Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)<br>Creatures with power less than Skarrgan Pit-Skulk's power can't block it.",
@@ -1210,6 +1253,7 @@
     {
       "name": "Sylvan Might",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +2/+2 and gains trample until end of turn.<br>Flashback {2}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -1234,6 +1278,7 @@
     {
       "name": "Talara's Battalion",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Warrior",
       "text": "Cast this spell only if you've cast another green spell this turn.<br>Trample",
@@ -1259,6 +1304,7 @@
     {
       "name": "Radha, Heir to Keld",
       "manaCost": "{R}{G}",
+      "sortedManaCost": "{R}{G}",
       "cmc": 2,
       "type": "Legendary Creature - Elf Warrior",
       "text": "Whenever Radha, Heir to Keld attacks, you may add {R}{R}.<br>{T}: Add {G}.",
@@ -1284,6 +1330,7 @@
     {
       "name": "Relentless Hunter",
       "manaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{R}{G}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
       "text": "{1}{R}{G}: Relentless Hunter gets +1/+1 and gains trample until end of turn.",
@@ -1309,6 +1356,7 @@
     {
       "name": "Burning-Tree Emissary",
       "manaCost": "{RG}{RG}",
+      "sortedManaCost": "{RG}{RG}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "When Burning-Tree Emissary enters the battlefield, add {R}{G}.",
@@ -1334,6 +1382,7 @@
     {
       "name": "Guttural Response",
       "manaCost": "{RG}",
+      "sortedManaCost": "{RG}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target blue instant spell.",
@@ -1359,6 +1408,7 @@
     {
       "name": "Rubblebelt Raiders",
       "manaCost": "{1}{RG}{RG}{RG}",
+      "sortedManaCost": "{1}{RG}{RG}{RG}",
       "cmc": 4,
       "type": "Creature - Human Warrior",
       "text": "Whenever Rubblebelt Raiders attacks, put a +1/+1 counter on it for each attacking creature you control.",
@@ -1384,6 +1434,7 @@
     {
       "name": "Coat of Arms",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. (For example, if two Goblin Warriors and a Goblin Shaman are on the battlefield, each gets +2/+2.)",

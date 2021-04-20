@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "masterpiece",
-    "digest": "ebc1504ad76d516c01e3fafbfd569d12",
+    "digest": "d5e3aaca13e577d3b71aaab1435966d2",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/STA_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/STA_R.png",
@@ -21,6 +21,7 @@
     {
       "name": "Approach of the Second Sun",
       "manaCost": "{6}{W}",
+      "sortedManaCost": "{6}{W}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "If this spell was cast from your hand and you've cast another spell named Approach of the Second Sun this game, you win the game. Otherwise, put Approach of the Second Sun into its owner's library seventh from the top and you gain 7 life.",
@@ -40,6 +41,7 @@
     {
       "name": "Day of Judgment",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all creatures.",
@@ -60,6 +62,7 @@
     {
       "name": "Defiant Strike",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +1/+0 until end of turn.<br>Draw a card.",
@@ -80,6 +83,7 @@
     {
       "name": "Divine Gambit",
       "manaCost": "{W}{W}",
+      "sortedManaCost": "{W}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile target artifact, creature, or enchantment an opponent controls. That player may put a permanent card from their hand onto the battlefield.",
@@ -100,6 +104,7 @@
     {
       "name": "Ephemerate",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Exile target creature you control, then return it to the battlefield under its owner's control.<br>Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
@@ -119,9 +124,10 @@
     {
       "name": "Gift of Estates",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "If an opponent controls more lands than you, search your library for up to three Plains cards, reveal them, and put them into your hand. Then shuffle your library.",
+      "text": "If an opponent controls more lands than you, search your library for up to three Plains cards, reveal them, put them into your hand, then shuffle.",
       "flavor": "\"We asked for a home and received the world.\"<br>-Scroll of Nine Blessings",
       "expansion": "STA",
       "scryfallSetCode": "STA",
@@ -139,6 +145,7 @@
     {
       "name": "Gods Willing",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)<br>Scry 1.",
@@ -158,6 +165,7 @@
     {
       "name": "Mana Tithe",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {1}.",
@@ -178,6 +186,7 @@
     {
       "name": "Revitalize",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "You gain 3 life.<br>Draw a card.",
@@ -198,6 +207,7 @@
     {
       "name": "Swords to Plowshares",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Exile target creature. Its controller gains life equal to its power.",
@@ -218,6 +228,7 @@
     {
       "name": "Teferi's Protection",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.)<br>Exile Teferi's Protection.",
@@ -237,6 +248,7 @@
     {
       "name": "Blue Sun's Zenith",
       "manaCost": "{X}{U}{U}{U}",
+      "sortedManaCost": "{X}{U}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.",
@@ -257,6 +269,7 @@
     {
       "name": "Brainstorm",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
@@ -277,6 +290,7 @@
     {
       "name": "Compulsive Research",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Target player draws three cards. Then that player discards two cards unless they discard a land card.",
@@ -297,6 +311,7 @@
     {
       "name": "Counterspell",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target spell.",
@@ -317,6 +332,7 @@
     {
       "name": "Memory Lapse",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target spell. If that spell is countered this way, put it on top of its owner's library instead of into that player's graveyard.",
@@ -337,9 +353,10 @@
     {
       "name": "Mind's Desire",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. (If it has X in its mana cost, X is 0.)<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+      "text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
       "expansion": "STA",
       "scryfallSetCode": "STA",
       "rarity": "M",
@@ -356,6 +373,7 @@
     {
       "name": "Negate",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target noncreature spell.",
@@ -376,6 +394,7 @@
     {
       "name": "Opt",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Scry 1.<br>Draw a card.",
@@ -396,6 +415,7 @@
     {
       "name": "Strategic Planning",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
@@ -416,6 +436,7 @@
     {
       "name": "Tezzeret's Gambit",
       "manaCost": "{3}{UP}",
+      "sortedManaCost": "{3}{UP}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "({U/P} can be paid with either {U} or 2 life.)<br>Draw two cards, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -435,6 +456,7 @@
     {
       "name": "Time Warp",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Target player takes an extra turn after this one.",
@@ -455,6 +477,7 @@
     {
       "name": "Whirlwind Denial",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "For each spell and ability your opponents control, counter it unless its controller pays {4}.",
@@ -475,6 +498,7 @@
     {
       "name": "Agonizing Remorse",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target opponent reveals their hand. You choose a nonland card from it or a card from their graveyard. Exile that card. You lose 1 life.",
@@ -495,6 +519,7 @@
     {
       "name": "Crux of Fate",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Choose one -<br>• Destroy all Dragon creatures.<br>• Destroy all non-Dragon creatures.",
@@ -515,6 +540,7 @@
     {
       "name": "Dark Ritual",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Add {B}{B}{B}.",
@@ -535,9 +561,10 @@
     {
       "name": "Demonic Tutor",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "text": "Search your library for a card, put that card into your hand, then shuffle.",
       "flavor": "\"Demons prefer to deal with those who believe themselves too wise to be fooled.\"<br>-Scroll case inscription",
       "expansion": "STA",
       "scryfallSetCode": "STA",
@@ -555,6 +582,7 @@
     {
       "name": "Doom Blade",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target nonblack creature.",
@@ -575,6 +603,7 @@
     {
       "name": "Duress",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
@@ -595,9 +624,10 @@
     {
       "name": "Eliminate",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
-      "text": "Destroy target creature or planeswalker with converted mana cost 3 or less.",
+      "text": "Destroy target creature or planeswalker with mana value 3 or less.",
       "flavor": "\"It takes so little energy to erase a person. It's almost like the universe doesn't care that they existed at all.\"<br>-Extus Narr",
       "expansion": "STA",
       "scryfallSetCode": "STA",
@@ -615,6 +645,7 @@
     {
       "name": "Inquisition of Kozilek",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You choose a nonland card from it with mana value 3 or less. That player discards that card.",
@@ -635,6 +666,7 @@
     {
       "name": "Sign in Blood",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target player draws two cards and loses 2 life.",
@@ -655,6 +687,7 @@
     {
       "name": "Tainted Pact",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile the top card of your library. You may put that card into your hand unless it has the same name as another card exiled this way. Repeat this process until you put a card into your hand or you exile two cards with the same name, whichever comes first.",
@@ -674,6 +707,7 @@
     {
       "name": "Tendrils of Agony",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Target player loses 2 life and you gain 2 life.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
@@ -693,6 +727,7 @@
     {
       "name": "Village Rites",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Draw two cards.",
@@ -713,6 +748,7 @@
     {
       "name": "Chaos Warp",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
@@ -733,6 +769,7 @@
     {
       "name": "Claim the Firstborn",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Gain control of target creature with mana value 3 or less until end of turn. Untap that creature. It gains haste until end of turn.",
@@ -753,6 +790,7 @@
     {
       "name": "Faithless Looting",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Draw two cards, then discard two cards.<br>Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -773,6 +811,7 @@
     {
       "name": "Grapeshot",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Grapeshot deals 1 damage to any target.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
@@ -792,6 +831,7 @@
     {
       "name": "Increasing Vengeance",
       "manaCost": "{R}{R}",
+      "sortedManaCost": "{R}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Copy target instant or sorcery spell you control. If this spell was cast from a graveyard, copy that spell twice instead. You may choose new targets for the copies.<br>Flashback {3}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -811,6 +851,7 @@
     {
       "name": "Infuriate",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +3/+2 until end of turn.",
@@ -831,6 +872,7 @@
     {
       "name": "Lightning Bolt",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Lightning Bolt deals 3 damage to any target.",
@@ -851,6 +893,7 @@
     {
       "name": "Mizzix's Mastery",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Exile target card that's an instant or sorcery from your graveyard. For each card exiled this way, copy it, and you may cast the copy without paying its mana cost. Exile Mizzix's Mastery.<br>Overload {5}{R}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -870,6 +913,7 @@
     {
       "name": "Shock",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Shock deals 2 damage to any target.",
@@ -890,6 +934,7 @@
     {
       "name": "Stone Rain",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target land.",
@@ -910,6 +955,7 @@
     {
       "name": "Thrill of Possibility",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, discard a card.<br>Draw two cards.",
@@ -930,6 +976,7 @@
     {
       "name": "Urza's Rage",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)<br>This spell can't be countered.<br>Urza's Rage deals 3 damage to any target. If this spell was kicked, instead it deals 10 damage to that permanent or player and the damage can't be prevented.",
@@ -949,6 +996,7 @@
     {
       "name": "Abundant Harvest",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Choose land or nonland. Reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and the rest on the bottom of your library in a random order.",
@@ -968,6 +1016,7 @@
     {
       "name": "Adventurous Impulse",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Look at the top three cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
@@ -988,6 +1037,7 @@
     {
       "name": "Channel",
       "manaCost": "{G}{G}",
+      "sortedManaCost": "{G}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C}.",
@@ -1008,6 +1058,7 @@
     {
       "name": "Cultivate",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
@@ -1028,6 +1079,7 @@
     {
       "name": "Harmonize",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw three cards.",
@@ -1048,6 +1100,7 @@
     {
       "name": "Krosan Grip",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)<br>Destroy target artifact or enchantment.",
@@ -1068,6 +1121,7 @@
     {
       "name": "Natural Order",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, sacrifice a green creature.<br>Search your library for a green creature card, put it onto the battlefield, then shuffle.",
@@ -1088,9 +1142,10 @@
     {
       "name": "Primal Command",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Sorcery",
-      "text": "Choose two -<br>• Target player gains 7 life.<br>• Put target noncreature permanent on top of its owner's library.<br>• Target player shuffles their graveyard into their library.<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "Choose two -<br>• Target player gains 7 life.<br>• Put target noncreature permanent on top of its owner's library.<br>• Target player shuffles their graveyard into their library.<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle.",
       "expansion": "STA",
       "scryfallSetCode": "STA",
       "rarity": "M",
@@ -1107,6 +1162,7 @@
     {
       "name": "Regrowth",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Return target card from your graveyard to your hand.",
@@ -1127,6 +1183,7 @@
     {
       "name": "Snakeskin Veil",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn.",
@@ -1147,6 +1204,7 @@
     {
       "name": "Weather the Storm",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "You gain 3 life.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
@@ -1167,6 +1225,7 @@
     {
       "name": "Despark",
       "manaCost": "{W}{B}",
+      "sortedManaCost": "{W}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile target permanent with mana value 4 or greater.",
@@ -1187,6 +1246,7 @@
     {
       "name": "Electrolyze",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Electrolyze deals 2 damage divided as you choose among one or two targets.<br>Draw a card.",
@@ -1207,6 +1267,7 @@
     {
       "name": "Growth Spiral",
       "manaCost": "{G}{U}",
+      "sortedManaCost": "{U}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Draw a card. You may put a land card from your hand onto the battlefield.",
@@ -1227,6 +1288,7 @@
     {
       "name": "Lightning Helix",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Lightning Helix deals 3 damage to any target and you gain 3 life.",
@@ -1247,6 +1309,7 @@
     {
       "name": "Putrefy",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target artifact or creature. It can't be regenerated.",
@@ -1267,6 +1330,7 @@
     {
       "name": "Approach of the Second Sun",
       "manaCost": "{6}{W}",
+      "sortedManaCost": "{6}{W}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "If this spell was cast from your hand and you've cast another spell named Approach of the Second Sun this game, you win the game. Otherwise, put Approach of the Second Sun into its owner's library seventh from the top and you gain 7 life.",
@@ -1286,6 +1350,7 @@
     {
       "name": "Day of Judgment",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all creatures.",
@@ -1304,6 +1369,7 @@
     {
       "name": "Defiant Strike",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +1/+0 until end of turn.<br>Draw a card.",
@@ -1322,6 +1388,7 @@
     {
       "name": "Divine Gambit",
       "manaCost": "{W}{W}",
+      "sortedManaCost": "{W}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile target artifact, creature, or enchantment an opponent controls. That player may put a permanent card from their hand onto the battlefield.",
@@ -1340,6 +1407,7 @@
     {
       "name": "Ephemerate",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Exile target creature you control, then return it to the battlefield under its owner's control.<br>Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
@@ -1363,9 +1431,10 @@
     {
       "name": "Gift of Estates",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "If an opponent controls more lands than you, search your library for up to three Plains cards, reveal them, and put them into your hand. Then shuffle your library.",
+      "text": "If an opponent controls more lands than you, search your library for up to three Plains cards, reveal them, put them into your hand, then shuffle.",
       "expansion": "STA",
       "scryfallSetCode": "STA",
       "rarity": "R",
@@ -1381,6 +1450,7 @@
     {
       "name": "Gods Willing",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)<br>Scry 1.",
@@ -1399,6 +1469,7 @@
     {
       "name": "Mana Tithe",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {1}.",
@@ -1417,6 +1488,7 @@
     {
       "name": "Revitalize",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "You gain 3 life.<br>Draw a card.",
@@ -1435,6 +1507,7 @@
     {
       "name": "Swords to Plowshares",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Exile target creature. Its controller gains life equal to its power.",
@@ -1460,6 +1533,7 @@
     {
       "name": "Teferi's Protection",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.)<br>Exile Teferi's Protection.",
@@ -1478,6 +1552,7 @@
     {
       "name": "Blue Sun's Zenith",
       "manaCost": "{X}{U}{U}{U}",
+      "sortedManaCost": "{X}{U}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.",
@@ -1496,6 +1571,7 @@
     {
       "name": "Brainstorm",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
@@ -1515,6 +1591,7 @@
     {
       "name": "Compulsive Research",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Target player draws three cards. Then that player discards two cards unless they discard a land card.",
@@ -1533,6 +1610,7 @@
     {
       "name": "Counterspell",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target spell.",
@@ -1551,6 +1629,7 @@
     {
       "name": "Memory Lapse",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target spell. If that spell is countered this way, put it on top of its owner's library instead of into that player's graveyard.",
@@ -1569,9 +1648,10 @@
     {
       "name": "Mind's Desire",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. (If it has X in its mana cost, X is 0.)<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+      "text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
       "expansion": "STA",
       "scryfallSetCode": "STA",
       "rarity": "M",
@@ -1587,6 +1667,7 @@
     {
       "name": "Negate",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target noncreature spell.",
@@ -1605,6 +1686,7 @@
     {
       "name": "Opt",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Scry 1.<br>Draw a card.",
@@ -1630,6 +1712,7 @@
     {
       "name": "Strategic Planning",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.",
@@ -1648,6 +1731,7 @@
     {
       "name": "Tezzeret's Gambit",
       "manaCost": "{3}{UP}",
+      "sortedManaCost": "{3}{UP}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "({U/P} can be paid with either {U} or 2 life.)<br>Draw two cards, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -1666,6 +1750,7 @@
     {
       "name": "Time Warp",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Target player takes an extra turn after this one.",
@@ -1684,6 +1769,7 @@
     {
       "name": "Whirlwind Denial",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "For each spell and ability your opponents control, counter it unless its controller pays {4}.",
@@ -1702,6 +1788,7 @@
     {
       "name": "Agonizing Remorse",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target opponent reveals their hand. You choose a nonland card from it or a card from their graveyard. Exile that card. You lose 1 life.",
@@ -1720,6 +1807,7 @@
     {
       "name": "Crux of Fate",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Choose one -<br>• Destroy all Dragon creatures.<br>• Destroy all non-Dragon creatures.",
@@ -1739,6 +1827,7 @@
     {
       "name": "Dark Ritual",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Add {B}{B}{B}.",
@@ -1757,9 +1846,10 @@
     {
       "name": "Demonic Tutor",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "text": "Search your library for a card, put that card into your hand, then shuffle.",
       "flavor": "「悪魔は、自分が賢く、騙されることなどないと信じている者を好む。」 ー巻物入れに刻まれた言葉",
       "expansion": "STA",
       "scryfallSetCode": "STA",
@@ -1782,6 +1872,7 @@
     {
       "name": "Doom Blade",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target nonblack creature.",
@@ -1800,6 +1891,7 @@
     {
       "name": "Duress",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
@@ -1818,9 +1910,10 @@
     {
       "name": "Eliminate",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
-      "text": "Destroy target creature or planeswalker with converted mana cost 3 or less.",
+      "text": "Destroy target creature or planeswalker with mana value 3 or less.",
       "expansion": "STA",
       "scryfallSetCode": "STA",
       "rarity": "U",
@@ -1836,6 +1929,7 @@
     {
       "name": "Inquisition of Kozilek",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You choose a nonland card from it with mana value 3 or less. That player discards that card.",
@@ -1854,6 +1948,7 @@
     {
       "name": "Sign in Blood",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target player draws two cards and loses 2 life.",
@@ -1872,6 +1967,7 @@
     {
       "name": "Tainted Pact",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile the top card of your library. You may put that card into your hand unless it has the same name as another card exiled this way. Repeat this process until you put a card into your hand or you exile two cards with the same name, whichever comes first.",
@@ -1890,6 +1986,7 @@
     {
       "name": "Tendrils of Agony",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Target player loses 2 life and you gain 2 life.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
@@ -1908,6 +2005,7 @@
     {
       "name": "Village Rites",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Draw two cards.",
@@ -1926,6 +2024,7 @@
     {
       "name": "Chaos Warp",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
@@ -1944,6 +2043,7 @@
     {
       "name": "Claim the Firstborn",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Gain control of target creature with mana value 3 or less until end of turn. Untap that creature. It gains haste until end of turn.",
@@ -1962,6 +2062,7 @@
     {
       "name": "Faithless Looting",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Draw two cards, then discard two cards.<br>Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -1981,6 +2082,7 @@
     {
       "name": "Grapeshot",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Grapeshot deals 1 damage to any target.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
@@ -2000,6 +2102,7 @@
     {
       "name": "Increasing Vengeance",
       "manaCost": "{R}{R}",
+      "sortedManaCost": "{R}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Copy target instant or sorcery spell you control. If this spell was cast from a graveyard, copy that spell twice instead. You may choose new targets for the copies.<br>Flashback {3}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
@@ -2018,6 +2121,7 @@
     {
       "name": "Infuriate",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +3/+2 until end of turn.",
@@ -2036,6 +2140,7 @@
     {
       "name": "Lightning Bolt",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Lightning Bolt deals 3 damage to any target.",
@@ -2055,6 +2160,7 @@
     {
       "name": "Mizzix's Mastery",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Exile target card that's an instant or sorcery from your graveyard. For each card exiled this way, copy it, and you may cast the copy without paying its mana cost. Exile Mizzix's Mastery.<br>Overload {5}{R}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -2074,6 +2180,7 @@
     {
       "name": "Shock",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Shock deals 2 damage to any target.",
@@ -2092,6 +2199,7 @@
     {
       "name": "Stone Rain",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target land.",
@@ -2110,6 +2218,7 @@
     {
       "name": "Thrill of Possibility",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, discard a card.<br>Draw two cards.",
@@ -2129,6 +2238,7 @@
     {
       "name": "Urza's Rage",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)<br>This spell can't be countered.<br>Urza's Rage deals 3 damage to any target. If this spell was kicked, instead it deals 10 damage to that permanent or player and the damage can't be prevented.",
@@ -2147,6 +2257,7 @@
     {
       "name": "Abundant Harvest",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Choose land or nonland. Reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and the rest on the bottom of your library in a random order.",
@@ -2166,6 +2277,7 @@
     {
       "name": "Adventurous Impulse",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Look at the top three cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
@@ -2185,6 +2297,7 @@
     {
       "name": "Channel",
       "manaCost": "{G}{G}",
+      "sortedManaCost": "{G}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C}.",
@@ -2203,6 +2316,7 @@
     {
       "name": "Cultivate",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
@@ -2222,6 +2336,7 @@
     {
       "name": "Harmonize",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw three cards.",
@@ -2241,6 +2356,7 @@
     {
       "name": "Krosan Grip",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)<br>Destroy target artifact or enchantment.",
@@ -2259,6 +2375,7 @@
     {
       "name": "Natural Order",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, sacrifice a green creature.<br>Search your library for a green creature card, put it onto the battlefield, then shuffle.",
@@ -2278,9 +2395,10 @@
     {
       "name": "Primal Command",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Sorcery",
-      "text": "Choose two -<br>• Target player gains 7 life.<br>• Put target noncreature permanent on top of its owner's library.<br>• Target player shuffles their graveyard into their library.<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "Choose two -<br>• Target player gains 7 life.<br>• Put target noncreature permanent on top of its owner's library.<br>• Target player shuffles their graveyard into their library.<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle.",
       "expansion": "STA",
       "scryfallSetCode": "STA",
       "rarity": "M",
@@ -2297,6 +2415,7 @@
     {
       "name": "Regrowth",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Return target card from your graveyard to your hand.",
@@ -2315,6 +2434,7 @@
     {
       "name": "Snakeskin Veil",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn.",
@@ -2333,6 +2453,7 @@
     {
       "name": "Weather the Storm",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "You gain 3 life.<br>Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
@@ -2352,6 +2473,7 @@
     {
       "name": "Despark",
       "manaCost": "{W}{B}",
+      "sortedManaCost": "{W}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile target permanent with mana value 4 or greater.",
@@ -2370,6 +2492,7 @@
     {
       "name": "Electrolyze",
       "manaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{U}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Electrolyze deals 2 damage divided as you choose among one or two targets.<br>Draw a card.",
@@ -2389,6 +2512,7 @@
     {
       "name": "Growth Spiral",
       "manaCost": "{G}{U}",
+      "sortedManaCost": "{U}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Draw a card. You may put a land card from your hand onto the battlefield.",
@@ -2407,6 +2531,7 @@
     {
       "name": "Lightning Helix",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Lightning Helix deals 3 damage to any target and you gain 3 life.",
@@ -2425,6 +2550,7 @@
     {
       "name": "Putrefy",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target artifact or creature. It can't be regenerated.",

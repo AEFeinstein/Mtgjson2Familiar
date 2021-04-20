@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "from_the_vault",
-    "digest": "314104aa2156153d79724cbe85376a0f",
+    "digest": "fb6a170d2cc2fa9d0d732c45f877ed49",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/LEG_M.png"
     ]
@@ -19,9 +19,10 @@
     {
       "name": "Cao Cao, Lord of Wei",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Legendary Creature - Human Soldier",
-      "text": "{T}: Target opponent discards two cards. Activate this ability only during your turn, before attackers are declared.",
+      "text": "{T}: Target opponent discards two cards. Activate only during your turn, before attackers are declared.",
       "expansion": "LEG",
       "scryfallSetCode": "V11",
       "rarity": "M",
@@ -38,9 +39,10 @@
     {
       "name": "Captain Sisay",
       "manaCost": "{2}{G}{W}",
+      "sortedManaCost": "{2}{W}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Human Soldier",
-      "text": "{T}: Search your library for a legendary card, reveal that card, and put it into your hand. Then shuffle your library.",
+      "text": "{T}: Search your library for a legendary card, reveal that card, put it into your hand, then shuffle.",
       "flavor": "Her leadership forged the Weatherlight's finest crew.",
       "expansion": "LEG",
       "scryfallSetCode": "V11",
@@ -58,6 +60,7 @@
     {
       "name": "Doran, the Siege Tower",
       "manaCost": "{W}{B}{G}",
+      "sortedManaCost": "{W}{B}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Treefolk Shaman",
       "text": "Each creature assigns combat damage equal to its toughness rather than its power.",
@@ -78,6 +81,7 @@
     {
       "name": "Kiki-Jiki, Mirror Breaker",
       "manaCost": "{2}{R}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Goblin Shaman",
       "text": "Haste<br>{T}: Create a token that's a copy of target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step.",
@@ -97,6 +101,7 @@
     {
       "name": "Kresh the Bloodbraided",
       "manaCost": "{2}{B}{R}{G}",
+      "sortedManaCost": "{2}{B}{R}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Human Warrior",
       "text": "Whenever another creature dies, you may put X +1/+1 counters on Kresh the Bloodbraided, where X is that creature's power.",
@@ -117,6 +122,7 @@
     {
       "name": "Mikaeus, the Lunarch",
       "manaCost": "{X}{W}",
+      "sortedManaCost": "{X}{W}",
       "cmc": 1,
       "type": "Legendary Creature - Human Cleric",
       "text": "Mikaeus, the Lunarch enters the battlefield with X +1/+1 counters on it.<br>{T}: Put a +1/+1 counter on Mikaeus.<br>{T}, Remove a +1/+1 counter from Mikaeus: Put a +1/+1 counter on each other creature you control.",
@@ -136,6 +142,7 @@
     {
       "name": "Omnath, Locus of Mana",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elemental",
       "text": "You don't lose unspent green mana as steps and phases end.<br>Omnath, Locus of Mana gets +1/+1 for each unspent green mana you have.",
@@ -156,6 +163,7 @@
     {
       "name": "Oona, Queen of the Fae",
       "manaCost": "{3}{UB}{UB}{UB}",
+      "sortedManaCost": "{3}{UB}{UB}{UB}",
       "cmc": 6,
       "type": "Legendary Creature - Faerie Wizard",
       "text": "Flying<br>{X}{U/B}: Choose a color. Target opponent exiles the top X cards of their library. For each card of the chosen color exiled this way, create a 1/1 blue and black Faerie Rogue creature token with flying.",
@@ -175,6 +183,7 @@
     {
       "name": "Progenitus",
       "manaCost": "{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}",
+      "sortedManaCost": "{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}",
       "cmc": 10,
       "type": "Legendary Creature - Hydra Avatar",
       "text": "Protection from everything<br>If Progenitus would be put into a graveyard from anywhere, reveal Progenitus and shuffle it into its owner's library instead.",
@@ -195,6 +204,7 @@
     {
       "name": "Rafiq of the Many",
       "manaCost": "{1}{G}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Human Knight",
       "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)<br>Whenever a creature you control attacks alone, it gains double strike until end of turn.",
@@ -215,6 +225,7 @@
     {
       "name": "Sharuum the Hegemon",
       "manaCost": "{3}{W}{U}{B}",
+      "sortedManaCost": "{3}{W}{U}{B}",
       "cmc": 6,
       "type": "Legendary Artifact Creature - Sphinx",
       "text": "Flying<br>When Sharuum the Hegemon enters the battlefield, you may return target artifact card from your graveyard to the battlefield.",
@@ -235,6 +246,7 @@
     {
       "name": "Sun Quan, Lord of Wu",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Human Soldier",
       "text": "Creatures you control have horsemanship. (They can't be blocked except by creatures with horsemanship.)",
@@ -255,6 +267,7 @@
     {
       "name": "Teferi, Mage of Zhalfir",
       "manaCost": "{2}{U}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Human Wizard",
       "text": "Flash<br>Creature cards you own that aren't on the battlefield have flash.<br>Each opponent can cast spells only any time they could cast a sorcery.",
@@ -275,6 +288,7 @@
     {
       "name": "Ulamog, the Infinite Gyre",
       "manaCost": "{11}",
+      "sortedManaCost": "{11}",
       "cmc": 11,
       "type": "Legendary Creature - Eldrazi",
       "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
@@ -294,6 +308,7 @@
     {
       "name": "Visara the Dreadful",
       "manaCost": "{3}{B}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Gorgon",
       "text": "Flying<br>{T}: Destroy target creature. It can't be regenerated.",

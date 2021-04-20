@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "spellbook",
-    "digest": "70358bee35ee32303f653a8cf6756b9c",
+    "digest": "39b59b0f63f76fb023ea3799d3b64b8a",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SS2_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SS2_R.png"
@@ -20,6 +20,7 @@
     {
       "name": "Gideon Jura",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Gideon",
       "text": "[+2]: During target opponent's next turn, creatures that player controls attack Gideon Jura if able.<br>[−2]: Destroy target tapped creature.<br>[0]: Until end of turn, Gideon Jura becomes a 6/6 Human Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn.",
@@ -39,6 +40,7 @@
     {
       "name": "Martyr's Bond",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "Whenever Martyr's Bond or another nonland permanent you control is put into a graveyard from the battlefield, each opponent sacrifices a permanent that shares a card type with it.",
@@ -59,9 +61,10 @@
     {
       "name": "Path to Exile",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
-      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.",
+      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
       "expansion": "SS2",
       "scryfallSetCode": "SS2",
       "rarity": "R",
@@ -78,6 +81,7 @@
     {
       "name": "Rest in Peace",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "When Rest in Peace enters the battlefield, exile all cards from all graveyards.<br>If a card or token would be put into a graveyard from anywhere, exile it instead.",
@@ -98,6 +102,7 @@
     {
       "name": "Shielded by Faith",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has indestructible.<br>Whenever a creature enters the battlefield, you may attach Shielded by Faith to that creature.",
@@ -117,6 +122,7 @@
     {
       "name": "True Conviction",
       "manaCost": "{3}{W}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}{W}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "Creatures you control have double strike and lifelink.",
@@ -137,6 +143,7 @@
     {
       "name": "Worship",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.",
@@ -157,6 +164,7 @@
     {
       "name": "Blackblade Reforged",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Legendary Artifact - Equipment",
       "text": "Equipped creature gets +1/+1 for each land you control.<br>Equip legendary creature {3}<br>Equip {7}",

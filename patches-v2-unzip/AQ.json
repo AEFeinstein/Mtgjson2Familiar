@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "8998d3923090c0c3df532842c9a2a349",
+    "digest": "332e3702fe817890b7f3ce4922dd2730",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AQ_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AQ_R.png",
@@ -21,6 +21,7 @@
     {
       "name": "Argivian Archaeologist",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Human Artificer",
       "text": "{W}{W}, {T}: Return target artifact card from your graveyard to your hand.",
@@ -41,6 +42,7 @@
     {
       "name": "Argivian Blacksmith",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Human Artificer",
       "text": "{T}: Prevent the next 2 damage that would be dealt to target artifact creature this turn.",
@@ -61,6 +63,7 @@
     {
       "name": "Artifact Ward",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't be blocked by artifact creatures.<br>Prevent all damage that would be dealt to enchanted creature by artifact sources.<br>Enchanted creature can't be the target of abilities from artifact sources.",
@@ -80,6 +83,7 @@
     {
       "name": "Circle of Protection: Artifacts",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "{2}: The next time an artifact source of your choice would deal damage to you this turn, prevent that damage.",
@@ -99,6 +103,7 @@
     {
       "name": "Damping Field",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Players can't untap more than one artifact during their untap steps.",
@@ -119,6 +124,7 @@
     {
       "name": "Martyrs of Korlis",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Human",
       "text": "As long as Martyrs of Korlis is untapped, all damage that would be dealt to you by artifacts is dealt to Martyrs of Korlis instead.",
@@ -138,6 +144,7 @@
     {
       "name": "Reverse Polarity",
       "manaCost": "{W}{W}",
+      "sortedManaCost": "{W}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "You gain X life, where X is twice the damage dealt to you so far this turn by artifacts.",
@@ -157,6 +164,7 @@
     {
       "name": "Drafna's Restoration",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Put any number of target artifact cards from target player's graveyard on top of their library in any order.",
@@ -177,6 +185,7 @@
     {
       "name": "Energy Flux",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "All artifacts have \"At the beginning of your upkeep, sacrifice this artifact unless you pay {2}.\"",
@@ -196,6 +205,7 @@
     {
       "name": "Hurkyl's Recall",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return all artifacts target player owns to their hand.",
@@ -216,6 +226,7 @@
     {
       "name": "Power Artifact",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant artifact<br>Enchanted artifact's activated abilities cost {2} less to activate. This effect can't reduce the mana in that cost to less than one mana.",
@@ -235,6 +246,7 @@
     {
       "name": "Reconstruction",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Return target artifact card from your graveyard to your hand.",
@@ -255,6 +267,7 @@
     {
       "name": "Sage of Lat-Nam",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Artificer",
       "text": "{T}, Sacrifice an artifact: Draw a card.",
@@ -274,6 +287,7 @@
     {
       "name": "Transmute Artifact",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Sacrifice an artifact. If you do, search your library for an artifact card. If that card's mana value is less than or equal to the sacrificed artifact's mana value, put it onto the battlefield. If it's greater, you may pay {X}, where X is the difference. If you do, put it onto the battlefield. If you don't, put it into its owner's graveyard. Then shuffle.",
@@ -293,6 +307,7 @@
     {
       "name": "Artifact Possession",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant artifact<br>Whenever enchanted artifact becomes tapped or a player activates an ability of enchanted artifact without {T} in its activation cost, Artifact Possession deals 2 damage to that artifact's controller.",
@@ -313,9 +328,10 @@
     {
       "name": "Gate to Phyrexia",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Enchantment",
-      "text": "Sacrifice a creature: Destroy target artifact. Activate this ability only during your upkeep and only once each turn.",
+      "text": "Sacrifice a creature: Destroy target artifact. Activate only during your upkeep and only once each turn.",
       "flavor": "\"The warm rain of grease on my face immediately made it clear I had entered Phyrexia.\" -Jarsyl, Diary",
       "expansion": "AQ",
       "scryfallSetCode": "ATQ",
@@ -333,6 +349,7 @@
     {
       "name": "Haunting Wind",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Whenever an artifact becomes tapped or a player activates an artifact's ability without {T} in its activation cost, Haunting Wind deals 1 damage to that artifact's controller.",
@@ -353,6 +370,7 @@
     {
       "name": "Phyrexian Gremlins",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Gremlin",
       "text": "You may choose not to untap Phyrexian Gremlins during your untap step.<br>{T}: Tap target artifact. It doesn't untap during its controller's untap step for as long as Phyrexian Gremlins remains tapped.",
@@ -372,9 +390,10 @@
     {
       "name": "Priest of Yawgmoth",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
-      "text": "{T}, Sacrifice an artifact: Add an amount of {B} equal to the sacrificed artifact's converted mana cost.",
+      "text": "{T}, Sacrifice an artifact: Add an amount of {B} equal to the sacrificed artifact's mana value.",
       "expansion": "AQ",
       "scryfallSetCode": "ATQ",
       "rarity": "C",
@@ -391,9 +410,10 @@
     {
       "name": "Xenic Poltergeist",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Spirit",
-      "text": "{T}: Until your next upkeep, target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost.",
+      "text": "{T}: Until your next upkeep, target noncreature artifact becomes an artifact creature with power and toughness each equal to its mana value.",
       "expansion": "AQ",
       "scryfallSetCode": "ATQ",
       "rarity": "U",
@@ -410,6 +430,7 @@
     {
       "name": "Yawgmoth Demon",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Creature - Demon",
       "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)<br>First strike (This creature deals combat damage before creatures without first strike.)<br>At the beginning of your upkeep, you may sacrifice an artifact. If you don't, tap Yawgmoth Demon and it deals 2 damage to you.",
@@ -429,6 +450,7 @@
     {
       "name": "Artifact Blast",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target artifact spell.",
@@ -449,6 +471,7 @@
     {
       "name": "Atog",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Atog",
       "text": "Sacrifice an artifact: Atog gets +2/+2 until end of turn.",
@@ -468,9 +491,10 @@
     {
       "name": "Detonate",
       "manaCost": "{X}{R}",
+      "sortedManaCost": "{X}{R}",
       "cmc": 1,
       "type": "Sorcery",
-      "text": "Destroy target artifact with converted mana cost X. It can't be regenerated. Detonate deals X damage to that artifact's controller.",
+      "text": "Destroy target artifact with mana value X. It can't be regenerated. Detonate deals X damage to that artifact's controller.",
       "expansion": "AQ",
       "scryfallSetCode": "ATQ",
       "rarity": "U",
@@ -487,9 +511,10 @@
     {
       "name": "Dwarven Weaponsmith",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Dwarf Artificer",
-      "text": "{T}, Sacrifice an artifact: Put a +1/+1 counter on target creature. Activate this ability only during your upkeep.",
+      "text": "{T}, Sacrifice an artifact: Put a +1/+1 counter on target creature. Activate only during your upkeep.",
       "expansion": "AQ",
       "scryfallSetCode": "ATQ",
       "rarity": "U",
@@ -506,6 +531,7 @@
     {
       "name": "Goblin Artisans",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Artificer",
       "text": "{T}: Flip a coin. If you win the flip, draw a card. If you lose the flip, counter target artifact spell you control that isn't the target of an ability from another creature named Goblin Artisans.",
@@ -525,6 +551,7 @@
     {
       "name": "Orcish Mechanics",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Orc",
       "text": "{T}, Sacrifice an artifact: Orcish Mechanics deals 2 damage to any target.",
@@ -544,6 +571,7 @@
     {
       "name": "Shatterstorm",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all artifacts. They can't be regenerated.",
@@ -564,6 +592,7 @@
     {
       "name": "Argothian Pixies",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Faerie",
       "text": "Argothian Pixies can't be blocked by artifact creatures.<br>Prevent all damage that would be dealt to Argothian Pixies by artifact creatures.",
@@ -584,6 +613,7 @@
     {
       "name": "Argothian Treefolk",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Treefolk",
       "text": "Prevent all damage that would be dealt to Argothian Treefolk by artifact sources.",
@@ -604,6 +634,7 @@
     {
       "name": "Citanul Druid",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Human Druid",
       "text": "Whenever an opponent casts an artifact spell, put a +1/+1 counter on Citanul Druid.",
@@ -624,9 +655,10 @@
     {
       "name": "Crumble",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
-      "text": "Destroy target artifact. It can't be regenerated. That artifact's controller gains life equal to its converted mana cost.",
+      "text": "Destroy target artifact. It can't be regenerated. That artifact's controller gains life equal to its mana value.",
       "flavor": "The spirits of Argoth grant new life to those who repent the folly of enslaving their labors to devices.",
       "expansion": "AQ",
       "scryfallSetCode": "ATQ",
@@ -644,6 +676,7 @@
     {
       "name": "Gaea's Avenger",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Treefolk",
       "text": "Gaea's Avenger's power and toughness are each equal to 1 plus the number of artifacts your opponents control.",
@@ -664,6 +697,7 @@
     {
       "name": "Powerleech",
       "manaCost": "{G}{G}",
+      "sortedManaCost": "{G}{G}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Whenever an artifact an opponent controls becomes tapped or an opponent activates an artifact's ability without {T} in its activation cost, you gain 1 life.",
@@ -684,9 +718,10 @@
     {
       "name": "Titania's Song",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Enchantment",
-      "text": "Each noncreature artifact loses all abilities and becomes an artifact creature with power and toughness each equal to its converted mana cost. If Titania's Song leaves the battlefield, this effect continues until end of turn.",
+      "text": "Each noncreature artifact loses all abilities and becomes an artifact creature with power and toughness each equal to its mana value. If Titania's Song leaves the battlefield, this effect continues until end of turn.",
       "expansion": "AQ",
       "scryfallSetCode": "ATQ",
       "rarity": "U",
@@ -703,6 +738,7 @@
     {
       "name": "Amulet of Kroog",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{2}, {T}: Prevent the next 1 damage that would be dealt to any target this turn.",
@@ -723,6 +759,7 @@
     {
       "name": "Armageddon Clock",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact",
       "text": "At the beginning of your upkeep, put a doom counter on Armageddon Clock.<br>At the beginning of your draw step, Armageddon Clock deals damage equal to the number of doom counters on it to each player.<br>{4}: Remove a doom counter from Armageddon Clock. Any player may activate this ability but only during any upkeep step.",
@@ -742,6 +779,7 @@
     {
       "name": "Ashnod's Altar",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Sacrifice a creature: Add {C}{C}.",
@@ -761,6 +799,7 @@
     {
       "name": "Ashnod's Battle Gear",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "You may choose not to untap Ashnod's Battle Gear during your untap step.<br>{2}, {T}: Target creature you control gets +2/-2 for as long as Ashnod's Battle Gear remains tapped.",
@@ -781,6 +820,7 @@
     {
       "name": "Ashnod's Transmogrant",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{T}, Sacrifice Ashnod's Transmogrant: Put a +1/+1 counter on target nonartifact creature. That creature becomes an artifact in addition to its other types.",
@@ -801,6 +841,7 @@
     {
       "name": "Battering Ram",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Construct",
       "text": "At the beginning of combat on your turn, Battering Ram gains banding until end of combat. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's blocking.)<br>Whenever Battering Ram becomes blocked by a Wall, destroy that Wall at end of combat.",
@@ -821,6 +862,7 @@
     {
       "name": "Bronze Tablet",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact",
       "text": "Remove Bronze Tablet from your deck before playing if you're not playing for ante.<br>Bronze Tablet enters the battlefield tapped.<br>{4}, {T}: Exile Bronze Tablet and target nontoken permanent an opponent owns. That player may pay 10 life. If they do, put Bronze Tablet into its owner's graveyard. Otherwise, that player owns Bronze Tablet and you own the other exiled card.",
@@ -840,6 +882,7 @@
     {
       "name": "Candelabra of Tawnos",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{X}, {T}: Untap X target lands.",
@@ -860,6 +903,7 @@
     {
       "name": "Clay Statue",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Golem",
       "text": "{2}: Regenerate Clay Statue.",
@@ -880,6 +924,7 @@
     {
       "name": "Clockwork Avian",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact Creature - Bird",
       "text": "Flying<br>Clockwork Avian enters the battlefield with four +1/+0 counters on it.<br>At end of combat, if Clockwork Avian attacked or blocked this combat, remove a +1/+0 counter from it.<br>{X}, {T}: Put up to X +1/+0 counters on Clockwork Avian. This ability can't cause the total number of +1/+0 counters on Clockwork Avian to be greater than four. Activate only during your upkeep.",
@@ -899,6 +944,7 @@
     {
       "name": "Colossus of Sardia",
       "manaCost": "{9}",
+      "sortedManaCost": "{9}",
       "cmc": 9,
       "type": "Artifact Creature - Golem",
       "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)<br>Colossus of Sardia doesn't untap during your untap step.<br>{9}: Untap Colossus of Sardia. Activate only during your upkeep.",
@@ -919,6 +965,7 @@
     {
       "name": "Coral Helm",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{3}, Discard a card at random: Target creature gets +2/+2 until end of turn.",
@@ -938,6 +985,7 @@
     {
       "name": "Cursed Rack",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "As Cursed Rack enters the battlefield, choose an opponent.<br>The chosen player's maximum hand size is four.",
@@ -958,6 +1006,7 @@
     {
       "name": "Dragon Engine",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Construct",
       "text": "{2}: Dragon Engine gets +1/+0 until end of turn.",
@@ -978,6 +1027,7 @@
     {
       "name": "Feldon's Cane",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{T}, Exile Feldon's Cane: Shuffle your graveyard into your library.",
@@ -998,6 +1048,7 @@
     {
       "name": "Golgothian Sylex",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{1}, {T}: Each nontoken permanent with a name originally printed in the Antiquities expansion is sacrificed by its controller.",
@@ -1018,6 +1069,7 @@
     {
       "name": "Grapeshot Catapult",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
       "text": "{T}: Grapeshot Catapult deals 1 damage to target creature with flying.",
@@ -1038,6 +1090,7 @@
     {
       "name": "Ivory Tower",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus 4.",
@@ -1058,6 +1111,7 @@
     {
       "name": "Jalum Tome",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{2}, {T}: Draw a card, then discard a card.",
@@ -1078,6 +1132,7 @@
     {
       "name": "Mightstone",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "Attacking creatures get +1/+0.",
@@ -1098,6 +1153,7 @@
     {
       "name": "Millstone",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{2}, {T}: Target player mills two cards.",
@@ -1118,6 +1174,7 @@
     {
       "name": "Mishra's War Machine",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Juggernaut",
       "text": "Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)<br>At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unless you discard a card. If Mishra's War Machine deals damage to you this way, tap it.",
@@ -1137,6 +1194,7 @@
     {
       "name": "Obelisk of Undoing",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{6}, {T}: Return target permanent you both own and control to your hand.",
@@ -1157,6 +1215,7 @@
     {
       "name": "Onulet",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Construct",
       "text": "When Onulet dies, you gain 2 life.",
@@ -1177,6 +1236,7 @@
     {
       "name": "Ornithopter",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact Creature - Thopter",
       "text": "Flying",
@@ -1197,6 +1257,7 @@
     {
       "name": "Primal Clay",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Shapeshifter",
       "text": "As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types. (A creature with defender can't attack.)",
@@ -1216,6 +1277,7 @@
     {
       "name": "Rakalite",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact",
       "text": "{2}: Prevent the next 1 damage that would be dealt to any target this turn. Return Rakalite to its owner's hand at the beginning of the next end step.",
@@ -1236,9 +1298,10 @@
     {
       "name": "Rocket Launcher",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
-      "text": "{2}: Rocket Launcher deals 1 damage to any target. Destroy Rocket Launcher at the beginning of the next end step. Activate this ability only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn.",
+      "text": "{2}: Rocket Launcher deals 1 damage to any target. Destroy Rocket Launcher at the beginning of the next end step. Activate only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn.",
       "flavor": "What these devices lacked in subtlety, they made up in strength.",
       "expansion": "AQ",
       "scryfallSetCode": "ATQ",
@@ -1256,6 +1319,7 @@
     {
       "name": "Shapeshifter",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Shapeshifter",
       "text": "As Shapeshifter enters the battlefield, choose a number between 0 and 7.<br>At the beginning of your upkeep, you may choose a number between 0 and 7.<br>Shapeshifter's power is equal to the last chosen number and its toughness is equal to 7 minus that number.",
@@ -1276,6 +1340,7 @@
     {
       "name": "Staff of Zegon",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{3}, {T}: Target creature gets -2/-0 until end of turn.",
@@ -1296,6 +1361,7 @@
     {
       "name": "Su-Chi",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
       "text": "When Su-Chi dies, add {C}{C}{C}{C}.",
@@ -1316,6 +1382,7 @@
     {
       "name": "Tablet of Epityr",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "Whenever an artifact you control is put into a graveyard from the battlefield, you may pay {1}. If you do, you gain 1 life.",
@@ -1336,6 +1403,7 @@
     {
       "name": "Tawnos's Coffin",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "You may choose not to untap Tawnos's Coffin during your untap step.<br>{3}, {T}: Exile target creature and all Auras attached to it. Note the number and kind of counters that were on that creature. When Tawnos's Coffin leaves the battlefield or becomes untapped, return that exiled card to the battlefield under its owner's control tapped with the noted number and kind of counters on it. If you do, return the other exiled cards to the battlefield under their owner's control attached to that permanent.",
@@ -1355,6 +1423,7 @@
     {
       "name": "Tawnos's Wand",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{2}, {T}: Target creature with power 2 or less can't be blocked this turn.",
@@ -1374,6 +1443,7 @@
     {
       "name": "Tawnos's Weaponry",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "You may choose not to untap Tawnos's Weaponry during your untap step.<br>{2}, {T}: Target creature gets +1/+1 for as long as Tawnos's Weaponry remains tapped.",
@@ -1394,6 +1464,7 @@
     {
       "name": "Tetravus",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Construct",
       "text": "Flying<br>Tetravus enters the battlefield with three +1/+1 counters on it.<br>At the beginning of your upkeep, you may remove any number of +1/+1 counters from Tetravus. If you do, create that many 1/1 colorless Tetravite artifact creature tokens. They each have flying and \"This creature can't be enchanted.\"<br>At the beginning of your upkeep, you may exile any number of tokens created with Tetravus. If you do, put that many +1/+1 counters on Tetravus.",
@@ -1413,6 +1484,7 @@
     {
       "name": "The Rack",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "As The Rack enters the battlefield, choose an opponent.<br>At the beginning of the chosen player's upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in their hand.",
@@ -1433,6 +1505,7 @@
     {
       "name": "Triskelion",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Construct",
       "text": "Triskelion enters the battlefield with three +1/+1 counters on it.<br>Remove a +1/+1 counter from Triskelion: It deals 1 damage to any target.",
@@ -1453,6 +1526,7 @@
     {
       "name": "Urza's Avenger",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Shapeshifter",
       "text": "{0}: Urza's Avenger gets -1/-1 and gains your choice of banding, flying, first strike, or trample until end of turn. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)",
@@ -1473,6 +1547,7 @@
     {
       "name": "Urza's Chalice",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "Whenever a player casts an artifact spell, you may pay {1}. If you do, you gain 1 life.",
@@ -1493,6 +1568,7 @@
     {
       "name": "Urza's Miter",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Whenever an artifact you control is put into a graveyard from the battlefield, if it wasn't sacrificed, you may pay {3}. If you do, draw a card.",
@@ -1512,6 +1588,7 @@
     {
       "name": "Wall of Spears",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Wall",
       "text": "Defender (This creature can't attack.)<br>First strike",
@@ -1532,6 +1609,7 @@
     {
       "name": "Weakstone",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "Attacking creatures get -1/-0.",
@@ -1552,6 +1630,7 @@
     {
       "name": "Yotian Soldier",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Soldier",
       "text": "Vigilance",

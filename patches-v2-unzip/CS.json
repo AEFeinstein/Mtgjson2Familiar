@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "b852734edad5184f8d1ecd2071c7edbe",
+    "digest": "997138f644e2af5c4f3860d03c426fa9",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CS_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CS_R.png",
@@ -21,6 +21,7 @@
     {
       "name": "Adarkar Valkyrie",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Snow Creature - Angel",
       "text": "Flying, vigilance<br>{T}: When target creature other than Adarkar Valkyrie dies this turn, return that card to the battlefield under your control.",
@@ -74,9 +75,10 @@
     {
       "name": "Boreal Griffin",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Snow Creature - Griffin",
-      "text": "Flying<br>{S}: Boreal Griffin gains first strike until end of turn. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "Flying<br>{S}: Boreal Griffin gains first strike until end of turn. ({S} can be paid with one mana from a snow source.)",
       "flavor": "\"More than snow falls from the Boreal skies.\"<br>-Arkin Egilsson, skycaptain",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -127,9 +129,10 @@
     {
       "name": "Cover of Winter",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Snow Enchantment",
-      "text": "Cumulative upkeep {S} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it. {S} can be paid with one mana from a snow permanent.)<br>If a creature would deal combat damage to you and/or one or more creatures you control, prevent X of that damage, where X is the number of age counters on Cover of Winter.<br>{S}: Put an age counter on Cover of Winter.",
+      "text": "Cumulative upkeep {S} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it. {S} can be paid with one mana from a snow source.)<br>If a creature would deal combat damage to you and/or one or more creatures you control, prevent X of that damage, where X is the number of age counters on Cover of Winter.<br>{S}: Put an age counter on Cover of Winter.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
       "rarity": "R",
@@ -179,6 +182,7 @@
     {
       "name": "Darien, King of Kjeldor",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Human Soldier",
       "text": "Whenever you're dealt damage, you may create that many 1/1 white Soldier creature tokens.",
@@ -232,6 +236,7 @@
     {
       "name": "Field Marshal",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Human Soldier",
       "text": "Other Soldier creatures get +1/+1 and have first strike. (They deal combat damage before creatures without first strike.)",
@@ -285,6 +290,7 @@
     {
       "name": "Gelid Shackles",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Snow Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't block, and its activated abilities can't be activated.<br>{S}: Enchanted creature gains defender until end of turn. ({S} can be paid with one mana from a snow source.)",
@@ -337,6 +343,7 @@
     {
       "name": "Glacial Plating",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Snow Enchantment - Aura",
       "text": "Enchant creature<br>Cumulative upkeep {S} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it. {S} can be paid with one mana from a snow source.)<br>Enchanted creature gets +3/+3 for each age counter on Glacial Plating.",
@@ -389,6 +396,7 @@
     {
       "name": "Jötun Grunt",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Giant Soldier",
       "text": "Cumulative upkeep-Put two cards from a single graveyard on the bottom of their owner's library. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)",
@@ -441,6 +449,7 @@
     {
       "name": "Jötun Owl Keeper",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Giant",
       "text": "Cumulative upkeep {W} or {U} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>When Jötun Owl Keeper dies, create a 1/1 white Bird creature token with flying for each age counter on it.",
@@ -493,6 +502,7 @@
     {
       "name": "Kjeldoran Gargoyle",
       "manaCost": "{5}{W}",
+      "sortedManaCost": "{5}{W}",
       "cmc": 6,
       "type": "Creature - Gargoyle",
       "text": "Flying, first strike<br>Whenever Kjeldoran Gargoyle deals damage, you gain that much life.",
@@ -546,6 +556,7 @@
     {
       "name": "Kjeldoran Javelineer",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Soldier",
       "text": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>{T}: Kjeldoran Javelineer deals damage equal to the number of age counters on it to target attacking or blocking creature.",
@@ -598,6 +609,7 @@
     {
       "name": "Kjeldoran Outrider",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Soldier",
       "text": "{W}: Kjeldoran Outrider gets +0/+1 until end of turn.",
@@ -651,6 +663,7 @@
     {
       "name": "Kjeldoran War Cry",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Creatures you control get +X/+X until end of turn, where X is 1 plus the number of cards named Kjeldoran War Cry in all graveyards.",
@@ -704,6 +717,7 @@
     {
       "name": "Luminesce",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Prevent all damage that black sources and red sources would deal this turn.",
@@ -757,6 +771,7 @@
     {
       "name": "Martyr of Sands",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Cleric",
       "text": "{1}, Reveal X white cards from your hand, Sacrifice Martyr of Sands: You gain three times X life.",
@@ -810,6 +825,7 @@
     {
       "name": "Ronom Unicorn",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Unicorn",
       "text": "Sacrifice Ronom Unicorn: Destroy target enchantment.",
@@ -863,6 +879,7 @@
     {
       "name": "Squall Drifter",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Snow Creature - Elemental",
       "text": "Flying<br>{W}, {T}: Tap target creature.",
@@ -916,6 +933,7 @@
     {
       "name": "Sun's Bounty",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "You gain 4 life.<br>Recover {1}{W} (When a creature is put into your graveyard from the battlefield, you may pay {1}{W}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",
@@ -969,6 +987,7 @@
     {
       "name": "Sunscour",
       "manaCost": "{5}{W}{W}",
+      "sortedManaCost": "{5}{W}{W}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "You may exile two white cards from your hand rather than pay this spell's mana cost.<br>Destroy all creatures.",
@@ -1021,6 +1040,7 @@
     {
       "name": "Surging Sentinels",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Soldier",
       "text": "First strike<br>Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)",
@@ -1073,6 +1093,7 @@
     {
       "name": "Swift Maneuver",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Prevent the next 2 damage that would be dealt to any target this turn.<br>Draw a card at the beginning of the next turn's upkeep.",
@@ -1126,6 +1147,7 @@
     {
       "name": "Ursine Fylgja",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Spirit Bear",
       "text": "Ursine Fylgja enters the battlefield with four healing counters on it.<br>Remove a healing counter from Ursine Fylgja: Prevent the next 1 damage that would be dealt to Ursine Fylgja this turn.<br>{2}{W}: Put a healing counter on Ursine Fylgja.",
@@ -1178,6 +1200,7 @@
     {
       "name": "Wall of Shards",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Snow Creature - Wall",
       "text": "Defender, flying<br>Cumulative upkeep-An opponent gains 1 life. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)",
@@ -1230,6 +1253,7 @@
     {
       "name": "White Shield Crusader",
       "manaCost": "{W}{W}",
+      "sortedManaCost": "{W}{W}",
       "cmc": 2,
       "type": "Creature - Human Knight",
       "text": "Protection from black<br>{W}: White Shield Crusader gains flying until end of turn.<br>{W}{W}: White Shield Crusader gets +1/+0 until end of turn.",
@@ -1283,6 +1307,7 @@
     {
       "name": "Woolly Razorback",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Boar Beast",
       "text": "Woolly Razorback enters the battlefield with three ice counters on it.<br>As long as Woolly Razorback has an ice counter on it, prevent all combat damage it would deal and it has defender.<br>Whenever Woolly Razorback blocks, remove an ice counter from it.",
@@ -1335,9 +1360,10 @@
     {
       "name": "Adarkar Windform",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Snow Creature - Illusion",
-      "text": "Flying<br>{1}{S}: Target creature loses flying until end of turn. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "Flying<br>{1}{S}: Target creature loses flying until end of turn. ({S} can be paid with one mana from a snow source.)",
       "flavor": "Terisiare has only two kinds of weather: cold and weird.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -1388,9 +1414,10 @@
     {
       "name": "Arcum Dagsson",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Artificer",
-      "text": "{T}: Target artifact creature's controller sacrifices it. That player may search their library for a noncreature artifact card, put it onto the battlefield, then shuffle their library.",
+      "text": "{T}: Target artifact creature's controller sacrifices it. That player may search their library for a noncreature artifact card, put it onto the battlefield, then shuffle.",
       "flavor": "\"Artifice sundered the world. It shall not again wreak such sorrow.\"",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -1441,6 +1468,7 @@
     {
       "name": "Balduvian Frostwaker",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "{U}, {T}: Target snow land becomes a 2/2 blue Elemental creature with flying. It's still a land.",
@@ -1494,6 +1522,7 @@
     {
       "name": "Commandeer",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Instant",
       "text": "You may exile two blue cards from your hand rather than pay this spell's mana cost.<br>Gain control of target noncreature spell. You may choose new targets for it. (If that spell is an artifact, enchantment, or planeswalker, the permanent enters the battlefield under your control.)",
@@ -1546,6 +1575,7 @@
     {
       "name": "Controvert",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Counter target spell.<br>Recover {2}{U}{U} (When a creature is put into your graveyard from the battlefield, you may pay {2}{U}{U}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",
@@ -1598,9 +1628,10 @@
     {
       "name": "Counterbalance",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Enchantment",
-      "text": "Whenever an opponent casts a spell, you may reveal the top card of your library. If you do, counter that spell if it has the same converted mana cost as the revealed card.",
+      "text": "Whenever an opponent casts a spell, you may reveal the top card of your library. If you do, counter that spell if it has the same mana value as the revealed card.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
       "rarity": "U",
@@ -1650,6 +1681,7 @@
     {
       "name": "Drelnoch",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Yeti Mutant",
       "text": "Whenever Drelnoch becomes blocked, you may draw two cards.",
@@ -1703,6 +1735,7 @@
     {
       "name": "Flashfreeze",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target red or green spell.",
@@ -1756,9 +1789,10 @@
     {
       "name": "Frost Raptor",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Snow Creature - Bird",
-      "text": "Flying<br>{S}{S}: Frost Raptor gains shroud until end of turn. ({S} can be paid with one mana from a snow permanent. A creature with shroud can't be the target of spells or abilities.)",
+      "text": "Flying<br>{S}{S}: Frost Raptor gains shroud until end of turn. ({S} can be paid with one mana from a snow source. A creature with shroud can't be the target of spells or abilities.)",
       "flavor": "The Rimewind wizards strove to perpetuate a magical winter. Their unnatural snows birthed unnatural beasts.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -1809,6 +1843,7 @@
     {
       "name": "Frozen Solid",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature doesn't untap during its controller's untap step.<br>When enchanted creature is dealt damage, destroy it.",
@@ -1862,9 +1897,10 @@
     {
       "name": "Heidar, Rimewind Master",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Human Wizard",
-      "text": "{2}, {T}: Return target permanent to its owner's hand. Activate this ability only if you control four or more snow permanents.",
+      "text": "{2}, {T}: Return target permanent to its owner's hand. Activate only if you control four or more snow permanents.",
       "flavor": "\"The umber stain of the Thaw will be bleached away. Once again the world will be sharp, white, perfect!\"",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -1915,6 +1951,7 @@
     {
       "name": "Jokulmorder",
       "manaCost": "{4}{U}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}{U}",
       "cmc": 7,
       "type": "Creature - Leviathan",
       "text": "Trample<br>Jokulmorder enters the battlefield tapped.<br>When Jokulmorder enters the battlefield, sacrifice it unless you sacrifice five lands.<br>Jokulmorder doesn't untap during your untap step.<br>Whenever you play an Island, you may untap Jokulmorder.",
@@ -1967,6 +2004,7 @@
     {
       "name": "Krovikan Mist",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Illusion",
       "text": "Flying<br>Krovikan Mist's power and toughness are each equal to the number of Illusions on the battlefield.",
@@ -2020,6 +2058,7 @@
     {
       "name": "Krovikan Whispers",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Cumulative upkeep {U} or {B} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>You control enchanted creature.<br>When Krovikan Whispers is put into a graveyard from the battlefield, you lose 2 life for each age counter on it.",
@@ -2072,6 +2111,7 @@
     {
       "name": "Martyr of Frost",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Human Wizard",
       "text": "{2}, Reveal X blue cards from your hand, Sacrifice Martyr of Frost: Counter target spell unless its controller pays {X}.",
@@ -2125,6 +2165,7 @@
     {
       "name": "Perilous Research",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Draw two cards, then sacrifice a permanent.",
@@ -2178,6 +2219,7 @@
     {
       "name": "Rimefeather Owl",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Snow Creature - Bird",
       "text": "Flying<br>Rimefeather Owl's power and toughness are each equal to the number of snow permanents on the battlefield.<br>{1}{S}: Put an ice counter on target permanent.<br>Permanents with ice counters on them are snow.",
@@ -2230,6 +2272,7 @@
     {
       "name": "Rimewind Cryomancer",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Human Wizard",
       "text": "{1}, {T}: Counter target activated ability. Activate only if you control four or more snow permanents. (Mana abilities can't be targeted.)",
@@ -2283,6 +2326,7 @@
     {
       "name": "Rimewind Taskmage",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{1}, {T}: You may tap or untap target permanent. Activate only if you control four or more snow permanents.",
@@ -2336,6 +2380,7 @@
     {
       "name": "Ronom Serpent",
       "manaCost": "{5}{U}",
+      "sortedManaCost": "{5}{U}",
       "cmc": 6,
       "type": "Snow Creature - Serpent",
       "text": "Ronom Serpent can't attack unless defending player controls a snow land.<br>When you control no snow lands, sacrifice Ronom Serpent.",
@@ -2389,6 +2434,7 @@
     {
       "name": "Rune Snag",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {2} plus an additional {2} for each card named Rune Snag in each graveyard.",
@@ -2442,6 +2488,7 @@
     {
       "name": "Surging Aether",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)<br>Return target permanent to its owner's hand.",
@@ -2494,6 +2541,7 @@
     {
       "name": "Survivor of the Unseen",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Cumulative upkeep {2} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>{T}: Draw two cards, then put a card from your hand on top of your library.",
@@ -2546,6 +2594,7 @@
     {
       "name": "Thermal Flux",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Choose one -<br>• Target nonsnow permanent becomes snow until end of turn.<br>• Target snow permanent isn't snow until end of turn.<br>Draw a card at the beginning of the next turn's upkeep.",
@@ -2598,6 +2647,7 @@
     {
       "name": "Vexing Sphinx",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Sphinx",
       "text": "Flying<br>Cumulative upkeep-Discard a card. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>When Vexing Sphinx dies, draw a card for each age counter on it.",
@@ -2650,6 +2700,7 @@
     {
       "name": "Balduvian Fallen",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Zombie",
       "text": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>Whenever Balduvian Fallen's cumulative upkeep is paid, it gets +1/+0 until end of turn for each {B} or {R} spent this way.",
@@ -2702,6 +2753,7 @@
     {
       "name": "Chill to the Bone",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Destroy target nonsnow creature.",
@@ -2755,9 +2807,10 @@
     {
       "name": "Chilling Shade",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Snow Creature - Shade",
-      "text": "Flying<br>{S}: Chilling Shade gets +1/+1 until end of turn. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "Flying<br>{S}: Chilling Shade gets +1/+1 until end of turn. ({S} can be paid with one mana from a snow source.)",
       "flavor": "Rimewind necromancers caught travelers in mystical blizzards then trapped their spirits in the mist of their final frozen breaths.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -2808,6 +2861,7 @@
     {
       "name": "Deathmark",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Destroy target green or white creature.",
@@ -2861,6 +2915,7 @@
     {
       "name": "Disciple of Tevesh Szat",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Human Cleric",
       "text": "{T}: Target creature gets -1/-1 until end of turn.<br>{4}{B}{B}, {T}, Sacrifice Disciple of Tevesh Szat: Target creature gets -6/-6 until end of turn.",
@@ -2914,6 +2969,7 @@
     {
       "name": "Feast of Flesh",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Feast of Flesh deals X damage to target creature and you gain X life, where X is 1 plus the number of cards named Feast of Flesh in all graveyards.",
@@ -2967,6 +3023,7 @@
     {
       "name": "Garza's Assassin",
       "manaCost": "{B}{B}{B}",
+      "sortedManaCost": "{B}{B}{B}",
       "cmc": 3,
       "type": "Creature - Human Assassin",
       "text": "Sacrifice Garza's Assassin: Destroy target nonblack creature.<br>Recover-Pay half your life, rounded up. (When another creature is put into your graveyard from the battlefield, you may pay half your life, rounded up. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",
@@ -3019,6 +3076,7 @@
     {
       "name": "Grim Harvest",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return target creature card from your graveyard to your hand.<br>Recover {2}{B} (When a creature is put into your graveyard from the battlefield, you may pay {2}{B}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",
@@ -3071,6 +3129,7 @@
     {
       "name": "Gristle Grinner",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Zombie",
       "text": "Whenever a creature dies, Gristle Grinner gets +2/+2 until end of turn.",
@@ -3124,6 +3183,7 @@
     {
       "name": "Gutless Ghoul",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Snow Creature - Zombie",
       "text": "{1}, Sacrifice a creature: You gain 2 life.",
@@ -3177,6 +3237,7 @@
     {
       "name": "Haakon, Stromgald Scourge",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Legendary Creature - Zombie Knight",
       "text": "You may cast Haakon, Stromgald Scourge from your graveyard, but not from anywhere else.<br>As long as Haakon is on the battlefield, you may cast Knight spells from your graveyard.<br>When Haakon dies, you lose 2 life.",
@@ -3229,6 +3290,7 @@
     {
       "name": "Herald of Leshrac",
       "manaCost": "{6}{B}",
+      "sortedManaCost": "{6}{B}",
       "cmc": 7,
       "type": "Creature - Avatar",
       "text": "Flying<br>Cumulative upkeep-Gain control of a land you don't control. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>Herald of Leshrac gets +1/+1 for each land you control but don't own.<br>When Herald of Leshrac leaves the battlefield, each player gains control of each land they own that you control.",
@@ -3281,6 +3343,7 @@
     {
       "name": "Krovikan Rot",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target creature with power 2 or less.<br>Recover {1}{B}{B} (When a creature is put into your graveyard from the battlefield, you may pay {1}{B}{B}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",
@@ -3333,6 +3396,7 @@
     {
       "name": "Krovikan Scoundrel",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Rogue",
       "flavor": "The few surviving humans of Krov would have welcomed the return of winter and its sterilizing cold. They often peered northward, hoping that the snow's edge had reached their infested city-tomb.",
@@ -3385,6 +3449,7 @@
     {
       "name": "Martyr of Bones",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Human Wizard",
       "text": "{1}, Reveal X black cards from your hand, Sacrifice Martyr of Bones: Exile up to X target cards from a single graveyard.",
@@ -3438,6 +3503,7 @@
     {
       "name": "Phobian Phantasm",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Illusion",
       "text": "Flying; fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>Cumulative upkeep {B} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)",
@@ -3490,6 +3556,7 @@
     {
       "name": "Phyrexian Etchings",
       "manaCost": "{B}{B}{B}",
+      "sortedManaCost": "{B}{B}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Cumulative upkeep {B} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>At the beginning of your end step, draw a card for each age counter on Phyrexian Etchings.<br>When Phyrexian Etchings is put into a graveyard from the battlefield, you lose 2 life for each age counter on it.",
@@ -3542,9 +3609,10 @@
     {
       "name": "Rime Transfusion",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Snow Enchantment - Aura",
-      "text": "Enchant creature<br>Enchanted creature gets +2/+1 and has \"{S}: This creature can't be blocked this turn except by snow creatures.\" ({S} can be paid with one mana from a snow permanent.)",
+      "text": "Enchant creature<br>Enchanted creature gets +2/+1 and has \"{S}: This creature can't be blocked this turn except by snow creatures.\" ({S} can be paid with one mana from a snow source.)",
       "flavor": "The unfortunates so transformed hungered not for flesh, but for warmth.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -3595,9 +3663,10 @@
     {
       "name": "Rimebound Dead",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Snow Creature - Skeleton",
-      "text": "{S}: Regenerate Rimebound Dead. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "{S}: Regenerate Rimebound Dead. ({S} can be paid with one mana from a snow source.)",
       "flavor": "\"Tresserhorn is ours now. Dredge the lake and bring me all the bones you find. We'll build you a new army, the likes of which Terisiare has never seen.\"<br>-Heidar, Rimewind master, to Haakon",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -3648,6 +3717,7 @@
     {
       "name": "Soul Spike",
       "manaCost": "{5}{B}{B}",
+      "sortedManaCost": "{5}{B}{B}",
       "cmc": 7,
       "type": "Instant",
       "text": "You may exile two black cards from your hand rather than pay this spell's mana cost.<br>Soul Spike deals 4 damage to any target and you gain 4 life.",
@@ -3700,6 +3770,7 @@
     {
       "name": "Stromgald Crusader",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Creature - Zombie Knight",
       "text": "Protection from white<br>{B}: Stromgald Crusader gains flying until end of turn.<br>{B}{B}: Stromgald Crusader gets +1/+0 until end of turn.",
@@ -3753,6 +3824,7 @@
     {
       "name": "Surging Dementia",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)<br>Target player discards a card.",
@@ -3805,6 +3877,7 @@
     {
       "name": "Tresserhorn Skyknight",
       "manaCost": "{5}{B}{B}",
+      "sortedManaCost": "{5}{B}{B}",
       "cmc": 7,
       "type": "Creature - Zombie Knight",
       "text": "Flying<br>Prevent all damage that would be dealt to Tresserhorn Skyknight by creatures with first strike.",
@@ -3858,6 +3931,7 @@
     {
       "name": "Void Maw",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Creature - Horror",
       "text": "Trample<br>If another creature would die, exile it instead.<br>Put a card exiled with Void Maw into its owner's graveyard: Void Maw gets +2/+2 until end of turn.",
@@ -3910,9 +3984,10 @@
     {
       "name": "Zombie Musher",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Snow Creature - Zombie",
-      "text": "Snow landwalk (This creature can't be blocked as long as defending player controls a snow land.)<br>{S}: Regenerate Zombie Musher. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "Snow landwalk (This creature can't be blocked as long as defending player controls a snow land.)<br>{S}: Regenerate Zombie Musher. ({S} can be paid with one mana from a snow source.)",
       "flavor": "The World Spell thawed their icy graves, promising rest in soft, quiet earth at last. But Heidar called them to duty for a twisted cause.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -3963,6 +4038,7 @@
     {
       "name": "Balduvian Rage",
       "manaCost": "{X}{R}",
+      "sortedManaCost": "{X}{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target attacking creature gets +X/+0 until end of turn.<br>Draw a card at the beginning of the next turn's upkeep.",
@@ -4016,9 +4092,10 @@
     {
       "name": "Balduvian Warlord",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Human Barbarian",
-      "text": "{T}: Remove target blocking creature from combat. Creatures it was blocking that hadn't become blocked by another creature this combat become unblocked, then it blocks an attacking creature of your choice. Activate this ability only during the declare blockers step.",
+      "text": "{T}: Remove target blocking creature from combat. Creatures it was blocking that hadn't become blocked by another creature this combat become unblocked, then it blocks an attacking creature of your choice. Activate only during the declare blockers step.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
       "rarity": "U",
@@ -4068,6 +4145,7 @@
     {
       "name": "Braid of Fire",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Cumulative upkeep-Add {R}. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)",
@@ -4121,6 +4199,7 @@
     {
       "name": "Cryoclasm",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target Plains or Island. Cryoclasm deals 3 damage to that land's controller.",
@@ -4174,6 +4253,7 @@
     {
       "name": "Earthen Goo",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Ooze",
       "text": "Trample<br>Cumulative upkeep {R} or {G} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>Earthen Goo gets +1/+1 for each age counter on it.",
@@ -4226,6 +4306,7 @@
     {
       "name": "Fury of the Horde",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "You may exile two red cards from your hand rather than pay this spell's mana cost.<br>Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.",
@@ -4278,6 +4359,7 @@
     {
       "name": "Goblin Furrier",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Warrior",
       "text": "Prevent all damage that Goblin Furrier would deal to snow creatures.",
@@ -4331,6 +4413,7 @@
     {
       "name": "Goblin Rimerunner",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Snow Creature - Goblin Warrior",
       "text": "{T}: Target creature can't block this turn.<br>{S}: Goblin Rimerunner gains haste until end of turn. ({S} can be paid with one mana from a snow source.)",
@@ -4384,6 +4467,7 @@
     {
       "name": "Greater Stone Spirit",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Elemental Spirit",
       "text": "Greater Stone Spirit can't be blocked by creatures with flying.<br>{2}{R}: Until end of turn, target creature gets +0/+2 and gains \"{R}: This creature gets +1/+0 until end of turn.\"",
@@ -4437,6 +4521,7 @@
     {
       "name": "Icefall",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy target artifact or land.<br>Recover {R}{R} (When a creature is put into your graveyard from the battlefield, you may pay {R}{R}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",
@@ -4490,6 +4575,7 @@
     {
       "name": "Karplusan Minotaur",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Minotaur Warrior",
       "text": "Cumulative upkeep-Flip a coin. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>Whenever you win a coin flip, Karplusan Minotaur deals 1 damage to any target.<br>Whenever you lose a coin flip, Karplusan Minotaur deals 1 damage to any target of an opponent's choice.",
@@ -4542,6 +4628,7 @@
     {
       "name": "Karplusan Wolverine",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Snow Creature - Wolverine Beast",
       "text": "Whenever Karplusan Wolverine becomes blocked, you may have it deal 1 damage to any target.",
@@ -4595,6 +4682,7 @@
     {
       "name": "Lightning Serpent",
       "manaCost": "{X}{R}",
+      "sortedManaCost": "{X}{R}",
       "cmc": 1,
       "type": "Creature - Elemental Serpent",
       "text": "Trample, haste<br>Lightning Serpent enters the battlefield with X +1/+0 counters on it.<br>At the beginning of the end step, sacrifice Lightning Serpent.",
@@ -4648,6 +4736,7 @@
     {
       "name": "Lightning Storm",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Lightning Storm deals X damage to any target, where X is 3 plus the number of charge counters on Lightning Storm.<br>Discard a land card: Put two charge counters on Lightning Storm. You may choose a new target for it. Any player may activate this ability but only if Lightning Storm is on the stack.",
@@ -4700,6 +4789,7 @@
     {
       "name": "Lovisa Coldeyes",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Human",
       "text": "Each creature that's a Barbarian, a Warrior, or a Berserker gets +2/+2 and has haste.",
@@ -4753,6 +4843,7 @@
     {
       "name": "Magmatic Core",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>At the beginning of your end step, Magmatic Core deals X damage divided as you choose among any number of target creatures, where X is the number of age counters on it.",
@@ -4805,6 +4896,7 @@
     {
       "name": "Martyr of Ashes",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Human Shaman",
       "text": "{2}, Reveal X red cards from your hand, Sacrifice Martyr of Ashes: Martyr of Ashes deals X damage to each creature without flying.",
@@ -4858,6 +4950,7 @@
     {
       "name": "Ohran Yeti",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Snow Creature - Yeti",
       "text": "{2}{S}: Target snow creature gains first strike until end of turn. ({S} can be paid with one mana from a snow source.)",
@@ -4911,6 +5004,7 @@
     {
       "name": "Orcish Bloodpainter",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Orc Shaman",
       "text": "{T}, Sacrifice a creature: Orcish Bloodpainter deals 1 damage to any target.",
@@ -4964,9 +5058,10 @@
     {
       "name": "Rimescale Dragon",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Snow Creature - Dragon",
-      "text": "Flying<br>{2}{S}: Tap target creature and put an ice counter on it. ({S} can be paid with one mana from a snow permanent.)<br>Creatures with ice counters on them don't untap during their controllers' untap steps.",
+      "text": "Flying<br>{2}{S}: Tap target creature and put an ice counter on it. ({S} can be paid with one mana from a snow source.)<br>Creatures with ice counters on them don't untap during their controllers' untap steps.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
       "rarity": "R",
@@ -5016,6 +5111,7 @@
     {
       "name": "Rite of Flame",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Add {R}{R}, then add {R} for each card named Rite of Flame in each graveyard.",
@@ -5069,6 +5165,7 @@
     {
       "name": "Skred",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Skred deals damage to target creature equal to the number of snow permanents you control.",
@@ -5122,6 +5219,7 @@
     {
       "name": "Stalking Yeti",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Snow Creature - Yeti",
       "text": "When Stalking Yeti enters the battlefield, if it's on the battlefield, it deals damage equal to its power to target creature an opponent controls and that creature deals damage equal to its power to Stalking Yeti.<br>{2}{S}: Return Stalking Yeti to its owner's hand. Activate only as a sorcery. ({S} can be paid with one mana from a snow source.)",
@@ -5174,6 +5272,7 @@
     {
       "name": "Surging Flame",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)<br>Surging Flame deals 2 damage to any target.",
@@ -5226,9 +5325,10 @@
     {
       "name": "Thermopod",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Snow Creature - Slug",
-      "text": "{S}: Thermopod gains haste until end of turn. ({S} can be paid with one mana from a snow permanent.)<br>Sacrifice a creature: Add {R}.",
+      "text": "{S}: Thermopod gains haste until end of turn. ({S} can be paid with one mana from a snow source.)<br>Sacrifice a creature: Add {R}.",
       "flavor": "Slicking the ice with its heated underside, the thermopod skates at great speed to overtake its prey.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -5279,6 +5379,7 @@
     {
       "name": "Allosaurus Rider",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Elf Warrior",
       "text": "You may exile two green cards from your hand rather than pay this spell's mana cost.<br>Allosaurus Rider's power and toughness are each equal to 1 plus the number of lands you control.",
@@ -5331,6 +5432,7 @@
     {
       "name": "Arctic Nishoba",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Creature - Cat Warrior",
       "text": "Trample<br>Cumulative upkeep {G} or {W} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>When Arctic Nishoba dies, you gain 2 life for each age counter on it.",
@@ -5383,9 +5485,10 @@
     {
       "name": "Aurochs Herd",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Creature - Aurochs",
-      "text": "Trample<br>When Aurochs Herd enters the battlefield, you may search your library for an Aurochs card, reveal it, and put it into your hand. If you do, shuffle your library.<br>Whenever Aurochs Herd attacks, it gets +1/+0 until end of turn for each other attacking Aurochs.",
+      "text": "Trample<br>When Aurochs Herd enters the battlefield, you may search your library for an Aurochs card, reveal it, put it into your hand, then shuffle.<br>Whenever Aurochs Herd attacks, it gets +1/+0 until end of turn for each other attacking Aurochs.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
       "rarity": "C",
@@ -5435,9 +5538,10 @@
     {
       "name": "Boreal Centaur",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Snow Creature - Centaur Warrior",
-      "text": "{S}: Boreal Centaur gets +1/+1 until end of turn. Activate this ability only once each turn. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "{S}: Boreal Centaur gets +1/+1 until end of turn. Activate only once each turn. ({S} can be paid with one mana from a snow source.)",
       "flavor": "Those who used reindeer as beasts of burden knew to avoid the centaurs, who raged at the enslavement of their spirit-kin.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -5488,6 +5592,7 @@
     {
       "name": "Boreal Druid",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Snow Creature - Elf Druid",
       "text": "{T}: Add {C}.",
@@ -5541,6 +5646,7 @@
     {
       "name": "Brooding Saurian",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Lizard",
       "text": "At the beginning of each end step, each player gains control of all nontoken permanents they own.",
@@ -5594,6 +5700,7 @@
     {
       "name": "Bull Aurochs",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Aurochs",
       "text": "Trample<br>Whenever Bull Aurochs attacks, it gets +1/+0 until end of turn for each other attacking Aurochs.",
@@ -5647,6 +5754,7 @@
     {
       "name": "Freyalise's Radiance",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Cumulative upkeep {2} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>Snow permanents don't untap during their controllers' untap steps.",
@@ -5699,6 +5807,7 @@
     {
       "name": "Frostweb Spider",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Snow Creature - Spider",
       "text": "Reach (This creature can block creatures with flying.)<br>Whenever Frostweb Spider blocks a creature with flying, put a +1/+1 counter on Frostweb Spider at end of combat.",
@@ -5752,9 +5861,10 @@
     {
       "name": "Hibernation's End",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Enchantment",
-      "text": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>Whenever you pay Hibernation's End's cumulative upkeep, you may search your library for a creature card with converted mana cost equal to the number of age counters on Hibernation's End and put it onto the battlefield. If you do, shuffle your library.",
+      "text": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>Whenever you pay Hibernation's End's cumulative upkeep, you may search your library for a creature card with mana value equal to the number of age counters on Hibernation's End, put it onto the battlefield, then shuffle.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
       "rarity": "R",
@@ -5804,9 +5914,10 @@
     {
       "name": "Into the North",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
-      "text": "Search your library for a snow land card and put it onto the battlefield tapped. Then shuffle your library.",
+      "text": "Search your library for a snow land card, put it onto the battlefield tapped, then shuffle.",
       "flavor": "\"Our border lands fall under the grip of Heidar's second winter. Go forth and reclaim them for Yavimaya.\"<br>-Kaysa, elder druid of the Juniper Order",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -5857,6 +5968,7 @@
     {
       "name": "Karplusan Strider",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Yeti",
       "text": "Karplusan Strider can't be the target of blue or black spells.",
@@ -5910,6 +6022,7 @@
     {
       "name": "Martyr of Spores",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human Shaman",
       "text": "{1}, Reveal X green cards from your hand, Sacrifice Martyr of Spores: Target creature gets +X/+X until end of turn.",
@@ -5963,6 +6076,7 @@
     {
       "name": "Mystic Melting",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Instant",
       "text": "Destroy target artifact or enchantment.<br>Draw a card at the beginning of the next turn's upkeep.",
@@ -6016,6 +6130,7 @@
     {
       "name": "Ohran Viper",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Snow Creature - Snake",
       "text": "Whenever Ohran Viper deals combat damage to a creature, destroy that creature at end of combat.<br>Whenever Ohran Viper deals combat damage to a player, you may draw a card.",
@@ -6069,6 +6184,7 @@
     {
       "name": "Panglacial Wurm",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Wurm",
       "text": "Trample<br>While you're searching your library, you may cast Panglacial Wurm from your library.",
@@ -6122,6 +6238,7 @@
     {
       "name": "Resize",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +3/+3 until end of turn.<br>Recover {1}{G} (When a creature is put into your graveyard from the battlefield, you may pay {1}{G}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",
@@ -6174,9 +6291,10 @@
     {
       "name": "Rimehorn Aurochs",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Snow Creature - Aurochs",
-      "text": "Trample<br>Whenever Rimehorn Aurochs attacks, it gets +1/+0 until end of turn for each other attacking Aurochs.<br>{2}{S}: Target creature blocks target creature this turn if able. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "Trample<br>Whenever Rimehorn Aurochs attacks, it gets +1/+0 until end of turn for each other attacking Aurochs.<br>{2}{S}: Target creature blocks target creature this turn if able. ({S} can be paid with one mana from a snow source.)",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
       "rarity": "U",
@@ -6226,6 +6344,7 @@
     {
       "name": "Ronom Hulk",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Beast",
       "text": "Protection from snow<br>Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)",
@@ -6278,6 +6397,7 @@
     {
       "name": "Shape of the Wiitigo",
       "manaCost": "{3}{G}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}{G}",
       "cmc": 6,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When Shape of the Wiitigo enters the battlefield, put six +1/+1 counters on enchanted creature.<br>At the beginning of your upkeep, put a +1/+1 counter on enchanted creature if it attacked or blocked since your last upkeep. Otherwise, remove a +1/+1 counter from it.",
@@ -6330,6 +6450,7 @@
     {
       "name": "Sheltering Ancient",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Treefolk",
       "text": "Trample<br>Cumulative upkeep-Put a +1/+1 counter on a creature an opponent controls. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)",
@@ -6382,6 +6503,7 @@
     {
       "name": "Simian Brawler",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Ape Warrior",
       "text": "Discard a land card: Simian Brawler gets +1/+1 until end of turn.",
@@ -6435,6 +6557,7 @@
     {
       "name": "Sound the Call",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Create a 1/1 green Wolf creature token. It has \"This creature gets +1/+1 for each card named Sound the Call in each graveyard.\"",
@@ -6488,6 +6611,7 @@
     {
       "name": "Steam Spitter",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Spider",
       "text": "Reach (This creature can block creatures with flying.)<br>{R}: Steam Spitter gets +1/+0 until end of turn.",
@@ -6541,6 +6665,7 @@
     {
       "name": "Surging Might",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2.<br>Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast spells with the same name as this spell from among those cards without paying their mana costs. Put the rest on the bottom of your library.)",
@@ -6593,6 +6718,7 @@
     {
       "name": "Blizzard Specter",
       "manaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{U}{B}",
       "cmc": 4,
       "type": "Snow Creature - Specter",
       "text": "Flying<br>Whenever Blizzard Specter deals combat damage to a player, choose one -<br>• That player returns a permanent they control to its owner's hand.<br>• That player discards a card.",
@@ -6645,6 +6771,7 @@
     {
       "name": "Deepfire Elemental",
       "manaCost": "{4}{B}{R}",
+      "sortedManaCost": "{4}{B}{R}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "{X}{X}{1}: Destroy target artifact or creature with mana value X.",
@@ -6698,9 +6825,10 @@
     {
       "name": "Diamond Faerie",
       "manaCost": "{2}{G}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}{G}",
       "cmc": 5,
       "type": "Snow Creature - Faerie",
-      "text": "Flying<br>{1}{S}: Snow creatures you control get +1/+1 until end of turn. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "Flying<br>{1}{S}: Snow creatures you control get +1/+1 until end of turn. ({S} can be paid with one mana from a snow source.)",
       "flavor": "\"That such delicate creatures could become so powerful in the embrace of winter is yet more proof that I am right.\"<br>-Heidar, Rimewind master",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -6751,6 +6879,7 @@
     {
       "name": "Garza Zol, Plague Queen",
       "manaCost": "{4}{U}{B}{R}",
+      "sortedManaCost": "{4}{U}{B}{R}",
       "cmc": 7,
       "type": "Legendary Creature - Vampire Noble",
       "text": "Flying, haste<br>Whenever a creature dealt damage by Garza Zol, Plague Queen this turn dies, put a +1/+1 counter on Garza Zol.<br>Whenever Garza Zol deals combat damage to a player, you may draw a card.",
@@ -6803,6 +6932,7 @@
     {
       "name": "Juniper Order Ranger",
       "manaCost": "{3}{G}{W}",
+      "sortedManaCost": "{3}{W}{G}",
       "cmc": 5,
       "type": "Creature - Human Knight",
       "text": "Whenever another creature enters the battlefield under your control, put a +1/+1 counter on that creature and a +1/+1 counter on Juniper Order Ranger.",
@@ -6856,6 +6986,7 @@
     {
       "name": "Sek'Kuar, Deathkeeper",
       "manaCost": "{2}{B}{R}{G}",
+      "sortedManaCost": "{2}{B}{R}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Orc Shaman",
       "text": "Whenever another nontoken creature you control dies, create a 3/1 black and red Graveborn creature token with haste.",
@@ -6909,6 +7040,7 @@
     {
       "name": "Tamanoa",
       "manaCost": "{R}{G}{W}",
+      "sortedManaCost": "{W}{R}{G}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "Whenever a noncreature source you control deals damage, you gain that much life.",
@@ -6962,6 +7094,7 @@
     {
       "name": "Vanish into Memory",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Exile target creature. You draw cards equal to that creature's power. At the beginning of your next upkeep, return that card to the battlefield under its owner's control. If you do, discard cards equal to that creature's toughness.",
@@ -7015,6 +7148,7 @@
     {
       "name": "Wilderness Elemental",
       "manaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{R}{G}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Trample<br>Wilderness Elemental's power is equal to the number of nonbasic lands your opponents control.",
@@ -7068,9 +7202,10 @@
     {
       "name": "Zur the Enchanter",
       "manaCost": "{1}{W}{U}{B}",
+      "sortedManaCost": "{1}{W}{U}{B}",
       "cmc": 4,
       "type": "Legendary Creature - Human Wizard",
-      "text": "Flying<br>Whenever Zur the Enchanter attacks, you may search your library for an enchantment card with converted mana cost 3 or less and put it onto the battlefield. If you do, shuffle your library.",
+      "text": "Flying<br>Whenever Zur the Enchanter attacks, you may search your library for an enchantment card with mana value 3 or less, put it onto the battlefield, then shuffle.",
       "flavor": "Zur remained aloof from Terisiare's suffering, intent only on his own perfection.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -7121,6 +7256,7 @@
     {
       "name": "Coldsteel Heart",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Snow Artifact",
       "text": "Coldsteel Heart enters the battlefield tapped.<br>As Coldsteel Heart enters the battlefield, choose a color.<br>{T}: Add one mana of the chosen color.",
@@ -7174,6 +7310,7 @@
     {
       "name": "Jester's Scepter",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "When Jester's Scepter enters the battlefield, exile the top five cards of target player's library face down. You may look at those cards for as long as they remain exiled.<br>{2}, {T}, Put a card exiled with Jester's Scepter into its owner's graveyard: Counter target spell if it has the same name as that card.",
@@ -7226,6 +7363,7 @@
     {
       "name": "Mishra's Bauble",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "{T}, Sacrifice Mishra's Bauble: Look at the top card of target player's library. Draw a card at the beginning of the next turn's upkeep.",
@@ -7279,9 +7417,10 @@
     {
       "name": "Phyrexian Ironfoot",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Snow Artifact Creature - Construct",
-      "text": "Phyrexian Ironfoot doesn't untap during your untap step.<br>{1}{S}: Untap Phyrexian Ironfoot. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "Phyrexian Ironfoot doesn't untap during your untap step.<br>{1}{S}: Untap Phyrexian Ironfoot. ({S} can be paid with one mana from a snow source.)",
       "flavor": "It took the Rimewind cultists days to realize they had successfully activated the creature-it just wasn't interested in moving.",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
@@ -7332,6 +7471,7 @@
     {
       "name": "Phyrexian Snowcrusher",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Snow Artifact Creature - Juggernaut",
       "text": "Phyrexian Snowcrusher attacks each combat if able.<br>{1}{S}: Phyrexian Snowcrusher gets +1/+0 until end of turn. ({S} can be paid with one mana from a snow source.)",
@@ -7385,6 +7525,7 @@
     {
       "name": "Phyrexian Soulgorger",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Snow Artifact Creature - Construct",
       "text": "Cumulative upkeep-Sacrifice a creature. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)",
@@ -7438,6 +7579,7 @@
     {
       "name": "Thrumming Stone",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Legendary Artifact",
       "text": "Spells you cast have ripple 4. (Whenever you cast a spell, you may reveal the top four cards of your library. You may cast spells with the same name as that spell from among the revealed cards without paying their mana costs. Put the rest on the bottom of your library.)",
@@ -7750,7 +7892,7 @@
       "name": "Mouth of Ronom",
       "cmc": 0,
       "type": "Snow Land",
-      "text": "{T}: Add {C}.<br>{4}{S}, {T}, Sacrifice Mouth of Ronom: It deals 4 damage to target creature. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "{T}: Add {C}.<br>{4}{S}, {T}, Sacrifice Mouth of Ronom: It deals 4 damage to target creature. ({S} can be paid with one mana from a snow source.)",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
       "rarity": "U",
@@ -7801,7 +7943,7 @@
       "name": "Scrying Sheets",
       "cmc": 0,
       "type": "Snow Land",
-      "text": "{T}: Add {C}.<br>{1}{S}, {T}: Look at the top card of your library. If that card is snow, you may reveal it and put it into your hand. ({S} can be paid with one mana from a snow permanent.)",
+      "text": "{T}: Add {C}.<br>{1}{S}, {T}: Look at the top card of your library. If that card is snow, you may reveal it and put it into your hand. ({S} can be paid with one mana from a snow source.)",
       "expansion": "CS",
       "scryfallSetCode": "CSP",
       "rarity": "R",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "masterpiece",
-    "digest": "2e72e85b4e395386714ce553e7605909",
+    "digest": "5731df7597d8a818d80d7ef1175daa4a",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/WARMED_M.png"
     ]
@@ -19,6 +19,7 @@
     {
       "name": "Garruk, Apex Predator",
       "manaCost": "{5}{B}{G}",
+      "sortedManaCost": "{5}{B}{G}",
       "cmc": 7,
       "type": "Legendary Planeswalker - Garruk",
       "text": "[+1]: Destroy another target planeswalker.<br>[+1]: Create a 3/3 black Beast creature token with deathtouch.<br>[−3]: Destroy target creature. You gain life equal to its toughness.<br>[−8]: Target opponent gets an emblem with \"Whenever a creature attacks you, it gets +5/+5 and gains trample until end of turn.\"",
@@ -38,6 +39,7 @@
     {
       "name": "Gideon Blackblade",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Gideon",
       "text": "As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.<br>Prevent all damage that would be dealt to Gideon Blackblade during your turn.<br>[+1]: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.<br>[−6]: Exile target nonland permanent.",
@@ -57,6 +59,7 @@
     {
       "name": "Jace, the Mind Sculptor",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Jace",
       "text": "[+2]: Look at the top card of target player's library. You may put that card on the bottom of that player's library.<br>[0]: Draw three cards, then put two cards from your hand on top of your library in any order.<br>[−1]: Return target creature to its owner's hand.<br>[−12]: Exile all cards from target player's library, then that player shuffles their hand into their library.",
@@ -76,9 +79,10 @@
     {
       "name": "Nahiri, the Harbinger",
       "manaCost": "{2}{R}{W}",
+      "sortedManaCost": "{2}{W}{R}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Nahiri",
-      "text": "[+2]: You may discard a card. If you do, draw a card.<br>[−2]: Exile target enchantment, tapped artifact, or tapped creature.<br>[−8]: Search your library for an artifact or creature card, put it onto the battlefield, then shuffle your library. It gains haste. Return it to your hand at the beginning of the next end step.",
+      "text": "[+2]: You may discard a card. If you do, draw a card.<br>[−2]: Exile target enchantment, tapped artifact, or tapped creature.<br>[−8]: Search your library for an artifact or creature card, put it onto the battlefield, then shuffle. It gains haste. Return it to your hand at the beginning of the next end step.",
       "expansion": "WARMED",
       "scryfallSetCode": "MED",
       "rarity": "M",
@@ -95,6 +99,7 @@
     {
       "name": "Nicol Bolas, Dragon-God",
       "manaCost": "{U}{B}{B}{B}{R}",
+      "sortedManaCost": "{U}{B}{B}{B}{R}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Bolas",
       "text": "Nicol Bolas, Dragon-God has all loyalty abilities of all other planeswalkers on the battlefield.<br>[+1]: You draw a card. Each opponent exiles a card from their hand or a permanent they control.<br>[−3]: Destroy target creature or planeswalker.<br>[−8]: Each opponent who doesn't control a legendary creature or planeswalker loses the game.",
@@ -114,9 +119,10 @@
     {
       "name": "Sarkhan Unbroken",
       "manaCost": "{2}{G}{U}{R}",
+      "sortedManaCost": "{2}{U}{R}{G}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Sarkhan",
-      "text": "[+1]: Draw a card, then add one mana of any color.<br>[−2]: Create a 4/4 red Dragon creature token with flying.<br>[−8]: Search your library for any number of Dragon creature cards and put them onto the battlefield. Then shuffle your library.",
+      "text": "[+1]: Draw a card, then add one mana of any color.<br>[−2]: Create a 4/4 red Dragon creature token with flying.<br>[−8]: Search your library for any number of Dragon creature cards, put them onto the battlefield, then shuffle.",
       "expansion": "WARMED",
       "scryfallSetCode": "MED",
       "rarity": "M",
@@ -133,6 +139,7 @@
     {
       "name": "Tezzeret the Seeker",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Tezzeret",
       "text": "[+1]: Untap up to two target artifacts.<br>[−X]: Search your library for an artifact card with mana value X or less, put it onto the battlefield, then shuffle.<br>[−5]: Artifacts you control become artifact creatures with base power and toughness 5/5 until end of turn.",
@@ -152,9 +159,10 @@
     {
       "name": "Ugin, the Spirit Dragon",
       "manaCost": "{8}",
+      "sortedManaCost": "{8}",
       "cmc": 8,
       "type": "Legendary Planeswalker - Ugin",
-      "text": "[+2]: Ugin, the Spirit Dragon deals 3 damage to any target.<br>[−X]: Exile each permanent with converted mana cost X or less that's one or more colors.<br>[−10]: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.",
+      "text": "[+2]: Ugin, the Spirit Dragon deals 3 damage to any target.<br>[−X]: Exile each permanent with mana value X or less that's one or more colors.<br>[−10]: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.",
       "expansion": "WARMED",
       "scryfallSetCode": "MED",
       "rarity": "M",

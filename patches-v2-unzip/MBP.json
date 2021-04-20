@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "promo",
-    "digest": "6cf1f84171967f847db3cdc8c28a806e",
+    "digest": "ef6b472fb3a2dc0bf6a686ef2f0646b7",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MBP_R.png"
     ]
@@ -19,6 +19,7 @@
     {
       "name": "Helm of Kaldra",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Legendary Artifact - Equipment",
       "text": "Equipped creature has first strike, trample, and haste.<br>{1}: If you control Equipment named Helm of Kaldra, Sword of Kaldra, and Shield of Kaldra, create Kaldra, a legendary 4/4 colorless Avatar creature token. Attach those Equipment to it.<br>Equip {2}",
@@ -39,6 +40,7 @@
     {
       "name": "Ryusei, the Falling Star",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon Spirit",
       "text": "Flying<br>When Ryusei, the Falling Star dies, it deals 5 damage to each creature without flying.",
@@ -59,6 +61,7 @@
     {
       "name": "Shield of Kaldra",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Legendary Artifact - Equipment",
       "text": "Equipment named Sword of Kaldra, Shield of Kaldra, and Helm of Kaldra have indestructible.<br>Equipped creature has indestructible. (Damage and effects that say \"destroy\" don't destroy it.)<br>Equip {4}",
@@ -79,6 +82,7 @@
     {
       "name": "Sword of Kaldra",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Legendary Artifact - Equipment",
       "text": "Equipped creature gets +5/+5.<br>Whenever equipped creature deals damage to a creature, exile that creature. (Exile it only if it's still on the battlefield.)<br>Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)",
@@ -117,6 +121,7 @@
     {
       "name": "Nalathni Dragon",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Dragon",
       "text": "Flying; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)<br>{R}: Nalathni Dragon gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Nalathni Dragon at the beginning of the next end step.",
@@ -137,6 +142,7 @@
     {
       "name": "Sewers of Estark",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Choose target creature. If it's attacking, it can't be blocked this turn. If it's blocking, prevent all combat damage that would be dealt this combat by it and each creature it's blocking.",
@@ -156,6 +162,7 @@
     {
       "name": "Avatar of Hope",
       "manaCost": "{6}{W}{W}",
+      "sortedManaCost": "{6}{W}{W}",
       "cmc": 8,
       "type": "Creature - Avatar",
       "text": "If you have 3 or less life, this spell costs {6} less to cast.<br>Flying<br>Avatar of Hope can block any number of creatures.",
@@ -175,6 +182,7 @@
     {
       "name": "Windseeker Centaur",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Centaur",
       "text": "Vigilance",
@@ -195,6 +203,7 @@
     {
       "name": "Giant Badger",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Badger",
       "text": "Whenever Giant Badger blocks, it gets +2/+2 until end of turn.",
@@ -215,6 +224,7 @@
     {
       "name": "Mana Crypt",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "At the beginning of your upkeep, flip a coin. If you lose the flip, Mana Crypt deals 3 damage to you.<br>{T}: Add {C}{C}.",
@@ -234,6 +244,7 @@
     {
       "name": "False Prophet",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Human Cleric",
       "text": "When False Prophet dies, exile all creatures.",
@@ -254,9 +265,10 @@
     {
       "name": "Glory",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Incarnation",
-      "text": "Flying<br>{2}{W}: Choose a color. Creatures you control gain protection from the chosen color until end of turn. Activate this ability only if Glory is in your graveyard.",
+      "text": "Flying<br>{2}{W}: Choose a color. Creatures you control gain protection from the chosen color until end of turn. Activate only if Glory is in your graveyard.",
       "flavor": "\"תהילה נﬠלמה; תהילה הייתה בכל מקום.\"<br>-מגילת ההיווצרות והמקור",
       "expansion": "MBP",
       "scryfallSetCode": "PJUD",
@@ -279,6 +291,7 @@
     {
       "name": "Laquatus's Champion",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Creature - Nightmare Horror",
       "text": "When Laquatus's Champion enters the battlefield, target player loses 6 life.<br>When Laquatus's Champion leaves the battlefield, that player gains 6 life.<br>{B}: Regenerate Laquatus's Champion.",
@@ -304,9 +317,10 @@
     {
       "name": "Rathi Assassin",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Zombie Mercenary Assassin",
-      "text": "{1}{B}{B}, {T}: Destroy target tapped nonblack creature.<br>{3}, {T}: Search your library for a Mercenary permanent card with converted mana cost 3 or less and put it onto the battlefield. Then shuffle your library.",
+      "text": "{1}{B}{B}, {T}: Destroy target tapped nonblack creature.<br>{3}, {T}: Search your library for a Mercenary permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.",
       "expansion": "MBP",
       "scryfallSetCode": "PNEM",
       "rarity": "R",
@@ -323,6 +337,7 @@
     {
       "name": "Revenant",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Spirit",
       "text": "Flying<br>Revenant's power and toughness are each equal to the number of creature cards in your graveyard.",
@@ -343,6 +358,7 @@
     {
       "name": "Soul Collector",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Vampire",
       "text": "Flying<br>Whenever a creature dealt damage by Soul Collector this turn dies, return that card to the battlefield under your control.<br>Morph {B}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -363,6 +379,7 @@
     {
       "name": "Monstrous Hound",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Dog",
       "text": "Monstrous Hound can't attack unless you control more lands than defending player.<br>Monstrous Hound can't block unless you control more lands than attacking player.",
@@ -383,6 +400,7 @@
     {
       "name": "Overtaker",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Spellshaper",
       "text": "{3}{U}, {T}, Discard a card: Untap target creature and gain control of it until end of turn. That creature gains haste until end of turn.",
@@ -403,6 +421,7 @@
     {
       "name": "Fungal Shambler",
       "manaCost": "{4}{B}{G}{U}",
+      "sortedManaCost": "{4}{U}{B}{G}",
       "cmc": 7,
       "type": "Creature - Fungus Beast",
       "text": "Trample<br>Whenever Fungal Shambler deals damage to an opponent, you draw a card and that opponent discards a card.",
@@ -427,6 +446,7 @@
     {
       "name": "Questing Phelddagrif",
       "manaCost": "{1}{G}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}{G}",
       "cmc": 4,
       "type": "Creature - Phelddagrif",
       "text": "{G}: Questing Phelddagrif gets +1/+1 until end of turn. Target opponent creates a 1/1 green Hippo creature token.<br>{W}: Questing Phelddagrif gains protection from black and from red until end of turn. Target opponent gains 2 life.<br>{U}: Questing Phelddagrif gains flying until end of turn. Target opponent may draw a card.",
@@ -451,6 +471,7 @@
     {
       "name": "Beast of Burden",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Golem",
       "text": "Beast of Burden's power and toughness are each equal to the number of creatures on the battlefield.",
@@ -471,6 +492,7 @@
     {
       "name": "Feral Throwback",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Beast",
       "text": "Amplify 2 (As this creature enters the battlefield, put two +1/+1 counters on it for each Beast card you reveal in your hand.)<br>Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)",
@@ -491,6 +513,7 @@
     {
       "name": "Silent Specter",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Creature - Specter",
       "text": "Flying<br>Whenever Silent Specter deals combat damage to a player, that player discards two cards.<br>Morph {3}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -511,6 +534,7 @@
     {
       "name": "Lightning Dragon",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Dragon",
       "text": "Flying<br>Echo {2}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>{R}: Lightning Dragon gets +1/+0 until end of turn.",
@@ -530,6 +554,7 @@
     {
       "name": "Dirtcowl Wurm",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Wurm",
       "text": "Whenever an opponent plays a land, put a +1/+1 counter on Dirtcowl Wurm.",
@@ -550,6 +575,7 @@
     {
       "name": "Raging Kavu",
       "manaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{R}{G}",
       "cmc": 3,
       "type": "Creature - Kavu",
       "text": "Flash<br>Haste",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "8519a2b1db8c0fec5b36e144ae3ec26e",
+    "digest": "71b9ec5a4c90706f162ef4ad25863d19",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SOK_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SOK_R.png",
@@ -21,6 +21,7 @@
     {
       "name": "Aether Shockwave",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Choose one -<br>• Tap all Spirits.<br>• Tap all non-Spirit creatures.",
@@ -70,6 +71,7 @@
     {
       "name": "Araba Mothrider",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Samurai",
       "text": "Flying<br>Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)",
@@ -119,6 +121,7 @@
     {
       "name": "Celestial Kirin",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Kirin Spirit",
       "text": "Flying<br>Whenever you cast a Spirit or Arcane spell, destroy all permanents with that spell's mana value.",
@@ -168,6 +171,7 @@
     {
       "name": "Charge Across the Araba",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Instant - Arcane",
       "text": "Sweep - Return any number of Plains you control to their owner's hand. Creatures you control get +1/+1 until end of turn for each Plains returned this way.",
@@ -216,6 +220,7 @@
     {
       "name": "Cowed by Wisdom",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't attack or block unless its controller pays {1} for each card in your hand.",
@@ -264,6 +269,7 @@
     {
       "name": "Curtain of Light",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Cast this spell only during combat after blockers are declared.<br>Target unblocked attacking creature becomes blocked. (This spell works on creatures that can't be blocked.)<br>Draw a card.",
@@ -313,6 +319,7 @@
     {
       "name": "Descendant of Kiyomaro",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Human Soldier",
       "text": "As long as you have more cards in hand than each opponent, Descendant of Kiyomaro gets +1/+2 and has \"Whenever this creature deals combat damage, you gain 3 life.\"",
@@ -362,6 +369,7 @@
     {
       "name": "Eiganjo Free-Riders",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Soldier",
       "text": "Flying<br>At the beginning of your upkeep, return a white creature you control to its owner's hand.",
@@ -411,6 +419,7 @@
     {
       "name": "Enduring Ideal",
       "manaCost": "{5}{W}{W}",
+      "sortedManaCost": "{5}{W}{W}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Search your library for an enchantment card, put it onto the battlefield, then shuffle.<br>Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability.)",
@@ -459,6 +468,7 @@
     {
       "name": "Ghost-Lit Redeemer",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Spirit",
       "text": "{W}, {T}: You gain 2 life.<br>Channel - {1}{W}, Discard Ghost-Lit Redeemer: You gain 4 life.",
@@ -507,6 +517,7 @@
     {
       "name": "Hail of Arrows",
       "manaCost": "{X}{W}",
+      "sortedManaCost": "{X}{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Hail of Arrows deals X damage divided as you choose among any number of target attacking creatures.",
@@ -556,6 +567,7 @@
     {
       "name": "Hand of Honor",
       "manaCost": "{W}{W}",
+      "sortedManaCost": "{W}{W}",
       "cmc": 2,
       "type": "Creature - Human Samurai",
       "text": "Protection from black<br>Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)",
@@ -605,6 +617,7 @@
     {
       "name": "Inner-Chamber Guard",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Samurai",
       "text": "Bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)",
@@ -654,6 +667,7 @@
     {
       "name": "Kataki, War's Wage",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Legendary Creature - Spirit",
       "text": "All artifacts have \"At the beginning of your upkeep, sacrifice this artifact unless you pay {1}.\"",
@@ -703,9 +717,10 @@
     {
       "name": "Kitsune Bonesetter",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Fox Cleric",
-      "text": "{T}: Prevent the next 3 damage that would be dealt to target creature this turn. Activate this ability only if you have more cards in hand than each opponent.",
+      "text": "{T}: Prevent the next 3 damage that would be dealt to target creature this turn. Activate only if you have more cards in hand than each opponent.",
       "flavor": "\"He kept generations whole before the Kami War, and now he turns his century of wisdom to healing the latest casualties.\"<br>-Eight-and-a-Half-Tails",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
@@ -752,6 +767,7 @@
     {
       "name": "Kitsune Dawnblade",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Fox Samurai",
       "text": "Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)<br>When Kitsune Dawnblade enters the battlefield, you may tap target creature.",
@@ -800,6 +816,7 @@
     {
       "name": "Kitsune Loreweaver",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Fox Cleric",
       "text": "{1}{W}: Kitsune Loreweaver gets +0/+X until end of turn, where X is the number of cards in your hand.",
@@ -849,6 +866,7 @@
     {
       "name": "Kiyomaro, First to Stand",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Spirit",
       "text": "Kiyomaro, First to Stand's power and toughness are each equal to the number of cards in your hand.<br>As long as you have four or more cards in hand, Kiyomaro has vigilance.<br>Whenever Kiyomaro deals damage, if you have seven or more cards in hand, you gain 7 life.",
@@ -897,6 +915,7 @@
     {
       "name": "Michiko Konda, Truth Seeker",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Advisor",
       "text": "Whenever a source an opponent controls deals damage to you, that player sacrifices a permanent.",
@@ -946,6 +965,7 @@
     {
       "name": "Moonwing Moth",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Insect",
       "text": "Flying<br>{W}: Moonwing Moth gets +0/+1 until end of turn.",
@@ -995,6 +1015,7 @@
     {
       "name": "Nikko-Onna",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "When Nikko-Onna enters the battlefield, destroy target enchantment.<br>Whenever you cast a Spirit or Arcane spell, you may return Nikko-Onna to its owner's hand.",
@@ -1043,6 +1064,7 @@
     {
       "name": "Plow Through Reito",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant - Arcane",
       "text": "Sweep - Return any number of Plains you control to their owner's hand. Target creature gets +1/+1 until end of turn for each Plains returned this way.",
@@ -1092,6 +1114,7 @@
     {
       "name": "Presence of the Wise",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "You gain 2 life for each card in your hand.",
@@ -1141,6 +1164,7 @@
     {
       "name": "Promise of Bunrei",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When a creature you control dies, sacrifice Promise of Bunrei. If you do, create four 1/1 colorless Spirit creature tokens.",
@@ -1190,6 +1214,7 @@
     {
       "name": "Pure Intentions",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant - Arcane",
       "text": "Whenever a spell or ability an opponent controls causes you to discard cards this turn, return those cards from your graveyard to your hand.<br>When a spell or ability an opponent controls causes you to discard Pure Intentions, return Pure Intentions from your graveyard to your hand at the beginning of the next end step.",
@@ -1238,6 +1263,7 @@
     {
       "name": "Reverence",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Creatures with power 2 or less can't attack you.",
@@ -1287,6 +1313,7 @@
     {
       "name": "Rune-Tail, Kitsune Ascendant",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Fox Monk",
       "text": "When you have 30 or more life, flip Rune-Tail, Kitsune Ascendant.",
@@ -1324,6 +1351,7 @@
     {
       "name": "Shinen of Stars' Light",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "First strike<br>Channel - {1}{W}, Discard Shinen of Stars' Light: Target creature gains first strike until end of turn.",
@@ -1372,6 +1400,7 @@
     {
       "name": "Spiritual Visit",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant - Arcane",
       "text": "Create a 1/1 colorless Spirit creature token.<br>Splice onto Arcane {W} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
@@ -1420,9 +1449,10 @@
     {
       "name": "Torii Watchward",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Spirit",
-      "text": "Vigilance (Attacking doesn't cause this creature to tap.)<br>Soulshift 4 (When this creature dies, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)",
+      "text": "Vigilance (Attacking doesn't cause this creature to tap.)<br>Soulshift 4 (When this creature dies, you may return target Spirit card with mana value 4 or less from your graveyard to your hand.)",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
       "rarity": "C",
@@ -1468,9 +1498,10 @@
     {
       "name": "Cloudhoof Kirin",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Kirin Spirit",
-      "text": "Flying<br>Whenever you cast a Spirit or Arcane spell, you may have target player mill X cards, where X is that spell's converted mana cost.",
+      "text": "Flying<br>Whenever you cast a Spirit or Arcane spell, you may have target player mill X cards, where X is that spell's mana value.",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
       "rarity": "R",
@@ -1516,6 +1547,7 @@
     {
       "name": "Cut the Earthly Bond",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant - Arcane",
       "text": "Return target enchanted permanent to its owner's hand.",
@@ -1565,6 +1597,7 @@
     {
       "name": "Descendant of Soramaro",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Human Wizard",
       "text": "{1}{U}: Look at the top X cards of your library, where X is the number of cards in your hand, then put them back in any order.",
@@ -1614,6 +1647,7 @@
     {
       "name": "Dreamcatcher",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Spirit",
       "text": "Whenever you cast a Spirit or Arcane spell, you may sacrifice Dreamcatcher. If you do, draw a card.",
@@ -1663,6 +1697,7 @@
     {
       "name": "Erayo, Soratami Ascendant",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Legendary Creature - Moonfolk Monk",
       "text": "Flying<br>Whenever the fourth spell of a turn is cast, flip Erayo, Soratami Ascendant.",
@@ -1700,9 +1735,10 @@
     {
       "name": "Eternal Dominion",
       "manaCost": "{7}{U}{U}{U}",
+      "sortedManaCost": "{7}{U}{U}{U}",
       "cmc": 10,
       "type": "Sorcery",
-      "text": "Search target opponent's library for an artifact, creature, enchantment, or land card. Put that card onto the battlefield under your control. Then that player shuffles their library.<br>Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)",
+      "text": "Search target opponent's library for an artifact, creature, enchantment, or land card. Put that card onto the battlefield under your control. Then that player shuffles.<br>Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
       "rarity": "R",
@@ -1795,6 +1831,7 @@
     {
       "name": "Freed from the Real",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>{U}: Tap enchanted creature.<br>{U}: Untap enchanted creature.",
@@ -1844,6 +1881,7 @@
     {
       "name": "Ghost-Lit Warder",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Spirit",
       "text": "{3}{U}, {T}: Counter target spell unless its controller pays {2}.<br>Channel - {3}{U}, Discard Ghost-Lit Warder: Counter target spell unless its controller pays {4}.",
@@ -1892,6 +1930,7 @@
     {
       "name": "Ideas Unbound",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Sorcery - Arcane",
       "text": "Draw three cards. Discard three cards at the beginning of the next end step.",
@@ -1941,9 +1980,10 @@
     {
       "name": "Kaho, Minamo Historian",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Wizard",
-      "text": "When Kaho, Minamo Historian enters the battlefield, search your library for up to three instant cards and exile them. Then shuffle your library.<br>{X}, {T}: You may cast a spell with converted mana cost X from among cards exiled with Kaho without paying its mana cost.",
+      "text": "When Kaho, Minamo Historian enters the battlefield, search your library for up to three instant cards, exile them, then shuffle.<br>{X}, {T}: You may cast a spell with mana value X from among cards exiled with Kaho without paying its mana cost.",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
       "rarity": "R",
@@ -1989,6 +2029,7 @@
     {
       "name": "Kami of the Crescent Moon",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Legendary Creature - Spirit",
       "text": "At the beginning of each player's draw step, that player draws an additional card.",
@@ -2038,6 +2079,7 @@
     {
       "name": "Kiri-Onna",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Spirit",
       "text": "When Kiri-Onna enters the battlefield, return target creature to its owner's hand.<br>Whenever you cast a Spirit or Arcane spell, you may return Kiri-Onna to its owner's hand.",
@@ -2086,6 +2128,7 @@
     {
       "name": "Meishin, the Mind Cage",
       "manaCost": "{4}{U}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}{U}",
       "cmc": 7,
       "type": "Legendary Enchantment",
       "text": "All creatures get -X/-0, where X is the number of cards in your hand.",
@@ -2135,6 +2178,7 @@
     {
       "name": "Minamo Scrollkeeper",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "Defender<br>Your maximum hand size is increased by one.",
@@ -2184,6 +2228,7 @@
     {
       "name": "Moonbow Illusionist",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Moonfolk Wizard",
       "text": "Flying<br>{2}, Return a land you control to its owner's hand: Target land becomes the basic land type of your choice until end of turn.",
@@ -2232,6 +2277,7 @@
     {
       "name": "Murmurs from Beyond",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant - Arcane",
       "text": "Reveal the top three cards of your library. An opponent chooses one of them. Put that card into your graveyard and the rest into your hand.",
@@ -2281,6 +2327,7 @@
     {
       "name": "Oboro Breezecaller",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Moonfolk Wizard",
       "text": "Flying<br>{2}, Return a land you control to its owner's hand: Untap target land.",
@@ -2330,6 +2377,7 @@
     {
       "name": "Oboro Envoy",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Moonfolk Wizard",
       "text": "Flying<br>{2}, Return a land you control to its owner's hand: Target creature gets -X/-0 until end of turn, where X is the number of cards in your hand.",
@@ -2378,6 +2426,7 @@
     {
       "name": "Oppressive Will",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {1} for each card in your hand.",
@@ -2427,9 +2476,10 @@
     {
       "name": "Overwhelming Intellect",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Instant",
-      "text": "Counter target creature spell. Draw cards equal to that spell's converted mana cost.",
+      "text": "Counter target creature spell. Draw cards equal to that spell's mana value.",
       "flavor": "\"My brain hurts.\"",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
@@ -2476,6 +2526,7 @@
     {
       "name": "Rushing-Tide Zubera",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Zubera Spirit",
       "text": "When Rushing-Tide Zubera dies, if 4 or more damage was dealt to it this turn, draw three cards.",
@@ -2525,6 +2576,7 @@
     {
       "name": "Sakashima the Impostor",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Rogue",
       "text": "You may have Sakashima the Impostor enter the battlefield as a copy of any creature on the battlefield, except its name is Sakashima the Impostor, it's legendary in addition to its other types, and it has \"{2}{U}{U}: Return this creature to its owner's hand at the beginning of the next end step.\"",
@@ -2573,6 +2625,7 @@
     {
       "name": "Secretkeeper",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Spirit",
       "text": "As long as you have more cards in hand than each opponent, Secretkeeper gets +2/+2 and has flying.",
@@ -2622,6 +2675,7 @@
     {
       "name": "Shape Stealer",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Creature - Shapeshifter Spirit",
       "text": "Whenever Shape Stealer blocks or becomes blocked by a creature, change Shape Stealer's base power and toughness to that creature's power and toughness until end of turn.",
@@ -2671,6 +2725,7 @@
     {
       "name": "Shifting Borders",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Instant - Arcane",
       "text": "Exchange control of two target lands.<br>Splice onto Arcane {3}{U} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
@@ -2719,6 +2774,7 @@
     {
       "name": "Shinen of Flight's Wings",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Spirit",
       "text": "Flying<br>Channel - {U}, Discard Shinen of Flight's Wings: Target creature gains flying until end of turn.",
@@ -2767,6 +2823,7 @@
     {
       "name": "Soramaro, First to Dream",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Spirit",
       "text": "Flying<br>Soramaro, First to Dream's power and toughness are each equal to the number of cards in your hand.<br>{4}, Return a land you control to its owner's hand: Draw a card.",
@@ -2815,6 +2872,7 @@
     {
       "name": "Trusted Advisor",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Creature - Human Advisor",
       "text": "Your maximum hand size is increased by two.<br>At the beginning of your upkeep, return a blue creature you control to its owner's hand.",
@@ -2864,6 +2922,7 @@
     {
       "name": "Twincast",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Copy target instant or sorcery spell. You may choose new targets for the copy.",
@@ -2913,6 +2972,7 @@
     {
       "name": "Akuta, Born of Ash",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Legendary Creature - Spirit",
       "text": "Haste<br>At the beginning of your upkeep, if you have more cards in hand than each opponent, you may sacrifice a Swamp. If you do, return Akuta, Born of Ash from your graveyard to the battlefield.",
@@ -2961,6 +3021,7 @@
     {
       "name": "Choice of Damnations",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Sorcery - Arcane",
       "text": "Target opponent chooses a number. You may have that player lose that much life. If you don't, that player sacrifices all but that many permanents.",
@@ -3010,6 +3071,7 @@
     {
       "name": "Death Denied",
       "manaCost": "{X}{B}{B}",
+      "sortedManaCost": "{X}{B}{B}",
       "cmc": 2,
       "type": "Instant - Arcane",
       "text": "Return X target creature cards from your graveyard to your hand.",
@@ -3059,6 +3121,7 @@
     {
       "name": "Death of a Thousand Stings",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Instant - Arcane",
       "text": "Target player loses 1 life and you gain 1 life.<br>At the beginning of your upkeep, if you have more cards in hand than each opponent, you may return Death of a Thousand Stings from your graveyard to your hand.",
@@ -3107,9 +3170,10 @@
     {
       "name": "Deathknell Kami",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Spirit",
-      "text": "Flying<br>{2}: Deathknell Kami gets +1/+1 until end of turn. Sacrifice it at the beginning of the next end step.<br>Soulshift 1 (When this creature dies, you may return target Spirit card with converted mana cost 1 or less from your graveyard to your hand.)",
+      "text": "Flying<br>{2}: Deathknell Kami gets +1/+1 until end of turn. Sacrifice it at the beginning of the next end step.<br>Soulshift 1 (When this creature dies, you may return target Spirit card with mana value 1 or less from your graveyard to your hand.)",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
       "rarity": "C",
@@ -3155,6 +3219,7 @@
     {
       "name": "Deathmask Nezumi",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Rat Shaman",
       "text": "As long as you have seven or more cards in hand, Deathmask Nezumi gets +2/+1 and has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
@@ -3204,9 +3269,10 @@
     {
       "name": "Exile into Darkness",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Sorcery",
-      "text": "Target player sacrifices a creature with converted mana cost 3 or less.<br>At the beginning of your upkeep, if you have more cards in hand than each opponent, you may return Exile into Darkness from your graveyard to your hand.",
+      "text": "Target player sacrifices a creature with mana value 3 or less.<br>At the beginning of your upkeep, if you have more cards in hand than each opponent, you may return Exile into Darkness from your graveyard to your hand.",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
       "rarity": "U",
@@ -3252,6 +3318,7 @@
     {
       "name": "Footsteps of the Goryo",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery - Arcane",
       "text": "Return target creature card from your graveyard to the battlefield. Sacrifice that creature at the beginning of the next end step.",
@@ -3301,6 +3368,7 @@
     {
       "name": "Ghost-Lit Stalker",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Spirit",
       "text": "{4}{B}, {T}: Target player discards two cards. Activate only as a sorcery.<br>Channel - {5}{B}{B}, Discard Ghost-Lit Stalker: Target player discards four cards. Activate only as a sorcery.",
@@ -3349,6 +3417,7 @@
     {
       "name": "Gnat Miser",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Rat Shaman",
       "text": "Each opponent's maximum hand size is reduced by one.",
@@ -3398,6 +3467,7 @@
     {
       "name": "Hand of Cruelty",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Creature - Human Samurai",
       "text": "Protection from white<br>Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)",
@@ -3447,9 +3517,10 @@
     {
       "name": "Infernal Kirin",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Legendary Creature - Kirin Spirit",
-      "text": "Flying<br>Whenever you cast a Spirit or Arcane spell, target player reveals their hand and discards all cards with that spell's converted mana cost.",
+      "text": "Flying<br>Whenever you cast a Spirit or Arcane spell, target player reveals their hand and discards all cards with that spell's mana value.",
       "flavor": "The kirin bellowed-an echoing, twisted parody of its once-inspirational call.",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
@@ -3496,6 +3567,7 @@
     {
       "name": "Kagemaro, First to Suffer",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Legendary Creature - Demon Spirit",
       "text": "Kagemaro, First to Suffer's power and toughness are each equal to the number of cards in your hand.<br>{B}, Sacrifice Kagemaro: All creatures get -X/-X until end of turn, where X is the number of cards in your hand.",
@@ -3544,6 +3616,7 @@
     {
       "name": "Kagemaro's Clutch",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets -X/-X, where X is the number of cards in your hand.",
@@ -3593,6 +3666,7 @@
     {
       "name": "Kami of Empty Graves",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Spirit",
       "text": "Soulshift 3 (When this creature dies, you may return target Spirit card with mana value 3 or less from your graveyard to your hand.)",
@@ -3641,6 +3715,7 @@
     {
       "name": "Kemuri-Onna",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Spirit",
       "text": "When Kemuri-Onna enters the battlefield, target player discards a card.<br>Whenever you cast a Spirit or Arcane spell, you may return Kemuri-Onna to its owner's hand.",
@@ -3689,6 +3764,7 @@
     {
       "name": "Kiku's Shadow",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target creature deals damage to itself equal to its power.",
@@ -3738,6 +3814,7 @@
     {
       "name": "Kuon, Ogre Ascendant",
       "manaCost": "{B}{B}{B}",
+      "sortedManaCost": "{B}{B}{B}",
       "cmc": 3,
       "type": "Legendary Creature - Ogre Monk",
       "text": "At the beginning of the end step, if three or more creatures died this turn, flip Kuon, Ogre Ascendant.",
@@ -3775,6 +3852,7 @@
     {
       "name": "Kuro's Taken",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Rat Samurai",
       "text": "Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)<br>{1}{B}: Regenerate Kuro's Taken.",
@@ -3824,6 +3902,7 @@
     {
       "name": "Locust Miser",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Rat Shaman",
       "text": "Each opponent's maximum hand size is reduced by two.",
@@ -3873,6 +3952,7 @@
     {
       "name": "Maga, Traitor to Mortals",
       "manaCost": "{X}{B}{B}{B}",
+      "sortedManaCost": "{X}{B}{B}{B}",
       "cmc": 3,
       "type": "Legendary Creature - Human Wizard",
       "text": "Maga, Traitor to Mortals enters the battlefield with X +1/+1 counters on it.<br>When Maga enters the battlefield, target player loses life equal to the number of +1/+1 counters on it.",
@@ -3921,6 +4001,7 @@
     {
       "name": "Measure of Wickedness",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "At the beginning of your end step, sacrifice Measure of Wickedness and you lose 8 life.<br>Whenever another card is put into your graveyard from anywhere, target opponent gains control of Measure of Wickedness.",
@@ -3969,9 +4050,10 @@
     {
       "name": "Neverending Torment",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Search target player's library for X cards, where X is the number of cards in your hand, and exile them. Then that player shuffles their library.<br>Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)",
+      "text": "Search target player's library for X cards, where X is the number of cards in your hand, and exile them. Then that player shuffles.<br>Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
       "rarity": "R",
@@ -4017,6 +4099,7 @@
     {
       "name": "One with Nothing",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Discard your hand.",
@@ -4066,6 +4149,7 @@
     {
       "name": "Pain's Reward",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Each player may bid life. You start the bidding with a bid of any number. In turn order, each player may top the high bid. The bidding ends if the high bid stands. The high bidder loses life equal to the high bid and draws four cards.",
@@ -4114,6 +4198,7 @@
     {
       "name": "Raving Oni-Slave",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Ogre Warrior",
       "text": "When Raving Oni-Slave enters the battlefield or leaves the battlefield, you lose 3 life if you don't control a Demon.",
@@ -4162,6 +4247,7 @@
     {
       "name": "Razorjaw Oni",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Demon Spirit",
       "text": "Black creatures can't block.",
@@ -4211,6 +4297,7 @@
     {
       "name": "Shinen of Fear's Chill",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Spirit",
       "text": "Shinen of Fear's Chill can't block.<br>Channel - {1}{B}, Discard Shinen of Fear's Chill: Target creature can't block this turn.",
@@ -4259,6 +4346,7 @@
     {
       "name": "Sink into Takenuma",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Sorcery - Arcane",
       "text": "Sweep - Return any number of Swamps you control to their owner's hand. Target player discards a card for each Swamp returned this way.",
@@ -4307,6 +4395,7 @@
     {
       "name": "Skull Collector",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Ogre Warrior",
       "text": "At the beginning of your upkeep, return a black creature you control to its owner's hand.<br>{1}{B}: Regenerate Skull Collector.",
@@ -4356,6 +4445,7 @@
     {
       "name": "Adamaro, First to Desire",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Spirit",
       "text": "Adamaro, First to Desire's power and toughness are each equal to the number of cards in the hand of the opponent with the most cards in hand.",
@@ -4405,6 +4495,7 @@
     {
       "name": "Akki Drillmaster",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Shaman",
       "text": "{T}: Target creature gains haste until end of turn.",
@@ -4454,6 +4545,7 @@
     {
       "name": "Akki Underling",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Warrior",
       "text": "As long as you have seven or more cards in hand, Akki Underling gets +2/+1 and has first strike.",
@@ -4503,6 +4595,7 @@
     {
       "name": "Barrel Down Sokenzan",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant - Arcane",
       "text": "Sweep - Return any number of Mountains you control to their owner's hand. Barrel Down Sokenzan deals damage to target creature equal to twice the number of Mountains returned this way.",
@@ -4551,6 +4644,7 @@
     {
       "name": "Burning-Eye Zubera",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Zubera Spirit",
       "text": "When Burning-Eye Zubera dies, if 4 or more damage was dealt to it this turn, Burning-Eye Zubera deals 3 damage to any target.",
@@ -4599,6 +4693,7 @@
     {
       "name": "Captive Flame",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{R}: Target creature gets +1/+0 until end of turn.",
@@ -4648,6 +4743,7 @@
     {
       "name": "Feral Lightning",
       "manaCost": "{3}{R}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}{R}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Create three 3/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.",
@@ -4697,6 +4793,7 @@
     {
       "name": "Gaze of Adamaro",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Instant - Arcane",
       "text": "Gaze of Adamaro deals damage to target player equal to the number of cards in that player's hand.",
@@ -4746,6 +4843,7 @@
     {
       "name": "Ghost-Lit Raider",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "{2}{R}, {T}: Ghost-Lit Raider deals 2 damage to target creature.<br>Channel - {3}{R}, Discard Ghost-Lit Raider: It deals 4 damage to target creature.",
@@ -4794,6 +4892,7 @@
     {
       "name": "Glitterfang",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Spirit",
       "text": "Haste<br>At the beginning of the end step, return Glitterfang to its owner's hand.",
@@ -4843,6 +4942,7 @@
     {
       "name": "Godo's Irregulars",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Human Warrior",
       "text": "{R}: Godo's Irregulars deals 1 damage to target creature blocking it.",
@@ -4892,6 +4992,7 @@
     {
       "name": "Hidetsugu's Second Rite",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "If target player has exactly 10 life, Hidetsugu's Second Rite deals 10 damage to that player.",
@@ -4941,6 +5042,7 @@
     {
       "name": "Homura, Human Ascendant",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Human Monk",
       "text": "Homura, Human Ascendant can't block.<br>When Homura dies, return it to the battlefield flipped.",
@@ -4978,6 +5080,7 @@
     {
       "name": "Iizuka the Ruthless",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Human Samurai",
       "text": "Bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)<br>{2}{R}, Sacrifice a Samurai: Samurai creatures you control gain double strike until end of turn.",
@@ -5026,6 +5129,7 @@
     {
       "name": "Inner Fire",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Add {R} for each card in your hand.",
@@ -5075,6 +5179,7 @@
     {
       "name": "Into the Fray",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant - Arcane",
       "text": "Target creature attacks this turn if able.<br>Splice onto Arcane {R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",
@@ -5123,6 +5228,7 @@
     {
       "name": "Jiwari, the Earth Aflame",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Spirit",
       "text": "{X}{R}, {T}: Jiwari, the Earth Aflame deals X damage to target creature without flying.<br>Channel - {X}{R}{R}{R}, Discard Jiwari: Jiwari deals X damage to each creature without flying.",
@@ -5171,6 +5277,7 @@
     {
       "name": "Oni of Wild Places",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Creature - Demon Spirit",
       "text": "Haste<br>At the beginning of your upkeep, return a red creature you control to its owner's hand.",
@@ -5220,6 +5327,7 @@
     {
       "name": "Path of Anger's Flame",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant - Arcane",
       "text": "Creatures you control get +2/+0 until end of turn.",
@@ -5269,6 +5377,7 @@
     {
       "name": "Rally the Horde",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Exile the top card of your library. Exile the top card of your library. Exile the top card of your library. If the last card exiled isn't a land card, repeat this process. Create a 1/1 red Warrior creature token for each nonland card exiled this way.",
@@ -5317,6 +5426,7 @@
     {
       "name": "Ronin Cavekeeper",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Creature - Human Samurai",
       "text": "Bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)",
@@ -5366,6 +5476,7 @@
     {
       "name": "Shinen of Fury's Fire",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "Haste<br>Channel - {R}, Discard Shinen of Fury's Fire: Target creature gains haste until end of turn.",
@@ -5414,9 +5525,10 @@
     {
       "name": "Skyfire Kirin",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Kirin Spirit",
-      "text": "Flying<br>Whenever you cast a Spirit or Arcane spell, you may gain control of target creature with that spell's converted mana cost until end of turn.",
+      "text": "Flying<br>Whenever you cast a Spirit or Arcane spell, you may gain control of target creature with that spell's mana value until end of turn.",
       "flavor": "Its fiery visitation burns away the fog of war and dissipates the ties of loyalty.",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
@@ -5463,6 +5575,7 @@
     {
       "name": "Sokenzan Renegade",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Ogre Samurai Mercenary",
       "text": "Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)<br>At the beginning of your upkeep, if a player has more cards in hand than each other player, the player who has the most cards in hand gains control of Sokenzan Renegade.",
@@ -5511,6 +5624,7 @@
     {
       "name": "Sokenzan Spellblade",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Ogre Samurai Shaman",
       "text": "Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)<br>{1}{R}: Sokenzan Spellblade gets +X/+0 until end of turn, where X is the number of cards in your hand.",
@@ -5559,6 +5673,7 @@
     {
       "name": "Spiraling Embers",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Sorcery - Arcane",
       "text": "Spiraling Embers deals damage to any target equal to the number of cards in your hand.",
@@ -5608,6 +5723,7 @@
     {
       "name": "Sunder from Within",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Sorcery - Arcane",
       "text": "Destroy target artifact or land.",
@@ -5657,6 +5773,7 @@
     {
       "name": "Thoughts of Ruin",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Each player sacrifices a land for each card in your hand.",
@@ -5706,9 +5823,10 @@
     {
       "name": "Undying Flames",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Sorcery",
-      "text": "Exile cards from the top of your library until you exile a nonland card. Undying Flames deals damage to any target equal to that card's converted mana cost.<br>Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)",
+      "text": "Exile cards from the top of your library until you exile a nonland card. Undying Flames deals damage to any target equal to that card's mana value.<br>Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
       "rarity": "R",
@@ -5754,6 +5872,7 @@
     {
       "name": "Yuki-Onna",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Spirit",
       "text": "When Yuki-Onna enters the battlefield, destroy target artifact.<br>Whenever you cast a Spirit or Arcane spell, you may return Yuki-Onna to its owner's hand.",
@@ -5802,6 +5921,7 @@
     {
       "name": "Arashi, the Sky Asunder",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Spirit",
       "text": "{X}{G}, {T}: Arashi, the Sky Asunder deals X damage to target creature with flying.<br>Channel - {X}{G}{G}, Discard Arashi: Arashi deals X damage to each creature with flying.",
@@ -5850,6 +5970,7 @@
     {
       "name": "Ayumi, the Last Visitor",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Spirit",
       "text": "Legendary landwalk (This creature can't be blocked as long as defending player controls a legendary land.)",
@@ -5899,6 +6020,7 @@
     {
       "name": "Bounteous Kirin",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Legendary Creature - Kirin Spirit",
       "text": "Flying<br>Whenever you cast a Spirit or Arcane spell, you may gain life equal to that spell's mana value.",
@@ -5948,6 +6070,7 @@
     {
       "name": "Briarknit Kami",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Spirit",
       "text": "Whenever you cast a Spirit or Arcane spell, put a +1/+1 counter on target creature.",
@@ -5997,6 +6120,7 @@
     {
       "name": "Dense Canopy",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Creatures with flying can block only creatures with flying.",
@@ -6046,6 +6170,7 @@
     {
       "name": "Descendant of Masumaro",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Human Monk",
       "text": "At the beginning of your upkeep, put a +1/+1 counter on Descendant of Masumaro for each card in your hand, then remove a +1/+1 counter from Descendant of Masumaro for each card in target opponent's hand.",
@@ -6094,6 +6219,7 @@
     {
       "name": "Dosan's Oldest Chant",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "You gain 6 life.<br>Draw a card.",
@@ -6143,9 +6269,10 @@
     {
       "name": "Elder Pine of Jukai",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Spirit",
-      "text": "Whenever you cast a Spirit or Arcane spell, reveal the top three cards of your library. Put all land cards revealed this way into your hand and the rest on the bottom of your library in any order.<br>Soulshift 2 (When this creature dies, you may return target Spirit card with converted mana cost 2 or less from your graveyard to your hand.)",
+      "text": "Whenever you cast a Spirit or Arcane spell, reveal the top three cards of your library. Put all land cards revealed this way into your hand and the rest on the bottom of your library in any order.<br>Soulshift 2 (When this creature dies, you may return target Spirit card with mana value 2 or less from your graveyard to your hand.)",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
       "rarity": "C",
@@ -6191,6 +6318,7 @@
     {
       "name": "Endless Swarm",
       "manaCost": "{5}{G}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}{G}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Create a 1/1 green Snake creature token for each card in your hand.<br>Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability.)",
@@ -6239,6 +6367,7 @@
     {
       "name": "Fiddlehead Kami",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Spirit",
       "text": "Whenever you cast a Spirit or Arcane spell, regenerate Fiddlehead Kami.",
@@ -6288,6 +6417,7 @@
     {
       "name": "Ghost-Lit Nourisher",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "{2}{G}, {T}: Target creature gets +2/+2 until end of turn.<br>Channel - {3}{G}, Discard Ghost-Lit Nourisher: Target creature gets +4/+4 until end of turn.",
@@ -6336,6 +6466,7 @@
     {
       "name": "Haru-Onna",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Spirit",
       "text": "When Haru-Onna enters the battlefield, draw a card.<br>Whenever you cast a Spirit or Arcane spell, you may return Haru-Onna to its owner's hand.",
@@ -6384,6 +6515,7 @@
     {
       "name": "Inner Calm, Outer Strength",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant - Arcane",
       "text": "Target creature gets +X/+X until end of turn, where X is the number of cards in your hand.",
@@ -6433,9 +6565,10 @@
     {
       "name": "Kami of the Tended Garden",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Spirit",
-      "text": "At the beginning of your upkeep, sacrifice Kami of the Tended Garden unless you pay {G}.<br>Soulshift 3 (When this creature dies, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)",
+      "text": "At the beginning of your upkeep, sacrifice Kami of the Tended Garden unless you pay {G}.<br>Soulshift 3 (When this creature dies, you may return target Spirit card with mana value 3 or less from your graveyard to your hand.)",
       "expansion": "SOK",
       "scryfallSetCode": "SOK",
       "rarity": "U",
@@ -6481,6 +6614,7 @@
     {
       "name": "Kashi-Tribe Elite",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Snake Warrior",
       "text": "Legendary Snakes you control have shroud. (They can't be the targets of spells or abilities.)<br>Whenever Kashi-Tribe Elite deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step.",
@@ -6529,6 +6663,7 @@
     {
       "name": "Masumaro, First to Live",
       "manaCost": "{3}{G}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Spirit",
       "text": "Masumaro, First to Live's power and toughness are each equal to twice the number of cards in your hand.",
@@ -6578,6 +6713,7 @@
     {
       "name": "Matsu-Tribe Birdstalker",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Snake Warrior Archer",
       "text": "Whenever Matsu-Tribe Birdstalker deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step.<br>{G}: Matsu-Tribe Birdstalker gains reach until end of turn. (It can block creatures with flying.)",
@@ -6626,6 +6762,7 @@
     {
       "name": "Molting Skin",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Return Molting Skin to its owner's hand: Regenerate target creature.",
@@ -6675,6 +6812,7 @@
     {
       "name": "Nightsoil Kami",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Spirit",
       "text": "Soulshift 5 (When this creature dies, you may return target Spirit card with mana value 5 or less from your graveyard to your hand.)",
@@ -6723,6 +6861,7 @@
     {
       "name": "Okina Nightwatch",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Human Monk",
       "text": "As long as you have more cards in hand than each opponent, Okina Nightwatch gets +3/+3.",
@@ -6772,6 +6911,7 @@
     {
       "name": "Promised Kannushi",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human Druid",
       "text": "Soulshift 7 (When this creature dies, you may return target Spirit card with mana value 7 or less from your graveyard to your hand.)",
@@ -6820,6 +6960,7 @@
     {
       "name": "Reki, the History of Kamigawa",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Human Shaman",
       "text": "Whenever you cast a legendary spell, draw a card.",
@@ -6869,6 +7010,7 @@
     {
       "name": "Rending Vines",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Instant - Arcane",
       "text": "Destroy target artifact or enchantment if its mana value is less than or equal to the number of cards in your hand.<br>Draw a card.",
@@ -6917,6 +7059,7 @@
     {
       "name": "Sakura-Tribe Scout",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Snake Shaman Scout",
       "text": "{T}: You may put a land card from your hand onto the battlefield.",
@@ -6966,6 +7109,7 @@
     {
       "name": "Sasaya, Orochi Ascendant",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Snake Monk",
       "text": "Reveal your hand: If you have seven or more land cards in your hand, flip Sasaya, Orochi Ascendant.",
@@ -7003,6 +7147,7 @@
     {
       "name": "Seed the Land",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Whenever a land enters the battlefield, its controller creates a 1/1 green Snake creature token.",
@@ -7052,6 +7197,7 @@
     {
       "name": "Seek the Horizon",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.",
@@ -7101,6 +7247,7 @@
     {
       "name": "Sekki, Seasons' Guide",
       "manaCost": "{5}{G}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}{G}",
       "cmc": 8,
       "type": "Legendary Creature - Spirit",
       "text": "Sekki, Seasons' Guide enters the battlefield with eight +1/+1 counters on it.<br>If damage would be dealt to Sekki, prevent that damage, remove that many +1/+1 counters from Sekki, and create that many 1/1 colorless Spirit creature tokens.<br>Sacrifice eight Spirits: Return Sekki from your graveyard to the battlefield.",
@@ -7149,6 +7296,7 @@
     {
       "name": "Shinen of Life's Roar",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Spirit",
       "text": "All creatures able to block Shinen of Life's Roar do so.<br>Channel - {2}{G}{G}, Discard Shinen of Life's Roar: All creatures able to block target creature this turn do so.",
@@ -7197,6 +7345,7 @@
     {
       "name": "Stampeding Serow",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Antelope Beast",
       "text": "Trample<br>At the beginning of your upkeep, return a green creature you control to its owner's hand.",
@@ -7245,6 +7394,7 @@
     {
       "name": "Iname as One",
       "manaCost": "{8}{B}{B}{G}{G}",
+      "sortedManaCost": "{8}{B}{B}{G}{G}",
       "cmc": 12,
       "type": "Legendary Creature - Spirit",
       "text": "When Iname as One enters the battlefield, if you cast it from your hand, you may search your library for a Spirit permanent card, put it onto the battlefield, then shuffle.<br>When Iname as One dies, you may exile it. If you do, return target Spirit permanent card from your graveyard to the battlefield.",
@@ -7293,6 +7443,7 @@
     {
       "name": "Ashes of the Fallen",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "As Ashes of the Fallen enters the battlefield, choose a creature type.<br>Each creature card in your graveyard has the chosen creature type in addition to its other types.",
@@ -7342,6 +7493,7 @@
     {
       "name": "Blood Clock",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "At the beginning of each player's upkeep, that player returns a permanent they control to its owner's hand unless they pay 2 life.",
@@ -7391,6 +7543,7 @@
     {
       "name": "Ebony Owl Netsuke",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "At the beginning of each opponent's upkeep, if that player has seven or more cards in hand, Ebony Owl Netsuke deals 4 damage to that player.",
@@ -7440,6 +7593,7 @@
     {
       "name": "Ivory Crane Netsuke",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "At the beginning of your upkeep, if you have seven or more cards in hand, you gain 4 life.",
@@ -7489,6 +7643,7 @@
     {
       "name": "Manriki-Gusari",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+2 and has \"{T}: Destroy target Equipment.\"<br>Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -7537,6 +7692,7 @@
     {
       "name": "O-Naginata",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "O-Naginata can be attached only to a creature with power 3 or greater.<br>Equipped creature gets +3/+0 and has trample.<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -7585,6 +7741,7 @@
     {
       "name": "Pithing Needle",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "As Pithing Needle enters the battlefield, choose a card name.<br>Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
@@ -7633,6 +7790,7 @@
     {
       "name": "Scroll of Origins",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{2}, {T}: Draw a card if you have seven or more cards in hand.",
@@ -7682,6 +7840,7 @@
     {
       "name": "Soratami Cloud Chariot",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "{2}: Target creature you control gains flying until end of turn.<br>{2}: Prevent all combat damage that would be dealt to and dealt by target creature you control this turn.",
@@ -7730,6 +7889,7 @@
     {
       "name": "Wine of Blood and Iron",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{4}: Target creature gets +X/+0 until end of turn, where X is its power. Sacrifice Wine of Blood and Iron at the beginning of the next end step.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "from_the_vault",
-    "digest": "ba91bd5c9573eaa44a26a1687c78c88d",
+    "digest": "3af9adf28994af3e5d023728583e36a5",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/EXL_M.png"
     ]
@@ -19,6 +19,7 @@
     {
       "name": "Balance",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.",
@@ -38,6 +39,7 @@
     {
       "name": "Berserk",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Cast this spell only before the combat damage step.<br>Target creature gains trample and gets +X/+0 until end of turn, where X is its power. At the beginning of the next end step, destroy that creature if it attacked this turn.",
@@ -57,6 +59,7 @@
     {
       "name": "Channel",
       "manaCost": "{G}{G}",
+      "sortedManaCost": "{G}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C}.",
@@ -77,6 +80,7 @@
     {
       "name": "Gifts Ungiven",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Search your library for up to four cards with different names and reveal them. Target opponent chooses two of those cards. Put the chosen cards into your graveyard and the rest into your hand. Then shuffle.",
@@ -96,6 +100,7 @@
     {
       "name": "Goblin Lackey",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin",
       "text": "Whenever Goblin Lackey deals damage to a player, you may put a Goblin permanent card from your hand onto the battlefield.",
@@ -116,6 +121,7 @@
     {
       "name": "Kird Ape",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Ape",
       "text": "Kird Ape gets +1/+2 as long as you control a Forest.",
@@ -136,6 +142,7 @@
     {
       "name": "Lotus Petal",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "{T}, Sacrifice Lotus Petal: Add one mana of any color.",
@@ -156,6 +163,7 @@
     {
       "name": "Mystical Tutor",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.",
@@ -176,6 +184,7 @@
     {
       "name": "Necropotence",
       "manaCost": "{B}{B}{B}",
+      "sortedManaCost": "{B}{B}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Skip your draw step.<br>Whenever you discard a card, exile that card from your graveyard.<br>Pay 1 life: Exile the top card of your library face down. Put that card into your hand at the beginning of your next end step.",
@@ -195,6 +204,7 @@
     {
       "name": "Sensei's Divining Top",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{1}: Look at the top three cards of your library, then put them back in any order.<br>{T}: Draw a card, then put Sensei's Divining Top on top of its owner's library.",
@@ -214,6 +224,7 @@
     {
       "name": "Serendib Efreet",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Efreet",
       "text": "Flying<br>At the beginning of your upkeep, Serendib Efreet deals 1 damage to you.",
@@ -234,6 +245,7 @@
     {
       "name": "Skullclamp",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/-1.<br>Whenever equipped creature dies, draw two cards.<br>Equip {1}",
@@ -273,9 +285,10 @@
     {
       "name": "Tinker",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
-      "text": "As an additional cost to cast this spell, sacrifice an artifact.<br>Search your library for an artifact card and put that card onto the battlefield. Then shuffle your library.",
+      "text": "As an additional cost to cast this spell, sacrifice an artifact.<br>Search your library for an artifact card, put that card onto the battlefield, then shuffle.",
       "flavor": "\"What separates us from mere beasts is the capacity for self-improvement.\"",
       "expansion": "EXL",
       "scryfallSetCode": "V09",
@@ -293,6 +306,7 @@
     {
       "name": "Trinisphere",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "As long as Trinisphere is untapped, each spell that would cost less than three mana to cast costs three mana to cast. (Additional mana in the cost may be paid with any color of mana or colorless mana. For example, a spell that would cost {1}{B} to cast costs {2}{B} to cast instead.)",

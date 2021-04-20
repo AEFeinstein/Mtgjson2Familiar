@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "archenemy",
-    "digest": "b75d232161a6533fcaa1fd6e21d66925",
+    "digest": "65b934c23b7d7f1607a09c1686329407",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ARC_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ARC_R.png",
@@ -192,7 +192,7 @@
       "name": "Every Last Vestige Shall Rot",
       "cmc": 0,
       "type": "Scheme",
-      "text": "When you set this scheme in motion, you may pay {X}. If you do, put each nonland permanent target player controls with converted mana cost X or less on the bottom of its owner's library.",
+      "text": "When you set this scheme in motion, you may pay {X}. If you do, put each nonland permanent target player controls with mana value X or less on the bottom of its owner's library.",
       "flavor": "\"May bloodberries grow from your remains.\"",
       "expansion": "ARC",
       "scryfallSetCode": "OARC",
@@ -267,7 +267,7 @@
       "name": "I Call on the Ancient Magics",
       "cmc": 0,
       "type": "Scheme",
-      "text": "When you set this scheme in motion, each other player searches their library for a card, reveals it, and puts it into their hand. Then you search your library for two cards and put them into your hand. Each player shuffles their library.",
+      "text": "When you set this scheme in motion, each other player searches their library for a card, reveals it, and puts it into their hand. Then you search your library for two cards and put them into your hand. Each player shuffles.",
       "expansion": "ARC",
       "scryfallSetCode": "OARC",
       "rarity": "C",
@@ -360,7 +360,7 @@
       "name": "Introductions Are in Order",
       "cmc": 0,
       "type": "Scheme",
-      "text": "When you set this scheme in motion, choose one -<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.<br>• You may put a creature card from your hand onto the battlefield.",
+      "text": "When you set this scheme in motion, choose one -<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle.<br>• You may put a creature card from your hand onto the battlefield.",
       "flavor": "\"Meet my newest minion. Come now, don't be shy-shake her pincer.\"",
       "expansion": "ARC",
       "scryfallSetCode": "OARC",
@@ -529,7 +529,7 @@
       "name": "Nature Demands an Offering",
       "cmc": 0,
       "type": "Scheme",
-      "text": "When you set this scheme in motion, target opponent chooses a creature you don't control and puts it on top of its owner's library, then repeats this process for an artifact, an enchantment, and a land. Then the owner of each permanent chosen this way shuffles their library.",
+      "text": "When you set this scheme in motion, target opponent chooses a creature you don't control and puts it on top of its owner's library, then repeats this process for an artifact, an enchantment, and a land. Then the owner of each permanent chosen this way shuffles.",
       "expansion": "ARC",
       "scryfallSetCode": "OARC",
       "rarity": "C",
@@ -865,6 +865,7 @@
     {
       "name": "Leonin Abunas",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Cat Cleric",
       "text": "Artifacts you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)",
@@ -885,6 +886,7 @@
     {
       "name": "Metallurgeon",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Artifact Creature - Human Artificer",
       "text": "{W}, {T}: Regenerate target artifact.",
@@ -905,6 +907,7 @@
     {
       "name": "Oblivion Ring",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Oblivion Ring enters the battlefield, exile another target nonland permanent.<br>When Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner's control.",
@@ -924,9 +927,10 @@
     {
       "name": "Path to Exile",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
-      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.",
+      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "U",
@@ -943,6 +947,7 @@
     {
       "name": "Sanctum Gargoyle",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Artifact Creature - Gargoyle",
       "text": "Flying<br>When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.",
@@ -963,9 +968,10 @@
     {
       "name": "March of the Machines",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Enchantment",
-      "text": "Each noncreature artifact is an artifact creature with power and toughness each equal to its converted mana cost. (Equipment that's a creature can't equip a creature.)",
+      "text": "Each noncreature artifact is an artifact creature with power and toughness each equal to its mana value. (Equipment that's a creature can't equip a creature.)",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "R",
@@ -982,6 +988,7 @@
     {
       "name": "Master Transmuter",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Artifact Creature - Human Artificer",
       "text": "{U}, {T}, Return an artifact you control to its owner's hand: You may put an artifact card from your hand onto the battlefield.",
@@ -1002,6 +1009,7 @@
     {
       "name": "Spin into Myth",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "Put target creature on top of its owner's library, then fateseal 2. (To fateseal 2, look at the top two cards of an opponent's library, then put any number of them on the bottom of that player's library and the rest on top in any order.)",
@@ -1021,6 +1029,7 @@
     {
       "name": "Avatar of Woe",
       "manaCost": "{6}{B}{B}",
+      "sortedManaCost": "{6}{B}{B}",
       "cmc": 8,
       "type": "Creature - Avatar",
       "text": "If there are ten or more creature cards total in all graveyards, this spell costs {6} less to cast.<br>Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>{T}: Destroy target creature. It can't be regenerated.",
@@ -1040,6 +1049,7 @@
     {
       "name": "Beacon of Unrest",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Put target artifact or creature card from a graveyard onto the battlefield under your control. Shuffle Beacon of Unrest into its owner's library.",
@@ -1060,6 +1070,7 @@
     {
       "name": "Bog Witch",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Human Spellshaper",
       "text": "{B}, {T}, Discard a card: Add {B}{B}{B}.",
@@ -1080,6 +1091,7 @@
     {
       "name": "Cemetery Reaper",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Zombie",
       "text": "Other Zombie creatures you control get +1/+1.<br>{2}{B}, {T}: Exile target creature card from a graveyard. Create a 2/2 black Zombie creature token.",
@@ -1100,9 +1112,10 @@
     {
       "name": "Corpse Connoisseur",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Zombie Wizard",
-      "text": "When Corpse Connoisseur enters the battlefield, you may search your library for a creature card and put that card into your graveyard. If you do, shuffle your library.<br>Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+      "text": "When Corpse Connoisseur enters the battlefield, you may search your library for a creature card, put that card into your graveyard, then shuffle.<br>Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "U",
@@ -1119,6 +1132,7 @@
     {
       "name": "Dregscape Zombie",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Zombie",
       "text": "Unearth {B} ({B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
@@ -1139,6 +1153,7 @@
     {
       "name": "Extractor Demon",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Creature - Demon",
       "text": "Flying<br>Whenever another creature leaves the battlefield, you may have target player mill two cards.<br>Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
@@ -1158,6 +1173,7 @@
     {
       "name": "Festering Goblin",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Zombie Goblin",
       "text": "When Festering Goblin dies, target creature gets -1/-1 until end of turn.",
@@ -1178,6 +1194,7 @@
     {
       "name": "Incremental Blight",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Put a -1/-1 counter on target creature, two -1/-1 counters on another target creature, and three -1/-1 counters on a third target creature.",
@@ -1198,6 +1215,7 @@
     {
       "name": "Infectious Horror",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Zombie Horror",
       "text": "Whenever Infectious Horror attacks, each opponent loses 2 life.",
@@ -1218,6 +1236,7 @@
     {
       "name": "Infest",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "All creatures get -2/-2 until end of turn.",
@@ -1238,6 +1257,7 @@
     {
       "name": "Makeshift Mannequin",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Return target creature card from your graveyard to the battlefield with a mannequin counter on it. For as long as that creature has a mannequin counter on it, it has \"When this creature becomes the target of a spell or ability, sacrifice it.\"",
@@ -1258,9 +1278,10 @@
     {
       "name": "Reanimate",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
-      "text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its converted mana cost.",
+      "text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its mana value.",
       "flavor": "\"You will learn to earn death.\"<br>-Volrath",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
@@ -1278,6 +1299,7 @@
     {
       "name": "Reassembling Skeleton",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Skeleton Warrior",
       "text": "{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.",
@@ -1298,6 +1320,7 @@
     {
       "name": "Scion of Darkness",
       "manaCost": "{5}{B}{B}{B}",
+      "sortedManaCost": "{5}{B}{B}{B}",
       "cmc": 8,
       "type": "Creature - Avatar",
       "text": "Trample<br>Whenever Scion of Darkness deals combat damage to a player, you may put target creature card from that player's graveyard onto the battlefield under your control.<br>Cycling {3} ({3}, Discard this card: Draw a card.)",
@@ -1317,6 +1340,7 @@
     {
       "name": "Shriekmaw",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>When Shriekmaw enters the battlefield, destroy target nonartifact, nonblack creature.<br>Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
@@ -1336,6 +1360,7 @@
     {
       "name": "Sign in Blood",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target player draws two cards and loses 2 life.",
@@ -1356,6 +1381,7 @@
     {
       "name": "Twisted Abomination",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Zombie Mutant",
       "text": "{B}: Regenerate Twisted Abomination.<br>Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
@@ -1375,6 +1401,7 @@
     {
       "name": "Urborg Syphon-Mage",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Human Spellshaper",
       "text": "{2}{B}, {T}, Discard a card: Each other player loses 2 life. You gain life equal to the life lost this way.",
@@ -1395,6 +1422,7 @@
     {
       "name": "Zombie Infestation",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Discard two cards: Create a 2/2 black Zombie creature token.",
@@ -1415,6 +1443,7 @@
     {
       "name": "Zombify",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Return target creature card from your graveyard to the battlefield.",
@@ -1435,6 +1464,7 @@
     {
       "name": "Battering Craghorn",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Goat Beast",
       "text": "First strike<br>Morph {1}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -1455,6 +1485,7 @@
     {
       "name": "Breath of Darigaaz",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Kicker {2} (You may pay an additional {2} as you cast this spell.)<br>Breath of Darigaaz deals 1 damage to each creature without flying and each player. If this spell was kicked, it deals 4 damage to each creature without flying and each player instead.",
@@ -1474,6 +1505,7 @@
     {
       "name": "Chandra's Outrage",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller.",
@@ -1494,9 +1526,10 @@
     {
       "name": "Dragon Breath",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment - Aura",
-      "text": "Enchant creature<br>Enchanted creature has haste.<br>{R}: Enchanted creature gets +1/+0 until end of turn.<br>When a creature with converted mana cost 6 or greater enters the battlefield, you may return Dragon Breath from your graveyard to the battlefield attached to that creature.",
+      "text": "Enchant creature<br>Enchanted creature has haste.<br>{R}: Enchanted creature gets +1/+0 until end of turn.<br>When a creature with mana value 6 or greater enters the battlefield, you may return Dragon Breath from your graveyard to the battlefield attached to that creature.",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "C",
@@ -1513,6 +1546,7 @@
     {
       "name": "Dragon Fodder",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Create two 1/1 red Goblin creature tokens.",
@@ -1533,6 +1567,7 @@
     {
       "name": "Dragon Whelp",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Dragon",
       "text": "Flying<br>{R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step.",
@@ -1552,6 +1587,7 @@
     {
       "name": "Dragonspeaker Shaman",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Human Barbarian Shaman",
       "text": "Dragon spells you cast cost {2} less to cast.",
@@ -1572,6 +1608,7 @@
     {
       "name": "Fireball",
       "manaCost": "{X}{R}",
+      "sortedManaCost": "{X}{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "This spell costs {1} more to cast for each target beyond the first.<br>Fireball deals X damage divided evenly, rounded down, among any number of targets.",
@@ -1591,6 +1628,7 @@
     {
       "name": "Flameblast Dragon",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Dragon",
       "text": "Flying<br>Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dragon deals X damage to any target.",
@@ -1611,6 +1649,7 @@
     {
       "name": "Furnace Whelp",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Dragon",
       "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)<br>{R}: Furnace Whelp gets +1/+0 until end of turn.",
@@ -1631,6 +1670,7 @@
     {
       "name": "Gathan Raiders",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Human Warrior",
       "text": "Hellbent - Gathan Raiders gets +2/+2 as long as you have no cards in hand.<br>Morph-Discard a card. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -1650,6 +1690,7 @@
     {
       "name": "Hellkite Charger",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Dragon",
       "text": "Flying, haste<br>Whenever Hellkite Charger attacks, you may pay {5}{R}{R}. If you do, untap all attacking creatures and after this phase, there is an additional combat phase.",
@@ -1669,9 +1710,10 @@
     {
       "name": "Imperial Hellkite",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Creature - Dragon",
-      "text": "Flying<br>Morph {6}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Imperial Hellkite is turned face up, you may search your library for a Dragon card, reveal it, and put it into your hand. If you do, shuffle your library.",
+      "text": "Flying<br>Morph {6}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Imperial Hellkite is turned face up, you may search your library for a Dragon card, reveal it, put it into your hand, then shuffle.",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "R",
@@ -1688,6 +1730,7 @@
     {
       "name": "Inferno Trap",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Instant - Trap",
       "text": "If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay this spell's mana cost.<br>Inferno Trap deals 4 damage to target creature.",
@@ -1708,6 +1751,7 @@
     {
       "name": "Kilnmouth Dragon",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Creature - Dragon",
       "text": "Amplify 3 (As this creature enters the battlefield, put three +1/+1 counters on it for each Dragon card you reveal in your hand.)<br>Flying<br>{T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to any target.",
@@ -1727,6 +1771,7 @@
     {
       "name": "Ryusei, the Falling Star",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon Spirit",
       "text": "Flying<br>When Ryusei, the Falling Star dies, it deals 5 damage to each creature without flying.",
@@ -1746,6 +1791,7 @@
     {
       "name": "Seething Song",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Add {R}{R}{R}{R}{R}.",
@@ -1766,6 +1812,7 @@
     {
       "name": "Skirk Commando",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Goblin",
       "text": "Whenever Skirk Commando deals combat damage to a player, you may have it deal 2 damage to target creature that player controls.<br>Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -1785,6 +1832,7 @@
     {
       "name": "Skirk Marauder",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin",
       "text": "Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Skirk Marauder is turned face up, it deals 2 damage to any target.",
@@ -1804,6 +1852,7 @@
     {
       "name": "Taurean Mauler",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.",
@@ -1824,6 +1873,7 @@
     {
       "name": "Two-Headed Dragon",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Dragon",
       "text": "Flying<br>Menace (This creature can't be blocked except by two or more creatures.)<br>Two-Headed Dragon can block an additional creature each combat.<br>{1}{R}: Two-Headed Dragon gets +2/+0 until end of turn.",
@@ -1843,6 +1893,7 @@
     {
       "name": "Volcanic Fallout",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "This spell can't be countered.<br>Volcanic Fallout deals 2 damage to each creature and each player.",
@@ -1863,6 +1914,7 @@
     {
       "name": "Chameleon Colossus",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Shapeshifter",
       "text": "Changeling (This card is every creature type.)<br>Protection from black<br>{2}{G}{G}: Chameleon Colossus gets +X/+X until end of turn, where X is its power.",
@@ -1882,6 +1934,7 @@
     {
       "name": "Feral Hydra",
       "manaCost": "{X}{G}",
+      "sortedManaCost": "{X}{G}",
       "cmc": 1,
       "type": "Creature - Hydra Beast",
       "text": "Feral Hydra enters the battlefield with X +1/+1 counters on it.<br>{3}: Put a +1/+1 counter on Feral Hydra. Any player may activate this ability.",
@@ -1902,6 +1955,7 @@
     {
       "name": "Fertilid",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Fertilid enters the battlefield with two +1/+1 counters on it.<br>{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.",
@@ -1921,9 +1975,10 @@
     {
       "name": "Fierce Empath",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf",
-      "text": "When Fierce Empath enters the battlefield, you may search your library for a creature card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Fierce Empath enters the battlefield, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "C",
@@ -1940,6 +1995,7 @@
     {
       "name": "Fog",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Prevent all combat damage that would be dealt this turn.",
@@ -1960,6 +2016,7 @@
     {
       "name": "Forgotten Ancient",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient.<br>At the beginning of your upkeep, you may move any number of +1/+1 counters from Forgotten Ancient onto other creatures.",
@@ -1980,6 +2037,7 @@
     {
       "name": "Gleeful Sabotage",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Destroy target artifact or enchantment.<br>Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)",
@@ -1999,6 +2057,7 @@
     {
       "name": "Harmonize",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw three cards.",
@@ -2019,6 +2078,7 @@
     {
       "name": "Hunting Moa",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Bird Beast",
       "text": "Echo {2}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>When Hunting Moa enters the battlefield or dies, put a +1/+1 counter on target creature.",
@@ -2038,6 +2098,7 @@
     {
       "name": "Kamahl, Fist of Krosa",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Human Druid",
       "text": "{G}: Target land becomes a 1/1 creature until end of turn. It's still a land.<br>{2}{G}{G}{G}: Creatures you control get +3/+3 and gain trample until end of turn.",
@@ -2058,9 +2119,10 @@
     {
       "name": "Krosan Tusker",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Boar Beast",
-      "text": "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)<br>When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library. (Do this before you draw.)",
+      "text": "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)<br>When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle. (Do this before you draw.)",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "C",
@@ -2077,6 +2139,7 @@
     {
       "name": "Leaf Gilder",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {G}.",
@@ -2097,6 +2160,7 @@
     {
       "name": "Molimo, Maro-Sorcerer",
       "manaCost": "{4}{G}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}{G}",
       "cmc": 7,
       "type": "Legendary Creature - Elemental",
       "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)<br>Molimo, Maro-Sorcerer's power and toughness are each equal to the number of lands you control.",
@@ -2117,6 +2181,7 @@
     {
       "name": "Plummet",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target creature with flying.",
@@ -2137,9 +2202,10 @@
     {
       "name": "Primal Command",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Sorcery",
-      "text": "Choose two -<br>• Target player gains 7 life.<br>• Put target noncreature permanent on top of its owner's library.<br>• Target player shuffles their graveyard into their library.<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "Choose two -<br>• Target player gains 7 life.<br>• Put target noncreature permanent on top of its owner's library.<br>• Target player shuffles their graveyard into their library.<br>• Search your library for a creature card, reveal it, put it into your hand, then shuffle.",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "R",
@@ -2156,6 +2222,7 @@
     {
       "name": "Rancor",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+0 and has trample.<br>When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.",
@@ -2176,6 +2243,7 @@
     {
       "name": "Sakura-Tribe Elder",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Snake Shaman",
       "text": "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
@@ -2196,6 +2264,7 @@
     {
       "name": "Shinen of Life's Roar",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Spirit",
       "text": "All creatures able to block Shinen of Life's Roar do so.<br>Channel - {2}{G}{G}, Discard Shinen of Life's Roar: All creatures able to block target creature this turn do so.",
@@ -2215,6 +2284,7 @@
     {
       "name": "Spider Umbra",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+1 and has reach. (It can block creatures with flying.)<br>Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)",
@@ -2234,6 +2304,7 @@
     {
       "name": "Thelonite Hermit",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elf Shaman",
       "text": "All Saprolings get +1/+1.<br>Morph {3}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Thelonite Hermit is turned face up, create four 1/1 green Saproling creature tokens.",
@@ -2253,6 +2324,7 @@
     {
       "name": "Verdeloth the Ancient",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Treefolk",
       "text": "Kicker {X} (You may pay an additional {X} as you cast this spell.)<br>Saproling creatures and other Treefolk creatures get +1/+1.<br>When Verdeloth the Ancient enters the battlefield, if it was kicked, create X 1/1 green Saproling creature tokens.",
@@ -2272,9 +2344,10 @@
     {
       "name": "Wall of Roots",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Plant Wall",
-      "text": "Defender<br>Put a -0/-1 counter on Wall of Roots: Add {G}. Activate this ability only once each turn.",
+      "text": "Defender<br>Put a -0/-1 counter on Wall of Roots: Add {G}. Activate only once each turn.",
       "flavor": "Sometimes the wise ones wove their magic into living plants; as the plant grew, so grew the magic.",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
@@ -2292,6 +2365,7 @@
     {
       "name": "Wickerbough Elder",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Treefolk Shaman",
       "text": "Wickerbough Elder enters the battlefield with a -1/-1 counter on it.<br>{G}, Remove a -1/-1 counter from Wickerbough Elder: Destroy target artifact or enchantment.",
@@ -2312,9 +2386,10 @@
     {
       "name": "Yavimaya Dryad",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Dryad",
-      "text": "Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)<br>When Yavimaya Dryad enters the battlefield, you may search your library for a Forest card and put it onto the battlefield tapped under target player's control. If you do, shuffle your library.",
+      "text": "Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)<br>When Yavimaya Dryad enters the battlefield, you may search your library for a Forest card, put it onto the battlefield tapped under target player's control, then shuffle.",
       "flavor": "The parched earth still shielded those few souls with the heart to call it home.",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
@@ -2332,6 +2407,7 @@
     {
       "name": "Agony Warp",
       "manaCost": "{U}{B}",
+      "sortedManaCost": "{U}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets -3/-0 until end of turn.<br>Target creature gets -0/-3 until end of turn.",
@@ -2352,6 +2428,7 @@
     {
       "name": "Architects of Will",
       "manaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{U}{B}",
       "cmc": 4,
       "type": "Artifact Creature - Human Wizard",
       "text": "When Architects of Will enters the battlefield, look at the top three cards of target player's library, then put them back in any order.<br>Cycling {U/B} ({U/B}, Discard this card: Draw a card.)",
@@ -2372,6 +2449,7 @@
     {
       "name": "Armadillo Cloak",
       "manaCost": "{1}{G}{W}",
+      "sortedManaCost": "{1}{W}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has trample.<br>Whenever enchanted creature deals damage, you gain that much life.",
@@ -2391,6 +2469,7 @@
     {
       "name": "Avatar of Discord",
       "manaCost": "{BR}{BR}{BR}",
+      "sortedManaCost": "{BR}{BR}{BR}",
       "cmc": 3,
       "type": "Creature - Avatar",
       "text": "({B/R} can be paid with either {B} or {R}.)<br>Flying<br>When Avatar of Discord enters the battlefield, sacrifice it unless you discard two cards.",
@@ -2411,6 +2490,7 @@
     {
       "name": "Batwing Brume",
       "manaCost": "{1}{WB}",
+      "sortedManaCost": "{1}{WB}",
       "cmc": 2,
       "type": "Instant",
       "text": "Prevent all combat damage that would be dealt this turn if {W} was spent to cast this spell. Each player loses 1 life for each attacking creature they control if {B} was spent to cast this spell. (Do both if {W}{B} was spent.)",
@@ -2430,6 +2510,7 @@
     {
       "name": "Bituminous Blast",
       "manaCost": "{3}{B}{R}",
+      "sortedManaCost": "{3}{B}{R}",
       "cmc": 5,
       "type": "Instant",
       "text": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)<br>Bituminous Blast deals 4 damage to target creature.",
@@ -2449,6 +2530,7 @@
     {
       "name": "Branching Bolt",
       "manaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{R}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one or both -<br>• Branching Bolt deals 3 damage to target creature with flying.<br>• Branching Bolt deals 3 damage to target creature without flying.",
@@ -2469,6 +2551,7 @@
     {
       "name": "Colossal Might",
       "manaCost": "{R}{G}",
+      "sortedManaCost": "{R}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +4/+2 and gains trample until end of turn.",
@@ -2489,6 +2572,7 @@
     {
       "name": "Ethersworn Shieldmage",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Artifact Creature - Vedalken Wizard",
       "text": "Flash<br>When Ethersworn Shieldmage enters the battlefield, prevent all damage that would be dealt to artifact creatures this turn.",
@@ -2508,6 +2592,7 @@
     {
       "name": "Fieldmist Borderpost",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Artifact",
       "text": "You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.<br>Fieldmist Borderpost enters the battlefield tapped.<br>{T}: Add {W} or {U}.",
@@ -2527,6 +2612,7 @@
     {
       "name": "Fires of Yavimaya",
       "manaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{R}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Creatures you control have haste.<br>Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.",
@@ -2546,6 +2632,7 @@
     {
       "name": "Heroes' Reunion",
       "manaCost": "{G}{W}",
+      "sortedManaCost": "{W}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target player gains 7 life.",
@@ -2566,9 +2653,10 @@
     {
       "name": "Kaervek the Merciless",
       "manaCost": "{5}{B}{R}",
+      "sortedManaCost": "{5}{B}{R}",
       "cmc": 7,
       "type": "Legendary Creature - Human Shaman",
-      "text": "Whenever an opponent casts a spell, Kaervek the Merciless deals damage to any target equal to that spell's converted mana cost.",
+      "text": "Whenever an opponent casts a spell, Kaervek the Merciless deals damage equal to that spell's mana value to any target.",
       "flavor": "\"Rats and jackals feast in his swath, but even they will not walk with him.\"<br>-Mangara",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
@@ -2586,6 +2674,7 @@
     {
       "name": "Magister Sphinx",
       "manaCost": "{4}{W}{U}{B}",
+      "sortedManaCost": "{4}{W}{U}{B}",
       "cmc": 7,
       "type": "Artifact Creature - Sphinx",
       "text": "Flying<br>When Magister Sphinx enters the battlefield, target player's life total becomes 10.",
@@ -2606,6 +2695,7 @@
     {
       "name": "Mistvein Borderpost",
       "manaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{U}{B}",
       "cmc": 3,
       "type": "Artifact",
       "text": "You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.<br>Mistvein Borderpost enters the battlefield tapped.<br>{T}: Add {U} or {B}.",
@@ -2625,6 +2715,7 @@
     {
       "name": "Pale Recluse",
       "manaCost": "{4}{G}{W}",
+      "sortedManaCost": "{4}{W}{G}",
       "cmc": 6,
       "type": "Creature - Spider",
       "text": "Reach (This creature can block creatures with flying.)<br>Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your library for a Forest or Plains card, reveal it, put it into your hand, then shuffle.)",
@@ -2644,6 +2735,7 @@
     {
       "name": "Rakdos Guildmage",
       "manaCost": "{BR}{BR}",
+      "sortedManaCost": "{BR}{BR}",
       "cmc": 2,
       "type": "Creature - Zombie Shaman",
       "text": "({B/R} can be paid with either {B} or {R}.)<br>{3}{B}, Discard a card: Target creature gets -2/-2 until end of turn.<br>{3}{R}: Create a 2/1 red Goblin creature token with haste. Exile it at the beginning of the next end step.",
@@ -2663,6 +2755,7 @@
     {
       "name": "Savage Twister",
       "manaCost": "{X}{R}{G}",
+      "sortedManaCost": "{X}{R}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Savage Twister deals X damage to each creature.",
@@ -2683,6 +2776,7 @@
     {
       "name": "Selesnya Guildmage",
       "manaCost": "{GW}{GW}",
+      "sortedManaCost": "{GW}{GW}",
       "cmc": 2,
       "type": "Creature - Elf Wizard",
       "text": "{3}{G}: Create a 1/1 green Saproling creature token.<br>{3}{W}: Creatures you control get +1/+1 until end of turn.",
@@ -2702,6 +2796,7 @@
     {
       "name": "Terminate",
       "manaCost": "{B}{R}",
+      "sortedManaCost": "{B}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target creature. It can't be regenerated.",
@@ -2722,6 +2817,7 @@
     {
       "name": "Torrent of Souls",
       "manaCost": "{4}{BR}",
+      "sortedManaCost": "{4}{BR}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Return up to one target creature card from your graveyard to the battlefield if {B} was spent to cast this spell. Creatures target player controls get +2/+0 and gain haste until end of turn if {R} was spent to cast this spell. (Do both if {B}{R} was spent.)",
@@ -2741,6 +2837,7 @@
     {
       "name": "Unbender Tine",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{T}: Untap another target permanent.",
@@ -2761,6 +2858,7 @@
     {
       "name": "Unmake",
       "manaCost": "{WB}{WB}{WB}",
+      "sortedManaCost": "{WB}{WB}{WB}",
       "cmc": 3,
       "type": "Instant",
       "text": "Exile target creature.",
@@ -2781,6 +2879,7 @@
     {
       "name": "Vampiric Dragon",
       "manaCost": "{6}{B}{R}",
+      "sortedManaCost": "{6}{B}{R}",
       "cmc": 8,
       "type": "Creature - Vampire Dragon",
       "text": "Flying<br>Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 counter on Vampiric Dragon.<br>{1}{R}: Vampiric Dragon deals 1 damage to target creature.",
@@ -2800,6 +2899,7 @@
     {
       "name": "Watchwolf",
       "manaCost": "{G}{W}",
+      "sortedManaCost": "{W}{G}",
       "cmc": 2,
       "type": "Creature - Wolf",
       "flavor": "Only in Ravnica do the wolves watch the flock.",
@@ -2819,6 +2919,7 @@
     {
       "name": "Wax",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +2/+2 until end of turn.",
@@ -2838,6 +2939,7 @@
     {
       "name": "Wane",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target enchantment.",
@@ -2857,6 +2959,7 @@
     {
       "name": "Aether Spellbomb",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{U}, Sacrifice Aether Spellbomb: Return target creature to its owner's hand.<br>{1}, Sacrifice Aether Spellbomb: Draw a card.",
@@ -2877,6 +2980,7 @@
     {
       "name": "Azorius Signet",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, {T}: Add {W}{U}.",
@@ -2897,6 +3001,7 @@
     {
       "name": "Dimir Signet",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, {T}: Add {U}{B}.",
@@ -2917,6 +3022,7 @@
     {
       "name": "Dreamstone Hedron",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact",
       "text": "{T}: Add {C}{C}{C}.<br>{3}, {T}, Sacrifice Dreamstone Hedron: Draw three cards.",
@@ -2937,6 +3043,7 @@
     {
       "name": "Duplicant",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Shapeshifter",
       "text": "Imprint - When Duplicant enters the battlefield, you may exile target nontoken creature.<br>As long as a card exiled with Duplicant is a creature card, Duplicant has the power, toughness, and creature types of the last creature card exiled with Duplicant. It's still a Shapeshifter.",
@@ -2956,6 +3063,7 @@
     {
       "name": "Everflowing Chalice",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "Multikicker {2}<br>Everflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.<br>{T}: Add {C} for each charge counter on Everflowing Chalice.",
@@ -2975,6 +3083,7 @@
     {
       "name": "Gruul Signet",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, {T}: Add {R}{G}.",
@@ -2995,6 +3104,7 @@
     {
       "name": "Juggernaut",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Juggernaut",
       "text": "Juggernaut attacks each combat if able.<br>Juggernaut can't be blocked by Walls.",
@@ -3015,6 +3125,7 @@
     {
       "name": "Lightning Greaves",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)<br>Equip {0}",
@@ -3035,6 +3146,7 @@
     {
       "name": "Lodestone Golem",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Golem",
       "text": "Nonartifact spells cost {1} more to cast.",
@@ -3055,6 +3167,7 @@
     {
       "name": "Memnarch",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Legendary Artifact Creature - Wizard",
       "text": "{1}{U}{U}: Target permanent becomes an artifact in addition to its other types. (This effect lasts indefinitely.)<br>{3}{U}: Gain control of target artifact. (This effect lasts indefinitely.)",
@@ -3075,6 +3188,7 @@
     {
       "name": "Obelisk of Esper",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{T}: Add {W}, {U}, or {B}.",
@@ -3095,6 +3209,7 @@
     {
       "name": "Rakdos Signet",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{1}, {T}: Add {B}{R}.",
@@ -3115,6 +3230,7 @@
     {
       "name": "Skullcage",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "At the beginning of each opponent's upkeep, Skullcage deals 2 damage to that player unless they have exactly three or exactly four cards in hand.",
@@ -3135,6 +3251,7 @@
     {
       "name": "Sorcerer's Strongbox",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{2}, {T}: Flip a coin. If you win the flip, sacrifice Sorcerer's Strongbox and draw three cards.",
@@ -3155,6 +3272,7 @@
     {
       "name": "Sun Droplet",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Whenever you're dealt damage, put that many charge counters on Sun Droplet.<br>At the beginning of each upkeep, you may remove a charge counter from Sun Droplet. If you do, you gain 1 life.",
@@ -3174,6 +3292,7 @@
     {
       "name": "Sundering Titan",
       "manaCost": "{8}",
+      "sortedManaCost": "{8}",
       "cmc": 8,
       "type": "Artifact Creature - Golem",
       "text": "When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
@@ -3193,6 +3312,7 @@
     {
       "name": "Synod Centurion",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
       "text": "When you control no other artifacts, sacrifice Synod Centurion.",
@@ -3213,6 +3333,7 @@
     {
       "name": "Synod Sanctum",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{2}, {T}: Exile target permanent you control.<br>{2}, Sacrifice Synod Sanctum: Return all cards exiled with Synod Sanctum to the battlefield under your control.",
@@ -3232,6 +3353,7 @@
     {
       "name": "Thran Dynamo",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{T}: Add {C}{C}{C}.",
@@ -3252,6 +3374,7 @@
     {
       "name": "Thunderstaff",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "As long as Thunderstaff is untapped, if a creature would deal combat damage to you, prevent 1 of that damage.<br>{2}, {T}: Attacking creatures get +1/+0 until end of turn.",
@@ -3271,6 +3394,7 @@
     {
       "name": "Artisan of Kozilek",
       "manaCost": "{9}",
+      "sortedManaCost": "{9}",
       "cmc": 9,
       "type": "Creature - Eldrazi",
       "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)",
@@ -3363,7 +3487,7 @@
       "name": "Krosan Verge",
       "cmc": 0,
       "type": "Land",
-      "text": "Krosan Verge enters the battlefield tapped.<br>{T}: Add {C}.<br>{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle your library.",
+      "text": "Krosan Verge enters the battlefield tapped.<br>{T}: Add {C}.<br>{2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle.",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "U",
@@ -3417,7 +3541,7 @@
       "name": "Nantuko Monastery",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}: Add {C}.<br>Threshold - {G}{W}: Nantuko Monastery becomes a 4/4 green and white Insect Monk creature with first strike until end of turn. It's still a land. Activate this ability only if seven or more cards are in your graveyard.",
+      "text": "{T}: Add {C}.<br>Threshold - {G}{W}: Nantuko Monastery becomes a 4/4 green and white Insect Monk creature with first strike until end of turn. It's still a land. Activate only if seven or more cards are in your graveyard.",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "U",
@@ -3471,7 +3595,7 @@
       "name": "Terramorphic Expanse",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "expansion": "ARC",
       "scryfallSetCode": "ARC",
       "rarity": "C",

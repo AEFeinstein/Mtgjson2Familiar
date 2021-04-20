@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "c8b9689b76349776a0702dadba8acfef",
+    "digest": "fadb42279c5480beae42970895e03952",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MBS_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MBS_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Accorder Paladin",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Knight",
       "text": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)",
@@ -80,6 +81,7 @@
     {
       "name": "Ardent Recruit",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human Soldier",
       "text": "Metalcraft - Ardent Recruit gets +2/+2 as long as you control three or more artifacts.",
@@ -138,6 +140,7 @@
     {
       "name": "Banishment Decree",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Instant",
       "text": "Put target artifact, creature, or enchantment on top of its owner's library.",
@@ -196,6 +199,7 @@
     {
       "name": "Choking Fumes",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Put a -1/-1 counter on each attacking creature.",
@@ -254,9 +258,10 @@
     {
       "name": "Divine Offering",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
-      "text": "Destroy target artifact. You gain life equal to its converted mana cost.",
+      "text": "Destroy target artifact. You gain life equal to its mana value.",
       "flavor": "\"The Phyrexians are vulnerable. Do not despair. We will prevail!\"<br>-Juryan, rebel leader",
       "expansion": "MBS",
       "scryfallSetCode": "MBS",
@@ -312,6 +317,7 @@
     {
       "name": "Frantic Salvage",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Put any number of target artifact cards from your graveyard on top of your library.<br>Draw a card.",
@@ -370,6 +376,7 @@
     {
       "name": "Gore Vassal",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Dog",
       "text": "Sacrifice Gore Vassal: Put a -1/-1 counter on target creature. Then if that creature's toughness is 1 or greater, regenerate it.",
@@ -428,6 +435,7 @@
     {
       "name": "Hero of Bladehold",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Human Knight",
       "text": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)<br>Whenever Hero of Bladehold attacks, create two 1/1 white Soldier creature tokens that are tapped and attacking.",
@@ -485,6 +493,7 @@
     {
       "name": "Kemba's Legion",
       "manaCost": "{5}{W}{W}",
+      "sortedManaCost": "{5}{W}{W}",
       "cmc": 7,
       "type": "Creature - Cat Soldier",
       "text": "Vigilance<br>Kemba's Legion can block an additional creature each combat for each Equipment attached to Kemba's Legion.",
@@ -543,6 +552,7 @@
     {
       "name": "Leonin Relic-Warder",
       "manaCost": "{W}{W}",
+      "sortedManaCost": "{W}{W}",
       "cmc": 2,
       "type": "Creature - Cat Cleric",
       "text": "When Leonin Relic-Warder enters the battlefield, you may exile target artifact or enchantment.<br>When Leonin Relic-Warder leaves the battlefield, return the exiled card to the battlefield under its owner's control.",
@@ -600,6 +610,7 @@
     {
       "name": "Leonin Skyhunter",
       "manaCost": "{W}{W}",
+      "sortedManaCost": "{W}{W}",
       "cmc": 2,
       "type": "Creature - Cat Knight",
       "text": "Flying",
@@ -658,6 +669,7 @@
     {
       "name": "Loxodon Partisan",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Creature - Elephant Soldier",
       "text": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)",
@@ -716,6 +728,7 @@
     {
       "name": "Master's Call",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Create two 1/1 colorless Myr artifact creature tokens.",
@@ -774,6 +787,7 @@
     {
       "name": "Mirran Crusader",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Human Knight",
       "text": "Double strike, protection from black and from green",
@@ -832,6 +846,7 @@
     {
       "name": "Phyrexian Rebirth",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Destroy all creatures, then create an X/X colorless Horror artifact creature token, where X is the number of creatures destroyed this way.",
@@ -890,6 +905,7 @@
     {
       "name": "Priests of Norn",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Cleric",
       "text": "Vigilance<br>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
@@ -948,6 +964,7 @@
     {
       "name": "Tine Shrike",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Bird",
       "text": "Flying<br>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
@@ -1006,6 +1023,7 @@
     {
       "name": "Victory's Herald",
       "manaCost": "{3}{W}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}{W}",
       "cmc": 6,
       "type": "Creature - Angel",
       "text": "Flying<br>Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink until end of turn.",
@@ -1064,6 +1082,7 @@
     {
       "name": "White Sun's Zenith",
       "manaCost": "{X}{W}{W}{W}",
+      "sortedManaCost": "{X}{W}{W}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Create X 2/2 white Cat creature tokens. Shuffle White Sun's Zenith into its owner's library.",
@@ -1122,6 +1141,7 @@
     {
       "name": "Blue Sun's Zenith",
       "manaCost": "{X}{U}{U}{U}",
+      "sortedManaCost": "{X}{U}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.",
@@ -1180,6 +1200,7 @@
     {
       "name": "Consecrated Sphinx",
       "manaCost": "{4}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}",
       "cmc": 6,
       "type": "Creature - Sphinx",
       "text": "Flying<br>Whenever an opponent draws a card, you may draw two cards.",
@@ -1238,6 +1259,7 @@
     {
       "name": "Corrupted Conscience",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>You control enchanted creature.<br>Enchanted creature has infect. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
@@ -1296,6 +1318,7 @@
     {
       "name": "Cryptoplasm",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Shapeshifter",
       "text": "At the beginning of your upkeep, you may have Cryptoplasm become a copy of another target creature, except it has this ability.",
@@ -1354,6 +1377,7 @@
     {
       "name": "Distant Memories",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Search your library for a card, exile it, then shuffle. Any opponent may have you put that card into your hand. If no player does, you draw three cards.",
@@ -1412,6 +1436,7 @@
     {
       "name": "Fuel for the Cause",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Counter target spell, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -1470,6 +1495,7 @@
     {
       "name": "Mirran Spy",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Drone",
       "text": "Flying<br>Whenever you cast an artifact spell, you may untap target creature.",
@@ -1528,6 +1554,7 @@
     {
       "name": "Mitotic Manipulation",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Look at the top seven cards of your library. You may put one of those cards onto the battlefield if it has the same name as a permanent. Put the rest on the bottom of your library in any order.",
@@ -1586,6 +1613,7 @@
     {
       "name": "Neurok Commando",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Human Rogue",
       "text": "Shroud (This creature can't be the target of spells or abilities.)<br>Whenever Neurok Commando deals combat damage to a player, you may draw a card.",
@@ -1644,6 +1672,7 @@
     {
       "name": "Oculus",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Homunculus",
       "text": "When Oculus dies, you may draw a card.",
@@ -1702,6 +1731,7 @@
     {
       "name": "Quicksilver Geyser",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "Return up to two target nonland permanents to their owners' hands.",
@@ -1760,6 +1790,7 @@
     {
       "name": "Serum Raker",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Drake",
       "text": "Flying<br>When Serum Raker dies, each player discards a card.",
@@ -1818,6 +1849,7 @@
     {
       "name": "Spire Serpent",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Serpent",
       "text": "Defender<br>Metalcraft - As long as you control three or more artifacts, Spire Serpent gets +2/+2 and can attack as though it didn't have defender.",
@@ -1876,6 +1908,7 @@
     {
       "name": "Steel Sabotage",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Choose one -<br>• Counter target artifact spell.<br>• Return target artifact to its owner's hand.",
@@ -1934,9 +1967,10 @@
     {
       "name": "Treasure Mage",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
-      "text": "When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Treasure Mage enters the battlefield, you may search your library for an artifact card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.",
       "expansion": "MBS",
       "scryfallSetCode": "MBS",
       "rarity": "U",
@@ -1991,6 +2025,7 @@
     {
       "name": "Turn the Tide",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Creatures your opponents control get -2/-0 until end of turn.",
@@ -2049,6 +2084,7 @@
     {
       "name": "Vedalken Anatomist",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Vedalken Wizard",
       "text": "{2}{U}, {T}: Put a -1/-1 counter on target creature. You may tap or untap that creature.",
@@ -2107,6 +2143,7 @@
     {
       "name": "Vedalken Infuser",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Vedalken Wizard",
       "text": "At the beginning of your upkeep, you may put a charge counter on target artifact.",
@@ -2165,6 +2202,7 @@
     {
       "name": "Vivisection",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Draw three cards.",
@@ -2223,6 +2261,7 @@
     {
       "name": "Black Sun's Zenith",
       "manaCost": "{X}{B}{B}",
+      "sortedManaCost": "{X}{B}{B}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Put X -1/-1 counters on each creature. Shuffle Black Sun's Zenith into its owner's library.",
@@ -2281,6 +2320,7 @@
     {
       "name": "Caustic Hound",
       "manaCost": "{5}{B}",
+      "sortedManaCost": "{5}{B}",
       "cmc": 6,
       "type": "Creature - Dog",
       "text": "When Caustic Hound dies, each player loses 4 life.",
@@ -2339,6 +2379,7 @@
     {
       "name": "Flensermite",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Gremlin",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
@@ -2396,6 +2437,7 @@
     {
       "name": "Flesh-Eater Imp",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Imp",
       "text": "Flying<br>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>Sacrifice a creature: Flesh-Eater Imp gets +1/+1 until end of turn.",
@@ -2453,6 +2495,7 @@
     {
       "name": "Go for the Throat",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target nonartifact creature.",
@@ -2511,6 +2554,7 @@
     {
       "name": "Gruesome Encore",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. Exile it at the beginning of the next end step. If that creature would leave the battlefield, exile it instead of putting it anywhere else.",
@@ -2568,6 +2612,7 @@
     {
       "name": "Horrifying Revelation",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player discards a card, then mills a card.",
@@ -2626,6 +2671,7 @@
     {
       "name": "Massacre Wurm",
       "manaCost": "{3}{B}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{B}",
       "cmc": 6,
       "type": "Creature - Wurm",
       "text": "When Massacre Wurm enters the battlefield, creatures your opponents control get -2/-2 until end of turn.<br>Whenever a creature an opponent controls dies, that player loses 2 life.",
@@ -2683,6 +2729,7 @@
     {
       "name": "Morbid Plunder",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Return up to two target creature cards from your graveyard to your hand.",
@@ -2741,6 +2788,7 @@
     {
       "name": "Nested Ghoul",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Zombie Warrior",
       "text": "Whenever a source deals damage to Nested Ghoul, create a 2/2 black Zombie creature token.",
@@ -2799,6 +2847,7 @@
     {
       "name": "Phyresis",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has infect. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
@@ -2857,6 +2906,7 @@
     {
       "name": "Phyrexian Crusader",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Zombie Knight",
       "text": "First strike, protection from red and from white<br>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
@@ -2914,6 +2964,7 @@
     {
       "name": "Phyrexian Rager",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Horror",
       "text": "When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life.",
@@ -2972,6 +3023,7 @@
     {
       "name": "Phyrexian Vatmother",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Horror",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>At the beginning of your upkeep, you get a poison counter.",
@@ -3029,6 +3081,7 @@
     {
       "name": "Sangromancer",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Vampire Shaman",
       "text": "Flying<br>Whenever a creature an opponent controls dies, you may gain 3 life.<br>Whenever an opponent discards a card, you may gain 3 life.",
@@ -3086,6 +3139,7 @@
     {
       "name": "Scourge Servant",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Creature - Zombie",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
@@ -3144,6 +3198,7 @@
     {
       "name": "Septic Rats",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Rat",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 until end of turn.",
@@ -3201,6 +3256,7 @@
     {
       "name": "Spread the Sickness",
       "manaCost": "{4}{B}",
+      "sortedManaCost": "{4}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Destroy target creature, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -3259,6 +3315,7 @@
     {
       "name": "Virulent Wound",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Put a -1/-1 counter on target creature. When that creature dies this turn, its controller gets a poison counter.",
@@ -3317,6 +3374,7 @@
     {
       "name": "Blisterstick Shaman",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Shaman",
       "text": "When Blisterstick Shaman enters the battlefield, it deals 1 damage to any target.",
@@ -3375,6 +3433,7 @@
     {
       "name": "Burn the Impure",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Burn the Impure deals 3 damage to target creature. If that creature has infect, Burn the Impure deals 3 damage to that creature's controller.",
@@ -3433,6 +3492,7 @@
     {
       "name": "Concussive Bolt",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Concussive Bolt deals 4 damage to target player or planeswalker.<br>Metalcraft - If you control three or more artifacts, creatures controlled by that player or by that planeswalker's controller can't block this turn.",
@@ -3491,6 +3551,7 @@
     {
       "name": "Crush",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Destroy target noncreature artifact.",
@@ -3549,6 +3610,7 @@
     {
       "name": "Galvanoth",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Beast",
       "text": "At the beginning of your upkeep, you may look at the top card of your library. You may cast it without paying its mana cost if it's an instant or sorcery spell.",
@@ -3607,6 +3669,7 @@
     {
       "name": "Gnathosaur",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Dinosaur",
       "text": "Sacrifice an artifact: Gnathosaur gains trample until end of turn.",
@@ -3665,6 +3728,7 @@
     {
       "name": "Goblin Wardriver",
       "manaCost": "{R}{R}",
+      "sortedManaCost": "{R}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Warrior",
       "text": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)",
@@ -3723,6 +3787,7 @@
     {
       "name": "Hellkite Igniter",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Creature - Dragon",
       "text": "Flying, haste<br>{1}{R}: Hellkite Igniter gets +X/+0 until end of turn, where X is the number of artifacts you control.",
@@ -3781,6 +3846,7 @@
     {
       "name": "Hero of Oxid Ridge",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Human Knight",
       "text": "Haste<br>Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)<br>Whenever Hero of Oxid Ridge attacks, creatures with power 1 or less can't block this turn.",
@@ -3838,6 +3904,7 @@
     {
       "name": "Into the Core",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Instant",
       "text": "Exile two target artifacts.",
@@ -3896,6 +3963,7 @@
     {
       "name": "Koth's Courier",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Human Rogue",
       "text": "Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)",
@@ -3954,6 +4022,7 @@
     {
       "name": "Kuldotha Flamefiend",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "When Kuldotha Flamefiend enters the battlefield, you may sacrifice an artifact. If you do, Kuldotha Flamefiend deals 4 damage divided as you choose among any number of targets.",
@@ -4011,6 +4080,7 @@
     {
       "name": "Kuldotha Ringleader",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Giant Berserker",
       "text": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)<br>Kuldotha Ringleader attacks each combat if able.",
@@ -4069,6 +4139,7 @@
     {
       "name": "Metallic Mastery",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Gain control of target artifact until end of turn. Untap that artifact. It gains haste until end of turn.",
@@ -4127,6 +4198,7 @@
     {
       "name": "Ogre Resister",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Ogre",
       "flavor": "He didn't have a word for \"home,\" but he knew it was something to be defended.",
@@ -4184,6 +4256,7 @@
     {
       "name": "Rally the Forces",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Attacking creatures get +1/+0 and gain first strike until end of turn.",
@@ -4242,6 +4315,7 @@
     {
       "name": "Red Sun's Zenith",
       "manaCost": "{X}{R}",
+      "sortedManaCost": "{X}{R}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Red Sun's Zenith deals X damage to any target. If a creature dealt damage this way would die this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library.",
@@ -4299,6 +4373,7 @@
     {
       "name": "Slagstorm",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Choose one -<br>• Slagstorm deals 3 damage to each creature.<br>• Slagstorm deals 3 damage to each player.",
@@ -4357,6 +4432,7 @@
     {
       "name": "Spiraling Duelist",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Human Berserker",
       "text": "Metalcraft - Spiraling Duelist has double strike as long as you control three or more artifacts.",
@@ -4415,6 +4491,7 @@
     {
       "name": "Blightwidow",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Spider",
       "text": "Reach (This creature can block creatures with flying.)<br>Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
@@ -4472,6 +4549,7 @@
     {
       "name": "Creeping Corrosion",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all artifacts.",
@@ -4530,6 +4608,7 @@
     {
       "name": "Fangren Marauder",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Creature - Beast",
       "text": "Whenever an artifact is put into a graveyard from the battlefield, you may gain 5 life.",
@@ -4588,6 +4667,7 @@
     {
       "name": "Glissa's Courier",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Horror",
       "text": "Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)",
@@ -4646,9 +4726,10 @@
     {
       "name": "Green Sun's Zenith",
       "manaCost": "{X}{G}",
+      "sortedManaCost": "{X}{G}",
       "cmc": 1,
       "type": "Sorcery",
-      "text": "Search your library for a green creature card with converted mana cost X or less, put it onto the battlefield, then shuffle your library. Shuffle Green Sun's Zenith into its owner's library.",
+      "text": "Search your library for a green creature card with mana value X or less, put it onto the battlefield, then shuffle. Shuffle Green Sun's Zenith into its owner's library.",
       "flavor": "As the green sun crowned, Phyrexian prophecies glowed on the Tree of Tales.",
       "expansion": "MBS",
       "scryfallSetCode": "MBS",
@@ -4704,6 +4785,7 @@
     {
       "name": "Lead the Stampede",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.",
@@ -4761,6 +4843,7 @@
     {
       "name": "Melira's Keepers",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Creature - Human Warrior",
       "text": "Melira's Keepers can't have counters put on it.",
@@ -4819,6 +4902,7 @@
     {
       "name": "Mirran Mettle",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +2/+2 until end of turn.<br>Metalcraft - That creature gets +4/+4 until end of turn instead if you control three or more artifacts.",
@@ -4877,6 +4961,7 @@
     {
       "name": "Phyrexian Hydra",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Hydra",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>If damage would be dealt to Phyrexian Hydra, prevent that damage. Put a -1/-1 counter on Phyrexian Hydra for each 1 damage prevented this way.",
@@ -4934,6 +5019,7 @@
     {
       "name": "Pistus Strike",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target creature with flying. Its controller gets a poison counter.",
@@ -4992,6 +5078,7 @@
     {
       "name": "Plaguemaw Beast",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Beast",
       "text": "{T}, Sacrifice a creature: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -5050,6 +5137,7 @@
     {
       "name": "Praetor's Counsel",
       "manaCost": "{5}{G}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}{G}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Return all cards from your graveyard to your hand. Exile Praetor's Counsel. You have no maximum hand size for the rest of the game.",
@@ -5108,6 +5196,7 @@
     {
       "name": "Quilled Slagwurm",
       "manaCost": "{4}{G}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}{G}",
       "cmc": 7,
       "type": "Creature - Wurm",
       "flavor": "Vorinclex removed its teeth so it wouldn't waste time chewing before moving to the next kill.",
@@ -5165,6 +5254,7 @@
     {
       "name": "Rot Wolf",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Wolf",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>Whenever a creature dealt damage by Rot Wolf this turn dies, you may draw a card.",
@@ -5222,6 +5312,7 @@
     {
       "name": "Tangle Mantis",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Insect",
       "text": "Trample",
@@ -5280,6 +5371,7 @@
     {
       "name": "Thrun, the Last Troll",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Troll Shaman",
       "text": "This spell can't be countered.<br>Hexproof (This creature can't be the target of spells or abilities your opponents control.)<br>{1}{G}: Regenerate Thrun, the Last Troll.",
@@ -5338,6 +5430,7 @@
     {
       "name": "Unnatural Predation",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +1/+1 and gains trample until end of turn.",
@@ -5396,6 +5489,7 @@
     {
       "name": "Viridian Corrupter",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Elf Shaman",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>When Viridian Corrupter enters the battlefield, destroy target artifact.",
@@ -5453,9 +5547,10 @@
     {
       "name": "Viridian Emissary",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Scout",
-      "text": "When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "expansion": "MBS",
       "scryfallSetCode": "MBS",
       "rarity": "C",
@@ -5510,6 +5605,7 @@
     {
       "name": "Glissa, the Traitor",
       "manaCost": "{B}{G}{G}",
+      "sortedManaCost": "{B}{G}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Zombie Elf",
       "text": "First strike, deathtouch<br>Whenever a creature an opponent controls dies, you may return target artifact card from your graveyard to your hand.",
@@ -5567,6 +5663,7 @@
     {
       "name": "Tezzeret, Agent of Bolas",
       "manaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{U}{B}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Tezzeret",
       "text": "[+1]: Look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.<br>[−1]: Target artifact becomes an artifact creature with base power and toughness 5/5.<br>[−4]: Target player loses X life and you gain X life, where X is twice the number of artifacts you control.",
@@ -5623,6 +5720,7 @@
     {
       "name": "Bladed Sentinel",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
       "text": "{W}: Bladed Sentinel gains vigilance until end of turn.",
@@ -5681,6 +5779,7 @@
     {
       "name": "Blightsteel Colossus",
       "manaCost": "{12}",
+      "sortedManaCost": "{12}",
       "cmc": 12,
       "type": "Artifact Creature - Golem",
       "text": "Trample, infect, indestructible<br>If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blightsteel Colossus and shuffle it into its owner's library instead.",
@@ -5738,6 +5837,7 @@
     {
       "name": "Bonehoard",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +X/+X, where X is the number of creature cards in all graveyards.<br>Equip {2}",
@@ -5795,6 +5895,7 @@
     {
       "name": "Brass Squire",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Myr",
       "text": "{T}: Attach target Equipment you control to target creature you control.",
@@ -5853,6 +5954,7 @@
     {
       "name": "Copper Carapace",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and can't block.<br>Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -5911,6 +6013,7 @@
     {
       "name": "Core Prowler",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Horror",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>When Core Prowler dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -5968,6 +6071,7 @@
     {
       "name": "Darksteel Plate",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Indestructible<br>Equipped creature has indestructible.<br>Equip {2}",
@@ -6026,6 +6130,7 @@
     {
       "name": "Decimator Web",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{4}, {T}: Target opponent loses 2 life, gets a poison counter, then mills six cards.",
@@ -6084,6 +6189,7 @@
     {
       "name": "Dross Ripper",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Dog",
       "text": "{2}{B}: Dross Ripper gets +1/+1 until end of turn.",
@@ -6142,6 +6248,7 @@
     {
       "name": "Flayer Husk",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +1/+1.<br>Equip {2}",
@@ -6199,6 +6306,7 @@
     {
       "name": "Gust-Skimmer",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Insect",
       "text": "{U}: Gust-Skimmer gains flying until end of turn.",
@@ -6257,6 +6365,7 @@
     {
       "name": "Hexplate Golem",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Golem",
       "flavor": "\"Use everything. Iron, rust, scrap . . . even the ground must join our cause.\"<br>-Ezuri, renegade leader",
@@ -6314,6 +6423,7 @@
     {
       "name": "Ichor Wellspring",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "When Ichor Wellspring enters the battlefield or is put into a graveyard from the battlefield, draw a card.",
@@ -6372,6 +6482,7 @@
     {
       "name": "Knowledge Pool",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact",
       "text": "Imprint - When Knowledge Pool enters the battlefield, each player exiles the top three cards of their library.<br>Whenever a player casts a spell from their hand, that player exiles it. If the player does, they may cast a spell from among other cards exiled with Knowledge Pool without paying its mana cost.",
@@ -6429,6 +6540,7 @@
     {
       "name": "Lumengrid Gargoyle",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Gargoyle",
       "text": "Flying",
@@ -6487,6 +6599,7 @@
     {
       "name": "Magnetic Mine",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "Whenever another artifact is put into a graveyard from the battlefield, Magnetic Mine deals 2 damage to that artifact's controller.",
@@ -6544,6 +6657,7 @@
     {
       "name": "Mirrorworks",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "Whenever another nontoken artifact enters the battlefield under your control, you may pay {2}. If you do, create a token that's a copy of that artifact.",
@@ -6602,6 +6716,7 @@
     {
       "name": "Mortarpod",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +0/+1 and has \"Sacrifice this creature: This creature deals 1 damage to any target.\"<br>Equip {2}",
@@ -6659,6 +6774,7 @@
     {
       "name": "Myr Sire",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Myr",
       "text": "When Myr Sire dies, create a 1/1 colorless Myr artifact creature token.",
@@ -6717,6 +6833,7 @@
     {
       "name": "Myr Turbine",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "{T}: Create a 1/1 colorless Myr artifact creature token.<br>{T}, Tap five untapped Myr you control: Search your library for a Myr creature card, put it onto the battlefield, then shuffle.",
@@ -6774,6 +6891,7 @@
     {
       "name": "Myr Welder",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Myr",
       "text": "Imprint - {T}: Exile target artifact card from a graveyard.<br>Myr Welder has all activated abilities of all cards exiled with it.",
@@ -6832,6 +6950,7 @@
     {
       "name": "Peace Strider",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
       "text": "When Peace Strider enters the battlefield, you gain 3 life.",
@@ -6890,6 +7009,7 @@
     {
       "name": "Phyrexian Digester",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Construct",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)",
@@ -6948,6 +7068,7 @@
     {
       "name": "Phyrexian Juggernaut",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Juggernaut",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>Phyrexian Juggernaut attacks each combat if able.",
@@ -7006,6 +7127,7 @@
     {
       "name": "Phyrexian Revoker",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Horror",
       "text": "As Phyrexian Revoker enters the battlefield, choose a nonland card name.<br>Activated abilities of sources with the chosen name can't be activated.",
@@ -7064,6 +7186,7 @@
     {
       "name": "Pierce Strider",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
       "text": "When Pierce Strider enters the battlefield, target opponent loses 3 life.",
@@ -7122,6 +7245,7 @@
     {
       "name": "Piston Sledge",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "When Piston Sledge enters the battlefield, attach it to target creature you control.<br>Equipped creature gets +3/+1.<br>Equip-Sacrifice an artifact.",
@@ -7180,6 +7304,7 @@
     {
       "name": "Plague Myr",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Myr",
       "text": "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)<br>{T}: Add {C}.",
@@ -7238,6 +7363,7 @@
     {
       "name": "Psychosis Crawler",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact Creature - Horror",
       "text": "Psychosis Crawler's power and toughness are each equal to the number of cards in your hand.<br>Whenever you draw a card, each opponent loses 1 life.",
@@ -7296,6 +7422,7 @@
     {
       "name": "Razorfield Rhino",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Rhino",
       "text": "Metalcraft - Razorfield Rhino gets +2/+2 as long as you control three or more artifacts.",
@@ -7354,6 +7481,7 @@
     {
       "name": "Rusted Slasher",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Horror",
       "text": "Sacrifice an artifact: Regenerate Rusted Slasher.",
@@ -7412,6 +7540,7 @@
     {
       "name": "Shimmer Myr",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Myr",
       "text": "Flash<br>You may cast artifact spells as though they had flash.",
@@ -7470,6 +7599,7 @@
     {
       "name": "Shriekhorn",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "Shriekhorn enters the battlefield with three charge counters on it.<br>{T}, Remove a charge counter from Shriekhorn: Target player mills two cards.",
@@ -7527,6 +7657,7 @@
     {
       "name": "Signal Pest",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact Creature - Pest",
       "text": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)<br>Signal Pest can't be blocked except by creatures with flying or reach.",
@@ -7585,6 +7716,7 @@
     {
       "name": "Silverskin Armor",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+1 and is an artifact in addition to its other types.<br>Equip {2}",
@@ -7643,6 +7775,7 @@
     {
       "name": "Skinwing",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +2/+2 and has flying.<br>Equip {6}",
@@ -7700,6 +7833,7 @@
     {
       "name": "Sphere of the Suns",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "Sphere of the Suns enters the battlefield tapped and with three charge counters on it.<br>{T}, Remove a charge counter from Sphere of the Suns: Add one mana of any color.",
@@ -7757,6 +7891,7 @@
     {
       "name": "Spin Engine",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Construct",
       "text": "{R}: Target creature can't block Spin Engine this turn.",
@@ -7815,6 +7950,7 @@
     {
       "name": "Spine of Ish Sah",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact",
       "text": "When Spine of Ish Sah enters the battlefield, destroy target permanent.<br>When Spine of Ish Sah is put into a graveyard from the battlefield, return Spine of Ish Sah to its owner's hand.",
@@ -7872,6 +8008,7 @@
     {
       "name": "Strandwalker",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact - Equipment",
       "text": "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)<br>Equipped creature gets +2/+4 and has reach.<br>Equip {4}",
@@ -7929,6 +8066,7 @@
     {
       "name": "Sword of Feast and Famine",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from black and from green.<br>Whenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.<br>Equip {2}",
@@ -7986,6 +8124,7 @@
     {
       "name": "Tangle Hulk",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact Creature - Beast",
       "text": "{2}{G}: Regenerate Tangle Hulk.",
@@ -8044,6 +8183,7 @@
     {
       "name": "Thopter Assembly",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Thopter",
       "text": "Flying<br>At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner's hand and create five 1/1 colorless Thopter artifact creature tokens with flying.",
@@ -8101,6 +8241,7 @@
     {
       "name": "Titan Forge",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{3}, {T}: Put a charge counter on Titan Forge.<br>{T}, Remove three charge counters from Titan Forge: Create a 9/9 colorless Golem artifact creature token.",
@@ -8158,6 +8299,7 @@
     {
       "name": "Training Drone",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Drone",
       "text": "Training Drone can't attack or block unless it's equipped.",
@@ -8216,6 +8358,7 @@
     {
       "name": "Viridian Claw",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+0 and has first strike.<br>Equip {1}",

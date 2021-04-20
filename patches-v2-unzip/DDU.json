@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "728f3c74d91b45fd297555da6f7cc888",
+    "digest": "ce539171e096f23150051ec165c8e976",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDU_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDU_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Ezuri, Renegade Leader",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Warrior",
       "text": "{G}: Regenerate another target Elf.<br>{2}{G}{G}{G}: Elf creatures you control get +3/+3 and gain trample until end of turn.",
@@ -47,6 +48,7 @@
     {
       "name": "Dwynen, Gilt-Leaf Daen",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Elf Warrior",
       "text": "Reach<br>Other Elf creatures you control get +1/+1.<br>Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control.",
@@ -72,6 +74,7 @@
     {
       "name": "Dwynen's Elite",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Warrior",
       "text": "When Dwynen's Elite enters the battlefield, if you control another Elf, create a 1/1 green Elf Warrior creature token.",
@@ -97,9 +100,10 @@
     {
       "name": "Elvish Aberration",
       "manaCost": "{5}{G}",
+      "sortedManaCost": "{5}{G}",
       "cmc": 6,
       "type": "Creature - Elf Mutant",
-      "text": "{T}: Add {G}{G}{G}.<br>Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "{T}: Add {G}{G}{G}.<br>Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)",
       "expansion": "DDU",
       "scryfallSetCode": "DDU",
       "rarity": "C",
@@ -121,6 +125,7 @@
     {
       "name": "Elvish Archdruid",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
       "text": "Other Elf creatures you control get +1/+1.<br>{T}: Add {G} for each Elf you control.",
@@ -146,6 +151,7 @@
     {
       "name": "Elvish Branchbender",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Druid",
       "text": "{T}: Until end of turn, target Forest becomes an X/X Treefolk creature in addition to its other types, where X is the number of Elves you control.",
@@ -171,6 +177,7 @@
     {
       "name": "Elvish Mystic",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {G}.",
@@ -196,6 +203,7 @@
     {
       "name": "Elvish Vanguard",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Warrior",
       "text": "Whenever another Elf enters the battlefield, put a +1/+1 counter on Elvish Vanguard.",
@@ -221,6 +229,7 @@
     {
       "name": "Ezuri's Archers",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Elf Archer",
       "text": "Reach (This creature can block creatures with flying.)<br>Whenever Ezuri's Archers blocks a creature with flying, Ezuri's Archers gets +3/+0 until end of turn.",
@@ -246,9 +255,10 @@
     {
       "name": "Fierce Empath",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf",
-      "text": "When Fierce Empath enters the battlefield, you may search your library for a creature card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Fierce Empath enters the battlefield, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.",
       "expansion": "DDU",
       "scryfallSetCode": "DDU",
       "rarity": "C",
@@ -270,6 +280,7 @@
     {
       "name": "Gladehart Cavalry",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Elf Knight",
       "text": "When Gladehart Cavalry enters the battlefield, support 6. (Put a +1/+1 counter on each of up to six other target creatures.)<br>Whenever a creature you control with a +1/+1 counter on it dies, you gain 2 life.",
@@ -294,6 +305,7 @@
     {
       "name": "Ivy Lane Denizen",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elf Warrior",
       "text": "Whenever another green creature enters the battlefield under your control, put a +1/+1 counter on target creature.",
@@ -319,6 +331,7 @@
     {
       "name": "Jagged-Scar Archers",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Elf Archer",
       "text": "Jagged-Scar Archers's power and toughness are each equal to the number of Elves you control.<br>{T}: Jagged-Scar Archers deals damage equal to its power to target creature with flying.",
@@ -343,9 +356,10 @@
     {
       "name": "Krosan Tusker",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Boar Beast",
-      "text": "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)<br>When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library. (Do this before you draw.)",
+      "text": "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)<br>When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle. (Do this before you draw.)",
       "expansion": "DDU",
       "scryfallSetCode": "DDU",
       "rarity": "C",
@@ -367,6 +381,7 @@
     {
       "name": "Kujar Seedsculptor",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Druid",
       "text": "When Kujar Seedsculptor enters the battlefield, put a +1/+1 counter on target creature you control.",
@@ -392,6 +407,7 @@
     {
       "name": "Lead the Stampede",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.",
@@ -416,6 +432,7 @@
     {
       "name": "Leaf Gilder",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Druid",
       "text": "{T}: Add {G}.",
@@ -441,6 +458,7 @@
     {
       "name": "Llanowar Empath",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Elf Shaman",
       "text": "When Llanowar Empath enters the battlefield, scry 2, then reveal the top card of your library. If it's a creature card, put it into your hand. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
@@ -465,6 +483,7 @@
     {
       "name": "Naturalize",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target artifact or enchantment.",
@@ -490,6 +509,7 @@
     {
       "name": "Nature's Way",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target creature you control gains vigilance and trample until end of turn. It deals damage equal to its power to target creature you don't control.",
@@ -515,6 +535,7 @@
     {
       "name": "Nissa's Judgment",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Support 2. (Put a +1/+1 counter on each of up to two target creatures.)<br>Choose up to one target creature an opponent controls. Each creature you control with a +1/+1 counter on it deals damage equal to its power to that creature.",
@@ -539,6 +560,7 @@
     {
       "name": "Regal Force",
       "manaCost": "{4}{G}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}{G}",
       "cmc": 7,
       "type": "Creature - Elemental",
       "text": "When Regal Force enters the battlefield, draw a card for each green creature you control.",
@@ -564,6 +586,7 @@
     {
       "name": "Sylvan Advocate",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Druid Ally",
       "text": "Vigilance<br>As long as you control six or more lands, Sylvan Advocate and land creatures you control get +2/+2.",
@@ -589,6 +612,7 @@
     {
       "name": "Talara's Battalion",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Warrior",
       "text": "Cast this spell only if you've cast another green spell this turn.<br>Trample",
@@ -614,6 +638,7 @@
     {
       "name": "Viridian Shaman",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Shaman",
       "text": "When Viridian Shaman enters the battlefield, destroy target artifact.",
@@ -639,6 +664,7 @@
     {
       "name": "Wildheart Invoker",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Elf Shaman",
       "text": "{8}: Target creature gets +5/+5 and gains trample until end of turn.",
@@ -664,6 +690,7 @@
     {
       "name": "Yeva, Nature's Herald",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Elf Shaman",
       "text": "Flash (You may cast this spell any time you could cast an instant.)<br>You may cast green creature spells as though they had flash.",
@@ -830,6 +857,7 @@
     {
       "name": "Goblin Welder",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Artificer",
       "text": "{T}: Choose target artifact a player controls and target artifact card in that player's graveyard. If both targets are still legal as this ability resolves, that player simultaneously sacrifices the artifact and returns the artifact card to the battlefield.",
@@ -854,6 +882,7 @@
     {
       "name": "Artificer's Epiphany",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Draw two cards. If you control no artifacts, discard a card.",
@@ -879,6 +908,7 @@
     {
       "name": "Etherium Sculptor",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Artifact Creature - Vedalken Artificer",
       "text": "Artifact spells you cast cost {1} less to cast.",
@@ -904,6 +934,7 @@
     {
       "name": "Faerie Mechanist",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Artifact Creature - Faerie Artificer",
       "text": "Flying<br>When Faerie Mechanist enters the battlefield, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
@@ -928,6 +959,7 @@
     {
       "name": "Riddlesmith",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Artificer",
       "text": "Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.",
@@ -953,9 +985,10 @@
     {
       "name": "Treasure Mage",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
-      "text": "When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Treasure Mage enters the battlefield, you may search your library for an artifact card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.",
       "expansion": "DDU",
       "scryfallSetCode": "DDU",
       "rarity": "U",
@@ -977,6 +1010,7 @@
     {
       "name": "Trinket Mage",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "When Trinket Mage enters the battlefield, you may search your library for an artifact card with mana value 1 or less, reveal that card, put it into your hand, then shuffle.",
@@ -1001,6 +1035,7 @@
     {
       "name": "Trophy Mage",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "When Trophy Mage enters the battlefield, you may search your library for an artifact card with mana value 3, reveal it, put it into your hand, then shuffle.",
@@ -1026,6 +1061,7 @@
     {
       "name": "Whirler Rogue",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Human Rogue Artificer",
       "text": "When Whirler Rogue enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.<br>Tap two untapped artifacts you control: Target creature can't be blocked this turn.",
@@ -1050,6 +1086,7 @@
     {
       "name": "Barrage Ogre",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Ogre Warrior",
       "text": "{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to any target.",
@@ -1075,6 +1112,7 @@
     {
       "name": "Galvanic Blast",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Galvanic Blast deals 2 damage to any target.<br>Metalcraft - Galvanic Blast deals 4 damage instead if you control three or more artifacts.",
@@ -1099,6 +1137,7 @@
     {
       "name": "Ghirapur Gearcrafter",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Artificer",
       "text": "When Ghirapur Gearcrafter enters the battlefield, create a 1/1 colorless Thopter artifact creature token with flying. (A creature with flying can't be blocked except by creatures with flying or reach.)",
@@ -1124,6 +1163,7 @@
     {
       "name": "Pia and Kiran Nalaar",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Human Artificer",
       "text": "When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.<br>{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to any target.",
@@ -1148,6 +1188,7 @@
     {
       "name": "Shrapnel Blast",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice an artifact.<br>Shrapnel Blast deals 5 damage to any target.",
@@ -1173,6 +1214,7 @@
     {
       "name": "Welding Sparks",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Welding Sparks deals X damage to target creature, where X is 3 plus the number of artifacts you control.",
@@ -1198,6 +1240,7 @@
     {
       "name": "Maverick Thopterist",
       "manaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{U}{R}",
       "cmc": 5,
       "type": "Creature - Human Artificer",
       "text": "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)<br>When Maverick Thopterist enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.",
@@ -1222,6 +1265,7 @@
     {
       "name": "Reclusive Artificer",
       "manaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{U}{R}",
       "cmc": 4,
       "type": "Creature - Human Artificer",
       "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>When Reclusive Artificer enters the battlefield, you may have it deal damage to target creature equal to the number of artifacts you control.",
@@ -1247,6 +1291,7 @@
     {
       "name": "Darksteel Plate",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Indestructible<br>Equipped creature has indestructible.<br>Equip {2}",
@@ -1267,6 +1312,7 @@
     {
       "name": "Filigree Familiar",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Fox",
       "text": "When Filigree Familiar enters the battlefield, you gain 2 life.<br>When Filigree Familiar dies, draw a card.",
@@ -1292,6 +1338,7 @@
     {
       "name": "Ichor Wellspring",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "When Ichor Wellspring enters the battlefield or is put into a graveyard from the battlefield, draw a card.",
@@ -1317,6 +1364,7 @@
     {
       "name": "Inventor's Goggles",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +1/+2.<br>Whenever an Artificer enters the battlefield under your control, you may attach Inventor's Goggles to it.<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -1341,9 +1389,10 @@
     {
       "name": "Mycosynth Wellspring",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
-      "text": "When Mycosynth Wellspring enters the battlefield or is put into a graveyard from the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.",
+      "text": "When Mycosynth Wellspring enters the battlefield or is put into a graveyard from the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
       "flavor": "The oil created the mycosynth. The mycosynth created New Phyrexia.",
       "expansion": "DDU",
       "scryfallSetCode": "DDU",
@@ -1366,6 +1415,7 @@
     {
       "name": "Myr Battlesphere",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Myr Construct",
       "text": "When Myr Battlesphere enters the battlefield, create four 1/1 colorless Myr artifact creature tokens.<br>Whenever Myr Battlesphere attacks, you may tap X untapped Myr you control. If you do, Myr Battlesphere gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking.",
@@ -1390,6 +1440,7 @@
     {
       "name": "Myr Sire",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact Creature - Myr",
       "text": "When Myr Sire dies, create a 1/1 colorless Myr artifact creature token.",
@@ -1415,6 +1466,7 @@
     {
       "name": "Neurok Replica",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Wizard",
       "text": "{1}{U}, Sacrifice Neurok Replica: Return target creature to its owner's hand.",
@@ -1440,6 +1492,7 @@
     {
       "name": "Pyrite Spellbomb",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{R}, Sacrifice Pyrite Spellbomb: It deals 2 damage to any target.<br>{1}, Sacrifice Pyrite Spellbomb: Draw a card.",
@@ -1465,6 +1518,7 @@
     {
       "name": "Scuttling Doom Engine",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Construct",
       "text": "Scuttling Doom Engine can't be blocked by creatures with power 2 or less.<br>When Scuttling Doom Engine dies, it deals 6 damage to target opponent or planeswalker.",
@@ -1490,9 +1544,10 @@
     {
       "name": "Solemn Simulacrum",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Golem",
-      "text": "When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.<br>When Solemn Simulacrum dies, you may draw a card.",
+      "text": "When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.<br>When Solemn Simulacrum dies, you may draw a card.",
       "expansion": "DDU",
       "scryfallSetCode": "DDU",
       "rarity": "R",
@@ -1514,6 +1569,7 @@
     {
       "name": "Thopter Assembly",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Thopter",
       "text": "Flying<br>At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner's hand and create five 1/1 colorless Thopter artifact creature tokens with flying.",
@@ -1538,6 +1594,7 @@
     {
       "name": "Voyager Staff",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{2}, Sacrifice Voyager Staff: Exile target creature. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "from_the_vault",
-    "digest": "bd278efb2c786c1cba42e1a6f2ba3357",
+    "digest": "3c30775f28d71663f776810d69ef4ade",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/RLC_M.png"
     ]
@@ -19,6 +19,7 @@
     {
       "name": "Aether Vial",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "At the beginning of your upkeep, you may put a charge counter on Aether Vial.<br>{T}: You may put a creature card with mana value equal to the number of charge counters on Aether Vial from your hand onto the battlefield.",
@@ -38,6 +39,7 @@
     {
       "name": "Black Vise",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "As Black Vise enters the battlefield, choose an opponent.<br>At the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in their hand minus 4.",
@@ -57,9 +59,10 @@
     {
       "name": "Isochron Scepter",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
-      "text": "Imprint - When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.<br>{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+      "text": "Imprint - When Isochron Scepter enters the battlefield, you may exile an instant card with mana value 2 or less from your hand.<br>{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
       "expansion": "RLC",
       "scryfallSetCode": "V10",
       "rarity": "M",
@@ -76,6 +79,7 @@
     {
       "name": "Ivory Tower",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus 4.",
@@ -96,6 +100,7 @@
     {
       "name": "Jester's Cap",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{2}, {T}, Sacrifice Jester's Cap: Search target player's library for three cards and exile them. Then that player shuffles.",
@@ -116,9 +121,10 @@
     {
       "name": "Karn, Silver Golem",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Legendary Artifact Creature - Golem",
-      "text": "Whenever Karn, Silver Golem blocks or becomes blocked, it gets -4/+4 until end of turn.<br>{1}: Target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost until end of turn.",
+      "text": "Whenever Karn, Silver Golem blocks or becomes blocked, it gets -4/+4 until end of turn.<br>{1}: Target noncreature artifact becomes an artifact creature with power and toughness each equal to its mana value until end of turn.",
       "expansion": "RLC",
       "scryfallSetCode": "V10",
       "rarity": "M",
@@ -135,6 +141,7 @@
     {
       "name": "Masticore",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Masticore",
       "text": "At the beginning of your upkeep, sacrifice Masticore unless you discard a card.<br>{2}: Masticore deals 1 damage to target creature.<br>{2}: Regenerate Masticore.",
@@ -154,6 +161,7 @@
     {
       "name": "Memory Jar",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "{T}, Sacrifice Memory Jar: Each player exiles all cards from their hand face down and draws seven cards. At the beginning of the next end step, each player discards their hand and returns to their hand each card they exiled this way.",
@@ -173,6 +181,7 @@
     {
       "name": "Mirari",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Legendary Artifact",
       "text": "Whenever you cast an instant or sorcery spell, you may pay {3}. If you do, copy that spell. You may choose new targets for the copy.",
@@ -193,6 +202,7 @@
     {
       "name": "Mox Diamond",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "If Mox Diamond would enter the battlefield, you may discard a land card instead. If you do, put Mox Diamond onto the battlefield. If you don't, put it into its owner's graveyard.<br>{T}: Add one mana of any color.",
@@ -212,6 +222,7 @@
     {
       "name": "Nevinyrral's Disk",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "Nevinyrral's Disk enters the battlefield tapped.<br>{1}, {T}: Destroy all artifacts, creatures, and enchantments.",
@@ -231,6 +242,7 @@
     {
       "name": "Sol Ring",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{T}: Add {C}{C}.",
@@ -251,6 +263,7 @@
     {
       "name": "Sundering Titan",
       "manaCost": "{8}",
+      "sortedManaCost": "{8}",
       "cmc": 8,
       "type": "Artifact Creature - Golem",
       "text": "When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
@@ -270,6 +283,7 @@
     {
       "name": "Sword of Body and Mind",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2 and has protection from green and from blue.<br>Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player mills ten cards.<br>Equip {2}",
@@ -289,6 +303,7 @@
     {
       "name": "Zuran Orb",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "Sacrifice a land: You gain 2 life.",

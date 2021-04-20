@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "spellbook",
-    "digest": "2f3d7347f031fb95078836f370e5efc1",
+    "digest": "096bce45651af92fe22dbc09d8e3e152",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SS1_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SS1_R.png"
@@ -20,6 +20,7 @@
     {
       "name": "Jace Beleren",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Jace",
       "text": "[+2]: Each player draws a card.<br>[−1]: Target player draws a card.<br>[−10]: Target player mills twenty cards.",
@@ -39,6 +40,7 @@
     {
       "name": "Blue Elemental Blast",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Choose one -<br>• Counter target red spell.<br>• Destroy target red permanent.",
@@ -59,6 +61,7 @@
     {
       "name": "Brainstorm",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
@@ -79,6 +82,7 @@
     {
       "name": "Counterspell",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target spell.",
@@ -98,6 +102,7 @@
     {
       "name": "Gifts Ungiven",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Search your library for up to four cards with different names and reveal them. Target opponent chooses two of those cards. Put the chosen cards into your graveyard and the rest into your hand. Then shuffle.",
@@ -117,6 +122,7 @@
     {
       "name": "Mystical Tutor",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.",
@@ -137,6 +143,7 @@
     {
       "name": "Negate",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target noncreature spell.",
@@ -156,9 +163,10 @@
     {
       "name": "Threads of Disloyalty",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
-      "text": "Enchant creature with converted mana cost 2 or less<br>You control enchanted creature.",
+      "text": "Enchant creature with mana value 2 or less<br>You control enchanted creature.",
       "flavor": "\"Every thought is a string. You just have to find the right ones to pull.\"",
       "expansion": "SS1",
       "scryfallSetCode": "SS1",

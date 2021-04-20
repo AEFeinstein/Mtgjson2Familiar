@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "4733672bc9d40a65fcfd40d70cef3180",
+    "digest": "f33ab7318415317cdb40a453e772e30f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/VVK_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/VVK_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Venser, the Sojourner",
       "manaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{W}{U}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Venser",
       "text": "[+2]: Exile target permanent you own. Return it to the battlefield under your control at the beginning of the next end step.<br>[−1]: Creatures can't be blocked this turn.<br>[−8]: You get an emblem with \"Whenever you cast a spell, exile target permanent.\"",
@@ -46,9 +47,10 @@
     {
       "name": "Whitemane Lion",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Cat",
-      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>When Whitemane Lion enters the battlefield, return a creature you control to its owner's hand.",
+      "text": "Flash<br>When Whitemane Lion enters the battlefield, return a creature you control to its owner's hand.",
       "flavor": "Saltfield nomads call a sudden storm a \"whitemane.\"",
       "expansion": "VVK",
       "scryfallSetCode": "DDI",
@@ -71,6 +73,7 @@
     {
       "name": "Augury Owl",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Bird",
       "text": "Flying<br>When Augury Owl enters the battlefield, scry 3. (Look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
@@ -95,6 +98,7 @@
     {
       "name": "Coral Fighters",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Merfolk Soldier",
       "text": "Whenever Coral Fighters attacks and isn't blocked, look at the top card of defending player's library. You may put that card on the bottom of that player's library.",
@@ -119,6 +123,7 @@
     {
       "name": "Minamo Sightbender",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{X}, {T}: Target creature with power X or less can't be blocked this turn.",
@@ -144,6 +149,7 @@
     {
       "name": "Mistmeadow Witch",
       "manaCost": "{1}{WU}",
+      "sortedManaCost": "{1}{WU}",
       "cmc": 2,
       "type": "Creature - Kithkin Wizard",
       "text": "{2}{W}{U}: Exile target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -169,6 +175,7 @@
     {
       "name": "Scroll Thief",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Merfolk Rogue",
       "text": "Whenever Scroll Thief deals combat damage to a player, draw a card.",
@@ -194,6 +201,7 @@
     {
       "name": "Neurok Invisimancer",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Neurok Invisimancer can't be blocked.<br>When Neurok Invisimancer enters the battlefield, target creature can't be blocked this turn.",
@@ -219,6 +227,7 @@
     {
       "name": "Slith Strider",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Slith",
       "text": "Whenever Slith Strider becomes blocked, draw a card.<br>Whenever Slith Strider deals combat damage to a player, put a +1/+1 counter on it.",
@@ -244,6 +253,7 @@
     {
       "name": "Sky Spirit",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "Flying, first strike",
@@ -269,6 +279,7 @@
     {
       "name": "Wall of Denial",
       "manaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{W}{U}",
       "cmc": 3,
       "type": "Creature - Wall",
       "text": "Defender, flying<br>Shroud (This creature can't be the target of spells or abilities.)",
@@ -294,6 +305,7 @@
     {
       "name": "Galepowder Mage",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Kithkin Wizard",
       "text": "Flying<br>Whenever Galepowder Mage attacks, exile another target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -318,6 +330,7 @@
     {
       "name": "Kor Cartographer",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Kor Scout",
       "text": "When Kor Cartographer enters the battlefield, you may search your library for a Plains card, put it onto the battlefield tapped, then shuffle.",
@@ -343,6 +356,7 @@
     {
       "name": "Clone",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Shapeshifter",
       "text": "You may have Clone enter the battlefield as a copy of any creature on the battlefield.",
@@ -368,6 +382,7 @@
     {
       "name": "Cryptic Annelid",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Worm Beast",
       "text": "When Cryptic Annelid enters the battlefield, scry 1, then scry 2, then scry 3. (To scry X, look at the top X cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
@@ -392,6 +407,7 @@
     {
       "name": "Primal Plasma",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Elemental Shapeshifter",
       "text": "As Primal Plasma enters the battlefield, it becomes your choice of a 3/3 creature, a 2/2 creature with flying, or a 1/6 creature with defender.",
@@ -417,6 +433,7 @@
     {
       "name": "Sawtooth Loon",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Creature - Bird",
       "text": "Flying<br>When Sawtooth Loon enters the battlefield, return a white or blue creature you control to its owner's hand.<br>When Sawtooth Loon enters the battlefield, draw two cards, then put two cards from your hand on the bottom of your library.",
@@ -441,6 +458,7 @@
     {
       "name": "Cache Raiders",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Creature - Merfolk Rogue",
       "text": "At the beginning of your upkeep, return a permanent you control to its owner's hand.",
@@ -466,6 +484,7 @@
     {
       "name": "Windreaver",
       "manaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{W}{U}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Flying<br>{W}: Windreaver gains vigilance until end of turn.<br>{W}: Windreaver gets +0/+1 until end of turn.<br>{U}: Switch Windreaver's power and toughness until end of turn.<br>{U}: Return Windreaver to its owner's hand.",
@@ -490,6 +509,7 @@
     {
       "name": "Jedit's Dragoons",
       "manaCost": "{5}{W}",
+      "sortedManaCost": "{5}{W}",
       "cmc": 6,
       "type": "Creature - Cat Soldier",
       "text": "Vigilance<br>When Jedit's Dragoons enters the battlefield, you gain 4 life.",
@@ -515,6 +535,7 @@
     {
       "name": "Sunblast Angel",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Creature - Angel",
       "text": "Flying<br>When Sunblast Angel enters the battlefield, destroy all tapped creatures.",
@@ -540,6 +561,7 @@
     {
       "name": "Sphinx of Uthuun",
       "manaCost": "{5}{U}{U}",
+      "sortedManaCost": "{5}{U}{U}",
       "cmc": 7,
       "type": "Creature - Sphinx",
       "text": "Flying<br>When Sphinx of Uthuun enters the battlefield, reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
@@ -564,9 +586,10 @@
     {
       "name": "Path to Exile",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
-      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.",
+      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
       "expansion": "VVK",
       "scryfallSetCode": "DDI",
       "rarity": "U",
@@ -588,6 +611,7 @@
     {
       "name": "Preordain",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
@@ -612,6 +636,7 @@
     {
       "name": "Sigil of Sleep",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Whenever enchanted creature deals damage to a player, return target creature that player controls to its owner's hand.",
@@ -637,6 +662,7 @@
     {
       "name": "Revoke Existence",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile target artifact or enchantment.",
@@ -662,6 +688,7 @@
     {
       "name": "Angelic Shield",
       "manaCost": "{W}{U}",
+      "sortedManaCost": "{W}{U}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Creatures you control get +0/+1.<br>Sacrifice Angelic Shield: Return target creature to its owner's hand.",
@@ -687,6 +714,7 @@
     {
       "name": "Oblivion Ring",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Oblivion Ring enters the battlefield, exile another target nonland permanent.<br>When Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner's control.",
@@ -711,6 +739,7 @@
     {
       "name": "Safe Passage",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Prevent all damage that would be dealt to you and creatures you control this turn.",
@@ -736,6 +765,7 @@
     {
       "name": "Steel of the Godhead",
       "manaCost": "{2}{WU}",
+      "sortedManaCost": "{2}{WU}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>As long as enchanted creature is white, it gets +1/+1 and has lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)<br>As long as enchanted creature is blue, it gets +1/+1 and can't be blocked.",
@@ -760,6 +790,7 @@
     {
       "name": "Vanish into Memory",
       "manaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Exile target creature. You draw cards equal to that creature's power. At the beginning of your next upkeep, return that card to the battlefield under its owner's control. If you do, discard cards equal to that creature's toughness.",
@@ -785,6 +816,7 @@
     {
       "name": "Overrule",
       "manaCost": "{X}{W}{U}",
+      "sortedManaCost": "{X}{W}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. You gain X life.",
@@ -834,7 +866,7 @@
       "name": "Flood Plain",
       "cmc": 0,
       "type": "Land",
-      "text": "Flood Plain enters the battlefield tapped.<br>{T}, Sacrifice Flood Plain: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle your library.",
+      "text": "Flood Plain enters the battlefield tapped.<br>{T}, Sacrifice Flood Plain: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
       "expansion": "VVK",
       "scryfallSetCode": "DDI",
       "rarity": "U",
@@ -1033,6 +1065,7 @@
     {
       "name": "Koth of the Hammer",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Koth",
       "text": "[+1]: Untap target Mountain. It becomes a 4/4 red Elemental creature until end of turn. It's still a land.<br>[−2]: Add {R} for each Mountain you control.<br>[−5]: You get an emblem with \"Mountains you control have '{T}: This land deals 1 damage to any target.'\"",
@@ -1057,6 +1090,7 @@
     {
       "name": "Plated Geopede",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Insect",
       "text": "First strike<br>Landfall - Whenever a land enters the battlefield under your control, Plated Geopede gets +2/+2 until end of turn.",
@@ -1082,6 +1116,7 @@
     {
       "name": "Pygmy Pyrosaur",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Lizard",
       "text": "Pygmy Pyrosaur can't block.<br>{R}: Pygmy Pyrosaur gets +1/+0 until end of turn.",
@@ -1107,6 +1142,7 @@
     {
       "name": "Pilgrim's Eye",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Thopter",
       "text": "Flying<br>When Pilgrim's Eye enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
@@ -1132,6 +1168,7 @@
     {
       "name": "Aether Membrane",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Wall",
       "text": "Defender; reach (This creature can block creatures with flying.)<br>Whenever Aether Membrane blocks a creature, return that creature to its owner's hand at end of combat.",
@@ -1156,6 +1193,7 @@
     {
       "name": "Fiery Hellhound",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Elemental Dog",
       "text": "{R}: Fiery Hellhound gets +1/+0 until end of turn.",
@@ -1181,6 +1219,7 @@
     {
       "name": "Vulshok Sorcerer",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Human Shaman",
       "text": "Haste<br>{T}: Vulshok Sorcerer deals 1 damage to any target.",
@@ -1206,6 +1245,7 @@
     {
       "name": "Anger",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Incarnation",
       "text": "Haste<br>As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.",
@@ -1231,6 +1271,7 @@
     {
       "name": "Cosi's Ravager",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Landfall - Whenever a land enters the battlefield under your control, you may have Cosi's Ravager deal 1 damage to target player or planeswalker.",
@@ -1256,6 +1297,7 @@
     {
       "name": "Vulshok Berserker",
       "manaCost": "{3}{R}",
+      "sortedManaCost": "{3}{R}",
       "cmc": 4,
       "type": "Creature - Human Berserker",
       "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)",
@@ -1281,6 +1323,7 @@
     {
       "name": "Bloodfire Kavu",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Kavu",
       "text": "{R}, Sacrifice Bloodfire Kavu: It deals 2 damage to each creature.",
@@ -1306,6 +1349,7 @@
     {
       "name": "Stone Giant",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Giant",
       "text": "{T}: Target creature you control with toughness less than Stone Giant's power gains flying until end of turn. Destroy that creature at the beginning of the next end step.",
@@ -1331,6 +1375,7 @@
     {
       "name": "Geyser Glider",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Elemental Beast",
       "text": "Landfall - Whenever a land enters the battlefield under your control, Geyser Glider gains flying until end of turn.",
@@ -1356,6 +1401,7 @@
     {
       "name": "Lithophage",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Insect",
       "text": "At the beginning of your upkeep, sacrifice Lithophage unless you sacrifice a Mountain.",
@@ -1381,6 +1427,7 @@
     {
       "name": "Torchling",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Shapeshifter",
       "text": "{R}: Untap Torchling.<br>{R}: Target creature blocks Torchling this turn if able.<br>{R}: Change the target of target spell that targets only Torchling.<br>{1}: Torchling gets +1/-1 until end of turn.<br>{1}: Torchling gets -1/+1 until end of turn.",
@@ -1405,9 +1452,10 @@
     {
       "name": "Chartooth Cougar",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Creature - Cat Beast",
-      "text": "{R}: Chartooth Cougar gets +1/+0 until end of turn.<br>Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle your library.)",
+      "text": "{R}: Chartooth Cougar gets +1/+0 until end of turn.<br>Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)",
       "expansion": "VVK",
       "scryfallSetCode": "DDI",
       "rarity": "C",
@@ -1429,6 +1477,7 @@
     {
       "name": "Earth Servant",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "Earth Servant gets +0/+1 for each Mountain you control.",
@@ -1454,6 +1503,7 @@
     {
       "name": "Greater Stone Spirit",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Elemental Spirit",
       "text": "Greater Stone Spirit can't be blocked by creatures with flying.<br>{2}{R}: Until end of turn, target creature gets +0/+2 and gains \"{R}: This creature gets +1/+0 until end of turn.\"",
@@ -1479,6 +1529,7 @@
     {
       "name": "Bloodfire Colossus",
       "manaCost": "{6}{R}{R}",
+      "sortedManaCost": "{6}{R}{R}",
       "cmc": 8,
       "type": "Creature - Giant",
       "text": "{R}, Sacrifice Bloodfire Colossus: It deals 6 damage to each creature and each player.",
@@ -1504,9 +1555,10 @@
     {
       "name": "Wayfarer's Bauble",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
-      "text": "{2}, {T}, Sacrifice Wayfarer's Bauble: Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.",
+      "text": "{2}, {T}, Sacrifice Wayfarer's Bauble: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
       "flavor": "It is the forest beyond the horizon, the mountain waiting to be climbed, the new land across the endless sea.",
       "expansion": "VVK",
       "scryfallSetCode": "DDI",
@@ -1529,6 +1581,7 @@
     {
       "name": "Armillary Sphere",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{2}, {T}, Sacrifice Armillary Sphere: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.",
@@ -1554,6 +1607,7 @@
     {
       "name": "Journeyer's Kite",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{3}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
@@ -1579,6 +1633,7 @@
     {
       "name": "Vulshok Morningstar",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2.<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
@@ -1603,6 +1658,7 @@
     {
       "name": "Searing Blaze",
       "manaCost": "{R}{R}",
+      "sortedManaCost": "{R}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Searing Blaze deals 1 damage to target player or planeswalker and 1 damage to target creature that player or that planeswalker's controller controls.<br>Landfall - If you had a land enter the battlefield under your control this turn, Searing Blaze deals 3 damage to that player or planeswalker and 3 damage to that creature instead.",
@@ -1627,6 +1683,7 @@
     {
       "name": "Vulshok Battlegear",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +3/+3.<br>Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)",
@@ -1651,6 +1708,7 @@
     {
       "name": "Downhill Charge",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "You may sacrifice a Mountain rather than pay this spell's mana cost.<br>Target creature gets +X/+0 until end of turn, where X is the number of Mountains you control.",
@@ -1675,6 +1733,7 @@
     {
       "name": "Seismic Strike",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Seismic Strike deals damage to target creature equal to the number of Mountains you control.",
@@ -1700,6 +1759,7 @@
     {
       "name": "Spire Barrage",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Spire Barrage deals damage to any target equal to the number of Mountains you control.",
@@ -1725,6 +1785,7 @@
     {
       "name": "Jaws of Stone",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Jaws of Stone deals X damage divided as you choose among any number of targets, where X is the number of Mountains you control as you cast this spell.",
@@ -1750,6 +1811,7 @@
     {
       "name": "Volley of Boulders",
       "manaCost": "{8}{R}",
+      "sortedManaCost": "{8}{R}",
       "cmc": 9,
       "type": "Sorcery",
       "text": "Volley of Boulders deals 6 damage divided as you choose among any number of targets.<br>Flashback {R}{R}{R}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",

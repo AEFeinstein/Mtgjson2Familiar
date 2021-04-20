@@ -8,7 +8,7 @@
     "isOnlineOnly": true,
     "borderColor": "Black",
     "type": "box",
-    "digest": "e1c0d40f4eb29ee4a00ff14591e19dcc",
+    "digest": "9a80bb5a664d5fc9c8b018aad11b149f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HA2_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HA2_M.png",
@@ -20,6 +20,7 @@
     {
       "name": "Nyx-Fleece Ram",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment Creature - Sheep",
       "text": "At the beginning of your upkeep, you gain 1 life.",
@@ -39,9 +40,10 @@
     {
       "name": "Ranger of Eos",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Human Soldier",
-      "text": "When Ranger of Eos enters the battlefield, you may search your library for up to two creature cards with converted mana cost 1 or less, reveal them, and put them into your hand. If you do, shuffle your library.",
+      "text": "When Ranger of Eos enters the battlefield, you may search your library for up to two creature cards with mana value 1 or less, reveal them, put them into your hand, then shuffle.",
       "expansion": "HA2",
       "scryfallSetCode": "HA2",
       "rarity": "R",
@@ -58,6 +60,7 @@
     {
       "name": "Sigil of the Empty Throne",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Whenever you cast an enchantment spell, create a 4/4 white Angel creature token with flying.",
@@ -77,6 +80,7 @@
     {
       "name": "Thalia, Guardian of Thraben",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Legendary Creature - Human Soldier",
       "text": "First strike<br>Noncreature spells cost {1} more to cast.",
@@ -96,6 +100,7 @@
     {
       "name": "Merrow Reejerey",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Merfolk Soldier",
       "text": "Other Merfolk creatures you control get +1/+1.<br>Whenever you cast a Merfolk spell, you may tap or untap target permanent.",
@@ -115,6 +120,7 @@
     {
       "name": "Inexorable Tide",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Whenever you cast a spell, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -134,6 +140,7 @@
     {
       "name": "Brain Maggot",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment Creature - Insect",
       "text": "When Brain Maggot enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card until Brain Maggot leaves the battlefield.",
@@ -153,6 +160,7 @@
     {
       "name": "Pack Rat",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Rat",
       "text": "Pack Rat's power and toughness are each equal to the number of Rats you control.<br>{2}{B}, Discard a card: Create a token that's a copy of Pack Rat.",
@@ -172,6 +180,7 @@
     {
       "name": "Virulent Plague",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Creature tokens get -2/-2.",
@@ -191,6 +200,7 @@
     {
       "name": "Waste Not",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Whenever an opponent discards a creature card, create a 2/2 black Zombie creature token.<br>Whenever an opponent discards a land card, add {B}{B}.<br>Whenever an opponent discards a noncreature, nonland card, draw a card.",
@@ -211,6 +221,7 @@
     {
       "name": "Dragonmaster Outcast",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Human Shaman",
       "text": "At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying.",
@@ -231,6 +242,7 @@
     {
       "name": "Goblin Ruinblaster",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Goblin Shaman",
       "text": "Kicker {R} (You may pay an additional {R} as you cast this spell.)<br>Haste<br>When Goblin Ruinblaster enters the battlefield, if it was kicked, destroy target nonbasic land.",
@@ -250,6 +262,7 @@
     {
       "name": "Ancestral Mask",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 for each other enchantment on the battlefield.",
@@ -270,6 +283,7 @@
     {
       "name": "Terravore",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Lhurgoyf",
       "text": "Trample<br>Terravore's power and toughness are each equal to the number of land cards in all graveyards.",
@@ -289,9 +303,10 @@
     {
       "name": "Knight of the Reliquary",
       "manaCost": "{1}{G}{W}",
+      "sortedManaCost": "{1}{W}{G}",
       "cmc": 3,
       "type": "Creature - Human Knight",
-      "text": "Knight of the Reliquary gets +1/+1 for each land card in your graveyard.<br>{T}, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle your library.",
+      "text": "Knight of the Reliquary gets +1/+1 for each land card in your graveyard.<br>{T}, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle.",
       "flavor": "\"Knowledge of Bant's landscape and ruins is a weapon that the invaders can't comprehend.\"<br>-Elspeth",
       "expansion": "HA2",
       "scryfallSetCode": "HA2",
@@ -309,6 +324,7 @@
     {
       "name": "Maelstrom Pulse",
       "manaCost": "{1}{B}{G}",
+      "sortedManaCost": "{1}{B}{G}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target nonland permanent and all other permanents with the same name as that permanent.",
@@ -329,6 +345,7 @@
     {
       "name": "Meddling Mage",
       "manaCost": "{W}{U}",
+      "sortedManaCost": "{W}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "As Meddling Mage enters the battlefield, choose a nonland card name.<br>Spells with the chosen name can't be cast.",
@@ -348,6 +365,7 @@
     {
       "name": "Platinum Angel",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Angel",
       "text": "Flying<br>You can't lose the game and your opponents can't win the game.",

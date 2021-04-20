@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "promo",
-    "digest": "720c116ef101d5ce0a37de8af817db3e",
+    "digest": "2265a51fb5fea85dc5fcf7fa2883862e",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/UFP_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/UFP_M.png",
@@ -22,9 +22,10 @@
     {
       "name": "Ugin, the Spirit Dragon",
       "manaCost": "{8}",
+      "sortedManaCost": "{8}",
       "cmc": 8,
       "type": "Legendary Planeswalker - Ugin",
-      "text": "[+2]: Ugin, the Spirit Dragon deals 3 damage to any target.<br>[−X]: Exile each permanent with converted mana cost X or less that's one or more colors.<br>[−10]: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.",
+      "text": "[+2]: Ugin, the Spirit Dragon deals 3 damage to any target.<br>[−X]: Exile each permanent with mana value X or less that's one or more colors.<br>[−10]: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.",
       "expansion": "UFP",
       "scryfallSetCode": "UGIN",
       "rarity": "M",
@@ -82,6 +83,7 @@
     {
       "name": "Mastery of the Unseen",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Whenever a permanent you control is turned face up, you gain 1 life for each creature you control.<br>{3}{W}: Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
@@ -142,6 +144,7 @@
     {
       "name": "Smite the Monstrous",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Destroy target creature with power 4 or greater.",
@@ -203,6 +206,7 @@
     {
       "name": "Soul Summons",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
@@ -264,6 +268,7 @@
     {
       "name": "Watcher of the Roost",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Bird Soldier",
       "text": "Flying<br>Morph-Reveal a white card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Watcher of the Roost is turned face up, you gain 2 life.",
@@ -325,6 +330,7 @@
     {
       "name": "Jeskai Infiltrator",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Creature - Human Monk",
       "text": "Jeskai Infiltrator can't be blocked as long as you control no other creatures.<br>When Jeskai Infiltrator deals combat damage to a player, exile it and the top card of your library in a face-down pile, shuffle that pile, then manifest those cards. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
@@ -386,6 +392,7 @@
     {
       "name": "Reality Shift",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile target creature. Its controller manifests the top card of their library. (That player puts the top card of their library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)",
@@ -446,6 +453,7 @@
     {
       "name": "Mystic of the Hidden Way",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Human Monk",
       "text": "Mystic of the Hidden Way can't be blocked.<br>Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -508,6 +516,7 @@
     {
       "name": "Write into Being",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Look at the top two cards of your library. Manifest one of those cards, then put the other on the top or bottom of your library. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
@@ -568,6 +577,7 @@
     {
       "name": "Debilitating Injury",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets -2/-2.",
@@ -629,6 +639,7 @@
     {
       "name": "Grim Haruspex",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Morph {B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>Whenever another nontoken creature you control dies, draw a card.",
@@ -691,6 +702,7 @@
     {
       "name": "Sultai Emissary",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Zombie Warrior",
       "text": "When Sultai Emissary dies, manifest the top card of your library. (Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
@@ -753,6 +765,7 @@
     {
       "name": "Ruthless Ripper",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Human Assassin",
       "text": "Deathtouch<br>Morph-Reveal a black card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Ruthless Ripper is turned face up, target player loses 2 life.",
@@ -814,6 +827,7 @@
     {
       "name": "Ainok Tracker",
       "manaCost": "{5}{R}",
+      "sortedManaCost": "{5}{R}",
       "cmc": 6,
       "type": "Creature - Dog Scout",
       "text": "First strike<br>Morph {4}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
@@ -876,6 +890,7 @@
     {
       "name": "Arc Lightning",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Arc Lightning deals 3 damage divided as you choose among one, two, or three targets.",
@@ -937,6 +952,7 @@
     {
       "name": "Fierce Invocation",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Manifest the top card of your library, then put two +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
@@ -998,6 +1014,7 @@
     {
       "name": "Jeering Instigator",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Creature - Goblin Rogue",
       "text": "Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)<br>When Jeering Instigator is turned face up, if it's your turn, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.",
@@ -1059,6 +1076,7 @@
     {
       "name": "Arashin War Beast",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Beast",
       "text": "Whenever Arashin War Beast deals combat damage to one or more blocking creatures, manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
@@ -1120,6 +1138,7 @@
     {
       "name": "Formless Nurturing",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Manifest the top card of your library, then put a +1/+1 counter on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
@@ -1180,6 +1199,7 @@
     {
       "name": "Dragonscale Boon",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Instant",
       "text": "Put two +1/+1 counters on target creature and untap it.",
@@ -1241,6 +1261,7 @@
     {
       "name": "Wildcall",
       "manaCost": "{X}{G}{G}",
+      "sortedManaCost": "{X}{G}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Manifest the top card of your library, then put X +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)",
@@ -1302,6 +1323,7 @@
     {
       "name": "Hewed Stone Retainers",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Golem",
       "text": "Cast this spell only if you've cast another spell this turn.",
@@ -1363,6 +1385,7 @@
     {
       "name": "Ugin's Construct",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Construct",
       "text": "When Ugin's Construct enters the battlefield, sacrifice a permanent that's one or more colors.",
@@ -1424,6 +1447,7 @@
     {
       "name": "Altar of the Brood",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "Whenever another permanent enters the battlefield under your control, each opponent mills a card.",
@@ -1485,6 +1509,7 @@
     {
       "name": "Briber's Purse",
       "manaCost": "{X}",
+      "sortedManaCost": "{X}",
       "cmc": 0,
       "type": "Artifact",
       "text": "Briber's Purse enters the battlefield with X gem counters on it.<br>{1}, {T}, Remove a gem counter from Briber's Purse: Target creature can't attack or block this turn.",
@@ -1546,6 +1571,7 @@
     {
       "name": "Ghostfire Blade",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact - Equipment",
       "text": "Equipped creature gets +2/+2.<br>Equip {3}<br>Ghostfire Blade's equip ability costs {2} less to activate if it targets a colorless creature.",

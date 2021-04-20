@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "White",
     "type": "masters",
-    "digest": "cb15c3318a345684aaa8d770bb413f25",
+    "digest": "66e2e27555a5580026721bb7eedeb415",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CH_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CH_R.png",
@@ -21,6 +21,7 @@
     {
       "name": "Abu Ja'far",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Creature - Human",
       "text": "When Abu Ja'far dies, destroy all creatures blocking or blocked by it. They can't be regenerated.",
@@ -45,6 +46,7 @@
     {
       "name": "Akron Legionnaire",
       "manaCost": "{6}{W}{W}",
+      "sortedManaCost": "{6}{W}{W}",
       "cmc": 8,
       "type": "Creature - Giant Soldier",
       "text": "Except for creatures named Akron Legionnaire and artifact creatures, creatures you control can't attack.",
@@ -69,6 +71,7 @@
     {
       "name": "Angelic Voices",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Creatures you control get +1/+1 as long as you control no nonartifact, nonwhite creatures.",
@@ -93,6 +96,7 @@
     {
       "name": "Blood of the Martyr",
       "manaCost": "{W}{W}{W}",
+      "sortedManaCost": "{W}{W}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Until end of turn, if damage would be dealt to any creature, you may have that damage dealt to you instead.",
@@ -118,6 +122,7 @@
     {
       "name": "D'Avenant Archer",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Soldier Archer",
       "text": "{T}: D'Avenant Archer deals 1 damage to target attacking or blocking creature.",
@@ -142,9 +147,10 @@
     {
       "name": "Divine Offering",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
-      "text": "Destroy target artifact. You gain life equal to its converted mana cost.",
+      "text": "Destroy target artifact. You gain life equal to its mana value.",
       "flavor": "D'Haren stared at the twisted lump of metal that had been a prized artifact. The fight was getting ugly.",
       "expansion": "CH",
       "scryfallSetCode": "CHR",
@@ -167,6 +173,7 @@
     {
       "name": "Indestructible Aura",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Prevent all damage that would be dealt to target creature this turn.",
@@ -192,6 +199,7 @@
     {
       "name": "Ivory Guardians",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Creature - Giant Cleric",
       "text": "Protection from red<br>Creatures named Ivory Guardians get +1/+1 as long as an opponent controls a nontoken red permanent.",
@@ -217,6 +225,7 @@
     {
       "name": "Keepers of the Faith",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Creature - Human Cleric",
       "flavor": "And then the Archangel Anthius spoke to them, saying, \"Fear shall be vanquished by the Sword of Faith.\"",
@@ -241,6 +250,7 @@
     {
       "name": "Petra Sphinx",
       "manaCost": "{2}{W}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}{W}",
       "cmc": 5,
       "type": "Creature - Sphinx",
       "text": "{T}: Target player chooses a card name, then reveals the top card of their library. If that card has the chosen name, that player puts it into their hand. If it doesn't, the player puts it into their graveyard.",
@@ -265,6 +275,7 @@
     {
       "name": "Repentant Blacksmith",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human",
       "text": "Protection from red",
@@ -290,6 +301,7 @@
     {
       "name": "Shield Wall",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Creatures you control get +0/+2 until end of turn.",
@@ -314,6 +326,7 @@
     {
       "name": "War Elephant",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Elephant",
       "text": "Trample; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)",
@@ -339,6 +352,7 @@
     {
       "name": "Witch Hunter",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Human Cleric",
       "text": "{T}: Witch Hunter deals 1 damage to target player or planeswalker.<br>{1}{W}{W}, {T}: Return target creature an opponent controls to its owner's hand.",
@@ -363,6 +377,7 @@
     {
       "name": "Azure Drake",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Drake",
       "text": "Flying",
@@ -388,6 +403,7 @@
     {
       "name": "Boomerang",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return target permanent to its owner's hand.",
@@ -413,6 +429,7 @@
     {
       "name": "Dance of Many",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "When Dance of Many enters the battlefield, create a token that's a copy of target nontoken creature.<br>When Dance of Many leaves the battlefield, exile the token.<br>When the token leaves the battlefield, sacrifice Dance of Many.<br>At the beginning of your upkeep, sacrifice Dance of Many unless you pay {U}{U}.",
@@ -437,6 +454,7 @@
     {
       "name": "Dandân",
       "manaCost": "{U}{U}",
+      "sortedManaCost": "{U}{U}",
       "cmc": 2,
       "type": "Creature - Fish",
       "text": "Dandân can't attack unless defending player controls an Island.<br>When you control no Islands, sacrifice Dandân.",
@@ -461,6 +479,7 @@
     {
       "name": "Enchantment Alteration",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Attach target Aura attached to a creature or land to another permanent of that type.",
@@ -485,6 +504,7 @@
     {
       "name": "Fishliver Oil",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has islandwalk. (It can't be blocked as long as defending player controls an Island.)",
@@ -510,6 +530,7 @@
     {
       "name": "Flash Flood",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target red permanent.<br>• Return target Mountain to its owner's hand.",
@@ -535,9 +556,10 @@
     {
       "name": "Juxtapose",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Sorcery",
-      "text": "You and target player exchange control of the creature you each control with the highest converted mana cost. Then exchange control of artifacts the same way. If two or more permanents a player controls are tied for highest cost, their controller chooses one of them.",
+      "text": "You and target player exchange control of the creature you each control with the highest mana value. Then exchange control of artifacts the same way. If two or more permanents a player controls are tied for highest, their controller chooses one of them.",
       "expansion": "CH",
       "scryfallSetCode": "CHR",
       "rarity": "R",
@@ -559,6 +581,7 @@
     {
       "name": "Puppet Master",
       "manaCost": "{U}{U}{U}",
+      "sortedManaCost": "{U}{U}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When enchanted creature dies, return that card to its owner's hand. If that card is returned to its owner's hand this way, you may pay {U}{U}{U}. If you do, return Puppet Master to its owner's hand.",
@@ -583,6 +606,7 @@
     {
       "name": "Recall",
       "manaCost": "{X}{X}{U}",
+      "sortedManaCost": "{X}{X}{U}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Discard X cards, then return a card from your graveyard to your hand for each card discarded this way. Exile Recall.",
@@ -607,6 +631,7 @@
     {
       "name": "Remove Soul",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Counter target creature spell.",
@@ -632,6 +657,7 @@
     {
       "name": "Teleport",
       "manaCost": "{U}{U}{U}",
+      "sortedManaCost": "{U}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Cast this spell only during the declare attackers step.<br>Target creature can't be blocked this turn.",
@@ -656,6 +682,7 @@
     {
       "name": "Wall of Vapor",
       "manaCost": "{3}{U}",
+      "sortedManaCost": "{3}{U}",
       "cmc": 4,
       "type": "Creature - Wall",
       "text": "Defender (This creature can't attack.)<br>Prevent all damage that would be dealt to Wall of Vapor by creatures it's blocking.",
@@ -681,6 +708,7 @@
     {
       "name": "Wall of Wonder",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Creature - Wall",
       "text": "Defender (This creature can't attack.)<br>{2}{U}{U}: Wall of Wonder gets +4/-4 until end of turn and can attack this turn as though it didn't have defender.",
@@ -706,6 +734,7 @@
     {
       "name": "Banshee",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Spirit",
       "text": "{X}, {T}: Banshee deals half X damage, rounded down, to any target, and half X damage, rounded up, to you.",
@@ -731,6 +760,7 @@
     {
       "name": "Bog Rats",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Rat",
       "text": "Bog Rats can't be blocked by Walls.",
@@ -756,6 +786,7 @@
     {
       "name": "Cuombajj Witches",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{T}: Cuombajj Witches deals 1 damage to any target and 1 damage to any target of an opponent's choice.",
@@ -780,6 +811,7 @@
     {
       "name": "Fallen Angel",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Angel",
       "text": "Flying<br>Sacrifice a creature: Fallen Angel gets +2/+1 until end of turn.",
@@ -804,6 +836,7 @@
     {
       "name": "Giant Slug",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Slug",
       "text": "{5}: At the beginning of your next upkeep, choose a basic land type. Giant Slug gains landwalk of the chosen type until the end of that turn. (It can't be blocked as long as defending player controls a land of that type.)",
@@ -828,6 +861,7 @@
     {
       "name": "Hasran Ogress",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Creature - Ogre",
       "text": "Whenever Hasran Ogress attacks, it deals 3 damage to you unless you pay {2}.",
@@ -852,6 +886,7 @@
     {
       "name": "Hell's Caretaker",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Horror",
       "text": "{T}, Sacrifice a creature: Return target creature card from your graveyard to the battlefield. Activate only during your upkeep.",
@@ -877,6 +912,7 @@
     {
       "name": "Shimian Night Stalker",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Nightstalker",
       "text": "{B}, {T}: All damage that would be dealt to you this turn by target attacking creature is dealt to Shimian Night Stalker instead.",
@@ -902,6 +938,7 @@
     {
       "name": "Takklemaggot",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>At the beginning of the upkeep of enchanted creature's controller, put a -0/-1 counter on that creature.<br>When enchanted creature dies, that creature's controller chooses a creature that Takklemaggot could enchant. If the player does, return Takklemaggot to the battlefield under your control attached to that creature. If they don't, return Takklemaggot to the battlefield under your control as a non-Aura enchantment. It loses \"enchant creature\" and gains \"At the beginning of that player's upkeep, Takklemaggot deals 1 damage to that player.\"",
@@ -926,6 +963,7 @@
     {
       "name": "The Fallen",
       "manaCost": "{1}{B}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}{B}",
       "cmc": 4,
       "type": "Creature - Zombie",
       "text": "At the beginning of your upkeep, The Fallen deals 1 damage to each opponent and planeswalker it has dealt damage to this game.",
@@ -951,6 +989,7 @@
     {
       "name": "The Wretched",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Demon",
       "text": "At end of combat, gain control of all creatures blocking The Wretched for as long as you control The Wretched.",
@@ -975,6 +1014,7 @@
     {
       "name": "Transmutation",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Switch target creature's power and toughness until end of turn.",
@@ -1000,6 +1040,7 @@
     {
       "name": "Wall of Shadows",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Wall",
       "text": "Defender (This creature can't attack.)<br>Prevent all damage that would be dealt to Wall of Shadows by creatures it's blocking.<br>Wall of Shadows can't be the target of spells that can target only Walls or of abilities that can target only Walls.",
@@ -1024,6 +1065,7 @@
     {
       "name": "Yawgmoth Demon",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Creature - Demon",
       "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)<br>First strike (This creature deals combat damage before creatures without first strike.)<br>At the beginning of your upkeep, you may sacrifice an artifact. If you don't, tap Yawgmoth Demon and it deals 2 damage to you.",
@@ -1048,6 +1090,7 @@
     {
       "name": "Active Volcano",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target blue permanent.<br>• Return target Island to its owner's hand.",
@@ -1072,6 +1115,7 @@
     {
       "name": "Aladdin",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Human Rogue",
       "text": "{1}{R}{R}, {T}: Gain control of target artifact for as long as you control Aladdin.",
@@ -1096,6 +1140,7 @@
     {
       "name": "Beasts of Bogardan",
       "manaCost": "{4}{R}",
+      "sortedManaCost": "{4}{R}",
       "cmc": 5,
       "type": "Creature - Beast",
       "text": "Protection from red<br>Beasts of Bogardan gets +1/+1 as long as an opponent controls a nontoken white permanent.",
@@ -1121,6 +1166,7 @@
     {
       "name": "Blood Moon",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Nonbasic lands are Mountains.",
@@ -1146,9 +1192,10 @@
     {
       "name": "Fire Drake",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Creature - Drake",
-      "text": "Flying<br>{R}: Fire Drake gets +1/+0 until end of turn. Activate this ability only once each turn.",
+      "text": "Flying<br>{R}: Fire Drake gets +1/+0 until end of turn. Activate only once each turn.",
       "expansion": "CH",
       "scryfallSetCode": "CHR",
       "rarity": "U",
@@ -1170,6 +1217,7 @@
     {
       "name": "Goblin Artisans",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Artificer",
       "text": "{T}: Flip a coin. If you win the flip, draw a card. If you lose the flip, counter target artifact spell you control that isn't the target of an ability from another creature named Goblin Artisans.",
@@ -1194,6 +1242,7 @@
     {
       "name": "Goblin Digging Team",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin",
       "text": "{T}, Sacrifice Goblin Digging Team: Destroy target Wall.",
@@ -1219,6 +1268,7 @@
     {
       "name": "Goblin Shrine",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant land<br>As long as enchanted land is a basic Mountain, Goblin creatures get +1/+0.<br>When Goblin Shrine leaves the battlefield, it deals 1 damage to each Goblin creature.",
@@ -1244,6 +1294,7 @@
     {
       "name": "Goblins of the Flarg",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Goblin Warrior",
       "text": "Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)<br>When you control a Dwarf, sacrifice Goblins of the Flarg.",
@@ -1268,6 +1319,7 @@
     {
       "name": "Land's Edge",
       "manaCost": "{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}",
       "cmc": 3,
       "type": "World Enchantment",
       "text": "Discard a card: If the discarded card was a land card, Land's Edge deals 2 damage to target player or planeswalker. Any player may activate this ability.",
@@ -1292,6 +1344,7 @@
     {
       "name": "Mountain Yeti",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Yeti",
       "text": "Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)<br>Protection from white",
@@ -1317,6 +1370,7 @@
     {
       "name": "Primordial Ooze",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Ooze",
       "text": "Primordial Ooze attacks each combat if able.<br>At the beginning of your upkeep, put a +1/+1 counter on Primordial Ooze. Then you may pay {X}, where X is the number of +1/+1 counters on it. If you don't, tap Primordial Ooze and it deals X damage to you.",
@@ -1341,6 +1395,7 @@
     {
       "name": "Wall of Heat",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Wall",
       "text": "Defender (This creature can't attack.)",
@@ -1366,6 +1421,7 @@
     {
       "name": "Wall of Opposition",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Creature - Wall",
       "text": "Defender (This creature can't attack.)<br>{1}: Wall of Opposition gets +1/+0 until end of turn.",
@@ -1391,6 +1447,7 @@
     {
       "name": "Argothian Pixies",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Faerie",
       "text": "Argothian Pixies can't be blocked by artifact creatures.<br>Prevent all damage that would be dealt to Argothian Pixies by artifact creatures.",
@@ -1416,6 +1473,7 @@
     {
       "name": "Cat Warriors",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Cat Warrior",
       "text": "Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)",
@@ -1441,6 +1499,7 @@
     {
       "name": "Cocoon",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature you control<br>When Cocoon enters the battlefield, tap enchanted creature and put three pupa counters on Cocoon.<br>Enchanted creature doesn't untap during your untap step if Cocoon has a pupa counter on it.<br>At the beginning of your upkeep, remove a pupa counter from Cocoon. If you can't, sacrifice it, put a +1/+1 counter on enchanted creature, and that creature gains flying.",
@@ -1465,6 +1524,7 @@
     {
       "name": "Concordant Crossroads",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "World Enchantment",
       "text": "All creatures have haste.",
@@ -1489,6 +1549,7 @@
     {
       "name": "Craw Giant",
       "manaCost": "{3}{G}{G}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}{G}{G}",
       "cmc": 7,
       "type": "Creature - Giant",
       "text": "Trample<br>Rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)",
@@ -1514,6 +1575,7 @@
     {
       "name": "Cyclone",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, put a wind counter on Cyclone, then sacrifice Cyclone unless you pay {G} for each wind counter on it. If you pay, Cyclone deals damage equal to the number of wind counters on it to each creature and each player.",
@@ -1538,6 +1600,7 @@
     {
       "name": "Emerald Dragonfly",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Insect",
       "text": "Flying<br>{G}{G}: Emerald Dragonfly gains first strike until end of turn.",
@@ -1563,6 +1626,7 @@
     {
       "name": "Erhnam Djinn",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Djinn",
       "text": "At the beginning of your upkeep, target non-Wall creature an opponent controls gains forestwalk until your next upkeep. (It can't be blocked as long as defending player controls a Forest.)",
@@ -1587,6 +1651,7 @@
     {
       "name": "Ghazbán Ogre",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Ogre",
       "text": "At the beginning of your upkeep, if a player has more life than each other player, the player with the most life gains control of Ghazbán Ogre.",
@@ -1611,6 +1676,7 @@
     {
       "name": "Metamorphosis",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Add X mana of any one color, where X is 1 plus the sacrificed creature's mana value. Spend this mana only to cast creature spells.",
@@ -1635,6 +1701,7 @@
     {
       "name": "Rabid Wombat",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Creature - Wombat",
       "text": "Vigilance<br>Rabid Wombat gets +2/+2 for each Aura attached to it.",
@@ -1659,6 +1726,7 @@
     {
       "name": "Revelation",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "World Enchantment",
       "text": "Players play with their hands revealed.",
@@ -1684,6 +1752,7 @@
     {
       "name": "Scavenger Folk",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human",
       "text": "{G}, {T}, Sacrifice Scavenger Folk: Destroy target artifact.",
@@ -1709,6 +1778,7 @@
     {
       "name": "Storm Seeker",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Instant",
       "text": "Storm Seeker deals damage to target player equal to the number of cards in that player's hand.",
@@ -1733,6 +1803,7 @@
     {
       "name": "Arcades Sabboth",
       "manaCost": "{2}{G}{G}{W}{W}{U}{U}",
+      "sortedManaCost": "{2}{W}{W}{U}{U}{G}{G}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>At the beginning of your upkeep, sacrifice Arcades Sabboth unless you pay {G}{W}{U}.<br>Each untapped creature you control gets +0/+2 as long as it's not attacking.<br>{W}: Arcades Sabboth gets +0/+1 until end of turn.",
@@ -1757,6 +1828,7 @@
     {
       "name": "Axelrod Gunnarson",
       "manaCost": "{4}{B}{B}{R}{R}",
+      "sortedManaCost": "{4}{B}{B}{R}{R}",
       "cmc": 8,
       "type": "Legendary Creature - Giant",
       "text": "Trample<br>Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1 life and Axelrod deals 1 damage to target player or planeswalker.",
@@ -1781,6 +1853,7 @@
     {
       "name": "Ayesha Tanaka",
       "manaCost": "{W}{W}{U}{U}",
+      "sortedManaCost": "{W}{W}{U}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Artificer",
       "text": "Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)<br>{T}: Counter target activated ability from an artifact source unless that ability's controller pays {W}. (Mana abilities can't be targeted.)",
@@ -1805,6 +1878,7 @@
     {
       "name": "Chromium",
       "manaCost": "{2}{W}{W}{U}{U}{B}{B}",
+      "sortedManaCost": "{2}{W}{W}{U}{U}{B}{B}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>Rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)<br>At the beginning of your upkeep, sacrifice Chromium unless you pay {W}{U}{B}.",
@@ -1829,6 +1903,7 @@
     {
       "name": "Dakkon Blackblade",
       "manaCost": "{2}{W}{U}{U}{B}",
+      "sortedManaCost": "{2}{W}{U}{U}{B}",
       "cmc": 6,
       "type": "Legendary Creature - Human Warrior",
       "text": "Dakkon Blackblade's power and toughness are each equal to the number of lands you control.",
@@ -1854,6 +1929,7 @@
     {
       "name": "Gabriel Angelfire",
       "manaCost": "{3}{G}{G}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}{G}{G}",
       "cmc": 7,
       "type": "Legendary Creature - Angel",
       "text": "At the beginning of your upkeep, choose flying, first strike, trample, or rampage 3. Gabriel Angelfire gains that ability until your next upkeep. (Whenever a creature with rampage 3 becomes blocked, it gets +3/+3 until end of turn for each creature blocking it beyond the first.)",
@@ -1878,6 +1954,7 @@
     {
       "name": "Johan",
       "manaCost": "{3}{R}{G}{W}",
+      "sortedManaCost": "{3}{W}{R}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Human Wizard",
       "text": "At the beginning of combat on your turn, you may have Johan gain \"Johan can't attack\" until end of combat. If you do, attacking doesn't cause creatures you control to tap this combat if Johan is untapped.",
@@ -1902,6 +1979,7 @@
     {
       "name": "Kei Takahashi",
       "manaCost": "{2}{G}{W}",
+      "sortedManaCost": "{2}{W}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Human Cleric",
       "text": "{T}: Prevent the next 2 damage that would be dealt to target creature this turn.",
@@ -1926,6 +2004,7 @@
     {
       "name": "Marhault Elsdragon",
       "manaCost": "{3}{R}{R}{G}",
+      "sortedManaCost": "{3}{R}{R}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Elf Warrior",
       "text": "Rampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)",
@@ -1951,9 +2030,10 @@
     {
       "name": "Nebuchadnezzar",
       "manaCost": "{3}{U}{B}",
+      "sortedManaCost": "{3}{U}{B}",
       "cmc": 5,
       "type": "Legendary Creature - Human Wizard",
-      "text": "{X}, {T}: Choose a card name. Target opponent reveals X cards at random from their hand. Then that player discards all cards with that name revealed this way. Activate this ability only during your turn.",
+      "text": "{X}, {T}: Choose a card name. Target opponent reveals X cards at random from their hand. Then that player discards all cards with that name revealed this way. Activate only during your turn.",
       "expansion": "CH",
       "scryfallSetCode": "CHR",
       "rarity": "R",
@@ -1975,6 +2055,7 @@
     {
       "name": "Nicol Bolas",
       "manaCost": "{2}{U}{U}{B}{B}{R}{R}",
+      "sortedManaCost": "{2}{U}{U}{B}{B}{R}{R}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.<br>Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.",
@@ -1999,6 +2080,7 @@
     {
       "name": "Palladia-Mors",
       "manaCost": "{2}{R}{R}{G}{G}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}{R}{R}{G}{G}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying, trample<br>At the beginning of your upkeep, sacrifice Palladia-Mors unless you pay {R}{G}{W}.",
@@ -2023,6 +2105,7 @@
     {
       "name": "Rubinia Soulsinger",
       "manaCost": "{2}{G}{W}{U}",
+      "sortedManaCost": "{2}{W}{U}{G}",
       "cmc": 5,
       "type": "Legendary Creature - Faerie",
       "text": "You may choose not to untap Rubinia Soulsinger during your untap step.<br>{T}: Gain control of target creature for as long as you control Rubinia and Rubinia remains tapped.",
@@ -2047,6 +2130,7 @@
     {
       "name": "Sivitri Scarzam",
       "manaCost": "{5}{U}{B}",
+      "sortedManaCost": "{5}{U}{B}",
       "cmc": 7,
       "type": "Legendary Creature - Human",
       "flavor": "Even the brave have cause to tremble at the sight of Sivitri Scarzam. Who else has tamed Scarzam's Dragon?",
@@ -2071,6 +2155,7 @@
     {
       "name": "Sol'kanar the Swamp King",
       "manaCost": "{2}{U}{B}{R}",
+      "sortedManaCost": "{2}{U}{B}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Demon",
       "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)<br>Whenever a player casts a black spell, you gain 1 life.",
@@ -2095,6 +2180,7 @@
     {
       "name": "Stangg",
       "manaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{R}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Human Warrior",
       "text": "When Stangg enters the battlefield, create Stangg Twin, a legendary 3/4 red and green Human Warrior creature token. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield.",
@@ -2119,6 +2205,7 @@
     {
       "name": "Tobias Andrion",
       "manaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{W}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Human Advisor",
       "flavor": "Administrator of the military state of Sheoltun, Tobias Andrion is the military right arm of the empire and the figurehead of its freedom.",
@@ -2143,6 +2230,7 @@
     {
       "name": "Tor Wauki",
       "manaCost": "{2}{B}{B}{R}",
+      "sortedManaCost": "{2}{B}{B}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Human Archer",
       "text": "{T}: Tor Wauki deals 2 damage to target attacking or blocking creature.",
@@ -2167,6 +2255,7 @@
     {
       "name": "Vaevictis Asmadi",
       "manaCost": "{2}{B}{B}{R}{R}{G}{G}",
+      "sortedManaCost": "{2}{B}{B}{R}{R}{G}{G}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>At the beginning of your upkeep, sacrifice Vaevictis Asmadi unless you pay {B}{R}{G}.<br>{B}: Vaevictis Asmadi gets +1/+0 until end of turn.<br>{R}: Vaevictis Asmadi gets +1/+0 until end of turn.<br>{G}: Vaevictis Asmadi gets +1/+0 until end of turn.",
@@ -2191,6 +2280,7 @@
     {
       "name": "Xira Arien",
       "manaCost": "{B}{R}{G}",
+      "sortedManaCost": "{B}{R}{G}",
       "cmc": 3,
       "type": "Legendary Creature - Insect Wizard",
       "text": "Flying<br>{B}{R}{G}, {T}: Target player draws a card.",
@@ -2216,6 +2306,7 @@
     {
       "name": "Arena of the Ancients",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Legendary creatures don't untap during their controllers' untap steps.<br>When Arena of the Ancients enters the battlefield, tap all legendary creatures.",
@@ -2240,6 +2331,7 @@
     {
       "name": "Ashnod's Altar",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Sacrifice a creature: Add {C}{C}.",
@@ -2264,6 +2356,7 @@
     {
       "name": "Ashnod's Transmogrant",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{T}, Sacrifice Ashnod's Transmogrant: Put a +1/+1 counter on target nonartifact creature. That creature becomes an artifact in addition to its other types.",
@@ -2289,6 +2382,7 @@
     {
       "name": "Barl's Cage",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{3}: Target creature doesn't untap during its controller's next untap step.",
@@ -2314,6 +2408,7 @@
     {
       "name": "Book of Rass",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact",
       "text": "{2}, Pay 2 life: Draw a card.",
@@ -2338,6 +2433,7 @@
     {
       "name": "Bronze Horse",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Horse",
       "text": "Trample<br>As long as you control another creature, prevent all damage that would be dealt to Bronze Horse by spells that target it.",
@@ -2362,6 +2458,7 @@
     {
       "name": "Feldon's Cane",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{T}, Exile Feldon's Cane: Shuffle your graveyard into your library.",
@@ -2387,6 +2484,7 @@
     {
       "name": "Fountain of Youth",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "{2}, {T}: You gain 1 life.",
@@ -2412,6 +2510,7 @@
     {
       "name": "Gauntlets of Chaos",
       "manaCost": "{5}",
+      "sortedManaCost": "{5}",
       "cmc": 5,
       "type": "Artifact",
       "text": "{5}, Sacrifice Gauntlets of Chaos: Exchange control of target artifact, creature, or land you control and target permanent an opponent controls that shares one of those types with it. If those permanents are exchanged this way, destroy all Auras attached to them.",
@@ -2436,6 +2535,7 @@
     {
       "name": "Horn of Deafening",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{2}, {T}: Prevent all combat damage that would be dealt by target creature this turn.",
@@ -2461,6 +2561,7 @@
     {
       "name": "Jalum Tome",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{2}, {T}: Draw a card, then discard a card.",
@@ -2486,6 +2587,7 @@
     {
       "name": "Jeweled Bird",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "Remove Jeweled Bird from your deck before playing if you're not playing for ante.<br>{T}: Ante Jeweled Bird. If you do, put all other cards you own from the ante into your graveyard, then draw a card.",
@@ -2510,9 +2612,10 @@
     {
       "name": "Living Armor",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
-      "text": "{T}, Sacrifice Living Armor: Put X +0/+1 counters on target creature, where X is that creature's converted mana cost.",
+      "text": "{T}, Sacrifice Living Armor: Put X +0/+1 counters on target creature, where X is that creature's mana value.",
       "flavor": "Though it affords excellent protection, few don this armor. The process is uncomfortable and not easily reversed.",
       "expansion": "CH",
       "scryfallSetCode": "CHR",
@@ -2535,6 +2638,7 @@
     {
       "name": "Obelisk of Undoing",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{6}, {T}: Return target permanent you both own and control to your hand.",
@@ -2560,6 +2664,7 @@
     {
       "name": "Rakalite",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact",
       "text": "{2}: Prevent the next 1 damage that would be dealt to any target this turn. Return Rakalite to its owner's hand at the beginning of the next end step.",
@@ -2585,6 +2690,7 @@
     {
       "name": "Runesword",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact",
       "text": "{3}, {T}: Target attacking creature gets +2/+0 until end of turn. When that creature leaves the battlefield this turn, sacrifice Runesword. If the creature deals damage to a creature this turn, the creature dealt damage can't be regenerated this turn. If a creature dealt damage by the targeted creature would die this turn, exile that creature instead.",
@@ -2609,6 +2715,7 @@
     {
       "name": "Sentinel",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact Creature - Shapeshifter",
       "text": "{0}: Change Sentinel's base toughness to 1 plus the power of target creature blocking or blocked by Sentinel. (This effect lasts indefinitely.)",
@@ -2633,6 +2740,7 @@
     {
       "name": "Serpent Generator",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact",
       "text": "{4}, {T}: Create a 1/1 colorless Snake artifact creature token. It has \"Whenever this creature deals damage to a player, that player gets a poison counter.\" (A player with ten or more poison counters loses the game.)",
@@ -2657,6 +2765,7 @@
     {
       "name": "Tormod's Crypt",
       "manaCost": "{0}",
+      "sortedManaCost": "{0}",
       "cmc": 0,
       "type": "Artifact",
       "text": "{T}, Sacrifice Tormod's Crypt: Exile all cards from target player's graveyard.",
@@ -2682,6 +2791,7 @@
     {
       "name": "Triassic Egg",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{3}, {T}: Put a hatchling counter on Triassic Egg.<br>Sacrifice Triassic Egg: Choose one. Activate only if there are two or more hatchling counters on Triassic Egg.<br>• You may put a creature card from your hand onto the battlefield.<br>• Return target creature card from your graveyard to the battlefield.",
@@ -2706,6 +2816,7 @@
     {
       "name": "Voodoo Doll",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact",
       "text": "At the beginning of your upkeep, put a pin counter on Voodoo Doll.<br>At the beginning of your end step, if Voodoo Doll is untapped, destroy Voodoo Doll and it deals damage to you equal to the number of pin counters on it.<br>{X}{X}, {T}: Voodoo Doll deals damage equal to the number of pin counters on it to any target. X is the number of pin counters on Voodoo Doll.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "box",
-    "digest": "2605773c0e3470e3a913c3aac02829f7",
+    "digest": "4c846dcbf066028f13944915d7456b9e",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/E02_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/E02_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Beacon of Immortality",
       "manaCost": "{5}{W}",
+      "sortedManaCost": "{5}{W}",
       "cmc": 6,
       "type": "Instant",
       "text": "Double target player's life total. Shuffle Beacon of Immortality into its owner's library.",
@@ -42,6 +43,7 @@
     {
       "name": "Day of Judgment",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy all creatures.",
@@ -61,9 +63,10 @@
     {
       "name": "Path to Exile",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
-      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.",
+      "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
       "expansion": "E02",
       "scryfallSetCode": "E02",
       "rarity": "U",
@@ -80,6 +83,7 @@
     {
       "name": "Shielded by Faith",
       "manaCost": "{1}{W}{W}",
+      "sortedManaCost": "{1}{W}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has indestructible.<br>Whenever a creature enters the battlefield, you may attach Shielded by Faith to that creature.",
@@ -99,6 +103,7 @@
     {
       "name": "Veteran's Reflexes",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +1/+1 until end of turn. Untap that creature.",
@@ -119,6 +124,7 @@
     {
       "name": "Vow of Duty",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2, has vigilance, and can't attack you or planeswalkers you control.",
@@ -139,6 +145,7 @@
     {
       "name": "Aether Gale",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Return six target nonland permanents to their owners' hands.",
@@ -159,6 +166,7 @@
     {
       "name": "Blatant Thievery",
       "manaCost": "{4}{U}{U}{U}",
+      "sortedManaCost": "{4}{U}{U}{U}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "For each opponent, gain control of target permanent that player controls.",
@@ -179,6 +187,7 @@
     {
       "name": "Concentrate",
       "manaCost": "{2}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Draw three cards.",
@@ -199,6 +208,7 @@
     {
       "name": "Merfolk Sovereign",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Creature - Merfolk Noble",
       "text": "Other Merfolk creatures you control get +1/+1.<br>{T}: Target Merfolk creature can't be blocked this turn.",
@@ -219,9 +229,10 @@
     {
       "name": "Threads of Disloyalty",
       "manaCost": "{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
-      "text": "Enchant creature with converted mana cost 2 or less<br>You control enchanted creature.",
+      "text": "Enchant creature with mana value 2 or less<br>You control enchanted creature.",
       "flavor": "\"Over time, Konda grew ever more suspicious, fearing even his most loyal allies were being manipulated by unseen hands.\"<br>-The History of Kamigawa",
       "expansion": "E02",
       "scryfallSetCode": "E02",
@@ -239,6 +250,7 @@
     {
       "name": "Time Warp",
       "manaCost": "{3}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Target player takes an extra turn after this one.",
@@ -259,6 +271,7 @@
     {
       "name": "Unsummon",
       "manaCost": "{U}",
+      "sortedManaCost": "{U}",
       "cmc": 1,
       "type": "Instant",
       "text": "Return target creature to its owner's hand.",
@@ -279,6 +292,7 @@
     {
       "name": "Vow of Flight",
       "manaCost": "{2}{U}",
+      "sortedManaCost": "{2}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2, has flying, and can't attack you or planeswalkers you control.",
@@ -299,6 +313,7 @@
     {
       "name": "Bloodbond Vampire",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Vampire Shaman Ally",
       "text": "Whenever you gain life, put a +1/+1 counter on Bloodbond Vampire.",
@@ -319,6 +334,7 @@
     {
       "name": "Child of Night",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Vampire",
       "text": "Lifelink",
@@ -339,6 +355,7 @@
     {
       "name": "Coat with Venom",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +1/+2 and gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)",
@@ -359,6 +376,7 @@
     {
       "name": "Doom Blade",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target nonblack creature.",
@@ -379,6 +397,7 @@
     {
       "name": "Innocent Blood",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Each player sacrifices a creature.",
@@ -399,6 +418,7 @@
     {
       "name": "Necropolis Regent",
       "manaCost": "{3}{B}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{B}",
       "cmc": 6,
       "type": "Creature - Vampire",
       "text": "Flying<br>Whenever a creature you control deals combat damage to a player, put that many +1/+1 counters on it.",
@@ -419,6 +439,7 @@
     {
       "name": "Urge to Feed",
       "manaCost": "{B}{B}",
+      "sortedManaCost": "{B}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets -3/-3 until end of turn. You may tap any number of untapped Vampire creatures you control. If you do, put a +1/+1 counter on each of those Vampires.",
@@ -438,6 +459,7 @@
     {
       "name": "Vampire Interloper",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Vampire Scout",
       "text": "Flying<br>Vampire Interloper can't block.",
@@ -458,6 +480,7 @@
     {
       "name": "Vampire Nighthawk",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Vampire Shaman",
       "text": "Flying, deathtouch, lifelink",
@@ -477,6 +500,7 @@
     {
       "name": "Vampire Noble",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Vampire Noble",
       "flavor": "\"No emergency is so dire that it cannot be dealt with elegantly.\"<br>-Olivia Voldaren",
@@ -496,9 +520,10 @@
     {
       "name": "Aggravated Assault",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
-      "text": "{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate this ability only any time you could cast a sorcery.",
+      "text": "{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery.",
       "expansion": "E02",
       "scryfallSetCode": "E02",
       "rarity": "R",
@@ -515,6 +540,7 @@
     {
       "name": "Disaster Radius",
       "manaCost": "{5}{R}{R}",
+      "sortedManaCost": "{5}{R}{R}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, reveal a creature card from your hand.<br>Disaster Radius deals X damage to each creature your opponents control, where X is the revealed card's mana value.",
@@ -534,6 +560,7 @@
     {
       "name": "Mass Mutiny",
       "manaCost": "{3}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "For each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain haste until end of turn.",
@@ -554,6 +581,7 @@
     {
       "name": "Rush of Adrenaline",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +2/+1 and gains trample until end of turn.",
@@ -574,6 +602,7 @@
     {
       "name": "Shared Animosity",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever a creature you control attacks, it gets +1/+0 until end of turn for each other attacking creature that shares a creature type with it.",
@@ -594,9 +623,10 @@
     {
       "name": "Vow of Lightning",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment - Aura",
-      "text": "Enchant creature<br>Enchanted creature gets +2/+2, has first strike, and can't attack you or a planeswalker you control.",
+      "text": "Enchant creature<br>Enchanted creature gets +2/+2, has first strike, and can't attack you or planeswalkers you control.",
       "flavor": "\"Ruhan would never agree to such terms.\"<br>-Ruhan of the Fomori",
       "expansion": "E02",
       "scryfallSetCode": "E02",
@@ -614,9 +644,10 @@
     {
       "name": "Borderland Ranger",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Human Scout",
-      "text": "When Borderland Ranger enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.",
+      "text": "When Borderland Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
       "flavor": "\"There's only one route from Kessig into Stensia. Unless you come with me.\"",
       "expansion": "E02",
       "scryfallSetCode": "E02",
@@ -634,6 +665,7 @@
     {
       "name": "Giant Growth",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +3/+3 until end of turn.",
@@ -653,6 +685,7 @@
     {
       "name": "Hunter's Prowess",
       "manaCost": "{4}{G}",
+      "sortedManaCost": "{4}{G}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Until end of turn, target creature gets +3/+3 and gains trample and \"Whenever this creature deals combat damage to a player, draw that many cards.\"",
@@ -673,6 +706,7 @@
     {
       "name": "Prey Upon",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)",
@@ -693,6 +727,7 @@
     {
       "name": "Rancor",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+0 and has trample.<br>When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.",
@@ -712,6 +747,7 @@
     {
       "name": "Soul of the Harvest",
       "manaCost": "{4}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "Trample<br>Whenever another nontoken creature enters the battlefield under your control, you may draw a card.",
@@ -732,9 +768,10 @@
     {
       "name": "Vow of Wildness",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura",
-      "text": "Enchant creature<br>Enchanted creature gets +3/+3, has trample, and can't attack you or a planeswalker you control.",
+      "text": "Enchant creature<br>Enchanted creature gets +3/+3, has trample, and can't attack you or planeswalkers you control.",
       "flavor": "\"Savagery is the birthright of every creature that draws breath-or wishes it could.\"<br>-Karador, Ghost Chieftain",
       "expansion": "E02",
       "scryfallSetCode": "E02",
@@ -752,6 +789,7 @@
     {
       "name": "Jungle Barrier",
       "manaCost": "{2}{G}{U}",
+      "sortedManaCost": "{2}{U}{G}",
       "cmc": 4,
       "type": "Creature - Plant Wall",
       "text": "Defender (This creature can't attack.)<br>When Jungle Barrier enters the battlefield, draw a card.",
@@ -772,6 +810,7 @@
     {
       "name": "Lightning Helix",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Lightning Helix deals 3 damage to any target and you gain 3 life.",
@@ -792,6 +831,7 @@
     {
       "name": "Mortify",
       "manaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{W}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target creature or enchantment.",
@@ -812,6 +852,7 @@
     {
       "name": "Zealous Persecution",
       "manaCost": "{W}{B}",
+      "sortedManaCost": "{W}{B}",
       "cmc": 2,
       "type": "Instant",
       "text": "Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.",
@@ -832,6 +873,7 @@
     {
       "name": "Adaptive Automaton",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact Creature - Construct",
       "text": "As Adaptive Automaton enters the battlefield, choose a creature type.<br>Adaptive Automaton is the chosen type in addition to its other types.<br>Other creatures you control of the chosen type get +1/+1.",
@@ -851,6 +893,7 @@
     {
       "name": "Prismatic Lens",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
       "text": "{T}: Add {C}.<br>{1}, {T}: Add one mana of any color.",
@@ -871,6 +914,7 @@
     {
       "name": "Quicksilver Amulet",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{4}, {T}: You may put a creature card from your hand onto the battlefield.",
@@ -930,7 +974,7 @@
       "name": "Tainted Field",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}: Add {C}.<br>{T}: Add {W} or {B}. Activate this ability only if you control a Swamp.",
+      "text": "{T}: Add {C}.<br>{T}: Add {W} or {B}. Activate only if you control a Swamp.",
       "expansion": "E02",
       "scryfallSetCode": "E02",
       "rarity": "U",

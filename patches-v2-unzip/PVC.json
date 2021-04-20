@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "e63ecbc8c6fbb1a215982a44626840fd",
+    "digest": "4d10ec6dd9596433d2e462f65d247136",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PVC_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PVC_M.png",
@@ -22,6 +22,7 @@
     {
       "name": "Phyrexian Negator",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Horror",
       "text": "Trample<br>Whenever Phyrexian Negator is dealt damage, sacrifice that many permanents.",
@@ -47,6 +48,7 @@
     {
       "name": "Carrion Feeder",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Zombie",
       "text": "Carrion Feeder can't block.<br>Sacrifice a creature: Put a +1/+1 counter on Carrion Feeder.",
@@ -72,9 +74,10 @@
     {
       "name": "Phyrexian Battleflies",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Creature - Insect",
-      "text": "Flying<br>{B}: Phyrexian Battleflies gets +1/+0 until end of turn. Activate this ability no more than twice each turn.",
+      "text": "Flying<br>{B}: Phyrexian Battleflies gets +1/+0 until end of turn. Activate no more than twice each turn.",
       "flavor": "After encountering them, Squee finally lost his appetite for bugs.",
       "expansion": "PVC",
       "scryfallSetCode": "DDE",
@@ -97,6 +100,7 @@
     {
       "name": "Phyrexian Denouncer",
       "manaCost": "{1}{B}",
+      "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Carrier",
       "text": "{T}, Sacrifice Phyrexian Denouncer: Target creature gets -1/-1 until end of turn.",
@@ -122,6 +126,7 @@
     {
       "name": "Bone Shredder",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Minion",
       "text": "Flying<br>Echo {2}{B} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>When Bone Shredder enters the battlefield, destroy target nonartifact, nonblack creature.",
@@ -146,6 +151,7 @@
     {
       "name": "Phyrexian Ghoul",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Zombie",
       "text": "Sacrifice a creature: Phyrexian Ghoul gets +2/+2 until end of turn.",
@@ -171,6 +177,7 @@
     {
       "name": "Priest of Gix",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Creature - Human Cleric Minion",
       "text": "When Priest of Gix enters the battlefield, add {B}{B}{B}.",
@@ -196,6 +203,7 @@
     {
       "name": "Phyrexian Broodlings",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Minion",
       "text": "{1}, Sacrifice a creature: Put a +1/+1 counter on Phyrexian Broodlings.",
@@ -221,6 +229,7 @@
     {
       "name": "Sanguine Guard",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Creature - Zombie Knight",
       "text": "First strike<br>{1}{B}: Regenerate Sanguine Guard.",
@@ -246,6 +255,7 @@
     {
       "name": "Phyrexian Debaser",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Carrier",
       "text": "Flying<br>{T}, Sacrifice Phyrexian Debaser: Target creature gets -2/-2 until end of turn.",
@@ -271,6 +281,7 @@
     {
       "name": "Order of Yawgmoth",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Zombie Knight",
       "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>Whenever Order of Yawgmoth deals damage to a player, that player discards a card.",
@@ -295,6 +306,7 @@
     {
       "name": "Phyrexian Defiler",
       "manaCost": "{2}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}",
       "cmc": 4,
       "type": "Creature - Carrier",
       "text": "{T}, Sacrifice Phyrexian Defiler: Target creature gets -3/-3 until end of turn.",
@@ -320,6 +332,7 @@
     {
       "name": "Phyrexian Plaguelord",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Creature - Carrier",
       "text": "{T}, Sacrifice Phyrexian Plaguelord: Target creature gets -4/-4 until end of turn.<br>Sacrifice a creature: Target creature gets -1/-1 until end of turn.",
@@ -345,6 +358,7 @@
     {
       "name": "Phyrexian Hulk",
       "manaCost": "{6}",
+      "sortedManaCost": "{6}",
       "cmc": 6,
       "type": "Artifact Creature - Golem",
       "flavor": "It doesn't think. It doesn't feel. It doesn't laugh or cry. All it does from dusk till dawn Is make the soldiers die.<br>-Onean children's rhyme",
@@ -369,6 +383,7 @@
     {
       "name": "Phyrexian Gargantua",
       "manaCost": "{4}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}",
       "cmc": 6,
       "type": "Creature - Horror",
       "text": "When Phyrexian Gargantua enters the battlefield, you draw two cards and you lose 2 life.",
@@ -394,6 +409,7 @@
     {
       "name": "Phyrexian Colossus",
       "manaCost": "{7}",
+      "sortedManaCost": "{7}",
       "cmc": 7,
       "type": "Artifact Creature - Golem",
       "text": "Phyrexian Colossus doesn't untap during your untap step.<br>Pay 8 life: Untap Phyrexian Colossus.<br>Phyrexian Colossus can't be blocked except by three or more creatures.",
@@ -418,6 +434,7 @@
     {
       "name": "Voltaic Key",
       "manaCost": "{1}",
+      "sortedManaCost": "{1}",
       "cmc": 1,
       "type": "Artifact",
       "text": "{1}, {T}: Untap target artifact.",
@@ -443,6 +460,7 @@
     {
       "name": "Dark Ritual",
       "manaCost": "{B}",
+      "sortedManaCost": "{B}",
       "cmc": 1,
       "type": "Instant",
       "text": "Add {B}{B}{B}.",
@@ -468,6 +486,7 @@
     {
       "name": "Lightning Greaves",
       "manaCost": "{2}",
+      "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact - Equipment",
       "text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)<br>Equip {0}",
@@ -493,6 +512,7 @@
     {
       "name": "Phyrexian Totem",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{T}: Add {B}.<br>{2}{B}: Phyrexian Totem becomes a 5/5 black Horror artifact creature with trample until end of turn.<br>Whenever Phyrexian Totem is dealt damage, if it's a creature, sacrifice that many permanents.",
@@ -517,6 +537,7 @@
     {
       "name": "Phyrexian Vault",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{2}, {T}, Sacrifice a creature: Draw a card.",
@@ -542,6 +563,7 @@
     {
       "name": "Puppet Strings",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{2}, {T}: You may tap or untap target creature.",
@@ -567,6 +589,7 @@
     {
       "name": "Whispersilk Cloak",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Equipped creature can't be blocked and has shroud. (It can't be the target of spells or abilities.)<br>Equip {2}",
@@ -592,6 +615,7 @@
     {
       "name": "Worn Powerstone",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "Worn Powerstone enters the battlefield tapped.<br>{T}: Add {C}{C}.",
@@ -617,6 +641,7 @@
     {
       "name": "Slay",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target green creature. It can't be regenerated.<br>Draw a card.",
@@ -642,6 +667,7 @@
     {
       "name": "Hideous End",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target nonblack creature. Its controller loses 2 life.",
@@ -667,6 +693,7 @@
     {
       "name": "Phyrexian Arena",
       "manaCost": "{1}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, you draw a card and you lose 1 life.",
@@ -692,6 +719,7 @@
     {
       "name": "Hornet Cannon",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "{3}, {T}: Create a 1/1 colorless Insect artifact creature token with flying and haste named Hornet. Destroy it at the beginning of the next end step.",
@@ -716,6 +744,7 @@
     {
       "name": "Phyrexian Processor",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "As Phyrexian Processor enters the battlefield, pay any amount of life.<br>{4}, {T}: Create an X/X black Minion creature token, where X is the life paid as Phyrexian Processor entered the battlefield.",
@@ -740,6 +769,7 @@
     {
       "name": "Tendrils of Corruption",
       "manaCost": "{3}{B}",
+      "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Instant",
       "text": "Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control.",
@@ -765,6 +795,7 @@
     {
       "name": "Living Death",
       "manaCost": "{3}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Each player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield.",
@@ -861,6 +892,7 @@
     {
       "name": "Urza's Rage",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)<br>This spell can't be countered.<br>Urza's Rage deals 3 damage to any target. If this spell was kicked, instead it deals 10 damage to that permanent or player and the damage can't be prevented.",
@@ -885,6 +917,7 @@
     {
       "name": "Thornscape Apprentice",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human Wizard",
       "text": "{R}, {T}: Target creature gains first strike until end of turn.<br>{W}, {T}: Tap target creature.",
@@ -909,6 +942,7 @@
     {
       "name": "Nomadic Elf",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Nomad",
       "text": "{1}{G}: Add one mana of any color.",
@@ -934,6 +968,7 @@
     {
       "name": "Quirion Elves",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Elf Druid",
       "text": "As Quirion Elves enters the battlefield, choose a color.<br>{T}: Add {G}.<br>{T}: Add one mana of the chosen color.",
@@ -958,6 +993,7 @@
     {
       "name": "Sunscape Battlemage",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Kicker {1}{G} and/or {2}{U} (You may pay an additional {1}{G} and/or {2}{U} as you cast this spell.)<br>When Sunscape Battlemage enters the battlefield, if it was kicked with its {1}{G} kicker, destroy target creature with flying.<br>When Sunscape Battlemage enters the battlefield, if it was kicked with its {2}{U} kicker, draw two cards.",
@@ -982,6 +1018,7 @@
     {
       "name": "Thunderscape Battlemage",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Kicker {1}{B} and/or {G} (You may pay an additional {1}{B} and/or {G} as you cast this spell.)<br>When Thunderscape Battlemage enters the battlefield, if it was kicked with its {1}{B} kicker, target player discards two cards.<br>When Thunderscape Battlemage enters the battlefield, if it was kicked with its {G} kicker, destroy target enchantment.",
@@ -1006,6 +1043,7 @@
     {
       "name": "Thornscape Battlemage",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Elf Wizard",
       "text": "Kicker {R} and/or {W} (You may pay an additional {R} and/or {W} as you cast this spell.)<br>When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to any target.<br>When Thornscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, destroy target artifact.",
@@ -1030,6 +1068,7 @@
     {
       "name": "Verduran Emissary",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)<br>When Verduran Emissary enters the battlefield, if it was kicked, destroy target artifact. It can't be regenerated.",
@@ -1054,6 +1093,7 @@
     {
       "name": "Yavimaya Elder",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Human Druid",
       "text": "When Yavimaya Elder dies, you may search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.<br>{2}, Sacrifice Yavimaya Elder: Draw a card.",
@@ -1078,6 +1118,7 @@
     {
       "name": "Charging Troll",
       "manaCost": "{2}{G}{W}",
+      "sortedManaCost": "{2}{W}{G}",
       "cmc": 4,
       "type": "Creature - Troll",
       "text": "Vigilance<br>{G}: Regenerate Charging Troll.",
@@ -1103,9 +1144,10 @@
     {
       "name": "Gerrard Capashen",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Human Soldier",
-      "text": "At the beginning of your upkeep, you gain 1 life for each card in target opponent's hand.<br>{3}{W}: Tap target creature. Activate this ability only if Gerrard Capashen is attacking.",
+      "text": "At the beginning of your upkeep, you gain 1 life for each card in target opponent's hand.<br>{3}{W}: Tap target creature. Activate only if Gerrard Capashen is attacking.",
       "expansion": "PVC",
       "scryfallSetCode": "DDE",
       "rarity": "R",
@@ -1127,6 +1169,7 @@
     {
       "name": "Darigaaz, the Igniter",
       "manaCost": "{3}{B}{R}{G}",
+      "sortedManaCost": "{3}{B}{R}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals their hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way.",
@@ -1151,6 +1194,7 @@
     {
       "name": "Rith, the Awakener",
       "manaCost": "{3}{R}{G}{W}",
+      "sortedManaCost": "{3}{W}{R}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Rith, the Awakener deals combat damage to a player, you may pay {2}{G}. If you do, choose a color, then create a 1/1 green Saproling creature token for each permanent of that color.",
@@ -1175,6 +1219,7 @@
     {
       "name": "Treva, the Renewer",
       "manaCost": "{3}{G}{W}{U}",
+      "sortedManaCost": "{3}{W}{U}{G}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Treva, the Renewer deals combat damage to a player, you may pay {2}{W}. If you do, choose a color, then you gain 1 life for each permanent of that color.",
@@ -1199,6 +1244,7 @@
     {
       "name": "Evasive Action",
       "manaCost": "{1}{U}",
+      "sortedManaCost": "{1}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Domain - Counter target spell unless its controller pays {1} for each basic land type among lands you control.",
@@ -1224,6 +1270,7 @@
     {
       "name": "Tribal Flames",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Domain - Tribal Flames deals X damage to any target, where X is the number of basic land types among lands you control.",
@@ -1249,6 +1296,7 @@
     {
       "name": "Fertile Ground",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant land<br>Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.",
@@ -1274,6 +1322,7 @@
     {
       "name": "Gerrard's Command",
       "manaCost": "{G}{W}",
+      "sortedManaCost": "{W}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Untap target creature. It gets +3/+3 until end of turn.",
@@ -1299,6 +1348,7 @@
     {
       "name": "Coalition Relic",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{T}: Add one mana of any color.<br>{T}: Put a charge counter on Coalition Relic.<br>At the beginning of your precombat main phase, remove all charge counters from Coalition Relic. Add one mana of any color for each charge counter removed this way.",
@@ -1323,6 +1373,7 @@
     {
       "name": "Narrow Escape",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Return target permanent you control to its owner's hand. You gain 4 life.",
@@ -1348,6 +1399,7 @@
     {
       "name": "Exotic Curse",
       "manaCost": "{2}{B}",
+      "sortedManaCost": "{2}{B}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Domain - Enchanted creature gets -1/-1 for each basic land type among lands you control.",
@@ -1373,6 +1425,7 @@
     {
       "name": "Harrow",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "As an additional cost to cast this spell, sacrifice a land.<br>Search your library for up to two basic land cards, put them onto the battlefield, then shuffle.",
@@ -1398,6 +1451,7 @@
     {
       "name": "Armadillo Cloak",
       "manaCost": "{1}{G}{W}",
+      "sortedManaCost": "{1}{W}{G}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has trample.<br>Whenever enchanted creature deals damage, you gain that much life.",
@@ -1423,6 +1477,7 @@
     {
       "name": "Darigaaz's Charm",
       "manaCost": "{B}{R}{G}",
+      "sortedManaCost": "{B}{R}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Return target creature card from your graveyard to your hand.<br>• Darigaaz's Charm deals 3 damage to any target.<br>• Target creature gets +3/+3 until end of turn.",
@@ -1447,6 +1502,7 @@
     {
       "name": "Rith's Charm",
       "manaCost": "{R}{G}{W}",
+      "sortedManaCost": "{W}{R}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target nonbasic land.<br>• Create three 1/1 green Saproling creature tokens.<br>• Prevent all damage a source of your choice would deal this turn.",
@@ -1471,6 +1527,7 @@
     {
       "name": "Treva's Charm",
       "manaCost": "{G}{W}{U}",
+      "sortedManaCost": "{W}{U}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target enchantment.<br>• Exile target attacking creature.<br>• Draw a card, then discard a card.",
@@ -1495,6 +1552,7 @@
     {
       "name": "Power Armor",
       "manaCost": "{4}",
+      "sortedManaCost": "{4}",
       "cmc": 4,
       "type": "Artifact",
       "text": "Domain - {3}, {T}: Target creature gets +1/+1 until end of turn for each basic land type among lands you control.",
@@ -1520,6 +1578,7 @@
     {
       "name": "Allied Strategies",
       "manaCost": "{4}{U}",
+      "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Domain - Target player draws a card for each basic land type among lands they control.",
@@ -1594,7 +1653,7 @@
       "name": "Terramorphic Expanse",
       "cmc": 0,
       "type": "Land",
-      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "expansion": "PVC",
       "scryfallSetCode": "DDE",
       "rarity": "C",

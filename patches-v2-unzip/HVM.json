@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "duel_deck",
-    "digest": "b24f8a59e21718fa78f6b27361394ad8",
+    "digest": "be1edc06280558686957f587ba85a6f0",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HVM_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HVM_M.png",
@@ -22,9 +22,10 @@
     {
       "name": "Sun Titan",
       "manaCost": "{4}{W}{W}",
+      "sortedManaCost": "{4}{W}{W}",
       "cmc": 6,
       "type": "Creature - Giant",
-      "text": "Vigilance<br>Whenever Sun Titan enters the battlefield or attacks, you may return target permanent card with converted mana cost 3 or less from your graveyard to the battlefield.",
+      "text": "Vigilance<br>Whenever Sun Titan enters the battlefield or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield.",
       "flavor": "A blazing sun that never sets.",
       "expansion": "HVM",
       "scryfallSetCode": "DDL",
@@ -47,6 +48,7 @@
     {
       "name": "Somberwald Vigilante",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Human Warrior",
       "text": "Whenever Somberwald Vigilante becomes blocked by a creature, Somberwald Vigilante deals 1 damage to that creature.",
@@ -72,6 +74,7 @@
     {
       "name": "Figure of Destiny",
       "manaCost": "{RW}",
+      "sortedManaCost": "{RW}",
       "cmc": 1,
       "type": "Creature - Kithkin",
       "text": "{R/W}: Figure of Destiny becomes a Kithkin Spirit with base power and toughness 2/2.<br>{R/W}{R/W}{R/W}: If Figure of Destiny is a Spirit, it becomes a Kithkin Spirit Warrior with base power and toughness 4/4.<br>{R/W}{R/W}{R/W}{R/W}{R/W}{R/W}: If Figure of Destiny is a Warrior, it becomes a Kithkin Spirit Warrior Avatar with base power and toughness 8/8, flying, and first strike.",
@@ -96,6 +99,7 @@
     {
       "name": "Cavalry Pegasus",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Pegasus",
       "text": "Flying<br>Whenever Cavalry Pegasus attacks, each attacking Human gains flying until end of turn.",
@@ -121,6 +125,7 @@
     {
       "name": "Fencing Ace",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Soldier",
       "text": "Double strike",
@@ -146,6 +151,7 @@
     {
       "name": "Thraben Valiant",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Creature - Human Soldier",
       "text": "Vigilance",
@@ -171,6 +177,7 @@
     {
       "name": "Stun Sniper",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Creature - Human Archer",
       "text": "{1}, {T}: Stun Sniper deals 1 damage to target creature. Tap that creature.",
@@ -196,6 +203,7 @@
     {
       "name": "Truefire Paladin",
       "manaCost": "{R}{W}",
+      "sortedManaCost": "{W}{R}",
       "cmc": 2,
       "type": "Creature - Human Knight",
       "text": "Vigilance<br>{R}{W}: Truefire Paladin gets +2/+0 until end of turn.<br>{R}{W}: Truefire Paladin gains first strike until end of turn.",
@@ -220,6 +228,7 @@
     {
       "name": "Auramancer",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.",
@@ -245,6 +254,7 @@
     {
       "name": "Freewind Equenaut",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Creature - Human Archer",
       "text": "Flying<br>As long as Freewind Equenaut is enchanted, it has \"{T}: Freewind Equenaut deals 2 damage to target attacking or blocking creature.\"",
@@ -270,6 +280,7 @@
     {
       "name": "Anax and Cymede",
       "manaCost": "{1}{R}{W}",
+      "sortedManaCost": "{1}{W}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Human Soldier",
       "text": "First strike, vigilance<br>Heroic - Whenever you cast a spell that targets Anax and Cymede, creatures you control get +1/+1 and gain trample until end of turn.",
@@ -295,6 +306,7 @@
     {
       "name": "Armory Guard",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Creature - Giant Soldier",
       "text": "Armory Guard has vigilance as long as you control a Gate.",
@@ -320,6 +332,7 @@
     {
       "name": "Gustcloak Sentinel",
       "manaCost": "{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}",
       "cmc": 4,
       "type": "Creature - Human Soldier",
       "text": "Whenever Gustcloak Sentinel becomes blocked, you may untap it and remove it from combat.",
@@ -345,6 +358,7 @@
     {
       "name": "Dawnstrike Paladin",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Creature - Human Knight",
       "text": "Vigilance (Attacking doesn't cause this creature to tap.)<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
@@ -370,6 +384,7 @@
     {
       "name": "Nobilis of War",
       "manaCost": "{RW}{RW}{RW}{RW}{RW}",
+      "sortedManaCost": "{RW}{RW}{RW}{RW}{RW}",
       "cmc": 5,
       "type": "Creature - Spirit Avatar",
       "text": "Flying<br>Attacking creatures you control get +2/+0.",
@@ -395,6 +410,7 @@
     {
       "name": "Kamahl, Pit Fighter",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Human Barbarian",
       "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>{T}: Kamahl, Pit Fighter deals 3 damage to any target.",
@@ -420,6 +436,7 @@
     {
       "name": "Condemn",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.",
@@ -445,6 +462,7 @@
     {
       "name": "Daily Regimen",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>{1}{W}: Put a +1/+1 counter on enchanted creature.",
@@ -470,6 +488,7 @@
     {
       "name": "Pay No Heed",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Prevent all damage a source of your choice would deal this turn.",
@@ -495,6 +514,7 @@
     {
       "name": "Righteousness",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target blocking creature gets +7/+7 until end of turn.",
@@ -520,6 +540,7 @@
     {
       "name": "Stand Firm",
       "manaCost": "{W}",
+      "sortedManaCost": "{W}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +1/+1 until end of turn. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
@@ -544,6 +565,7 @@
     {
       "name": "Magma Jet",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Magma Jet deals 2 damage to any target. Scry 2.",
@@ -568,6 +590,7 @@
     {
       "name": "Ordeal of Purphoros",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Purphoros.<br>When you sacrifice Ordeal of Purphoros, it deals 3 damage to any target.",
@@ -592,6 +615,7 @@
     {
       "name": "Bonds of Faith",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 as long as it's a Human. Otherwise, it can't attack or block.",
@@ -617,6 +641,7 @@
     {
       "name": "Moment of Heroism",
       "manaCost": "{1}{W}",
+      "sortedManaCost": "{1}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +2/+2 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)",
@@ -642,6 +667,7 @@
     {
       "name": "Undying Rage",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and can't block.<br>When Undying Rage is put into a graveyard from the battlefield, return Undying Rage to its owner's hand.",
@@ -666,6 +692,7 @@
     {
       "name": "Battle Mastery",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has double strike. (It deals both first-strike and regular combat damage.)",
@@ -691,6 +718,7 @@
     {
       "name": "Griffin Guide",
       "manaCost": "{2}{W}",
+      "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has flying.<br>When enchanted creature dies, create a 2/2 white Griffin creature token with flying.",
@@ -715,6 +743,7 @@
     {
       "name": "Smite the Monstrous",
       "manaCost": "{3}{W}",
+      "sortedManaCost": "{3}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Destroy target creature with power 4 or greater.",
@@ -740,6 +769,7 @@
     {
       "name": "Miraculous Recovery",
       "manaCost": "{4}{W}",
+      "sortedManaCost": "{4}{W}",
       "cmc": 5,
       "type": "Instant",
       "text": "Return target creature card from your graveyard to the battlefield. Put a +1/+1 counter on it.",
@@ -765,6 +795,7 @@
     {
       "name": "Winds of Rath",
       "manaCost": "{3}{W}{W}",
+      "sortedManaCost": "{3}{W}{W}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Destroy all creatures that aren't enchanted. They can't be regenerated.",
@@ -790,6 +821,7 @@
     {
       "name": "Pyrokinesis",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Instant",
       "text": "You may exile a red card from your hand rather than pay this spell's mana cost.<br>Pyrokinesis deals 4 damage divided as you choose among any number of target creatures.",
@@ -1005,6 +1037,7 @@
     {
       "name": "Polukranos, World Eater",
       "manaCost": "{2}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}",
       "cmc": 4,
       "type": "Legendary Creature - Hydra",
       "text": "{X}{X}{G}: Monstrosity X. (If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)<br>When Polukranos, World Eater becomes monstrous, it deals X damage divided as you choose among any number of target creatures your opponents control. Each of those creatures deals damage equal to its power to Polukranos.",
@@ -1029,6 +1062,7 @@
     {
       "name": "Orcish Lumberjack",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Creature - Orc",
       "text": "{T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G}.",
@@ -1054,6 +1088,7 @@
     {
       "name": "Deadly Recluse",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Spider",
       "text": "Reach (This creature can block creatures with flying.)<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
@@ -1079,6 +1114,7 @@
     {
       "name": "Kavu Predator",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Kavu",
       "text": "Trample<br>Whenever an opponent gains life, put that many +1/+1 counters on Kavu Predator.",
@@ -1104,6 +1140,7 @@
     {
       "name": "Satyr Hedonist",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Creature - Satyr",
       "text": "{R}, Sacrifice Satyr Hedonist: Add {R}{R}{R}.",
@@ -1129,6 +1166,7 @@
     {
       "name": "Zhur-Taa Druid",
       "manaCost": "{R}{G}",
+      "sortedManaCost": "{R}{G}",
       "cmc": 2,
       "type": "Creature - Human Druid",
       "text": "{T}: Add {G}.<br>Whenever you tap Zhur-Taa Druid for mana, it deals 1 damage to each opponent.",
@@ -1154,6 +1192,7 @@
     {
       "name": "Blood Ogre",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Creature - Ogre Warrior",
       "text": "Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)<br>First strike (This creature deals combat damage before creatures without first strike.)",
@@ -1178,6 +1217,7 @@
     {
       "name": "Troll Ascetic",
       "manaCost": "{1}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}",
       "cmc": 3,
       "type": "Creature - Troll Shaman",
       "text": "Hexproof (This creature can't be the target of spells or abilities your opponents control.)<br>{1}{G}: Regenerate Troll Ascetic.",
@@ -1203,6 +1243,7 @@
     {
       "name": "Crowned Ceratok",
       "manaCost": "{3}{G}",
+      "sortedManaCost": "{3}{G}",
       "cmc": 4,
       "type": "Creature - Rhino",
       "text": "Trample<br>Each creature you control with a +1/+1 counter on it has trample.",
@@ -1228,6 +1269,7 @@
     {
       "name": "Gorehorn Minotaurs",
       "manaCost": "{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}",
       "cmc": 4,
       "type": "Creature - Minotaur Warrior",
       "text": "Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)",
@@ -1253,6 +1295,7 @@
     {
       "name": "Ghor-Clan Savage",
       "manaCost": "{3}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}",
       "cmc": 5,
       "type": "Creature - Centaur Berserker",
       "text": "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)",
@@ -1278,6 +1321,7 @@
     {
       "name": "Deus of Calamity",
       "manaCost": "{RG}{RG}{RG}{RG}{RG}",
+      "sortedManaCost": "{RG}{RG}{RG}{RG}{RG}",
       "cmc": 5,
       "type": "Creature - Spirit Avatar",
       "text": "Trample<br>Whenever Deus of Calamity deals 6 or more damage to an opponent, destroy target land that player controls.",
@@ -1303,6 +1347,7 @@
     {
       "name": "Conquering Manticore",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Manticore",
       "text": "Flying<br>When Conquering Manticore enters the battlefield, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.",
@@ -1328,6 +1373,7 @@
     {
       "name": "Crater Hellion",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Hellion Beast",
       "text": "Echo {4}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)<br>When Crater Hellion enters the battlefield, it deals 4 damage to each other creature.",
@@ -1352,6 +1398,7 @@
     {
       "name": "Skarrgan Firebird",
       "manaCost": "{4}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}",
       "cmc": 6,
       "type": "Creature - Phoenix",
       "text": "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)<br>Flying<br>{R}{R}{R}: Return Skarrgan Firebird from your graveyard to your hand. Activate only if an opponent was dealt damage this turn.",
@@ -1376,6 +1423,7 @@
     {
       "name": "Valley Rannet",
       "manaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{R}{G}",
       "cmc": 6,
       "type": "Creature - Beast",
       "text": "Mountaincycling {2}, forestcycling {2} ({2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, put it into your hand, then shuffle.)",
@@ -1400,9 +1448,10 @@
     {
       "name": "Krosan Tusker",
       "manaCost": "{5}{G}{G}",
+      "sortedManaCost": "{5}{G}{G}",
       "cmc": 7,
       "type": "Creature - Boar Beast",
-      "text": "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)<br>When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library. (Do this before you draw.)",
+      "text": "Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)<br>When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle. (Do this before you draw.)",
       "expansion": "HVM",
       "scryfallSetCode": "DDL",
       "rarity": "C",
@@ -1424,6 +1473,7 @@
     {
       "name": "Skarrgan Skybreaker",
       "manaCost": "{4}{R}{R}{G}",
+      "sortedManaCost": "{4}{R}{R}{G}",
       "cmc": 7,
       "type": "Creature - Giant Shaman",
       "text": "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)<br>{1}, Sacrifice Skarrgan Skybreaker: It deals damage equal to its power to any target.",
@@ -1449,6 +1499,7 @@
     {
       "name": "Shower of Sparks",
       "manaCost": "{R}",
+      "sortedManaCost": "{R}",
       "cmc": 1,
       "type": "Instant",
       "text": "Shower of Sparks deals 1 damage to target creature and 1 damage to target player or planeswalker.",
@@ -1474,6 +1525,7 @@
     {
       "name": "Prey Upon",
       "manaCost": "{G}",
+      "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)",
@@ -1499,6 +1551,7 @@
     {
       "name": "Pyroclasm",
       "manaCost": "{1}{R}",
+      "sortedManaCost": "{1}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Pyroclasm deals 2 damage to each creature.",
@@ -1524,6 +1577,7 @@
     {
       "name": "Regrowth",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Return target card from your graveyard to your hand.",
@@ -1549,6 +1603,7 @@
     {
       "name": "Terrifying Presence",
       "manaCost": "{1}{G}",
+      "sortedManaCost": "{1}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Prevent all combat damage that would be dealt by creatures other than target creature this turn.",
@@ -1574,6 +1629,7 @@
     {
       "name": "Destructive Revelry",
       "manaCost": "{R}{G}",
+      "sortedManaCost": "{R}{G}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target artifact or enchantment. Destructive Revelry deals 2 damage to that permanent's controller.",
@@ -1599,6 +1655,7 @@
     {
       "name": "Dragon Blood",
       "manaCost": "{3}",
+      "sortedManaCost": "{3}",
       "cmc": 3,
       "type": "Artifact",
       "text": "{3}, {T}: Put a +1/+1 counter on target creature.",
@@ -1624,6 +1681,7 @@
     {
       "name": "Volt Charge",
       "manaCost": "{2}{R}",
+      "sortedManaCost": "{2}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Volt Charge deals 3 damage to any target. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
@@ -1648,6 +1706,7 @@
     {
       "name": "Beast Within",
       "manaCost": "{2}{G}",
+      "sortedManaCost": "{2}{G}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
@@ -1673,6 +1732,7 @@
     {
       "name": "Fires of Yavimaya",
       "manaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{R}{G}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Creatures you control have haste.<br>Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.",
