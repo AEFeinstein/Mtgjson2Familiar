@@ -9,7 +9,10 @@ import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 /*
  * This class contains all information about a scraped card
@@ -355,7 +358,7 @@ public class Card implements Comparable<Card> {
         if (null != mManaCost && mManaCost.length() >= 3) {
             mManaCost = mManaCost.substring(1, mManaCost.length() - 1);
             List<String> glyphs = Arrays.asList(mManaCost.split("[{}]+"));
-            glyphs.sort(Comparator.comparingInt(Card::glyphToInt));
+            Collections.sort(glyphs);
             StringBuilder newCost = new StringBuilder();
             for (String glyph : glyphs) {
                 newCost.append("{").append(glyph).append("}");
@@ -363,165 +366,6 @@ public class Card implements Comparable<Card> {
             return newCost.toString();
         }
         return mManaCost;
-    }
-
-    /**
-     * For each glyph, return a numeric value for sorting
-     *
-     * @param glyph The mana glyph
-     * @return A numeric value for the glyph to sort by
-     */
-    private static int glyphToInt(String glyph) {
-        switch (glyph) {
-            case "X": {
-                return 0;
-            }
-            case "Y": {
-                return 1;
-            }
-            case "Z": {
-                return 2;
-            }
-            case "0": {
-                return 3;
-            }
-            case "1": {
-                return 4;
-            }
-            case "2": {
-                return 5;
-            }
-            case "3": {
-                return 6;
-            }
-            case "4": {
-                return 7;
-            }
-            case "5": {
-                return 8;
-            }
-            case "6": {
-                return 9;
-            }
-            case "7": {
-                return 10;
-            }
-            case "8": {
-                return 11;
-            }
-            case "9": {
-                return 12;
-            }
-            case "10": {
-                return 13;
-            }
-            case "11": {
-                return 14;
-            }
-            case "12": {
-                return 15;
-            }
-            case "13": {
-                return 16;
-            }
-            case "15": {
-                return 17;
-            }
-            case "16": {
-                return 18;
-            }
-            case "1000000": {
-                return 19;
-            }
-            case "C": {
-                return 20;
-            }
-            case "S": {
-                return 21;
-            }
-            case "W": {
-                return 22;
-            }
-            case "2W": {
-                return 23;
-            }
-            case "WP": {
-                return 24;
-            }
-            case "HW": {
-                return 25;
-            }
-            case "U": {
-                return 26;
-            }
-            case "2U": {
-                return 27;
-            }
-            case "UP": {
-                return 28;
-            }
-            case "B": {
-                return 29;
-            }
-            case "2B": {
-                return 30;
-            }
-            case "BP": {
-                return 31;
-            }
-            case "R": {
-                return 32;
-            }
-            case "2R": {
-                return 33;
-            }
-            case "RP": {
-                return 34;
-            }
-            case "G": {
-                return 35;
-            }
-            case "2G": {
-                return 36;
-            }
-            case "GP": {
-                return 37;
-            }
-            case "WU": {
-                return 38;
-            }
-            case "UB": {
-                return 39;
-            }
-            case "BR": {
-                return 40;
-            }
-            case "RG": {
-                return 41;
-            }
-            case "GW": {
-                return 42;
-            }
-            case "WB": {
-                return 43;
-            }
-            case "BG": {
-                return 44;
-            }
-            case "GU": {
-                return 45;
-            }
-            case "UR": {
-                return 46;
-            }
-            case "RW": {
-                return 47;
-            }
-            default: {
-                m2fLogger.log(m2fLogger.LogLevel.ERROR, "UNKNOWN GLYPH IN COST: ~" + glyph + "~");
-                return 48;
-            }
-        }
     }
 
     /**
