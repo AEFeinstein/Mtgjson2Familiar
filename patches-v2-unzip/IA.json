@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "fe0f498291e30cbca1cc5f601c090176",
+    "digest": "79ed620bebe95dfc7b5a7458475ca16c",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IA_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IA_R.png",
@@ -3023,7 +3023,7 @@
     {
       "name": "Iceberg",
       "manaCost": "{X}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}",
+      "sortedManaCost": "{U}{U}{X}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "Iceberg enters the battlefield with X ice counters on it.<br>{3}: Put an ice counter on Iceberg.<br>Remove an ice counter from Iceberg: Add {C}.",
@@ -3770,7 +3770,7 @@
     {
       "name": "Power Sink",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana.",
@@ -4438,7 +4438,7 @@
     {
       "name": "Winter's Chill",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Cast this spell only during combat before blockers are declared.<br>X can't be greater than the number of snow lands you control.<br>Choose X target attacking creatures. For each of those creatures, its controller may pay {1} or {2}. If that player doesn't, destroy that creature at end of combat. If that player pays only {1}, prevent all combat damage that would be dealt to and dealt by that creature this combat.",
@@ -5479,7 +5479,7 @@
     {
       "name": "Howl from Beyond",
       "manaCost": "{X}{B}",
-      "sortedManaCost": "{X}{B}",
+      "sortedManaCost": "{B}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +X/+0 until end of turn.",
@@ -6148,7 +6148,7 @@
     {
       "name": "Mind Warp",
       "manaCost": "{X}{3}{B}",
-      "sortedManaCost": "{X}{3}{B}",
+      "sortedManaCost": "{3}{B}{X}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Look at target player's hand and choose X cards from it. That player discards those cards.",
@@ -6686,7 +6686,7 @@
     {
       "name": "Soul Burn",
       "manaCost": "{X}{2}{B}",
-      "sortedManaCost": "{X}{2}{B}",
+      "sortedManaCost": "{2}{B}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Spend only black and/or red mana on X.<br>Soul Burn deals X damage to any target. You gain life equal to the damage dealt, but not more than the amount of {B} spent on X, the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness.",
@@ -6810,7 +6810,7 @@
     {
       "name": "Spoils of War",
       "manaCost": "{X}{B}",
-      "sortedManaCost": "{X}{B}",
+      "sortedManaCost": "{B}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "X is the number of artifact and/or creature cards in an opponent's graveyard as you cast this spell.<br>Distribute X +1/+1 counters among any number of target creatures.",
@@ -7102,7 +7102,7 @@
     {
       "name": "Avalanche",
       "manaCost": "{X}{2}{R}{R}",
-      "sortedManaCost": "{X}{2}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}{X}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy X target snow lands.",
@@ -7185,7 +7185,7 @@
     {
       "name": "Balduvian Hydra",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Creature - Hydra",
       "text": "Balduvian Hydra enters the battlefield with X +1/+0 counters on it.<br>Remove a +1/+0 counter from Balduvian Hydra: Prevent the next 1 damage that would be dealt to Balduvian Hydra this turn.<br>{R}{R}{R}: Put a +1/+0 counter on Balduvian Hydra. Activate only during your upkeep.",
@@ -8229,7 +8229,7 @@
     {
       "name": "Lava Burst",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Lava Burst deals X damage to any target. If Lava Burst would deal damage to a creature, that damage can't be prevented or dealt instead to another permanent or player.",
@@ -8395,7 +8395,7 @@
     {
       "name": "Meteor Shower",
       "manaCost": "{X}{X}{R}",
-      "sortedManaCost": "{X}{X}{R}",
+      "sortedManaCost": "{R}{X}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Meteor Shower deals X plus 1 damage divided as you choose among any number of targets.",
@@ -10358,7 +10358,7 @@
     {
       "name": "Hurricane",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Hurricane deals X damage to each creature with flying and each player.",
@@ -11693,7 +11693,7 @@
     {
       "name": "Altar of Bone",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, sacrifice a creature.<br>Search your library for a creature card, reveal it, put it into your hand, then shuffle.",
@@ -11734,7 +11734,7 @@
     {
       "name": "Centaur Archer",
       "manaCost": "{1}{R}{G}",
-      "sortedManaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{G}{R}",
       "cmc": 3,
       "type": "Creature - Centaur Archer",
       "text": "{T}: Centaur Archer deals 1 damage to target creature with flying.",
@@ -11776,7 +11776,7 @@
     {
       "name": "Chromatic Armor",
       "manaCost": "{1}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>As Chromatic Armor enters the battlefield, choose a color.<br>Chromatic Armor enters the battlefield with a sleight counter on it.<br>Prevent all damage that would be dealt to enchanted creature by sources of the last chosen color.<br>{X}: Put a sleight counter on Chromatic Armor and choose a color. X is the number of sleight counters on Chromatic Armor.",
@@ -11817,7 +11817,7 @@
     {
       "name": "Diabolic Vision",
       "manaCost": "{U}{B}",
-      "sortedManaCost": "{U}{B}",
+      "sortedManaCost": "{B}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Look at the top five cards of your library. Put one of them into your hand and the rest on top of your library in any order.",
@@ -11859,7 +11859,7 @@
     {
       "name": "Earthlink",
       "manaCost": "{3}{B}{R}{G}",
-      "sortedManaCost": "{3}{B}{R}{G}",
+      "sortedManaCost": "{3}{B}{G}{R}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, sacrifice Earthlink unless you pay {2}.<br>Whenever a creature dies, that creature's controller sacrifices a land.",
@@ -11900,7 +11900,7 @@
     {
       "name": "Elemental Augury",
       "manaCost": "{U}{B}{R}",
-      "sortedManaCost": "{U}{B}{R}",
+      "sortedManaCost": "{B}{R}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{3}: Look at the top three cards of target player's library, then put them back in any order.",
@@ -11942,7 +11942,7 @@
     {
       "name": "Essence Vortex",
       "manaCost": "{1}{U}{B}",
-      "sortedManaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{B}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target creature unless its controller pays life equal to its toughness. A creature destroyed this way can't be regenerated.",
@@ -11984,7 +11984,7 @@
     {
       "name": "Fiery Justice",
       "manaCost": "{R}{G}{W}",
-      "sortedManaCost": "{W}{R}{G}",
+      "sortedManaCost": "{G}{R}{W}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Fiery Justice deals 5 damage divided as you choose among any number of targets. Target opponent gains 5 life.",
@@ -12067,7 +12067,7 @@
     {
       "name": "Flooded Woodlands",
       "manaCost": "{2}{U}{B}",
-      "sortedManaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{B}{U}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Green creatures can't attack unless their controller sacrifices a land for each green creature they control that's attacking. (This cost is paid as attackers are declared.)",
@@ -12193,7 +12193,7 @@
     {
       "name": "Giant Trap Door Spider",
       "manaCost": "{1}{R}{G}",
-      "sortedManaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{G}{R}",
       "cmc": 3,
       "type": "Creature - Spider",
       "text": "{1}{R}{G}, {T}: Exile Giant Trap Door Spider and target creature without flying that's attacking you.",
@@ -12235,7 +12235,7 @@
     {
       "name": "Glaciers",
       "manaCost": "{2}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{U}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, sacrifice Glaciers unless you pay {W}{U}.<br>All Mountains are Plains.",
@@ -12277,7 +12277,7 @@
     {
       "name": "Hymn of Rebirth",
       "manaCost": "{3}{G}{W}",
-      "sortedManaCost": "{3}{W}{G}",
+      "sortedManaCost": "{3}{G}{W}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Put target creature card from a graveyard onto the battlefield under your control.",
@@ -12319,7 +12319,7 @@
     {
       "name": "Kjeldoran Frostbeast",
       "manaCost": "{3}{G}{W}",
-      "sortedManaCost": "{3}{W}{G}",
+      "sortedManaCost": "{3}{G}{W}",
       "cmc": 5,
       "type": "Creature - Elemental Beast",
       "text": "At end of combat, destroy all creatures blocking or blocked by Kjeldoran Frostbeast.",
@@ -12361,7 +12361,7 @@
     {
       "name": "Merieke Ri Berit",
       "manaCost": "{W}{U}{B}",
-      "sortedManaCost": "{W}{U}{B}",
+      "sortedManaCost": "{B}{U}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Human",
       "text": "Merieke Ri Berit doesn't untap during your untap step.<br>{T}: Gain control of target creature for as long as you control Merieke Ri Berit. When Merieke Ri Berit leaves the battlefield or becomes untapped, destroy that creature. It can't be regenerated.",
@@ -12402,7 +12402,7 @@
     {
       "name": "Monsoon",
       "manaCost": "{2}{R}{G}",
-      "sortedManaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{G}{R}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "At the beginning of each player's end step, tap all untapped Islands that player controls and Monsoon deals X damage to the player, where X is the number of Islands tapped this way.",
@@ -12486,7 +12486,7 @@
     {
       "name": "Reclamation",
       "manaCost": "{2}{G}{W}",
-      "sortedManaCost": "{2}{W}{G}",
+      "sortedManaCost": "{2}{G}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "Black creatures can't attack unless their controller sacrifices a land for each black creature they control that's attacking. (This cost is paid as attackers are declared.)",
@@ -12528,7 +12528,7 @@
     {
       "name": "Skeleton Ship",
       "manaCost": "{3}{U}{B}",
-      "sortedManaCost": "{3}{U}{B}",
+      "sortedManaCost": "{3}{B}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Skeleton",
       "text": "When you control no Islands, sacrifice Skeleton Ship.<br>{T}: Put a -1/-1 counter on target creature.",
@@ -12570,7 +12570,7 @@
     {
       "name": "Spectral Shield",
       "manaCost": "{1}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +0/+2 and can't be the target of spells.",
@@ -12612,7 +12612,7 @@
     {
       "name": "Storm Spirit",
       "manaCost": "{3}{G}{W}{U}",
-      "sortedManaCost": "{3}{W}{U}{G}",
+      "sortedManaCost": "{3}{G}{U}{W}",
       "cmc": 6,
       "type": "Creature - Elemental Spirit",
       "text": "Flying<br>{T}: Storm Spirit deals 2 damage to target creature.",
@@ -12654,7 +12654,7 @@
     {
       "name": "Stormbind",
       "manaCost": "{1}{R}{G}",
-      "sortedManaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{G}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{2}, Discard a card at random: Stormbind deals 2 damage to any target.",
@@ -12696,7 +12696,7 @@
     {
       "name": "Wings of Aesthir",
       "manaCost": "{W}{U}",
-      "sortedManaCost": "{W}{U}",
+      "sortedManaCost": "{U}{W}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+0 and has flying and first strike.",

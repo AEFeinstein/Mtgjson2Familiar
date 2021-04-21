@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "commander",
-    "digest": "cb0ccea7446e9753c35498a0efe2a992",
+    "digest": "3fddde1dfec85c1301024eecc169bd2a",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMA_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMA_M.png",
@@ -557,7 +557,7 @@
     {
       "name": "Unexpectedly Absent",
       "manaCost": "{X}{W}{W}",
-      "sortedManaCost": "{X}{W}{W}",
+      "sortedManaCost": "{W}{W}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Put target nonland permanent into its owner's library just beneath the top X cards of that library.",
@@ -660,7 +660,7 @@
     {
       "name": "Blue Sun's Zenith",
       "manaCost": "{X}{U}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}{U}",
+      "sortedManaCost": "{U}{U}{U}{X}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.",
@@ -1157,7 +1157,7 @@
     {
       "name": "Dread Summons",
       "manaCost": "{X}{B}{B}",
-      "sortedManaCost": "{X}{B}{B}",
+      "sortedManaCost": "{B}{B}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Each player mills X cards. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token.",
@@ -1632,7 +1632,7 @@
     {
       "name": "Comet Storm",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)<br>Choose any target, then choose another target for each time this spell was kicked. Comet Storm deals X damage to each of them.",
@@ -1693,7 +1693,7 @@
     {
       "name": "Earthquake",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Earthquake deals X damage to each creature without flying and each player.",
@@ -2564,7 +2564,7 @@
     {
       "name": "Lifeblood Hydra",
       "manaCost": "{X}{G}{G}{G}",
-      "sortedManaCost": "{X}{G}{G}{G}",
+      "sortedManaCost": "{G}{G}{G}{X}",
       "cmc": 3,
       "type": "Creature - Hydra",
       "text": "Trample<br>Lifeblood Hydra enters the battlefield with X +1/+1 counters on it.<br>When Lifeblood Hydra dies, you gain life and draw cards equal to its power.",
@@ -3104,7 +3104,7 @@
     {
       "name": "Sylvan Offering",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Choose an opponent. You and that player each create an X/X green Treefolk creature token.<br>Choose an opponent. You and that player each create X 1/1 green Elf Warrior creature tokens.",
@@ -3558,7 +3558,7 @@
     {
       "name": "Aethermage's Touch",
       "manaCost": "{2}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{U}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Reveal the top four cards of your library. You may put a creature card from among them onto the battlefield. It gains \"At the beginning of your end step, return this creature to its owner's hand.\" Then put the rest of the cards revealed this way on the bottom of your library in any order.",
@@ -3578,7 +3578,7 @@
     {
       "name": "Angel of Despair",
       "manaCost": "{3}{W}{W}{B}{B}",
-      "sortedManaCost": "{3}{W}{W}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{W}{W}",
       "cmc": 7,
       "type": "Creature - Angel",
       "text": "Flying<br>When Angel of Despair enters the battlefield, destroy target permanent.",
@@ -3599,7 +3599,7 @@
     {
       "name": "Basandra, Battle Seraph",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Angel",
       "text": "Flying<br>Players can't cast spells during combat.<br>{R}: Target creature attacks this turn if able.",
@@ -3640,7 +3640,7 @@
     {
       "name": "Derevi, Empyrial Tactician",
       "manaCost": "{G}{W}{U}",
-      "sortedManaCost": "{W}{U}{G}",
+      "sortedManaCost": "{G}{U}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Bird Wizard",
       "text": "Flying<br>Whenever Derevi, Empyrial Tactician enters the battlefield or a creature you control deals combat damage to a player, you may tap or untap target permanent.<br>{1}{G}{W}{U}: Put Derevi onto the battlefield from the command zone.",
@@ -3722,7 +3722,7 @@
     {
       "name": "Kaalia of the Vast",
       "manaCost": "{1}{R}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}{R}",
+      "sortedManaCost": "{1}{B}{R}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Cleric",
       "text": "Flying<br>Whenever Kaalia of the Vast attacks an opponent, you may put an Angel, Demon, or Dragon creature card from your hand onto the battlefield tapped and attacking that opponent.",
@@ -3763,7 +3763,7 @@
     {
       "name": "Leafdrake Roost",
       "manaCost": "{3}{G}{U}",
-      "sortedManaCost": "{3}{U}{G}",
+      "sortedManaCost": "{3}{G}{U}",
       "cmc": 5,
       "type": "Enchantment - Aura",
       "text": "Enchant land<br>Enchanted land has \"{G}{U}, {T}: Create a 2/2 green and blue Drake creature token with flying.\"",
@@ -3867,7 +3867,7 @@
     {
       "name": "Mortify",
       "manaCost": "{1}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{B}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target creature or enchantment.",
@@ -3888,7 +3888,7 @@
     {
       "name": "Oros, the Avenger",
       "manaCost": "{3}{R}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}{R}",
+      "sortedManaCost": "{3}{B}{R}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Oros, the Avenger deals combat damage to a player, you may pay {2}{W}. If you do, Oros deals 3 damage to each nonwhite creature.",
@@ -3929,7 +3929,7 @@
     {
       "name": "Roon of the Hidden Realm",
       "manaCost": "{2}{G}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Rhino Soldier",
       "text": "Vigilance, trample<br>{2}, {T}: Exile another target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
@@ -3950,7 +3950,7 @@
     {
       "name": "Rubinia Soulsinger",
       "manaCost": "{2}{G}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Faerie",
       "text": "You may choose not to untap Rubinia Soulsinger during your untap step.<br>{T}: Gain control of target creature for as long as you control Rubinia and Rubinia remains tapped.",
@@ -3971,7 +3971,7 @@
     {
       "name": "Selesnya Charm",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Target creature gets +2/+2 and gains trample until end of turn.<br>• Exile target creature with power 5 or greater.<br>• Create a 2/2 white Knight creature token with vigilance.",
@@ -3991,7 +3991,7 @@
     {
       "name": "Skyward Eye Prophets",
       "manaCost": "{3}{G}{W}{U}",
-      "sortedManaCost": "{3}{W}{U}{G}",
+      "sortedManaCost": "{3}{G}{U}{W}",
       "cmc": 6,
       "type": "Creature - Human Wizard",
       "text": "Vigilance<br>{T}: Reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put it into your hand.",
@@ -4012,7 +4012,7 @@
     {
       "name": "Tariel, Reckoner of Souls",
       "manaCost": "{4}{R}{W}{B}",
-      "sortedManaCost": "{4}{W}{B}{R}",
+      "sortedManaCost": "{4}{B}{R}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Angel",
       "text": "Flying, vigilance<br>{T}: Choose a creature card at random from target opponent's graveyard. Put that card onto the battlefield under your control.",
@@ -4075,7 +4075,7 @@
     {
       "name": "Winged Coatl",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Creature - Snake",
       "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",

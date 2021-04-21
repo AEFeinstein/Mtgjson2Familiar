@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "e50bef078130d8158b222d7addde72d0",
+    "digest": "6b2ef57c37087f28deddaf8ee444f621",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/LG_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/LG_R.png",
@@ -46,7 +46,7 @@
     {
       "name": "Alabaster Potion",
       "manaCost": "{X}{W}{W}",
-      "sortedManaCost": "{X}{W}{W}",
+      "sortedManaCost": "{W}{W}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Target player gains X life.<br>• Prevent the next X damage that would be dealt to any target this turn.",
@@ -1674,7 +1674,7 @@
     {
       "name": "Part Water",
       "manaCost": "{X}{X}{U}",
-      "sortedManaCost": "{X}{X}{U}",
+      "sortedManaCost": "{U}{X}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "X target creatures gain islandwalk until end of turn. (They can't be blocked as long as defending player controls an Island.)",
@@ -1776,7 +1776,7 @@
     {
       "name": "Recall",
       "manaCost": "{X}{X}{U}",
-      "sortedManaCost": "{X}{X}{U}",
+      "sortedManaCost": "{U}{X}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Discard X cards, then return a card from your graveyard to your hand for each card discarded this way. Exile Recall.",
@@ -2103,7 +2103,7 @@
     {
       "name": "Venarian Gold",
       "manaCost": "{X}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}",
+      "sortedManaCost": "{U}{U}{X}",
       "cmc": 2,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>When Venarian Gold enters the battlefield, tap enchanted creature and put X sleep counters on it.<br>Enchanted creature doesn't untap during its controller's untap step if it has a sleep counter on it.<br>At the beginning of the upkeep of enchanted creature's controller, remove a sleep counter from that creature.",
@@ -5414,7 +5414,7 @@
     {
       "name": "Winter Blast",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Tap X target creatures. Winter Blast deals 2 damage to each of those creatures with flying.",
@@ -5491,7 +5491,7 @@
     {
       "name": "Adun Oakenshield",
       "manaCost": "{B}{R}{G}",
-      "sortedManaCost": "{B}{R}{G}",
+      "sortedManaCost": "{B}{G}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Human Knight",
       "text": "{B}{R}{G}, {T}: Return target creature card from your graveyard to your hand.",
@@ -5517,7 +5517,7 @@
     {
       "name": "Angus Mackenzie",
       "manaCost": "{G}{W}{U}",
-      "sortedManaCost": "{W}{U}{G}",
+      "sortedManaCost": "{G}{U}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Human Cleric",
       "text": "{G}{W}{U}, {T}: Prevent all combat damage that would be dealt this turn. Activate only before the combat damage step.",
@@ -5543,7 +5543,7 @@
     {
       "name": "Arcades Sabboth",
       "manaCost": "{2}{G}{G}{W}{W}{U}{U}",
-      "sortedManaCost": "{2}{W}{W}{U}{U}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{U}{U}{W}{W}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>At the beginning of your upkeep, sacrifice Arcades Sabboth unless you pay {G}{W}{U}.<br>Each untapped creature you control gets +0/+2 as long as it's not attacking.<br>{W}: Arcades Sabboth gets +0/+1 until end of turn.",
@@ -5593,7 +5593,7 @@
     {
       "name": "Ayesha Tanaka",
       "manaCost": "{W}{W}{U}{U}",
-      "sortedManaCost": "{W}{W}{U}{U}",
+      "sortedManaCost": "{U}{U}{W}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Artificer",
       "text": "Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)<br>{T}: Counter target activated ability from an artifact source unless that ability's controller pays {W}. (Mana abilities can't be targeted.)",
@@ -5643,7 +5643,7 @@
     {
       "name": "Bartel Runeaxe",
       "manaCost": "{3}{B}{R}{G}",
-      "sortedManaCost": "{3}{B}{R}{G}",
+      "sortedManaCost": "{3}{B}{G}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Giant Warrior",
       "text": "Vigilance<br>Bartel Runeaxe can't be the target of Aura spells.",
@@ -5694,7 +5694,7 @@
     {
       "name": "Chromium",
       "manaCost": "{2}{W}{W}{U}{U}{B}{B}",
-      "sortedManaCost": "{2}{W}{W}{U}{U}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}{U}{U}{W}{W}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>Rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)<br>At the beginning of your upkeep, sacrifice Chromium unless you pay {W}{U}{B}.",
@@ -5719,7 +5719,7 @@
     {
       "name": "Dakkon Blackblade",
       "manaCost": "{2}{W}{U}{U}{B}",
-      "sortedManaCost": "{2}{W}{U}{U}{B}",
+      "sortedManaCost": "{2}{B}{U}{U}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Human Warrior",
       "text": "Dakkon Blackblade's power and toughness are each equal to the number of lands you control.",
@@ -5745,7 +5745,7 @@
     {
       "name": "Gabriel Angelfire",
       "manaCost": "{3}{G}{G}{W}{W}",
-      "sortedManaCost": "{3}{W}{W}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}{W}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Angel",
       "text": "At the beginning of your upkeep, choose flying, first strike, trample, or rampage 3. Gabriel Angelfire gains that ability until your next upkeep. (Whenever a creature with rampage 3 becomes blocked, it gets +3/+3 until end of turn for each creature blocking it beyond the first.)",
@@ -5770,7 +5770,7 @@
     {
       "name": "Gosta Dirk",
       "manaCost": "{3}{W}{W}{U}{U}",
-      "sortedManaCost": "{3}{W}{W}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}{W}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Human Warrior",
       "text": "First strike<br>Creatures with islandwalk can be blocked as though they didn't have islandwalk.",
@@ -5795,7 +5795,7 @@
     {
       "name": "Gwendlyn Di Corci",
       "manaCost": "{U}{B}{B}{R}",
-      "sortedManaCost": "{U}{B}{B}{R}",
+      "sortedManaCost": "{B}{B}{R}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Rogue",
       "text": "{T}: Target player discards a card at random. Activate only during your turn.",
@@ -5821,7 +5821,7 @@
     {
       "name": "Halfdane",
       "manaCost": "{1}{W}{U}{B}",
-      "sortedManaCost": "{1}{W}{U}{B}",
+      "sortedManaCost": "{1}{B}{U}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Shapeshifter",
       "text": "At the beginning of your upkeep, change Halfdane's base power and toughness to the power and toughness of target creature other than Halfdane until the end of your next upkeep.",
@@ -5847,7 +5847,7 @@
     {
       "name": "Hazezon Tamar",
       "manaCost": "{4}{R}{G}{W}",
-      "sortedManaCost": "{4}{W}{R}{G}",
+      "sortedManaCost": "{4}{G}{R}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Human Warrior",
       "text": "When Hazezon Tamar enters the battlefield, create X 1/1 Sand Warrior creature tokens that are red, green, and white at the beginning of your next upkeep, where X is the number of lands you control at that time.<br>When Hazezon leaves the battlefield, exile all Sand Warriors.",
@@ -5872,7 +5872,7 @@
     {
       "name": "Hunding Gjornersen",
       "manaCost": "{3}{W}{U}{U}",
-      "sortedManaCost": "{3}{W}{U}{U}",
+      "sortedManaCost": "{3}{U}{U}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Human Warrior",
       "text": "Rampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)",
@@ -5898,7 +5898,7 @@
     {
       "name": "Jacques le Vert",
       "manaCost": "{1}{R}{G}{W}",
-      "sortedManaCost": "{1}{W}{R}{G}",
+      "sortedManaCost": "{1}{G}{R}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Warrior",
       "text": "Green creatures you control get +0/+2.",
@@ -5924,7 +5924,7 @@
     {
       "name": "Jasmine Boreal",
       "manaCost": "{3}{G}{W}",
-      "sortedManaCost": "{3}{W}{G}",
+      "sortedManaCost": "{3}{G}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Human",
       "flavor": "\"Peace must prevail, even if the wicked must die.\"",
@@ -5949,7 +5949,7 @@
     {
       "name": "Jedit Ojanen",
       "manaCost": "{4}{W}{W}{U}",
-      "sortedManaCost": "{4}{W}{W}{U}",
+      "sortedManaCost": "{4}{U}{W}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Cat Warrior",
       "flavor": "Mightiest of the Cat Warriors, Jedit Ojanen forsook the forests of his tribe and took service with the Robaran Mercenaries, rising through their ranks to lead them in the battle for Efrava.",
@@ -5974,7 +5974,7 @@
     {
       "name": "Jerrard of the Closed Fist",
       "manaCost": "{3}{R}{G}{G}",
-      "sortedManaCost": "{3}{R}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Human Knight",
       "flavor": "Once, the order of the Closed Fist reached throughout the Kb'Briann Highlands. Now, Jerrard alone remains to uphold their standard.",
@@ -5999,7 +5999,7 @@
     {
       "name": "Johan",
       "manaCost": "{3}{R}{G}{W}",
-      "sortedManaCost": "{3}{W}{R}{G}",
+      "sortedManaCost": "{3}{G}{R}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Human Wizard",
       "text": "At the beginning of combat on your turn, you may have Johan gain \"Johan can't attack\" until end of combat. If you do, attacking doesn't cause creatures you control to tap this combat if Johan is untapped.",
@@ -6024,7 +6024,7 @@
     {
       "name": "Kasimir the Lone Wolf",
       "manaCost": "{4}{W}{U}",
-      "sortedManaCost": "{4}{W}{U}",
+      "sortedManaCost": "{4}{U}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Human Warrior",
       "flavor": "Popular indeed is the tale of how Kasimir was once a Holy man who renounced his order to take up the sword. But this tale is no more likely than any other.",
@@ -6049,7 +6049,7 @@
     {
       "name": "Kei Takahashi",
       "manaCost": "{2}{G}{W}",
-      "sortedManaCost": "{2}{W}{G}",
+      "sortedManaCost": "{2}{G}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Cleric",
       "text": "{T}: Prevent the next 2 damage that would be dealt to target creature this turn.",
@@ -6074,7 +6074,7 @@
     {
       "name": "Lady Caleria",
       "manaCost": "{3}{G}{G}{W}{W}",
-      "sortedManaCost": "{3}{W}{W}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}{W}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Elf Archer",
       "text": "{T}: Lady Caleria deals 3 damage to target attacking or blocking creature.",
@@ -6099,7 +6099,7 @@
     {
       "name": "Lady Evangela",
       "manaCost": "{W}{U}{B}",
-      "sortedManaCost": "{W}{U}{B}",
+      "sortedManaCost": "{B}{U}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Human Cleric",
       "text": "{W}{B}, {T}: Prevent all combat damage that would be dealt by target creature this turn.",
@@ -6150,7 +6150,7 @@
     {
       "name": "Livonya Silone",
       "manaCost": "{2}{R}{R}{G}{G}",
-      "sortedManaCost": "{2}{R}{R}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{R}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Human Warrior",
       "text": "First strike; legendary landwalk (This creature can't be blocked as long as defending player controls a legendary land.)",
@@ -6176,7 +6176,7 @@
     {
       "name": "Lord Magnus",
       "manaCost": "{3}{G}{W}{W}",
-      "sortedManaCost": "{3}{W}{W}{G}",
+      "sortedManaCost": "{3}{G}{W}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Human Druid",
       "text": "First strike<br>Creatures with plainswalk can be blocked as though they didn't have plainswalk.<br>Creatures with forestwalk can be blocked as though they didn't have forestwalk.",
@@ -6201,7 +6201,7 @@
     {
       "name": "Marhault Elsdragon",
       "manaCost": "{3}{R}{R}{G}",
-      "sortedManaCost": "{3}{R}{R}{G}",
+      "sortedManaCost": "{3}{G}{R}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Elf Warrior",
       "text": "Rampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)",
@@ -6227,7 +6227,7 @@
     {
       "name": "Nebuchadnezzar",
       "manaCost": "{3}{U}{B}",
-      "sortedManaCost": "{3}{U}{B}",
+      "sortedManaCost": "{3}{B}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Human Wizard",
       "text": "{X}, {T}: Choose a card name. Target opponent reveals X cards at random from their hand. Then that player discards all cards with that name revealed this way. Activate only during your turn.",
@@ -6252,7 +6252,7 @@
     {
       "name": "Nicol Bolas",
       "manaCost": "{2}{U}{U}{B}{B}{R}{R}",
-      "sortedManaCost": "{2}{U}{U}{B}{B}{R}{R}",
+      "sortedManaCost": "{2}{B}{B}{R}{R}{U}{U}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.<br>Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.",
@@ -6277,7 +6277,7 @@
     {
       "name": "Palladia-Mors",
       "manaCost": "{2}{R}{R}{G}{G}{W}{W}",
-      "sortedManaCost": "{2}{W}{W}{R}{R}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{R}{R}{W}{W}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying, trample<br>At the beginning of your upkeep, sacrifice Palladia-Mors unless you pay {R}{G}{W}.",
@@ -6328,7 +6328,7 @@
     {
       "name": "Princess Lucrezia",
       "manaCost": "{3}{U}{U}{B}",
-      "sortedManaCost": "{3}{U}{U}{B}",
+      "sortedManaCost": "{3}{B}{U}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Human Wizard",
       "text": "{T}: Add {U}.",
@@ -6353,7 +6353,7 @@
     {
       "name": "Ragnar",
       "manaCost": "{G}{W}{U}",
-      "sortedManaCost": "{W}{U}{G}",
+      "sortedManaCost": "{G}{U}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Human Cleric",
       "text": "{G}{W}{U}, {T}: Regenerate target creature.",
@@ -6379,7 +6379,7 @@
     {
       "name": "Ramirez DePietro",
       "manaCost": "{3}{U}{B}{B}",
-      "sortedManaCost": "{3}{U}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Human Pirate",
       "text": "First strike",
@@ -6405,7 +6405,7 @@
     {
       "name": "Ramses Overdark",
       "manaCost": "{2}{U}{U}{B}{B}",
-      "sortedManaCost": "{2}{U}{U}{B}{B}",
+      "sortedManaCost": "{2}{B}{B}{U}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Human Assassin",
       "text": "{T}: Destroy target enchanted creature.",
@@ -6430,7 +6430,7 @@
     {
       "name": "Rasputin Dreamweaver",
       "manaCost": "{4}{W}{U}",
-      "sortedManaCost": "{4}{W}{U}",
+      "sortedManaCost": "{4}{U}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Human Wizard",
       "text": "Rasputin Dreamweaver enters the battlefield with seven dream counters on it.<br>Remove a dream counter from Rasputin: Add {C}.<br>Remove a dream counter from Rasputin: Prevent the next 1 damage that would be dealt to Rasputin this turn.<br>At the beginning of your upkeep, if Rasputin started the turn untapped, put a dream counter on it.<br>Rasputin can't have more than seven dream counters on it.",
@@ -6455,7 +6455,7 @@
     {
       "name": "Riven Turnbull",
       "manaCost": "{5}{U}{B}",
-      "sortedManaCost": "{5}{U}{B}",
+      "sortedManaCost": "{5}{B}{U}",
       "cmc": 7,
       "type": "Legendary Creature - Human Advisor",
       "text": "{T}: Add {B}.",
@@ -6506,7 +6506,7 @@
     {
       "name": "Rubinia Soulsinger",
       "manaCost": "{2}{G}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Faerie",
       "text": "You may choose not to untap Rubinia Soulsinger during your untap step.<br>{T}: Gain control of target creature for as long as you control Rubinia and Rubinia remains tapped.",
@@ -6531,7 +6531,7 @@
     {
       "name": "Sir Shandlar of Eberyn",
       "manaCost": "{4}{G}{W}",
-      "sortedManaCost": "{4}{W}{G}",
+      "sortedManaCost": "{4}{G}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Human Knight",
       "flavor": "\"Remember Sir Shandlar! Remember and stand firm!\" -rallying cry of the Eberyn militia",
@@ -6556,7 +6556,7 @@
     {
       "name": "Sivitri Scarzam",
       "manaCost": "{5}{U}{B}",
-      "sortedManaCost": "{5}{U}{B}",
+      "sortedManaCost": "{5}{B}{U}",
       "cmc": 7,
       "type": "Legendary Creature - Human",
       "flavor": "Even the brave have cause to tremble at the sight of Sivitri Scarzam. Who else has tamed Scarzam's Dragon?",
@@ -6581,7 +6581,7 @@
     {
       "name": "Sol'kanar the Swamp King",
       "manaCost": "{2}{U}{B}{R}",
-      "sortedManaCost": "{2}{U}{B}{R}",
+      "sortedManaCost": "{2}{B}{R}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Demon",
       "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)<br>Whenever a player casts a black spell, you gain 1 life.",
@@ -6606,7 +6606,7 @@
     {
       "name": "Stangg",
       "manaCost": "{4}{R}{G}",
-      "sortedManaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{G}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Human Warrior",
       "text": "When Stangg enters the battlefield, create Stangg Twin, a legendary 3/4 red and green Human Warrior creature token. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield.",
@@ -6631,7 +6631,7 @@
     {
       "name": "Sunastian Falconer",
       "manaCost": "{3}{R}{G}",
-      "sortedManaCost": "{3}{R}{G}",
+      "sortedManaCost": "{3}{G}{R}",
       "cmc": 5,
       "type": "Legendary Creature - Human Shaman",
       "text": "{T}: Add {C}{C}.",
@@ -6657,7 +6657,7 @@
     {
       "name": "Tetsuo Umezawa",
       "manaCost": "{U}{B}{R}",
-      "sortedManaCost": "{U}{B}{R}",
+      "sortedManaCost": "{B}{R}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Human Archer",
       "text": "Tetsuo Umezawa can't be the target of Aura spells.<br>{U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature.",
@@ -6682,7 +6682,7 @@
     {
       "name": "The Lady of the Mountain",
       "manaCost": "{4}{R}{G}",
-      "sortedManaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{G}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Giant",
       "flavor": "Her given name has been lost in the mists of time. Legend says that her silent vigil will one day be ended by the one who, pure of heart and spirit, calls out that name again.",
@@ -6707,7 +6707,7 @@
     {
       "name": "Tobias Andrion",
       "manaCost": "{3}{W}{U}",
-      "sortedManaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{U}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Human Advisor",
       "flavor": "Administrator of the military state of Sheoltun, Tobias is the military right arm of the empire and the figurehead of its freedom.",
@@ -6757,7 +6757,7 @@
     {
       "name": "Torsten Von Ursus",
       "manaCost": "{3}{G}{G}{W}",
-      "sortedManaCost": "{3}{W}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Human Soldier",
       "flavor": "\"How can you accuse me of evil? Though these deeds be unsavory, no one will argue: good shall follow from them.\"",
@@ -6782,7 +6782,7 @@
     {
       "name": "Tuknir Deathlock",
       "manaCost": "{R}{R}{G}{G}",
-      "sortedManaCost": "{R}{R}{G}{G}",
+      "sortedManaCost": "{G}{G}{R}{R}",
       "cmc": 4,
       "type": "Legendary Creature - Human Wizard",
       "text": "Flying<br>{R}{G}, {T}: Target creature gets +2/+2 until end of turn.",
@@ -6808,7 +6808,7 @@
     {
       "name": "Ur-Drago",
       "manaCost": "{3}{U}{U}{B}{B}",
-      "sortedManaCost": "{3}{U}{U}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{U}{U}",
       "cmc": 7,
       "type": "Legendary Creature - Elemental",
       "text": "First strike<br>Creatures with swampwalk can be blocked as though they didn't have swampwalk.",
@@ -6833,7 +6833,7 @@
     {
       "name": "Vaevictis Asmadi",
       "manaCost": "{2}{B}{B}{R}{R}{G}{G}",
-      "sortedManaCost": "{2}{B}{B}{R}{R}{G}{G}",
+      "sortedManaCost": "{2}{B}{B}{G}{G}{R}{R}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>At the beginning of your upkeep, sacrifice Vaevictis Asmadi unless you pay {B}{R}{G}.<br>{B}: Vaevictis Asmadi gets +1/+0 until end of turn.<br>{R}: Vaevictis Asmadi gets +1/+0 until end of turn.<br>{G}: Vaevictis Asmadi gets +1/+0 until end of turn.",
@@ -6858,7 +6858,7 @@
     {
       "name": "Xira Arien",
       "manaCost": "{B}{R}{G}",
-      "sortedManaCost": "{B}{R}{G}",
+      "sortedManaCost": "{B}{G}{R}",
       "cmc": 3,
       "type": "Legendary Creature - Insect Wizard",
       "text": "Flying<br>{B}{R}{G}, {T}: Target player draws a card.",

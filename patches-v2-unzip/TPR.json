@@ -8,7 +8,7 @@
     "isOnlineOnly": true,
     "borderColor": "Black",
     "type": "masters",
-    "digest": "3def869c7a02d930d225060298985725",
+    "digest": "62c37cb2d87b3c9b75854ec085e3b93b",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/TPR_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/TPR_M.png",
@@ -1433,7 +1433,7 @@
     {
       "name": "Spell Blast",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell with mana value X. (For example, if that spell's mana cost is {3}{U}{U}, X is 5.)",
@@ -2701,7 +2701,7 @@
     {
       "name": "Fanning the Flames",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)<br>Fanning the Flames deals X damage to any target.",
@@ -3159,7 +3159,7 @@
     {
       "name": "Rolling Thunder",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Rolling Thunder deals X damage divided as you choose among any number of targets.",
@@ -3679,7 +3679,7 @@
     {
       "name": "Krakilin",
       "manaCost": "{X}{G}{G}",
-      "sortedManaCost": "{X}{G}{G}",
+      "sortedManaCost": "{G}{G}{X}",
       "cmc": 2,
       "type": "Creature - Beast",
       "text": "Krakilin enters the battlefield with X +1/+1 counters on it.<br>{1}{G}: Regenerate Krakilin.",
@@ -4298,7 +4298,7 @@
     {
       "name": "Crystalline Sliver",
       "manaCost": "{W}{U}",
-      "sortedManaCost": "{W}{U}",
+      "sortedManaCost": "{U}{W}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "All Slivers have shroud. (They can't be the targets of spells or abilities.)",
@@ -4319,7 +4319,7 @@
     {
       "name": "Dracoplasm",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Creature - Shapeshifter",
       "text": "Flying<br>As Dracoplasm enters the battlefield, sacrifice any number of creatures. Dracoplasm's power becomes the total power of those creatures and its toughness becomes their total toughness.<br>{R}: Dracoplasm gets +1/+0 until end of turn.",
@@ -4339,7 +4339,7 @@
     {
       "name": "Hibernation Sliver",
       "manaCost": "{U}{B}",
-      "sortedManaCost": "{U}{B}",
+      "sortedManaCost": "{B}{U}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "All Slivers have \"Pay 2 life: Return this permanent to its owner's hand.\"",
@@ -4360,7 +4360,7 @@
     {
       "name": "Selenia, Dark Angel",
       "manaCost": "{3}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{B}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Angel",
       "text": "Flying<br>Pay 2 life: Return Selenia, Dark Angel to its owner's hand.",
@@ -4381,7 +4381,7 @@
     {
       "name": "Sliver Queen",
       "manaCost": "{W}{U}{B}{R}{G}",
-      "sortedManaCost": "{W}{U}{B}{R}{G}",
+      "sortedManaCost": "{B}{G}{R}{U}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Sliver",
       "text": "{2}: Create a 1/1 colorless Sliver creature token.",
@@ -4402,7 +4402,7 @@
     {
       "name": "Soltari Guerrillas",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Creature - Soltari Soldier",
       "text": "Shadow (This creature can block or be blocked by only creatures with shadow.)<br>{0}: The next time Soltari Guerrillas would deal combat damage to an opponent this turn, it deals that damage to target creature instead.",
@@ -4422,7 +4422,7 @@
     {
       "name": "Spined Sliver",
       "manaCost": "{R}{G}",
-      "sortedManaCost": "{R}{G}",
+      "sortedManaCost": "{G}{R}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "Whenever a Sliver becomes blocked, that Sliver gets +1/+1 until end of turn for each creature blocking it.",
@@ -4464,7 +4464,7 @@
     {
       "name": "Victual Sliver",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "All Slivers have \"{2}, Sacrifice this permanent: You gain 4 life.\"",
@@ -4485,7 +4485,7 @@
     {
       "name": "Wood Sage",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Creature - Human Druid",
       "text": "{T}: Choose a creature card name. Reveal the top four cards of your library and put all of them with that name into your hand. Put the rest into your graveyard.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "commander",
-    "digest": "74af266fdace6182bf4330e40524e329",
+    "digest": "4b356e40d210aeff938d751d9f350bc0",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C18_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C18_M.png",
@@ -659,7 +659,7 @@
     {
       "name": "Entreat the Dead",
       "manaCost": "{X}{X}{B}{B}{B}",
-      "sortedManaCost": "{X}{X}{B}{B}{B}",
+      "sortedManaCost": "{B}{B}{B}{X}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Return X target creature cards from your graveyard to the battlefield.<br>Miracle {X}{B}{B} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)",
@@ -1158,7 +1158,7 @@
     {
       "name": "Saheeli's Directive",
       "manaCost": "{X}{R}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}{R}",
+      "sortedManaCost": "{R}{R}{R}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Improvise (Each artifact you tap after you're done activating mana abilities pays for {1}.)<br>Reveal the top X cards of your library. You may put any number of artifact cards with mana value X or less from among them onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield into your graveyard.",
@@ -1661,7 +1661,7 @@
     {
       "name": "Aminatou, the Fateshifter",
       "manaCost": "{W}{U}{B}",
-      "sortedManaCost": "{W}{U}{B}",
+      "sortedManaCost": "{B}{U}{W}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Aminatou",
       "text": "[+1]: Draw a card, then put a card from your hand on top of your library.<br>[−1]: Exile another target permanent you own, then return it to the battlefield under your control.<br>[−6]: Choose left or right. Each player gains control of all nonland permanents other than Aminatou, the Fateshifter controlled by the next player in the chosen direction.<br>Aminatou, the Fateshifter can be your commander.",
@@ -1706,7 +1706,7 @@
     {
       "name": "Arixmethes, Slumbering Isle",
       "manaCost": "{2}{G}{U}",
-      "sortedManaCost": "{2}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Kraken",
       "text": "Arixmethes, Slumbering Isle enters the battlefield tapped with five slumber counters on it.<br>As long as Arixmethes has a slumber counter on it, it's a land. (It's not a creature.)<br>Whenever you cast a spell, you may remove a slumber counter from Arixmethes.<br>{T}: Add {G}{U}.",
@@ -1751,7 +1751,7 @@
     {
       "name": "Brudiclad, Telchor Engineer",
       "manaCost": "{4}{U}{R}",
-      "sortedManaCost": "{4}{U}{R}",
+      "sortedManaCost": "{4}{R}{U}",
       "cmc": 6,
       "type": "Legendary Artifact Creature - Artificer",
       "text": "Creature tokens you control have haste.<br>At the beginning of combat on your turn, create a 2/1 blue Myr artifact creature token. Then you may choose a token you control. If you do, each other token you control becomes a copy of that token.",
@@ -1796,7 +1796,7 @@
     {
       "name": "Estrid, the Masked",
       "manaCost": "{1}{G}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}{W}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Estrid",
       "text": "[+2]: Untap each enchanted permanent you control.<br>[−1]: Create a white Aura enchantment token named Mask attached to another target permanent. The token has enchant permanent and totem armor.<br>[−7]: Mill seven cards. Return all non-Aura enchantment cards from your graveyard to the battlefield, then do the same for Aura cards.<br>Estrid, the Masked can be your commander.",
@@ -1841,7 +1841,7 @@
     {
       "name": "Gyrus, Waker of Corpses",
       "manaCost": "{X}{B}{R}{G}",
-      "sortedManaCost": "{X}{B}{R}{G}",
+      "sortedManaCost": "{B}{G}{R}{X}",
       "cmc": 3,
       "type": "Legendary Creature - Hydra",
       "text": "Gyrus, Waker of Corpses enters the battlefield with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.<br>Whenever Gyrus attacks, you may exile target creature card with lesser power from your graveyard. If you do, create a token that's a copy of that card and that's tapped and attacking. Exile the token at end of combat.",
@@ -1886,7 +1886,7 @@
     {
       "name": "Kestia, the Cultivator",
       "manaCost": "{1}{G}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}{W}",
       "cmc": 4,
       "type": "Legendary Enchantment Creature - Nymph",
       "text": "Bestow {3}{G}{W}{U} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)<br>Enchanted creature gets +4/+4.<br>Whenever an enchanted creature or enchantment creature you control attacks, draw a card.",
@@ -1931,7 +1931,7 @@
     {
       "name": "Lord Windgrace",
       "manaCost": "{2}{B}{R}{G}",
-      "sortedManaCost": "{2}{B}{R}{G}",
+      "sortedManaCost": "{2}{B}{G}{R}",
       "cmc": 5,
       "type": "Legendary Planeswalker - Windgrace",
       "text": "[+2]: Discard a card, then draw a card. If a land card is discarded this way, draw an additional card.<br>[−3]: Return up to two target land cards from your graveyard to the battlefield.<br>[−11]: Destroy up to six target nonland permanents, then create six 2/2 green Cat Warrior creature tokens with forestwalk.<br>Lord Windgrace can be your commander.",
@@ -1976,7 +1976,7 @@
     {
       "name": "Saheeli, the Gifted",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Saheeli",
       "text": "[+1]: Create a 1/1 colorless Servo artifact creature token.<br>[+1]: The next spell you cast this turn costs {1} less to cast for each artifact you control as you cast it.<br>[−7]: For each artifact you control, create a token that's a copy of it. Those tokens gain haste. Exile those tokens at the beginning of the next end step.<br>Saheeli, the Gifted can be your commander.",
@@ -2021,7 +2021,7 @@
     {
       "name": "Tawnos, Urza's Apprentice",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Legendary Creature - Human Artificer",
       "text": "Haste<br>{U}{R}, {T}: Copy target activated or triggered ability you control from an artifact source. You may choose new targets for the copy. (Mana abilities can't be targeted.)",
@@ -2067,7 +2067,7 @@
     {
       "name": "Thantis, the Warweaver",
       "manaCost": "{3}{B}{R}{G}",
-      "sortedManaCost": "{3}{B}{R}{G}",
+      "sortedManaCost": "{3}{B}{G}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Spider",
       "text": "Vigilance, reach<br>All creatures attack each combat if able.<br>Whenever a creature attacks you or a planeswalker you control, put a +1/+1 counter on Thantis, the Warweaver.",
@@ -2113,7 +2113,7 @@
     {
       "name": "Tuvasa the Sunlit",
       "manaCost": "{G}{W}{U}",
-      "sortedManaCost": "{W}{U}{G}",
+      "sortedManaCost": "{G}{U}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Merfolk Shaman",
       "text": "Tuvasa the Sunlit gets +1/+1 for each enchantment you control.<br>Whenever you cast your first enchantment spell each turn, draw a card.",
@@ -2159,7 +2159,7 @@
     {
       "name": "Varina, Lich Queen",
       "manaCost": "{1}{W}{U}{B}",
-      "sortedManaCost": "{1}{W}{U}{B}",
+      "sortedManaCost": "{1}{B}{U}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Zombie Wizard",
       "text": "Whenever you attack with one or more Zombies, draw that many cards, then discard that many cards. You gain that much life.<br>{2}, Exile two cards from your graveyard: Create a tapped 2/2 black Zombie creature token.",
@@ -2295,7 +2295,7 @@
     {
       "name": "Yennett, Cryptic Sovereign",
       "manaCost": "{2}{W}{U}{B}",
-      "sortedManaCost": "{2}{W}{U}{B}",
+      "sortedManaCost": "{2}{B}{U}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Sphinx",
       "text": "Flying, vigilance, menace<br>Whenever Yennett, Cryptic Sovereign attacks, reveal the top card of your library. You may cast it without paying its mana cost if its mana value is odd. If you don't cast it, draw a card.",
@@ -2341,7 +2341,7 @@
     {
       "name": "Yuriko, the Tiger's Shadow",
       "manaCost": "{1}{U}{B}",
-      "sortedManaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{B}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Human Ninja",
       "text": "Commander ninjutsu {U}{B} ({U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand or the command zone tapped and attacking.)<br>Whenever a Ninja you control deals combat damage to a player, reveal the top card of your library and put that card into your hand. Each opponent loses life equal to that card's mana value.",
@@ -3017,7 +3017,7 @@
     {
       "name": "Entreat the Angels",
       "manaCost": "{X}{X}{W}{W}{W}",
-      "sortedManaCost": "{X}{X}{W}{W}{W}",
+      "sortedManaCost": "{W}{W}{W}{X}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Create X 4/4 white Angel creature tokens with flying.<br>Miracle {X}{W}{W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)",
@@ -3107,7 +3107,7 @@
     {
       "name": "Martial Coup",
       "manaCost": "{X}{W}{W}",
-      "sortedManaCost": "{X}{W}{W}",
+      "sortedManaCost": "{W}{W}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Create X 1/1 white Soldier creature tokens. If X is 5 or more, destroy all other creatures.",
@@ -5663,7 +5663,7 @@
     {
       "name": "Magmaquake",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Magmaquake deals X damage to each creature without flying and each planeswalker.",
@@ -7620,7 +7620,7 @@
     {
       "name": "Aethermage's Touch",
       "manaCost": "{2}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{U}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Reveal the top four cards of your library. You may put a creature card from among them onto the battlefield. It gains \"At the beginning of your end step, return this creature to its owner's hand.\" Then put the rest of the cards revealed this way on the bottom of your library in any order.",
@@ -7665,7 +7665,7 @@
     {
       "name": "Bant Charm",
       "manaCost": "{G}{W}{U}",
-      "sortedManaCost": "{W}{U}{G}",
+      "sortedManaCost": "{G}{U}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target artifact.<br>• Put target creature on the bottom of its owner's library.<br>• Counter target instant spell.",
@@ -7711,7 +7711,7 @@
     {
       "name": "Bruna, Light of Alabaster",
       "manaCost": "{3}{W}{W}{U}",
-      "sortedManaCost": "{3}{W}{W}{U}",
+      "sortedManaCost": "{3}{U}{W}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Angel",
       "text": "Flying, vigilance<br>Whenever Bruna, Light of Alabaster attacks or blocks, you may attach to it any number of Auras on the battlefield and you may put onto the battlefield attached to it any number of Aura cards that could enchant it from your graveyard and/or hand.",
@@ -7756,7 +7756,7 @@
     {
       "name": "Charnelhoard Wurm",
       "manaCost": "{4}{B}{R}{G}",
-      "sortedManaCost": "{4}{B}{R}{G}",
+      "sortedManaCost": "{4}{B}{G}{R}",
       "cmc": 7,
       "type": "Creature - Wurm",
       "text": "Trample<br>Whenever Charnelhoard Wurm deals damage to an opponent, you may return target card from your graveyard to your hand.",
@@ -7848,7 +7848,7 @@
     {
       "name": "Daxos of Meletis",
       "manaCost": "{1}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Human Soldier",
       "text": "Daxos of Meletis can't be blocked by creatures with power 3 or greater.<br>Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's mana value. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast that spell.",
@@ -7939,7 +7939,7 @@
     {
       "name": "Decimate",
       "manaCost": "{2}{R}{G}",
-      "sortedManaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{G}{R}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Destroy target artifact, target creature, target enchantment, and target land.",
@@ -7985,7 +7985,7 @@
     {
       "name": "Duskmantle Seer",
       "manaCost": "{2}{U}{B}",
-      "sortedManaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{B}{U}",
       "cmc": 4,
       "type": "Creature - Vampire Wizard",
       "text": "Flying<br>At the beginning of your upkeep, each player reveals the top card of their library, loses life equal to that card's mana value, then puts it into their hand.",
@@ -8030,7 +8030,7 @@
     {
       "name": "Elderwood Scion",
       "manaCost": "{3}{G}{W}",
-      "sortedManaCost": "{3}{W}{G}",
+      "sortedManaCost": "{3}{G}{W}",
       "cmc": 5,
       "type": "Creature - Elemental",
       "text": "Trample, lifelink<br>Spells you cast that target Elderwood Scion cost {2} less to cast.<br>Spells your opponents cast that target Elderwood Scion cost {2} more to cast.",
@@ -8076,7 +8076,7 @@
     {
       "name": "Enigma Sphinx",
       "manaCost": "{4}{W}{U}{B}",
-      "sortedManaCost": "{4}{W}{U}{B}",
+      "sortedManaCost": "{4}{B}{U}{W}",
       "cmc": 7,
       "type": "Artifact Creature - Sphinx",
       "text": "Flying<br>When Enigma Sphinx is put into your graveyard from the battlefield, put it into your library third from the top.<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)",
@@ -8121,7 +8121,7 @@
     {
       "name": "Esper Charm",
       "manaCost": "{W}{U}{B}",
-      "sortedManaCost": "{W}{U}{B}",
+      "sortedManaCost": "{B}{U}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one -<br>• Destroy target enchantment.<br>• Draw two cards.<br>• Target player discards two cards.",
@@ -8166,7 +8166,7 @@
     {
       "name": "Finest Hour",
       "manaCost": "{2}{G}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}{W}",
       "cmc": 5,
       "type": "Enchantment",
       "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)<br>Whenever a creature you control attacks alone, if it's the first combat phase of the turn, untap that creature. After this phase, there is an additional combat phase.",
@@ -8211,7 +8211,7 @@
     {
       "name": "Gaze of Granite",
       "manaCost": "{X}{B}{B}{G}",
-      "sortedManaCost": "{X}{B}{B}{G}",
+      "sortedManaCost": "{B}{B}{G}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy each nonland permanent with mana value X or less.",
@@ -8303,7 +8303,7 @@
     {
       "name": "High Priest of Penance",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "text": "Whenever High Priest of Penance is dealt damage, you may destroy target nonland permanent.",
@@ -8349,7 +8349,7 @@
     {
       "name": "Lavalanche",
       "manaCost": "{X}{B}{R}{G}",
-      "sortedManaCost": "{X}{B}{R}{G}",
+      "sortedManaCost": "{B}{G}{R}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Lavalanche deals X damage to target player or planeswalker and each creature that player or that planeswalker's controller controls.",
@@ -8395,7 +8395,7 @@
     {
       "name": "Maverick Thopterist",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Creature - Human Artificer",
       "text": "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)<br>When Maverick Thopterist enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.",
@@ -8440,7 +8440,7 @@
     {
       "name": "Mortify",
       "manaCost": "{1}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{B}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target creature or enchantment.",
@@ -8532,7 +8532,7 @@
     {
       "name": "Righteous Authority",
       "manaCost": "{3}{W}{U}",
-      "sortedManaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{U}{W}",
       "cmc": 5,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+1 for each card in its controller's hand.<br>At the beginning of the draw step of enchanted creature's controller, that player draws an additional card.",
@@ -8577,7 +8577,7 @@
     {
       "name": "Rubblehulk",
       "manaCost": "{4}{R}{G}",
-      "sortedManaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{G}{R}",
       "cmc": 6,
       "type": "Creature - Elemental",
       "text": "Rubblehulk's power and toughness are each equal to the number of lands you control.<br>Bloodrush - {1}{R}{G}, Discard Rubblehulk: Target attacking creature gets +X/+X until end of turn, where X is the number of lands you control.",
@@ -8622,7 +8622,7 @@
     {
       "name": "Savage Twister",
       "manaCost": "{X}{R}{G}",
-      "sortedManaCost": "{X}{R}{G}",
+      "sortedManaCost": "{G}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Savage Twister deals X damage to each creature.",
@@ -8668,7 +8668,7 @@
     {
       "name": "Silent-Blade Oni",
       "manaCost": "{3}{U}{U}{B}{B}",
-      "sortedManaCost": "{3}{U}{U}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{U}{U}",
       "cmc": 7,
       "type": "Creature - Demon Ninja",
       "text": "Ninjutsu {4}{U}{B} ({4}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)<br>Whenever Silent-Blade Oni deals combat damage to a player, look at that player's hand. You may cast a spell from among those cards without paying its mana cost.",
@@ -8713,7 +8713,7 @@
     {
       "name": "Unflinching Courage",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has trample and lifelink. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)",
@@ -8759,7 +8759,7 @@
     {
       "name": "Utter End",
       "manaCost": "{2}{W}{B}",
-      "sortedManaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{B}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Exile target nonland permanent.",
@@ -8850,7 +8850,7 @@
     {
       "name": "Zendikar Incarnate",
       "manaCost": "{2}{R}{G}",
-      "sortedManaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{G}{R}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "Zendikar Incarnate's power is equal to the number of lands you control.",

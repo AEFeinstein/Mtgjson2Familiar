@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "2b9329db59c8c76a56fb7bf460c8d836",
+    "digest": "8e0ffb842ea9241ac06cf1d8c67faa10",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/STX_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/STX_M.png",
@@ -2656,7 +2656,7 @@
     {
       "name": "Ingenious Mastery",
       "manaCost": "{X}{2}{U}",
-      "sortedManaCost": "{X}{2}{U}",
+      "sortedManaCost": "{2}{U}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "You may pay {2}{U} rather than pay this spell's mana cost.<br>If the {2}{U} cost was paid, you draw three cards, then an opponent creates two Treasure tokens and they scry 2. If that cost wasn't paid, you draw X cards.",
@@ -2903,7 +2903,7 @@
     {
       "name": "Multiple Choice",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "If X is 1, scry 1, then draw a card.<br>If X is 2, you may choose a player. They return a creature they control to its owner's hand.<br>If X is 3, create a 4/4 blue and red Elemental creature token.<br>If X is 4 or more, do all of the above.",
@@ -4081,7 +4081,7 @@
     {
       "name": "Confront the Past",
       "manaCost": "{X}{B}",
-      "sortedManaCost": "{X}{B}",
+      "sortedManaCost": "{B}{X}",
       "cmc": 1,
       "type": "Sorcery - Lesson",
       "text": "Choose one -<br>• Return target planeswalker card with mana value X or less from your graveyard to the battlefield.<br>• Remove twice X loyalty counters from target planeswalker an opponent controls.",
@@ -5815,7 +5815,7 @@
     {
       "name": "Crackle with Power",
       "manaCost": "{X}{X}{X}{R}{R}",
-      "sortedManaCost": "{X}{X}{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}{X}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Crackle with Power deals five times X damage to each of up to X targets.",
@@ -7860,7 +7860,7 @@
     {
       "name": "Ecological Appreciation",
       "manaCost": "{X}{2}{G}",
-      "sortedManaCost": "{X}{2}{G}",
+      "sortedManaCost": "{2}{G}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Search your library and graveyard for up to four creature cards with different names that each have mana value X or less and reveal them. An opponent chooses two of those cards. Shuffle the chosen cards into your library and put the rest onto the battlefield. Exile Ecological Appreciation.",
@@ -7983,7 +7983,7 @@
     {
       "name": "Exponential Growth",
       "manaCost": "{X}{X}{G}{G}",
-      "sortedManaCost": "{X}{X}{G}{G}",
+      "sortedManaCost": "{G}{G}{X}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Until end of turn, double target creature's power X times.",
@@ -9122,7 +9122,7 @@
     {
       "name": "Extus, Oriq Overlord",
       "manaCost": "{1}{W}{B}{B}",
-      "sortedManaCost": "{1}{W}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Warlock",
       "text": "Double strike<br>Magecraft - Whenever you cast or copy an instant or sorcery spell, return target nonlegendary creature card from your graveyard to your hand.",
@@ -9670,7 +9670,7 @@
     {
       "name": "Aether Helix",
       "manaCost": "{3}{G}{U}",
-      "sortedManaCost": "{3}{U}{G}",
+      "sortedManaCost": "{3}{G}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Return target permanent to its owner's hand. Return target permanent card from your graveyard to your hand.",
@@ -9795,7 +9795,7 @@
     {
       "name": "Biomathematician",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "When Biomathematician enters the battlefield, create a 0/0 green and blue Fractal creature token. Put a +1/+1 counter on each Fractal you control.",
@@ -9984,7 +9984,7 @@
     {
       "name": "Blot Out the Sky",
       "manaCost": "{X}{W}{B}",
-      "sortedManaCost": "{X}{W}{B}",
+      "sortedManaCost": "{B}{W}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Create X tapped 2/1 white and black Inkling creature tokens with flying. If X is 6 or more, destroy all noncreature, nonland permanents.",
@@ -10047,7 +10047,7 @@
     {
       "name": "Body of Research",
       "manaCost": "{G}{G}{G}{U}{U}{U}",
-      "sortedManaCost": "{U}{U}{U}{G}{G}{G}",
+      "sortedManaCost": "{G}{G}{G}{U}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is the number of cards in your library.",
@@ -10110,7 +10110,7 @@
     {
       "name": "Closing Statement",
       "manaCost": "{3}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{B}{W}",
       "cmc": 5,
       "type": "Instant",
       "text": "This spell costs {2} less to cast during your end step.<br>Destroy target creature or planeswalker you don't control. Put a +1/+1 counter on up to one target creature you control.",
@@ -10236,7 +10236,7 @@
     {
       "name": "Creative Outburst",
       "manaCost": "{3}{U}{U}{R}{R}",
-      "sortedManaCost": "{3}{U}{U}{R}{R}",
+      "sortedManaCost": "{3}{R}{R}{U}{U}",
       "cmc": 7,
       "type": "Instant",
       "text": "Creative Outburst deals 5 damage to any target. Look at the top five cards of your library. Put one of them into your hand and the rest on the bottom of your library in a random order.<br>{U/R}{U/R}, Discard Creative Outburst: Create a Treasure token.",
@@ -10361,7 +10361,7 @@
     {
       "name": "Culmination of Studies",
       "manaCost": "{X}{U}{R}",
-      "sortedManaCost": "{X}{U}{R}",
+      "sortedManaCost": "{R}{U}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile the top X cards of your library. For each land card exiled this way, create a Treasure token. For each blue card exiled this way, draw a card. For each red card exiled this way, Culmination of Studies deals 1 damage to each opponent.",
@@ -10487,7 +10487,7 @@
     {
       "name": "Daemogoth Woe-Eater",
       "manaCost": "{1}{B}{BG}{G}",
-      "sortedManaCost": "{1}{B}{G}{BG}",
+      "sortedManaCost": "{1}{B}{BG}{G}",
       "cmc": 4,
       "type": "Creature - Demon",
       "text": "At the beginning of your upkeep, sacrifice a creature.<br>When you sacrifice Daemogoth Woe-Eater, each opponent discards a card, you draw a card, and you gain 2 life.",
@@ -10613,7 +10613,7 @@
     {
       "name": "Decisive Denial",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)<br>• Counter target noncreature spell unless its controller pays {3}.",
@@ -10738,7 +10738,7 @@
     {
       "name": "Double Major",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Copy target creature spell you control, except it isn't legendary if the spell is legendary. (A copy of a creature spell becomes a token.)",
@@ -10926,7 +10926,7 @@
     {
       "name": "Elemental Masterpiece",
       "manaCost": "{5}{U}{R}",
-      "sortedManaCost": "{5}{U}{R}",
+      "sortedManaCost": "{5}{R}{U}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Create two 4/4 blue and red Elemental creature tokens.<br>{U/R}{U/R}, Discard Elemental Masterpiece: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
@@ -11052,7 +11052,7 @@
     {
       "name": "Eureka Moment",
       "manaCost": "{2}{G}{U}",
-      "sortedManaCost": "{2}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Draw two cards. You may put a land card from your hand onto the battlefield.",
@@ -11115,7 +11115,7 @@
     {
       "name": "Exhilarating Elocution",
       "manaCost": "{2}{W}{B}",
-      "sortedManaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{B}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Put two +1/+1 counters on target creature you control. Other creatures you control get +1/+1 until end of turn.",
@@ -11178,7 +11178,7 @@
     {
       "name": "Expressive Iteration",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Look at the top three cards of your library. Put one of them into your hand, put one of them on the bottom of your library, and exile one of them. You may play the exiled card this turn.",
@@ -11241,7 +11241,7 @@
     {
       "name": "Fractal Summoning",
       "manaCost": "{X}{GU}{GU}",
-      "sortedManaCost": "{X}{GU}{GU}",
+      "sortedManaCost": "{GU}{GU}{X}",
       "cmc": 2,
       "type": "Sorcery - Lesson",
       "text": "Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it.",
@@ -11304,7 +11304,7 @@
     {
       "name": "Fracture",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target artifact, enchantment, or planeswalker.",
@@ -11367,7 +11367,7 @@
     {
       "name": "Galazeth Prismari",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>When Galazeth Prismari enters the battlefield, create a Treasure token.<br>Artifacts you control have \"{T}: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.\"",
@@ -11429,7 +11429,7 @@
     {
       "name": "Golden Ratio",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Draw a card for each different power among creatures you control.",
@@ -11555,7 +11555,7 @@
     {
       "name": "Hofri Ghostforge",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Dwarf Cleric",
       "text": "Spirits you control get +1/+1 and have trample and haste.<br>Whenever another nontoken creature you control dies, exile it. If you do, create a token that's a copy of that creature, except it's a Spirit in addition to its other types and it has \"When this creature leaves the battlefield, return the exiled card to your graveyard.\"",
@@ -11617,7 +11617,7 @@
     {
       "name": "Humiliate",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Put a +1/+1 counter on a creature you control.",
@@ -11806,7 +11806,7 @@
     {
       "name": "Kasmina, Enigma Sage",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Kasmina",
       "text": "Each other planeswalker you control has the loyalty abilities of Kasmina, Enigma Sage.<br>[+2]: Scry 1.<br>[−X]: Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it.<br>[−8]: Search your library for an instant or sorcery card that shares a color with this planeswalker, exile that card, then shuffle. You may cast that card without paying its mana cost.",
@@ -11867,7 +11867,7 @@
     {
       "name": "Killian, Ink Duelist",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Legendary Creature - Human Warlock",
       "text": "Lifelink<br>Menace (This creature can't be blocked except by two or more creatures.)<br>Spells you cast that target a creature cost {2} less to cast.",
@@ -11930,7 +11930,7 @@
     {
       "name": "Lorehold Apprentice",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "text": "Magecraft - Whenever you cast or copy an instant or sorcery spell, until end of turn, Spirit creatures you control gain \"{T}: This creature deals 1 damage to each opponent.\"",
@@ -11993,7 +11993,7 @@
     {
       "name": "Lorehold Command",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Instant",
       "text": "Choose two -<br>• Create a 3/2 red and white Spirit creature token.<br>• Creatures you control get +1/+0 and gain indestructible and haste until end of turn.<br>• Lorehold Command deals 3 damage to any target. Target player gains 3 life.<br>• Sacrifice a permanent, then draw two cards.",
@@ -12055,7 +12055,7 @@
     {
       "name": "Lorehold Excavation",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Enchantment",
       "text": "At the beginning of your end step, mill a card. If a land card was milled this way, you gain 1 life. Otherwise, Lorehold Excavation deals 1 damage to each opponent. (To mill a card, put the top card of your library into your graveyard.)<br>{5}, Exile a creature card from your graveyard: Create a tapped 3/2 red and white Spirit creature token.",
@@ -12180,7 +12180,7 @@
     {
       "name": "Maelstrom Muse",
       "manaCost": "{1}{U}{UR}{R}",
-      "sortedManaCost": "{1}{U}{R}{UR}",
+      "sortedManaCost": "{1}{R}{U}{UR}",
       "cmc": 4,
       "type": "Creature - Djinn Wizard",
       "text": "Flying<br>Whenever Maelstrom Muse attacks, the next instant or sorcery spell you cast this turn costs {X} less to cast, where X is Maelstrom Muse's power as this ability resolves.",
@@ -12243,7 +12243,7 @@
     {
       "name": "Magma Opus",
       "manaCost": "{6}{U}{R}",
-      "sortedManaCost": "{6}{U}{R}",
+      "sortedManaCost": "{6}{R}{U}",
       "cmc": 8,
       "type": "Instant",
       "text": "Magma Opus deals 4 damage divided as you choose among any number of targets. Tap two target permanents. Create a 4/4 blue and red Elemental creature token. Draw two cards.<br>{U/R}{U/R}, Discard Magma Opus: Create a Treasure token.",
@@ -12557,7 +12557,7 @@
     {
       "name": "Needlethorn Drake",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Creature - Drake",
       "text": "Flying, deathtouch",
@@ -12620,7 +12620,7 @@
     {
       "name": "Oggyar Battle-Seer",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Creature - Ogre Shaman",
       "text": "Haste<br>{T}: Scry 1.",
@@ -12683,7 +12683,7 @@
     {
       "name": "Owlin Shieldmage",
       "manaCost": "{3}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{B}{W}",
       "cmc": 5,
       "type": "Creature - Bird Warlock",
       "text": "Flying<br>Ward-Pay 3 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)",
@@ -12809,7 +12809,7 @@
     {
       "name": "Practical Research",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "Draw four cards. Then discard two cards unless you discard an instant or sorcery card.",
@@ -12872,7 +12872,7 @@
     {
       "name": "Prismari Apprentice",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Creature - Human Shaman",
       "text": "Magecraft - Whenever you cast or copy an instant or sorcery spell, Prismari Apprentice can't be blocked this turn. If that spell has mana value 5 or greater, put a +1/+1 counter on Prismari Apprentice.",
@@ -12935,7 +12935,7 @@
     {
       "name": "Prismari Command",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose two -<br>• Prismari Command deals 2 damage to any target.<br>• Target player draws two cards, then discards two cards.<br>• Target player creates a Treasure token.<br>• Destroy target artifact.",
@@ -13060,7 +13060,7 @@
     {
       "name": "Quandrix Apprentice",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "Magecraft - Whenever you cast or copy an instant or sorcery spell, look at the top three cards of your library. You may reveal a land card from among them and put that card into your hand. Put the rest on the bottom of your library in any order.",
@@ -13123,7 +13123,7 @@
     {
       "name": "Quandrix Command",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose two -<br>• Return target creature or planeswalker to its owner's hand.<br>• Counter target artifact or enchantment spell.<br>• Put two +1/+1 counters on target creature.<br>• Target player shuffles up to three target cards from their graveyard into their library.",
@@ -13185,7 +13185,7 @@
     {
       "name": "Quandrix Cultivator",
       "manaCost": "{1}{G}{GU}{U}",
-      "sortedManaCost": "{1}{U}{G}{GU}",
+      "sortedManaCost": "{1}{G}{GU}{U}",
       "cmc": 4,
       "type": "Creature - Turtle Druid",
       "text": "When Quandrix Cultivator enters the battlefield, you may search your library for a basic Forest or Island card, put it onto the battlefield, then shuffle.",
@@ -13311,7 +13311,7 @@
     {
       "name": "Quintorius, Field Historian",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Elephant Cleric",
       "text": "Spirits you control get +1/+0.<br>Whenever one or more cards leave your graveyard, create a 3/2 red and white Spirit creature token.",
@@ -13374,7 +13374,7 @@
     {
       "name": "Radiant Scrollwielder",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Creature - Dwarf Cleric",
       "text": "Instant and sorcery spells you control have lifelink.<br>At the beginning of your upkeep, exile an instant or sorcery card at random from your graveyard. You may cast it this turn. If a spell cast this way would be put into your graveyard, exile it instead.",
@@ -13436,7 +13436,7 @@
     {
       "name": "Reconstruct History",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Return up to one target artifact card, up to one target enchantment card, up to one target instant card, up to one target sorcery card, and up to one target planeswalker card from your graveyard to your hand.<br>Exile Reconstruct History.",
@@ -13498,7 +13498,7 @@
     {
       "name": "Relic Sloth",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Creature - Beast",
       "text": "Vigilance<br>Menace (This creature can't be blocked except by two or more creatures.)",
@@ -13561,7 +13561,7 @@
     {
       "name": "Returned Pastcaller",
       "manaCost": "{3}{R}{RW}{W}",
-      "sortedManaCost": "{3}{W}{R}{RW}",
+      "sortedManaCost": "{3}{R}{RW}{W}",
       "cmc": 6,
       "type": "Creature - Spirit Cleric",
       "text": "Flying<br>When Returned Pastcaller enters the battlefield, return target Spirit, instant, or sorcery card from your graveyard to your hand.",
@@ -13624,7 +13624,7 @@
     {
       "name": "Rip Apart",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Choose one -<br>• Rip Apart deals 3 damage to target creature or planeswalker.<br>• Destroy target artifact or enchantment.",
@@ -13749,7 +13749,7 @@
     {
       "name": "Rootha, Mercurial Artist",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Orc Shaman",
       "text": "{2}, Return Rootha, Mercurial Artist to its owner's hand: Copy target instant or sorcery spell you control. You may choose new targets for the copy.",
@@ -13875,7 +13875,7 @@
     {
       "name": "Shadewing Laureate",
       "manaCost": "{W}{WB}{B}",
-      "sortedManaCost": "{W}{B}{WB}",
+      "sortedManaCost": "{B}{W}{WB}",
       "cmc": 3,
       "type": "Creature - Human Warlock",
       "text": "Flying<br>Whenever another creature you control with flying dies, put a +1/+1 counter on target creature you control.",
@@ -13938,7 +13938,7 @@
     {
       "name": "Shadrix Silverquill",
       "manaCost": "{3}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{B}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying, double strike<br>At the beginning of combat on your turn, you may choose two. Each mode must target a different player.<br>• Target player creates a 2/1 white and black Inkling creature token with flying.<br>• Target player draws a card and loses 1 life.<br>• Target player puts a +1/+1 counter on each creature they control.",
@@ -14000,7 +14000,7 @@
     {
       "name": "Silverquill Apprentice",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Creature - Human Warlock",
       "text": "Magecraft - Whenever you cast or copy an instant or sorcery spell, target creature gets +1/+0 until end of turn.",
@@ -14063,7 +14063,7 @@
     {
       "name": "Silverquill Command",
       "manaCost": "{2}{W}{B}",
-      "sortedManaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{B}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Choose two -<br>• Target creature gets +3/+3 and gains flying until end of turn.<br>• Return target creature card with mana value 2 or less from your graveyard to the battlefield.<br>• Target player draws a card and loses 1 life.<br>• Target opponent sacrifices a creature.",
@@ -14188,7 +14188,7 @@
     {
       "name": "Silverquill Silencer",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "text": "As Silverquill Silencer enters the battlefield, choose a nonland card name.<br>Whenever an opponent casts a spell with the chosen name, they lose 3 life and you draw a card.",
@@ -14251,7 +14251,7 @@
     {
       "name": "Spectacle Mage",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Creature - Bird Shaman",
       "text": "Flying<br>Instant and sorcery spells you cast with mana value 5 or greater cost {1} less to cast.",
@@ -14377,7 +14377,7 @@
     {
       "name": "Spiteful Squad",
       "manaCost": "{2}{W}{B}",
-      "sortedManaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{B}{W}",
       "cmc": 4,
       "type": "Creature - Human Warlock",
       "text": "Deathtouch<br>Spiteful Squad enters the battlefield with two +1/+1 counters on it.<br>When Spiteful Squad dies, put its counters on target creature you control.",
@@ -14503,7 +14503,7 @@
     {
       "name": "Stonebound Mentor",
       "manaCost": "{1}{R}{W}",
-      "sortedManaCost": "{1}{W}{R}",
+      "sortedManaCost": "{1}{R}{W}",
       "cmc": 3,
       "type": "Creature - Spirit Advisor",
       "text": "Whenever one or more cards leave your graveyard, scry 1.",
@@ -14566,7 +14566,7 @@
     {
       "name": "Tanazir Quandrix",
       "manaCost": "{3}{G}{U}",
-      "sortedManaCost": "{3}{U}{G}",
+      "sortedManaCost": "{3}{G}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying, trample<br>When Tanazir Quandrix enters the battlefield, double the number of +1/+1 counters on target creature you control.<br>Whenever Tanazir Quandrix attacks, you may have the base power and toughness of other creatures you control become equal to Tanazir Quandrix's power and toughness until end of turn.",
@@ -14754,7 +14754,7 @@
     {
       "name": "Thrilling Discovery",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "You gain 2 life. Then you may discard two cards. If you do, draw three cards.",
@@ -14817,7 +14817,7 @@
     {
       "name": "Vanishing Verse",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile target monocolored permanent.",
@@ -14880,7 +14880,7 @@
     {
       "name": "Velomachus Lorehold",
       "manaCost": "{5}{R}{W}",
-      "sortedManaCost": "{5}{W}{R}",
+      "sortedManaCost": "{5}{R}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying, vigilance, haste<br>Whenever Velomachus Lorehold attacks, look at the top seven cards of your library. You may cast an instant or sorcery spell with mana value less than or equal to Velomachus Lorehold's power from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.",
@@ -14942,7 +14942,7 @@
     {
       "name": "Venerable Warsinger",
       "manaCost": "{1}{R}{W}",
-      "sortedManaCost": "{1}{W}{R}",
+      "sortedManaCost": "{1}{R}{W}",
       "cmc": 3,
       "type": "Creature - Spirit Cleric",
       "text": "Vigilance, trample<br>Whenever Venerable Warsinger deals combat damage to a player, you may return target creature card with mana value X or less from your graveyard to the battlefield, where X is the amount of damage Venerable Warsinger dealt to that player.",
@@ -15192,7 +15192,7 @@
     {
       "name": "Zimone, Quandrix Prodigy",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Legendary Creature - Human Wizard",
       "text": "{1}, {T}: You may put a land card from your hand onto the battlefield tapped.<br>{4}, {T}: Draw a card. If you control eight or more lands, draw two cards instead.",
@@ -16921,7 +16921,7 @@
     {
       "name": "Kasmina, Enigma Sage",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Kasmina",
       "text": "Each other planeswalker you control has the loyalty abilities of Kasmina, Enigma Sage.<br>[+2]: Scry 1.<br>[−X]: Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it.<br>[−8]: Search your library for an instant or sorcery card that shares a color with this planeswalker, exile that card, then shuffle. You may cast that card without paying its mana cost.",
@@ -16982,7 +16982,7 @@
     {
       "name": "Shadrix Silverquill",
       "manaCost": "{3}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{B}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying, double strike<br>At the beginning of combat on your turn, you may choose two. Each mode must target a different player.<br>• Target player creates a 2/1 white and black Inkling creature token with flying.<br>• Target player draws a card and loses 1 life.<br>• Target player puts a +1/+1 counter on each creature they control.",
@@ -17043,7 +17043,7 @@
     {
       "name": "Galazeth Prismari",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>When Galazeth Prismari enters the battlefield, create a Treasure token.<br>Artifacts you control have \"{T}: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.\"",
@@ -17165,7 +17165,7 @@
     {
       "name": "Velomachus Lorehold",
       "manaCost": "{5}{R}{W}",
-      "sortedManaCost": "{5}{W}{R}",
+      "sortedManaCost": "{5}{R}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying, vigilance, haste<br>Whenever Velomachus Lorehold attacks, look at the top seven cards of your library. You may cast an instant or sorcery spell with mana value less than or equal to Velomachus Lorehold's power from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.",
@@ -17226,7 +17226,7 @@
     {
       "name": "Tanazir Quandrix",
       "manaCost": "{3}{G}{U}",
-      "sortedManaCost": "{3}{U}{G}",
+      "sortedManaCost": "{3}{G}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying, trample<br>When Tanazir Quandrix enters the battlefield, double the number of +1/+1 counters on target creature you control.<br>Whenever Tanazir Quandrix attacks, you may have the base power and toughness of other creatures you control become equal to Tanazir Quandrix's power and toughness until end of turn.",
@@ -17779,7 +17779,7 @@
     {
       "name": "Ingenious Mastery",
       "manaCost": "{X}{2}{U}",
-      "sortedManaCost": "{X}{2}{U}",
+      "sortedManaCost": "{2}{U}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "You may pay {2}{U} rather than pay this spell's mana cost.<br>If the {2}{U} cost was paid, you draw three cards, then an opponent creates two Treasure tokens and they scry 2. If that cost wasn't paid, you draw X cards.",
@@ -17820,7 +17820,7 @@
     {
       "name": "Multiple Choice",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "If X is 1, scry 1, then draw a card.<br>If X is 2, you may choose a player. They return a creature they control to its owner's hand.<br>If X is 3, create a 4/4 blue and red Elemental creature token.<br>If X is 4 or more, do all of the above.",
@@ -18027,7 +18027,7 @@
     {
       "name": "Confront the Past",
       "manaCost": "{X}{B}",
-      "sortedManaCost": "{X}{B}",
+      "sortedManaCost": "{B}{X}",
       "cmc": 1,
       "type": "Sorcery - Lesson",
       "text": "Choose one -<br>• Return target planeswalker card with mana value X or less from your graveyard to the battlefield.<br>• Remove twice X loyalty counters from target planeswalker an opponent controls.",
@@ -18232,7 +18232,7 @@
     {
       "name": "Crackle with Power",
       "manaCost": "{X}{X}{X}{R}{R}",
-      "sortedManaCost": "{X}{X}{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}{X}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Crackle with Power deals five times X damage to each of up to X targets.",
@@ -18601,7 +18601,7 @@
     {
       "name": "Ecological Appreciation",
       "manaCost": "{X}{2}{G}",
-      "sortedManaCost": "{X}{2}{G}",
+      "sortedManaCost": "{2}{G}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Search your library and graveyard for up to four creature cards with different names that each have mana value X or less and reveal them. An opponent chooses two of those cards. Shuffle the chosen cards into your library and put the rest onto the battlefield. Exile Ecological Appreciation.",
@@ -18642,7 +18642,7 @@
     {
       "name": "Exponential Growth",
       "manaCost": "{X}{X}{G}{G}",
-      "sortedManaCost": "{X}{X}{G}{G}",
+      "sortedManaCost": "{G}{G}{X}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Until end of turn, double target creature's power X times.",
@@ -18849,7 +18849,7 @@
     {
       "name": "Extus, Oriq Overlord",
       "manaCost": "{1}{W}{B}{B}",
-      "sortedManaCost": "{1}{W}{B}{B}",
+      "sortedManaCost": "{1}{B}{B}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Warlock",
       "text": "Double strike<br>Magecraft - Whenever you cast or copy an instant or sorcery spell, return target nonlegendary creature card from your graveyard to your hand.",
@@ -19349,7 +19349,7 @@
     {
       "name": "Blot Out the Sky",
       "manaCost": "{X}{W}{B}",
-      "sortedManaCost": "{X}{W}{B}",
+      "sortedManaCost": "{B}{W}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Create X tapped 2/1 white and black Inkling creature tokens with flying. If X is 6 or more, destroy all noncreature, nonland permanents.",
@@ -19391,7 +19391,7 @@
     {
       "name": "Body of Research",
       "manaCost": "{G}{G}{G}{U}{U}{U}",
-      "sortedManaCost": "{U}{U}{U}{G}{G}{G}",
+      "sortedManaCost": "{G}{G}{G}{U}{U}{U}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is the number of cards in your library.",
@@ -19475,7 +19475,7 @@
     {
       "name": "Culmination of Studies",
       "manaCost": "{X}{U}{R}",
-      "sortedManaCost": "{X}{U}{R}",
+      "sortedManaCost": "{R}{U}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile the top X cards of your library. For each land card exiled this way, create a Treasure token. For each blue card exiled this way, draw a card. For each red card exiled this way, Culmination of Studies deals 1 damage to each opponent.",
@@ -19559,7 +19559,7 @@
     {
       "name": "Double Major",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Copy target creature spell you control, except it isn't legendary if the spell is legendary. (A copy of a creature spell becomes a token.)",
@@ -19727,7 +19727,7 @@
     {
       "name": "Hofri Ghostforge",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Dwarf Cleric",
       "text": "Spirits you control get +1/+1 and have trample and haste.<br>Whenever another nontoken creature you control dies, exile it. If you do, create a token that's a copy of that creature, except it's a Spirit in addition to its other types and it has \"When this creature leaves the battlefield, return the exiled card to your graveyard.\"",
@@ -19769,7 +19769,7 @@
     {
       "name": "Lorehold Command",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Instant",
       "text": "Choose two -<br>• Create a 3/2 red and white Spirit creature token.<br>• Creatures you control get +1/+0 and gain indestructible and haste until end of turn.<br>• Lorehold Command deals 3 damage to any target. Target player gains 3 life.<br>• Sacrifice a permanent, then draw two cards.",
@@ -19811,7 +19811,7 @@
     {
       "name": "Magma Opus",
       "manaCost": "{6}{U}{R}",
-      "sortedManaCost": "{6}{U}{R}",
+      "sortedManaCost": "{6}{R}{U}",
       "cmc": 8,
       "type": "Instant",
       "text": "Magma Opus deals 4 damage divided as you choose among any number of targets. Tap two target permanents. Create a 4/4 blue and red Elemental creature token. Draw two cards.<br>{U/R}{U/R}, Discard Magma Opus: Create a Treasure token.",
@@ -19895,7 +19895,7 @@
     {
       "name": "Prismari Command",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose two -<br>• Prismari Command deals 2 damage to any target.<br>• Target player draws two cards, then discards two cards.<br>• Target player creates a Treasure token.<br>• Destroy target artifact.",
@@ -19937,7 +19937,7 @@
     {
       "name": "Quandrix Command",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose two -<br>• Return target creature or planeswalker to its owner's hand.<br>• Counter target artifact or enchantment spell.<br>• Put two +1/+1 counters on target creature.<br>• Target player shuffles up to three target cards from their graveyard into their library.",
@@ -19979,7 +19979,7 @@
     {
       "name": "Radiant Scrollwielder",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Creature - Dwarf Cleric",
       "text": "Instant and sorcery spells you control have lifelink.<br>At the beginning of your upkeep, exile an instant or sorcery card at random from your graveyard. You may cast it this turn. If a spell cast this way would be put into your graveyard, exile it instead.",
@@ -20063,7 +20063,7 @@
     {
       "name": "Silverquill Command",
       "manaCost": "{2}{W}{B}",
-      "sortedManaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{B}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Choose two -<br>• Target creature gets +3/+3 and gains flying until end of turn.<br>• Return target creature card with mana value 2 or less from your graveyard to the battlefield.<br>• Target player draws a card and loses 1 life.<br>• Target opponent sacrifices a creature.",
@@ -20105,7 +20105,7 @@
     {
       "name": "Silverquill Silencer",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Creature - Human Cleric",
       "text": "As Silverquill Silencer enters the battlefield, choose a nonland card name.<br>Whenever an opponent casts a spell with the chosen name, they lose 3 life and you draw a card.",
@@ -20147,7 +20147,7 @@
     {
       "name": "Vanishing Verse",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Exile target monocolored permanent.",
@@ -20189,7 +20189,7 @@
     {
       "name": "Venerable Warsinger",
       "manaCost": "{1}{R}{W}",
-      "sortedManaCost": "{1}{W}{R}",
+      "sortedManaCost": "{1}{R}{W}",
       "cmc": 3,
       "type": "Creature - Spirit Cleric",
       "text": "Vigilance, trample<br>Whenever Venerable Warsinger deals combat damage to a player, you may return target creature card with mana value X or less from your graveyard to the battlefield, where X is the amount of damage Venerable Warsinger dealt to that player.",
@@ -21327,7 +21327,7 @@
     {
       "name": "Fracture",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Destroy target artifact, enchantment, or planeswalker.",
@@ -21390,7 +21390,7 @@
     {
       "name": "Expressive Iteration",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Look at the top three cards of your library. Put one of them into your hand, put one of them on the bottom of your library, and exile one of them. You may play the exiled card this turn.",
@@ -21516,7 +21516,7 @@
     {
       "name": "Rip Apart",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Choose one -<br>• Rip Apart deals 3 damage to target creature or planeswalker.<br>• Destroy target artifact or enchantment.",
@@ -21579,7 +21579,7 @@
     {
       "name": "Decisive Denial",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)<br>• Counter target noncreature spell unless its controller pays {3}.",

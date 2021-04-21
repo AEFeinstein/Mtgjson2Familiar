@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "White",
     "type": "core",
-    "digest": "cdbf3e4ada06993b0a361df2529f24d0",
+    "digest": "757821938e833168641a113fdb1494a3",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/4E_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/4E_R.png",
@@ -21,7 +21,7 @@
     {
       "name": "Alabaster Potion",
       "manaCost": "{X}{W}{W}",
-      "sortedManaCost": "{X}{W}{W}",
+      "sortedManaCost": "{W}{W}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Target player gains X life.<br>• Prevent the next X damage that would be dealt to any target this turn.",
@@ -4162,7 +4162,7 @@
     {
       "name": "Power Sink",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana.",
@@ -4616,7 +4616,7 @@
     {
       "name": "Spell Blast",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell with mana value X. (For example, if that spell's mana cost is {3}{U}{U}, X is 5.)",
@@ -5021,7 +5021,7 @@
     {
       "name": "Volcanic Eruption",
       "manaCost": "{X}{U}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}{U}",
+      "sortedManaCost": "{U}{U}{U}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy X target Mountains. Volcanic Eruption deals damage to each creature and each player equal to the number of Mountains put into a graveyard this way.",
@@ -5931,7 +5931,7 @@
     {
       "name": "Drain Life",
       "manaCost": "{X}{1}{B}",
-      "sortedManaCost": "{X}{1}{B}",
+      "sortedManaCost": "{1}{B}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Spend only black mana on X.<br>Drain Life deals X damage to any target. You gain life equal to the damage dealt, but not more life than the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness.",
@@ -6339,7 +6339,7 @@
     {
       "name": "Howl from Beyond",
       "manaCost": "{X}{B}",
-      "sortedManaCost": "{X}{B}",
+      "sortedManaCost": "{B}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +X/+0 until end of turn.",
@@ -6612,7 +6612,7 @@
     {
       "name": "Mind Twist",
       "manaCost": "{X}{B}",
-      "sortedManaCost": "{X}{B}",
+      "sortedManaCost": "{B}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player discards X cards at random.",
@@ -7747,7 +7747,7 @@
     {
       "name": "Word of Binding",
       "manaCost": "{X}{B}{B}",
-      "sortedManaCost": "{X}{B}{B}",
+      "sortedManaCost": "{B}{B}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Tap X target creatures.",
@@ -8293,7 +8293,7 @@
     {
       "name": "Detonate",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Destroy target artifact with mana value X. It can't be regenerated. Detonate deals X damage to that artifact's controller.",
@@ -8338,7 +8338,7 @@
     {
       "name": "Disintegrate",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Disintegrate deals X damage to any target. If it's a creature, it can't be regenerated this turn, and if it would die this turn, exile it instead.",
@@ -8519,7 +8519,7 @@
     {
       "name": "Earthquake",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Earthquake deals X damage to each creature without flying and each player.",
@@ -8655,7 +8655,7 @@
     {
       "name": "Fireball",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "This spell costs {1} more to cast for each target beyond the first.<br>Fireball deals X damage divided evenly, rounded down, among any number of targets.",
@@ -11329,7 +11329,7 @@
     {
       "name": "Hurricane",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Hurricane deals X damage to each creature with flying and each player.",
@@ -12278,7 +12278,7 @@
     {
       "name": "Stream of Life",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player gains X life.",
@@ -13096,7 +13096,7 @@
     {
       "name": "Winter Blast",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Tap X target creatures. Winter Blast deals 2 damage to each of those creatures with flying.",

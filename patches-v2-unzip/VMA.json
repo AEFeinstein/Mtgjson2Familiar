@@ -8,7 +8,7 @@
     "isOnlineOnly": true,
     "borderColor": "Black",
     "type": "masters",
-    "digest": "fcd795d9dc8f22be7b0cd049bd86a88d",
+    "digest": "04bb769eb30d7a15b6754ee14353d65d",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/VMA_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/VMA_M.png",
@@ -447,7 +447,7 @@
     {
       "name": "Decree of Justice",
       "manaCost": "{X}{X}{2}{W}{W}",
-      "sortedManaCost": "{X}{X}{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}{X}{X}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Create X 4/4 white Angel creature tokens with flying.<br>Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)<br>When you cycle Decree of Justice, you may pay {X}. If you do, create X 1/1 white Soldier creature tokens.",
@@ -1802,7 +1802,7 @@
     {
       "name": "Power Sink",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana.",
@@ -1946,7 +1946,7 @@
     {
       "name": "Stroke of Genius",
       "manaCost": "{X}{2}{U}",
-      "sortedManaCost": "{X}{2}{U}",
+      "sortedManaCost": "{2}{U}{X}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target player draws X cards.",
@@ -3595,7 +3595,7 @@
     {
       "name": "Kaervek's Torch",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "As long as Kaervek's Torch is on the stack, spells that target it cost {2} more to cast.<br>Kaervek's Torch deals X damage to any target.",
@@ -3883,7 +3883,7 @@
     {
       "name": "Starstorm",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Starstorm deals X damage to each creature.<br>Cycling {3} ({3}, Discard this card: Draw a card.)",
@@ -4948,7 +4948,7 @@
     {
       "name": "Aether Mutation",
       "manaCost": "{3}{G}{U}",
-      "sortedManaCost": "{3}{U}{G}",
+      "sortedManaCost": "{3}{G}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Return target creature to its owner's hand. Create X 1/1 green Saproling creature tokens, where X is that creature's mana value.",
@@ -4968,7 +4968,7 @@
     {
       "name": "Armadillo Cloak",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has trample.<br>Whenever enchanted creature deals damage, you gain that much life.",
@@ -4989,7 +4989,7 @@
     {
       "name": "Baleful Strix",
       "manaCost": "{U}{B}",
-      "sortedManaCost": "{U}{B}",
+      "sortedManaCost": "{B}{U}",
       "cmc": 2,
       "type": "Artifact Creature - Bird",
       "text": "Flying, deathtouch<br>When Baleful Strix enters the battlefield, draw a card.",
@@ -5010,7 +5010,7 @@
     {
       "name": "Basandra, Battle Seraph",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Angel",
       "text": "Flying<br>Players can't cast spells during combat.<br>{R}: Target creature attacks this turn if able.",
@@ -5051,7 +5051,7 @@
     {
       "name": "Brago, King Eternal",
       "manaCost": "{2}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{U}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Spirit Noble",
       "text": "Flying<br>Whenever Brago, King Eternal deals combat damage to a player, exile any number of target nonland permanents you control, then return those cards to the battlefield under their owner's control.",
@@ -5072,7 +5072,7 @@
     {
       "name": "Dack Fayden",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Legendary Planeswalker - Dack",
       "text": "[+1]: Target player draws two cards, then discards two cards.<br>[−2]: Gain control of target artifact.<br>[−6]: You get an emblem with \"Whenever you cast a spell that targets one or more permanents, gain control of those permanents.\"",
@@ -5092,7 +5092,7 @@
     {
       "name": "Dack's Duplicate",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Creature - Shapeshifter",
       "text": "You may have Dack's Duplicate enter the battlefield as a copy of any creature on the battlefield, except it has haste and dethrone. (Whenever it attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)",
@@ -5112,7 +5112,7 @@
     {
       "name": "Death Grasp",
       "manaCost": "{X}{W}{B}",
-      "sortedManaCost": "{X}{W}{B}",
+      "sortedManaCost": "{B}{W}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Death Grasp deals X damage to any target. You gain X life.",
@@ -5154,7 +5154,7 @@
     {
       "name": "Edric, Spymaster of Trest",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Rogue",
       "text": "Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.",
@@ -5175,7 +5175,7 @@
     {
       "name": "Fires of Yavimaya",
       "manaCost": "{1}{R}{G}",
-      "sortedManaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{G}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Creatures you control have haste.<br>Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.",
@@ -5196,7 +5196,7 @@
     {
       "name": "Goblin Trenches",
       "manaCost": "{1}{R}{W}",
-      "sortedManaCost": "{1}{W}{R}",
+      "sortedManaCost": "{1}{R}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "{2}, Sacrifice a land: Create two 1/1 red and white Goblin Soldier creature tokens.",
@@ -5217,7 +5217,7 @@
     {
       "name": "Grenzo, Dungeon Warden",
       "manaCost": "{X}{B}{R}",
-      "sortedManaCost": "{X}{B}{R}",
+      "sortedManaCost": "{B}{R}{X}",
       "cmc": 2,
       "type": "Legendary Creature - Goblin Rogue",
       "text": "Grenzo, Dungeon Warden enters the battlefield with X +1/+1 counters on it.<br>{2}: Put the bottom card of your library into your graveyard. If it's a creature card with power less than or equal to Grenzo's power, put it onto the battlefield.",
@@ -5237,7 +5237,7 @@
     {
       "name": "Magister of Worth",
       "manaCost": "{4}{W}{B}",
-      "sortedManaCost": "{4}{W}{B}",
+      "sortedManaCost": "{4}{B}{W}",
       "cmc": 6,
       "type": "Creature - Angel",
       "text": "Flying<br>Will of the council - When Magister of Worth enters the battlefield, starting with you, each player votes for grace or condemnation. If grace gets more votes, each player returns each creature card from their graveyard to the battlefield. If condemnation gets more votes or the vote is tied, destroy all creatures other than Magister of Worth.",
@@ -5257,7 +5257,7 @@
     {
       "name": "Marchesa, the Black Rose",
       "manaCost": "{1}{U}{B}{R}",
-      "sortedManaCost": "{1}{U}{B}{R}",
+      "sortedManaCost": "{1}{B}{R}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Wizard",
       "text": "Dethrone (Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)<br>Other creatures you control have dethrone.<br>Whenever a creature you control with a +1/+1 counter on it dies, return that card to the battlefield under your control at the beginning of the next end step.",
@@ -5277,7 +5277,7 @@
     {
       "name": "Prophetic Bolt",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "Prophetic Bolt deals 4 damage to any target. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.",
@@ -5297,7 +5297,7 @@
     {
       "name": "Psychatog",
       "manaCost": "{1}{U}{B}",
-      "sortedManaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{B}{U}",
       "cmc": 3,
       "type": "Creature - Atog",
       "text": "Discard a card: Psychatog gets +1/+1 until end of turn.<br>Exile two cards from your graveyard: Psychatog gets +1/+1 until end of turn.",
@@ -5317,7 +5317,7 @@
     {
       "name": "Reviving Vapors",
       "manaCost": "{2}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{U}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Reveal the top three cards of your library and put one of them into your hand. You gain life equal to that card's mana value. Put all other cards revealed this way into your graveyard.",
@@ -5337,7 +5337,7 @@
     {
       "name": "Selvala, Explorer Returned",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Scout",
       "text": "Parley - {T}: Each player reveals the top card of their library. For each nonland card revealed this way, add {G} and you gain 1 life. Then each player draws a card.",
@@ -5358,7 +5358,7 @@
     {
       "name": "Shivan Wurm",
       "manaCost": "{3}{R}{G}",
-      "sortedManaCost": "{3}{R}{G}",
+      "sortedManaCost": "{3}{G}{R}",
       "cmc": 5,
       "type": "Creature - Wurm",
       "text": "Trample<br>When Shivan Wurm enters the battlefield, return a red or green creature you control to its owner's hand.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "masters",
-    "digest": "04e6049462b5d4d9028473cc2b26d0d2",
+    "digest": "f914328c23b5ec8d0f5818b26af0f8f1",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MMA_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MMA_M.png",
@@ -1050,7 +1050,7 @@
     {
       "name": "Logic Knot",
       "manaCost": "{X}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}",
+      "sortedManaCost": "{U}{U}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)<br>Counter target spell unless its controller pays {X}.",
@@ -1562,7 +1562,7 @@
     {
       "name": "Death Cloud",
       "manaCost": "{X}{B}{B}{B}",
-      "sortedManaCost": "{X}{B}{B}{B}",
+      "sortedManaCost": "{B}{B}{B}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Each player loses X life, discards X cards, sacrifices X creatures, then sacrifices X lands.",
@@ -1583,7 +1583,7 @@
     {
       "name": "Death Denied",
       "manaCost": "{X}{B}{B}",
-      "sortedManaCost": "{X}{B}{B}",
+      "sortedManaCost": "{B}{B}{X}",
       "cmc": 2,
       "type": "Instant - Arcane",
       "text": "Return X target creature cards from your graveyard to your hand.",
@@ -2530,7 +2530,7 @@
     {
       "name": "Molten Disaster",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Kicker {R} (You may pay an additional {R} as you cast this spell.)<br>If this spell was kicked, it has split second. (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)<br>Molten Disaster deals X damage to each creature without flying and each player.",
@@ -3599,7 +3599,7 @@
     {
       "name": "Electrolyze",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Electrolyze deals 2 damage divided as you choose among one or two targets.<br>Draw a card.",
@@ -3621,7 +3621,7 @@
     {
       "name": "Grand Arbiter Augustin IV",
       "manaCost": "{2}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{U}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Advisor",
       "text": "White spells you cast cost {1} less to cast.<br>Blue spells you cast cost {1} less to cast.<br>Spells your opponents cast cost {1} more to cast.",
@@ -3643,7 +3643,7 @@
     {
       "name": "Jhoira of the Ghitu",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Human Wizard",
       "text": "{2}, Exile a nonland card from your hand: Put four time counters on the exiled card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, cast it without paying its mana cost. If it's a creature, it has haste.)",
@@ -3663,7 +3663,7 @@
     {
       "name": "Knight of the Reliquary",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Creature - Human Knight",
       "text": "Knight of the Reliquary gets +1/+1 for each land card in your graveyard.<br>{T}, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle.",
@@ -3684,7 +3684,7 @@
     {
       "name": "Lightning Helix",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Lightning Helix deals 3 damage to any target and you gain 3 life.",
@@ -3726,7 +3726,7 @@
     {
       "name": "Mind Funeral",
       "manaCost": "{1}{U}{B}",
-      "sortedManaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{B}{U}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Target opponent reveals cards from the top of their library until four land cards are revealed. That player puts all cards revealed this way into their graveyard.",
@@ -3747,7 +3747,7 @@
     {
       "name": "Progenitus",
       "manaCost": "{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}",
-      "sortedManaCost": "{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}",
+      "sortedManaCost": "{B}{B}{G}{G}{R}{R}{U}{U}{W}{W}",
       "cmc": 10,
       "type": "Legendary Creature - Hydra Avatar",
       "text": "Protection from everything<br>If Progenitus would be put into a graveyard from anywhere, reveal Progenitus and shuffle it into its owner's library instead.",
@@ -3768,7 +3768,7 @@
     {
       "name": "Sarkhan Vol",
       "manaCost": "{2}{R}{G}",
-      "sortedManaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{G}{R}",
       "cmc": 4,
       "type": "Legendary Planeswalker - Sarkhan",
       "text": "[+1]: Creatures you control get +1/+1 and gain haste until end of turn.<br>[−2]: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.<br>[−6]: Create five 4/4 red Dragon creature tokens with flying.",
@@ -3788,7 +3788,7 @@
     {
       "name": "Tidehollow Sculler",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Artifact Creature - Zombie",
       "text": "When Tidehollow Sculler enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card.<br>When Tidehollow Sculler leaves the battlefield, return the exiled card to its owner's hand.",
@@ -3808,7 +3808,7 @@
     {
       "name": "Trygon Predator",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Creature - Beast",
       "text": "Flying<br>Whenever Trygon Predator deals combat damage to a player, you may destroy target artifact or enchantment that player controls.",

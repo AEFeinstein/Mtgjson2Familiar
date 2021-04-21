@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "952d6c96f4104d751687ba81ca629d13",
+    "digest": "7ba3a495df1946738ae3abc59d085c00",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/RTR_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/RTR_M.png",
@@ -3311,7 +3311,7 @@
     {
       "name": "Syncopate",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
@@ -6539,7 +6539,7 @@
     {
       "name": "Street Spasm",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Street Spasm deals X damage to target creature without flying you don't control.<br>Overload {X}{X}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -8031,7 +8031,7 @@
     {
       "name": "Mana Bloom",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Enchantment",
       "text": "Mana Bloom enters the battlefield with X charge counters on it.<br>Remove a charge counter from Mana Bloom: Add one mana of any color. Activate only once each turn.<br>At the beginning of your upkeep, if Mana Bloom has no charge counters on it, return it to its owner's hand.",
@@ -8340,7 +8340,7 @@
     {
       "name": "Slime Molding",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Create an X/X green Ooze creature token.",
@@ -8775,7 +8775,7 @@
     {
       "name": "Archon of the Triumvirate",
       "manaCost": "{5}{W}{U}",
-      "sortedManaCost": "{5}{W}{U}",
+      "sortedManaCost": "{5}{U}{W}",
       "cmc": 7,
       "type": "Creature - Archon",
       "text": "Flying<br>Whenever Archon of the Triumvirate attacks, detain up to two target nonland permanents your opponents control. (Until your next turn, those permanents can't attack or block and their activated abilities can't be activated.)",
@@ -8837,7 +8837,7 @@
     {
       "name": "Armada Wurm",
       "manaCost": "{2}{G}{G}{W}{W}",
-      "sortedManaCost": "{2}{W}{W}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{W}{W}",
       "cmc": 6,
       "type": "Creature - Wurm",
       "text": "Trample<br>When Armada Wurm enters the battlefield, create a 5/5 green Wurm creature token with trample.",
@@ -8963,7 +8963,7 @@
     {
       "name": "Azorius Charm",
       "manaCost": "{W}{U}",
-      "sortedManaCost": "{W}{U}",
+      "sortedManaCost": "{U}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Creatures you control gain lifelink until end of turn.<br>• Draw a card.<br>• Put target attacking or blocking creature on top of its owner's library.",
@@ -9026,7 +9026,7 @@
     {
       "name": "Call of the Conclave",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Create a 3/3 green Centaur creature token.",
@@ -9152,7 +9152,7 @@
     {
       "name": "Centaur Healer",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Creature - Centaur Cleric",
       "text": "When Centaur Healer enters the battlefield, you gain 3 life.",
@@ -9215,7 +9215,7 @@
     {
       "name": "Chemister's Trick",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature you don't control gets -2/-0 until end of turn and attacks this turn if able.<br>Overload {3}{U}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -9277,7 +9277,7 @@
     {
       "name": "Collective Blessing",
       "manaCost": "{3}{G}{G}{W}",
-      "sortedManaCost": "{3}{W}{G}{G}",
+      "sortedManaCost": "{3}{G}{G}{W}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "Creatures you control get +3/+3.",
@@ -9340,7 +9340,7 @@
     {
       "name": "Common Bond",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Put a +1/+1 counter on target creature.<br>Put a +1/+1 counter on target creature.",
@@ -9466,7 +9466,7 @@
     {
       "name": "Counterflux",
       "manaCost": "{U}{U}{R}",
-      "sortedManaCost": "{U}{U}{R}",
+      "sortedManaCost": "{R}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "This spell can't be countered.<br>Counter target spell you don't control.<br>Overload {1}{U}{U}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -9528,7 +9528,7 @@
     {
       "name": "Coursers' Accord",
       "manaCost": "{4}{G}{W}",
-      "sortedManaCost": "{4}{W}{G}",
+      "sortedManaCost": "{4}{G}{W}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Create a 3/3 green Centaur creature token, then populate. (Create a token that's a copy of a creature token you control.)",
@@ -9591,7 +9591,7 @@
     {
       "name": "Detention Sphere",
       "manaCost": "{1}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "When Detention Sphere enters the battlefield, you may exile target nonland permanent not named Detention Sphere and all other permanents with the same name as that permanent.<br>When Detention Sphere leaves the battlefield, return the exiled cards to the battlefield under their owner's control.",
@@ -9653,7 +9653,7 @@
     {
       "name": "Dramatic Rescue",
       "manaCost": "{W}{U}",
-      "sortedManaCost": "{W}{U}",
+      "sortedManaCost": "{U}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Return target creature to its owner's hand. You gain 2 life.",
@@ -9841,7 +9841,7 @@
     {
       "name": "Epic Experiment",
       "manaCost": "{X}{U}{R}",
-      "sortedManaCost": "{X}{U}{R}",
+      "sortedManaCost": "{R}{U}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile the top X cards of your library. You may cast instant and sorcery spells with mana value X or less from among them without paying their mana costs. Then put all cards exiled this way that weren't cast into your graveyard.",
@@ -9903,7 +9903,7 @@
     {
       "name": "Essence Backlash",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Counter target creature spell. Essence Backlash deals damage equal to that spell's power to its controller.",
@@ -9966,7 +9966,7 @@
     {
       "name": "Fall of the Gavel",
       "manaCost": "{3}{W}{U}",
-      "sortedManaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{U}{W}",
       "cmc": 5,
       "type": "Instant",
       "text": "Counter target spell. You gain 5 life.",
@@ -10029,7 +10029,7 @@
     {
       "name": "Firemind's Foresight",
       "manaCost": "{5}{U}{R}",
-      "sortedManaCost": "{5}{U}{R}",
+      "sortedManaCost": "{5}{R}{U}",
       "cmc": 7,
       "type": "Instant",
       "text": "Search your library for an instant card with mana value 3, reveal it, and put it into your hand. Then repeat this process for instant cards with mana values 2 and 1. Then shuffle.",
@@ -10091,7 +10091,7 @@
     {
       "name": "Goblin Electromancer",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Creature - Goblin Wizard",
       "text": "Instant and sorcery spells you cast cost {1} less to cast.",
@@ -10405,7 +10405,7 @@
     {
       "name": "Heroes' Reunion",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target player gains 7 life.",
@@ -10468,7 +10468,7 @@
     {
       "name": "Hussar Patrol",
       "manaCost": "{2}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{U}{W}",
       "cmc": 4,
       "type": "Creature - Human Knight",
       "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Vigilance",
@@ -10531,7 +10531,7 @@
     {
       "name": "Hypersonic Dragon",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Creature - Dragon",
       "text": "Flying, haste<br>You may cast sorcery spells as though they had flash. (You may cast them any time you could cast an instant.)",
@@ -10594,7 +10594,7 @@
     {
       "name": "Isperia, Supreme Judge",
       "manaCost": "{2}{W}{W}{U}{U}",
-      "sortedManaCost": "{2}{W}{W}{U}{U}",
+      "sortedManaCost": "{2}{U}{U}{W}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Sphinx",
       "text": "Flying<br>Whenever a creature attacks you or a planeswalker you control, you may draw a card.",
@@ -10657,7 +10657,7 @@
     {
       "name": "Izzet Charm",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Counter target noncreature spell unless its controller pays {2}.<br>• Izzet Charm deals 2 damage to target creature.<br>• Draw two cards, then discard two cards.",
@@ -10719,7 +10719,7 @@
     {
       "name": "Izzet Staticaster",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Haste<br>{T}: Izzet Staticaster deals 1 damage to target creature and each other creature with the same name as that creature.",
@@ -11031,7 +11031,7 @@
     {
       "name": "Loxodon Smiter",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Creature - Elephant Soldier",
       "text": "This spell can't be countered.<br>If a spell or ability an opponent controls causes you to discard Loxodon Smiter, put it onto the battlefield instead of putting it into your graveyard.",
@@ -11093,7 +11093,7 @@
     {
       "name": "Lyev Skyknight",
       "manaCost": "{1}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}",
       "cmc": 3,
       "type": "Creature - Human Knight",
       "text": "Flying<br>When Lyev Skyknight enters the battlefield, detain target nonland permanent an opponent controls. (Until your next turn, that permanent can't attack or block and its activated abilities can't be activated.)",
@@ -11155,7 +11155,7 @@
     {
       "name": "Mercurial Chemister",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Creature - Human Wizard",
       "text": "{U}, {T}: Draw two cards.<br>{R}, {T}, Discard a card: Mercurial Chemister deals damage to target creature equal to the discarded card's mana value.",
@@ -11218,7 +11218,7 @@
     {
       "name": "New Prahv Guildmage",
       "manaCost": "{W}{U}",
-      "sortedManaCost": "{W}{U}",
+      "sortedManaCost": "{U}{W}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{W}{U}: Target creature gains flying until end of turn.<br>{3}{W}{U}: Detain target nonland permanent an opponent controls. (Until your next turn, that permanent can't attack or block and its activated abilities can't be activated.)",
@@ -11280,7 +11280,7 @@
     {
       "name": "Nivix Guildmage",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{1}{U}{R}: Draw a card, then discard a card.<br>{2}{U}{R}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.",
@@ -11343,7 +11343,7 @@
     {
       "name": "Niv-Mizzet, Dracogenius",
       "manaCost": "{2}{U}{U}{R}{R}",
-      "sortedManaCost": "{2}{U}{U}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}{U}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon Wizard",
       "text": "Flying<br>Whenever Niv-Mizzet, Dracogenius deals damage to a player, you may draw a card.<br>{U}{R}: Niv-Mizzet, Dracogenius deals 1 damage to any target.",
@@ -11656,7 +11656,7 @@
     {
       "name": "Rakdos's Return",
       "manaCost": "{X}{B}{R}",
-      "sortedManaCost": "{X}{B}{R}",
+      "sortedManaCost": "{B}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Rakdos's Return deals X damage to target opponent or planeswalker. That player or that planeswalker's controller discards X cards.",
@@ -11719,7 +11719,7 @@
     {
       "name": "Righteous Authority",
       "manaCost": "{3}{W}{U}",
-      "sortedManaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{U}{W}",
       "cmc": 5,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +1/+1 for each card in its controller's hand.<br>At the beginning of the draw step of enchanted creature's controller, that player draws an additional card.",
@@ -11781,7 +11781,7 @@
     {
       "name": "Risen Sanctuary",
       "manaCost": "{5}{G}{W}",
-      "sortedManaCost": "{5}{W}{G}",
+      "sortedManaCost": "{5}{G}{W}",
       "cmc": 7,
       "type": "Creature - Elemental",
       "text": "Vigilance",
@@ -11970,7 +11970,7 @@
     {
       "name": "Search Warrant",
       "manaCost": "{W}{U}",
-      "sortedManaCost": "{W}{U}",
+      "sortedManaCost": "{U}{W}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target player reveals their hand. You gain life equal to the number of cards in that player's hand.",
@@ -12033,7 +12033,7 @@
     {
       "name": "Selesnya Charm",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Target creature gets +2/+2 and gains trample until end of turn.<br>• Exile target creature with power 5 or greater.<br>• Create a 2/2 white Knight creature token with vigilance.",
@@ -12158,7 +12158,7 @@
     {
       "name": "Skymark Roc",
       "manaCost": "{2}{W}{U}",
-      "sortedManaCost": "{2}{W}{U}",
+      "sortedManaCost": "{2}{U}{W}",
       "cmc": 4,
       "type": "Creature - Bird",
       "text": "Flying<br>Whenever Skymark Roc attacks, you may return target creature defending player controls with toughness 2 or less to its owner's hand.",
@@ -12408,7 +12408,7 @@
     {
       "name": "Sphinx's Revelation",
       "manaCost": "{X}{W}{U}{U}",
-      "sortedManaCost": "{X}{W}{U}{U}",
+      "sortedManaCost": "{U}{U}{W}{X}",
       "cmc": 3,
       "type": "Instant",
       "text": "You gain X life and draw X cards.",
@@ -12471,7 +12471,7 @@
     {
       "name": "Supreme Verdict",
       "manaCost": "{1}{W}{W}{U}",
-      "sortedManaCost": "{1}{W}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "This spell can't be countered.<br>Destroy all creatures.",
@@ -12534,7 +12534,7 @@
     {
       "name": "Teleportal",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target creature you control gets +1/+0 until end of turn and can't be blocked this turn.<br>Overload {3}{U}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -12596,7 +12596,7 @@
     {
       "name": "Thoughtflare",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "Draw four cards, then discard two cards.",
@@ -12785,7 +12785,7 @@
     {
       "name": "Trostani, Selesnya's Voice",
       "manaCost": "{G}{G}{W}{W}",
-      "sortedManaCost": "{W}{W}{G}{G}",
+      "sortedManaCost": "{G}{G}{W}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Dryad",
       "text": "Whenever another creature enters the battlefield under your control, you gain life equal to that creature's toughness.<br>{1}{G}{W}, {T}: Populate. (Create a token that's a copy of a creature token you control.)",
@@ -12847,7 +12847,7 @@
     {
       "name": "Vitu-Ghazi Guildmage",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Creature - Dryad Shaman",
       "text": "{4}{G}{W}: Create a 3/3 green Centaur creature token.<br>{2}{G}{W}: Populate. (Create a token that's a copy of a creature token you control.)",
@@ -12971,7 +12971,7 @@
     {
       "name": "Wayfaring Temple",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Creature - Elemental",
       "text": "Wayfaring Temple's power and toughness are each equal to the number of creatures you control.<br>Whenever Wayfaring Temple deals combat damage to a player, populate. (Create a token that's a copy of a creature token you control.)",

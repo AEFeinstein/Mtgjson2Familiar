@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "White",
     "type": "box",
-    "digest": "ee7b4f1a4275cbe0c353e34572953280",
+    "digest": "6df0cd77f831bb893a6866b28f19f7fa",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/BD_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/BD_R.png",
@@ -292,7 +292,7 @@
     {
       "name": "Power Sink",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana.",
@@ -500,7 +500,7 @@
     {
       "name": "Drain Life",
       "manaCost": "{X}{1}{B}",
-      "sortedManaCost": "{X}{1}{B}",
+      "sortedManaCost": "{1}{B}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Spend only black mana on X.<br>Drain Life deals X damage to any target. You gain life equal to the damage dealt, but not more life than the player's life total before the damage was dealt, the planeswalker's loyalty before the damage was dealt, or the creature's toughness.",
@@ -768,7 +768,7 @@
     {
       "name": "Fireball",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "This spell costs {1} more to cast for each target beyond the first.<br>Fireball deals X damage divided evenly, rounded down, among any number of targets.",
@@ -1385,7 +1385,7 @@
     {
       "name": "Diabolic Vision",
       "manaCost": "{U}{B}",
-      "sortedManaCost": "{U}{B}",
+      "sortedManaCost": "{B}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Look at the top five cards of your library. Put one of them into your hand and the rest on top of your library in any order.",
@@ -1406,7 +1406,7 @@
     {
       "name": "Segmented Wurm",
       "manaCost": "{3}{R}{G}",
-      "sortedManaCost": "{3}{R}{G}",
+      "sortedManaCost": "{3}{G}{R}",
       "cmc": 5,
       "type": "Creature - Wurm",
       "text": "Whenever Segmented Wurm becomes the target of a spell or ability, put a -1/-1 counter on it.",

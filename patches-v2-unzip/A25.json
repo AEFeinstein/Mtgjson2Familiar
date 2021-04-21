@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "masters",
-    "digest": "888d0d5b01468a7062bd23ae7ae8e81a",
+    "digest": "8f532c6fde09c1fa9c3973857e05e5c1",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/A25_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/A25_M.png",
@@ -331,7 +331,7 @@
     {
       "name": "Decree of Justice",
       "manaCost": "{X}{X}{2}{W}{W}",
-      "sortedManaCost": "{X}{X}{2}{W}{W}",
+      "sortedManaCost": "{2}{W}{W}{X}{X}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Create X 4/4 white Angel creature tokens with flying.<br>Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)<br>When you cycle Decree of Justice, you may pay {X}. If you do, create X 1/1 white Soldier creature tokens.",
@@ -1344,7 +1344,7 @@
     {
       "name": "Blue Sun's Zenith",
       "manaCost": "{X}{U}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}{U}",
+      "sortedManaCost": "{U}{U}{U}{X}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.",
@@ -6007,7 +6007,7 @@
     {
       "name": "Animar, Soul of Elements",
       "manaCost": "{G}{U}{R}",
-      "sortedManaCost": "{U}{R}{G}",
+      "sortedManaCost": "{G}{R}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Elemental",
       "text": "Protection from white and from black<br>Whenever you cast a creature spell, put a +1/+1 counter on Animar, Soul of Elements.<br>Creature spells you cast cost {1} less to cast for each +1/+1 counter on Animar.",
@@ -6099,7 +6099,7 @@
     {
       "name": "Boros Charm",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Boros Charm deals 4 damage to target player or planeswalker.<br>• Permanents you control gain indestructible until end of turn.<br>• Target creature gains double strike until end of turn.",
@@ -6129,7 +6129,7 @@
     {
       "name": "Brion Stoutarm",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Giant Warrior",
       "text": "Lifelink<br>{R}, {T}, Sacrifice another creature: Brion Stoutarm deals damage equal to the sacrificed creature's power to target player or planeswalker.",
@@ -6160,7 +6160,7 @@
     {
       "name": "Cloudblazer",
       "manaCost": "{3}{W}{U}",
-      "sortedManaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{U}{W}",
       "cmc": 5,
       "type": "Creature - Human Scout",
       "text": "Flying<br>When Cloudblazer enters the battlefield, you gain 2 life and draw two cards.",
@@ -6191,7 +6191,7 @@
     {
       "name": "Conflux",
       "manaCost": "{3}{W}{U}{B}{R}{G}",
-      "sortedManaCost": "{3}{W}{U}{B}{R}{G}",
+      "sortedManaCost": "{3}{B}{G}{R}{U}{W}",
       "cmc": 8,
       "type": "Sorcery",
       "text": "Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards, put them into your hand, then shuffle.",
@@ -6222,7 +6222,7 @@
     {
       "name": "Eladamri's Call",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Search your library for a creature card, reveal that card, put it into your hand, then shuffle.",
@@ -6253,7 +6253,7 @@
     {
       "name": "Gisela, Blade of Goldnight",
       "manaCost": "{4}{R}{W}{W}",
-      "sortedManaCost": "{4}{W}{W}{R}",
+      "sortedManaCost": "{4}{R}{W}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Angel",
       "text": "Flying, first strike<br>If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.<br>If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.",
@@ -6283,7 +6283,7 @@
     {
       "name": "Grenzo, Dungeon Warden",
       "manaCost": "{X}{B}{R}",
-      "sortedManaCost": "{X}{B}{R}",
+      "sortedManaCost": "{B}{R}{X}",
       "cmc": 2,
       "type": "Legendary Creature - Goblin Rogue",
       "text": "Grenzo, Dungeon Warden enters the battlefield with X +1/+1 counters on it.<br>{2}: Put the bottom card of your library into your graveyard. If it's a creature card with power less than or equal to Grenzo's power, put it onto the battlefield.",
@@ -6313,7 +6313,7 @@
     {
       "name": "Hanna, Ship's Navigator",
       "manaCost": "{1}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Human Artificer",
       "text": "{1}{W}{U}, {T}: Return target artifact or enchantment card from your graveyard to your hand.",
@@ -6344,7 +6344,7 @@
     {
       "name": "Lorescale Coatl",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Creature - Snake",
       "text": "Whenever you draw a card, put a +1/+1 counter on Lorescale Coatl.",
@@ -6375,7 +6375,7 @@
     {
       "name": "Mystic Snake",
       "manaCost": "{1}{G}{U}{U}",
-      "sortedManaCost": "{1}{U}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}{U}",
       "cmc": 4,
       "type": "Creature - Snake",
       "text": "Flash<br>When Mystic Snake enters the battlefield, counter target spell.",
@@ -6406,7 +6406,7 @@
     {
       "name": "Nicol Bolas",
       "manaCost": "{2}{U}{U}{B}{B}{R}{R}",
-      "sortedManaCost": "{2}{U}{U}{B}{B}{R}{R}",
+      "sortedManaCost": "{2}{B}{B}{R}{R}{U}{U}",
       "cmc": 8,
       "type": "Legendary Creature - Elder Dragon",
       "text": "Flying<br>At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.<br>Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.",
@@ -6437,7 +6437,7 @@
     {
       "name": "Niv-Mizzet, the Firemind",
       "manaCost": "{2}{U}{U}{R}{R}",
-      "sortedManaCost": "{2}{U}{U}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}{U}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon Wizard",
       "text": "Flying<br>Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.<br>{T}: Draw a card.",
@@ -6468,7 +6468,7 @@
     {
       "name": "Notion Thief",
       "manaCost": "{2}{U}{B}",
-      "sortedManaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{B}{U}",
       "cmc": 4,
       "type": "Creature - Human Rogue",
       "text": "Flash<br>If an opponent would draw a card except the first one they draw in each of their draw steps, instead that player skips that draw and you draw a card.",
@@ -6529,7 +6529,7 @@
     {
       "name": "Pillory of the Sleepless",
       "manaCost": "{1}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{B}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't attack or block.<br>Enchanted creature has \"At the beginning of your upkeep, you lose 1 life.\"",
@@ -6560,7 +6560,7 @@
     {
       "name": "Prossh, Skyraider of Kher",
       "manaCost": "{3}{B}{R}{G}",
-      "sortedManaCost": "{3}{B}{R}{G}",
+      "sortedManaCost": "{3}{B}{G}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "When you cast this spell, create X 0/1 red Kobold creature tokens named Kobolds of Kher Keep, where X is the amount of mana spent to cast it.<br>Flying<br>Sacrifice another creature: Prossh, Skyraider of Kher gets +1/+0 until end of turn.",
@@ -6590,7 +6590,7 @@
     {
       "name": "Quicksilver Dagger",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature has \"{T}: This creature deals 1 damage to target player or planeswalker. You draw a card.\"",
@@ -6621,7 +6621,7 @@
     {
       "name": "Ruric Thar, the Unbowed",
       "manaCost": "{4}{R}{G}",
-      "sortedManaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{G}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Ogre Warrior",
       "text": "Vigilance, reach<br>Ruric Thar, the Unbowed attacks each combat if able.<br>Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that player.",
@@ -6651,7 +6651,7 @@
     {
       "name": "Shadowmage Infiltrator",
       "manaCost": "{1}{U}{B}",
-      "sortedManaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{B}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>Whenever Shadowmage Infiltrator deals combat damage to a player, you may draw a card.",
@@ -6681,7 +6681,7 @@
     {
       "name": "Stangg",
       "manaCost": "{4}{R}{G}",
-      "sortedManaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{G}{R}",
       "cmc": 6,
       "type": "Legendary Creature - Human Warrior",
       "text": "When Stangg enters the battlefield, create Stangg Twin, a legendary 3/4 red and green Human Warrior creature token. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield.",
@@ -6711,7 +6711,7 @@
     {
       "name": "Vindicate",
       "manaCost": "{1}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{B}{W}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy target permanent.",
@@ -6741,7 +6741,7 @@
     {
       "name": "Watchwolf",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Creature - Wolf",
       "flavor": "Only in Ravnica do the wolves watch the flock.",

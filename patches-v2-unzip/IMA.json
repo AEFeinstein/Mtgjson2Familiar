@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "masters",
-    "digest": "ce837d4a8bcf7a46c1ab2abaffd3bd44",
+    "digest": "68e3b69617140743c0be14f00ac76c0d",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IMA_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/IMA_M.png",
@@ -1359,7 +1359,7 @@
     {
       "name": "Condescend",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
@@ -2074,7 +2074,7 @@
     {
       "name": "Repeal",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Return target nonland permanent with mana value X to its owner's hand.<br>Draw a card.",
@@ -3800,7 +3800,7 @@
     {
       "name": "Fireball",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "This spell costs {1} more to cast for each target beyond the first.<br>Fireball deals X damage divided evenly, rounded down, among any number of targets.",
@@ -3948,7 +3948,7 @@
     {
       "name": "Heat Ray",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Heat Ray deals X damage to target creature.",
@@ -4838,7 +4838,7 @@
     {
       "name": "Genesis Hydra",
       "manaCost": "{X}{G}{G}",
-      "sortedManaCost": "{X}{G}{G}",
+      "sortedManaCost": "{G}{G}{X}",
       "cmc": 2,
       "type": "Creature - Plant Hydra",
       "text": "When you cast this spell, reveal the top X cards of your library. You may put a nonland permanent card with mana value X or less from among them onto the battlefield. Then shuffle the rest into your library.<br>Genesis Hydra enters the battlefield with X +1/+1 counters on it.",
@@ -4867,7 +4867,7 @@
     {
       "name": "Genesis Wave",
       "manaCost": "{X}{G}{G}{G}",
-      "sortedManaCost": "{X}{G}{G}{G}",
+      "sortedManaCost": "{G}{G}{G}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Reveal the top X cards of your library. You may put any number of permanent cards with mana value X or less from among them onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield into your graveyard.",
@@ -5045,7 +5045,7 @@
     {
       "name": "Ivy Elemental",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Creature - Elemental",
       "text": "Ivy Elemental enters the battlefield with X +1/+1 counters on it.",
@@ -5697,7 +5697,7 @@
     {
       "name": "Azorius Charm",
       "manaCost": "{W}{U}",
-      "sortedManaCost": "{W}{U}",
+      "sortedManaCost": "{U}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Creatures you control gain lifelink until end of turn.<br>• Draw a card.<br>• Put target attacking or blocking creature on top of its owner's library.",
@@ -5755,7 +5755,7 @@
     {
       "name": "Blizzard Specter",
       "manaCost": "{2}{U}{B}",
-      "sortedManaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{B}{U}",
       "cmc": 4,
       "type": "Snow Creature - Specter",
       "text": "Flying<br>Whenever Blizzard Specter deals combat damage to a player, choose one -<br>• That player returns a permanent they control to its owner's hand.<br>• That player discards a card.",
@@ -5784,7 +5784,7 @@
     {
       "name": "Blood Baron of Vizkopa",
       "manaCost": "{3}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{B}{W}",
       "cmc": 5,
       "type": "Creature - Vampire",
       "text": "Lifelink, protection from white and from black<br>As long as you have 30 or more life and an opponent has 10 or less life, Blood Baron of Vizkopa gets +6/+6 and has flying.",
@@ -5813,7 +5813,7 @@
     {
       "name": "Chronicler of Heroes",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Creature - Centaur Wizard",
       "text": "When Chronicler of Heroes enters the battlefield, draw a card if you control a creature with a +1/+1 counter on it.",
@@ -5873,7 +5873,7 @@
     {
       "name": "Electrolyze",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Electrolyze deals 2 damage divided as you choose among one or two targets.<br>Draw a card.",
@@ -5903,7 +5903,7 @@
     {
       "name": "Firemane Angel",
       "manaCost": "{3}{R}{W}{W}",
-      "sortedManaCost": "{3}{W}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}{W}",
       "cmc": 6,
       "type": "Creature - Angel",
       "text": "Flying, first strike<br>At the beginning of your upkeep, if Firemane Angel is in your graveyard or on the battlefield, you may gain 1 life.<br>{6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate only during your upkeep.",
@@ -5932,7 +5932,7 @@
     {
       "name": "Glimpse the Unthinkable",
       "manaCost": "{U}{B}",
-      "sortedManaCost": "{U}{B}",
+      "sortedManaCost": "{B}{U}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target player mills ten cards.",
@@ -5962,7 +5962,7 @@
     {
       "name": "Hypersonic Dragon",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Creature - Dragon",
       "text": "Flying, haste<br>You may cast sorcery spells as though they had flash. (You may cast them any time you could cast an instant.)",
@@ -5992,7 +5992,7 @@
     {
       "name": "Jungle Barrier",
       "manaCost": "{2}{G}{U}",
-      "sortedManaCost": "{2}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}",
       "cmc": 4,
       "type": "Creature - Plant Wall",
       "text": "Defender (This creature can't attack.)<br>When Jungle Barrier enters the battlefield, draw a card.",
@@ -6022,7 +6022,7 @@
     {
       "name": "Knight of the Reliquary",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Creature - Human Knight",
       "text": "Knight of the Reliquary gets +1/+1 for each land card in your graveyard.<br>{T}, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle.",
@@ -6052,7 +6052,7 @@
     {
       "name": "Lightning Helix",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Lightning Helix deals 3 damage to any target and you gain 3 life.",
@@ -6142,7 +6142,7 @@
     {
       "name": "Savageborn Hydra",
       "manaCost": "{X}{R}{G}",
-      "sortedManaCost": "{X}{R}{G}",
+      "sortedManaCost": "{G}{R}{X}",
       "cmc": 2,
       "type": "Creature - Hydra",
       "text": "Double strike<br>Savageborn Hydra enters the battlefield with X +1/+1 counters on it.<br>{1}{R/G}: Put a +1/+1 counter on Savageborn Hydra. Activate only as a sorcery.",
@@ -6171,7 +6171,7 @@
     {
       "name": "Simic Sky Swallower",
       "manaCost": "{5}{G}{U}",
-      "sortedManaCost": "{5}{U}{G}",
+      "sortedManaCost": "{5}{G}{U}",
       "cmc": 7,
       "type": "Creature - Leviathan",
       "text": "Flying, trample<br>Shroud (This creature can't be the target of spells or abilities.)",
@@ -6230,7 +6230,7 @@
     {
       "name": "Supreme Verdict",
       "manaCost": "{1}{W}{W}{U}",
-      "sortedManaCost": "{1}{W}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}{W}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "This spell can't be countered.<br>Destroy all creatures.",
@@ -6260,7 +6260,7 @@
     {
       "name": "Vizkopa Guildmage",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Creature - Human Wizard",
       "text": "{1}{W}{B}: Target creature gains lifelink until end of turn.<br>{1}{W}{B}: Whenever you gain life this turn, each opponent loses that much life.",

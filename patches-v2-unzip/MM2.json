@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "masters",
-    "digest": "892e4d19fcac587f374f8553bd6af566",
+    "digest": "2ab5160d464e10b19e945b169c2302ba",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MM2_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MM2_M.png",
@@ -1651,7 +1651,7 @@
     {
       "name": "Repeal",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Return target nonland permanent with mana value X to its owner's hand.<br>Draw a card.",
@@ -2245,7 +2245,7 @@
     {
       "name": "Death Denied",
       "manaCost": "{X}{B}{B}",
-      "sortedManaCost": "{X}{B}{B}",
+      "sortedManaCost": "{B}{B}{X}",
       "cmc": 2,
       "type": "Instant - Arcane",
       "text": "Return X target creature cards from your graveyard to your hand.",
@@ -2662,7 +2662,7 @@
     {
       "name": "Profane Command",
       "manaCost": "{X}{B}{B}",
-      "sortedManaCost": "{X}{B}{B}",
+      "sortedManaCost": "{B}{B}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Choose two -<br>• Target player loses X life.<br>• Return target creature card with mana value X or less from your graveyard to the battlefield.<br>• Target creature gets -X/-X until end of turn.<br>• Up to X target creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)",
@@ -3077,7 +3077,7 @@
     {
       "name": "Banefire",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Banefire deals X damage to any target.<br>If X is 5 or more, this spell can't be countered and the damage can't be prevented.",
@@ -3285,7 +3285,7 @@
     {
       "name": "Comet Storm",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)<br>Choose any target, then choose another target for each time this spell was kicked. Comet Storm deals X damage to each of them.",
@@ -4922,7 +4922,7 @@
     {
       "name": "Thrive",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Put a +1/+1 counter on each of X target creatures.",
@@ -5040,7 +5040,7 @@
     {
       "name": "Agony Warp",
       "manaCost": "{U}{B}",
-      "sortedManaCost": "{U}{B}",
+      "sortedManaCost": "{B}{U}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets -3/-0 until end of turn.<br>Target creature gets -0/-3 until end of turn.",
@@ -5070,7 +5070,7 @@
     {
       "name": "Apocalypse Hydra",
       "manaCost": "{X}{R}{G}",
-      "sortedManaCost": "{X}{R}{G}",
+      "sortedManaCost": "{G}{R}{X}",
       "cmc": 2,
       "type": "Creature - Hydra",
       "text": "Apocalypse Hydra enters the battlefield with X +1/+1 counters on it. If X is 5 or more, it enters the battlefield with an additional X +1/+1 counters on it.<br>{1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: It deals 1 damage to any target.",
@@ -5099,7 +5099,7 @@
     {
       "name": "Boros Swiftblade",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Creature - Human Soldier",
       "text": "Double strike",
@@ -5159,7 +5159,7 @@
     {
       "name": "Electrolyze",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Electrolyze deals 2 damage divided as you choose among one or two targets.<br>Draw a card.",
@@ -5189,7 +5189,7 @@
     {
       "name": "Ethercaste Knight",
       "manaCost": "{W}{U}",
-      "sortedManaCost": "{W}{U}",
+      "sortedManaCost": "{U}{W}",
       "cmc": 2,
       "type": "Artifact Creature - Human Knight",
       "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)",
@@ -5219,7 +5219,7 @@
     {
       "name": "Ghost Council of Orzhova",
       "manaCost": "{W}{W}{B}{B}",
-      "sortedManaCost": "{W}{W}{B}{B}",
+      "sortedManaCost": "{B}{B}{W}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Spirit",
       "text": "When Ghost Council of Orzhova enters the battlefield, target opponent loses 1 life and you gain 1 life.<br>{1}, Sacrifice a creature: Exile Ghost Council of Orzhova. Return it to the battlefield under its owner's control at the beginning of the next end step.",
@@ -5248,7 +5248,7 @@
     {
       "name": "Glassdust Hulk",
       "manaCost": "{3}{W}{U}",
-      "sortedManaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{U}{W}",
       "cmc": 5,
       "type": "Artifact Creature - Golem",
       "text": "Whenever another artifact enters the battlefield under your control, Glassdust Hulk gets +1/+1 until end of turn and can't be blocked this turn.<br>Cycling {W/U} ({W/U}, Discard this card: Draw a card.)",
@@ -5277,7 +5277,7 @@
     {
       "name": "Horde of Notions",
       "manaCost": "{W}{U}{B}{R}{G}",
-      "sortedManaCost": "{W}{U}{B}{R}{G}",
+      "sortedManaCost": "{B}{G}{R}{U}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Elemental",
       "text": "Vigilance, trample, haste<br>{W}{U}{B}{R}{G}: You may play target Elemental card from your graveyard without paying its mana cost.",
@@ -5307,7 +5307,7 @@
     {
       "name": "Lorescale Coatl",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Creature - Snake",
       "text": "Whenever you draw a card, put a +1/+1 counter on Lorescale Coatl.",
@@ -5337,7 +5337,7 @@
     {
       "name": "Mystic Snake",
       "manaCost": "{1}{G}{U}{U}",
-      "sortedManaCost": "{1}{U}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}{U}",
       "cmc": 4,
       "type": "Creature - Snake",
       "text": "Flash<br>When Mystic Snake enters the battlefield, counter target spell.",
@@ -5397,7 +5397,7 @@
     {
       "name": "Niv-Mizzet, the Firemind",
       "manaCost": "{2}{U}{U}{R}{R}",
-      "sortedManaCost": "{2}{U}{U}{R}{R}",
+      "sortedManaCost": "{2}{R}{R}{U}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon Wizard",
       "text": "Flying<br>Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.<br>{T}: Draw a card.",
@@ -5426,7 +5426,7 @@
     {
       "name": "Pillory of the Sleepless",
       "manaCost": "{1}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{B}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature can't attack or block.<br>Enchanted creature has \"At the beginning of your upkeep, you lose 1 life.\"",
@@ -5456,7 +5456,7 @@
     {
       "name": "Plaxcaster Frogling",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Creature - Frog Mutant",
       "text": "Graft 3 (This creature enters the battlefield with three +1/+1 counters on it. Whenever another creature enters the battlefield, you may move a +1/+1 counter from this creature onto it.)<br>{2}: Target creature with a +1/+1 counter on it gains shroud until end of turn. (It can't be the target of spells or abilities.)",
@@ -5485,7 +5485,7 @@
     {
       "name": "Savage Twister",
       "manaCost": "{X}{R}{G}",
-      "sortedManaCost": "{X}{R}{G}",
+      "sortedManaCost": "{G}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Savage Twister deals X damage to each creature.",
@@ -5515,7 +5515,7 @@
     {
       "name": "Shadowmage Infiltrator",
       "manaCost": "{1}{U}{B}",
-      "sortedManaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{B}{U}",
       "cmc": 3,
       "type": "Creature - Human Wizard",
       "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)<br>Whenever Shadowmage Infiltrator deals combat damage to a player, you may draw a card.",
@@ -5544,7 +5544,7 @@
     {
       "name": "Sigil Blessing",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Until end of turn, target creature you control gets +3/+3 and other creatures you control get +1/+1.",
@@ -5574,7 +5574,7 @@
     {
       "name": "Vengeful Rebirth",
       "manaCost": "{4}{R}{G}",
-      "sortedManaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{G}{R}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Return target card from your graveyard to your hand. If you return a nonland card to your hand this way, Vengeful Rebirth deals damage equal to that card's mana value to any target.<br>Exile Vengeful Rebirth.",

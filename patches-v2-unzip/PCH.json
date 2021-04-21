@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "planechase",
-    "digest": "3f7f09c19f2ec48894f937c77c72846d",
+    "digest": "ec9ad40e6443b490150e2294181b6808",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PCH_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/PCH_R.png",
@@ -1216,7 +1216,7 @@
     {
       "name": "Consume Spirit",
       "manaCost": "{X}{1}{B}",
-      "sortedManaCost": "{X}{1}{B}",
+      "sortedManaCost": "{1}{B}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Spend only black mana on X.<br>Consume Spirit deals X damage to any target and you gain X life.",
@@ -2234,7 +2234,7 @@
     {
       "name": "Profane Command",
       "manaCost": "{X}{B}{B}",
-      "sortedManaCost": "{X}{B}{B}",
+      "sortedManaCost": "{B}{B}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Choose two -<br>• Target player loses X life.<br>• Return target creature card with mana value X or less from your graveyard to the battlefield.<br>• Target creature gets -X/-X until end of turn.<br>• Up to X target creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)",
@@ -2577,7 +2577,7 @@
     {
       "name": "Blaze",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Blaze deals X damage to any target.",
@@ -2764,7 +2764,7 @@
     {
       "name": "Goblin Offensive",
       "manaCost": "{X}{1}{R}{R}",
-      "sortedManaCost": "{X}{1}{R}{R}",
+      "sortedManaCost": "{1}{R}{R}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Create X 1/1 red Goblin creature tokens.",
@@ -2929,7 +2929,7 @@
     {
       "name": "Rolling Thunder",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Rolling Thunder deals X damage divided as you choose among any number of targets.",
@@ -3136,7 +3136,7 @@
     {
       "name": "Ivy Elemental",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Creature - Elemental",
       "text": "Ivy Elemental enters the battlefield with X +1/+1 counters on it.",
@@ -3259,7 +3259,7 @@
     {
       "name": "Tribal Unity",
       "manaCost": "{X}{2}{G}",
-      "sortedManaCost": "{X}{2}{G}",
+      "sortedManaCost": "{2}{G}{X}",
       "cmc": 3,
       "type": "Instant",
       "text": "Creatures of the creature type of your choice get +X/+X until end of turn.",
@@ -3301,7 +3301,7 @@
     {
       "name": "Boros Swiftblade",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Creature - Human Soldier",
       "text": "Double strike",
@@ -3322,7 +3322,7 @@
     {
       "name": "Branching Bolt",
       "manaCost": "{1}{R}{G}",
-      "sortedManaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{G}{R}",
       "cmc": 3,
       "type": "Instant",
       "text": "Choose one or both -<br>• Branching Bolt deals 3 damage to target creature with flying.<br>• Branching Bolt deals 3 damage to target creature without flying.",
@@ -3343,7 +3343,7 @@
     {
       "name": "Bull Cerodon",
       "manaCost": "{4}{R}{W}",
-      "sortedManaCost": "{4}{W}{R}",
+      "sortedManaCost": "{4}{R}{W}",
       "cmc": 6,
       "type": "Creature - Beast",
       "text": "Vigilance, haste",
@@ -3364,7 +3364,7 @@
     {
       "name": "Captain's Maneuver",
       "manaCost": "{X}{R}{W}",
-      "sortedManaCost": "{X}{W}{R}",
+      "sortedManaCost": "{R}{W}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "The next X damage that would be dealt to target creature, planeswalker, or player this turn is dealt to another target creature, planeswalker, or player instead.",
@@ -3385,7 +3385,7 @@
     {
       "name": "Cerodon Yearling",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Creature - Beast",
       "text": "Vigilance, haste",
@@ -3406,7 +3406,7 @@
     {
       "name": "Fires of Yavimaya",
       "manaCost": "{1}{R}{G}",
-      "sortedManaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{G}{R}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Creatures you control have haste.<br>Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.",
@@ -3426,7 +3426,7 @@
     {
       "name": "Glory of Warfare",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Enchantment",
       "text": "As long as it's your turn, creatures you control get +2/+0.<br>As long as it's not your turn, creatures you control get +0/+2.",
@@ -3447,7 +3447,7 @@
     {
       "name": "Hull Breach",
       "manaCost": "{R}{G}",
-      "sortedManaCost": "{R}{G}",
+      "sortedManaCost": "{G}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Choose one -<br>• Destroy target artifact.<br>• Destroy target enchantment.<br>• Destroy target artifact and target enchantment.",
@@ -3468,7 +3468,7 @@
     {
       "name": "Lightning Helix",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Lightning Helix deals 3 damage to any target and you gain 3 life.",
@@ -3489,7 +3489,7 @@
     {
       "name": "Mage Slayer",
       "manaCost": "{1}{R}{G}",
-      "sortedManaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{G}{R}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "Whenever equipped creature attacks, it deals damage equal to its power to the player or planeswalker it's attacking.<br>Equip {3}",
@@ -3510,7 +3510,7 @@
     {
       "name": "Razia, Boros Archangel",
       "manaCost": "{4}{R}{R}{W}{W}",
-      "sortedManaCost": "{4}{W}{W}{R}{R}",
+      "sortedManaCost": "{4}{R}{R}{W}{W}",
       "cmc": 8,
       "type": "Legendary Creature - Angel",
       "text": "Flying, vigilance, haste<br>{T}: The next 3 damage that would be dealt to target creature you control this turn is dealt to another target creature instead.",
@@ -3531,7 +3531,7 @@
     {
       "name": "Rumbling Slum",
       "manaCost": "{1}{R}{G}{G}",
-      "sortedManaCost": "{1}{R}{G}{G}",
+      "sortedManaCost": "{1}{G}{G}{R}",
       "cmc": 4,
       "type": "Creature - Elemental",
       "text": "At the beginning of your upkeep, Rumbling Slum deals 1 damage to each player.",
@@ -3552,7 +3552,7 @@
     {
       "name": "Savage Twister",
       "manaCost": "{X}{R}{G}",
-      "sortedManaCost": "{X}{R}{G}",
+      "sortedManaCost": "{G}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Savage Twister deals X damage to each creature.",
@@ -3573,7 +3573,7 @@
     {
       "name": "Sludge Strider",
       "manaCost": "{1}{W}{U}{B}",
-      "sortedManaCost": "{1}{W}{U}{B}",
+      "sortedManaCost": "{1}{B}{U}{W}",
       "cmc": 4,
       "type": "Artifact Creature - Insect",
       "text": "Whenever another artifact enters the battlefield under your control or another artifact you control leaves the battlefield, you may pay {1}. If you do, target player loses 1 life and you gain 1 life.",

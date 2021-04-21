@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "commander",
-    "digest": "e1d4647661fd29e9b7cb88a646933d7e",
+    "digest": "0e387652c5e3579a522ddf08cf4cad5f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMD_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMD_M.png",
@@ -2516,7 +2516,7 @@
     {
       "name": "Skyscribing",
       "manaCost": "{X}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}",
+      "sortedManaCost": "{U}{U}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Each player draws X cards.<br>Forecast - {2}{U}, Reveal Skyscribing from your hand: Each player draws a card. (Activate only during your upkeep and only once each turn.)",
@@ -4840,7 +4840,7 @@
     {
       "name": "Comet Storm",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)<br>Choose any target, then choose another target for each time this spell was kicked. Comet Storm deals X damage to each of them.",
@@ -5005,7 +5005,7 @@
     {
       "name": "Earthquake",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Earthquake deals X damage to each creature without flying and each player.",
@@ -7459,7 +7459,7 @@
     {
       "name": "Angel of Despair",
       "manaCost": "{3}{W}{W}{B}{B}",
-      "sortedManaCost": "{3}{W}{W}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{W}{W}",
       "cmc": 7,
       "type": "Creature - Angel",
       "text": "Flying<br>When Angel of Despair enters the battlefield, destroy target permanent.",
@@ -7501,7 +7501,7 @@
     {
       "name": "Animar, Soul of Elements",
       "manaCost": "{G}{U}{R}",
-      "sortedManaCost": "{U}{R}{G}",
+      "sortedManaCost": "{G}{R}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Elemental",
       "text": "Protection from white and from black<br>Whenever you cast a creature spell, put a +1/+1 counter on Animar, Soul of Elements.<br>Creature spells you cast cost {1} less to cast for each +1/+1 counter on Animar.",
@@ -7542,7 +7542,7 @@
     {
       "name": "Aura Shards",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "Whenever a creature enters the battlefield under your control, you may destroy target artifact or enchantment.",
@@ -7625,7 +7625,7 @@
     {
       "name": "Basandra, Battle Seraph",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Angel",
       "text": "Flying<br>Players can't cast spells during combat.<br>{R}: Target creature attacks this turn if able.",
@@ -7749,7 +7749,7 @@
     {
       "name": "Brion Stoutarm",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Giant Warrior",
       "text": "Lifelink<br>{R}, {T}, Sacrifice another creature: Brion Stoutarm deals damage equal to the sacrificed creature's power to target player or planeswalker.",
@@ -7832,7 +7832,7 @@
     {
       "name": "Chorus of the Conclave",
       "manaCost": "{4}{G}{G}{W}{W}",
-      "sortedManaCost": "{4}{W}{W}{G}{G}",
+      "sortedManaCost": "{4}{G}{G}{W}{W}",
       "cmc": 8,
       "type": "Legendary Creature - Dryad",
       "text": "Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)<br>As an additional cost to cast creature spells, you may pay any amount of mana. If you do, that creature enters the battlefield with that many additional +1/+1 counters on it.",
@@ -7874,7 +7874,7 @@
     {
       "name": "Colossal Might",
       "manaCost": "{R}{G}",
-      "sortedManaCost": "{R}{G}",
+      "sortedManaCost": "{G}{R}",
       "cmc": 2,
       "type": "Instant",
       "text": "Target creature gets +4/+2 and gains trample until end of turn.",
@@ -7916,7 +7916,7 @@
     {
       "name": "Damia, Sage of Stone",
       "manaCost": "{4}{B}{G}{U}",
-      "sortedManaCost": "{4}{U}{B}{G}",
+      "sortedManaCost": "{4}{B}{G}{U}",
       "cmc": 7,
       "type": "Legendary Creature - Gorgon Wizard",
       "text": "Deathtouch<br>Skip your draw step.<br>At the beginning of your upkeep, if you have fewer than seven cards in hand, draw cards equal to the difference.",
@@ -8124,7 +8124,7 @@
     {
       "name": "Edric, Spymaster of Trest",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Elf Rogue",
       "text": "Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.",
@@ -8166,7 +8166,7 @@
     {
       "name": "Electrolyze",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "Electrolyze deals 2 damage divided as you choose among one or two targets.<br>Draw a card.",
@@ -8331,7 +8331,7 @@
     {
       "name": "Ghave, Guru of Spores",
       "manaCost": "{2}{W}{B}{G}",
-      "sortedManaCost": "{2}{W}{B}{G}",
+      "sortedManaCost": "{2}{B}{G}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Fungus Shaman",
       "text": "Ghave, Guru of Spores enters the battlefield with five +1/+1 counters on it.<br>{1}, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.<br>{1}, Sacrifice a creature: Put a +1/+1 counter on target creature.",
@@ -8454,7 +8454,7 @@
     {
       "name": "Hull Breach",
       "manaCost": "{R}{G}",
-      "sortedManaCost": "{R}{G}",
+      "sortedManaCost": "{G}{R}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Choose one -<br>• Destroy target artifact.<br>• Destroy target enchantment.<br>• Destroy target artifact and target enchantment.",
@@ -8496,7 +8496,7 @@
     {
       "name": "Intet, the Dreamer",
       "manaCost": "{3}{G}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}{G}",
+      "sortedManaCost": "{3}{G}{R}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Intet, the Dreamer deals combat damage to a player, you may pay {2}{U}. If you do, exile the top card of your library face down. You may look at that card for as long as it remains exiled. You may play that card without paying its mana cost for as long as Intet remains on the battlefield.",
@@ -8537,7 +8537,7 @@
     {
       "name": "Izzet Chronarch",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Creature - Human Wizard",
       "text": "When Izzet Chronarch enters the battlefield, return target instant or sorcery card from your graveyard to your hand.",
@@ -8579,7 +8579,7 @@
     {
       "name": "Kaalia of the Vast",
       "manaCost": "{1}{R}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}{R}",
+      "sortedManaCost": "{1}{B}{R}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Human Cleric",
       "text": "Flying<br>Whenever Kaalia of the Vast attacks an opponent, you may put an Angel, Demon, or Dragon creature card from your hand onto the battlefield tapped and attacking that opponent.",
@@ -8621,7 +8621,7 @@
     {
       "name": "Karador, Ghost Chieftain",
       "manaCost": "{5}{W}{B}{G}",
-      "sortedManaCost": "{5}{W}{B}{G}",
+      "sortedManaCost": "{5}{B}{G}{W}",
       "cmc": 8,
       "type": "Legendary Creature - Centaur Spirit",
       "text": "This spell costs {1} less to cast for each creature card in your graveyard.<br>During each of your turns, you may cast a creature spell from your graveyard.",
@@ -8746,7 +8746,7 @@
     {
       "name": "The Mimeoplasm",
       "manaCost": "{2}{B}{G}{U}",
-      "sortedManaCost": "{2}{U}{B}{G}",
+      "sortedManaCost": "{2}{B}{G}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Ooze",
       "text": "As The Mimeoplasm enters the battlefield, you may exile two creature cards from graveyards. If you do, it enters the battlefield as a copy of one of those cards with a number of additional +1/+1 counters on it equal to the power of the other card.",
@@ -8787,7 +8787,7 @@
     {
       "name": "Mortify",
       "manaCost": "{1}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{B}{W}",
       "cmc": 3,
       "type": "Instant",
       "text": "Destroy target creature or enchantment.",
@@ -8871,7 +8871,7 @@
     {
       "name": "Nin, the Pain Artist",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Legendary Creature - Vedalken Wizard",
       "text": "{X}{U}{R}, {T}: Nin, the Pain Artist deals X damage to target creature. That creature's controller draws X cards.",
@@ -8955,7 +8955,7 @@
     {
       "name": "Numot, the Devastator",
       "manaCost": "{3}{U}{R}{W}",
-      "sortedManaCost": "{3}{W}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Numot, the Devastator deals combat damage to a player, you may pay {2}{R}. If you do, destroy up to two target lands.",
@@ -8996,7 +8996,7 @@
     {
       "name": "Oros, the Avenger",
       "manaCost": "{3}{R}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}{R}",
+      "sortedManaCost": "{3}{B}{R}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Oros, the Avenger deals combat damage to a player, you may pay {2}{W}. If you do, Oros deals 3 damage to each nonwhite creature.",
@@ -9120,7 +9120,7 @@
     {
       "name": "Prophetic Bolt",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "Prophetic Bolt deals 4 damage to any target. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.",
@@ -9161,7 +9161,7 @@
     {
       "name": "Riku of Two Reflections",
       "manaCost": "{2}{G}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}{G}",
+      "sortedManaCost": "{2}{G}{R}{U}",
       "cmc": 5,
       "type": "Legendary Creature - Human Wizard",
       "text": "Whenever you cast an instant or sorcery spell, you may pay {U}{R}. If you do, copy that spell. You may choose new targets for the copy.<br>Whenever another nontoken creature enters the battlefield under your control, you may pay {G}{U}. If you do, create a token that's a copy of that creature.",
@@ -9202,7 +9202,7 @@
     {
       "name": "Ruhan of the Fomori",
       "manaCost": "{1}{U}{R}{W}",
-      "sortedManaCost": "{1}{W}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Giant Warrior",
       "text": "At the beginning of combat on your turn, choose an opponent at random. Ruhan of the Fomori attacks that player this combat if able.",
@@ -9244,7 +9244,7 @@
     {
       "name": "Savage Twister",
       "manaCost": "{X}{R}{G}",
-      "sortedManaCost": "{X}{R}{G}",
+      "sortedManaCost": "{G}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Savage Twister deals X damage to each creature.",
@@ -9286,7 +9286,7 @@
     {
       "name": "Selesnya Evangel",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Creature - Elf Shaman",
       "text": "{1}, {T}, Tap an untapped creature you control: Create a 1/1 green Saproling creature token.",
@@ -9369,7 +9369,7 @@
     {
       "name": "Sigil Captain",
       "manaCost": "{1}{G}{W}{W}",
-      "sortedManaCost": "{1}{W}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}{W}",
       "cmc": 4,
       "type": "Creature - Rhino Soldier",
       "text": "Whenever a creature enters the battlefield under your control, if that creature is 1/1, put two +1/+1 counters on it.",
@@ -9411,7 +9411,7 @@
     {
       "name": "Simic Sky Swallower",
       "manaCost": "{5}{G}{U}",
-      "sortedManaCost": "{5}{U}{G}",
+      "sortedManaCost": "{5}{G}{U}",
       "cmc": 7,
       "type": "Creature - Leviathan",
       "text": "Flying, trample<br>Shroud (This creature can't be the target of spells or abilities.)",
@@ -9494,7 +9494,7 @@
     {
       "name": "Szadek, Lord of Secrets",
       "manaCost": "{3}{U}{U}{B}{B}",
-      "sortedManaCost": "{3}{U}{U}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{U}{U}",
       "cmc": 7,
       "type": "Legendary Creature - Vampire",
       "text": "Flying<br>If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player mills that many cards.",
@@ -9535,7 +9535,7 @@
     {
       "name": "Tariel, Reckoner of Souls",
       "manaCost": "{4}{R}{W}{B}",
-      "sortedManaCost": "{4}{W}{B}{R}",
+      "sortedManaCost": "{4}{B}{R}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Angel",
       "text": "Flying, vigilance<br>{T}: Choose a creature card at random from target opponent's graveyard. Put that card onto the battlefield under your control.",
@@ -9577,7 +9577,7 @@
     {
       "name": "Teneb, the Harvester",
       "manaCost": "{3}{W}{B}{G}",
-      "sortedManaCost": "{3}{W}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}{W}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Teneb, the Harvester deals combat damage to a player, you may pay {2}{B}. If you do, put target creature card from a graveyard onto the battlefield under your control.",
@@ -9660,7 +9660,7 @@
     {
       "name": "Valley Rannet",
       "manaCost": "{4}{R}{G}",
-      "sortedManaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{G}{R}",
       "cmc": 6,
       "type": "Creature - Beast",
       "text": "Mountaincycling {2}, forestcycling {2} ({2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, put it into your hand, then shuffle.)",
@@ -9701,7 +9701,7 @@
     {
       "name": "Vengeful Rebirth",
       "manaCost": "{4}{R}{G}",
-      "sortedManaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{G}{R}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Return target card from your graveyard to your hand. If you return a nonland card to your hand this way, Vengeful Rebirth deals damage equal to that card's mana value to any target.<br>Exile Vengeful Rebirth.",
@@ -9742,7 +9742,7 @@
     {
       "name": "Vish Kal, Blood Arbiter",
       "manaCost": "{4}{W}{B}{B}",
-      "sortedManaCost": "{4}{W}{B}{B}",
+      "sortedManaCost": "{4}{B}{B}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Vampire",
       "text": "Flying, lifelink<br>Sacrifice a creature: Put X +1/+1 counters on Vish Kal, Blood Arbiter, where X is the sacrificed creature's power.<br>Remove all +1/+1 counters from Vish Kal: Target creature gets -1/-1 until end of turn for each +1/+1 counter removed this way.",
@@ -9783,7 +9783,7 @@
     {
       "name": "Vorosh, the Hunter",
       "manaCost": "{3}{B}{G}{U}",
-      "sortedManaCost": "{3}{U}{B}{G}",
+      "sortedManaCost": "{3}{B}{G}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Dragon",
       "text": "Flying<br>Whenever Vorosh, the Hunter deals combat damage to a player, you may pay {2}{G}. If you do, put six +1/+1 counters on Vorosh.",
@@ -9866,7 +9866,7 @@
     {
       "name": "Wall of Denial",
       "manaCost": "{1}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}",
       "cmc": 3,
       "type": "Creature - Wall",
       "text": "Defender, flying<br>Shroud (This creature can't be the target of spells or abilities.)",
@@ -9950,7 +9950,7 @@
     {
       "name": "Wrexial, the Risen Deep",
       "manaCost": "{3}{U}{U}{B}",
-      "sortedManaCost": "{3}{U}{U}{B}",
+      "sortedManaCost": "{3}{B}{U}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Kraken",
       "text": "Islandwalk, swampwalk (This creature can't be blocked as long as defending player controls an Island or a Swamp.)<br>Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard this turn, exile it instead.",
@@ -9991,7 +9991,7 @@
     {
       "name": "Zedruu the Greathearted",
       "manaCost": "{1}{U}{R}{W}",
-      "sortedManaCost": "{1}{W}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Minotaur Monk",
       "text": "At the beginning of your upkeep, you gain X life and draw X cards, where X is the number of permanents you own that your opponents control.<br>{U}{R}{W}: Target opponent gains control of target permanent you control.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "10364401250c5d48ca60c0ebd219378a",
+    "digest": "11b097632f10ce487ad459db1d4c722f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SH_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SH_R.png",
@@ -890,7 +890,7 @@
     {
       "name": "Temper",
       "manaCost": "{X}{1}{W}",
-      "sortedManaCost": "{X}{1}{W}",
+      "sortedManaCost": "{1}{W}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Prevent the next X damage that would be dealt to target creature this turn. For each 1 damage prevented this way, put a +1/+1 counter on that creature.",
@@ -3634,7 +3634,7 @@
     {
       "name": "Fanning the Flames",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)<br>Fanning the Flames deals X damage to any target.",
@@ -5782,7 +5782,7 @@
     {
       "name": "Crystalline Sliver",
       "manaCost": "{W}{U}",
-      "sortedManaCost": "{W}{U}",
+      "sortedManaCost": "{U}{W}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "All Slivers have shroud. (They can't be the targets of spells or abilities.)",
@@ -5828,7 +5828,7 @@
     {
       "name": "Hibernation Sliver",
       "manaCost": "{U}{B}",
-      "sortedManaCost": "{U}{B}",
+      "sortedManaCost": "{B}{U}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "All Slivers have \"Pay 2 life: Return this permanent to its owner's hand.\"",
@@ -5874,7 +5874,7 @@
     {
       "name": "Sliver Queen",
       "manaCost": "{W}{U}{B}{R}{G}",
-      "sortedManaCost": "{W}{U}{B}{R}{G}",
+      "sortedManaCost": "{B}{G}{R}{U}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Sliver",
       "text": "{2}: Create a 1/1 colorless Sliver creature token.",
@@ -5920,7 +5920,7 @@
     {
       "name": "Spined Sliver",
       "manaCost": "{R}{G}",
-      "sortedManaCost": "{R}{G}",
+      "sortedManaCost": "{G}{R}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "Whenever a Sliver becomes blocked, that Sliver gets +1/+1 until end of turn for each creature blocking it.",
@@ -5966,7 +5966,7 @@
     {
       "name": "Victual Sliver",
       "manaCost": "{G}{W}",
-      "sortedManaCost": "{W}{G}",
+      "sortedManaCost": "{G}{W}",
       "cmc": 2,
       "type": "Creature - Sliver",
       "text": "All Slivers have \"{2}, Sacrifice this permanent: You gain 4 life.\"",

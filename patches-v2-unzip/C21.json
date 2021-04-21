@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "commander",
-    "digest": "870d74373ee28bd7cecf3da9a6f7a611",
+    "digest": "68badf08fb55a31792dfad626ba77679",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C21_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C21_M.png",
@@ -22,7 +22,7 @@
     {
       "name": "Breena, the Demagogue",
       "manaCost": "{1}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{B}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Bird Warlock",
       "text": "Flying<br>Whenever a player attacks one of your opponents, if that opponent has more life than another of your opponents, that attacking player draws a card and you put two +1/+1 counters on a creature you control.",
@@ -80,7 +80,7 @@
     {
       "name": "Felisa, Fang of Silverquill",
       "manaCost": "{2}{W}{B}",
-      "sortedManaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{B}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Vampire Wizard",
       "text": "Flying<br>Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)<br>Whenever a nontoken creature you control dies, if it had counters on it, create X tapped 2/1 white and black Inkling creature tokens with flying, where X is the number of counters it had on it.",
@@ -138,7 +138,7 @@
     {
       "name": "Veyran, Voice of Duality",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Efreet Wizard",
       "text": "Magecraft - Whenever you cast or copy an instant or sorcery spell, Veyran, Voice of Duality gets +1/+1 until end of turn.<br>If you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
@@ -196,7 +196,7 @@
     {
       "name": "Zaffai, Thunder Conductor",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Shaman",
       "text": "Magecraft - Whenever you cast or copy an instant or sorcery spell, scry 1. If that spell's mana value is 5 or greater, create a 4/4 blue and red Elemental creature token. If that spell's mana value is 10 or greater, Zaffai, Thunder Conductor deals 10 damage to an opponent chosen at random.",
@@ -370,7 +370,7 @@
     {
       "name": "Alibou, Ancient Witness",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Legendary Artifact Creature - Golem",
       "text": "Other artifact creatures you control have haste.<br>Whenever one or more artifact creatures you control attack, Alibou, Ancient Witness deals X damage to any target and you scry X, where X is the number of tapped artifacts you control.",
@@ -428,7 +428,7 @@
     {
       "name": "Osgir, the Reconstructor",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Giant Artificer",
       "text": "Vigilance<br>{1}, Sacrifice an artifact: Target creature you control gets +2/+0 until end of turn.<br>{X}, {T}, Exile an artifact card with mana value X from your graveyard: Create two tokens that are copies of the exiled card. Activate only as a sorcery.",
@@ -486,7 +486,7 @@
     {
       "name": "Adrix and Nev, Twincasters",
       "manaCost": "{2}{G}{U}",
-      "sortedManaCost": "{2}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Merfolk Wizard",
       "text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)<br>If one or more tokens would be created under your control, twice that many of those tokens are created instead.",
@@ -544,7 +544,7 @@
     {
       "name": "Esix, Fractal Bloom",
       "manaCost": "{4}{G}{U}",
-      "sortedManaCost": "{4}{U}{G}",
+      "sortedManaCost": "{4}{G}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Fractal",
       "text": "Flying<br>The first time you would create one or more tokens during each of your turns, you may instead choose a creature other than Esix, Fractal Bloom and create that many tokens that are copies of that creature.",
@@ -1291,7 +1291,7 @@
     {
       "name": "Commander's Insight",
       "manaCost": "{X}{U}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}{U}",
+      "sortedManaCost": "{U}{U}{U}{X}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target player draws X cards plus an additional card for each time they've cast a commander from the command zone this game.",
@@ -1578,7 +1578,7 @@
     {
       "name": "Muse Vortex",
       "manaCost": "{X}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}",
+      "sortedManaCost": "{U}{U}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile the top X cards of your library. You may cast an instant or sorcery spell with mana value X or less from among them without paying its mana cost. Then put the exiled instant and sorcery cards that weren't cast this way into your hand and the rest on the bottom of your library in a random order.",
@@ -3474,7 +3474,7 @@
     {
       "name": "Fractal Harness",
       "manaCost": "{X}{2}{G}",
-      "sortedManaCost": "{X}{2}{G}",
+      "sortedManaCost": "{2}{G}{X}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "When Fractal Harness enters the battlefield, create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it and attach Fractal Harness to it.<br>Whenever equipped creature attacks, double the number of +1/+1 counters on it.<br>Equip {2}",
@@ -3705,7 +3705,7 @@
     {
       "name": "Pest Infestation",
       "manaCost": "{X}{X}{G}",
-      "sortedManaCost": "{X}{X}{G}",
+      "sortedManaCost": "{G}{X}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Destroy up to X target artifacts and/or enchantments. Create twice X 1/1 black and green Pest creature tokens with \"When this creature dies, you gain 1 life.\"",
@@ -4053,7 +4053,7 @@
     {
       "name": "Inkshield",
       "manaCost": "{3}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{B}{W}",
       "cmc": 5,
       "type": "Instant",
       "text": "Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.",
@@ -4112,7 +4112,7 @@
     {
       "name": "Oversimplify",
       "manaCost": "{3}{G}{U}",
-      "sortedManaCost": "{3}{U}{G}",
+      "sortedManaCost": "{3}{G}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Exile all creatures. Each player creates a 0/0 green and blue Fractal creature token and puts a number of +1/+1 counters on it equal to the total power of creatures they controlled that were exiled this way.",
@@ -4171,7 +4171,7 @@
     {
       "name": "Reinterpret",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Counter target spell. You may cast a spell with an equal or lesser mana value from your hand without paying its mana cost.",
@@ -4289,7 +4289,7 @@
     {
       "name": "Wake the Past",
       "manaCost": "{5}{R}{W}",
-      "sortedManaCost": "{5}{W}{R}",
+      "sortedManaCost": "{5}{R}{W}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Return all artifact cards from your graveyard to the battlefield. They gain haste until end of turn.",
@@ -6765,7 +6765,7 @@
     {
       "name": "Curse of the Swine",
       "manaCost": "{X}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}",
+      "sortedManaCost": "{U}{U}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile X target creatures. For each creature exiled this way, its controller creates a 2/2 green Boar creature token.",
@@ -7974,7 +7974,7 @@
     {
       "name": "Damnable Pact",
       "manaCost": "{X}{B}{B}",
-      "sortedManaCost": "{X}{B}{B}",
+      "sortedManaCost": "{B}{B}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Target player draws X cards and loses X life.",
@@ -8896,7 +8896,7 @@
     {
       "name": "Suffer the Past",
       "manaCost": "{X}{B}",
-      "sortedManaCost": "{X}{B}",
+      "sortedManaCost": "{B}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Exile X target cards from target player's graveyard. For each card exiled this way, that player loses 1 life and you gain 1 life.",
@@ -12006,7 +12006,7 @@
     {
       "name": "Biomass Mutation",
       "manaCost": "{X}{GU}{GU}",
-      "sortedManaCost": "{X}{GU}{GU}",
+      "sortedManaCost": "{GU}{GU}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Creatures you control have base power and toughness X/X until end of turn.",
@@ -12064,7 +12064,7 @@
     {
       "name": "Boros Charm",
       "manaCost": "{R}{W}",
-      "sortedManaCost": "{W}{R}",
+      "sortedManaCost": "{R}{W}",
       "cmc": 2,
       "type": "Instant",
       "text": "Choose one -<br>• Boros Charm deals 4 damage to target player or planeswalker.<br>• Permanents you control gain indestructible until end of turn.<br>• Target creature gains double strike until end of turn.",
@@ -12179,7 +12179,7 @@
     {
       "name": "Coiling Oracle",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Creature - Snake Elf Druid",
       "text": "When Coiling Oracle enters the battlefield, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.",
@@ -12237,7 +12237,7 @@
     {
       "name": "Crackling Drake",
       "manaCost": "{U}{U}{R}{R}",
-      "sortedManaCost": "{U}{U}{R}{R}",
+      "sortedManaCost": "{R}{R}{U}{U}",
       "cmc": 4,
       "type": "Creature - Drake",
       "text": "Flying<br>Crackling Drake's power is equal to the total number of instant and sorcery cards you own in exile and in your graveyard.<br>When Crackling Drake enters the battlefield, draw a card.",
@@ -12409,7 +12409,7 @@
     {
       "name": "Epic Experiment",
       "manaCost": "{X}{U}{R}",
-      "sortedManaCost": "{X}{U}{R}",
+      "sortedManaCost": "{R}{U}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile the top X cards of your library. You may cast instant and sorcery spells with mana value X or less from among them without paying their mana costs. Then put all cards exiled this way that weren't cast into your graveyard.",
@@ -12466,7 +12466,7 @@
     {
       "name": "Gaze of Granite",
       "manaCost": "{X}{B}{B}{G}",
-      "sortedManaCost": "{X}{B}{B}{G}",
+      "sortedManaCost": "{B}{B}{G}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Destroy each nonland permanent with mana value X or less.",
@@ -12601,7 +12601,7 @@
     {
       "name": "Incongruity",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Exile target creature. That creature's controller creates a 3/3 green Frog Lizard creature token.",
@@ -12621,7 +12621,7 @@
     {
       "name": "Jor Kadeen, the Prevailer",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Human Warrior",
       "text": "First strike<br>Metalcraft - Creatures you control get +3/+0 as long as you control three or more artifacts.",
@@ -12679,7 +12679,7 @@
     {
       "name": "Kaseto, Orochi Archmage",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Snake Wizard",
       "text": "{G}{U}: Target creature can't be blocked this turn. If that creature is a Snake, it gets +2/+2 until end of turn.",
@@ -12795,7 +12795,7 @@
     {
       "name": "Magister of Worth",
       "manaCost": "{4}{W}{B}",
-      "sortedManaCost": "{4}{W}{B}",
+      "sortedManaCost": "{4}{B}{W}",
       "cmc": 6,
       "type": "Creature - Angel",
       "text": "Flying<br>Will of the council - When Magister of Worth enters the battlefield, starting with you, each player votes for grace or condemnation. If grace gets more votes, each player returns each creature card from their graveyard to the battlefield. If condemnation gets more votes or the vote is tied, destroy all creatures other than Magister of Worth.",
@@ -12852,7 +12852,7 @@
     {
       "name": "Master Biomancer",
       "manaCost": "{2}{G}{U}",
-      "sortedManaCost": "{2}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}",
       "cmc": 4,
       "type": "Creature - Elf Wizard",
       "text": "Each other creature you control enters the battlefield with a number of additional +1/+1 counters on it equal to Master Biomancer's power and as a Mutant in addition to its other types.",
@@ -12968,7 +12968,7 @@
     {
       "name": "Plaxcaster Frogling",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Creature - Frog Mutant",
       "text": "Graft 3 (This creature enters the battlefield with three +1/+1 counters on it. Whenever another creature enters the battlefield, you may move a +1/+1 counter from this creature onto it.)<br>{2}: Target creature with a +1/+1 counter on it gains shroud until end of turn. (It can't be the target of spells or abilities.)",
@@ -13025,7 +13025,7 @@
     {
       "name": "Primal Empathy",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Enchantment",
       "text": "At the beginning of your upkeep, draw a card if you control a creature with the greatest power among creatures on the battlefield. Otherwise, put a +1/+1 counter on a creature you control.",
@@ -13199,7 +13199,7 @@
     {
       "name": "Teysa, Envoy of Ghosts",
       "manaCost": "{5}{W}{B}",
-      "sortedManaCost": "{5}{W}{B}",
+      "sortedManaCost": "{5}{B}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Human Advisor",
       "text": "Vigilance, protection from creatures<br>Whenever a creature deals combat damage to you, destroy that creature. Create a 1/1 white and black Spirit creature token with flying.",
@@ -13256,7 +13256,7 @@
     {
       "name": "Trygon Predator",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Creature - Beast",
       "text": "Flying<br>Whenever Trygon Predator deals combat damage to a player, you may destroy target artifact or enchantment that player controls.",
@@ -13314,7 +13314,7 @@
     {
       "name": "Utter End",
       "manaCost": "{2}{W}{B}",
-      "sortedManaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{B}{W}",
       "cmc": 4,
       "type": "Instant",
       "text": "Exile target nonland permanent.",
@@ -18734,7 +18734,7 @@
     {
       "name": "Breena, the Demagogue",
       "manaCost": "{1}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{B}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Bird Warlock",
       "text": "Flying<br>Whenever a player attacks one of your opponents, if that opponent has more life than another of your opponents, that attacking player draws a card and you put two +1/+1 counters on a creature you control.",
@@ -18776,7 +18776,7 @@
     {
       "name": "Felisa, Fang of Silverquill",
       "manaCost": "{2}{W}{B}",
-      "sortedManaCost": "{2}{W}{B}",
+      "sortedManaCost": "{2}{B}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Vampire Wizard",
       "text": "Flying<br>Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)<br>Whenever a nontoken creature you control dies, if it had counters on it, create X tapped 2/1 white and black Inkling creature tokens with flying, where X is the number of counters it had on it.",
@@ -18818,7 +18818,7 @@
     {
       "name": "Veyran, Voice of Duality",
       "manaCost": "{1}{U}{R}",
-      "sortedManaCost": "{1}{U}{R}",
+      "sortedManaCost": "{1}{R}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Efreet Wizard",
       "text": "Magecraft - Whenever you cast or copy an instant or sorcery spell, Veyran, Voice of Duality gets +1/+1 until end of turn.<br>If you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
@@ -18859,7 +18859,7 @@
     {
       "name": "Zaffai, Thunder Conductor",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Human Shaman",
       "text": "Magecraft - Whenever you cast or copy an instant or sorcery spell, scry 1. If that spell's mana value is 5 or greater, create a 4/4 blue and red Elemental creature token. If that spell's mana value is 10 or greater, Zaffai, Thunder Conductor deals 10 damage to an opponent chosen at random.",
@@ -18984,7 +18984,7 @@
     {
       "name": "Alibou, Ancient Witness",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Legendary Artifact Creature - Golem",
       "text": "Other artifact creatures you control have haste.<br>Whenever one or more artifact creatures you control attack, Alibou, Ancient Witness deals X damage to any target and you scry X, where X is the number of tapped artifacts you control.",
@@ -19025,7 +19025,7 @@
     {
       "name": "Osgir, the Reconstructor",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Giant Artificer",
       "text": "Vigilance<br>{1}, Sacrifice an artifact: Target creature you control gets +2/+0 until end of turn.<br>{X}, {T}, Exile an artifact card with mana value X from your graveyard: Create two tokens that are copies of the exiled card. Activate only as a sorcery.",
@@ -19067,7 +19067,7 @@
     {
       "name": "Adrix and Nev, Twincasters",
       "manaCost": "{2}{G}{U}",
-      "sortedManaCost": "{2}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Merfolk Wizard",
       "text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)<br>If one or more tokens would be created under your control, twice that many of those tokens are created instead.",
@@ -19109,7 +19109,7 @@
     {
       "name": "Esix, Fractal Bloom",
       "manaCost": "{4}{G}{U}",
-      "sortedManaCost": "{4}{U}{G}",
+      "sortedManaCost": "{4}{G}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Fractal",
       "text": "Flying<br>The first time you would create one or more tokens during each of your turns, you may instead choose a creature other than Esix, Fractal Bloom and create that many tokens that are copies of that creature.",
@@ -19644,7 +19644,7 @@
     {
       "name": "Commander's Insight",
       "manaCost": "{X}{U}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}{U}",
+      "sortedManaCost": "{U}{U}{U}{X}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target player draws X cards plus an additional card for each time they've cast a commander from the command zone this game.",
@@ -19850,7 +19850,7 @@
     {
       "name": "Muse Vortex",
       "manaCost": "{X}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}",
+      "sortedManaCost": "{U}{U}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile the top X cards of your library. You may cast an instant or sorcery spell with mana value X or less from among them without paying its mana cost. Then put the exiled instant and sorcery cards that weren't cast this way into your hand and the rest on the bottom of your library in a random order.",
@@ -21205,7 +21205,7 @@
     {
       "name": "Fractal Harness",
       "manaCost": "{X}{2}{G}",
-      "sortedManaCost": "{X}{2}{G}",
+      "sortedManaCost": "{2}{G}{X}",
       "cmc": 3,
       "type": "Artifact - Equipment",
       "text": "When Fractal Harness enters the battlefield, create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it and attach Fractal Harness to it.<br>Whenever equipped creature attacks, double the number of +1/+1 counters on it.<br>Equip {2}",
@@ -21371,7 +21371,7 @@
     {
       "name": "Pest Infestation",
       "manaCost": "{X}{X}{G}",
-      "sortedManaCost": "{X}{X}{G}",
+      "sortedManaCost": "{G}{X}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Destroy up to X target artifacts and/or enchantments. Create twice X 1/1 black and green Pest creature tokens with \"When this creature dies, you gain 1 life.\"",
@@ -21619,7 +21619,7 @@
     {
       "name": "Inkshield",
       "manaCost": "{3}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{B}{W}",
       "cmc": 5,
       "type": "Instant",
       "text": "Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.",
@@ -21661,7 +21661,7 @@
     {
       "name": "Oversimplify",
       "manaCost": "{3}{G}{U}",
-      "sortedManaCost": "{3}{U}{G}",
+      "sortedManaCost": "{3}{G}{U}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Exile all creatures. Each player creates a 0/0 green and blue Fractal creature token and puts a number of +1/+1 counters on it equal to the total power of creatures they controlled that were exiled this way.",
@@ -21703,7 +21703,7 @@
     {
       "name": "Reinterpret",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Counter target spell. You may cast a spell with an equal or lesser mana value from your hand without paying its mana cost.",
@@ -21787,7 +21787,7 @@
     {
       "name": "Wake the Past",
       "manaCost": "{5}{R}{W}",
-      "sortedManaCost": "{5}{W}{R}",
+      "sortedManaCost": "{5}{R}{W}",
       "cmc": 7,
       "type": "Sorcery",
       "text": "Return all artifact cards from your graveyard to the battlefield. They gain haste until end of turn.",

@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "White",
     "type": "core",
-    "digest": "32f3fdb41f5b79f6963762f4a160da34",
+    "digest": "688bae5d74d483d82d9b30ee7962a5e1",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/6E_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/6E_R.png",
@@ -3946,7 +3946,7 @@
     {
       "name": "Power Sink",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana.",
@@ -4037,7 +4037,7 @@
     {
       "name": "Prosperity",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Each player draws X cards.",
@@ -4174,7 +4174,7 @@
     {
       "name": "Recall",
       "manaCost": "{X}{X}{U}",
-      "sortedManaCost": "{X}{X}{U}",
+      "sortedManaCost": "{U}{X}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Discard X cards, then return a card from your graveyard to your hand for each card discarded this way. Exile Recall.",
@@ -4541,7 +4541,7 @@
     {
       "name": "Spell Blast",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell with mana value X. (For example, if that spell's mana cost is {3}{U}{U}, X is 5.)",
@@ -6277,7 +6277,7 @@
     {
       "name": "Howl from Beyond",
       "manaCost": "{X}{B}",
-      "sortedManaCost": "{X}{B}",
+      "sortedManaCost": "{B}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Target creature gets +X/+0 until end of turn.",
@@ -6506,7 +6506,7 @@
     {
       "name": "Mind Warp",
       "manaCost": "{X}{3}{B}",
-      "sortedManaCost": "{X}{3}{B}",
+      "sortedManaCost": "{3}{B}{X}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Look at target player's hand and choose X cards from it. That player discards those cards.",
@@ -7647,7 +7647,7 @@
     {
       "name": "Blaze",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Blaze deals X damage to any target.",
@@ -7876,7 +7876,7 @@
     {
       "name": "Earthquake",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Earthquake deals X damage to each creature without flying and each player.",
@@ -9796,7 +9796,7 @@
     {
       "name": "Volcanic Geyser",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Volcanic Geyser deals X damage to any target.",
@@ -10804,7 +10804,7 @@
     {
       "name": "Hurricane",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Hurricane deals X damage to each creature with flying and each player.",
@@ -11579,7 +11579,7 @@
     {
       "name": "Stream of Life",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Target player gains X life.",

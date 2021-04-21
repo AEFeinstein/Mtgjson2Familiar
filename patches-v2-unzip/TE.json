@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "expansion",
-    "digest": "a28979edc6ad10023bf88e14c0f32276",
+    "digest": "9768199f591556fdf60737fbed4d3d17",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/TE_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/TE_R.png",
@@ -2737,7 +2737,7 @@
     {
       "name": "Ertai's Meddling",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "X can't be 0.<br>Target spell's controller exiles it with X delay counters on it.<br>At the beginning of each of that player's upkeeps, if that card is exiled, remove a delay counter from it. If the card has no delay counters on it, the player puts it onto the stack as a copy of the original spell.",
@@ -3512,7 +3512,7 @@
     {
       "name": "Power Sink",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana.",
@@ -4015,7 +4015,7 @@
     {
       "name": "Spell Blast",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Counter target spell with mana value X. (For example, if that spell's mana cost is {3}{U}{U}, X is 5.)",
@@ -4839,7 +4839,7 @@
     {
       "name": "Abandon Hope",
       "manaCost": "{X}{1}{B}",
-      "sortedManaCost": "{X}{1}{B}",
+      "sortedManaCost": "{1}{B}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, discard X cards.<br>Look at target opponent's hand and choose X cards from it. That player discards those cards.",
@@ -5935,7 +5935,7 @@
     {
       "name": "Dregs of Sorrow",
       "manaCost": "{X}{4}{B}",
-      "sortedManaCost": "{X}{4}{B}",
+      "sortedManaCost": "{4}{B}{X}",
       "cmc": 5,
       "type": "Sorcery",
       "text": "Destroy X target nonblack creatures. Draw X cards.",
@@ -5981,7 +5981,7 @@
     {
       "name": "Endless Scream",
       "manaCost": "{X}{B}",
-      "sortedManaCost": "{X}{B}",
+      "sortedManaCost": "{B}{X}",
       "cmc": 1,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Endless Scream enters the battlefield with X scream counters on it.<br>Enchanted creature gets +1/+0 for each scream counter on Endless Scream.",
@@ -9004,7 +9004,7 @@
     {
       "name": "Rolling Thunder",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Rolling Thunder deals X damage divided as you choose among any number of targets.",
@@ -9096,7 +9096,7 @@
     {
       "name": "Scorched Earth",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "As an additional cost to cast this spell, discard X land cards.<br>Destroy X target lands.",
@@ -10703,7 +10703,7 @@
     {
       "name": "Krakilin",
       "manaCost": "{X}{G}{G}",
-      "sortedManaCost": "{X}{G}{G}",
+      "sortedManaCost": "{G}{G}{X}",
       "cmc": 2,
       "type": "Creature - Beast",
       "text": "Krakilin enters the battlefield with X +1/+1 counters on it.<br>{1}{G}: Regenerate Krakilin.",
@@ -12124,7 +12124,7 @@
     {
       "name": "Dracoplasm",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Creature - Shapeshifter",
       "text": "Flying<br>As Dracoplasm enters the battlefield, sacrifice any number of creatures. Dracoplasm's power becomes the total power of those creatures and its toughness becomes their total toughness.<br>{R}: Dracoplasm gets +1/+0 until end of turn.",
@@ -12169,7 +12169,7 @@
     {
       "name": "Lobotomy",
       "manaCost": "{2}{U}{B}",
-      "sortedManaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{B}{U}",
       "cmc": 4,
       "type": "Sorcery",
       "text": "Target player reveals their hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles.",
@@ -12214,7 +12214,7 @@
     {
       "name": "Ranger en-Vec",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Creature - Human Soldier Archer",
       "text": "First strike<br>{G}: Regenerate Ranger en-Vec.",
@@ -12260,7 +12260,7 @@
     {
       "name": "Segmented Wurm",
       "manaCost": "{3}{R}{G}",
-      "sortedManaCost": "{3}{R}{G}",
+      "sortedManaCost": "{3}{G}{R}",
       "cmc": 5,
       "type": "Creature - Wurm",
       "text": "Whenever Segmented Wurm becomes the target of a spell or ability, put a -1/-1 counter on it.",
@@ -12306,7 +12306,7 @@
     {
       "name": "Selenia, Dark Angel",
       "manaCost": "{3}{W}{B}",
-      "sortedManaCost": "{3}{W}{B}",
+      "sortedManaCost": "{3}{B}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Angel",
       "text": "Flying<br>Pay 2 life: Return Selenia, Dark Angel to its owner's hand.",
@@ -12352,7 +12352,7 @@
     {
       "name": "Sky Spirit",
       "manaCost": "{1}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}",
       "cmc": 3,
       "type": "Creature - Spirit",
       "text": "Flying, first strike",
@@ -12398,7 +12398,7 @@
     {
       "name": "Soltari Guerrillas",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Creature - Soltari Soldier",
       "text": "Shadow (This creature can block or be blocked by only creatures with shadow.)<br>{0}: The next time Soltari Guerrillas would deal combat damage to an opponent this turn, it deals that damage to target creature instead.",
@@ -12535,7 +12535,7 @@
     {
       "name": "Wood Sage",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Creature - Human Druid",
       "text": "{T}: Choose a creature card name. Reveal the top four cards of your library and put all of them with that name into your hand. Put the rest into your graveyard.",

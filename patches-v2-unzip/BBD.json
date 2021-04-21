@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "draft_innovation",
-    "digest": "7cd93eedd070b7cf0103aa367fe7e425",
+    "digest": "645f3c355efce0d2724b0ee635f05d15",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/BBD_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/BBD_M.png",
@@ -1375,7 +1375,7 @@
     {
       "name": "Gang Up",
       "manaCost": "{X}{B}",
-      "sortedManaCost": "{X}{B}",
+      "sortedManaCost": "{B}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Assist (Another player can pay up to {X} of this spell's cost. You choose the value of X.)<br>Destroy target creature with power X or less.",
@@ -2000,7 +2000,7 @@
     {
       "name": "The Crowd Goes Wild",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Assist (Another player can pay up to {X} of this spell's cost. You choose the value of X.)<br>Support X. (Put a +1/+1 counter on each of up to X target creatures.)<br>Each creature with a +1/+1 counter on it gains trample until end of turn.",
@@ -2176,7 +2176,7 @@
     {
       "name": "Archon of Valor's Reach",
       "manaCost": "{4}{G}{W}",
-      "sortedManaCost": "{4}{W}{G}",
+      "sortedManaCost": "{4}{G}{W}",
       "cmc": 6,
       "type": "Creature - Archon",
       "text": "Flying, vigilance, trample<br>As Archon of Valor's Reach enters the battlefield, choose artifact, enchantment, instant, sorcery, or planeswalker.<br>Players can't cast spells of the chosen type.",
@@ -2295,7 +2295,7 @@
     {
       "name": "Vampire Charmseeker",
       "manaCost": "{6}{U}{B}",
-      "sortedManaCost": "{6}{U}{B}",
+      "sortedManaCost": "{6}{B}{U}",
       "cmc": 8,
       "type": "Creature - Vampire Wizard",
       "text": "Assist (Another player can pay up to {6} of this spell's cost.)<br>Flying<br>When Vampire Charmseeker enters the battlefield, return target instant, sorcery, or creature card from a graveyard to its owner's hand.",
@@ -4939,7 +4939,7 @@
     {
       "name": "Blaze",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Blaze deals X damage to any target.",
@@ -5834,7 +5834,7 @@
     {
       "name": "Feral Hydra",
       "manaCost": "{X}{G}",
-      "sortedManaCost": "{X}{G}",
+      "sortedManaCost": "{G}{X}",
       "cmc": 1,
       "type": "Creature - Hydra Beast",
       "text": "Feral Hydra enters the battlefield with X +1/+1 counters on it.<br>{3}: Put a +1/+1 counter on Feral Hydra. Any player may activate this ability.",
@@ -6431,7 +6431,7 @@
     {
       "name": "Apocalypse Hydra",
       "manaCost": "{X}{R}{G}",
-      "sortedManaCost": "{X}{R}{G}",
+      "sortedManaCost": "{G}{R}{X}",
       "cmc": 2,
       "type": "Creature - Hydra",
       "text": "Apocalypse Hydra enters the battlefield with X +1/+1 counters on it. If X is 5 or more, it enters the battlefield with an additional X +1/+1 counters on it.<br>{1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: It deals 1 damage to any target.",
@@ -6490,7 +6490,7 @@
     {
       "name": "Centaur Healer",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Creature - Centaur Cleric",
       "text": "When Centaur Healer enters the battlefield, you gain 3 life.",
@@ -6520,7 +6520,7 @@
     {
       "name": "Dinrova Horror",
       "manaCost": "{4}{U}{B}",
-      "sortedManaCost": "{4}{U}{B}",
+      "sortedManaCost": "{4}{B}{U}",
       "cmc": 6,
       "type": "Creature - Horror",
       "text": "When Dinrova Horror enters the battlefield, return target permanent to its owner's hand, then that player discards a card.",
@@ -6550,7 +6550,7 @@
     {
       "name": "Enduring Scalelord",
       "manaCost": "{4}{G}{W}",
-      "sortedManaCost": "{4}{W}{G}",
+      "sortedManaCost": "{4}{G}{W}",
       "cmc": 6,
       "type": "Creature - Dragon",
       "text": "Flying<br>Whenever one or more +1/+1 counters are put on another creature you control, you may put a +1/+1 counter on Enduring Scalelord.",
@@ -6580,7 +6580,7 @@
     {
       "name": "Evil Twin",
       "manaCost": "{2}{U}{B}",
-      "sortedManaCost": "{2}{U}{B}",
+      "sortedManaCost": "{2}{B}{U}",
       "cmc": 4,
       "type": "Creature - Shapeshifter",
       "text": "You may have Evil Twin enter the battlefield as a copy of any creature on the battlefield, except it has \"{U}{B}, {T}: Destroy target creature with the same name as this creature.\"",
@@ -6610,7 +6610,7 @@
     {
       "name": "Gwafa Hazid, Profiteer",
       "manaCost": "{1}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Human Rogue",
       "text": "{W}{U}, {T}: Put a bribery counter on target creature you don't control. Its controller draws a card.<br>Creatures with bribery counters on them can't attack or block.",
@@ -6640,7 +6640,7 @@
     {
       "name": "Jelenn Sphinx",
       "manaCost": "{3}{W}{U}",
-      "sortedManaCost": "{3}{W}{U}",
+      "sortedManaCost": "{3}{U}{W}",
       "cmc": 5,
       "type": "Creature - Sphinx",
       "text": "Flying, vigilance<br>Whenever Jelenn Sphinx attacks, other attacking creatures get +1/+1 until end of turn.",
@@ -6670,7 +6670,7 @@
     {
       "name": "Kiss of the Amesha",
       "manaCost": "{4}{W}{U}",
-      "sortedManaCost": "{4}{W}{U}",
+      "sortedManaCost": "{4}{U}{W}",
       "cmc": 6,
       "type": "Sorcery",
       "text": "Target player gains 7 life and draws two cards.",
@@ -6700,7 +6700,7 @@
     {
       "name": "Relentless Hunter",
       "manaCost": "{1}{R}{G}",
-      "sortedManaCost": "{1}{R}{G}",
+      "sortedManaCost": "{1}{G}{R}",
       "cmc": 3,
       "type": "Creature - Human Warrior",
       "text": "{1}{R}{G}: Relentless Hunter gets +1/+1 and gains trample until end of turn.",
@@ -6730,7 +6730,7 @@
     {
       "name": "Rhox Brute",
       "manaCost": "{2}{R}{G}",
-      "sortedManaCost": "{2}{R}{G}",
+      "sortedManaCost": "{2}{G}{R}",
       "cmc": 4,
       "type": "Creature - Rhino Warrior",
       "flavor": "\"In this new world, I have seen the once-devout rhoxes take up arms with the savages of Jund. I would be offended, but I see the wisdom in their choice.\"<br>-Gernan, Dawnray archer",
@@ -6759,7 +6759,7 @@
     {
       "name": "Riptide Crab",
       "manaCost": "{1}{W}{U}",
-      "sortedManaCost": "{1}{W}{U}",
+      "sortedManaCost": "{1}{U}{W}",
       "cmc": 3,
       "type": "Creature - Crab",
       "text": "Vigilance<br>When Riptide Crab dies, draw a card.",
@@ -6789,7 +6789,7 @@
     {
       "name": "Savage Ventmaw",
       "manaCost": "{4}{R}{G}",
-      "sortedManaCost": "{4}{R}{G}",
+      "sortedManaCost": "{4}{G}{R}",
       "cmc": 6,
       "type": "Creature - Dragon",
       "text": "Flying<br>Whenever Savage Ventmaw attacks, add {R}{R}{R}{G}{G}{G}. Until end of turn, you don't lose this mana as steps and phases end.",
@@ -6818,7 +6818,7 @@
     {
       "name": "Unflinching Courage",
       "manaCost": "{1}{G}{W}",
-      "sortedManaCost": "{1}{W}{G}",
+      "sortedManaCost": "{1}{G}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
       "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has trample and lifelink. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)",
@@ -6847,7 +6847,7 @@
     {
       "name": "Urborg Drake",
       "manaCost": "{1}{U}{B}",
-      "sortedManaCost": "{1}{U}{B}",
+      "sortedManaCost": "{1}{B}{U}",
       "cmc": 3,
       "type": "Creature - Drake",
       "text": "Flying<br>Urborg Drake attacks each combat if able.",

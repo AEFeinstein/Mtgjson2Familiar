@@ -10,7 +10,7 @@
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "commander",
-    "digest": "c67a72e73184f5e9c4cb173467d946cf",
+    "digest": "fce44a7fdede632aed2fc742c1a078ed",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C15_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C15_M.png",
@@ -885,7 +885,7 @@
     {
       "name": "Dread Summons",
       "manaCost": "{X}{B}{B}",
-      "sortedManaCost": "{X}{B}{B}",
+      "sortedManaCost": "{B}{B}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Each player mills X cards. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token.",
@@ -1250,7 +1250,7 @@
     {
       "name": "Meteor Blast",
       "manaCost": "{X}{R}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}{R}",
+      "sortedManaCost": "{R}{R}{R}{X}",
       "cmc": 3,
       "type": "Sorcery",
       "text": "Meteor Blast deals 4 damage to each of X targets.",
@@ -1840,7 +1840,7 @@
     {
       "name": "Anya, Merciless Angel",
       "manaCost": "{3}{R}{W}",
-      "sortedManaCost": "{3}{W}{R}",
+      "sortedManaCost": "{3}{R}{W}",
       "cmc": 5,
       "type": "Legendary Creature - Angel",
       "text": "Flying<br>Anya, Merciless Angel gets +3/+3 for each opponent whose life total is less than half their starting life total.<br>As long as an opponent's life total is less than half their starting life total, Anya has indestructible.",
@@ -1885,7 +1885,7 @@
     {
       "name": "Arjun, the Shifting Flame",
       "manaCost": "{4}{U}{R}",
-      "sortedManaCost": "{4}{U}{R}",
+      "sortedManaCost": "{4}{R}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Sphinx Wizard",
       "text": "Flying<br>Whenever you cast a spell, put the cards in your hand on the bottom of your library in any order, then draw that many cards.",
@@ -1931,7 +1931,7 @@
     {
       "name": "Daxos the Returned",
       "manaCost": "{1}{W}{B}",
-      "sortedManaCost": "{1}{W}{B}",
+      "sortedManaCost": "{1}{B}{W}",
       "cmc": 3,
       "type": "Legendary Creature - Zombie Soldier",
       "text": "Whenever you cast an enchantment spell, you get an experience counter.<br>{1}{W}{B}: Create a white and black Spirit enchantment creature token. It has \"This creature's power and toughness are each equal to the number of experience counters you have.\"",
@@ -1976,7 +1976,7 @@
     {
       "name": "Ezuri, Claw of Progress",
       "manaCost": "{2}{G}{U}",
-      "sortedManaCost": "{2}{U}{G}",
+      "sortedManaCost": "{2}{G}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Elf Warrior",
       "text": "Whenever a creature with power 2 or less enters the battlefield under your control, you get an experience counter.<br>At the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is the number of experience counters you have.",
@@ -2021,7 +2021,7 @@
     {
       "name": "Kalemne, Disciple of Iroas",
       "manaCost": "{2}{R}{W}",
-      "sortedManaCost": "{2}{W}{R}",
+      "sortedManaCost": "{2}{R}{W}",
       "cmc": 4,
       "type": "Legendary Creature - Giant Soldier",
       "text": "Double strike, vigilance<br>Whenever you cast a creature spell with mana value 5 or greater, you get an experience counter.<br>Kalemne, Disciple of Iroas gets +1/+1 for each experience counter you have.",
@@ -2066,7 +2066,7 @@
     {
       "name": "Karlov of the Ghost Council",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Legendary Creature - Spirit Advisor",
       "text": "Whenever you gain life, put two +1/+1 counters on Karlov of the Ghost Council.<br>{W}{B}, Remove six +1/+1 counters from Karlov of the Ghost Council: Exile target creature.",
@@ -2112,7 +2112,7 @@
     {
       "name": "Kaseto, Orochi Archmage",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Legendary Creature - Snake Wizard",
       "text": "{G}{U}: Target creature can't be blocked this turn. If that creature is a Snake, it gets +2/+2 until end of turn.",
@@ -2249,7 +2249,7 @@
     {
       "name": "Mizzix of the Izmagnus",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Legendary Creature - Goblin Wizard",
       "text": "Whenever you cast an instant or sorcery spell with mana value greater than the number of experience counters you have, you get an experience counter.<br>Instant and sorcery spells you cast cost {1} less to cast for each experience counter you have.",
@@ -3981,7 +3981,7 @@
     {
       "name": "Blue Sun's Zenith",
       "manaCost": "{X}{U}{U}{U}",
-      "sortedManaCost": "{X}{U}{U}{U}",
+      "sortedManaCost": "{U}{U}{U}{X}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.",
@@ -4164,7 +4164,7 @@
     {
       "name": "Dominate",
       "manaCost": "{X}{1}{U}{U}",
-      "sortedManaCost": "{X}{1}{U}{U}",
+      "sortedManaCost": "{1}{U}{U}{X}",
       "cmc": 3,
       "type": "Instant",
       "text": "Gain control of target creature with mana value X or less.",
@@ -4709,7 +4709,7 @@
     {
       "name": "Repeal",
       "manaCost": "{X}{U}",
-      "sortedManaCost": "{X}{U}",
+      "sortedManaCost": "{U}{X}",
       "cmc": 1,
       "type": "Instant",
       "text": "Return target nonland permanent with mana value X to its owner's hand.<br>Draw a card.",
@@ -4891,7 +4891,7 @@
     {
       "name": "Stroke of Genius",
       "manaCost": "{X}{2}{U}",
-      "sortedManaCost": "{X}{2}{U}",
+      "sortedManaCost": "{2}{U}{X}",
       "cmc": 3,
       "type": "Instant",
       "text": "Target player draws X cards.",
@@ -6626,7 +6626,7 @@
     {
       "name": "Comet Storm",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)<br>Choose any target, then choose another target for each time this spell was kicked. Comet Storm deals X damage to each of them.",
@@ -6899,7 +6899,7 @@
     {
       "name": "Earthquake",
       "manaCost": "{X}{R}",
-      "sortedManaCost": "{X}{R}",
+      "sortedManaCost": "{R}{X}",
       "cmc": 1,
       "type": "Sorcery",
       "text": "Earthquake deals X damage to each creature without flying and each player.",
@@ -7356,7 +7356,7 @@
     {
       "name": "Magmaquake",
       "manaCost": "{X}{R}{R}",
-      "sortedManaCost": "{X}{R}{R}",
+      "sortedManaCost": "{R}{R}{X}",
       "cmc": 2,
       "type": "Instant",
       "text": "Magmaquake deals X damage to each creature without flying and each planeswalker.",
@@ -9682,7 +9682,7 @@
     {
       "name": "Coiling Oracle",
       "manaCost": "{G}{U}",
-      "sortedManaCost": "{U}{G}",
+      "sortedManaCost": "{G}{U}",
       "cmc": 2,
       "type": "Creature - Snake Elf Druid",
       "text": "When Coiling Oracle enters the battlefield, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.",
@@ -9728,7 +9728,7 @@
     {
       "name": "Counterflux",
       "manaCost": "{U}{U}{R}",
-      "sortedManaCost": "{U}{U}{R}",
+      "sortedManaCost": "{R}{U}{U}",
       "cmc": 3,
       "type": "Instant",
       "text": "This spell can't be countered.<br>Counter target spell you don't control.<br>Overload {1}{U}{U}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each.\")",
@@ -9773,7 +9773,7 @@
     {
       "name": "Death Grasp",
       "manaCost": "{X}{W}{B}",
-      "sortedManaCost": "{X}{W}{B}",
+      "sortedManaCost": "{B}{W}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Death Grasp deals X damage to any target. You gain X life.",
@@ -9819,7 +9819,7 @@
     {
       "name": "Epic Experiment",
       "manaCost": "{X}{U}{R}",
-      "sortedManaCost": "{X}{U}{R}",
+      "sortedManaCost": "{R}{U}{X}",
       "cmc": 2,
       "type": "Sorcery",
       "text": "Exile the top X cards of your library. You may cast instant and sorcery spells with mana value X or less from among them without paying their mana costs. Then put all cards exiled this way that weren't cast into your graveyard.",
@@ -9864,7 +9864,7 @@
     {
       "name": "Etherium-Horn Sorcerer",
       "manaCost": "{4}{U}{R}",
-      "sortedManaCost": "{4}{U}{R}",
+      "sortedManaCost": "{4}{R}{U}",
       "cmc": 6,
       "type": "Artifact Creature - Minotaur Wizard",
       "text": "{1}{U}{R}: Return Etherium-Horn Sorcerer to its owner's hand.<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)",
@@ -9909,7 +9909,7 @@
     {
       "name": "Firemind's Foresight",
       "manaCost": "{5}{U}{R}",
-      "sortedManaCost": "{5}{U}{R}",
+      "sortedManaCost": "{5}{R}{U}",
       "cmc": 7,
       "type": "Instant",
       "text": "Search your library for an instant card with mana value 3, reveal it, and put it into your hand. Then repeat this process for instant cards with mana values 2 and 1. Then shuffle.",
@@ -9954,7 +9954,7 @@
     {
       "name": "Gisela, Blade of Goldnight",
       "manaCost": "{4}{R}{W}{W}",
-      "sortedManaCost": "{4}{W}{W}{R}",
+      "sortedManaCost": "{4}{R}{W}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Angel",
       "text": "Flying, first strike<br>If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.<br>If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.",
@@ -9999,7 +9999,7 @@
     {
       "name": "Goblin Electromancer",
       "manaCost": "{U}{R}",
-      "sortedManaCost": "{U}{R}",
+      "sortedManaCost": "{R}{U}",
       "cmc": 2,
       "type": "Creature - Goblin Wizard",
       "text": "Instant and sorcery spells you cast cost {1} less to cast.",
@@ -10227,7 +10227,7 @@
     {
       "name": "Lorescale Coatl",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Creature - Snake",
       "text": "Whenever you draw a card, put a +1/+1 counter on Lorescale Coatl.",
@@ -10319,7 +10319,7 @@
     {
       "name": "Melek, Izzet Paragon",
       "manaCost": "{4}{U}{R}",
-      "sortedManaCost": "{4}{U}{R}",
+      "sortedManaCost": "{4}{R}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Weird Wizard",
       "text": "Play with the top card of your library revealed.<br>You may cast instant and sorcery spells from the top of your library.<br>Whenever you cast an instant or sorcery spell from your library, copy it. You may choose new targets for the copy.",
@@ -10364,7 +10364,7 @@
     {
       "name": "Mystic Snake",
       "manaCost": "{1}{G}{U}{U}",
-      "sortedManaCost": "{1}{U}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}{U}",
       "cmc": 4,
       "type": "Creature - Snake",
       "text": "Flash<br>When Mystic Snake enters the battlefield, counter target spell.",
@@ -10410,7 +10410,7 @@
     {
       "name": "Necromancer's Covenant",
       "manaCost": "{3}{W}{B}{B}",
-      "sortedManaCost": "{3}{W}{B}{B}",
+      "sortedManaCost": "{3}{B}{B}{W}",
       "cmc": 6,
       "type": "Enchantment",
       "text": "When Necromancer's Covenant enters the battlefield, exile all creature cards from target player's graveyard, then create a 2/2 black Zombie creature token for each card exiled this way.<br>Zombies you control have lifelink.",
@@ -10455,7 +10455,7 @@
     {
       "name": "Prime Speaker Zegana",
       "manaCost": "{2}{G}{G}{U}{U}",
-      "sortedManaCost": "{2}{U}{U}{G}{G}",
+      "sortedManaCost": "{2}{G}{G}{U}{U}",
       "cmc": 6,
       "type": "Legendary Creature - Merfolk Wizard",
       "text": "Prime Speaker Zegana enters the battlefield with X +1/+1 counters on it, where X is the greatest power among other creatures you control.<br>When Prime Speaker Zegana enters the battlefield, draw cards equal to its power.",
@@ -10500,7 +10500,7 @@
     {
       "name": "Prophetic Bolt",
       "manaCost": "{3}{U}{R}",
-      "sortedManaCost": "{3}{U}{R}",
+      "sortedManaCost": "{3}{R}{U}",
       "cmc": 5,
       "type": "Instant",
       "text": "Prophetic Bolt deals 4 damage to any target. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.",
@@ -10591,7 +10591,7 @@
     {
       "name": "Steam Augury",
       "manaCost": "{2}{U}{R}",
-      "sortedManaCost": "{2}{U}{R}",
+      "sortedManaCost": "{2}{R}{U}",
       "cmc": 4,
       "type": "Instant",
       "text": "Reveal the top five cards of your library and separate them into two piles. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard.",
@@ -10637,7 +10637,7 @@
     {
       "name": "Teysa, Envoy of Ghosts",
       "manaCost": "{5}{W}{B}",
-      "sortedManaCost": "{5}{W}{B}",
+      "sortedManaCost": "{5}{B}{W}",
       "cmc": 7,
       "type": "Legendary Creature - Human Advisor",
       "text": "Vigilance, protection from creatures<br>Whenever a creature deals combat damage to you, destroy that creature. Create a 1/1 white and black Spirit creature token with flying.",
@@ -10682,7 +10682,7 @@
     {
       "name": "Treasury Thrull",
       "manaCost": "{4}{W}{B}",
-      "sortedManaCost": "{4}{W}{B}",
+      "sortedManaCost": "{4}{B}{W}",
       "cmc": 6,
       "type": "Creature - Thrull",
       "text": "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)<br>Whenever Treasury Thrull attacks, you may return target artifact, creature, or enchantment card from your graveyard to your hand.",
@@ -10727,7 +10727,7 @@
     {
       "name": "Trygon Predator",
       "manaCost": "{1}{G}{U}",
-      "sortedManaCost": "{1}{U}{G}",
+      "sortedManaCost": "{1}{G}{U}",
       "cmc": 3,
       "type": "Creature - Beast",
       "text": "Flying<br>Whenever Trygon Predator deals combat damage to a player, you may destroy target artifact or enchantment that player controls.",
@@ -10773,7 +10773,7 @@
     {
       "name": "Underworld Coinsmith",
       "manaCost": "{W}{B}",
-      "sortedManaCost": "{W}{B}",
+      "sortedManaCost": "{B}{W}",
       "cmc": 2,
       "type": "Enchantment Creature - Human Cleric",
       "text": "Constellation - Whenever Underworld Coinsmith or another enchantment enters the battlefield under your control, you gain 1 life.<br>{W}{B}, Pay 1 life: Each opponent loses 1 life.",
