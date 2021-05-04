@@ -153,76 +153,80 @@ public class PatchBuilder {
                     }
                 } else {
                     // Check if this should be merged with an existing expansion
-                    Patch newPatch = null;
+                    Patch newPatch = new Patch(newExpansion, new ArrayList<>(set.cards.size()));
                     for (Patch existingPatch : allPatches) {
                         if (existingPatch.mExpansion.mCode_gatherer.equals(newExpansion.mCode_gatherer)) {
-                            // Match found, use existing expansion
-                            newPatch = existingPatch;
 
-                            // Multiple mtgjson sets merged into to one, pick the right name
+                            // Multiple mtgjson sets merged into to one, pick the right metadata and name
+                            String nameToUse = null;
+                            String mdToUse = null;
                             switch (existingPatch.mExpansion.mName_gatherer) {
                                 case "Mystery Booster Playtest Cards":
                                 case "Mystery Booster": {
-                                    existingPatch.mExpansion.mName_gatherer = "Mystery Booster";
+                                    nameToUse = "Mystery Booster";
+                                    mdToUse = "Mystery Booster Playtest Cards";
                                     break;
                                 }
                                 case "Archenemy":
                                 case "Archenemy Schemes": {
-                                    existingPatch.mExpansion.mName_gatherer = "Archenemy";
+                                    nameToUse = "Archenemy";
+                                    mdToUse = "Archenemy";
                                     break;
                                 }
                                 case "Archenemy: Nicol Bolas":
                                 case "Archenemy: Nicol Bolas Schemes": {
-                                    existingPatch.mExpansion.mName_gatherer = "Archenemy: Nicol Bolas";
+                                    nameToUse = "Archenemy: Nicol Bolas";
+                                    mdToUse = "Archenemy: Nicol Bolas";
                                     break;
                                 }
                                 case "Planechase":
                                 case "Planechase Planes": {
-                                    existingPatch.mExpansion.mName_gatherer = "Planechase";
+                                    nameToUse = "Planechase";
+                                    mdToUse = "Planechase";
                                     break;
                                 }
                                 case "Planechase 2012 Planes":
                                 case "Planechase 2012": {
-                                    existingPatch.mExpansion.mName_gatherer = "Planechase 2012";
+                                    nameToUse = "Planechase 2012";
+                                    mdToUse = "Planechase 2012";
                                     break;
                                 }
                                 case "Planechase Anthology Planes":
                                 case "Planechase Anthology": {
-                                    existingPatch.mExpansion.mName_gatherer = "Planechase Anthology";
+                                    nameToUse = "Planechase Anthology";
+                                    mdToUse = "Planechase Anthology";
                                     break;
                                 }
                                 case "Dragon Con":
                                 case "HarperPrism Book Promos":
-                                case "Prerelease Events": {
-                                    existingPatch.mExpansion.mName_gatherer = "Promo set for Gatherer";
-                                    existingPatch.mExpansion.mName_tcgp = "Media Promos";
-                                    existingPatch.mExpansion.mName_mkm = "Media Promos";
+                                case "Prerelease Events":
+                                case "Promo set for Gatherer": {
+                                    nameToUse = "Promo set for Gatherer";
+                                    mdToUse = "Promo set for Gatherer";
                                     break;
                                 }
                                 case "Magazine Inserts":
                                 case "Starter 2000": {
-                                    existingPatch.mExpansion.mName_gatherer = "Starter 2000";
+                                    nameToUse = "Starter 2000";
+                                    mdToUse = "Starter 2000";
                                     break;
                                 }
                                 case "Magic Online Avatars":
                                 case "Vanguard Series": {
-                                    existingPatch.mExpansion.mName_gatherer = "Vanguard";
+                                    nameToUse = "Vanguard Series";
+                                    mdToUse = "Vanguard Series";
                                     break;
                                 }
                             }
 
-                            // If the existing patch was missing information
-                            if (null == existingPatch.mExpansion.mName_tcgp) {
-                                // Add it
-                                existingPatch.mExpansion = newExpansion;
-                            }
+                            // Set the metadata properly
+                            existingPatch.setMetaData(newPatch, nameToUse, mdToUse);
+
+                            // Match found, use existing expansion
+                            newPatch = existingPatch;
+
                             break;
                         }
-                    }
-
-                    // If this isn't being merged with an existing patch, create a new patch
-                    if (null == newPatch) {
-                        newPatch = new Patch(newExpansion, new ArrayList<>(set.cards.size()));
                     }
 
                     // For each card
