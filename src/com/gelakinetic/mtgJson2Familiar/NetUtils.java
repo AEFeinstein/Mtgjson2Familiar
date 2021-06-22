@@ -32,7 +32,7 @@ public class NetUtils {
             } catch (Exception e) {
                 retries++;
                 try {
-                    Thread.sleep(1000 * retries);
+                    Thread.sleep(1000L * retries);
                 } catch (InterruptedException e1) {
                     m2fLogger.logStackTrace(e1);
                 }
@@ -56,6 +56,7 @@ public class NetUtils {
                         {"”", "\""},
                         {"—", "-"},
                         {"–", "-"},
+                        {"−", "-"},
                         {"‘", "'"},
                         {"â", "a"},
                         {"á", "a"},
