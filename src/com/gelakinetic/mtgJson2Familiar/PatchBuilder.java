@@ -127,6 +127,7 @@ public class PatchBuilder {
         ArrayList<Patch> allPatches = new ArrayList<>();
         for (String key : printings.data.keySet()) {
             mtgjson_set set = printings.data.get(key);
+            set.removeDuplicateUuids();
 
             boolean isArenaOnly = (null != set.checkSetLegality().historic) && set.isOnlineOnly;
 

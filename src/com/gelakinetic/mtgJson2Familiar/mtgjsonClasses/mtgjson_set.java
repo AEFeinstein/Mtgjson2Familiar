@@ -1,5 +1,6 @@
 package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class mtgjson_set {
@@ -89,5 +90,20 @@ public class mtgjson_set {
             }
         }
         return legality;
+    }
+
+    /**
+     * Remove all cards with duplicate uuids
+     */
+    public void removeDuplicateUuids() {
+        // Create a HashSet from the cards, which is guaranteed to be unique
+        HashSet<mtgjson_card> uniqueCards = new HashSet<>(this.cards.size());
+        uniqueCards.addAll(this.cards);
+        // If some cards were removed
+        if (uniqueCards.size() != this.cards.size()) {
+            // Clear the list and add only the unique cards
+            this.cards.clear();
+            this.cards.addAll(uniqueCards);
+        }
     }
 }

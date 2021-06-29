@@ -1,6 +1,8 @@
 package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
+import java.math.BigInteger;
 import java.util.List;
+import java.util.Scanner;
 
 public class mtgjson_card {
     public String artist;
@@ -68,4 +70,31 @@ public class mtgjson_card {
     public String uuid;
     public List<String> variations;
     public String watermark;
+
+    // hashInit and hashVal were added by me
+    private boolean hashInit = false;
+    private int hashVal = 0;
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof mtgjson_card) {
+            return this.uuid.equals(((mtgjson_card) obj).uuid);
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        if (!hashInit) {
+            // 7a5ab36e-15b0-51d1-87c0-b4b3a5cd93a2
+            Scanner scanner = new Scanner(this.uuid);
+            scanner.useDelimiter("-");
+            while (scanner.hasNext()) {
+                BigInteger bi = scanner.nextBigInteger(16);
+                hashVal += bi.intValue();
+            }
+            hashInit = true;
+        }
+        return hashVal;
+    }
 }
