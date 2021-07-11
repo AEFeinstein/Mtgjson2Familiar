@@ -61,7 +61,7 @@ public class mtgJson2Familiar {
         int status = 0;
 
         if (scrapeJudgeDocs) {
-            if (!new JudgeDocScraper().ScrapeAll()) {
+            if (!JudgeDocConverter.GetLatestDocs()) {
                 status -= 2;
             }
         }

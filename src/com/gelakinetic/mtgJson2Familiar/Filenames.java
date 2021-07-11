@@ -17,4 +17,6 @@ public class Filenames {
     public static final String JAR_FILE = "jar.html";
     public static final String DIPG_FILE = "dipg.html";
     public static final String DTR_FILE = "dmtr.html";
+
+    public static final String DOWNLOADS_DIR = "downloads";
 }
