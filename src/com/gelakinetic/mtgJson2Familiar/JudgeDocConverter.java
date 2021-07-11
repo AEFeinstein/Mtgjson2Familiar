@@ -26,6 +26,15 @@ public class JudgeDocConverter {
 
         m2fLogger.log(m2fLogger.LogLevel.INFO, "Processing judge docs");
 
+        // Make sure the downloads directory exists
+        File downloadsDir = new File(Filenames.DOWNLOADS_DIR);
+        if (!downloadsDir.exists()) {
+            if (!downloadsDir.mkdir()) {
+                m2fLogger.log(m2fLogger.LogLevel.INFO, "Couldn't create " + Filenames.DOWNLOADS_DIR + "dir");
+                return false;
+            }
+        }
+
         if (!processWpnDoc("https://wpn.wizards.com/en/document/magic-gathering-tournament-rules", Filenames.MTR_FILE)) {
             ret = false;
         }
