@@ -84,7 +84,7 @@ public class Card implements Comparable<Card> {
     public String mWatermark;
 
     // The card's tcgplayer product ID
-    public int mTcgplayerProductId;
+    public long mTcgplayerProductId;
 
     public void updateDigest(MessageDigest messageDigest) {
         ArrayList<String> digestStrings = new ArrayList<>();
@@ -353,7 +353,7 @@ public class Card implements Comparable<Card> {
             this.mTcgplayerProductId = -1;
         } else {
             try {
-                this.mTcgplayerProductId = Integer.parseInt(orig.identifiers.tcgplayerProductId);
+                this.mTcgplayerProductId = Long.parseLong(orig.identifiers.tcgplayerProductId);
             } catch (NumberFormatException e) {
                 m2fLogger.log(m2fLogger.LogLevel.ERROR, "Invalid tcgplayerProductId: " + orig.identifiers.tcgplayerProductId);
                 this.mTcgplayerProductId = -1;
