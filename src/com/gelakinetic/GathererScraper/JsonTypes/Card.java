@@ -6,6 +6,7 @@ import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_foreignData;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
+import org.jetbrains.annotations.NotNull;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -83,7 +84,7 @@ public class Card implements Comparable<Card> {
     public String mWatermark;
 
     // The card's tcgplayer product ID
-    public String mTcgplayerProductId;
+    public int mTcgplayerProductId;
 
     public void updateDigest(MessageDigest messageDigest) {
         ArrayList<String> digestStrings = new ArrayList<>();
@@ -348,7 +349,16 @@ public class Card implements Comparable<Card> {
             this.mMultiverseId = -1;
         }
 
-        this.mTcgplayerProductId = orig.identifiers.tcgplayerProductId;
+        if (null == orig.identifiers.tcgplayerProductId) {
+            this.mTcgplayerProductId = -1;
+        } else {
+            try {
+                this.mTcgplayerProductId = Integer.parseInt(orig.identifiers.tcgplayerProductId);
+            } catch (NumberFormatException e) {
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Invalid tcgplayerProductId: " + orig.identifiers.tcgplayerProductId);
+                this.mTcgplayerProductId = -1;
+            }
+        }
 
         orig.legalities.checkStrings();
     }
@@ -470,7 +480,7 @@ public class Card implements Comparable<Card> {
      * function does it's best
      */
     @Override
-    public int compareTo(Card other) {
+    public int compareTo(@NotNull Card other) {
 
         /* Sort by collector's number */
         if (this.mNumber != null && other.mNumber != null && this.mNumber.length() > 0 && other.mNumber.length() > 0) {
