@@ -270,7 +270,7 @@ public class Expansion {
             }
 
             if (addToList) {
-                String url = "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/" + symName;
+                String url = "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/tcgp-prices/symbols/" + symName;
                 if (!this.mExpansionImageURLs.contains(url)) {
                     this.mExpansionImageURLs.add(url);
                 }
