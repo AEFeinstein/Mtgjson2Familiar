@@ -82,6 +82,9 @@ public class Card implements Comparable<Card> {
     // The card's loyalty. An integer in practice
     public String mWatermark;
 
+    // The card's tcgplayer product ID
+    public String mTcgplayerProductId;
+
     public void updateDigest(MessageDigest messageDigest) {
         ArrayList<String> digestStrings = new ArrayList<>();
         digestStrings.add(mManaCost);
@@ -344,6 +347,8 @@ public class Card implements Comparable<Card> {
         } catch (NumberFormatException e) {
             this.mMultiverseId = -1;
         }
+
+        this.mTcgplayerProductId = orig.identifiers.tcgplayerProductId;
 
         orig.legalities.checkStrings();
     }
