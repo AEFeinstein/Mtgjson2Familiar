@@ -258,6 +258,9 @@ public class JudgeDocConverter {
                     line = line.replace(hrefMatcher.group(1), "#page" + hrefMatcher.group(2) + "-div");
                 }
 
+                // Don't use special codes
+                line = line.replace("&#160;", " ").replace("&#34;", "\"");
+
                 bw.write(line + "\n");
             }
             return mergedFile;
