@@ -6,6 +6,7 @@ import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_foreignData;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
+import org.jetbrains.annotations.NotNull;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -225,7 +226,8 @@ public class Card implements Comparable<Card> {
 
         // Adjust rarities
         if ('S' == this.mRarity) {
-            if (origSet.name.toLowerCase().contains("time")) {
+            if (origSet.name.toLowerCase().contains("time") ||
+                    origSet.name.toLowerCase().contains("list")) {
                 // Special -> Timeshifted
                 this.mRarity = 'T';
             } else if ("CMR".equals(origSet.code)) {
@@ -251,6 +253,7 @@ public class Card implements Comparable<Card> {
                 break;
             default:
                 m2fLogger.log(m2fLogger.LogLevel.ERROR, "RARITY NOT PARSED: ~" + this.mRarity + "~");
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "RARITY NOT PARSED: ~" + this.mName + "~");
                 break;
         }
 
@@ -465,7 +468,7 @@ public class Card implements Comparable<Card> {
      * function does it's best
      */
     @Override
-    public int compareTo(Card other) {
+    public int compareTo(@NotNull Card other) {
 
         /* Sort by collector's number */
         if (this.mNumber != null && other.mNumber != null && this.mNumber.length() > 0 && other.mNumber.length() > 0) {
