@@ -116,7 +116,7 @@ public class CompRulesScraper {
 
         // If there are any problematic lines, print them and return
         if (!problematicLines.toString().isEmpty()) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Problematic lines in comp rules:\n" + problematicLines.toString());
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Problematic lines in comp rules:\n" + problematicLines);
             return false;
         }
 

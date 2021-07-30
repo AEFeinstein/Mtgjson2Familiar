@@ -20,7 +20,10 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.zip.GZIPOutputStream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
@@ -556,6 +559,7 @@ public class PatchBuilder {
      * @param serializer The serializer to convert the object to JSON
      * @param outFile    The file to write to
      */
+    @SuppressWarnings("BooleanMethodIsAlwaysInverted")
     static boolean writeFile(Object object, Gson serializer, File outFile, boolean shouldZip) {
         System.setProperty("line.separator", "\n");
 

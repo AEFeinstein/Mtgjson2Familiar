@@ -29,7 +29,6 @@ public class Patch {
      * @param mdToUse    The name of the expansion to use metadata from
      */
     public void setMetaData(Patch otherPatch, String nameToUse, String mdToUse) {
-        //noinspection StatementWithEmptyBody
         if (this.mExpansion.mName_gatherer.equals(mdToUse)) {
             // Already using the right metadata
             this.mExpansion.mName_gatherer = nameToUse;

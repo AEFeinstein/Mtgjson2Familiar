@@ -5,9 +5,9 @@ import com.gelakinetic.mtgJson2Familiar.m2fLogger;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
-
 import org.imgscalr.Scalr;
 
+import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -24,8 +24,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.TimeZone;
-
-import javax.imageio.ImageIO;
 
 /*
  * This class contains all information about an expansion to be parsed
