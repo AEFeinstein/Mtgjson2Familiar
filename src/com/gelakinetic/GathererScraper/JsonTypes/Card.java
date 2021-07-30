@@ -83,6 +83,9 @@ public class Card implements Comparable<Card> {
     // The card's loyalty. An integer in practice
     public String mWatermark;
 
+    // The card's tcgplayer product ID
+    public long mTcgplayerProductId;
+
     public void updateDigest(MessageDigest messageDigest) {
         ArrayList<String> digestStrings = new ArrayList<>();
         digestStrings.add(mManaCost);
@@ -346,6 +349,17 @@ public class Card implements Comparable<Card> {
             this.mMultiverseId = Integer.parseInt(orig.identifiers.multiverseId);
         } catch (NumberFormatException e) {
             this.mMultiverseId = -1;
+        }
+
+        if (null == orig.identifiers.tcgplayerProductId) {
+            this.mTcgplayerProductId = -1;
+        } else {
+            try {
+                this.mTcgplayerProductId = Long.parseLong(orig.identifiers.tcgplayerProductId);
+            } catch (NumberFormatException e) {
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Invalid tcgplayerProductId: " + orig.identifiers.tcgplayerProductId);
+                this.mTcgplayerProductId = -1;
+            }
         }
 
         orig.legalities.checkStrings();
