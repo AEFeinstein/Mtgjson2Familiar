@@ -6,7 +6,6 @@ import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_foreignData;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
-import org.jetbrains.annotations.NotNull;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -482,7 +481,7 @@ public class Card implements Comparable<Card> {
      * function does it's best
      */
     @Override
-    public int compareTo(@NotNull Card other) {
+    public int compareTo(Card other) {
 
         /* Sort by collector's number */
         if (this.mNumber != null && other.mNumber != null && this.mNumber.length() > 0 && other.mNumber.length() > 0) {

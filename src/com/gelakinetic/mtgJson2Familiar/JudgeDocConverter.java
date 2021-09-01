@@ -1,6 +1,5 @@
 package com.gelakinetic.mtgJson2Familiar;
 
-import org.jetbrains.annotations.Nullable;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
@@ -192,7 +191,6 @@ public class JudgeDocConverter {
      * @param pdfFile The PDF file to convert
      * @return The resulting HTML file or null if there was a failure
      */
-    @Nullable
     private static File convertPDFtoHTML(File pdfFile) {
 
         // Set up the system call to pdftohtml
@@ -228,7 +226,6 @@ public class JudgeDocConverter {
      * @param toEmbedIn The HTML file to merge images into and fix links in
      * @param outName   The processed HTML file, or null if there is an error
      */
-    @Nullable
     static File embedBase64Images(File toEmbedIn, String outName) {
         File directory = toEmbedIn.getParentFile();
 

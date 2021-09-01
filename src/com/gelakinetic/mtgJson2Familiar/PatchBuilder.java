@@ -165,10 +165,10 @@ public class PatchBuilder {
                             String nameToUse = null;
                             String mdToUse = null;
                             switch (existingPatch.mExpansion.mName_gatherer) {
-                                case "Mystery Booster Playtest Cards":
+                                case "Mystery Booster Playtest Cards 2019":
                                 case "Mystery Booster": {
                                     nameToUse = "Mystery Booster";
-                                    mdToUse = "Mystery Booster Playtest Cards";
+                                    mdToUse = "Mystery Booster Playtest Cards 2019";
                                     break;
                                 }
                                 case "Archenemy":
@@ -210,6 +210,7 @@ public class PatchBuilder {
                                     break;
                                 }
                                 case "Magazine Inserts":
+                                case "Media Inserts":
                                 case "Starter 2000": {
                                     nameToUse = "Starter 2000";
                                     mdToUse = "Starter 2000";
