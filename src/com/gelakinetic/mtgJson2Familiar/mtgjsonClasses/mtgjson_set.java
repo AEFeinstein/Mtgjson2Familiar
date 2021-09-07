@@ -1,5 +1,6 @@
 package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
@@ -29,6 +30,36 @@ public class mtgjson_set {
     public mtgjson_translation translations;
     public String type;
 
+    private final List<String> bannedInHistoricJMP = Arrays.asList(
+            "Ajani's Chosen",
+            "Angelic Arbiter",
+            "Path to Exile",
+            "Read the Runes",
+            "Rhystic Study",
+            "Thought Scour",
+            "Exhume",
+            "Mausoleum Turnkey",
+            "Reanimate",
+            "Scourge of Nel Toth",
+            "Ball Lightning",
+            "Chain Lightning",
+            "Draconic Roar",
+            "Flametongue Kavu",
+            "Goblin Lore",
+            "Fa'adiyah Seer",
+            "Scrounging Bandar",
+            "Time to Feed");
+
+    private final List<String> bannedInHistoricJ21 = Arrays.asList(
+            "Fog",
+            "Kraken Hatchling",
+            "Ponder",
+            "Regal Force",
+            "Stormfront Pegasus",
+            "Force Spike",
+            "Assault Strobe",
+            "Tropical Island");
+
     /**
      * @return The legality of this set, based on the legality of the cards in this set
      */
@@ -49,6 +80,11 @@ public class mtgjson_set {
         legality.vintage = "legal";
 
         for (mtgjson_card c : this.cards) {
+            if ((this.code.equals("JMP") && bannedInHistoricJMP.contains(c.name)) ||
+                    (this.code.equals("J21") && bannedInHistoricJ21.contains(c.name))) {
+                c.legalities.historic = "Banned";
+            }
+
             if (null == c.legalities.brawl) {
                 legality.brawl = null;
             }
