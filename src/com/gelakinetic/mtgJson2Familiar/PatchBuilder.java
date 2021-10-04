@@ -247,8 +247,7 @@ public class PatchBuilder {
                     }
 
                     // If no cards were added, but the expansion exists on Gatherer
-                    if (newPatch.mCards.isEmpty() && (gathererExpansions.contains(set.name.toLowerCase()) ||
-                            (set.name.equals("Midnight Hunt Commander")))) { // Innistrad: Midnight Hunt Commander on Gatherer
+                    if (newPatch.mCards.isEmpty() && (gathererExpansions.contains(set.name.toLowerCase()))) {
                         m2fLogger.log(m2fLogger.LogLevel.INFO, "Adding " + set.name + " (no multiverseID, on Gatherer)");
 
                         // Add all the cards anyway

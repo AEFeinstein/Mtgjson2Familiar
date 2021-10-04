@@ -28,6 +28,9 @@ public class CompRulesScraper {
 
             //  Pick the date out of the link 
             String dateSubStr = url.substring(url.length() - 12, url.length() - 4);
+            if("02109224".equals(dateSubStr)){
+                dateSubStr = "20210924";
+            }
             Calendar cal = Calendar.getInstance();
             cal.clear();
             //noinspection MagicConstant
