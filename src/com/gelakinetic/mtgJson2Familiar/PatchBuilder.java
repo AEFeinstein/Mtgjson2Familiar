@@ -246,16 +246,27 @@ public class PatchBuilder {
                         }
                     }
 
-                    // If no cards were added, but the expansion exists on Gatherer
-                    if (newPatch.mCards.isEmpty() && (gathererExpansions.contains(set.name.toLowerCase()))) {
-                        m2fLogger.log(m2fLogger.LogLevel.INFO, "Adding " + set.name + " (no multiverseID, on Gatherer)");
+                    // If no cards were added
+                    if (newPatch.mCards.isEmpty()) {
+                        // but the expansion exists on Gatherer
+                        boolean existsOnGatherer = false;
+                        for (String gathererExpansion : gathererExpansions) {
+                            if (gathererExpansion.toLowerCase().contains(set.name.toLowerCase())) {
+                                existsOnGatherer = true;
+                                break;
+                            }
+                        }
 
-                        // Add all the cards anyway
-                        for (mtgjson_card orig : set.cards) {
-                            // Parse it
-                            Card c = new Card(orig, set, newExpansion, scm);
-                            newPatch.mCards.add(c);
-                            buildCardLegalities(legal, orig, c);
+                        if (existsOnGatherer) {
+                            m2fLogger.log(m2fLogger.LogLevel.INFO, "Adding " + set.name + " (no multiverseID, on Gatherer)");
+
+                            // Add all the cards anyway
+                            for (mtgjson_card orig : set.cards) {
+                                // Parse it
+                                Card c = new Card(orig, set, newExpansion, scm);
+                                newPatch.mCards.add(c);
+                                buildCardLegalities(legal, orig, c);
+                            }
                         }
                     }
 
