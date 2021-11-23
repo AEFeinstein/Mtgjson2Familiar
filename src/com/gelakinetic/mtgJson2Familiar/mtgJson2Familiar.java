@@ -78,6 +78,9 @@ public class mtgJson2Familiar {
             }
         }
 
+        if (0 != status) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Exit with error status " + status);
+        }
         System.exit(status);
     }
 }

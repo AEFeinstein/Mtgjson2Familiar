@@ -43,12 +43,12 @@ public class JudgeDocConverter {
         if (!processWpnDoc("https://wpn.wizards.com/en/document/magic-infraction-procedure-guide", Filenames.IPG_FILE)) {
             ret = false;
         }
-        if (!processJudgeAcademyDoc(Filenames.DIPG_FILE)) {
-            ret = false;
-        }
-        if (!processJudgeAcademyDoc(Filenames.DTR_FILE)) {
-            ret = false;
-        }
+//        if (!processJudgeAcademyDoc(Filenames.DIPG_FILE)) {
+//            ret = false;
+//        }
+//        if (!processJudgeAcademyDoc(Filenames.DTR_FILE)) {
+//            ret = false;
+//        }
 
         // Clean up downloads folder
         for (File toDelete : Objects.requireNonNull(new File(Filenames.DOWNLOADS_DIR).listFiles())) {
