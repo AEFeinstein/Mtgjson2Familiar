@@ -1,5 +1,6 @@
 package com.gelakinetic.mtgJson2Familiar;
 
+import org.apache.commons.text.StringEscapeUtils;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
@@ -43,12 +44,12 @@ public class JudgeDocConverter {
         if (!processWpnDoc("https://wpn.wizards.com/en/document/magic-infraction-procedure-guide", Filenames.IPG_FILE)) {
             ret = false;
         }
-//        if (!processJudgeAcademyDoc(Filenames.DIPG_FILE)) {
-//            ret = false;
-//        }
-//        if (!processJudgeAcademyDoc(Filenames.DTR_FILE)) {
-//            ret = false;
-//        }
+        if (!processMagicGgDoc("Digital_IPG", Filenames.DIPG_FILE)) {
+            ret = false;
+        }
+        if (!processMagicGgDoc("Digital_Tournament_Rules", Filenames.DTR_FILE)) {
+            ret = false;
+        }
 
         // Clean up downloads folder
         for (File toDelete : Objects.requireNonNull(new File(Filenames.DOWNLOADS_DIR).listFiles())) {
@@ -65,31 +66,42 @@ public class JudgeDocConverter {
      * Download, convert, and process a document from Judge Academy
      * After the document is processed, if it differs from the one in the rules folder, copy it to the rules folder
      *
-     * @param outFile The name of the file to write
+     * @param sourceName A part of the name of the source PDF to filter by
+     * @param outFile    The name of the file to write
      * @return true if there were no errors, false if there were errors
      */
-    private static boolean processJudgeAcademyDoc(String outFile) {
+    private static boolean processMagicGgDoc(String sourceName, String outFile) {
 
         m2fLogger.log(m2fLogger.LogLevel.INFO, "Processing Judge Academy, " + outFile);
 
         // Connect to the root page
-        Document docPage = NetUtils.ConnectWithRetries("https://judgeacademy.com/policy-documents/");
+        Document docPage = NetUtils.ConnectWithRetries("https://magic.gg/mtg-arena?section=policy#mtg-arena");
         if (null == docPage) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't connect to https://judgeacademy.com/policy-documents/");
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't connect to https://magic.gg/mtg-arena?section=policy#mtg-arena");
             return false;
         }
 
-        // Find all links in the page
-        for (Element link : docPage.getElementsByTag("a")) {
-            String linkStr = link.attr("href");
-            // If this is a link to a PDF file
-            if (linkStr.toLowerCase().endsWith(".pdf")) {
+        // Find all the scripts
+        for (Element scripts : docPage.getElementsByTag("script")) {
 
-                // Get the PDF name
-                String pdfFileName = linkStr.substring(linkStr.lastIndexOf('/') + 1);
+            // Unescape the script
+            String unescaped = StringEscapeUtils.unescapeJava(scripts.outerHtml());
 
-                // If this is the PDF we're looking for
-                if (pdfFileName.toLowerCase().contains(outFile.substring(1, outFile.lastIndexOf('.')))) {
+            // Look at each line of the script for a PDF
+            Pattern pattern = Pattern.compile("\"(.*" + sourceName + ".*\\.pdf)\"", Pattern.CASE_INSENSITIVE);
+            for (String line : unescaped.split("[\\r\\n]+")) {
+                Matcher matcher = pattern.matcher(line);
+
+                // If the PDF was found
+                if (matcher.find()) {
+                    // Get the link and make sure it starts with https://
+                    String linkStr = matcher.group(1);
+                    if (!linkStr.toLowerCase().startsWith("http")) {
+                        linkStr = "https:" + linkStr;
+                    }
+
+                    // Get the PDF name
+                    String pdfFileName = linkStr.substring(linkStr.lastIndexOf('/') + 1);
 
                     // Create a file to download to
                     File downloadFolder = new File(Filenames.DOWNLOADS_DIR);
@@ -100,6 +112,8 @@ public class JudgeDocConverter {
                 }
             }
         }
+
+        // Made it this far, so the PDF wasn't found and processed
         m2fLogger.log(m2fLogger.LogLevel.ERROR, "Document not found (" + outFile + ")");
         return false;
     }

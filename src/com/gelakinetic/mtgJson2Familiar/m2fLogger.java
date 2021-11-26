@@ -18,7 +18,7 @@ public class m2fLogger {
         if (lvl.ordinal() <= mLogLevel.ordinal()) {
             switch (lvl) {
                 case ERROR: {
-                    System.err.println(str);
+                    System.err.println("ERROR! - " + str);
                     break;
                 }
                 case INFO:
