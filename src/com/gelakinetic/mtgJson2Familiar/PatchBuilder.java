@@ -10,6 +10,12 @@ import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_metafile;
 import com.gelakinetic.mtgfam.helpers.tcgp.TcgpHelper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonSyntaxException;
+import com.google.gson.TypeAdapter;
+import com.google.gson.stream.JsonReader;
+import com.google.gson.stream.JsonToken;
+import com.google.gson.stream.JsonWriter;
+import org.apache.commons.lang3.math.NumberUtils;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -29,6 +35,36 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 public class PatchBuilder {
+
+    public static class EmptyStringToNumberTypeAdapter extends TypeAdapter<Number> {
+        @Override
+        public void write(JsonWriter jsonWriter, Number number) throws IOException {
+            if (number == null) {
+                jsonWriter.nullValue();
+                return;
+            }
+            jsonWriter.value(number);
+        }
+
+        @Override
+        public Number read(JsonReader jsonReader) throws IOException {
+            if (jsonReader.peek() == JsonToken.NULL) {
+                jsonReader.nextNull();
+                return null;
+            }
+
+            try {
+                String value = jsonReader.nextString();
+                if ("".equals(value)) {
+                    return 0;
+                }
+                return NumberUtils.createNumber(value);
+            } catch (NumberFormatException e) {
+                throw new JsonSyntaxException(e);
+            }
+        }
+    }
+
     /**
      * Build all the patches with data from mtgjson
      *
@@ -39,7 +75,17 @@ public class PatchBuilder {
         m2fLogger.log(m2fLogger.LogLevel.INFO, "Building patches");
 
         // Make a gson object
-        Gson gsonReader = new Gson();
+        EmptyStringToNumberTypeAdapter numberTypeAdapter = new EmptyStringToNumberTypeAdapter();
+        Gson gsonReader = new GsonBuilder()
+                .registerTypeAdapter(Double.class, numberTypeAdapter)
+                .registerTypeAdapter(double.class, numberTypeAdapter)
+                .registerTypeAdapter(Float.class, numberTypeAdapter)
+                .registerTypeAdapter(float.class, numberTypeAdapter)
+                .registerTypeAdapter(Long.class, numberTypeAdapter)
+                .registerTypeAdapter(long.class, numberTypeAdapter)
+                .registerTypeAdapter(Integer.class, numberTypeAdapter)
+                .registerTypeAdapter(int.class, numberTypeAdapter)
+                .create();
         Gson gsonWriter = new GsonBuilder()
                 .setFieldNamingStrategy((new PrefixedFieldNamingStrategy("m")))
                 .disableHtmlEscaping()
@@ -271,7 +317,7 @@ public class PatchBuilder {
                         }
                     }
 
-                    // If any cards are in this set and it isn't saved yet
+                    // If any cards are in this set, and it isn't saved yet
                     if (newPatch.mCards.size() > 0) {
                         if (!allPatches.contains(newPatch)) {
                             // Save this patch
