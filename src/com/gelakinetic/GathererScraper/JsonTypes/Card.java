@@ -105,7 +105,11 @@ public class Card implements Comparable<Card> {
         digestStrings.add(Float.toString(mPower));
         digestStrings.add(Float.toString(mToughness));
         digestStrings.add(Integer.toString(mLoyalty));
-        digestStrings.add(Long.toString(mTcgplayerProductId));
+        /* TODO uncomment this when building a new APK.
+         * This should be part of the digest, but adding it changes all digests
+         * forcing everybody to redownload everything
+         */
+        // digestStrings.add(Long.toString(mTcgplayerProductId));
         Collections.sort(mForeignPrintings);
         for (ForeignPrinting fp : mForeignPrintings) {
             digestStrings.add(fp.toString());
