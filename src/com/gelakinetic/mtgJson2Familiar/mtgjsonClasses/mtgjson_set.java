@@ -1,5 +1,6 @@
 package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -30,7 +31,7 @@ public class mtgjson_set {
     public mtgjson_translation translations;
     public String type;
 
-    private final List<String> bannedInHistoricJMP = Arrays.asList(
+    private static final List<String> bannedInHistoricJMP = Arrays.asList(
             "Ajani's Chosen",
             "Angelic Arbiter",
             "Path to Exile",
@@ -50,7 +51,7 @@ public class mtgjson_set {
             "Scrounging Bandar",
             "Time to Feed");
 
-    private final List<String> bannedInHistoricJ21 = Arrays.asList(
+    private static final List<String> bannedInHistoricJ21 = Arrays.asList(
             "Fog",
             "Kraken Hatchling",
             "Ponder",
@@ -79,10 +80,28 @@ public class mtgjson_set {
         legality.standard = "legal";
         legality.vintage = "legal";
 
+        // Figure out what, if any, arena patched cards are in this set
+        ArrayList<String> arenaPatchedCards = new ArrayList<>();
+        ArrayList<String> arenaUnpatchedCards = new ArrayList<>();
+        for (mtgjson_card c : this.cards) {
+            // If this is an arena-only patched card
+            if (c.availability.contains("arena") && !c.availability.contains("paper") &&
+                    c.number.matches("[A-Z]-.*")) {
+                // Add it to the patched and unpatched lists
+                arenaPatchedCards.add(c.name);
+                arenaUnpatchedCards.add(c.name.substring(2));
+            }
+        }
+
         for (mtgjson_card c : this.cards) {
             if ((this.code.equals("JMP") && bannedInHistoricJMP.contains(c.name)) ||
                     (this.code.equals("J21") && bannedInHistoricJ21.contains(c.name))) {
                 c.legalities.historic = "Banned";
+            }
+
+            // Ignore the patched arena cards for legality checks
+            if (arenaPatchedCards.contains(c.name)) {
+                continue;
             }
 
             if (null == c.legalities.brawl) {
@@ -100,7 +119,8 @@ public class mtgjson_set {
             if (null == c.legalities.frontier) {
                 legality.frontier = null;
             }
-            if (null == c.legalities.historic) {
+            // If this card is an unpatched version, ignore it for historic legality
+            if (null == c.legalities.historic && !arenaUnpatchedCards.contains(c.name)) {
                 legality.historic = null;
             }
             if (null == c.legalities.legacy) {
