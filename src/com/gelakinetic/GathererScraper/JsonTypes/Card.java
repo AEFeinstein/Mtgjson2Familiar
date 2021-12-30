@@ -557,6 +557,16 @@ public class Card implements Comparable<Card> {
         }
     }
 
+    @Override
+    public boolean equals(Object o) {
+        return (o instanceof Card) &&
+                (this.mName.equals(((Card) o).mName)) &&
+                (this.mExpansion.equals(((Card) o).mExpansion)) &&
+                (this.mNumber.equals(((Card) o).mNumber)) &&
+                (this.mMultiverseId == ((Card) o).mMultiverseId) &&
+                (this.mTcgplayerProductId == ((Card) o).mTcgplayerProductId);
+    }
+
     /**
      * Returns a number used for sorting by color. This is different for
      * Beatdown because magiccards.info is weird
