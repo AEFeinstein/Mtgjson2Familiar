@@ -94,6 +94,9 @@ public class Card implements Comparable<Card> {
     // This card's security stamp type
     public String mSecurityStamp;
 
+    public Card() {
+    }
+
     public void updateDigest(MessageDigest messageDigest) {
         ArrayList<String> digestStrings = new ArrayList<>();
         digestStrings.add(mManaCost);
@@ -135,6 +138,16 @@ public class Card implements Comparable<Card> {
     public static class ForeignPrinting implements Comparable<ForeignPrinting> {
         public String mName;
         public String mLanguageCode;
+
+        public ForeignPrinting(String code, String name) {
+            this.mLanguageCode = code;
+            this.mName = name;
+        }
+
+        public ForeignPrinting() {
+            this.mLanguageCode = null;
+            this.mName = null;
+        }
 
         @Override
         public int compareTo(ForeignPrinting o) {

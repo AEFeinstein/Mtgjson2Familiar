@@ -293,6 +293,14 @@ public class PatchBuilder {
                         }
                     }
 
+                    // Ensure that Candlelit Cavalry exists
+                    if ("MID".equals(newPatch.mExpansion.mCode_gatherer)) {
+                        CandlelitCavalry cc = new CandlelitCavalry();
+                        if (!newPatch.mCards.contains(cc)) {
+                            newPatch.mCards.add(cc);
+                        }
+                    }
+
                     // If no cards were added
                     if (newPatch.mCards.isEmpty()) {
                         // but the expansion exists on Gatherer
