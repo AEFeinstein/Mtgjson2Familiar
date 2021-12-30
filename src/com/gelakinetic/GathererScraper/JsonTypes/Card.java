@@ -85,6 +85,15 @@ public class Card implements Comparable<Card> {
     // The card's tcgplayer product ID
     public long mTcgplayerProductId;
 
+    // If this card is funny or not
+    public boolean mIsFunny;
+
+    // If this card was rebalanced on Arena
+    public boolean mIsRebalanced;
+
+    // This card's security stamp type
+    public String mSecurityStamp;
+
     public void updateDigest(MessageDigest messageDigest) {
         ArrayList<String> digestStrings = new ArrayList<>();
         digestStrings.add(mManaCost);
@@ -105,11 +114,10 @@ public class Card implements Comparable<Card> {
         digestStrings.add(Float.toString(mPower));
         digestStrings.add(Float.toString(mToughness));
         digestStrings.add(Integer.toString(mLoyalty));
-        /* TODO uncomment this when building a new APK.
-         * This should be part of the digest, but adding it changes all digests
-         * forcing everybody to redownload everything
-         */
-        // digestStrings.add(Long.toString(mTcgplayerProductId));
+        digestStrings.add(Long.toString(mTcgplayerProductId));
+        digestStrings.add(Boolean.toString(mIsFunny));
+        digestStrings.add(Boolean.toString(mIsRebalanced));
+        digestStrings.add(mSecurityStamp);
         Collections.sort(mForeignPrintings);
         for (ForeignPrinting fp : mForeignPrintings) {
             digestStrings.add(fp.toString());
@@ -208,7 +216,7 @@ public class Card implements Comparable<Card> {
         }
 
         // TODO Familiar treats half mana CMC incorrectly
-        this.mCmc = (int) orig.convertedManaCost;
+        this.mCmc = (int) orig.manaValue;
 
         if (null != orig.manaCost) {
             // Remove slashes
@@ -365,6 +373,10 @@ public class Card implements Comparable<Card> {
                 this.mTcgplayerProductId = -1;
             }
         }
+
+        this.mIsFunny = orig.isFunny;
+        this.mIsRebalanced = orig.isRebalanced;
+        this.mSecurityStamp = orig.securityStamp;
 
         orig.legalities.checkStrings();
     }
