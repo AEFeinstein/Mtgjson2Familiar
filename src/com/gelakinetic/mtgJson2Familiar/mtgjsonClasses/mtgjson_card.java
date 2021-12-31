@@ -12,11 +12,11 @@ public class mtgjson_card {
     public List<String> colorIdentity;
     public List<String> colorIndicator;
     public List<String> colors;
-    public float convertedManaCost;
+    // public float convertedManaCost; replaced by manaValue
     public int count;
     public String duelDeck;
     public int edhrecRank;
-    public float faceConvertedManaCost;
+    // public float faceConvertedManaCost; replaced by faceManaValue
     public String faceName;
     public String flavorName;
     public String flavorText;
@@ -70,6 +70,20 @@ public class mtgjson_card {
     public String uuid;
     public List<String> variations;
     public String watermark;
+    // 5.1.0
+    public String originalReleaseDate;
+    // 5.2.0
+    public List<String> cardParts;
+    public String faceFlavorName;
+    public float faceManaValue;
+    public List<String> finishes;
+    public boolean isFunny;
+    public boolean isRebalanced;
+    public float manaValue;
+    public List<String> originalPrintings;
+    public List<String> rebalancedPrintings;
+    public String securityStamp;
+    public String signature;
 
     // hashInit and hashVal were added by me
     private boolean hashInit = false;
