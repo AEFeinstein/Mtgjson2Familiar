@@ -94,6 +94,25 @@ public class mtgjson_set {
         }
 
         for (mtgjson_card c : this.cards) {
+
+            // Ignore reblaanced alchemy cards for legality checks
+            if ("alchemy".equals(this.type) &&
+                    (null == c.legalities.brawl) &&
+                    (null == c.legalities.commander) &&
+                    (null == c.legalities.duel) &&
+                    (null == c.legalities.future) &&
+                    (null == c.legalities.frontier) &&
+                    (null == c.legalities.historic) &&
+                    (null == c.legalities.legacy) &&
+                    (null == c.legalities.modern) &&
+                    (null == c.legalities.pauper) &&
+                    (null == c.legalities.penny) &&
+                    (null == c.legalities.pioneer) &&
+                    (null == c.legalities.standard) &&
+                    (null == c.legalities.vintage)) {
+                continue;
+            }
+
             if ((this.code.equals("JMP") && bannedInHistoricJMP.contains(c.name)) ||
                     (this.code.equals("J21") && bannedInHistoricJ21.contains(c.name))) {
                 c.legalities.historic = "Banned";
