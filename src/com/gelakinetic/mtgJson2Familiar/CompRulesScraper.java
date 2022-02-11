@@ -28,7 +28,7 @@ public class CompRulesScraper {
 
             //  Pick the date out of the link 
             String dateSubStr = url.substring(url.length() - 12, url.length() - 4);
-            if("02109224".equals(dateSubStr)){
+            if ("02109224".equals(dateSubStr)) {
                 dateSubStr = "20210924";
             }
             Calendar cal = Calendar.getInstance();
@@ -77,7 +77,7 @@ public class CompRulesScraper {
         StringBuilder problematicLines = new StringBuilder();
 
         // Download the rules, one line at a time
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(new URL(rulesUrl).openStream(), StandardCharsets.UTF_8))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(new URL(NetUtils.escapeUrl(rulesUrl)).openStream(), StandardCharsets.UTF_8))) {
             // Don't initially add lines
             boolean addLines = false;
             //  Read the file, one line at a time 

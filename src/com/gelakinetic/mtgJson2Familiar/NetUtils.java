@@ -77,4 +77,37 @@ public class NetUtils {
         }
         return line;
     }
+
+    /**
+     * Escape characters in a URL. This was written solely because of a space in a link that WotC posted which could
+     * not be followed
+     *
+     * @param url A URL
+     * @return The URL with spaces replaced with %20
+     */
+    public static String escapeUrl(String url) {
+        return url.replace(" ", "%20");
+//                .replace("<", "%3C")
+//                .replace(">", "%3E")
+//                .replace("#", "%23")
+//                .replace("%", "%25")
+//                .replace("+", "%2B")
+//                .replace("{", "%7B")
+//                .replace("}", "%7D")
+//                .replace("|", "%7C")
+//                .replace("\\", "%5C")
+//                .replace("^", "%5E")
+//                .replace("~", "%7E")
+//                .replace("[", "%5B")
+//                .replace("]", "%5D")
+//                .replace("‘", "%60")
+//                .replace(";", "%3B")
+//                .replace("/", "%2F")
+//                .replace("?", "%3F")
+//                .replace(":", "%3A")
+//                .replace("@", "%40")
+//                .replace("=", "%3D")
+//                .replace("&", "%26")
+//                .replace("$", "%24");
+    }
 }

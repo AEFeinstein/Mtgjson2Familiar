@@ -172,7 +172,7 @@ public class JudgeDocConverter {
     private static boolean downloadAndProcessPDF(String linkStr, File dlFile, String outFileName) {
         try {
             // Download the new file
-            InputStream in = new URL(linkStr).openStream();
+            InputStream in = new URL(NetUtils.escapeUrl(linkStr)).openStream();
             Files.copy(in, dlFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
 
             // Once downloaded, convert it to HTML
