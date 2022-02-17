@@ -26,10 +26,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 import java.util.zip.GZIPOutputStream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
@@ -312,7 +311,32 @@ public class PatchBuilder {
                             }
                         }
 
-                        if (existsOnGatherer) {
+                        // Check if we're less than two weeks away from a release (one week from a prerelease)
+                        boolean isReleaseSoon = false;
+                        try {
+                            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+                            sdf.setTimeZone(TimeZone.getTimeZone("America/New_York"));
+                            long releaseSinceEpochS = sdf.parse(set.releaseDate).getTime() / 1000;
+                            long currentSinceEpochS = java.time.Instant.now().getEpochSecond();
+                            long secUntilRelease = releaseSinceEpochS - currentSinceEpochS;
+                            if (0 < secUntilRelease && secUntilRelease < (60 * 60 * 24 * 14)) {
+                                isReleaseSoon = true;
+                            }
+                        } catch (ParseException e) {
+                            m2fLogger.log(m2fLogger.LogLevel.ERROR, e.getMessage());
+                        }
+
+                        // If the expansion is on gatherer, or it's of a specific type
+                        // and not a partial preview or is releasing soon, add it
+                        if (existsOnGatherer ||
+                                ((!set.isPartialPreview || isReleaseSoon) &&
+                                        ("archenemy".equals(set.type) ||
+                                                "arsenal".equals(set.type) ||
+                                                "commander".equals(set.type) ||
+                                                "duel_deck".equals(set.type) ||
+                                                "expansion".equals(set.type) ||
+                                                "spellbook".equals(set.type) ||
+                                                "draft_innovation".equals(set.type)))) {
                             m2fLogger.log(m2fLogger.LogLevel.INFO, "Adding " + set.name + " (no multiverseID, on Gatherer)");
 
                             // Add all the cards anyway
