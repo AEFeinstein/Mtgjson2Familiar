@@ -89,7 +89,7 @@ public class mtgjson_set {
                     c.number.matches("[A-Z]-.*")) {
                 // Add it to the patched and unpatched lists
                 arenaPatchedCards.add(c.name);
-                arenaUnpatchedCards.add(c.name.substring(2));
+                arenaUnpatchedCards.add(c.name.replaceAll("A-", ""));
             }
         }
 
