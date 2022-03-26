@@ -177,6 +177,11 @@ public class PatchBuilder {
             mtgjson_set set = printings.data.get(key);
             set.removeDuplicateUuids();
 
+            // YMID used to be Y22, and we can't have that changing on us!
+            if ("YMID".equalsIgnoreCase(set.code)) {
+                set.code = "Y22";
+            }
+
             boolean isArenaOnly = (null != set.checkSetLegality().historic) && set.isOnlineOnly;
 
             // If the set has cards
