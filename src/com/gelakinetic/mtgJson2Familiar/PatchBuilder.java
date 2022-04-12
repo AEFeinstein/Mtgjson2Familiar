@@ -284,12 +284,15 @@ public class PatchBuilder {
                         }
                     }
 
+                    boolean isSecretLair = "SLD".equals(newPatch.mExpansion.mCode_gatherer) ||
+                            "SLU".equals(newPatch.mExpansion.mCode_gatherer);
+
                     // For each card
                     for (mtgjson_card orig : set.cards) {
                         // Parse it
                         Card c = new Card(orig, set, newExpansion, scm);
                         // If it has a multiverse ID, or is +2 Mace, add it
-                        if ((c.mMultiverseId > -1 || isArenaOnly) ||
+                        if ((c.mMultiverseId > -1 || isArenaOnly || isSecretLair) ||
                                 ("AFR".equals(set.code) && "+2 Mace".equals(orig.name))) {
                             newPatch.mCards.add(c);
 
