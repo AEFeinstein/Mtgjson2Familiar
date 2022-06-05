@@ -258,8 +258,10 @@ public class Card implements Comparable<Card> {
                     origSet.name.toLowerCase().contains("list")) {
                 // Special -> Timeshifted
                 this.mRarity = 'T';
-            } else if ("CMR".equals(origSet.code)) {
+            } else if ("CMR".equals(origSet.code) ||
+                    "CLB".equals(origSet.code)) {
                 // Special -> Common, Prismatic Piper
+                // Special -> Common, Faceless One
                 this.mRarity = 'C';
             }
         } else if ('B' == this.mRarity) {
@@ -458,7 +460,7 @@ public class Card implements Comparable<Card> {
                     .replace("\n", "<br>")
                     .replace("—", "-");
 
-            text = text.replace("AskUrza.com", "<a href=\"http://www.AskUrza.com\">AskUrza.com</a>");
+            text = text.replace("AskUrza.com", "<a href=\"https://www.AskUrza.com\">AskUrza.com</a>");
 
             for (char c : text.toCharArray()) {
                 if (Character.isISOControl(c) || '\\' == c) {

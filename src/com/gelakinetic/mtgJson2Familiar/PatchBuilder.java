@@ -690,7 +690,7 @@ public class PatchBuilder {
      */
     static ArrayList<String> getGathererExpansionList() {
         ArrayList<String> expansions = new ArrayList<>();
-        Document gathererMain = NetUtils.ConnectWithRetries("http://gatherer.wizards.com/Pages/Default.aspx");
+        Document gathererMain = NetUtils.ConnectWithRetries("https://gatherer.wizards.com/");
         if (null != gathererMain) {
             Elements expansionElements = gathererMain.getElementsByAttributeValueContaining("name", "setAddText");
 
