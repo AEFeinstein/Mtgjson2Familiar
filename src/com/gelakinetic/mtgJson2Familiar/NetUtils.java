@@ -12,7 +12,7 @@ public class NetUtils {
      */
     public static Document ConnectWithRetries(String urlStr) {
         int retries = 0;
-        while (retries < Integer.MAX_VALUE - 1) {
+        while (retries < 10) {
             try {
                 // Note to self. If this stops working, wireshark a regular request from chrome and copy the cookie (and other fields)
                 //noinspection SpellCheckingInspection
@@ -30,6 +30,7 @@ public class NetUtils {
                         .timeout(0)
                         .get();
             } catch (Exception e) {
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Connection error to " + urlStr + ", " + retries + " retries. [" + e.getMessage() + "]");
                 retries++;
                 try {
                     Thread.sleep(1000L * retries);
@@ -38,6 +39,7 @@ public class NetUtils {
                 }
             }
         }
+        m2fLogger.log(m2fLogger.LogLevel.ERROR, "Could not connect to " + urlStr);
         return null;
     }
 

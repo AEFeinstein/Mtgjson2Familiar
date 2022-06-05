@@ -10,6 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 import java.time.LocalDateTime;
 import java.util.Base64;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
 import java.util.regex.Matcher;
@@ -35,13 +36,7 @@ public class JudgeDocConverter {
             }
         }
 
-        if (!processWpnDoc("https://wpn.wizards.com/en/document/magic-gathering-tournament-rules", Filenames.MTR_FILE)) {
-            ret = false;
-        }
-        if (!processWpnDoc("https://wpn.wizards.com/en/document/magic-gathering-judging-regular-rel", Filenames.JAR_FILE)) {
-            ret = false;
-        }
-        if (!processWpnDoc("https://wpn.wizards.com/en/document/magic-infraction-procedure-guide", Filenames.IPG_FILE)) {
+        if (!processWpnDocs()) {
             ret = false;
         }
         if (!processMagicGgDoc("Digital_IPG", Filenames.DIPG_FILE)) {
@@ -119,43 +114,72 @@ public class JudgeDocConverter {
     }
 
     /**
-     * Download, convert, and process a document from Wizards Play Network
+     * Download, convert, and process all documents from Wizards Play Network.
      * After the document is processed, if it differs from the one in the rules folder, copy it to the rules folder
+     * <p>
+     * https://wpn.wizards.com/en/rules-documents only loads a subset of documents. Rather than clicking the
+     * "load more" button this function will only scan the first loaded links. These are the most recent documents.
+     * This function may not process all three judge docs if the links aren't on the front page.
      *
-     * @param pageUrl The URL for the page which has the PDF link in it
-     * @param outFile The name of the file to write
      * @return true if there were no errors, false if there were errors
      */
-    private static boolean processWpnDoc(String pageUrl, String outFile) {
+    private static boolean processWpnDocs() {
+        m2fLogger.log(m2fLogger.LogLevel.INFO, "Processing Wizards Play Network docs");
 
-        m2fLogger.log(m2fLogger.LogLevel.INFO, "Processing Wizards Play Network, " + outFile);
+        HashMap<String, String> filesToProcess = new HashMap<>();
 
-        // Connect to the root page
-        Document docPage = NetUtils.ConnectWithRetries(pageUrl);
-        if (null == docPage) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't connect to " + pageUrl);
-            return false;
-        }
+        // Example URLs
+        // filesToProcess.put(Filenames.MTR_FILE, "https://media.wpn.wizards.com/attachements/mtg_mtr_2022mar7_en.pdf");
+        // filesToProcess.put(Filenames.IPG_FILE, "https://media.wpn.wizards.com/attachements/mtg_ipg_5feb21_en_0.pdf");
+        // filesToProcess.put(Filenames.JAR_FILE, "https://media.wpn.wizards.com/attachements/mtg_jar_25sep20_en.pdf");
 
-        // Find all links in the page
-        for (Element link : docPage.getElementsByTag("a")) {
-            String linkStr = link.attr("href");
-            // If this is a link to a PDF file
-            if (linkStr.toLowerCase().endsWith(".pdf")) {
-
-                // Get the PDF name
-                String pdfFileName = linkStr.substring(linkStr.lastIndexOf('/') + 1);
-
-                // Create a file to download to
-                File downloadFolder = new File(Filenames.DOWNLOADS_DIR);
-                File dlFile = new File(downloadFolder, pdfFileName);
-
-                // Download and process the PDF
-                return downloadAndProcessPDF(linkStr, dlFile, outFile);
+        // Just get links from the first page, which is sorted by date updated
+        Document wpnPage = NetUtils.ConnectWithRetries("https://wpn.wizards.com/en/rules-documents");
+        if (null != wpnPage) {
+            for (Element link : wpnPage.getElementsByTag("a")) {
+                String linkStr = link.attr("href");
+                // If this is a link to a PDF file
+                if (linkStr.toLowerCase().endsWith(".pdf")) {
+                    // Check the type
+                    if (linkStr.toLowerCase().contains("_mtr_")) {
+                        // Don't allow duplicates
+                        if (!filesToProcess.containsKey(Filenames.MTR_FILE)) {
+                            filesToProcess.put(Filenames.MTR_FILE, linkStr);
+                        }
+                    } else if (linkStr.toLowerCase().contains("_ipg_")) {
+                        // Don't allow duplicates
+                        if (!filesToProcess.containsKey(Filenames.IPG_FILE)) {
+                            filesToProcess.put(Filenames.IPG_FILE, linkStr);
+                        }
+                    } else if (linkStr.toLowerCase().contains("_jar_")) {
+                        // Don't allow duplicates
+                        if (!filesToProcess.containsKey(Filenames.JAR_FILE)) {
+                            filesToProcess.put(Filenames.JAR_FILE, linkStr);
+                        }
+                    }
+                }
             }
         }
-        m2fLogger.log(m2fLogger.LogLevel.ERROR, "Document not found (" + outFile + ")");
-        return false;
+
+        boolean ret = true;
+        // For each document on the main page to process
+        for (String outFile : filesToProcess.keySet()) {
+            // Get the link from the hashmap
+            String linkStr = filesToProcess.get(outFile);
+
+            // Get the PDF name from the link
+            String pdfFileName = linkStr.substring(linkStr.lastIndexOf('/') + 1);
+
+            // Create a file to download to
+            File downloadFolder = new File(Filenames.DOWNLOADS_DIR);
+            File dlFile = new File(downloadFolder, pdfFileName);
+
+            // Download and process the PDF
+            if (!downloadAndProcessPDF(linkStr, dlFile, outFile)) {
+                ret = false;
+            }
+        }
+        return ret;
     }
 
     /**
