@@ -95,6 +95,9 @@ public class Card implements Comparable<Card> {
     // This card's security stamp type
     public String mSecurityStamp;
 
+    // If this card is a token or not
+    public boolean mIsToken;
+
     public Card() {
     }
 
@@ -122,6 +125,9 @@ public class Card implements Comparable<Card> {
         digestStrings.add(Boolean.toString(mIsFunny));
         digestStrings.add(Boolean.toString(mIsRebalanced));
         digestStrings.add(mSecurityStamp);
+        if (mIsToken) {
+            digestStrings.add(Boolean.toString(true));
+        }
         Collections.sort(mForeignPrintings);
         for (ForeignPrinting fp : mForeignPrintings) {
             digestStrings.add(fp.toString());
@@ -239,6 +245,7 @@ public class Card implements Comparable<Card> {
         this.mIsFunny = false;
         this.mIsRebalanced = false;
         this.mSecurityStamp = null;
+        this.mIsToken = true;
     }
 
     public Card(mtgjson_card orig, mtgjson_set origSet, Expansion newExpansion, setCodeMapper scm) {
@@ -438,6 +445,7 @@ public class Card implements Comparable<Card> {
         this.mIsFunny = orig.isFunny;
         this.mIsRebalanced = orig.isRebalanced;
         this.mSecurityStamp = orig.securityStamp;
+        this.mIsToken = false;
 
         orig.legalities.checkStrings();
     }

@@ -5,10 +5,7 @@ import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.*;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_allPrintings;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_metafile;
 import com.gelakinetic.mtgfam.helpers.tcgp.TcgpHelper;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonSyntaxException;
-import com.google.gson.TypeAdapter;
+import com.google.gson.*;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
@@ -18,6 +15,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.*;
+import java.lang.reflect.Type;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -31,6 +29,39 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 public class PatchBuilder {
+
+    /**
+     * Custom class to serialize Card objects and omit mIsToken if it is false
+     */
+    private static class CardJsonSerializer implements JsonSerializer<Card> {
+
+        private final Gson mGson;
+
+        public CardJsonSerializer() {
+            mGson = new GsonBuilder()
+                    .setFieldNamingStrategy((new PrefixedFieldNamingStrategy("m")))
+                    .disableHtmlEscaping()
+                    .setPrettyPrinting()
+                    .create();
+        }
+
+        /**
+         * Serialize the card as normal, but omit mIsToken if it is false
+         *
+         * @param card                     The card to serialze
+         * @param type                     The type, ignored
+         * @param jsonSerializationContext A context, ignored
+         * @return The serialized card as a JsonElement
+         */
+        @Override
+        public JsonElement serialize(Card card, Type type, JsonSerializationContext jsonSerializationContext) {
+            JsonObject jObj = (JsonObject) mGson.toJsonTree(card);
+            if (!card.mIsToken) {
+                jObj.remove("isToken");
+            }
+            return jObj;
+        }
+    }
 
     public static class EmptyStringToNumberTypeAdapter extends TypeAdapter<Number> {
         @Override
@@ -82,8 +113,10 @@ public class PatchBuilder {
                 .registerTypeAdapter(Integer.class, numberTypeAdapter)
                 .registerTypeAdapter(int.class, numberTypeAdapter)
                 .create();
+        CardJsonSerializer cjs = new CardJsonSerializer();
         Gson gsonWriter = new GsonBuilder()
                 .setFieldNamingStrategy((new PrefixedFieldNamingStrategy("m")))
+                .registerTypeAdapter(Card.class, cjs)
                 .disableHtmlEscaping()
                 .setPrettyPrinting()
                 .create();
