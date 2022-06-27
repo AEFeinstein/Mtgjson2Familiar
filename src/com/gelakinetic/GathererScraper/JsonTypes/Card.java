@@ -4,6 +4,7 @@ import com.gelakinetic.mtgJson2Familiar.m2fLogger;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_foreignData;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
+import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_token;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
 
@@ -193,6 +194,51 @@ public class Card implements Comparable<Card> {
         public static final String Greek = "el";
 
         public static final String Phyrexian = "phy";
+    }
+
+    public Card(mtgjson_token token, mtgjson_set origSet, Expansion newExpansion, setCodeMapper scm) {
+
+        this.mName = token.name;
+        this.mNumber = token.number;
+
+        this.mScryfallSetCode = origSet.code;
+        this.mExpansion = scm.getFamiliarCode(origSet.code);
+
+        // Override the expansion code to merge Media Promos
+        if (newExpansion.mCode_gatherer.equals("MBP")) {
+            this.mExpansion = "MBP";
+        }
+
+        this.mCmc = 0;
+        this.mManaCost = null;
+        this.mSortedManaCost = null;
+
+        this.mColor = colorListToString(token.colors);
+        this.mColorIdentity = colorListToString(token.colorIdentity);
+
+        this.mFlavor = null;
+        this.mArtist = token.artist;
+        this.mWatermark = token.watermark;
+        if (null != mWatermark) {
+            this.mWatermark = this.mWatermark.substring(0, 1).toUpperCase() + this.mWatermark.substring(1);
+        }
+        this.mRarity = 'C';
+
+        this.mForeignPrintings = new ArrayList<>();
+
+        this.mPower = parsePTL(token.power);
+        this.mToughness = parsePTL(token.toughness);
+        this.mLoyalty = (int) parsePTL(token.loyalty);
+
+        this.mType = htmlifyText(token.type);
+        this.mText = htmlifyText(token.text);
+
+        this.mMultiverseId = -1;
+        this.mTcgplayerProductId = -1;
+
+        this.mIsFunny = false;
+        this.mIsRebalanced = false;
+        this.mSecurityStamp = null;
     }
 
     public Card(mtgjson_card orig, mtgjson_set origSet, Expansion newExpansion, setCodeMapper scm) {

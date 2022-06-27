@@ -1,10 +1,7 @@
 package com.gelakinetic.mtgJson2Familiar;
 
 import com.gelakinetic.GathererScraper.JsonTypes.*;
-import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
-import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_legalities;
-import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_meta;
-import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
+import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.*;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_allPrintings;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_metafile;
 import com.gelakinetic.mtgfam.helpers.tcgp.TcgpHelper;
@@ -297,6 +294,14 @@ public class PatchBuilder {
                             newPatch.mCards.add(c);
 
                             buildCardLegalities(legal, orig, c);
+                        }
+                    }
+
+                    // For dungeons
+                    for (mtgjson_token token : set.tokens) {
+                        if (token.type.contains("Dungeon")) {
+                            Card c = new Card(token, set, newExpansion, scm);
+                            newPatch.mCards.add(c);
                         }
                     }
 
