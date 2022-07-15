@@ -212,7 +212,7 @@ public class PatchBuilder {
                 set.code = "Y22";
             }
 
-            boolean isArenaOnly = (null != set.checkSetLegality().historic) && set.isOnlineOnly;
+            boolean isArenaOnly = set.isArenaOnly();
 
             // If the set has cards
             if (!set.cards.isEmpty()) {

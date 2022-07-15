@@ -80,22 +80,20 @@ public class mtgjson_set {
         legality.standard = "legal";
         legality.vintage = "legal";
 
+        boolean isOnArena = isOnArena();
         // Figure out what, if any, arena patched cards are in this set
-        ArrayList<String> arenaPatchedCards = new ArrayList<>();
-        ArrayList<String> arenaUnpatchedCards = new ArrayList<>();
+        ArrayList<String> arenaUnbalancedCards = new ArrayList<>();
         for (mtgjson_card c : this.cards) {
             // If this is an arena-only patched card
-            if (c.availability.contains("arena") && !c.availability.contains("paper") &&
-                    c.number.matches("[A-Z]-.*")) {
+            if ( (c.isRebalanced || c.name.startsWith("A-")) && c.availability.contains("arena")) {
                 // Add it to the patched and unpatched lists
-                arenaPatchedCards.add(c.name);
-                arenaUnpatchedCards.add(c.name.replaceAll("A-", ""));
+                arenaUnbalancedCards.add(c.name.replaceAll("A-", ""));
             }
         }
 
         for (mtgjson_card c : this.cards) {
 
-            // Ignore reblaanced alchemy cards for legality checks
+            // Ignore rebalanced alchemy cards for legality checks
             if ("alchemy".equals(this.type) &&
                     (null == c.legalities.brawl) &&
                     (null == c.legalities.commander) &&
@@ -113,13 +111,14 @@ public class mtgjson_set {
                 continue;
             }
 
+            // These cards are conjured, not legal for deck construction
             if ((this.code.equals("JMP") && bannedInHistoricJMP.contains(c.name)) ||
                     (this.code.equals("J21") && bannedInHistoricJ21.contains(c.name))) {
                 c.legalities.historic = "Banned";
             }
 
             // Ignore the patched arena cards for legality checks
-            if (arenaPatchedCards.contains(c.name)) {
+            if (arenaUnbalancedCards.contains(c.name)) {
                 continue;
             }
 
@@ -139,7 +138,7 @@ public class mtgjson_set {
                 legality.frontier = null;
             }
             // If this card is an unpatched version, ignore it for historic legality
-            if (null == c.legalities.historic && !arenaUnpatchedCards.contains(c.name)) {
+            if (null == c.legalities.historic && !isOnArena && !arenaUnbalancedCards.contains(c.name)) {
                 legality.historic = null;
             }
             if (null == c.legalities.legacy) {
@@ -180,5 +179,37 @@ public class mtgjson_set {
             this.cards.clear();
             this.cards.addAll(uniqueCards);
         }
+    }
+
+    /**
+     * It counts as a set on arena if more than 50% of the cards are available on arena
+     *
+     * @return true or false
+     */
+    public boolean isOnArena() {
+        int arenaCards = 0;
+        for (mtgjson_card card : this.cards) {
+            if (card.availability.contains("arena")) {
+                arenaCards++;
+            }
+        }
+        return arenaCards > this.cards.size() / 2;
+    }
+
+    public boolean isArenaOnly() {
+        // First check if this is online only
+        if (!this.isOnlineOnly) {
+            return false;
+        }
+
+        // Then check if all cards are available on arena
+        for (mtgjson_card card : this.cards) {
+            if (!card.availability.contains("arena")) {
+                return false;
+            }
+        }
+
+        // Online only and all cards available on Arena
+        return true;
     }
 }
