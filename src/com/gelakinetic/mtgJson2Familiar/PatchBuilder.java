@@ -565,6 +565,36 @@ public class PatchBuilder {
         return downloaded;
     }
 
+    private static final List<String> bannedInHistoricJMP = Arrays.asList(
+            "Ajani's Chosen",
+            "Angelic Arbiter",
+            "Path to Exile",
+            "Read the Runes",
+            "Rhystic Study",
+            "Thought Scour",
+            "Exhume",
+            "Mausoleum Turnkey",
+            "Reanimate",
+            "Scourge of Nel Toth",
+            "Ball Lightning",
+            "Chain Lightning",
+            "Draconic Roar",
+            "Flametongue Kavu",
+            "Goblin Lore",
+            "Fa'adiyah Seer",
+            "Scrounging Bandar",
+            "Time to Feed");
+
+    private static final List<String> bannedInHistoricJ21 = Arrays.asList(
+            "Fog",
+            "Kraken Hatchling",
+            "Ponder",
+            "Regal Force",
+            "Stormfront Pegasus",
+            "Force Spike",
+            "Assault Strobe",
+            "Tropical Island");
+
     /**
      * If this card is banned or restricted in a format, add it to the list
      *
@@ -573,6 +603,14 @@ public class PatchBuilder {
      * @param c     THe mtg familiar card
      */
     private static void buildCardLegalities(LegalityData legal, mtgjson_card orig, Card c) {
+
+        // These cards are conjured, not legal for deck construction
+        if ((orig.setCode.equals("JMP") && bannedInHistoricJMP.contains(orig.name)) ||
+                (orig.setCode.equals("J21") && bannedInHistoricJ21.contains(orig.name))) {
+            orig.legalities.historic = "Banned";
+        }
+
+
         // See if this card is banned or restricted
         for (LegalityData.Format fmt : legal.mFormats) {
             // Check for bans

@@ -1,9 +1,6 @@
 package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class mtgjson_set {
     public int baseSetSize;
@@ -31,137 +28,103 @@ public class mtgjson_set {
     public mtgjson_translation translations;
     public String type;
 
-    private static final List<String> bannedInHistoricJMP = Arrays.asList(
-            "Ajani's Chosen",
-            "Angelic Arbiter",
-            "Path to Exile",
-            "Read the Runes",
-            "Rhystic Study",
-            "Thought Scour",
-            "Exhume",
-            "Mausoleum Turnkey",
-            "Reanimate",
-            "Scourge of Nel Toth",
-            "Ball Lightning",
-            "Chain Lightning",
-            "Draconic Roar",
-            "Flametongue Kavu",
-            "Goblin Lore",
-            "Fa'adiyah Seer",
-            "Scrounging Bandar",
-            "Time to Feed");
-
-    private static final List<String> bannedInHistoricJ21 = Arrays.asList(
-            "Fog",
-            "Kraken Hatchling",
-            "Ponder",
-            "Regal Force",
-            "Stormfront Pegasus",
-            "Force Spike",
-            "Assault Strobe",
-            "Tropical Island");
-
     /**
      * @return The legality of this set, based on the legality of the cards in this set
      */
     public mtgjson_legalities checkSetLegality() {
-        mtgjson_legalities legality = new mtgjson_legalities();
-        legality.brawl = "legal";
-        legality.commander = "legal";
-        legality.duel = "legal";
-        legality.future = "legal";
-        legality.frontier = "legal";
-        legality.historic = "legal";
-        legality.legacy = "legal";
-        legality.modern = "legal";
-        legality.pauper = "legal";
-        legality.penny = "legal";
-        legality.pioneer = "legal";
-        legality.standard = "legal";
-        legality.vintage = "legal";
+        HashMap<String, Integer> cardsInFormat = new HashMap<>();
+        cardsInFormat.put("brawl", 0);
+        cardsInFormat.put("commander", 0);
+        cardsInFormat.put("duel", 0);
+        cardsInFormat.put("future", 0);
+        cardsInFormat.put("frontier", 0);
+        cardsInFormat.put("historic", 0);
+        cardsInFormat.put("legacy", 0);
+        cardsInFormat.put("modern", 0);
+        cardsInFormat.put("pauper", 0);
+        cardsInFormat.put("penny", 0);
+        cardsInFormat.put("pioneer", 0);
+        cardsInFormat.put("standard", 0);
+        cardsInFormat.put("vintage", 0);
 
-        boolean isOnArena = isOnArena();
-        // Figure out what, if any, arena patched cards are in this set
-        ArrayList<String> arenaUnbalancedCards = new ArrayList<>();
+        int paperCards = 0;
+        int arenaCards = 0;
+        int rebalancedCards = 0;
         for (mtgjson_card c : this.cards) {
-            // If this is an arena-only patched card
-            if ( (c.isRebalanced || c.name.startsWith("A-")) && c.availability.contains("arena")) {
-                // Add it to the patched and unpatched lists
-                arenaUnbalancedCards.add(c.name.replaceAll("A-", ""));
+
+            if (c.availability.contains("paper") && !c.isRebalanced && !c.isOnlineOnly) {
+                paperCards++;
+            }
+            if (c.availability.contains("arena")) {
+                arenaCards++;
+            }
+            if (null != c.rebalancedPrintings) {
+                rebalancedCards += c.rebalancedPrintings.size();
+            }
+            if (null != c.legalities.brawl) {
+                cardsInFormat.put("brawl", cardsInFormat.get("brawl") + 1);
+            }
+            if (null != c.legalities.commander) {
+                cardsInFormat.put("commander", cardsInFormat.get("commander") + 1);
+            }
+            if (null != c.legalities.duel) {
+                cardsInFormat.put("duel", cardsInFormat.get("duel") + 1);
+            }
+            if (null != c.legalities.future) {
+                cardsInFormat.put("future", cardsInFormat.get("future") + 1);
+            }
+            if (null != c.legalities.frontier) {
+                cardsInFormat.put("frontier", cardsInFormat.get("frontier") + 1);
+            }
+            if (null != c.legalities.historic) {
+                cardsInFormat.put("historic", cardsInFormat.get("historic") + 1);
+            }
+            if (null != c.legalities.legacy) {
+                cardsInFormat.put("legacy", cardsInFormat.get("legacy") + 1);
+            }
+            if (null != c.legalities.modern) {
+                cardsInFormat.put("modern", cardsInFormat.get("modern") + 1);
+            }
+            if (null != c.legalities.pauper) {
+                cardsInFormat.put("pauper", cardsInFormat.get("pauper") + 1);
+            }
+            if (null != c.legalities.penny) {
+                cardsInFormat.put("penny", cardsInFormat.get("penny") + 1);
+            }
+            if (null != c.legalities.pioneer) {
+                cardsInFormat.put("pioneer", cardsInFormat.get("pioneer") + 1);
+            }
+            if (null != c.legalities.standard) {
+                cardsInFormat.put("standard", cardsInFormat.get("standard") + 1);
+            }
+            if (null != c.legalities.vintage) {
+                cardsInFormat.put("vintage", cardsInFormat.get("vintage") + 1);
             }
         }
 
-        for (mtgjson_card c : this.cards) {
-
-            // Ignore rebalanced alchemy cards for legality checks
-            if ("alchemy".equals(this.type) &&
-                    (null == c.legalities.brawl) &&
-                    (null == c.legalities.commander) &&
-                    (null == c.legalities.duel) &&
-                    (null == c.legalities.future) &&
-                    (null == c.legalities.frontier) &&
-                    (null == c.legalities.historic) &&
-                    (null == c.legalities.legacy) &&
-                    (null == c.legalities.modern) &&
-                    (null == c.legalities.pauper) &&
-                    (null == c.legalities.penny) &&
-                    (null == c.legalities.pioneer) &&
-                    (null == c.legalities.standard) &&
-                    (null == c.legalities.vintage)) {
-                continue;
+        mtgjson_legalities legality = new mtgjson_legalities();
+        if (this.isOnlineOnly) {
+            legality.historic = (arenaCards > 0) ? "legal" : null;
+        } else {
+            legality.brawl = (cardsInFormat.get("brawl") >= (paperCards - rebalancedCards) ? "legal" : null);
+            legality.commander = (cardsInFormat.get("commander") >= (paperCards - rebalancedCards) ? "legal" : null);
+            legality.duel = (cardsInFormat.get("duel") >= (paperCards - rebalancedCards) ? "legal" : null);
+            legality.future = (cardsInFormat.get("future") >= (paperCards - rebalancedCards) ? "legal" : null);
+            legality.frontier = (cardsInFormat.get("frontier") >= (paperCards - rebalancedCards) ? "legal" : null);
+            if (arenaCards > 0) {
+                if (arenaCards == cardsInFormat.get("historic")) {
+                    legality.historic = "legal";
+                } else if ((arenaCards > 50) && cardsInFormat.get("historic") >= (arenaCards - rebalancedCards)) {
+                    legality.historic = "legal";
+                }
             }
-
-            // These cards are conjured, not legal for deck construction
-            if ((this.code.equals("JMP") && bannedInHistoricJMP.contains(c.name)) ||
-                    (this.code.equals("J21") && bannedInHistoricJ21.contains(c.name))) {
-                c.legalities.historic = "Banned";
-            }
-
-            // Ignore the patched arena cards for legality checks
-            if (arenaUnbalancedCards.contains(c.name)) {
-                continue;
-            }
-
-            if (null == c.legalities.brawl) {
-                legality.brawl = null;
-            }
-            if (null == c.legalities.commander) {
-                legality.commander = null;
-            }
-            if (null == c.legalities.duel) {
-                legality.duel = null;
-            }
-            if (null == c.legalities.future) {
-                legality.future = null;
-            }
-            if (null == c.legalities.frontier) {
-                legality.frontier = null;
-            }
-            // If this card is an unpatched version, ignore it for historic legality
-            if (null == c.legalities.historic && !isOnArena && !arenaUnbalancedCards.contains(c.name)) {
-                legality.historic = null;
-            }
-            if (null == c.legalities.legacy) {
-                legality.legacy = null;
-            }
-            if (null == c.legalities.modern) {
-                legality.modern = null;
-            }
-            if (null == c.legalities.pauper) {
-                legality.pauper = null;
-            }
-            if (null == c.legalities.penny) {
-                legality.penny = null;
-            }
-            if (null == c.legalities.pioneer) {
-                legality.pioneer = null;
-            }
-            if (null == c.legalities.standard) {
-                legality.standard = null;
-            }
-            if (null == c.legalities.vintage) {
-                legality.vintage = null;
-            }
+            legality.legacy = (cardsInFormat.get("legacy") >= (paperCards - rebalancedCards) ? "legal" : null);
+            legality.modern = (cardsInFormat.get("modern") >= (paperCards - rebalancedCards) ? "legal" : null);
+            legality.pauper = (cardsInFormat.get("pauper") >= (paperCards - rebalancedCards) ? "legal" : null);
+            legality.penny = (cardsInFormat.get("penny") >= (paperCards - rebalancedCards) ? "legal" : null);
+            legality.pioneer = (cardsInFormat.get("pioneer") >= (paperCards - rebalancedCards) ? "legal" : null);
+            legality.standard = (cardsInFormat.get("standard") >= (paperCards - rebalancedCards) ? "legal" : null);
+            legality.vintage = (cardsInFormat.get("vintage") >= (paperCards - rebalancedCards) ? "legal" : null);
         }
         return legality;
     }
@@ -179,21 +142,6 @@ public class mtgjson_set {
             this.cards.clear();
             this.cards.addAll(uniqueCards);
         }
-    }
-
-    /**
-     * It counts as a set on arena if more than 50% of the cards are available on arena
-     *
-     * @return true or false
-     */
-    public boolean isOnArena() {
-        int arenaCards = 0;
-        for (mtgjson_card card : this.cards) {
-            if (card.availability.contains("arena")) {
-                arenaCards++;
-            }
-        }
-        return arenaCards > this.cards.size() / 2;
     }
 
     public boolean isArenaOnly() {
