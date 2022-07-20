@@ -431,15 +431,17 @@ public class Card implements Comparable<Card> {
             this.mMultiverseId = -1;
         }
 
-        if (null == orig.identifiers.tcgplayerProductId) {
-            this.mTcgplayerProductId = -1;
-        } else {
-            try {
+        try {
+            if (null != orig.identifiers.tcgplayerProductId) {
                 this.mTcgplayerProductId = Long.parseLong(orig.identifiers.tcgplayerProductId);
-            } catch (NumberFormatException e) {
-                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Invalid tcgplayerProductId: " + orig.identifiers.tcgplayerProductId);
+            } else if (null != orig.identifiers.tcgplayerEtchedProductId) {
+                this.mTcgplayerProductId = Long.parseLong(orig.identifiers.tcgplayerEtchedProductId);
+            } else {
                 this.mTcgplayerProductId = -1;
             }
+        } catch (NumberFormatException e) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Invalid tcgplayerProductId: " + orig.identifiers.tcgplayerProductId);
+            this.mTcgplayerProductId = -1;
         }
 
         this.mIsFunny = orig.isFunny;
