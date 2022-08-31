@@ -202,7 +202,9 @@ public class Expansion {
                 // Attempt to download it
                 String[] strUrls = {
                         "https://gatherer.wizards.com/Handlers/Image.ashx?type=symbol&set=" + this.mCode_gatherer + "&size=large&rarity=" + rarity,
-                        "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer + "_" + rarity + ".png"
+                        "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer + "_" + rarity + ".png",
+                        "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_expsym_" + (rarity + "").toLowerCase() + "_web_en.png",
+                        "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_expsym_" + (rarity + "").toLowerCase() + "c_web_en.png"
                 };
 
                 for (String strUrl : strUrls) {
