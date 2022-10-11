@@ -34,9 +34,7 @@ public class CompRulesScraper {
             Calendar cal = Calendar.getInstance();
             cal.clear();
             //noinspection MagicConstant
-            cal.set(Integer.parseInt(dateSubStr.substring(0, 4)),
-                    Integer.parseInt(dateSubStr.substring(4, 6)) - 1,
-                    Integer.parseInt(dateSubStr.substring(6, 8)));
+            cal.set(Integer.parseInt(dateSubStr.substring(0, 4)), Integer.parseInt(dateSubStr.substring(4, 6)) - 1, Integer.parseInt(dateSubStr.substring(6, 8)));
             String date = GetEmbeddedDate(cal);
 
             // Check the date from the URL and the date in the last parsed rules
@@ -76,13 +74,56 @@ public class CompRulesScraper {
         StringBuilder compRules = new StringBuilder();
         StringBuilder problematicLines = new StringBuilder();
 
+        // Try parsing rules with UTF8
+        try {
+            downloadRulesCharset(rulesUrl, compRules, problematicLines, "UTF-8");
+            if (problematicLines.length() > 0) {
+                // If there are problematic lines, reset and try parsing with cp1252
+                compRules.setLength(0);
+                problematicLines.setLength(0);
+                downloadRulesCharset(rulesUrl, compRules, problematicLines, "Cp1252");
+            }
+        } catch (IOException e) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error parsing rules");
+            m2fLogger.logStackTrace(e);
+            return false;
+        }
+
+        // If there are any problematic lines, print them and return
+        if (!problematicLines.toString().isEmpty()) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Problematic lines in comp rules:\n" + problematicLines);
+            return false;
+        }
+
+        // If there were no errors or problematic lines
+        try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(Filenames.RULES_DIR, Filenames.COMP_RULES)), StandardCharsets.UTF_8))) {
+            // Write the rules to the file
+            bw.write(GetEmbeddedDate(date).replace("\r", ""));
+            bw.write("\n\n");
+            bw.write(compRules.toString().replace("\r", ""));
+        } catch (IOException e) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error writing rules");
+            m2fLogger.logStackTrace(e);
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * @param rulesUrl         The URL for the rules to download
+     * @param compRules        The StringBuilder to write rules to
+     * @param problematicLines The StringBuilder to write problematic lines to
+     * @param charset          The charset to interpret the file with
+     */
+    private void downloadRulesCharset(String rulesUrl, StringBuilder compRules, StringBuilder problematicLines, String charset) throws IOException {
         // Download the rules, one line at a time
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(new URL(NetUtils.escapeUrl(rulesUrl)).openStream(), StandardCharsets.UTF_8))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(new URL(NetUtils.escapeUrl(rulesUrl)).openStream(), charset))) {
             // Don't initially add lines
             boolean addLines = false;
-            //  Read the file, one line at a time 
+            //  Read the file, one line at a time
             String line;
             while ((line = br.readLine()) != null) {
+
                 //  Clean the line
                 line = NetUtils.removeNonAscii(line);
 
@@ -111,30 +152,7 @@ public class CompRulesScraper {
                     }
                 }
             }
-        } catch (IOException e) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error parsing rules");
-            m2fLogger.logStackTrace(e);
-            return false;
         }
-
-        // If there are any problematic lines, print them and return
-        if (!problematicLines.toString().isEmpty()) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Problematic lines in comp rules:\n" + problematicLines);
-            return false;
-        }
-
-        // If there were no errors or problematic lines
-        try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(Filenames.RULES_DIR, Filenames.COMP_RULES)), StandardCharsets.UTF_8))) {
-            // Write the rules to the file
-            bw.write(GetEmbeddedDate(date).replace("\r", ""));
-            bw.write("\n\n");
-            bw.write(compRules.toString().replace("\r", ""));
-        } catch (IOException e) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error writing rules");
-            m2fLogger.logStackTrace(e);
-            return false;
-        }
-        return true;
     }
 
     /**
