@@ -6,11 +6,11 @@
     "name_tcgp": "Jumpstart 2022",
     "name_mkm": "Jumpstart 2022",
     "releaseTimestamp": 1669957200,
-    "canBeFoil": true,
+    "canBeFoil": false,
     "isOnlineOnly": false,
     "borderColor": "Black",
     "type": "draft_innovation",
-    "digest": "2d34373bcf1c73941e32825698a7de15",
+    "digest": "6a88803abffff8447b5bb2bbf4153758",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/J22_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/J22_M.png",
@@ -72,7 +72,7 @@
       "sortedManaCost": "{2}{W}",
       "cmc": 3,
       "type": "Enchantment - Aura",
-      "text": "Enchant creature you control<br>When Chains of Custody enters the battlefield, exile target nonland permanent an opponent controls until Chains of Custody leaves the battlefield.<br>Enchanted creature has ward {2}. Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",
+      "text": "Enchant creature you control<br>When Chains of Custody enters the battlefield, exile target nonland permanent an opponent controls until Chains of Custody leaves the battlefield.<br>Enchanted creature has ward {2}. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",
       "expansion": "J22",
       "scryfallSetCode": "J22",
       "rarity": "C",
@@ -378,7 +378,7 @@
       "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Creature - Shapeshifter Pirate",
-      "text": "When may have Pirated copy enter the battlefield as a copy of any creature on the battlefield, except it's a Pirate in addition to its other types and it has \"Whenever this creature or another creature with the same name deals combat damage to a player, you may draw a card.\"",
+      "text": "You may have Pirated Copy enter the battlefield as a copy of any creature on the battlefield, except it's a Pirate in addition to its other types and it has \"Whenever this creature or another creature with the same name deals combat damage to a player, you may draw a card.\"",
       "expansion": "J22",
       "scryfallSetCode": "J22",
       "rarity": "M",
@@ -426,7 +426,7 @@
       "sortedManaCost": "{4}{U}",
       "cmc": 5,
       "type": "Instant",
-      "text": "This spell costs {2} less to cast if you control two or more creatures that share a creature type.<br>Put target nonland permanent into its owner's library second from the top.",
+      "text": "This spell costs {2} less to cast if you control at least two creatures that share a creature type.<br>Put target nonland permanent into its owner's library second from the top.",
       "flavor": "\"I told you this one would be a handful.\"",
       "expansion": "J22",
       "scryfallSetCode": "J22",
@@ -475,7 +475,7 @@
       "cmc": 4,
       "type": "Creature - Demon",
       "text": "Conductor of Cacophony enters the battlefield with two +1/+1 counters on it.<br>{B}, Remove a +1/+1 counter from Conductor of Cacophony: It deals 1 damage to each other creature and each player.",
-      "flavor": "Onlv an imitation of tortured shrieking<br>-or so the Rakdos claim.",
+      "flavor": "Only an imitation of tortured shrieking<br>-or so the Rakdos claim.",
       "expansion": "J22",
       "scryfallSetCode": "J22",
       "rarity": "U",
@@ -546,7 +546,7 @@
       "sortedManaCost": "{1}{B}",
       "cmc": 2,
       "type": "Creature - Human Warlock",
-      "text": "When Disciple of Perdition dies, choose<br>one. If you have exactly 13 life, you may choose both.<br>• You draw a card and you lose 1 life.<br>• Exile target opponent's graveyard. That player loses 1 life.",
+      "text": "When Disciple of Perdition dies, choose one. If you have exactly 13 life, you may choose both.<br>• You draw a card and you lose 1 life.<br>• Exile target opponent's graveyard. That player loses 1 life.",
       "flavor": "\"Could you please spare some of your blood for my precious little tree?\"",
       "expansion": "J22",
       "scryfallSetCode": "J22",
@@ -618,7 +618,7 @@
       "sortedManaCost": "{3}{B}",
       "cmc": 4,
       "type": "Creature - Worm",
-      "text": "When Skullslither Worm enters the battelfield, each opponent discards a card. For each opponent who can't, put two +1/+1 counters on Skullslither Worm.",
+      "text": "When Skullslither Worm enters the battlefield, each opponent discards a card. For each opponent who can't, put two +1/+1 counters on Skullslither Worm.",
       "flavor": "As larvae, they burrow into a host's brain to feed upon it, growing until they're large enough to burst free and seek out larger prey.",
       "expansion": "J22",
       "scryfallSetCode": "J22",
@@ -907,7 +907,7 @@
       "sortedManaCost": "{G}{G}{X}",
       "cmc": 2,
       "type": "Creature - Hydra",
-      "text": "Benevolent Hydra enters the battlefield with X +1/+1 counters on it.<br>If one or more +1/+1 counters would be put on another creature you control, that many plus one +1/+1 countersa re put on it instead.<br>{T}, Remove a +1/+1 counter from Benevolent Hydra: Put a +1/+1 counter on another target creature you control.",
+      "text": "Benevolent Hydra enters the battlefield with X +1/+1 counters on it.<br>If one or more +1/+1 counters would be put on another creature you control, that many plus one +1/+1 counters are put on it instead.<br>{T}, Remove a +1/+1 counter from Benevolent Hydra: Put a +1/+1 counter on another target creature you control.",
       "expansion": "J22",
       "scryfallSetCode": "J22",
       "rarity": "R",
@@ -979,7 +979,7 @@
       "sortedManaCost": "{G}",
       "cmc": 1,
       "type": "Creature - Human",
-      "text": "{3}{G}: Mild-Mannered Librarian becomes a werewolf. Put two +1/+1 counters on it and you draw a card. Activate only once.",
+      "text": "{3}{G}: Mild-Mannered Librarian becomes a Werewolf. Put two +1/+1 counters on it and you draw a card. Activate only once.",
       "flavor": "She had always believed in the transformative powers of great literature.",
       "expansion": "J22",
       "scryfallSetCode": "J22",
@@ -1076,7 +1076,7 @@
       "cmc": 5,
       "type": "Creature - Wolf Spirit",
       "text": "{5}{G}: Creatures you control get +1/+1 and gain trample until end of turn.",
-      "flavor": "The nights begins with a lone howl, but soon swells to a deafening chorus.",
+      "flavor": "The nightsong begins with a lone howl, but soon swells to a deafening chorus.",
       "expansion": "J22",
       "scryfallSetCode": "J22",
       "rarity": "C",
@@ -1100,7 +1100,7 @@
       "cmc": 4,
       "type": "Creature - Ape",
       "text": "Reach<br>Towering Gibbon's power is equal to the greatest mana value among creatures you control.",
-      "flavor": "\"Don't worry, folks. We're perfectly save here. That's a banana processing plant.\"",
+      "flavor": "\"Don't worry, folks. We're perfectly safe here. That's a banana processing plant.\"",
       "expansion": "J22",
       "scryfallSetCode": "J22",
       "rarity": "U",
@@ -1179,7 +1179,7 @@
       "number": "49",
       "artist": "Drew Tucker",
       "color": "",
-      "colorIdentity": "",
+      "colorIdentity": "B",
       "multiverseId": -1,
       "power": -1005.0,
       "toughness": -1005.0,
@@ -1196,7 +1196,7 @@
       "cmc": 4,
       "type": "Artifact",
       "text": "Flash<br>As Instruments of War enters the battlefield, choose a creature type.<br>Creatures you control of the chosen type get +1/+1.",
-      "flavor": "Perfect for keeping time at a battle or ball.",
+      "flavor": "Perfect for keeping time at a battle or a ball.",
       "expansion": "J22",
       "scryfallSetCode": "J22",
       "rarity": "U",
@@ -1219,7 +1219,7 @@
       "sortedManaCost": "{2}",
       "cmc": 2,
       "type": "Artifact",
-      "text": "Planar Atlas enters the battlefield tapped.<br>When Planar Atlas enters the battlefield, you may look at the top four cards of your library. If you do, reveal up to one land card from among them, then put that card on top of your library and rest on the bottom of your library in a random order.<br>{T}: Add {C}.",
+      "text": "Planar Atlas enters the battlefield tapped.<br>When Planar Atlas enters the battlefield, you may look at the top four cards of your library. If you do, reveal up to one land card from among them, then put that card on top of your library and the rest on the bottom in a random order.<br>{T}: Add {C}.",
       "expansion": "J22",
       "scryfallSetCode": "J22",
       "rarity": "U",
@@ -1808,7 +1808,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455062,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Dragon Fodder",
@@ -1817,7 +1818,7 @@
       "cmc": 2,
       "type": "Sorcery",
       "text": "Create two 1/1 red Goblin creature tokens.",
-      "flavor": "Grant realized that his brilliant plan of being faster than Kork might still not be enough.",
+      "flavor": "Gront realized that his brilliant plan of being faster than Kork might still not be enough.",
       "expansion": "J22",
       "scryfallSetCode": "J22",
       "rarity": "C",
@@ -2237,7 +2238,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455358,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Coldsteel Heart",
@@ -2695,7 +2697,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 454994,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Tragic Lesson",
@@ -2905,7 +2908,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455310,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Phyrexian Reclamation",
@@ -3397,7 +3401,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455290,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Angelic Edict",
@@ -3541,7 +3546,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455223,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Archon of Sun's Grace",
@@ -3564,7 +3570,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455313,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Attended Healer",
@@ -3707,7 +3714,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455322,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Blessed Spirits",
@@ -3920,7 +3928,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455330,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Combat Professor",
@@ -3992,7 +4001,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455344,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Dawning Angel",
@@ -4087,7 +4097,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455148,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Defy Death",
@@ -4254,7 +4265,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455226,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Faith's Fetters",
@@ -4468,7 +4480,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455016,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Gideon's Lawkeeper",
@@ -4588,7 +4601,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455370,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Impeccable Timing",
@@ -4754,7 +4768,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455261,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Justiciar's Portal",
@@ -4970,7 +4985,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455377,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Make a Stand",
@@ -5089,7 +5105,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455165,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Midnight Guard",
@@ -5519,7 +5536,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455183,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Righteous Valkyrie",
@@ -5542,7 +5560,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455425,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Righteousness",
@@ -5661,7 +5680,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455427,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Seller of Songbirds",
@@ -5780,7 +5800,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455434,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Skyhunter Patrol",
@@ -5995,7 +6016,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455444,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Tempered Veteran",
@@ -6186,7 +6208,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455450,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Valor in Akros",
@@ -6540,7 +6563,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455011,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Berg Strider",
@@ -6801,7 +6825,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455501,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Drag Under",
@@ -6968,7 +6993,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455512,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Faerie Seer",
@@ -7208,7 +7234,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 454832,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Glen Elendra Pranksters",
@@ -7255,7 +7282,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455522,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Hieroglyphic Illumination",
@@ -7349,7 +7377,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455527,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Jace's Scrutiny",
@@ -7563,7 +7592,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 450947,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Mechanized Production",
@@ -7587,7 +7617,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455181,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Merfolk Sovereign",
@@ -7611,7 +7642,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455574,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Military Intelligence",
@@ -7649,7 +7681,7 @@
       "scryfallSetCode": "J22",
       "rarity": "C",
       "number": "323",
-      "artist": "Leonardo Santanna",
+      "artist": "Steve Prescott",
       "color": "U",
       "colorIdentity": "U",
       "multiverseId": -1,
@@ -7657,7 +7689,7 @@
       "toughness": 4.0,
       "loyalty": -1005,
       "foreignPrintings": [],
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 454793,
       "isFunny": false,
       "isRebalanced": false
     },
@@ -7706,7 +7738,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455001,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Mystic Skyfish",
@@ -8135,7 +8168,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455610,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Sentinels of Glen Elendra",
@@ -8231,7 +8265,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455038,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Skilled Animator",
@@ -8374,7 +8409,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455177,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Stonybrook Angler",
@@ -8445,7 +8481,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455630,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Syr Elenora, the Discerning",
@@ -8491,7 +8528,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455047,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Teferi's Protege",
@@ -8538,7 +8576,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455112,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Thopter Spy Network",
@@ -8561,7 +8600,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455125,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Tolarian Kraken",
@@ -8728,7 +8768,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455095,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Wake Thrasher",
@@ -8752,7 +8793,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455637,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Watertrap Weaver",
@@ -8800,7 +8842,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455190,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Weldfast Wingsmith",
@@ -9062,7 +9105,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 454920,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Bone Picker",
@@ -9278,7 +9322,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455305,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Crypt Rats",
@@ -9397,7 +9442,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455553,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Demon of Catastrophes",
@@ -9615,7 +9661,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455289,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Dreadhound",
@@ -9734,7 +9781,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455329,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Epicure of Blood",
@@ -10018,7 +10066,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455341,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Gravecrawler",
@@ -10042,7 +10091,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455599,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Gravedigger",
@@ -10279,7 +10329,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455316,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Liliana's Elite",
@@ -10327,7 +10378,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455321,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Liliana's Steward",
@@ -10470,7 +10522,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455457,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Mire Blight",
@@ -10589,7 +10642,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455292,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Necrotic Wound",
@@ -10732,7 +10786,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455532,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Oversold Cemetery",
@@ -10755,7 +10810,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455543,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Phyrexian Debaser",
@@ -10850,7 +10906,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455333,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Reaper from the Abyss",
@@ -10874,7 +10931,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455402,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Reave Soul",
@@ -11018,28 +11076,30 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455336,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
-      "name": "Sinuous Vermin",
+      "name": "Shambling Ghoul",
       "manaCost": "{1}{B}",
       "sortedManaCost": "{1}{B}",
       "cmc": 2,
-      "type": "Creature - Rat Horror",
-      "text": "{3}{B}{B}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)<br>As long as Sinuous Vermin is monstrous, it has menace. (It can't be blocked except by two or more creatures.)",
+      "type": "Creature - Zombie",
+      "text": "Shambling Ghoul enters the battlefield tapped.",
+      "flavor": "Once he gets up and going, he will forever shamble on.",
       "expansion": "J22",
       "scryfallSetCode": "J22",
       "rarity": "C",
       "number": "465",
-      "artist": "Jason Kang",
+      "artist": "Joseph Meehan",
       "color": "B",
       "colorIdentity": "B",
       "multiverseId": -1,
       "power": 2.0,
-      "toughness": 2.0,
+      "toughness": 3.0,
       "loyalty": -1005,
       "foreignPrintings": [],
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 455474,
       "isFunny": false,
       "isRebalanced": false
     },
@@ -11088,7 +11148,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455620,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Skirsdag Supplicant",
@@ -11302,7 +11363,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 454939,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Tormented Soul",
@@ -11373,7 +11435,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455481,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Typhoid Rats",
@@ -11565,7 +11628,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 454943,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Wailing Ghoul",
@@ -11756,7 +11820,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455246,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Barrage Ogre",
@@ -12091,7 +12156,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455669,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Catalyst Elemental",
@@ -12138,7 +12204,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455236,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Chandra's Magmutt",
@@ -12782,7 +12849,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455674,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Glint-Horn Buccaneer",
@@ -12805,7 +12873,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455655,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Go for Blood",
@@ -12948,7 +13017,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455678,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Goblin Rally",
@@ -13067,7 +13137,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455684,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Grotag Night-Runner",
@@ -13163,7 +13234,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455666,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Ignite the Future",
@@ -13186,7 +13258,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455682,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Immersturm Raider",
@@ -13282,7 +13355,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455070,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Irreverent Revelers",
@@ -13354,7 +13428,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455590,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Keldon Raider",
@@ -13402,7 +13477,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455530,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Kuldotha Flamefiend",
@@ -13448,7 +13524,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455685,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Lava Serpent",
@@ -13567,7 +13644,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455069,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Mardu Heart-Piercer",
@@ -13662,7 +13740,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455663,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Nest Robber",
@@ -13804,7 +13883,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455554,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Pyre-Sledge Arsonist",
@@ -14090,7 +14170,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455675,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Sarkhan's Rage",
@@ -14423,7 +14504,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455213,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Storm Fleet Pyromancer",
@@ -14853,7 +14935,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455088,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Young Pyromancer",
@@ -14947,7 +15030,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455366,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Baloth Woodcrasher",
@@ -15234,7 +15318,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455386,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Crawling Sensation",
@@ -15281,7 +15366,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455390,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Cultivate",
@@ -15329,7 +15415,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455392,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Declare Dominance",
@@ -15543,7 +15630,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 454906,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Engulfing Slagwurm",
@@ -15567,7 +15655,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455397,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Enlarge",
@@ -15614,7 +15703,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455196,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Feral Hydra",
@@ -15875,7 +15965,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455406,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Groundswell",
@@ -16089,7 +16180,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 454909,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Iridescent Hornbeetle",
@@ -16185,7 +16277,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455252,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Kraul Foragers",
@@ -16351,7 +16444,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455094,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Master's Rebuke",
@@ -16543,7 +16637,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455232,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Oashra Cultivator",
@@ -16780,7 +16875,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455453,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Pounce",
@@ -16922,7 +17018,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455459,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Prowling Serpopard",
@@ -16946,7 +17043,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455460,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Quarry Beetle",
@@ -16994,7 +17092,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455464,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Reckless Amplimancer",
@@ -17089,7 +17188,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455468,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Roar of Challenge",
@@ -17443,7 +17543,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455493,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Titanic Brawl",
@@ -17537,7 +17638,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 454927,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Wily Bandar",
@@ -17655,7 +17757,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 454928,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Woodborn Behemoth",
@@ -17774,7 +17877,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455693,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Titan's Presence",
@@ -17966,7 +18070,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455542,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Bloodline Pretender",
@@ -18132,7 +18237,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455555,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Edifice of Authority",
@@ -18344,7 +18450,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455241,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Heart-Piercer Bow",
@@ -18627,7 +18734,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455585,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Manakin",
@@ -18698,7 +18806,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455157,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Panharmonicon",
@@ -18722,7 +18831,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455042,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Phyrexian Ironfoot",
@@ -18818,7 +18928,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455139,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Raiders' Karve",
@@ -18936,7 +19047,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455238,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Steel Overseer",
@@ -18960,7 +19072,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455033,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Talon of Pain",
@@ -19007,7 +19120,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455081,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Teferi's Puzzle Box",
@@ -19030,7 +19144,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455194,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Thaumaturge's Familiar",
@@ -19263,7 +19378,8 @@
       "foreignPrintings": [],
       "tcgplayerProductId": 455631,
       "isFunny": false,
-      "isRebalanced": false
+      "isRebalanced": false,
+      "securityStamp": "oval"
     },
     {
       "name": "Desert of the Mindful",
@@ -19780,7 +19896,7 @@
       "toughness": 2.0,
       "loyalty": -1005,
       "foreignPrintings": [],
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 454829,
       "isFunny": false,
       "isRebalanced": false,
       "securityStamp": "oval"
