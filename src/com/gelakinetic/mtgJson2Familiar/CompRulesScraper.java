@@ -74,19 +74,35 @@ public class CompRulesScraper {
         StringBuilder compRules = new StringBuilder();
         StringBuilder problematicLines = new StringBuilder();
 
-        // Try parsing rules with UTF8
-        try {
-            downloadRulesCharset(rulesUrl, compRules, problematicLines, "UTF-8");
-            if (problematicLines.length() > 0) {
-                // If there are problematic lines, reset and try parsing with cp1252
-                compRules.setLength(0);
-                problematicLines.setLength(0);
-                downloadRulesCharset(rulesUrl, compRules, problematicLines, "Cp1252");
+        // Try downloading with each of these charsets because WotC can't make up their mind
+        String[] charsets = {
+                "UTF-8",
+                "Cp1252",
+                "UTF-16BE",
+                "UTF-16LE",
+                "UTF-16",
+                "US-ASCII",
+                "ISO-8859-1"};
+
+        // For each charset
+        for (String charset : charsets) {
+            try {
+                // Try downloading with the given charset
+                downloadRulesCharset(rulesUrl, compRules, problematicLines, charset);
+                // If there are problematic lines, or no lines
+                if (problematicLines.length() > 0 || compRules.length() == 0) {
+                    // Set up to try again with the next charset
+                    compRules.setLength(0);
+                    problematicLines.setLength(0);
+                } else {
+                    // All good, break out of the for loop
+                    break;
+                }
+            } catch (IOException e) {
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error parsing rules");
+                m2fLogger.logStackTrace(e);
+                return false;
             }
-        } catch (IOException e) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error parsing rules");
-            m2fLogger.logStackTrace(e);
-            return false;
         }
 
         // If there are any problematic lines, print them and return
@@ -125,7 +141,7 @@ public class CompRulesScraper {
             while ((line = br.readLine()) != null) {
 
                 //  Clean the line
-                line = NetUtils.removeNonAscii(line);
+                line = NetUtils.removeNonAscii(line).trim();
 
                 // See what to do with the line
                 if ("Credits".equals(line)) {
