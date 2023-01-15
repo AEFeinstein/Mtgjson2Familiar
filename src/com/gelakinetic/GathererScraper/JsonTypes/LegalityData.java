@@ -16,6 +16,14 @@ public class LegalityData {
         public Format(String name) {
             mName = name;
         }
+
+        @Override
+        public boolean equals(Object obj) {
+            if (obj instanceof Format) {
+                return this.mName.equals(((Format) obj).mName);
+            }
+            return false;
+        }
     }
 }
 

@@ -1,9 +1,11 @@
 package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
 import java.math.BigInteger;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 
+@SuppressWarnings("unused")
 public class mtgjson_card {
     public String artist;
     public String asciiName;
@@ -25,9 +27,9 @@ public class mtgjson_card {
     public String frameVersion;
     public String hand;
     public boolean hasContentWarning;
-    public boolean hasFoil;
+    // public boolean hasFoil; replaced by finishes
     public boolean hasAlternativeDeckLimit;
-    public boolean hasNonFoil;
+    // public boolean hasNonFoil; replaced by finishes
     public mtgjson_identifiers identifiers;
     public boolean isAlternative;
     public boolean isFoil;
@@ -44,7 +46,7 @@ public class mtgjson_card {
     public List<String> keywords;
     public String layout;
     public mtgjson_leadershipSkills leadershipSkills;
-    public mtgjson_legalities legalities;
+    public HashMap<String, String> legalities;
     public String life;
     public String loyalty;
     public String manaCost;

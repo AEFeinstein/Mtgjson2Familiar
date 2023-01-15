@@ -1,7 +1,12 @@
 package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
-import java.util.*;
+import com.gelakinetic.GathererScraper.JsonTypes.Card;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+
+@SuppressWarnings("unused")
 public class mtgjson_set {
     public int baseSetSize;
     public String block;
@@ -31,102 +36,47 @@ public class mtgjson_set {
     /**
      * @return The legality of this set, based on the legality of the cards in this set
      */
-    public mtgjson_legalities checkSetLegality() {
+    public HashMap<String, String> checkSetLegality() {
         HashMap<String, Integer> cardsInFormat = new HashMap<>();
-        cardsInFormat.put("brawl", 0);
-        cardsInFormat.put("commander", 0);
-        cardsInFormat.put("duel", 0);
-        cardsInFormat.put("future", 0);
-        cardsInFormat.put("frontier", 0);
-        cardsInFormat.put("historic", 0);
-        cardsInFormat.put("legacy", 0);
-        cardsInFormat.put("modern", 0);
-        cardsInFormat.put("pauper", 0);
-        cardsInFormat.put("penny", 0);
-        cardsInFormat.put("pioneer", 0);
-        cardsInFormat.put("standard", 0);
-        cardsInFormat.put("vintage", 0);
 
-        int paperCards = 0;
-        int arenaCards = 0;
-        int rebalancedCards = 0;
+//        int paperCards = 0;
+//        int arenaCards = 0;
+//        int rebalancedCards = 0;
         for (mtgjson_card c : this.cards) {
 
-            if (c.availability.contains("paper") && !c.isRebalanced && !c.isOnlineOnly) {
-                paperCards++;
-            }
-            if (c.availability.contains("arena")) {
-                arenaCards++;
-            }
-            if (null != c.rebalancedPrintings) {
-                rebalancedCards += c.rebalancedPrintings.size();
-            }
-            if (null != c.legalities.brawl) {
-                cardsInFormat.put("brawl", cardsInFormat.get("brawl") + 1);
-            }
-            if (null != c.legalities.commander) {
-                cardsInFormat.put("commander", cardsInFormat.get("commander") + 1);
-            }
-            if (null != c.legalities.duel) {
-                cardsInFormat.put("duel", cardsInFormat.get("duel") + 1);
-            }
-            if (null != c.legalities.future) {
-                cardsInFormat.put("future", cardsInFormat.get("future") + 1);
-            }
-            if (null != c.legalities.frontier) {
-                cardsInFormat.put("frontier", cardsInFormat.get("frontier") + 1);
-            }
-            if (null != c.legalities.historic) {
-                cardsInFormat.put("historic", cardsInFormat.get("historic") + 1);
-            }
-            if (null != c.legalities.legacy) {
-                cardsInFormat.put("legacy", cardsInFormat.get("legacy") + 1);
-            }
-            if (null != c.legalities.modern) {
-                cardsInFormat.put("modern", cardsInFormat.get("modern") + 1);
-            }
-            if (null != c.legalities.pauper) {
-                cardsInFormat.put("pauper", cardsInFormat.get("pauper") + 1);
-            }
-            if (null != c.legalities.penny) {
-                cardsInFormat.put("penny", cardsInFormat.get("penny") + 1);
-            }
-            if (null != c.legalities.pioneer) {
-                cardsInFormat.put("pioneer", cardsInFormat.get("pioneer") + 1);
-            }
-            if (null != c.legalities.standard) {
-                cardsInFormat.put("standard", cardsInFormat.get("standard") + 1);
-            }
-            if (null != c.legalities.vintage) {
-                cardsInFormat.put("vintage", cardsInFormat.get("vintage") + 1);
+//            if (c.availability.contains("paper") && !c.isRebalanced && !c.isOnlineOnly) {
+//                paperCards++;
+//            }
+//            if (c.availability.contains("arena")) {
+//                arenaCards++;
+//            }
+//            if (null != c.rebalancedPrintings) {
+//                rebalancedCards += c.rebalancedPrintings.size();
+//            }
+
+            for (String format : c.legalities.keySet()) {
+                switch (c.legalities.get(format)) {
+                    case "Legal":
+                    case "Banned":
+                    case "Restricted": {
+                        cardsInFormat.merge(Card.beautifyFormat(format), 1, Integer::sum);
+                        break;
+                    }
+                    default: {
+                        break;
+                    }
+                }
             }
         }
 
-        mtgjson_legalities legality = new mtgjson_legalities();
-        if (this.isOnlineOnly) {
-            legality.historic = (arenaCards > 0) ? "legal" : null;
-        } else {
-            legality.brawl = (cardsInFormat.get("brawl") >= (paperCards - rebalancedCards) ? "legal" : null);
-            legality.commander = (cardsInFormat.get("commander") >= (paperCards - rebalancedCards) ? "legal" : null);
-            legality.duel = (cardsInFormat.get("duel") >= (paperCards - rebalancedCards) ? "legal" : null);
-            legality.future = (cardsInFormat.get("future") >= (paperCards - rebalancedCards) ? "legal" : null);
-            legality.frontier = (cardsInFormat.get("frontier") >= (paperCards - rebalancedCards) ? "legal" : null);
-            if (arenaCards > 0) {
-                if (arenaCards == cardsInFormat.get("historic")) {
-                    legality.historic = "legal";
-                } else if ((arenaCards > 50) && cardsInFormat.get("historic") >= (arenaCards - rebalancedCards)) {
-                    legality.historic = "legal";
-                }
+        HashMap<String, String> setLegality = new HashMap<>();
+        for (String format : cardsInFormat.keySet()) {
+            int numCards = cardsInFormat.get(format);
+            if (numCards > 0.8f * this.totalSetSize) {
+                setLegality.put(format, "Legal");
             }
-            legality.legacy = (cardsInFormat.get("legacy") >= (paperCards - rebalancedCards) ? "legal" : null);
-            legality.modern = (cardsInFormat.get("modern") >= (paperCards - rebalancedCards) ? "legal" : null);
-            legality.pauper = (cardsInFormat.get("pauper") >= (paperCards - rebalancedCards) ? "legal" : null);
-            legality.penny = (cardsInFormat.get("penny") >= (paperCards - rebalancedCards) ? "legal" : null);
-            legality.pioneer = (cardsInFormat.get("pioneer") >= (paperCards - rebalancedCards) ? "legal" : null);
-            legality.standard = (cardsInFormat.get("standard") >= (paperCards - rebalancedCards) ? "legal" : null);
-            legality.vintage = (cardsInFormat.get("vintage") >= (paperCards - rebalancedCards) ? "legal" : null);
         }
-        return legality;
+        return setLegality;
     }
 
     /**
