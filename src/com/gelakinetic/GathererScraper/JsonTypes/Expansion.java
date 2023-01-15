@@ -13,6 +13,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.math.BigInteger;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
@@ -312,45 +313,51 @@ public class Expansion {
      */
     public void calculateDigest(ArrayList<Card> mCards) {
         this.mDigest = null;
-        MessageDigest messageDigest;
-        try {
-            messageDigest = MessageDigest.getInstance("MD5");
-            // Add all cards to the digest
-            for (Card c : mCards) {
-                c.updateDigest(messageDigest);
-            }
-            // Add set data to the digest
-            this.updateDigest(messageDigest);
-
-            StringBuilder sb = new StringBuilder();
-            for (byte b : messageDigest.digest()) {
-                sb.append(String.format("%02x", b));
-            }
-            this.mDigest = sb.toString();
-        } catch (NoSuchAlgorithmException e) {
-            /* This should never happen */
+        // Add all cards to the digest
+        BigInteger digest = BigInteger.ZERO;
+        for (Card c : mCards) {
+            digest = digest.add(c.getDigest());
         }
+        // Add set data to the digest
+        digest = digest.add(this.getDigest());
+
+        StringBuilder sb = new StringBuilder();
+        for (byte b : digest.toByteArray()) {
+            sb.append(String.format("%02x", b));
+        }
+        this.mDigest = sb.toString();
     }
 
-    private void updateDigest(MessageDigest messageDigest) {
-        ArrayList<String> digestStrings = new ArrayList<>();
-        digestStrings.add(mName_gatherer);
-        digestStrings.add(mCode_gatherer);
-        digestStrings.add(mCode_mtgi);
-        digestStrings.add(mName_tcgp);
-        digestStrings.add(mName_mkm);
-        digestStrings.add(Long.toString(mReleaseTimestamp));
-        digestStrings.add(Boolean.toString(mCanBeFoil));
-        digestStrings.add(Boolean.toString(mIsOnlineOnly));
-        digestStrings.add(mBorderColor);
-        digestStrings.add(mType);
-        Collections.sort(mExpansionImageURLs);
-        digestStrings.addAll(mExpansionImageURLs);
+    private BigInteger getDigest() {
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
 
-        for (String s : digestStrings) {
-            if (null != s) {
+            ArrayList<String> digestStrings = new ArrayList<>();
+            digestStrings.add("mName_gatherer:" + mName_gatherer);
+            digestStrings.add("mCode_gatherer:" + mCode_gatherer);
+            digestStrings.add("mCode_mtgi:" + mCode_mtgi);
+            digestStrings.add("mName_tcgp:" + mName_tcgp);
+            digestStrings.add("mName_mkm:" + mName_mkm);
+            digestStrings.add("mReleaseTimestamp:" + mReleaseTimestamp);
+            digestStrings.add("mCanBeFoil:" + mCanBeFoil);
+            digestStrings.add("mIsOnlineOnly:" + mIsOnlineOnly);
+            digestStrings.add("mBorderColor:" + mBorderColor);
+            digestStrings.add("mType:" + mType);
+            digestStrings.add("mDigest:" + mDigest);
+            for (String imageUrl : mExpansionImageURLs) {
+                digestStrings.add("mExpansionImageURLs:" + imageUrl);
+            }
+
+            // Sort strings to make the digest order-invariant
+            Collections.sort(digestStrings);
+
+            for (String s : digestStrings) {
                 messageDigest.update(s.getBytes(StandardCharsets.UTF_8));
             }
+
+            return new BigInteger(messageDigest.digest());
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
         }
     }
 }

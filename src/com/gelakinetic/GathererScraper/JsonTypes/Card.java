@@ -8,12 +8,11 @@ import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_token;
 import com.gelakinetic.mtgJson2Familiar.setCodeMapper;
 import com.gelakinetic.mtgfam.helpers.database.CardDbAdapter;
 
+import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.security.NoSuchAlgorithmException;
+import java.util.*;
 
 /*
  * This class contains all information about a scraped card
@@ -98,46 +97,61 @@ public class Card implements Comparable<Card> {
     // If this card is a token or not
     public boolean mIsToken;
 
+    // A map of legalities for this card
+    public Map<String, String> mLegalities = new HashMap<>();
+
+    public boolean mIsOnlineOnly;
+
     public Card() {
     }
 
-    public void updateDigest(MessageDigest messageDigest) {
-        ArrayList<String> digestStrings = new ArrayList<>();
-        digestStrings.add(mManaCost);
-        digestStrings.add(mSortedManaCost);
-        digestStrings.add(mName);
-        digestStrings.add(Integer.toString(mCmc));
-        digestStrings.add(mType);
-        digestStrings.add(mText);
-        digestStrings.add(mFlavor);
-        digestStrings.add(mExpansion);
-        digestStrings.add(mScryfallSetCode);
-        digestStrings.add(Character.toString(mRarity));
-        digestStrings.add(mNumber);
-        digestStrings.add(mArtist);
-        digestStrings.add(mColor);
-        digestStrings.add(mColorIdentity);
-        digestStrings.add(Integer.toString(mMultiverseId));
-        digestStrings.add(Float.toString(mPower));
-        digestStrings.add(Float.toString(mToughness));
-        digestStrings.add(Integer.toString(mLoyalty));
-        digestStrings.add(Long.toString(mTcgplayerProductId));
-        digestStrings.add(Boolean.toString(mIsFunny));
-        digestStrings.add(Boolean.toString(mIsRebalanced));
-        digestStrings.add(mSecurityStamp);
-        if (mIsToken) {
-            digestStrings.add(Boolean.toString(true));
-        }
-        Collections.sort(mForeignPrintings);
-        for (ForeignPrinting fp : mForeignPrintings) {
-            digestStrings.add(fp.toString());
-        }
-        digestStrings.add(mWatermark);
+    public BigInteger getDigest() {
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+            ArrayList<String> digestStrings = new ArrayList<>();
 
-        for (String s : digestStrings) {
-            if (null != s) {
+            digestStrings.add("mName:" + mName);
+            digestStrings.add("mManaCost:" + mManaCost);
+            digestStrings.add("mSortedManaCost:" + mSortedManaCost);
+            digestStrings.add("mCmc:" + mCmc);
+            digestStrings.add("mType:" + mType);
+            digestStrings.add("mText:" + mText);
+            digestStrings.add("mFlavor:" + mFlavor);
+            digestStrings.add("mExpansion:" + mExpansion);
+            digestStrings.add("mScryfallSetCode:" + mScryfallSetCode);
+            digestStrings.add("mRarity:" + mRarity);
+            digestStrings.add("mNumber:" + mNumber);
+            digestStrings.add("mArtist:" + mArtist);
+            digestStrings.add("mColor:" + mColor);
+            digestStrings.add("mColorIdentity:" + mColorIdentity);
+            digestStrings.add("mMultiverseId:" + mMultiverseId);
+            digestStrings.add("mPower:" + mPower);
+            digestStrings.add("mToughness:" + mToughness);
+            digestStrings.add("mLoyalty:" + mLoyalty);
+            for (ForeignPrinting fp : mForeignPrintings) {
+                digestStrings.add("mForeignPrintings:" + fp.toString());
+            }
+            digestStrings.add("mWatermark:" + mWatermark);
+            digestStrings.add("mTcgplayerProductId:" + mTcgplayerProductId);
+            digestStrings.add("mIsFunny:" + mIsFunny);
+            digestStrings.add("mIsRebalanced:" + mIsRebalanced);
+            digestStrings.add("mSecurityStamp:" + mSecurityStamp);
+            digestStrings.add("mIsToken:" + mIsToken);
+            for (String format : mLegalities.keySet()) {
+                digestStrings.add("mLegalities:" + format + " " + mLegalities.get(format));
+            }
+            digestStrings.add("mIsOnlineOnly:" + mIsOnlineOnly);
+
+            // Sort strings to make the digest order-invariant
+            Collections.sort(digestStrings);
+
+            for (String s : digestStrings) {
                 messageDigest.update(s.getBytes(StandardCharsets.UTF_8));
             }
+
+            return new BigInteger(messageDigest.digest());
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
         }
     }
 
@@ -246,6 +260,7 @@ public class Card implements Comparable<Card> {
         this.mIsRebalanced = false;
         this.mSecurityStamp = null;
         this.mIsToken = true;
+        this.mIsOnlineOnly = token.isOnlineOnly;
     }
 
     public Card(mtgjson_card orig, mtgjson_set origSet, Expansion newExpansion, setCodeMapper scm) {
@@ -448,8 +463,61 @@ public class Card implements Comparable<Card> {
         this.mIsRebalanced = orig.isRebalanced;
         this.mSecurityStamp = orig.securityStamp;
         this.mIsToken = false;
+        this.mIsOnlineOnly = orig.isOnlineOnly;
 
-        orig.legalities.checkStrings();
+        // Build a map of per-card legalities
+        for (String format : orig.legalities.keySet()) {
+            this.mLegalities.put(beautifyFormat(format), orig.legalities.get(format));
+        }
+    }
+
+    public static String beautifyFormat(String s) {
+        switch (s) {
+            case "brawl":
+                return "Brawl";
+            case "commander":
+                return "Commander";
+            case "duel":
+                return "Duel Commander";
+            case "future":
+                return "Future";
+            case "frontier":
+                return "Frontier";
+            case "gladiator":
+                return "Gladiator";
+            case "historic":
+                return "Historic";
+            case "historicbrawl":
+                return "Historic Brawl";
+            case "legacy":
+                return "Legacy";
+            case "modern":
+                return "Modern";
+            case "oldschool":
+                return "Old School";
+            case "pauper":
+                return "Pauper";
+            case "paupercommander":
+                return "Pauper Commander";
+            case "penny":
+                return "Penny Dreadful";
+            case "pioneer":
+                return "Pioneer";
+            case "premodern":
+                return "Pre-Modern";
+            case "standard":
+                return "Standard";
+            case "vintage":
+                return "Vintage";
+            case "alchemy":
+                return "Alchemy";
+            case "explorer":
+                return "Explorer";
+            default: {
+                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Unknown format ~" + s + "~");
+                return s;
+            }
+        }
     }
 
     /**

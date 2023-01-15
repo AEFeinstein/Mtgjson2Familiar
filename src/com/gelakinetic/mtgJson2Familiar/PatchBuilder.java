@@ -1,7 +1,10 @@
 package com.gelakinetic.mtgJson2Familiar;
 
 import com.gelakinetic.GathererScraper.JsonTypes.*;
-import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.*;
+import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
+import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_meta;
+import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
+import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_token;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_allPrintings;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_metafile;
 import com.gelakinetic.mtgfam.helpers.tcgp.TcgpHelper;
@@ -58,6 +61,9 @@ public class PatchBuilder {
             JsonObject jObj = (JsonObject) mGson.toJsonTree(card);
             if (!card.mIsToken) {
                 jObj.remove("isToken");
+            }
+            if (!card.mIsOnlineOnly) {
+                jObj.remove("isOnlineOnly");
             }
             return jObj;
         }
@@ -183,15 +189,17 @@ public class PatchBuilder {
 
         // Set up legality data
         LegalityData legal = new LegalityData();
-        legal.mFormats.add(new LegalityData.Format("Vintage"));
-        legal.mFormats.add(new LegalityData.Format("Standard"));
-        legal.mFormats.add(new LegalityData.Format("Pioneer"));
-        legal.mFormats.add(new LegalityData.Format("Brawl"));
-        legal.mFormats.add(new LegalityData.Format("Modern"));
-        legal.mFormats.add(new LegalityData.Format("Legacy"));
-        legal.mFormats.add(new LegalityData.Format("Commander"));
-        legal.mFormats.add(new LegalityData.Format("Pauper"));
-        legal.mFormats.add(new LegalityData.Format("Historic"));
+        for (String key : printings.data.keySet()) {
+            mtgjson_set set = printings.data.get(key);
+            for (mtgjson_card card : set.cards) {
+                for (String format : card.legalities.keySet()) {
+                    LegalityData.Format checkFmt = new LegalityData.Format(Card.beautifyFormat(format));
+                    if (!legal.mFormats.contains(checkFmt)) {
+                        legal.mFormats.add(checkFmt);
+                    }
+                }
+            }
+        }
 
         // Hack in a reserved list to the legalities
         LegalityData.Format rl = new LegalityData.Format("Reserved List");
@@ -229,7 +237,7 @@ public class PatchBuilder {
                     for (mtgjson_card orig : set.cards) {
                         // Parse it
                         Card c = new Card(orig, set, newExpansion, scm);
-                        buildCardLegalities(legal, orig, c);
+                        buildCardLegalities(legal, c);
                         // If it has a multiverse ID, store it for later
                         if (c.mMultiverseId > -1) {
                             promoPlanes.add(c);
@@ -333,7 +341,7 @@ public class PatchBuilder {
                         if (setHasMultiverseId || isArenaOnly || isSecretLair) {
                             newPatch.mCards.add(c);
 
-                            buildCardLegalities(legal, orig, c);
+                            buildCardLegalities(legal, c);
                         }
                     }
 
@@ -397,7 +405,7 @@ public class PatchBuilder {
                                 // Parse it
                                 Card c = new Card(orig, set, newExpansion, scm);
                                 newPatch.mCards.add(c);
-                                buildCardLegalities(legal, orig, c);
+                                buildCardLegalities(legal, c);
                             }
                         }
                     }
@@ -451,18 +459,9 @@ public class PatchBuilder {
             mtgjson_set mergedSet = mergedSets.get(mCode_gatherer);
 
             // Update the legalities
-            mtgjson_legalities setLegality = mergedSet.checkSetLegality();
+            HashMap<String, String> setLegality = mergedSet.checkSetLegality();
             for (LegalityData.Format fmt : legal.mFormats) {
-                if (("Standard".equals(fmt.mName) && null != setLegality.standard) ||
-                        ("Pioneer".equals(fmt.mName) && null != setLegality.pioneer) ||
-                        ("Brawl".equals(fmt.mName) && null != setLegality.brawl) ||
-                        ("Historic".equals(fmt.mName) && null != setLegality.historic) ||
-                        ("Modern".equals(fmt.mName) && null != setLegality.modern)
-                    // ("Pauper".equals(fmt.mName) && null != setLegality.pauper) ||
-                    // ("Vintage".equals(fmt.mName) && null != setLegality.vintage) ||
-                    // ("Legacy".equals(fmt.mName) && null != setLegality.legacy) ||
-                    // ("Commander".equals(fmt.mName) && null != setLegality.commander) ||
-                ) {
+                if (setLegality.containsKey(fmt.mName) && "Legal".equals(setLegality.get(fmt.mName))) {
                     fmt.mSets.add(mCode_gatherer);
                 }
             }
@@ -606,64 +605,26 @@ public class PatchBuilder {
      * If this card is banned or restricted in a format, add it to the list
      *
      * @param legal The legality list to add to
-     * @param orig  The mtgjson card
      * @param c     THe mtg familiar card
      */
-    private static void buildCardLegalities(LegalityData legal, mtgjson_card orig, Card c) {
+    private static void buildCardLegalities(LegalityData legal, Card c) {
 
         // These cards are conjured, not legal for deck construction
-        if ((orig.setCode.equals("JMP") && bannedInHistoricJMP.contains(orig.name)) ||
-                (orig.setCode.equals("J21") && bannedInHistoricJ21.contains(orig.name))) {
-            orig.legalities.historic = "Banned";
+        if ((c.mExpansion.equals("JMP") && bannedInHistoricJMP.contains(c.mName)) ||
+                (c.mExpansion.equals("J21") && bannedInHistoricJ21.contains(c.mName))) {
+            c.mLegalities.put("Historic", "Banned");
         }
-
 
         // See if this card is banned or restricted
         for (LegalityData.Format fmt : legal.mFormats) {
-            // Check for bans
-            if (("Vintage".equals(fmt.mName) && "Banned".equals(orig.legalities.vintage)) ||
-                    ("Standard".equals(fmt.mName) && "Banned".equals(orig.legalities.standard)) ||
-                    ("Pioneer".equals(fmt.mName) && "Banned".equals(orig.legalities.pioneer)) ||
-                    ("Brawl".equals(fmt.mName) && "Banned".equals(orig.legalities.brawl)) ||
-                    ("Modern".equals(fmt.mName) && "Banned".equals(orig.legalities.modern)) ||
-                    ("Legacy".equals(fmt.mName) && "Banned".equals(orig.legalities.legacy)) ||
-                    ("Commander".equals(fmt.mName) && "Banned".equals(orig.legalities.commander)) ||
-                    ("Historic".equals(fmt.mName) && "Banned".equals(orig.legalities.historic)) ||
-                    ("Pauper".equals(fmt.mName) && "Banned".equals(orig.legalities.pauper))) {
+            if ("Banned".equals(c.mLegalities.get(fmt.mName))) {
                 if (!fmt.mBanlist.contains(c.mName)) {
-                    fmt.mBanlist.add(c.mName);
+                    fmt.mBanlist.add((c.mName));
                 }
             }
-
-            // Check for restricted
-            if (("Vintage".equals(fmt.mName) && "Restricted".equals(orig.legalities.vintage)) ||
-                    ("Standard".equals(fmt.mName) && "Restricted".equals(orig.legalities.standard)) ||
-                    ("Pioneer".equals(fmt.mName) && "Restricted".equals(orig.legalities.pioneer)) ||
-                    ("Brawl".equals(fmt.mName) && "Restricted".equals(orig.legalities.brawl)) ||
-                    ("Modern".equals(fmt.mName) && "Restricted".equals(orig.legalities.modern)) ||
-                    ("Legacy".equals(fmt.mName) && "Restricted".equals(orig.legalities.legacy)) ||
-                    ("Commander".equals(fmt.mName) && "Restricted".equals(orig.legalities.commander)) ||
-                    ("Historic".equals(fmt.mName) && "Restricted".equals(orig.legalities.historic)) ||
-                    ("Pauper".equals(fmt.mName) && "Restricted".equals(orig.legalities.pauper))) {
+            if ("Restricted".equals(c.mLegalities.get(fmt.mName))) {
                 if (!fmt.mRestrictedlist.contains(c.mName)) {
-                    fmt.mRestrictedlist.add(c.mName);
-                }
-            }
-
-            // Exclude these cards from eternal sets
-            if (("Vintage".equals(fmt.mName)) ||
-                    ("Legacy".equals(fmt.mName)) ||
-                    ("Commander".equals(fmt.mName)) ||
-                    ("Pauper".equals(fmt.mName) && c.mRarity == 'C')) {
-                if (c.mType.startsWith("Scheme") ||
-                        c.mType.startsWith("Ongoing Scheme") ||
-                        c.mType.startsWith("Plane ") ||
-                        c.mType.startsWith("Phenomenon") ||
-                        c.mType.startsWith("Vanguard") ||
-                        c.mType.startsWith("Conspiracy")) {
-                    if (!fmt.mBanlist.contains(c.mName)) {
-                        fmt.mBanlist.add(c.mName);
-                    }
+                    fmt.mRestrictedlist.add((c.mName));
                 }
             }
         }
@@ -713,7 +674,7 @@ public class PatchBuilder {
                     }
                 }
             }
-            buildCardLegalities(legal, orig, c);
+            buildCardLegalities(legal, c);
         }
 
         // Update the rarities
