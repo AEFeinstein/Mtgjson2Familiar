@@ -469,6 +469,11 @@ public class Card implements Comparable<Card> {
         for (String format : orig.legalities.keySet()) {
             this.mLegalities.put(beautifyFormat(format), orig.legalities.get(format));
         }
+
+        // Tack on the restricted list as a legality
+        if (orig.isReserved) {
+            this.mLegalities.put("Reserved List", "Banned");
+        }
     }
 
     public static String beautifyFormat(String s) {

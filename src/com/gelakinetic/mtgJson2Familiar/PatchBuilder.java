@@ -202,9 +202,7 @@ public class PatchBuilder {
         }
 
         // Hack in a reserved list to the legalities
-        LegalityData.Format rl = new LegalityData.Format("Reserved List");
-        rl.mBanlist.addAll(Arrays.asList(ReservedList.rl));
-        legal.mFormats.add(rl);
+        legal.mFormats.add(new LegalityData.Format("Reserved List"));
 
         // Keep a collection of mtgjson_set objects with merged card lists
         HashMap<String, mtgjson_set> mergedSets = new HashMap<>();
