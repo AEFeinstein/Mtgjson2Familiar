@@ -331,6 +331,8 @@ public class Card implements Comparable<Card> {
                 // Special -> Common, Prismatic Piper
                 // Special -> Common, Faceless One
                 this.mRarity = 'C';
+            } else if ("ONC".equals(orig.setCode) && "Beast Within".equals(orig.name)) {
+                System.out.println(this.mRarity);
             }
         } else if ('B' == this.mRarity) {
             if (origSet.name.toLowerCase().contains("time")) {
