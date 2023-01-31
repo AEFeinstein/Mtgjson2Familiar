@@ -2,6 +2,7 @@ package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class mtgjson_token {
     public String artist;
     public String borderColor;

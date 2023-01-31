@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Manifest {
 
-    public long mTimestamp;
     public final ArrayList<ManifestEntry> mPatches = new ArrayList<>();
+    public long mTimestamp;
 
     public static class ManifestEntry implements Comparable<ManifestEntry> {
         public String mName;

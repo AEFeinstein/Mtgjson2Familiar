@@ -1,5 +1,6 @@
 package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
+@SuppressWarnings("unused")
 public class mtgjson_identifiers {
     public String cardKingdomEtchedId;
     public String cardKingdomFoilId;

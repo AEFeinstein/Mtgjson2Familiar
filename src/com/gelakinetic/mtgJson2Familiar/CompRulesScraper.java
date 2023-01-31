@@ -10,6 +10,14 @@ import java.util.Calendar;
 public class CompRulesScraper {
 
     /**
+     * @param time The time to format
+     * @return A String containing the year, month, and date for this Calendar object
+     */
+    public static String GetEmbeddedDate(Calendar time) {
+        return String.format("%04d-%02d-%02d", time.get(Calendar.YEAR), time.get(Calendar.MONTH), time.get(Calendar.DAY_OF_MONTH));
+    }
+
+    /**
      * Check if there are newer comprehensive rules than what we have.
      * If there are, download them
      *
@@ -26,7 +34,7 @@ public class CompRulesScraper {
             }
             String url = rulePage.getElementsByAttributeValueContaining("href", "txt").get(0).attr("href");
 
-            //  Pick the date out of the link 
+            //  Pick the date out of the link
             String dateSubStr = url.substring(url.length() - 12, url.length() - 4);
             if ("02109224".equals(dateSubStr)) {
                 dateSubStr = "20210924";
@@ -169,13 +177,5 @@ public class CompRulesScraper {
                 }
             }
         }
-    }
-
-    /**
-     * @param time The time to format
-     * @return A String containing the year, month, and date for this Calendar object
-     */
-    public static String GetEmbeddedDate(Calendar time) {
-        return String.format("%04d-%02d-%02d", time.get(Calendar.YEAR), time.get(Calendar.MONTH), time.get(Calendar.DAY_OF_MONTH));
     }
 }

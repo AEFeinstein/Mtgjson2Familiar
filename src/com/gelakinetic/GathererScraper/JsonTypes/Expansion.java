@@ -205,8 +205,8 @@ public class Expansion {
                         "https://gatherer.wizards.com/Handlers/Image.ashx?type=symbol&set=" + this.mCode_gatherer + "&size=large&rarity=" + rarity,
                         "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer + "_" + rarity + ".png",
                         "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_expsym_" + (rarity + "").toLowerCase() + "_web_en.png",
-                        "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_expsym_" + (rarity + "").toLowerCase() + "c_web_en.png",
-                        "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_" + rarityCharToStr(rarity) + ".png"
+                        "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_expsym_" + (rarity + "").toLowerCase() + "_web.png",
+                        "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_" + rarityCharToStr(rarity) + ".png",
                 };
 
                 for (String strUrl : strUrls) {
@@ -269,12 +269,12 @@ public class Expansion {
                                 }
                             }
                         } catch (IOException e) {
-                            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
-                            m2fLogger.logStackTrace(e);
+                            // m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
+                            // m2fLogger.logStackTrace(e);
                         }
                     } catch (MalformedURLException e) {
-                        m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
-                        m2fLogger.logStackTrace(e);
+                        // m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
+                        // m2fLogger.logStackTrace(e);
                     }
                 }
             }

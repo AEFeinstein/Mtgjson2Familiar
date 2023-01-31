@@ -2,6 +2,7 @@ package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
 import com.google.gson.annotations.SerializedName;
 
+@SuppressWarnings("unused")
 public class mtgjson_translation {
     @SerializedName("Chinese Simplified")
     String ChineseSimplified;

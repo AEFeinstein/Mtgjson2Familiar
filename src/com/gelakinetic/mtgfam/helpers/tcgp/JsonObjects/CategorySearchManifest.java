@@ -19,6 +19,7 @@
 
 package com.gelakinetic.mtgfam.helpers.tcgp.JsonObjects;
 
+@SuppressWarnings("unused")
 class CategorySearchManifest {
     private final boolean success;
     private final String[] errors;

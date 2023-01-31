@@ -117,7 +117,7 @@ public class JudgeDocConverter {
      * Download, convert, and process all documents from Wizards Play Network.
      * After the document is processed, if it differs from the one in the rules folder, copy it to the rules folder
      * <p>
-     * https://wpn.wizards.com/en/rules-documents only loads a subset of documents. Rather than clicking the
+     * <a href="https://wpn.wizards.com/en/rules-documents">...</a> only loads a subset of documents. Rather than clicking the
      * "load more" button this function will only scan the first loaded links. These are the most recent documents.
      * This function may not process all three judge docs if the links aren't on the front page.
      *

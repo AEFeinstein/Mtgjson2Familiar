@@ -19,12 +19,12 @@
 
 package com.gelakinetic.mtgfam.helpers.tcgp.JsonObjects;
 
-@SuppressWarnings("FieldCanBeLocal")
+@SuppressWarnings({"FieldCanBeLocal", "unused"})
 public class ProductInformation {
-    private final int totalItems;
-    private final boolean success;
     public final String[] errors;
     public final long[] results;
+    private final int totalItems;
+    private final boolean success;
     private final Object[] aggregates;
 
     public ProductInformation() {

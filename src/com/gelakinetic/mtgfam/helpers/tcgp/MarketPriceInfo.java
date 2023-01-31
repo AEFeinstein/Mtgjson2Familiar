@@ -23,72 +23,9 @@ import com.gelakinetic.mtgfam.helpers.tcgp.JsonObjects.ProductMarketPrice;
 
 public class MarketPriceInfo {
 
-    public enum PriceType {
-        /**
-         * The order of the enum values must match the values in trade_option_entries and
-         * trade_option_values
-         */
-        LOW,
-        MID,
-        HIGH,
-        MARKET;
-
-        /**
-         * Convert an integer to a price type
-         *
-         * @param i The integer to convert
-         * @return The PriceType representation of this integer
-         */
-        public static PriceType fromOrdinal(int i) {
-            if (i < PriceType.values().length) {
-                return PriceType.values()[i];
-            }
-            return MARKET;
-        }
-    }
-
-    static class Price {
-        final double low;
-        final double mid;
-        final double high;
-        final double market;
-
-        /**
-         * Create a simpler Price object from a more complicated MarketPrice
-         *
-         * @param price The MarketPrice to copy prices from
-         */
-        Price(ProductMarketPrice.MarketPrice price) {
-            low = price.lowPrice;
-            mid = price.midPrice;
-            high = price.highPrice;
-            market = price.marketPrice;
-        }
-
-        /**
-         * Create a copy of a Price object
-         *
-         * @param price The object to copy
-         */
-        Price(Price price) {
-            if (null != price) {
-                low = price.low;
-                mid = price.mid;
-                high = price.high;
-                market = price.market;
-            } else {
-                low = 0;
-                mid = 0;
-                high = 0;
-                market = 0;
-            }
-        }
-    }
-
     private final Price mNormalPrice;
     private final Price mFoilPrice;
     private final String mProductUrl;
-
     /**
      * Create a deep copy of a MarketPriceInfo
      *
@@ -105,7 +42,6 @@ public class MarketPriceInfo {
             this.mFoilPrice = null;
         }
     }
-
     /**
      * Create a blank MarketPriceInfo
      */
@@ -155,16 +91,6 @@ public class MarketPriceInfo {
                 "&utm_campaign=affiliate" +
                 "&utm_medium=" + affiliateCode +
                 "&utm_source=" + affiliateCode;
-    }
-
-    public static class PriceAndFoil {
-        public final boolean isFoil;
-        public final double price;
-
-        PriceAndFoil(double _price, boolean _isFoil) {
-            isFoil = _isFoil;
-            price = _price;
-        }
     }
 
     /**
@@ -239,5 +165,77 @@ public class MarketPriceInfo {
      */
     public String getUrl() {
         return mProductUrl;
+    }
+
+    public enum PriceType {
+        /**
+         * The order of the enum values must match the values in trade_option_entries and
+         * trade_option_values
+         */
+        LOW,
+        MID,
+        HIGH,
+        MARKET;
+
+        /**
+         * Convert an integer to a price type
+         *
+         * @param i The integer to convert
+         * @return The PriceType representation of this integer
+         */
+        public static PriceType fromOrdinal(int i) {
+            if (i < PriceType.values().length) {
+                return PriceType.values()[i];
+            }
+            return MARKET;
+        }
+    }
+
+    static class Price {
+        final double low;
+        final double mid;
+        final double high;
+        final double market;
+
+        /**
+         * Create a simpler Price object from a more complicated MarketPrice
+         *
+         * @param price The MarketPrice to copy prices from
+         */
+        Price(ProductMarketPrice.MarketPrice price) {
+            low = price.lowPrice;
+            mid = price.midPrice;
+            high = price.highPrice;
+            market = price.marketPrice;
+        }
+
+        /**
+         * Create a copy of a Price object
+         *
+         * @param price The object to copy
+         */
+        Price(Price price) {
+            if (null != price) {
+                low = price.low;
+                mid = price.mid;
+                high = price.high;
+                market = price.market;
+            } else {
+                low = 0;
+                mid = 0;
+                high = 0;
+                market = 0;
+            }
+        }
+    }
+
+    public static class PriceAndFoil {
+        public final boolean isFoil;
+        public final double price;
+
+        PriceAndFoil(double _price, boolean _isFoil) {
+            isFoil = _isFoil;
+            price = _price;
+        }
     }
 }

@@ -1,5 +1,6 @@
 package com.gelakinetic.mtgfam.helpers.tcgp.JsonObjects;
 
+@SuppressWarnings("unused")
 public class Group {
     public final long groupId;
     public final String name;

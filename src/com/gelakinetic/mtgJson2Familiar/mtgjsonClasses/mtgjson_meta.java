@@ -6,9 +6,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 
+@SuppressWarnings("unused")
 public class mtgjson_meta {
-    String date;
     public String version;
+    String date;
 
     public long getTimestamp() {
         try {

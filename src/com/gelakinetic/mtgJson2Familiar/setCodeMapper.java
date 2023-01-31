@@ -13,41 +13,17 @@ public class setCodeMapper {
 
     private final codeMap cm;
 
-    static class code {
-        String name;
-        String code;
-
-        @Override
-        public boolean equals(Object obj) {
-            if (obj instanceof code) {
-                return ((code) obj).name.equals(this.name);
-            }
-            return false;
+    setCodeMapper(Gson gsonWriter) {
+        codeMap cm1;
+        try (FileReader fr = new FileReader(new File(Filenames.PATCHES_DIR, Filenames.SET_CODE_MAP_FILE), StandardCharsets.UTF_8)) {
+            cm1 = gsonWriter.fromJson(fr, setCodeMapper.codeMap.class);
+        } catch (IOException e) {
+            cm1 = null;
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read code map");
+            m2fLogger.logStackTrace(e);
         }
+        cm = cm1;
     }
-
-    static class codes {
-        ArrayList<code> codes;
-    }
-
-    static class codeMapEntry {
-        String mMtgjsonSetName;
-        String mMtgjsonSetCode;
-        String mFamiliarSetName;
-        String mFamiliarSetCode;
-
-        public codeMapEntry(code mjc, code fc) {
-            this.mMtgjsonSetCode = mjc.code;
-            this.mMtgjsonSetName = mjc.name;
-            this.mFamiliarSetCode = fc.code;
-            this.mFamiliarSetName = fc.name;
-        }
-    }
-
-    static class codeMap {
-        ArrayList<codeMapEntry> mCodes = new ArrayList<>();
-    }
-
 
     /**
      * Create a file mapping Familiar JSON set codes to mtgjson set codes
@@ -109,18 +85,6 @@ public class setCodeMapper {
         }
     }
 
-    setCodeMapper(Gson gsonWriter) {
-        codeMap cm1;
-        try (FileReader fr = new FileReader(new File(Filenames.PATCHES_DIR, Filenames.SET_CODE_MAP_FILE), StandardCharsets.UTF_8)) {
-            cm1 = gsonWriter.fromJson(fr, setCodeMapper.codeMap.class);
-        } catch (IOException e) {
-            cm1 = null;
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read code map");
-            m2fLogger.logStackTrace(e);
-        }
-        cm = cm1;
-    }
-
     public String getFamiliarCode(String code) {
         for (codeMapEntry cme : cm.mCodes) {
             if (cme.mMtgjsonSetCode.equals(code)) {
@@ -129,5 +93,40 @@ public class setCodeMapper {
         }
         // Code not found, must be something new and in sync
         return code;
+    }
+
+    static class code {
+        String name;
+        String code;
+
+        @Override
+        public boolean equals(Object obj) {
+            if (obj instanceof code) {
+                return ((code) obj).name.equals(this.name);
+            }
+            return false;
+        }
+    }
+
+    static class codes {
+        ArrayList<code> codes;
+    }
+
+    static class codeMapEntry {
+        String mMtgjsonSetName;
+        String mMtgjsonSetCode;
+        String mFamiliarSetName;
+        String mFamiliarSetCode;
+
+        public codeMapEntry(code mjc, code fc) {
+            this.mMtgjsonSetCode = mjc.code;
+            this.mMtgjsonSetName = mjc.name;
+            this.mFamiliarSetCode = fc.code;
+            this.mFamiliarSetName = fc.name;
+        }
+    }
+
+    static class codeMap {
+        ArrayList<codeMapEntry> mCodes = new ArrayList<>();
     }
 }

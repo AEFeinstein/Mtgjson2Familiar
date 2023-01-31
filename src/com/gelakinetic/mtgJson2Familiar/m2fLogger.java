@@ -2,12 +2,6 @@ package com.gelakinetic.mtgJson2Familiar;
 
 public class m2fLogger {
 
-    public enum LogLevel {
-        ERROR,
-        INFO,
-        DEBUG,
-    }
-
     private static LogLevel mLogLevel = LogLevel.INFO;
 
     public static void setLogLevel(LogLevel lvl) {
@@ -34,5 +28,11 @@ public class m2fLogger {
         if (LogLevel.ERROR.ordinal() <= mLogLevel.ordinal()) {
             e.printStackTrace();
         }
+    }
+
+    public enum LogLevel {
+        ERROR,
+        INFO,
+        DEBUG,
     }
 }

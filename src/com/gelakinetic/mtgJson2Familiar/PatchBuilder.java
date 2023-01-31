@@ -33,70 +33,34 @@ import java.util.zip.ZipInputStream;
 
 public class PatchBuilder {
 
-    /**
-     * Custom class to serialize Card objects and omit mIsToken if it is false
-     */
-    private static class CardJsonSerializer implements JsonSerializer<Card> {
-
-        private final Gson mGson;
-
-        public CardJsonSerializer() {
-            mGson = new GsonBuilder()
-                    .setFieldNamingStrategy((new PrefixedFieldNamingStrategy("m")))
-                    .disableHtmlEscaping()
-                    .setPrettyPrinting()
-                    .create();
-        }
-
-        /**
-         * Serialize the card as normal, but omit mIsToken if it is false
-         *
-         * @param card                     The card to serialze
-         * @param type                     The type, ignored
-         * @param jsonSerializationContext A context, ignored
-         * @return The serialized card as a JsonElement
-         */
-        @Override
-        public JsonElement serialize(Card card, Type type, JsonSerializationContext jsonSerializationContext) {
-            JsonObject jObj = (JsonObject) mGson.toJsonTree(card);
-            if (!card.mIsToken) {
-                jObj.remove("isToken");
-            }
-            if (!card.mIsOnlineOnly) {
-                jObj.remove("isOnlineOnly");
-            }
-            return jObj;
-        }
-    }
-
-    public static class EmptyStringToNumberTypeAdapter extends TypeAdapter<Number> {
-        @Override
-        public void write(JsonWriter jsonWriter, Number number) throws IOException {
-            if (number == null) {
-                jsonWriter.nullValue();
-                return;
-            }
-            jsonWriter.value(number);
-        }
-
-        @Override
-        public Number read(JsonReader jsonReader) throws IOException {
-            if (jsonReader.peek() == JsonToken.NULL) {
-                jsonReader.nextNull();
-                return null;
-            }
-
-            try {
-                String value = jsonReader.nextString();
-                if ("".equals(value)) {
-                    return 0;
-                }
-                return NumberUtils.createNumber(value);
-            } catch (NumberFormatException e) {
-                throw new JsonSyntaxException(e);
-            }
-        }
-    }
+    private static final List<String> bannedInHistoricJMP = Arrays.asList(
+            "Ajani's Chosen",
+            "Angelic Arbiter",
+            "Path to Exile",
+            "Read the Runes",
+            "Rhystic Study",
+            "Thought Scour",
+            "Exhume",
+            "Mausoleum Turnkey",
+            "Reanimate",
+            "Scourge of Nel Toth",
+            "Ball Lightning",
+            "Chain Lightning",
+            "Draconic Roar",
+            "Flametongue Kavu",
+            "Goblin Lore",
+            "Fa'adiyah Seer",
+            "Scrounging Bandar",
+            "Time to Feed");
+    private static final List<String> bannedInHistoricJ21 = Arrays.asList(
+            "Fog",
+            "Kraken Hatchling",
+            "Ponder",
+            "Regal Force",
+            "Stormfront Pegasus",
+            "Force Spike",
+            "Assault Strobe",
+            "Tropical Island");
 
     /**
      * Build all the patches with data from mtgjson
@@ -569,36 +533,6 @@ public class PatchBuilder {
         return downloaded;
     }
 
-    private static final List<String> bannedInHistoricJMP = Arrays.asList(
-            "Ajani's Chosen",
-            "Angelic Arbiter",
-            "Path to Exile",
-            "Read the Runes",
-            "Rhystic Study",
-            "Thought Scour",
-            "Exhume",
-            "Mausoleum Turnkey",
-            "Reanimate",
-            "Scourge of Nel Toth",
-            "Ball Lightning",
-            "Chain Lightning",
-            "Draconic Roar",
-            "Flametongue Kavu",
-            "Goblin Lore",
-            "Fa'adiyah Seer",
-            "Scrounging Bandar",
-            "Time to Feed");
-
-    private static final List<String> bannedInHistoricJ21 = Arrays.asList(
-            "Fog",
-            "Kraken Hatchling",
-            "Ponder",
-            "Regal Force",
-            "Stormfront Pegasus",
-            "Force Spike",
-            "Assault Strobe",
-            "Tropical Island");
-
     /**
      * If this card is banned or restricted in a format, add it to the list
      *
@@ -745,5 +679,70 @@ public class PatchBuilder {
             }
         }
         return expansions;
+    }
+
+    /**
+     * Custom class to serialize Card objects and omit mIsToken if it is false
+     */
+    private static class CardJsonSerializer implements JsonSerializer<Card> {
+
+        private final Gson mGson;
+
+        public CardJsonSerializer() {
+            mGson = new GsonBuilder()
+                    .setFieldNamingStrategy((new PrefixedFieldNamingStrategy("m")))
+                    .disableHtmlEscaping()
+                    .setPrettyPrinting()
+                    .create();
+        }
+
+        /**
+         * Serialize the card as normal, but omit mIsToken if it is false
+         *
+         * @param card                     The card to serialze
+         * @param type                     The type, ignored
+         * @param jsonSerializationContext A context, ignored
+         * @return The serialized card as a JsonElement
+         */
+        @Override
+        public JsonElement serialize(Card card, Type type, JsonSerializationContext jsonSerializationContext) {
+            JsonObject jObj = (JsonObject) mGson.toJsonTree(card);
+            if (!card.mIsToken) {
+                jObj.remove("isToken");
+            }
+            if (!card.mIsOnlineOnly) {
+                jObj.remove("isOnlineOnly");
+            }
+            return jObj;
+        }
+    }
+
+    public static class EmptyStringToNumberTypeAdapter extends TypeAdapter<Number> {
+        @Override
+        public void write(JsonWriter jsonWriter, Number number) throws IOException {
+            if (number == null) {
+                jsonWriter.nullValue();
+                return;
+            }
+            jsonWriter.value(number);
+        }
+
+        @Override
+        public Number read(JsonReader jsonReader) throws IOException {
+            if (jsonReader.peek() == JsonToken.NULL) {
+                jsonReader.nextNull();
+                return null;
+            }
+
+            try {
+                String value = jsonReader.nextString();
+                if ("".equals(value)) {
+                    return 0;
+                }
+                return NumberUtils.createNumber(value);
+            } catch (NumberFormatException e) {
+                throw new JsonSyntaxException(e);
+            }
+        }
     }
 }

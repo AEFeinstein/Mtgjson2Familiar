@@ -25,16 +25,6 @@ class PrefixedFieldNamingStrategy implements FieldNamingStrategy {
         mPrefix = prefix;
     }
 
-    @Override
-    public String translateName(final Field f) {
-        String name = f.getName();
-        if (name.startsWith(mPrefix)) {
-            return PrefixedFieldNamingStrategy.lowercaseFirstLetter(name.substring(mPrefix.length()));
-        } else {
-            throw new IllegalArgumentException("Don't know how to handle field not starting with m prefix: " + name);
-        }
-    }
-
     /**
      * Return a string with the first letter being lowercase.
      *
@@ -48,5 +38,15 @@ class PrefixedFieldNamingStrategy implements FieldNamingStrategy {
             s = new String(c);
         }
         return s;
+    }
+
+    @Override
+    public String translateName(final Field f) {
+        String name = f.getName();
+        if (name.startsWith(mPrefix)) {
+            return PrefixedFieldNamingStrategy.lowercaseFirstLetter(name.substring(mPrefix.length()));
+        } else {
+            throw new IllegalArgumentException("Don't know how to handle field not starting with m prefix: " + name);
+        }
     }
 }

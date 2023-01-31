@@ -24,16 +24,16 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.Date;
 
-@SuppressWarnings("FieldCanBeLocal")
+@SuppressWarnings({"FieldCanBeLocal", "unused"})
 public class AccessToken {
     public final String access_token;
+    @SerializedName(".expires")
+    public final Date expires;
     private final String token_type;
     private final int expires_in;
     private final String userName;
     @SerializedName(".issued")
     private final Date issued;
-    @SerializedName(".expires")
-    public final Date expires;
 
     public AccessToken() {
         access_token = "";

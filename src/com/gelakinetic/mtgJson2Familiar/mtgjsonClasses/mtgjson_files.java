@@ -1,5 +1,6 @@
 package com.gelakinetic.mtgJson2Familiar.mtgjsonClasses;
 
+@SuppressWarnings("unused")
 public class mtgjson_files {
     String AllPrintings;
     String AllPrintingsCSVFiles;

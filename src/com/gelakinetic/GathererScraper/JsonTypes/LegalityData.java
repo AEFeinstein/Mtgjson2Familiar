@@ -8,10 +8,10 @@ public class LegalityData {
     public long mTimestamp;
 
     public static class Format {
-        public String mName;
         public final ArrayList<String> mSets = new ArrayList<>();
         public final ArrayList<String> mRestrictedlist = new ArrayList<>();
         public final ArrayList<String> mBanlist = new ArrayList<>();
+        public String mName;
 
         public Format(String name) {
             mName = name;
