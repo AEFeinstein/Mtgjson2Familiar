@@ -1,4 +1,4 @@
-package com.gelakinetic.mtgJson2Familiar;
+package com.gelakinetic.mtgJson2Familiar.gsonSerializer;
 
 import com.google.gson.FieldNamingStrategy;
 
@@ -8,7 +8,7 @@ import java.lang.reflect.Field;
  * Implementation of a FieldNamingStrategy that translate a field's name by removing the prefix from it
  * and lowercase the following character.
  */
-class PrefixedFieldNamingStrategy implements FieldNamingStrategy {
+public class PrefixedFieldNamingStrategy implements FieldNamingStrategy {
 
     /**
      * The prefix to be match on the field's name

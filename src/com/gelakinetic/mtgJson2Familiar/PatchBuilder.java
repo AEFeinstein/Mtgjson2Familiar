@@ -1,6 +1,8 @@
 package com.gelakinetic.mtgJson2Familiar;
 
 import com.gelakinetic.GathererScraper.JsonTypes.*;
+import com.gelakinetic.mtgJson2Familiar.gsonSerializer.AlphabeticalJsonSerializer;
+import com.gelakinetic.mtgJson2Familiar.gsonSerializer.PrefixedFieldNamingStrategy;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_card;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_meta;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_set;
@@ -8,7 +10,10 @@ import com.gelakinetic.mtgJson2Familiar.mtgjsonClasses.mtgjson_token;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_allPrintings;
 import com.gelakinetic.mtgJson2Familiar.mtgjsonFiles.mtgjson_metafile;
 import com.gelakinetic.mtgfam.helpers.tcgp.TcgpHelper;
-import com.google.gson.*;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonSyntaxException;
+import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
@@ -18,7 +23,6 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.*;
-import java.lang.reflect.Type;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -83,10 +87,25 @@ public class PatchBuilder {
                 .registerTypeAdapter(Integer.class, numberTypeAdapter)
                 .registerTypeAdapter(int.class, numberTypeAdapter)
                 .create();
-        CardJsonSerializer cjs = new CardJsonSerializer();
+        // Top level JSON objects
+        AlphabeticalJsonSerializer<LegalityData> legalitySerializer = new AlphabeticalJsonSerializer<>(false);
+        AlphabeticalJsonSerializer<Manifest> manifestSerializer = new AlphabeticalJsonSerializer<>(false);
+        AlphabeticalJsonSerializer<Patch> patchSerializer = new AlphabeticalJsonSerializer<>(false);
+        // Nested JSON objects
+        AlphabeticalJsonSerializer<Card> cardSerializer = new AlphabeticalJsonSerializer<>(false);
+        AlphabeticalJsonSerializer<Expansion> expansionSerializer = new AlphabeticalJsonSerializer<>(false);
+        AlphabeticalJsonSerializer<Manifest.ManifestEntry> manifestEntrySerializer = new AlphabeticalJsonSerializer<>(false);
+        AlphabeticalJsonSerializer<LegalityData.Format> formatSerializer = new AlphabeticalJsonSerializer<>(false);
+
         Gson gsonWriter = new GsonBuilder()
                 .setFieldNamingStrategy((new PrefixedFieldNamingStrategy("m")))
-                .registerTypeAdapter(Card.class, cjs)
+                .registerTypeHierarchyAdapter(LegalityData.class, legalitySerializer)
+                .registerTypeHierarchyAdapter(Manifest.class, manifestSerializer)
+                .registerTypeHierarchyAdapter(Patch.class, patchSerializer)
+                .registerTypeHierarchyAdapter(Card.class, cardSerializer)
+                .registerTypeHierarchyAdapter(Expansion.class, expansionSerializer)
+                .registerTypeHierarchyAdapter(Manifest.ManifestEntry.class, manifestEntrySerializer)
+                .registerTypeHierarchyAdapter(LegalityData.Format.class, formatSerializer)
                 .disableHtmlEscaping()
                 .setPrettyPrinting()
                 .create();
@@ -679,42 +698,6 @@ public class PatchBuilder {
             }
         }
         return expansions;
-    }
-
-    /**
-     * Custom class to serialize Card objects and omit mIsToken if it is false
-     */
-    private static class CardJsonSerializer implements JsonSerializer<Card> {
-
-        private final Gson mGson;
-
-        public CardJsonSerializer() {
-            mGson = new GsonBuilder()
-                    .setFieldNamingStrategy((new PrefixedFieldNamingStrategy("m")))
-                    .disableHtmlEscaping()
-                    .setPrettyPrinting()
-                    .create();
-        }
-
-        /**
-         * Serialize the card as normal, but omit mIsToken if it is false
-         *
-         * @param card                     The card to serialze
-         * @param type                     The type, ignored
-         * @param jsonSerializationContext A context, ignored
-         * @return The serialized card as a JsonElement
-         */
-        @Override
-        public JsonElement serialize(Card card, Type type, JsonSerializationContext jsonSerializationContext) {
-            JsonObject jObj = (JsonObject) mGson.toJsonTree(card);
-            if (!card.mIsToken) {
-                jObj.remove("isToken");
-            }
-            if (!card.mIsOnlineOnly) {
-                jObj.remove("isOnlineOnly");
-            }
-            return jObj;
-        }
     }
 
     public static class EmptyStringToNumberTypeAdapter extends TypeAdapter<Number> {

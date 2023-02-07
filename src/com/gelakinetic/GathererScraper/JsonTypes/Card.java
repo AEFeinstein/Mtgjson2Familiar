@@ -78,7 +78,7 @@ public class Card implements Comparable<Card> {
     // If this card is a token or not
     public boolean mIsToken;
     // A map of legalities for this card
-    public Map<String, String> mLegalities = new HashMap<>();
+    public LinkedHashMap<String, String> mLegalities = new LinkedHashMap<>();
     public boolean mIsOnlineOnly;
     // The card's expansion
     protected String mScryfallSetCode;
@@ -304,6 +304,7 @@ public class Card implements Comparable<Card> {
             fp.mName = fd.name;
             this.mForeignPrintings.add(fp);
         }
+        Collections.sort(this.mForeignPrintings);
 
         this.mPower = parsePTL(orig.power);
         this.mToughness = parsePTL(orig.toughness);
@@ -338,7 +339,9 @@ public class Card implements Comparable<Card> {
         this.mIsOnlineOnly = orig.isOnlineOnly;
 
         // Build a map of per-card legalities
-        for (String format : orig.legalities.keySet()) {
+        List<String> formats = new ArrayList<>(orig.legalities.keySet());
+        Collections.sort(formats);
+        for (String format : formats) {
             if (!"future".equals(format)) {
                 this.mLegalities.put(beautifyFormat(format), orig.legalities.get(format));
             }
