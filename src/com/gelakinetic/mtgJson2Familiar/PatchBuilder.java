@@ -342,6 +342,21 @@ public class PatchBuilder {
                         }
                     }
 
+                    // Check if we're less than two weeks away from a release (one week from a prerelease)
+                    boolean isReleaseSoon = false;
+                    try {
+                        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+                        sdf.setTimeZone(TimeZone.getTimeZone("America/New_York"));
+                        long releaseSinceEpochS = sdf.parse(set.releaseDate).getTime() / 1000;
+                        long currentSinceEpochS = java.time.Instant.now().getEpochSecond();
+                        long secUntilRelease = releaseSinceEpochS - currentSinceEpochS;
+                        if (0 < secUntilRelease && secUntilRelease < (60 * 60 * 24 * 14)) {
+                            isReleaseSoon = true;
+                        }
+                    } catch (ParseException e) {
+                        m2fLogger.log(m2fLogger.LogLevel.ERROR, e.getMessage());
+                    }
+
                     // If no cards were added
                     if (newPatch.mCards.isEmpty()) {
                         // but the expansion exists on Gatherer
@@ -351,21 +366,6 @@ public class PatchBuilder {
                                 existsOnGatherer = true;
                                 break;
                             }
-                        }
-
-                        // Check if we're less than two weeks away from a release (one week from a prerelease)
-                        boolean isReleaseSoon = false;
-                        try {
-                            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-                            sdf.setTimeZone(TimeZone.getTimeZone("America/New_York"));
-                            long releaseSinceEpochS = sdf.parse(set.releaseDate).getTime() / 1000;
-                            long currentSinceEpochS = java.time.Instant.now().getEpochSecond();
-                            long secUntilRelease = releaseSinceEpochS - currentSinceEpochS;
-                            if (0 < secUntilRelease && secUntilRelease < (60 * 60 * 24 * 14)) {
-                                isReleaseSoon = true;
-                            }
-                        } catch (ParseException e) {
-                            m2fLogger.log(m2fLogger.LogLevel.ERROR, e.getMessage());
                         }
 
                         // If the expansion is on gatherer, or it's of a specific type
@@ -392,7 +392,7 @@ public class PatchBuilder {
                     }
 
                     // If any cards are in this set, and it isn't saved yet
-                    if (newPatch.mCards.size() > 0) {
+                    if (newPatch.mCards.size() > 0 && ((!set.isPartialPreview || isReleaseSoon))) {
                         if (!allPatches.contains(newPatch)) {
                             // Save this patch
                             allPatches.add(newPatch);
