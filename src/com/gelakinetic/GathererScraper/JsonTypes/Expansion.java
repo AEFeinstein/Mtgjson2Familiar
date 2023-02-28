@@ -200,9 +200,14 @@ public class Expansion {
                 // Already exists, don't bother getting it again
                 addToList = true;
             } else {
+                // WotC just had to go and change this
+                String gathererAdjustedCode = this.mCode_gatherer;
+                if ("MBP".equals(gathererAdjustedCode)) {
+                    gathererAdjustedCode = "PPR";
+                }
                 // Attempt to download it
                 String[] strUrls = {
-                        "https://gatherer.wizards.com/Handlers/Image.ashx?type=symbol&set=" + this.mCode_gatherer + "&size=large&rarity=" + rarity,
+                        "https://gatherer.wizards.com/Handlers/Image.ashx?type=symbol&set=" + gathererAdjustedCode + "&size=large&rarity=" + rarity,
                         "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer + "_" + rarity + ".png",
                         "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_expsym_" + (rarity + "").toLowerCase() + "_web_en.png",
                         "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_expsym_" + (rarity + "").toLowerCase() + "_web.png",

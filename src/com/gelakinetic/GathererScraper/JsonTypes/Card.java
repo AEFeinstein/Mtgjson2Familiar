@@ -22,6 +22,9 @@ import java.util.*;
  */
 public class Card implements Comparable<Card> {
 
+    // Static helper to not print so many warnings
+    static ArrayList<String> unknownFormats = new ArrayList<>();
+
     // The card's name
     public String mName;
 
@@ -201,8 +204,9 @@ public class Card implements Comparable<Card> {
                 // Special -> Common, Prismatic Piper
                 // Special -> Common, Faceless One
                 this.mRarity = 'C';
-            } else if ("ONC".equals(orig.setCode) && "Beast Within".equals(orig.name)) {
-                this.mRarity = 'U';
+            } else {
+                // Default to Mythic
+                this.mRarity = 'M';
             }
         } else if ('B' == this.mRarity) {
             if (origSet.name.toLowerCase().contains("time")) {
@@ -342,7 +346,7 @@ public class Card implements Comparable<Card> {
         List<String> formats = new ArrayList<>(orig.legalities.keySet());
         Collections.sort(formats);
         for (String format : formats) {
-            if (!"future".equals(format)) {
+            if (!"future".equals(format) && !"predh".equals((format))) {
                 this.mLegalities.put(beautifyFormat(format), orig.legalities.get(format));
             }
         }
@@ -397,7 +401,10 @@ public class Card implements Comparable<Card> {
             case "explorer":
                 return "Explorer";
             default: {
-                m2fLogger.log(m2fLogger.LogLevel.ERROR, "Unknown format ~" + s + "~");
+                if (!unknownFormats.contains(s)) {
+                    unknownFormats.add(s);
+                    m2fLogger.log(m2fLogger.LogLevel.ERROR, "Unknown format ~" + s + "~");
+                }
                 return s;
             }
         }
