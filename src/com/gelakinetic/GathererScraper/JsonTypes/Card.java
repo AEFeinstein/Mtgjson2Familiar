@@ -346,7 +346,7 @@ public class Card implements Comparable<Card> {
         List<String> formats = new ArrayList<>(orig.legalities.keySet());
         Collections.sort(formats);
         for (String format : formats) {
-            if (!"future".equals(format) && !"predh".equals((format))) {
+            if (!"future".equals(format) && !"predh".equals(format) && !"oathbreaker".equals(format)) {
                 this.mLegalities.put(beautifyFormat(format), orig.legalities.get(format));
             }
         }
