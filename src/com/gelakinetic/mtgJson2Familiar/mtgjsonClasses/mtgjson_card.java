@@ -86,6 +86,14 @@ public class mtgjson_card {
     public List<String> rebalancedPrintings;
     public String securityStamp;
     public String signature;
+    // 5.2.1
+    public List<String> attractionLights;
+    public List<String> boosterTypes;
+    public String defense;
+    public float edhrecSaltiness;
+    public String language;
+    public mtgjson_RelatedCards relatedCards;
+    public List<String> subsets;
 
     // hashInit and hashVal were added by me
     private boolean hashInit = false;

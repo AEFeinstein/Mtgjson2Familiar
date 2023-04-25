@@ -313,6 +313,9 @@ public class Card implements Comparable<Card> {
         this.mPower = parsePTL(orig.power);
         this.mToughness = parsePTL(orig.toughness);
         this.mLoyalty = (int) parsePTL(orig.loyalty);
+        if (null != orig.defense && null == orig.loyalty) {
+            this.mLoyalty = (int) parsePTL(orig.defense);
+        }
 
         this.mType = htmlifyText(orig.type);
         this.mText = htmlifyText(orig.text);
@@ -346,7 +349,7 @@ public class Card implements Comparable<Card> {
         List<String> formats = new ArrayList<>(orig.legalities.keySet());
         Collections.sort(formats);
         for (String format : formats) {
-            if (!"future".equals(format) && !"predh".equals(format) && !"oathbreaker".equals(format)) {
+            if (!"future".equals(format) && !"predh".equals(format) && !"oathbreaker".equals(format) && !"penny".equals(format)) {
                 this.mLegalities.put(beautifyFormat(format), orig.legalities.get(format));
             }
         }
