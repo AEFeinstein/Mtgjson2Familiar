@@ -2886,7 +2886,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{G}{W}{X}",
       "tcgplayerProductId": 499719,
-      "text": "Affinity for Food (This spell costs 1 less to cast for each Food you control.)<br>Trample<br>Banquet Guests enters the battlefield with twice X +1/+1 counters on it.<br>{2}, Sacrifice a Food: Banquet Guests gains indestructible until end of turn.",
+      "text": "Affinity for Food (This spell costs {1} less to cast for each Food you control.)<br>Trample<br>Banquet Guests enters the battlefield with twice X +1/+1 counters on it.<br>{2}, Sacrifice a Food: Banquet Guests gains indestructible until end of turn.",
       "toughness": 0.0,
       "type": "Creature - Halfling Citizen"
     },
@@ -3990,7 +3990,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{B}{G}",
       "tcgplayerProductId": 500131,
-      "text": "Partner with Merry, Warden of Isengard (When this creature enters the battlefield, target player may put Merry into their hand from their library, then shuffle)<br>{1}, {T}: Create a Food token.<br>{T}, Sacrifice four Foods: Other creatures you control get +3/+3 and gain haste until end of turn. Activate only as a sorcery.",
+      "text": "Partner with Merry, Warden of Isengard (When this creature enters the battlefield, target player may put Merry into their hand from their library, then shuffle.)<br>{1}, {T}: Create a Food token.<br>{T}, Sacrifice four Foods: Other creatures you control get +3/+3 and gain haste until end of turn. Activate only as a sorcery.",
       "toughness": 2.0,
       "type": "Legendary Creature - Halfling Advisor"
     },
@@ -4820,7 +4820,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 499597,
-      "text": "{T}: Add two mana in any combination of {U}, {B} and/or {R}.<br>{3}, {T}: Draw two cards, then discard a card.",
+      "text": "{T}: Add two mana in any combination of {U}, {B}, and/or {R}.<br>{3}, {T}: Draw two cards, then discard a card.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -7284,7 +7284,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{G}{W}{X}",
       "tcgplayerProductId": 500091,
-      "text": "Affinity for Food (This spell costs 1 less to cast for each Food you control.)<br>Trample<br>Banquet Guests enters the battlefield with twice X +1/+1 counters on it.<br>{2}, Sacrifice a Food: Banquet Guests gains indestructible until end of turn.",
+      "text": "Affinity for Food (This spell costs {1} less to cast for each Food you control.)<br>Trample<br>Banquet Guests enters the battlefield with twice X +1/+1 counters on it.<br>{2}, Sacrifice a Food: Banquet Guests gains indestructible until end of turn.",
       "toughness": 0.0,
       "type": "Creature - Halfling Citizen"
     },
@@ -8074,7 +8074,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{B}{G}",
       "tcgplayerProductId": 500133,
-      "text": "Partner with Merry, Warden of Isengard (When this creature enters the battlefield, target player may put Merry into their hand from their library, then shuffle)<br>{1}, {T}: Create a Food token.<br>{T}, Sacrifice four Foods: Other creatures you control get +3/+3 and gain haste until end of turn. Activate only as a sorcery.",
+      "text": "Partner with Merry, Warden of Isengard (When this creature enters the battlefield, target player may put Merry into their hand from their library, then shuffle.)<br>{1}, {T}: Create a Food token.<br>{T}, Sacrifice four Foods: Other creatures you control get +3/+3 and gain haste until end of turn. Activate only as a sorcery.",
       "toughness": 2.0,
       "type": "Legendary Creature - Halfling Advisor"
     },
@@ -8699,7 +8699,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 500103,
-      "text": "{T}: Add two mana in any combination of {U}, {B} and/or {R}.<br>{3}, {T}: Draw two cards, then discard a card.",
+      "text": "{T}: Add two mana in any combination of {U}, {B}, and/or {R}.<br>{3}, {T}: Draw two cards, then discard a card.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -10956,7 +10956,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{U}",
       "tcgplayerProductId": 499733,
-      "text": "Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "text": "Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -12605,6 +12605,9 @@
       "legalities": {
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Historic Brawl": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Vintage": "Legal"
@@ -13227,7 +13230,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{3}{G}{G}",
       "tcgplayerProductId": 499776,
-      "text": "Creatures you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)<br>{1}{G}: Regenerate target creature.",
+      "text": "Creatures you control have hexproof.<br>{1}{G}: Regenerate target creature. (The next time it would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -14281,7 +14284,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{4}{G}{G}{G}",
       "tcgplayerProductId": 499728,
-      "text": "Flying<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)<br>When Hornet Queen enters the battlefield, create four 1/1 green Insect creature tokens with flying and deathtouch.",
+      "text": "Flying<br>Deathtouch<br>When Hornet Queen enters the battlefield, create four 1/1 green Insect creature tokens with flying and deathtouch.",
       "toughness": 2.0,
       "type": "Creature - Insect"
     },
@@ -15389,7 +15392,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{2}{B}{U}",
       "tcgplayerProductId": 499637,
-      "text": "When Hostage Taker enters the battlefield, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.",
+      "text": "When Hostage Taker enters the battlefield, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast it.",
       "toughness": 3.0,
       "type": "Creature - Human Pirate"
     },
@@ -16719,6 +16722,9 @@
       "legalities": {
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Historic Brawl": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
@@ -16903,6 +16909,9 @@
       "legalities": {
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Historic Brawl": "Legal",
         "Legacy": "Legal",
         "Pre-Modern": "Legal",
         "Vintage": "Legal"
@@ -17214,6 +17223,10 @@
       "legalities": {
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Historic Brawl": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
@@ -18798,6 +18811,10 @@
       "legalities": {
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Historic Brawl": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
@@ -19283,6 +19300,10 @@
       "legalities": {
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Historic Brawl": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
@@ -19469,6 +19490,10 @@
       "legalities": {
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Historic Brawl": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
@@ -22356,7 +22381,7 @@
     "canBeFoil": true,
     "code_gatherer": "LTC",
     "code_mtgi": "LTC",
-    "digest": "02dca9178e0a732dd71d39aab34169e330",
+    "digest": "0183193a1a4a1233a5bdb800b0f7fc7bb1",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/LTC_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/LTC_R.png",
