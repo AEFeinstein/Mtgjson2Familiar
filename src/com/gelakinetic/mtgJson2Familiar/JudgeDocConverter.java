@@ -136,27 +136,15 @@ public class JudgeDocConverter {
         // Just get links from the first page, which is sorted by date updated
         Document wpnPage = NetUtils.ConnectWithRetries("https://wpn.wizards.com/en/rules-documents");
         if (null != wpnPage) {
+            // Look for PDFs in links
             for (Element link : wpnPage.getElementsByTag("a")) {
-                String linkStr = link.attr("href");
-                // If this is a link to a PDF file
-                if (linkStr.toLowerCase().endsWith(".pdf")) {
-                    // Check the type
-                    if (linkStr.toLowerCase().contains("_mtr_")) {
-                        // Don't allow duplicates
-                        if (!filesToProcess.containsKey(Filenames.MTR_FILE)) {
-                            filesToProcess.put(Filenames.MTR_FILE, linkStr);
-                        }
-                    } else if (linkStr.toLowerCase().contains("_ipg_")) {
-                        // Don't allow duplicates
-                        if (!filesToProcess.containsKey(Filenames.IPG_FILE)) {
-                            filesToProcess.put(Filenames.IPG_FILE, linkStr);
-                        }
-                    } else if (linkStr.toLowerCase().contains("_jar_")) {
-                        // Don't allow duplicates
-                        if (!filesToProcess.containsKey(Filenames.JAR_FILE)) {
-                            filesToProcess.put(Filenames.JAR_FILE, linkStr);
-                        }
-                    }
+                checkJudgeDocLinkStr(link.attr("href"), filesToProcess);
+            }
+
+            // Look for PDFs in script tags as well
+            for (Element script : wpnPage.getElementsByTag("script")) {
+                for (String linkStr : script.html().split("\"")) {
+                    checkJudgeDocLinkStr(StringEscapeUtils.unescapeJava(linkStr), filesToProcess);
                 }
             }
         }
@@ -180,6 +168,35 @@ public class JudgeDocConverter {
             }
         }
         return ret;
+    }
+
+    /**
+     * Check if a link should be added to filesToProcess
+     *
+     * @param linkStr        A potential link to a judge doc
+     * @param filesToProcess A map of judge doc links
+     */
+    private static void checkJudgeDocLinkStr(String linkStr, HashMap<String, String> filesToProcess) {
+        // If this is a link to a PDF file
+        if (linkStr.toLowerCase().endsWith(".pdf")) {
+            // Check the type
+            if (linkStr.toLowerCase().contains("_mtr_")) {
+                // Don't allow duplicates
+                if (!filesToProcess.containsKey(Filenames.MTR_FILE)) {
+                    filesToProcess.put(Filenames.MTR_FILE, linkStr);
+                }
+            } else if (linkStr.toLowerCase().contains("_ipg_")) {
+                // Don't allow duplicates
+                if (!filesToProcess.containsKey(Filenames.IPG_FILE)) {
+                    filesToProcess.put(Filenames.IPG_FILE, linkStr);
+                }
+            } else if (linkStr.toLowerCase().contains("_jar_")) {
+                // Don't allow duplicates
+                if (!filesToProcess.containsKey(Filenames.JAR_FILE)) {
+                    filesToProcess.put(Filenames.JAR_FILE, linkStr);
+                }
+            }
+        }
     }
 
     /**
