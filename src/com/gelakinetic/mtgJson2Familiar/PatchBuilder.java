@@ -176,9 +176,11 @@ public class PatchBuilder {
             mtgjson_set set = printings.data.get(key);
             for (mtgjson_card card : set.cards) {
                 for (String format : card.legalities.keySet()) {
-                    LegalityData.Format checkFmt = new LegalityData.Format(Card.beautifyFormat(format));
-                    if (!legal.mFormats.contains(checkFmt)) {
-                        legal.mFormats.add(checkFmt);
+                    if (Card.isUsedFormat(format)) {
+                        LegalityData.Format checkFmt = new LegalityData.Format(Card.beautifyFormat(format));
+                        if (!legal.mFormats.contains(checkFmt)) {
+                            legal.mFormats.add(checkFmt);
+                        }
                     }
                 }
             }

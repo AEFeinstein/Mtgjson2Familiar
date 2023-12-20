@@ -55,15 +55,17 @@ public class mtgjson_set {
 //            }
 
             for (String format : c.legalities.keySet()) {
-                switch (c.legalities.get(format)) {
-                    case "Legal":
-                    case "Banned":
-                    case "Restricted": {
-                        cardsInFormat.merge(Card.beautifyFormat(format), 1, Integer::sum);
-                        break;
-                    }
-                    default: {
-                        break;
+                if (Card.isUsedFormat(format)) {
+                    switch (c.legalities.get(format)) {
+                        case "Legal":
+                        case "Banned":
+                        case "Restricted": {
+                            cardsInFormat.merge(Card.beautifyFormat(format), 1, Integer::sum);
+                            break;
+                        }
+                        default: {
+                            break;
+                        }
                     }
                 }
             }

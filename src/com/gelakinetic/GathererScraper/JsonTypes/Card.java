@@ -349,7 +349,7 @@ public class Card implements Comparable<Card> {
         List<String> formats = new ArrayList<>(orig.legalities.keySet());
         Collections.sort(formats);
         for (String format : formats) {
-            if (!"future".equals(format) && !"predh".equals(format) && !"oathbreaker".equals(format) && !"penny".equals(format)) {
+            if (isUsedFormat(format)) {
                 this.mLegalities.put(beautifyFormat(format), orig.legalities.get(format));
             }
         }
@@ -358,6 +358,17 @@ public class Card implements Comparable<Card> {
         if (orig.isReserved) {
             this.mLegalities.put("Reserved List", "Banned");
         }
+    }
+
+    public static boolean isUsedFormat(String format) {
+        switch (format) {
+            case "future":
+            case "predh":
+            case "oathbreaker":
+            case "penny":
+                return false;
+        }
+        return true;
     }
 
     public static String beautifyFormat(String s) {
@@ -403,6 +414,8 @@ public class Card implements Comparable<Card> {
                 return "Alchemy";
             case "explorer":
                 return "Explorer";
+            case "timeless":
+                return "Timeless";
             default: {
                 if (!unknownFormats.contains(s)) {
                     unknownFormats.add(s);
