@@ -390,6 +390,8 @@ public class Card implements Comparable<Card> {
                 return "Historic";
             case "historicbrawl":
                 return "Historic Brawl";
+            case "standardbrawl":
+                return "Standard Brawl";
             case "legacy":
                 return "Legacy";
             case "modern":
