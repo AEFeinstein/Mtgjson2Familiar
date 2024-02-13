@@ -1319,7 +1319,7 @@
       "scryfallSetCode": "MH1",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 191690,
-      "text": "Suspend 5-{W} (Rather than cast this card from your hand, you may pay {W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>When Knight of Old Benalia enters the battlefield, other creatures you control get +1/+1 until end of turn.",
+      "text": "Suspend 5-{W} (Rather than cast this card from your hand, you may pay {W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)<br>When Knight of Old Benalia enters the battlefield, other creatures you control get +1/+1 until end of turn.",
       "toughness": 3.0,
       "type": "Creature - Human Knight"
     },
@@ -11600,7 +11600,7 @@
       "scryfallSetCode": "MH1",
       "sortedManaCost": "{3}{R}",
       "tcgplayerProductId": 191135,
-      "text": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)<br>Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)",
+      "text": "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)<br>Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -12341,10 +12341,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -12356,7 +12360,7 @@
       "scryfallSetCode": "MH1",
       "securityStamp": "oval",
       "tcgplayerProductId": 191075,
-      "text": "Suspend 4-{G} (Rather than cast this card from your hand, pay {G} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)<br>Create two 4/4 green Rhino creature tokens with trample.",
+      "text": "Suspend 4-{G} (Rather than cast this card from your hand, pay {G} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)<br>Create two 4/4 green Rhino creature tokens with trample.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -15299,7 +15303,7 @@
       "scryfallSetCode": "MH1",
       "sortedManaCost": "{1}{B}{W}",
       "tcgplayerProductId": 190883,
-      "text": "As Etchings of the Chosen enters the battlefield, choose a creature type.<br>Creatures you control of the chosen type get +1/+1.<br>{1}, Sacrifice a creature of the chosen type: Target creature you control gains indestructible until end of turn.",
+      "text": "As Etchings of the Chosen enters the battlefield, choose a creature type.<br>Creatures you control of the chosen type get +1/+1.<br>{1}, Sacrifice a creature of the chosen type: Target creature you control gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -17443,7 +17447,7 @@
       "scryfallSetCode": "MH1",
       "securityStamp": "oval",
       "tcgplayerProductId": 190981,
-      "text": "Suspend 3-{0} (Rather than cast this card from your hand, pay {0} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)<br>{T}: Add one mana of any color.",
+      "text": "Suspend 3-{0} (Rather than cast this card from your hand, pay {0} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)<br>{T}: Add one mana of any color.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -19664,7 +19668,7 @@
     "canBeFoil": true,
     "code_gatherer": "MH1",
     "code_mtgi": "MH1",
-    "digest": "be9911db76240b6c5b41139dbb3b75e4",
+    "digest": "fed0d48fd2d6131eacd03b8fb8085f2338",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MH1_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MH1_C.png",
