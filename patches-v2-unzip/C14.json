@@ -6149,7 +6149,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{7}{U}{U}{U}",
       "tcgplayerProductId": 94264,
-      "text": "Deep-Sea Kraken can't be blocked.<br>Suspend 9-{2}{U} (Rather than cast this card from your hand, you may pay {2}{U} and exile it with nine time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)<br>Whenever an opponent casts a spell, if Deep-Sea Kraken is suspended, remove a time counter from it.",
+      "text": "Deep-Sea Kraken can't be blocked.<br>Suspend 9-{2}{U} (Rather than cast this card from your hand, you may pay {2}{U} and exile it with nine time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)<br>Whenever an opponent casts a spell, if Deep-Sea Kraken is suspended, remove a time counter from it.",
       "toughness": 6.0,
       "type": "Creature - Kraken"
     },
@@ -9976,10 +9976,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -14154,7 +14158,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 94407,
-      "text": "Epochrasite enters the battlefield with three +1/+1 counters on it if you didn't cast it from your hand.<br>When Epochrasite dies, exile it with three time counters on it and it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, cast this card without paying its mana cost. It has haste.)",
+      "text": "Epochrasite enters the battlefield with three +1/+1 counters on it if you didn't cast it from your hand.<br>When Epochrasite dies, exile it with three time counters on it and it gains suspend. (At the beginning of its owner's upkeep, they remove a time counter. When the last is removed, they may cast this card without paying its mana cost. It has haste.)",
       "toughness": 1.0,
       "type": "Artifact Creature - Construct"
     },
@@ -20204,7 +20208,7 @@
     "canBeFoil": false,
     "code_gatherer": "C14",
     "code_mtgi": "C14",
-    "digest": "037949470d7a953bfe92d56c122e3fe8a5",
+    "digest": "0477ba57b1acca9bc3448d48fadaa5e3a0",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C14_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C14_M.png",

@@ -2105,7 +2105,7 @@
       "scryfallSetCode": "ZNC",
       "sortedManaCost": "{1}{U}",
       "tcgplayerProductId": 222534,
-      "text": "Flying<br>Whenever Nightveil Sprite attacks, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",
+      "text": "Flying<br>Whenever Nightveil Sprite attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
       "toughness": 2.0,
       "type": "Creature - Faerie Rogue"
     },
@@ -3769,7 +3769,7 @@
       "scryfallSetCode": "ZNC",
       "sortedManaCost": "{3}{B}{B}",
       "tcgplayerProductId": 222410,
-      "text": "Whenever another creature dies, or a creature card is put into a graveyard from anywhere other than the battlefield, or a creature card leaves your graveyard, Syr Konrad, the Grim deals 1 damage to each opponent.<br>{1}{B}: Each player mills a card.",
+      "text": "Whenever another creature dies, or a creature card is put into a graveyard from anywhere other than the battlefield, or a creature card leaves your graveyard, Syr Konrad, the Grim deals 1 damage to each opponent.<br>{1}{B}: Each player mills a card. (They each put the top card of their library into their graveyard.)",
       "toughness": 4.0,
       "type": "Legendary Creature - Human Knight"
     },
@@ -4837,7 +4837,7 @@
       "scryfallSetCode": "ZNC",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 222639,
-      "text": "Draw a card for each creature you control with a +1/+1 counter on it. Those creatures gain indestructible until end of turn.",
+      "text": "Draw a card for each creature you control with a +1/+1 counter on it. Those creatures gain indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy them.)",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -7272,9 +7272,13 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -9821,7 +9825,7 @@
     "canBeFoil": true,
     "code_gatherer": "ZNC",
     "code_mtgi": "ZNC",
-    "digest": "01400285afdde990095ad55d9cb1099aec",
+    "digest": "5cab8da4787df402c6ca3d7d383d501f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ZNC_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ZNC_R.png",
