@@ -145,7 +145,7 @@
       "scryfallSetCode": "M14",
       "sortedManaCost": "{2}{W}{W}",
       "tcgplayerProductId": 69116,
-      "text": "Whenever an enchantment enters under your control, create a 2/2 white Cat creature token. If that enchantment is an Aura, you may attach it to the token.",
+      "text": "Whenever an enchantment you control enters, create a 2/2 white Cat creature token. If that enchantment is an Aura, you may attach it to the token.",
       "toughness": 3.0,
       "type": "Creature - Cat Soldier"
     },
@@ -7929,11 +7929,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": 3,
@@ -11549,7 +11553,7 @@
       "scryfallSetCode": "M14",
       "sortedManaCost": "{2}{R}{R}",
       "tcgplayerProductId": 69176,
-      "text": "Whenever another creature enters under your control, that creature gets +2/+0 and gains haste until end of turn. (It can attack and {T} this turn.)",
+      "text": "Whenever another creature you control enters, that creature gets +2/+0 and gains haste until end of turn. (It can attack and {T} this turn.)",
       "toughness": 3.0,
       "type": "Creature - Ogre Warrior"
     },
@@ -11781,7 +11785,7 @@
       "scryfallSetCode": "M14",
       "sortedManaCost": "{2}{R}{R}{R}",
       "tcgplayerProductId": 69189,
-      "text": "Flying<br>Whenever Scourge of Valkas or another Dragon enters under your control, it deals X damage to any target, where X is the number of Dragons you control.<br>{R}: Scourge of Valkas gets +1/+0 until end of turn.",
+      "text": "Flying<br>Whenever Scourge of Valkas or another Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control.<br>{R}: Scourge of Valkas gets +1/+0 until end of turn.",
       "toughness": 4.0,
       "type": "Creature - Dragon"
     },
@@ -14668,7 +14672,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -14844,7 +14847,7 @@
       "scryfallSetCode": "M14",
       "sortedManaCost": "{5}{G}",
       "tcgplayerProductId": 68232,
-      "text": "Whenever you cast a creature spell, create a 3/3 green Beast creature token.<br>Whenever you cast a noncreature spell, put three +1/+1 counters on target creature you control.<br>Landfall - Whenever a land enters under your control, you gain 3 life.",
+      "text": "Whenever you cast a creature spell, create a 3/3 green Beast creature token.<br>Whenever you cast a noncreature spell, put three +1/+1 counters on target creature you control.<br>Landfall - Whenever a land you control enters, you gain 3 life.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -15322,7 +15325,7 @@
       "scryfallSetCode": "M14",
       "sortedManaCost": "{3}{G}{G}",
       "tcgplayerProductId": 69107,
-      "text": "Landfall - Whenever a land enters under your control, create a 1/1 green Saproling creature token.",
+      "text": "Landfall - Whenever a land you control enters, create a 1/1 green Saproling creature token.",
       "toughness": 3.0,
       "type": "Creature - Fungus"
     },
@@ -17229,7 +17232,7 @@
       "scryfallSetCode": "M14",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 69104,
-      "text": "Whenever you cast a blue spell or an Island enters under your control, you gain 1 life.",
+      "text": "Whenever you cast a blue spell or an Island you control enters, you gain 1 life.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -17304,7 +17307,7 @@
       "scryfallSetCode": "M14",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 69105,
-      "text": "Whenever you cast a white spell or a Plains enters under your control, you gain 1 life.",
+      "text": "Whenever you cast a white spell or a Plains you control enters, you gain 1 life.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -19499,7 +19502,7 @@
     "canBeFoil": true,
     "code_gatherer": "M14",
     "code_mtgi": "M14",
-    "digest": "0216b9574fc1c3d1ef145b5670bf82eb25",
+    "digest": "016a799601d1a8518dcd1c961e06245e15",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/M14_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/M14_R.png",

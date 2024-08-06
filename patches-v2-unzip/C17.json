@@ -1544,9 +1544,13 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -1903,7 +1907,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{G}",
       "tcgplayerProductId": 139819,
-      "text": "Reach<br>Whenever Qasali Slingers or another Cat enters under your control, you may destroy target artifact or enchantment.",
+      "text": "Reach<br>Whenever Qasali Slingers or another Cat you control enters, you may destroy target artifact or enchantment.",
       "toughness": 5.0,
       "type": "Creature - Cat Warrior"
     },
@@ -2198,7 +2202,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{R}{U}",
       "tcgplayerProductId": 139846,
-      "text": "Eminence - Whenever another nontoken Wizard enters under your control, if Inalla, Archmage Ritualist is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.<br>Tap five untapped Wizards you control: Target player loses 7 life.",
+      "text": "Eminence - Whenever another nontoken Wizard you control enters, if Inalla, Archmage Ritualist is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.<br>Tap five untapped Wizards you control: Target player loses 7 life.",
       "toughness": 5.0,
       "type": "Legendary Creature - Human Wizard"
     },
@@ -2951,7 +2955,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 139786,
-      "text": "Whenever Hammer of Nazahn or another Equipment enters under your control, you may attach that Equipment to target creature you control.<br>Equipped creature gets +2/+0 and has indestructible.<br>Equip {4}",
+      "text": "Whenever Hammer of Nazahn or another Equipment you control enters, you may attach that Equipment to target creature you control.<br>Equipped creature gets +2/+0 and has indestructible.<br>Equip {4}",
       "toughness": -1005.0,
       "type": "Legendary Artifact - Equipment"
     },
@@ -7911,7 +7915,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": 139935,
-      "text": "Whenever a creature with flying enters under your control, it gains haste until end of turn.<br>Whenever a Dragon enters under your control, it deals X damage to any target, where X is the number of Dragons you control.",
+      "text": "Whenever a creature you control with flying enters, it gains haste until end of turn.<br>Whenever a Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -8393,7 +8397,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{R}{R}{R}",
       "tcgplayerProductId": 139828,
-      "text": "Flying<br>Whenever Scourge of Valkas or another Dragon enters under your control, it deals X damage to any target, where X is the number of Dragons you control.<br>{R}: Scourge of Valkas gets +1/+0 until end of turn.",
+      "text": "Flying<br>Whenever Scourge of Valkas or another Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control.<br>{R}: Scourge of Valkas gets +1/+0 until end of turn.",
       "toughness": 4.0,
       "type": "Creature - Dragon"
     },
@@ -8755,7 +8759,7 @@
       "scryfallSetCode": "C17",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 139942,
-      "text": "Whenever a creature with power 3 or greater enters under your control, draw a card.",
+      "text": "Whenever a creature you control with power 3 or greater enters, draw a card.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -12699,7 +12703,7 @@
       "scryfallSetCode": "C17",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 139959,
-      "text": "Equipped creature gets +3/+2.<br>Whenever a legendary creature enters under your control, you may attach Hero's Blade to it.<br>Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)",
+      "text": "Equipped creature gets +3/+2.<br>Whenever a legendary creature you control enters, you may attach Hero's Blade to it.<br>Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)",
       "toughness": -1005.0,
       "type": "Artifact - Equipment"
     },
@@ -18480,7 +18484,7 @@
     "canBeFoil": true,
     "code_gatherer": "C17",
     "code_mtgi": "C17",
-    "digest": "00ddc63a0978e5900324d9a4c78eb9a7d7",
+    "digest": "00ca88d1735b2c60e9c6bcea5b6d9baaa6",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C17_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C17_U.png",

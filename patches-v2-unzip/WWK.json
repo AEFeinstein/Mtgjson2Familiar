@@ -61,7 +61,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{3}{W}{W}{W}",
       "tcgplayerProductId": 34324,
-      "text": "Flying<br>Landfall - Whenever a land enters under your control, you may exile target nonland permanent other than Admonition Angel.<br>When Admonition Angel leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.",
+      "text": "Flying<br>Landfall - Whenever a land you control enters, you may exile target nonland permanent other than Admonition Angel.<br>When Admonition Angel leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.",
       "toughness": 6.0,
       "type": "Creature - Angel"
     },
@@ -198,7 +198,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 34332,
-      "text": "Flying<br>Whenever Archon of Redemption or another creature with flying enters under your control, you may gain life equal to that creature's power.",
+      "text": "Flying<br>Whenever Archon of Redemption or another creature you control with flying enters, you may gain life equal to that creature's power.",
       "toughness": 4.0,
       "type": "Creature - Archon"
     },
@@ -468,7 +468,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": 34376,
-      "text": "Whenever Hada Freeblade or another Ally enters under your control, you may put a +1/+1 counter on Hada Freeblade.",
+      "text": "Whenever Hada Freeblade or another Ally you control enters, you may put a +1/+1 counter on Hada Freeblade.",
       "toughness": 1.0,
       "type": "Creature - Human Soldier Ally"
     },
@@ -1205,7 +1205,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 34422,
-      "text": "Target player gains 4 life.<br>Landfall - If you had a land enter under your control this turn, that player gains 8 life instead.",
+      "text": "Target player gains 4 life.<br>Landfall - If you had a land enter the battlefield under your control this turn, that player gains 8 life instead.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -1407,7 +1407,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 34448,
-      "text": "Whenever Talus Paladin or another Ally enters under your control, you may have Allies you control gain lifelink until end of turn, and you may put a +1/+1 counter on Talus Paladin.",
+      "text": "Whenever Talus Paladin or another Ally you control enters, you may have Allies you control gain lifelink until end of turn, and you may put a +1/+1 counter on Talus Paladin.",
       "toughness": 3.0,
       "type": "Creature - Human Knight Ally"
     },
@@ -1958,7 +1958,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{1}{U}",
       "tcgplayerProductId": 34378,
-      "text": "Whenever Halimar Excavator or another Ally enters under your control, target player mills X cards, where X is the number of Allies you control.",
+      "text": "Whenever Halimar Excavator or another Ally you control enters, target player mills X cards, where X is the number of Allies you control.",
       "toughness": 3.0,
       "type": "Creature - Human Wizard Ally"
     },
@@ -2074,10 +2074,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": 3,
@@ -2224,7 +2228,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{4}{U}",
       "tcgplayerProductId": 34404,
-      "text": "Draw two cards.<br>Landfall - If you had a land enter under your control this turn, draw three cards instead.",
+      "text": "Draw two cards.<br>Landfall - If you had a land enter the battlefield under your control this turn, draw three cards instead.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -2289,7 +2293,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{2}{U}{U}",
       "tcgplayerProductId": 34410,
-      "text": "If an opponent had a green creature enter under their control this turn, you may pay {U} rather than pay this spell's mana cost.<br>Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
+      "text": "If an opponent had a green creature enter the battlefield under their control this turn, you may pay {U} rather than pay this spell's mana cost.<br>Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
       "toughness": -1005.0,
       "type": "Instant - Trap"
     },
@@ -2751,7 +2755,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{2}{U}",
       "tcgplayerProductId": 34453,
-      "text": "{U}, {T}: You may tap or untap another target creature.<br>Landfall - Whenever a land enters under your control, you may untap Tideforce Elemental.",
+      "text": "{U}, {T}: You may tap or untap another target creature.<br>Landfall - Whenever a land you control enters, you may untap Tideforce Elemental.",
       "toughness": 1.0,
       "type": "Creature - Elemental"
     },
@@ -4629,7 +4633,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 34454,
-      "text": "Target creature gets -2/-2 until end of turn.<br>Landfall - If you had a land enter under your control this turn, that creature gets -4/-4 until end of turn instead.",
+      "text": "Target creature gets -2/-2 until end of turn.<br>Landfall - If you had a land enter the battlefield under your control this turn, that creature gets -4/-4 until end of turn instead.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -5162,7 +5166,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{3}{R}",
       "tcgplayerProductId": 34352,
-      "text": "Landfall - Whenever a land enters under your control, you may have Cosi's Ravager deal 1 damage to target player or planeswalker.",
+      "text": "Landfall - Whenever a land you control enters, you may have Cosi's Ravager deal 1 damage to target player or planeswalker.",
       "toughness": 2.0,
       "type": "Creature - Elemental"
     },
@@ -5768,7 +5772,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{R}",
       "tcgplayerProductId": 34415,
-      "text": "Whenever a Goblin enters under your control, you may put a quest counter on Quest for the Goblin Lord.<br>As long as Quest for the Goblin Lord has five or more quest counters on it, creatures you control get +2/+0.",
+      "text": "Whenever a Goblin you control enters, you may put a quest counter on Quest for the Goblin Lord.<br>As long as Quest for the Goblin Lord has five or more quest counters on it, creatures you control get +2/+0.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -6035,7 +6039,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{R}{R}",
       "tcgplayerProductId": 34429,
-      "text": "Searing Blaze deals 1 damage to target player or planeswalker and 1 damage to target creature that player or that planeswalker's controller controls.<br>Landfall - If you had a land enter under your control this turn, Searing Blaze deals 3 damage to that player or planeswalker and 3 damage to that creature instead.",
+      "text": "Searing Blaze deals 1 damage to target player or planeswalker and 1 damage to target creature that player or that planeswalker's controller controls.<br>Landfall - If you had a land enter the battlefield under your control this turn, Searing Blaze deals 3 damage to that player or planeswalker and 3 damage to that creature instead.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -6300,7 +6304,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{3}{R}",
       "tcgplayerProductId": 34456,
-      "text": "Whenever Tuktuk Scrapper or another Ally enters under your control, you may destroy target artifact. If that artifact is put into a graveyard this way, Tuktuk Scrapper deals damage to that artifact's controller equal to the number of Allies you control.",
+      "text": "Whenever Tuktuk Scrapper or another Ally you control enters, you may destroy target artifact. If that artifact is put into a graveyard this way, Tuktuk Scrapper deals damage to that artifact's controller equal to the number of Allies you control.",
       "toughness": 2.0,
       "type": "Creature - Goblin Artificer Ally"
     },
@@ -6433,7 +6437,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{5}{G}{G}",
       "tcgplayerProductId": 34333,
-      "text": "When Avenger of Zendikar enters, create a 0/1 green Plant creature token for each land you control.<br>Landfall - Whenever a land enters under your control, you may put a +1/+1 counter on each Plant creature you control.",
+      "text": "When Avenger of Zendikar enters, create a 0/1 green Plant creature token for each land you control.<br>Landfall - Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control.",
       "toughness": 5.0,
       "type": "Creature - Elemental"
     },
@@ -6911,7 +6915,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{3}{G}",
       "tcgplayerProductId": 34372,
-      "text": "Trample<br>Whenever Graypelt Hunter or another Ally enters under your control, you may put a +1/+1 counter on Graypelt Hunter.",
+      "text": "Trample<br>Whenever Graypelt Hunter or another Ally you control enters, you may put a +1/+1 counter on Graypelt Hunter.",
       "toughness": 2.0,
       "type": "Creature - Human Warrior Ally"
     },
@@ -6979,7 +6983,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{G}",
       "tcgplayerProductId": 34374,
-      "text": "Target creature gets +2/+2 until end of turn.<br>Landfall - If you had a land enter under your control this turn, that creature gets +4/+4 until end of turn instead.",
+      "text": "Target creature gets +2/+2 until end of turn.<br>Landfall - If you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -7509,7 +7513,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 34440,
-      "text": "Landfall - Whenever a land enters under your control, Snapping Creeper gains vigilance until end of turn.",
+      "text": "Landfall - Whenever a land you control enters, Snapping Creeper gains vigilance until end of turn.",
       "toughness": 3.0,
       "type": "Creature - Plant"
     },
@@ -8106,7 +8110,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{1}",
       "tcgplayerProductId": 34328,
-      "text": "Whenever a permanent enters tapped and under your control, untap it.",
+      "text": "Whenever a permanent you control enters tapped, untap it.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -8377,7 +8381,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 34381,
-      "text": "Landfall - Whenever a land enters under your control, Hedron Rover gets +2/+2 until end of turn.",
+      "text": "Landfall - Whenever a land you control enters, Hedron Rover gets +2/+2 until end of turn.",
       "toughness": 2.0,
       "type": "Artifact Creature - Construct"
     },
@@ -8730,7 +8734,7 @@
       "scryfallSetCode": "WWK",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 34430,
-      "text": "Landfall - Whenever a land enters under your control, you may pay {2}. If you do, draw a card.",
+      "text": "Landfall - Whenever a land you control enters, you may pay {2}. If you do, draw a card.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -9715,7 +9719,7 @@
     "canBeFoil": true,
     "code_gatherer": "WWK",
     "code_mtgi": "WWK",
-    "digest": "fec67f185802d98f8817364ef3cf523fd1",
+    "digest": "fbc5ef45313fe30cf66855f675e30c6cc9",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/WWK_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/WWK_C.png",

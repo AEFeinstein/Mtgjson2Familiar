@@ -376,9 +376,13 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -590,6 +594,7 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
+        "Pauper Commander": "Legal",
         "Pioneer": "Legal",
         "Standard": "Legal",
         "Standard Brawl": "Legal",
@@ -683,7 +688,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 166755,
-      "text": "Whenever a creature enters under your control, put a +1/+1 counter on each creature you control.",
+      "text": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -4478,7 +4483,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}{R}",
       "tcgplayerProductId": 166833,
-      "text": "Whenever a creature enters under your control, it deals damage equal to its power to any target.",
+      "text": "Whenever a creature you control enters, it deals damage equal to its power to any target.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -4653,7 +4658,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}{G}",
       "tcgplayerProductId": 168262,
-      "text": "Creatures with power less than Champion of Lambholt's power can't block creatures you control.<br>Whenever another creature enters under your control, put a +1/+1 counter on Champion of Lambholt.",
+      "text": "Creatures with power less than Champion of Lambholt's power can't block creatures you control.<br>Whenever another creature you control enters, put a +1/+1 counter on Champion of Lambholt.",
       "toughness": 1.0,
       "type": "Creature - Human Warrior"
     },
@@ -5444,7 +5449,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{G}{U}",
       "tcgplayerProductId": 166805,
-      "text": "Evolve (Whenever a creature enters under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)<br>Whenever a +1/+1 counter is put on Fathom Mage, you may draw a card.",
+      "text": "Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)<br>Whenever a +1/+1 counter is put on Fathom Mage, you may draw a card.",
       "toughness": 1.0,
       "type": "Creature - Human Wizard"
     },
@@ -5510,7 +5515,7 @@
       "scryfallSetCode": "CM2",
       "sortedManaCost": "{3}{G}{W}",
       "tcgplayerProductId": 166850,
-      "text": "Whenever another creature enters under your control, put a +1/+1 counter on that creature and a +1/+1 counter on Juniper Order Ranger.",
+      "text": "Whenever another creature you control enters, put a +1/+1 counter on that creature and a +1/+1 counter on Juniper Order Ranger.",
       "toughness": 4.0,
       "type": "Creature - Human Knight Ranger"
     },
@@ -7484,7 +7489,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 166942,
-      "text": "Landfall - Whenever a land enters under your control, you may pay {2}. If you do, draw a card.",
+      "text": "Landfall - Whenever a land you control enters, you may pay {2}. If you do, draw a card.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -11122,7 +11127,7 @@
     "canBeFoil": true,
     "code_gatherer": "CM2",
     "code_mtgi": "CM2",
-    "digest": "fedc1a7ed05e92fda08bc39e5484e72225",
+    "digest": "ff5f6276ad2663b52c04a120cfb5855eca",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CM2_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CM2_R.png",

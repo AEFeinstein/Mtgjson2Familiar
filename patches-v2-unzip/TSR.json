@@ -4269,7 +4269,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 233797,
-      "text": "When Cryptic Annelid enters, scry 1, then scry 2, then scry 3. (To scry X, look at the top X cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "text": "When Cryptic Annelid enters, scry 1, then scry 2, then scry 3. (To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
       "toughness": 4.0,
       "type": "Creature - Worm Beast"
     },
@@ -16232,7 +16232,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 234349,
-      "text": "Whenever another creature enters under your control, that creature gets +3/+3 until end of turn.",
+      "text": "Whenever another creature you control enters, that creature gets +3/+3 until end of turn.",
       "toughness": 2.0,
       "type": "Creature - Elf Shaman"
     },
@@ -23692,12 +23692,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -25917,7 +25921,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{1}{G}{G}",
       "tcgplayerProductId": 234013,
-      "text": "Play with the top card of your library revealed.<br>You may play lands from the top of your library.<br>Landfall - Whenever a land enters under your control, you gain 1 life.",
+      "text": "Play with the top card of your library revealed.<br>You may play lands from the top of your library.<br>Landfall - Whenever a land you control enters, you gain 1 life.",
       "toughness": 4.0,
       "type": "Enchantment Creature - Centaur"
     },
@@ -26808,7 +26812,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{1}{G}{U}{W}",
       "tcgplayerProductId": 234053,
-      "text": "Flying, vigilance<br>Whenever a creature with defender enters under your control, draw a card.<br>Each creature you control with defender assigns combat damage equal to its toughness rather than its power and can attack as though it didn't have defender.",
+      "text": "Flying, vigilance<br>Whenever a creature you control with defender enters, draw a card.<br>Each creature you control with defender assigns combat damage equal to its toughness rather than its power and can attack as though it didn't have defender.",
       "toughness": 5.0,
       "type": "Legendary Creature - Elder Dragon"
     },
@@ -27984,7 +27988,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{G}{R}{U}",
       "tcgplayerProductId": 234113,
-      "text": "Creatures you control have haste.<br>Whenever a creature with power 4 or greater enters under your control, you may draw a card.",
+      "text": "Creatures you control have haste.<br>Whenever a creature you control with power 4 or greater enters, you may draw a card.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -28853,7 +28857,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 234218,
-      "text": "If an artifact or creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+      "text": "If an artifact or creature entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -29427,7 +29431,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -29716,7 +29719,7 @@
     "canBeFoil": true,
     "code_gatherer": "TSR",
     "code_mtgi": "TSR",
-    "digest": "05cc1d50c036c1f3ab343aa1c357fe6300",
+    "digest": "04a1ea4d35dee6ea0ed7608cd831724f92",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/TSR_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/TSR_R.png",

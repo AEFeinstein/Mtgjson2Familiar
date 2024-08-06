@@ -270,7 +270,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 161864,
-      "text": "When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.",
+      "text": "When Auramancer enters, you may return target enchantment card from your graveyard to your hand.",
       "toughness": 2.0,
       "type": "Creature - Human Wizard",
       "watermark": "Set (ODY)"
@@ -663,7 +663,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{1}{W}{W}",
       "tcgplayerProductId": 161875,
-      "text": "When Fiend Hunter enters the battlefield, you may exile another target creature.<br>When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.",
+      "text": "When Fiend Hunter enters, you may exile another target creature.<br>When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.",
       "toughness": 3.0,
       "type": "Creature - Human Cleric",
       "watermark": "Set (ISD)"
@@ -814,7 +814,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 161878,
-      "text": "Flying<br>Whenever another creature enters the battlefield under your control, Griffin Protector gets +1/+1 until end of turn.",
+      "text": "Flying<br>Whenever another creature you control enters, Griffin Protector gets +1/+1 until end of turn.",
       "toughness": 3.0,
       "type": "Creature - Griffin",
       "watermark": "Set (M13)"
@@ -1511,7 +1511,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 161538,
-      "text": "When Rest in Peace enters the battlefield, exile all graveyards.<br>If a card or token would be put into a graveyard from anywhere, exile it instead.",
+      "text": "When Rest in Peace enters, exile all graveyards.<br>If a card or token would be put into a graveyard from anywhere, exile it instead.",
       "toughness": -1005.0,
       "type": "Enchantment",
       "watermark": "Set (RTR)"
@@ -1600,7 +1600,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 161898,
-      "text": "Flying<br>When Squadron Hawk enters the battlefield, you may search your library for up to three cards named Squadron Hawk, reveal them, put them into your hand, then shuffle.",
+      "text": "Flying<br>When Squadron Hawk enters, you may search your library for up to three cards named Squadron Hawk, reveal them, put them into your hand, then shuffle.",
       "toughness": 1.0,
       "type": "Creature - Bird",
       "watermark": "Set (M11)"
@@ -1682,7 +1682,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -1743,7 +1742,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{4}{W}{W}",
       "tcgplayerProductId": 161901,
-      "text": "When Urbis Protector enters the battlefield, create a 4/4 white Angel creature token with flying.",
+      "text": "When Urbis Protector enters, create a 4/4 white Angel creature token with flying.",
       "toughness": 1.0,
       "type": "Creature - Human Cleric",
       "watermark": "Set (GTC)"
@@ -1787,7 +1786,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 161903,
-      "text": "Whenever a creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+      "text": "Whenever a creature you control enters, creatures you control get +1/+1 until end of turn.",
       "toughness": -1005.0,
       "type": "Enchantment",
       "watermark": "Set (ORI)"
@@ -1832,7 +1831,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 161904,
-      "text": "Flash<br>When Whitemane Lion enters the battlefield, return a creature you control to its owner's hand.",
+      "text": "Flash<br>When Whitemane Lion enters, return a creature you control to its owner's hand.",
       "toughness": 2.0,
       "type": "Creature - Cat",
       "watermark": "Set (PLC)"
@@ -2388,7 +2387,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{2}{U}",
       "tcgplayerProductId": 161804,
-      "text": "Vigilance<br>When Court Hussar enters the battlefield, look at the top three cards of your library, then put one of them into your hand and the rest on the bottom of your library in any order.<br>When Court Hussar enters the battlefield, sacrifice it unless {W} was spent to cast it.",
+      "text": "Vigilance<br>When Court Hussar enters, look at the top three cards of your library, then put one of them into your hand and the rest on the bottom of your library in any order.<br>When Court Hussar enters, sacrifice it unless {W} was spent to cast it.",
       "toughness": 3.0,
       "type": "Creature - Vedalken Knight",
       "watermark": "Set (DIS)"
@@ -2873,10 +2872,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": 3,
@@ -2984,7 +2987,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{2}{U}",
       "tcgplayerProductId": 161482,
-      "text": "When Man-o'-War enters the battlefield, return target creature to its owner's hand.",
+      "text": "When Man-o'-War enters, return target creature to its owner's hand.",
       "toughness": 2.0,
       "type": "Creature - Jellyfish",
       "watermark": "Set (VIS)"
@@ -3557,7 +3560,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{U}{U}",
       "tcgplayerProductId": 161432,
-      "text": "Flash<br>Flying<br>When Vendilion Clique enters the battlefield, look at target player's hand. You may choose a nonland card from it. If you do, that player reveals the chosen card, puts it on the bottom of their library, then draws a card.",
+      "text": "Flash<br>Flying<br>When Vendilion Clique enters, look at target player's hand. You may choose a nonland card from it. If you do, that player reveals the chosen card, puts it on the bottom of their library, then draws a card.",
       "toughness": 1.0,
       "type": "Legendary Creature - Faerie Wizard",
       "watermark": "Set (MOR)"
@@ -3600,7 +3603,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{U}{U}",
       "tcgplayerProductId": 161500,
-      "text": "As Vesuvan Shapeshifter enters the battlefield or is turned face up, you may choose another creature on the battlefield. If you do, until Vesuvan Shapeshifter is turned face down, it becomes a copy of that creature, except it has \"At the beginning of your upkeep, you may turn this creature face down.\"<br>Morph {1}{U}",
+      "text": "As Vesuvan Shapeshifter enters or is turned face up, you may choose another creature on the battlefield. If you do, until Vesuvan Shapeshifter is turned face down, it becomes a copy of that creature, except it has \"At the beginning of your upkeep, you may turn this creature face down.\"<br>Morph {1}{U}",
       "toughness": 0.0,
       "type": "Creature - Shapeshifter",
       "watermark": "Set (TSP)"
@@ -3737,7 +3740,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 161769,
-      "text": "Flying<br>When Bloodhunter Bat enters the battlefield, target player loses 2 life and you gain 2 life.",
+      "text": "Flying<br>When Bloodhunter Bat enters, target player loses 2 life and you gain 2 life.",
       "toughness": 2.0,
       "type": "Creature - Bat",
       "watermark": "Set (M13)"
@@ -4153,7 +4156,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 161788,
-      "text": "When Dusk Legion Zealot enters the battlefield, you draw a card and you lose 1 life.",
+      "text": "When Dusk Legion Zealot enters, you draw a card and you lose 1 life.",
       "toughness": 1.0,
       "type": "Creature - Vampire Soldier",
       "watermark": "Set (RIX)"
@@ -4427,7 +4430,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 161532,
-      "text": "When Laquatus's Champion enters the battlefield, target player loses 6 life.<br>When Laquatus's Champion leaves the battlefield, that player gains 6 life.<br>{B}: Regenerate Laquatus's Champion.",
+      "text": "When Laquatus's Champion enters, target player loses 6 life.<br>When Laquatus's Champion leaves the battlefield, that player gains 6 life.<br>{B}: Regenerate Laquatus's Champion.",
       "toughness": 3.0,
       "type": "Creature - Nightmare Horror",
       "watermark": "Set (TOR)"
@@ -4514,7 +4517,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 161798,
-      "text": "When Mesmeric Fiend enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card.<br>When Mesmeric Fiend leaves the battlefield, return the exiled card to its owner's hand.",
+      "text": "When Mesmeric Fiend enters, target opponent reveals their hand and you choose a nonland card from it. Exile that card.<br>When Mesmeric Fiend leaves the battlefield, return the exiled card to its owner's hand.",
       "toughness": 1.0,
       "type": "Creature - Nightmare Horror",
       "watermark": "Set (TOR)"
@@ -4854,7 +4857,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 161810,
-      "text": "When Ravenous Chupacabra enters the battlefield, destroy target creature an opponent controls.",
+      "text": "When Ravenous Chupacabra enters, destroy target creature an opponent controls.",
       "toughness": 2.0,
       "type": "Creature - Beast Horror",
       "watermark": "Set (RIX)"
@@ -4880,12 +4883,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -5601,7 +5608,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{2}{R}{R}",
       "tcgplayerProductId": 161356,
-      "text": "When Balduvian Horde enters the battlefield, sacrifice it unless you discard a card at random.",
+      "text": "When Balduvian Horde enters, sacrifice it unless you discard a card at random.",
       "toughness": 5.0,
       "type": "Creature - Human Barbarian",
       "watermark": "Set (ALL)"
@@ -6018,7 +6025,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{3}{R}",
       "tcgplayerProductId": 161774,
-      "text": "When Enthralling Victor enters the battlefield, gain control of target creature an opponent controls with power 2 or less until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)",
+      "text": "When Enthralling Victor enters, gain control of target creature an opponent controls with power 2 or less until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)",
       "toughness": 2.0,
       "type": "Creature - Human Warrior",
       "watermark": "Set (ORI)"
@@ -6335,7 +6342,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 161410,
-      "text": "When Imperial Recruiter enters the battlefield, search your library for a creature card with power 2 or less, reveal it, put it into your hand, then shuffle.",
+      "text": "When Imperial Recruiter enters, search your library for a creature card with power 2 or less, reveal it, put it into your hand, then shuffle.",
       "toughness": 1.0,
       "type": "Creature - Human Advisor",
       "watermark": "Set (PTK)"
@@ -7357,7 +7364,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{3}{G}",
       "tcgplayerProductId": 161845,
-      "text": "When Ambassador Oak enters the battlefield, create a 1/1 green Elf Warrior creature token.",
+      "text": "When Ambassador Oak enters, create a 1/1 green Elf Warrior creature token.",
       "toughness": 3.0,
       "type": "Creature - Treefolk Warrior",
       "watermark": "Set (MOR)"
@@ -7638,7 +7645,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}{G}",
       "tcgplayerProductId": 161524,
-      "text": "Play with the top card of your library revealed.<br>You may play lands from the top of your library.<br>Landfall - Whenever a land enters the battlefield under your control, you gain 1 life.",
+      "text": "Play with the top card of your library revealed.<br>You may play lands from the top of your library.<br>Landfall - Whenever a land you control enters, you gain 1 life.",
       "toughness": 4.0,
       "type": "Enchantment Creature - Centaur",
       "watermark": "Set (BNG)"
@@ -7973,7 +7980,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 161434,
-      "text": "When Fierce Empath enters the battlefield, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.",
+      "text": "When Fierce Empath enters, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.",
       "toughness": 1.0,
       "type": "Creature - Elf",
       "watermark": "Set (SCG)"
@@ -8115,7 +8122,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{2}{G}{G}",
       "tcgplayerProductId": 161868,
-      "text": "Trample<br>When Iwamori of the Open Fist enters the battlefield, each opponent may put a legendary creature card from their hand onto the battlefield.",
+      "text": "Trample<br>When Iwamori of the Open Fist enters, each opponent may put a legendary creature card from their hand onto the battlefield.",
       "toughness": 5.0,
       "type": "Legendary Creature - Human Monk",
       "watermark": "Set (BOK)"
@@ -8161,7 +8168,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{3}{G}{G}",
       "tcgplayerProductId": 161870,
-      "text": "When Kavu Climber enters the battlefield, draw a card.",
+      "text": "When Kavu Climber enters, draw a card.",
       "toughness": 3.0,
       "type": "Creature - Kavu",
       "watermark": "Set (INV)"
@@ -8513,7 +8520,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -8938,7 +8944,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{G}",
       "tcgplayerProductId": 161900,
-      "text": "Enchant Forest<br>As Utopia Sprawl enters the battlefield, choose a color.<br>Whenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color.",
+      "text": "Enchant Forest<br>As Utopia Sprawl enters, choose a color.<br>Whenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura",
       "watermark": "Set (DIS)"
@@ -9175,7 +9181,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{4}{B}{G}",
       "tcgplayerProductId": 161799,
-      "text": "When Baloth Null enters the battlefield, return up to two target creature cards from your graveyard to your hand.",
+      "text": "When Baloth Null enters, return up to two target creature cards from your graveyard to your hand.",
       "toughness": 5.0,
       "type": "Creature - Zombie Beast",
       "watermark": "Set (OGW)"
@@ -9357,7 +9363,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{3}{U}{W}",
       "tcgplayerProductId": 161567,
-      "text": "Flying<br>When Cloudblazer enters the battlefield, you gain 2 life and draw two cards.",
+      "text": "Flying<br>When Cloudblazer enters, you gain 2 life and draw two cards.",
       "toughness": 2.0,
       "type": "Creature - Human Scout",
       "watermark": "Set (KLD)"
@@ -9531,7 +9537,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{B}{R}{X}",
       "tcgplayerProductId": 161492,
-      "text": "Grenzo, Dungeon Warden enters the battlefield with X +1/+1 counters on it.<br>{2}: Put the bottom card of your library into your graveyard. If it's a creature card with power less than or equal to Grenzo's power, put it onto the battlefield.",
+      "text": "Grenzo, Dungeon Warden enters with X +1/+1 counters on it.<br>{2}: Put the bottom card of your library into your graveyard. If it's a creature card with power less than or equal to Grenzo's power, put it onto the battlefield.",
       "toughness": 2.0,
       "type": "Legendary Creature - Goblin Rogue",
       "watermark": "Set (CNS)"
@@ -9678,7 +9684,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}{U}{U}",
       "tcgplayerProductId": 161534,
-      "text": "Flash<br>When Mystic Snake enters the battlefield, counter target spell.",
+      "text": "Flash<br>When Mystic Snake enters, counter target spell.",
       "toughness": 2.0,
       "type": "Creature - Snake",
       "watermark": "Set (APC)"
@@ -10123,7 +10129,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{4}{G}{R}",
       "tcgplayerProductId": 161817,
-      "text": "When Stangg enters the battlefield, create Stangg Twin, a legendary 3/4 red and green Human Warrior creature token. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield.",
+      "text": "When Stangg enters, create Stangg Twin, a legendary 3/4 red and green Human Warrior creature token. Exile that token when Stangg leaves the battlefield. Sacrifice Stangg when that token leaves the battlefield.",
       "toughness": 4.0,
       "type": "Legendary Creature - Human Warrior",
       "watermark": "Set (LEG)"
@@ -10302,7 +10308,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{X}{X}",
       "tcgplayerProductId": 161358,
-      "text": "Chalice of the Void enters the battlefield with X charge counters on it.<br>Whenever a player casts a spell with mana value equal to the number of charge counters on Chalice of the Void, counter that spell.",
+      "text": "Chalice of the Void enters with X charge counters on it.<br>Whenever a player casts a spell with mana value equal to the number of charge counters on Chalice of the Void, counter that spell.",
       "toughness": -1005.0,
       "type": "Artifact",
       "watermark": "Set (MRD)"
@@ -10345,7 +10351,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 161523,
-      "text": "{T}: Add one mana of any color.<br>{T}: Put a charge counter on Coalition Relic.<br>At the beginning of your precombat main phase, remove all charge counters from Coalition Relic. Add one mana of any color for each charge counter removed this way.",
+      "text": "{T}: Add one mana of any color.<br>{T}: Put a charge counter on Coalition Relic.<br>At the beginning of your first main phase, remove all charge counters from Coalition Relic. Add one mana of any color for each charge counter removed this way.",
       "toughness": -1005.0,
       "type": "Artifact",
       "watermark": "Set (FUT)"
@@ -10570,7 +10576,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 161911,
-      "text": "As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types. (A creature with defender can't attack.)",
+      "text": "As Primal Clay enters, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types. (A creature with defender can't attack.)",
       "toughness": -1000.0,
       "type": "Artifact Creature - Shapeshifter",
       "watermark": "Set (ATQ)"
@@ -10624,7 +10630,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 161912,
-      "text": "When Prophetic Prism enters the battlefield, draw a card.<br>{1}, {T}: Add one mana of any color.",
+      "text": "When Prophetic Prism enters, draw a card.<br>{1}, {T}: Add one mana of any color.",
       "toughness": -1005.0,
       "type": "Artifact",
       "watermark": "Set (ROE)"
@@ -10666,7 +10672,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{1}",
       "tcgplayerProductId": 161913,
-      "text": "Equipped creature gets +1/+1.<br>Whenever a creature enters the battlefield under your control, you may attach Sai of the Shinobi to it.<br>Equip {2}",
+      "text": "Equipped creature gets +1/+1.<br>Whenever a creature you control enters, you may attach Sai of the Shinobi to it.<br>Equip {2}",
       "toughness": -1005.0,
       "type": "Artifact - Equipment",
       "watermark": "Set (PC2)"
@@ -10717,7 +10723,7 @@
       "scryfallSetCode": "A25",
       "sortedManaCost": "{5}",
       "tcgplayerProductId": 161914,
-      "text": "When Self-Assembler enters the battlefield, you may search your library for an Assembly-Worker creature card, reveal it, put it into your hand, then shuffle.",
+      "text": "When Self-Assembler enters, you may search your library for an Assembly-Worker creature card, reveal it, put it into your hand, then shuffle.",
       "toughness": 4.0,
       "type": "Artifact Creature - Assembly-Worker",
       "watermark": "Set (KLD)"
@@ -11242,7 +11248,7 @@
       "rarity": "U",
       "scryfallSetCode": "A25",
       "tcgplayerProductId": 161823,
-      "text": "Myriad Landscape enters the battlefield tapped.<br>{T}: Add {C}.<br>{2}, {T}, Sacrifice Myriad Landscape: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.",
+      "text": "Myriad Landscape enters tapped.<br>{T}: Add {C}.<br>{2}, {T}, Sacrifice Myriad Landscape: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.",
       "toughness": -1005.0,
       "type": "Land",
       "watermark": "Set (C14)"
@@ -11506,7 +11512,7 @@
     "canBeFoil": true,
     "code_gatherer": "A25",
     "code_mtgi": "A25",
-    "digest": "03ad0c49f473c81cd51a001137a08da47b",
+    "digest": "02129c50145c2443ce0841e94dd5405fc3",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/A25_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/A25_M.png",

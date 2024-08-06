@@ -62,7 +62,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 216253,
-      "text": "Prevent all noncombat damage that would be dealt to you and creatures you control.<br>Whenever a nontoken creature enters under your control, create a 2/2 white Unicorn creature token.",
+      "text": "Prevent all noncombat damage that would be dealt to you and creatures you control.<br>Whenever a nontoken creature you control enters, create a 2/2 white Unicorn creature token.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -135,7 +135,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{W}{W}",
       "tcgplayerProductId": 216252,
-      "text": "{3}: Exile another target creature you control, then return it to the battlefield under its owner's control.<br>Whenever another creature enters under your control, you may pay {G/W}. If you do, put a +1/+1 counter on it. If it's a Unicorn, put two +1/+1 counters on it instead. ({G/W} can be paid with either {G} or {W}.)",
+      "text": "{3}: Exile another target creature you control, then return it to the battlefield under its owner's control.<br>Whenever another creature you control enters, you may pay {G/W}. If you do, put a +1/+1 counter on it. If it's a Unicorn, put two +1/+1 counters on it instead. ({G/W} can be paid with either {G} or {W}.)",
       "toughness": 4.0,
       "type": "Legendary Creature - Unicorn"
     },
@@ -947,7 +947,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{R}{R}",
       "tcgplayerProductId": 216361,
-      "text": "Whenever Sethron, Hurloon General or another nontoken Minotaur enters under your control, create a 2/3 red Minotaur creature token.<br>{2}{B/R}: Minotaurs you control get +1/+0 and gain menace and haste until end of turn. ({B/R} can be paid with either {B} or {R}.)",
+      "text": "Whenever Sethron, Hurloon General or another nontoken Minotaur you control enters, create a 2/3 red Minotaur creature token.<br>{2}{B/R}: Minotaurs you control get +1/+0 and gain menace and haste until end of turn. ({B/R} can be paid with either {B} or {R}.)",
       "toughness": 4.0,
       "type": "Legendary Creature - Minotaur Warrior"
     },
@@ -984,7 +984,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 216506,
-      "text": "As long as it's your turn, Spiteful Prankster has first strike.<br>Whenever another creature dies, Spiteful Prankster deals 1 damage to target player or planeswalker.",
+      "text": "During your turn, Spiteful Prankster has first strike.<br>Whenever another creature dies, Spiteful Prankster deals 1 damage to target player or planeswalker.",
       "toughness": 2.0,
       "type": "Creature - Devil"
     },
@@ -1241,7 +1241,7 @@
       "rarity": "C",
       "scryfallSetCode": "JMP",
       "tcgplayerProductId": 215955,
-      "text": "Thriving Bluff enters tapped.<br>As Thriving Bluff enters, choose a color other than red.<br>{T}: Add {R} or one mana of the chosen color.",
+      "text": "Thriving Bluff enters tapped. As it enters, choose a color other than red.<br>{T}: Add {R} or one mana of the chosen color.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -1277,7 +1277,7 @@
       "rarity": "C",
       "scryfallSetCode": "JMP",
       "tcgplayerProductId": 215959,
-      "text": "Thriving Grove enters tapped.<br>As Thriving Grove enters, choose a color other than green.<br>{T}: Add {G} or one mana of the chosen color.",
+      "text": "Thriving Grove enters tapped. As it enters, choose a color other than green.<br>{T}: Add {G} or one mana of the chosen color.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -1313,7 +1313,7 @@
       "rarity": "C",
       "scryfallSetCode": "JMP",
       "tcgplayerProductId": 215961,
-      "text": "Thriving Heath enters tapped.<br>As Thriving Heath enters, choose a color other than white.<br>{T}: Add {W} or one mana of the chosen color.",
+      "text": "Thriving Heath enters tapped. As it enters, choose a color other than white.<br>{T}: Add {W} or one mana of the chosen color.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -1349,7 +1349,7 @@
       "rarity": "C",
       "scryfallSetCode": "JMP",
       "tcgplayerProductId": 215958,
-      "text": "Thriving Isle enters tapped.<br>As Thriving Isle enters, choose a color other than blue.<br>{T}: Add {U} or one mana of the chosen color.",
+      "text": "Thriving Isle enters tapped. As it enters, choose a color other than blue.<br>{T}: Add {U} or one mana of the chosen color.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -1385,7 +1385,7 @@
       "rarity": "C",
       "scryfallSetCode": "JMP",
       "tcgplayerProductId": 215941,
-      "text": "Thriving Moor enters tapped.<br>As Thriving Moor enters, choose a color other than black.<br>{T}: Add {B} or one mana of the chosen color.",
+      "text": "Thriving Moor enters tapped. As it enters, choose a color other than black.<br>{T}: Add {B} or one mana of the chosen color.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -3266,7 +3266,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{W}{W}",
       "tcgplayerProductId": 216537,
-      "text": "Whenever an enchantment enters under your control, create a 2/2 white Cat creature token. If that enchantment is an Aura, you may attach it to the token.",
+      "text": "Whenever an enchantment you control enters, create a 2/2 white Cat creature token. If that enchantment is an Aura, you may attach it to the token.",
       "toughness": 3.0,
       "type": "Creature - Cat Soldier"
     },
@@ -3573,7 +3573,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 216356,
-      "text": "Flying<br>Whenever Archon of Redemption or another creature with flying enters under your control, you may gain life equal to that creature's power.",
+      "text": "Flying<br>Whenever Archon of Redemption or another creature you control with flying enters, you may gain life equal to that creature's power.",
       "toughness": 4.0,
       "type": "Creature - Archon"
     },
@@ -3774,7 +3774,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 216264,
-      "text": "Whenever a creature enters under your control, put a +1/+1 counter on each creature you control.",
+      "text": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -4801,7 +4801,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 216288,
-      "text": "Whenever another creature with power 2 or less enters under your control, you may pay {1}. If you do, draw a card.",
+      "text": "Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card.",
       "toughness": 2.0,
       "type": "Creature - Human Soldier"
     },
@@ -5385,7 +5385,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -5677,7 +5676,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{4}{U}",
       "tcgplayerProductId": 216234,
-      "text": "Flying<br>When Cloudreader Sphinx enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "text": "Flying<br>When Cloudreader Sphinx enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
       "toughness": 4.0,
       "type": "Creature - Sphinx"
     },
@@ -6348,7 +6347,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{2}{U}",
       "tcgplayerProductId": 216535,
-      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying<br>Whenever Nebelgast Herald or another Spirit enters under your control, tap target creature an opponent controls.",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying<br>Whenever Nebelgast Herald or another Spirit you control enters, tap target creature an opponent controls.",
       "toughness": 1.0,
       "type": "Creature - Spirit"
     },
@@ -6390,7 +6389,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 216390,
-      "text": "When Octoprophet enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)",
+      "text": "When Octoprophet enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
       "toughness": 3.0,
       "type": "Creature - Octopus"
     },
@@ -6509,7 +6508,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{3}{U}{U}",
       "tcgplayerProductId": 216170,
-      "text": "Flying<br>Whenever you cast an instant or sorcery spell, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "text": "Flying<br>Whenever you cast an instant or sorcery spell, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
       "toughness": 4.0,
       "type": "Creature - Chimera"
     },
@@ -7021,7 +7020,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{1}{U}",
       "tcgplayerProductId": 216410,
-      "text": "{T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "text": "{T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
       "toughness": 3.0,
       "type": "Creature - Starfish"
     },
@@ -7244,7 +7243,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -7495,7 +7493,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{1}{U}",
       "tcgplayerProductId": 216307,
-      "text": "Return target creature to its owner's hand. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "text": "Return target creature to its owner's hand. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -13485,7 +13483,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{R}{R}",
       "tcgplayerProductId": 216655,
-      "text": "Flying<br>Whenever another nontoken Dragon enters under your control, create a 5/5 red Dragon creature token with flying.<br>{1}{R}: Dragons you control get +1/+0 until end of turn.",
+      "text": "Flying<br>Whenever another nontoken Dragon you control enters, create a 5/5 red Dragon creature token with flying.<br>{1}{R}: Dragons you control get +1/+0 until end of turn.",
       "toughness": 6.0,
       "type": "Legendary Creature - Dragon"
     },
@@ -14480,7 +14478,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -15206,7 +15203,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}{G}",
       "tcgplayerProductId": 216599,
-      "text": "Creatures with power less than Champion of Lambholt's power can't block creatures you control.<br>Whenever another creature enters under your control, put a +1/+1 counter on Champion of Lambholt.",
+      "text": "Creatures with power less than Champion of Lambholt's power can't block creatures you control.<br>Whenever another creature you control enters, put a +1/+1 counter on Champion of Lambholt.",
       "toughness": 1.0,
       "type": "Creature - Human Warrior"
     },
@@ -15312,7 +15309,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -16705,7 +16701,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}{G}",
       "tcgplayerProductId": 216608,
-      "text": "Whenever you cast a creature spell, create a 3/3 green Beast creature token.<br>Whenever you cast a noncreature spell, put three +1/+1 counters on target creature you control.<br>Landfall - Whenever a land enters under your control, you gain 3 life.",
+      "text": "Whenever you cast a creature spell, create a 3/3 green Beast creature token.<br>Whenever you cast a noncreature spell, put three +1/+1 counters on target creature you control.<br>Landfall - Whenever a land you control enters, you gain 3 life.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -17136,7 +17132,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 216030,
-      "text": "Trample<br>Whenever another nontoken creature enters under your control, you may draw a card.",
+      "text": "Trample<br>Whenever another nontoken creature you control enters, you may draw a card.",
       "toughness": 6.0,
       "type": "Creature - Elemental"
     },
@@ -17177,7 +17173,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{3}{G}{G}",
       "tcgplayerProductId": 216087,
-      "text": "Landfall - Whenever a land enters under your control, create a 1/1 green Saproling creature token.",
+      "text": "Landfall - Whenever a land you control enters, create a 1/1 green Saproling creature token.",
       "toughness": 3.0,
       "type": "Creature - Fungus"
     },
@@ -17759,7 +17755,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{3}{G}{G}",
       "tcgplayerProductId": 216088,
-      "text": "Landfall - Whenever a land enters under your control, create a 2/2 green Elemental creature token.",
+      "text": "Landfall - Whenever a land you control enters, create a 2/2 green Elemental creature token.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -19301,7 +19297,6 @@
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -19657,7 +19652,7 @@
     "canBeFoil": true,
     "code_gatherer": "JMP",
     "code_mtgi": "JMP",
-    "digest": "0182cb3347db96f713b16f69e6c154ae88",
+    "digest": "059b5a64ba5b5256ad7d77e7d65907e520",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/JMP_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/JMP_U.png",

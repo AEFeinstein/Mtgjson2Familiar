@@ -6215,7 +6215,7 @@
       "scryfallSetCode": "M12",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 47697,
-      "text": "Whenever a creature enters under an opponent's control, you may have that player lose 1 life.",
+      "text": "Whenever a creature an opponent controls enters, you may have that player lose 1 life.",
       "toughness": 1.0,
       "type": "Creature - Vampire Shaman"
     },
@@ -8349,10 +8349,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": 4,
@@ -12289,7 +12293,7 @@
       "scryfallSetCode": "M12",
       "sortedManaCost": "{5}{R}",
       "tcgplayerProductId": 47642,
-      "text": "Whenever a creature enters under your control, it deals damage equal to its power to any target.",
+      "text": "Whenever a creature you control enters, it deals damage equal to its power to any target.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -12648,11 +12652,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -14340,7 +14348,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -19213,7 +19220,7 @@
     "canBeFoil": true,
     "code_gatherer": "M12",
     "code_mtgi": "M12",
-    "digest": "fd15cd361a8625496e03a45e82b62a47de",
+    "digest": "fce7b7988f12ac25b113a6c351b2d352a6",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/M12_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/M12_U.png",
