@@ -1106,7 +1106,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{UB}{UB}",
       "tcgplayerProductId": 537715,
-      "text": "Whenever a blue creature enters under your control, you may have target player draw a card.<br>Whenever a black creature enters under your control, you may have target player discard a card.",
+      "text": "Whenever a blue creature you control enters, you may have target player draw a card.<br>Whenever a black creature you control enters, you may have target player discard a card.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -1172,7 +1172,6 @@
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -1442,7 +1441,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 545761,
-      "text": "Flying<br>Whenever a nontoken creature enters under an opponent's control, create a token that's a copy of that creature except it's an artifact in addition to its other types. Then exile all other tokens created with Faerie Artisans.",
+      "text": "Flying<br>Whenever a nontoken creature an opponent controls enters, create a token that's a copy of that creature except it's an artifact in addition to its other types. Then exile all other tokens created with Faerie Artisans.",
       "toughness": 2.0,
       "type": "Creature - Faerie Artificer"
     },
@@ -2029,7 +2028,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{R}{U}",
       "tcgplayerProductId": 545756,
-      "text": "Eminence - Whenever another nontoken Wizard enters under your control, if Inalla, Archmage Ritualist is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.<br>Tap five untapped Wizards you control: Target player loses 7 life.",
+      "text": "Eminence - Whenever another nontoken Wizard you control enters, if Inalla, Archmage Ritualist is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.<br>Tap five untapped Wizards you control: Target player loses 7 life.",
       "toughness": 5.0,
       "type": "Legendary Creature - Human Wizard"
     },
@@ -3262,7 +3261,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{R}{R}{R}",
       "tcgplayerProductId": 537725,
-      "text": "Flying<br>Whenever Scourge of Valkas or another Dragon enters under your control, it deals X damage to any target, where X is the number of Dragons you control.<br>{R}: Scourge of Valkas gets +1/+0 until end of turn.",
+      "text": "Flying<br>Whenever Scourge of Valkas or another Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control.<br>{R}: Scourge of Valkas gets +1/+0 until end of turn.",
       "toughness": 4.0,
       "type": "Creature - Dragon"
     },
@@ -4515,7 +4514,7 @@
       "scryfallSetCode": "SLD",
       "sortedManaCost": "{B}",
       "tcgplayerProductId": 257331,
-      "text": "Sacrifice a creature: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "text": "Sacrifice a creature: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
       "toughness": 1.0,
       "type": "Creature - Vampire Wizard"
     },
@@ -4532,11 +4531,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4567,11 +4570,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -5024,7 +5031,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{B}{B}",
       "tcgplayerProductId": 205247,
-      "text": "Bloodghast can't block.<br>Bloodghast has haste as long as an opponent has 10 or less life.<br>Landfall - Whenever a land enters under your control, you may return Bloodghast from your graveyard to the battlefield.",
+      "text": "Bloodghast can't block.<br>Bloodghast has haste as long as an opponent has 10 or less life.<br>Landfall - Whenever a land you control enters, you may return Bloodghast from your graveyard to the battlefield.",
       "toughness": 1.0,
       "type": "Creature - Vampire Spirit"
     },
@@ -5127,7 +5134,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2B}{2G}{2R}{2U}{2W}",
       "tcgplayerProductId": 205254,
-      "text": "({2/W} can be paid with any two mana or with {W}. This card's mana value is 10.)<br>Other Scarecrow creatures you control get +1/+1.<br>Whenever another Scarecrow enters under your control, destroy target permanent.",
+      "text": "({2/W} can be paid with any two mana or with {W}. This card's mana value is 10.)<br>Other Scarecrow creatures you control get +1/+1.<br>Whenever another Scarecrow you control enters, destroy target permanent.",
       "toughness": 6.0,
       "type": "Legendary Artifact Creature - Scarecrow"
     },
@@ -5520,7 +5527,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{G}",
       "tcgplayerProductId": 205259,
-      "text": "Reach<br>Whenever Qasali Slingers or another Cat enters under your control, you may destroy target artifact or enchantment.",
+      "text": "Reach<br>Whenever Qasali Slingers or another Cat you control enters, you may destroy target artifact or enchantment.",
       "toughness": 5.0,
       "type": "Creature - Cat Warrior"
     },
@@ -5744,10 +5751,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -5907,7 +5918,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -5949,7 +5959,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -5991,7 +6000,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -6033,7 +6041,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -6077,7 +6084,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -6190,7 +6196,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Banned",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -7268,7 +7273,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{U}{W}",
       "tcgplayerProductId": 209389,
-      "text": "Indestructible<br>As long as your devotion to white and blue is less than seven, Ephara isn't a creature.<br>At the beginning of each upkeep, if you had another creature enter under your control last turn, draw a card.",
+      "text": "Indestructible<br>As long as your devotion to white and blue is less than seven, Ephara isn't a creature.<br>At the beginning of each upkeep, if you had another creature enter the battlefield under your control last turn, draw a card.",
       "toughness": 5.0,
       "type": "Legendary Enchantment Creature - God"
     },
@@ -7438,7 +7443,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{R}",
       "tcgplayerProductId": 209393,
-      "text": "Indestructible<br>As long as your devotion to red is less than five, Purphoros isn't a creature.<br>Whenever another creature enters under your control, Purphoros deals 2 damage to each opponent.<br>{2}{R}: Creatures you control get +1/+0 until end of turn.",
+      "text": "Indestructible<br>As long as your devotion to red is less than five, Purphoros isn't a creature.<br>Whenever another creature you control enters, Purphoros deals 2 damage to each opponent.<br>{2}{R}: Creatures you control get +1/+0 until end of turn.",
       "toughness": 5.0,
       "type": "Legendary Enchantment Creature - God"
     },
@@ -7976,11 +7981,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -8050,10 +8059,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper Commander": "Restricted",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -10111,7 +10124,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{W}{W}{W}",
       "tcgplayerProductId": 223000,
-      "text": "Flying<br>Landfall - Whenever a land enters under your control, you may exile target nonland permanent other than Admonition Angel.<br>When Admonition Angel leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.",
+      "text": "Flying<br>Landfall - Whenever a land you control enters, you may exile target nonland permanent other than Admonition Angel.<br>When Admonition Angel leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.",
       "toughness": 6.0,
       "type": "Creature - Angel"
     },
@@ -10144,7 +10157,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{U}{U}{U}",
       "tcgplayerProductId": 222999,
-      "text": "Flying<br>Landfall - Whenever a land enters under your control, you may gain control of target creature for as long as you control Roil Elemental.",
+      "text": "Flying<br>Landfall - Whenever a land you control enters, you may gain control of target creature for as long as you control Roil Elemental.",
       "toughness": 2.0,
       "type": "Creature - Elemental"
     },
@@ -10250,7 +10263,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}{G}{G}",
       "tcgplayerProductId": 222993,
-      "text": "When Avenger of Zendikar enters, create a 0/1 green Plant creature token for each land you control.<br>Landfall - Whenever a land enters under your control, you may put a +1/+1 counter on each Plant creature you control.",
+      "text": "When Avenger of Zendikar enters, create a 0/1 green Plant creature token for each land you control.<br>Landfall - Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control.",
       "toughness": 5.0,
       "type": "Creature - Elemental"
     },
@@ -10586,7 +10599,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}",
       "tcgplayerProductId": 227662,
-      "text": "Whenever a permanent enters tapped and under your control, untap it.",
+      "text": "Whenever a permanent you control enters tapped, untap it.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -10715,11 +10728,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -15327,7 +15344,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -15385,7 +15401,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": 242404,
-      "text": "Whenever a creature enters under your control, Impact Tremors deals 1 damage to each opponent.",
+      "text": "Whenever a creature you control enters, Impact Tremors deals 1 damage to each opponent.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -15791,7 +15807,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}",
       "tcgplayerProductId": 251756,
-      "text": "Creature cards in graveyards and libraries can't enter.<br>Players can't cast spells from graveyards or libraries.",
+      "text": "Creature cards in graveyards and libraries can't enter the battlefield.<br>Players can't cast spells from graveyards or libraries.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -18839,7 +18855,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{U}",
       "tcgplayerProductId": 279242,
-      "text": "Landfall - Whenever a land enters under your control, choose one -<br>• You may tap or untap target creature.<br>• Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "text": "Landfall - Whenever a land you control enters, choose one -<br>• You may tap or untap target creature.<br>• Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -22412,7 +22428,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{W}{W}",
       "tcgplayerProductId": 205479,
-      "text": "As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.<br>Prevent all damage that would be dealt to Gideon Blackblade during your turn.<br>[+1]: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.<br>[−6]: Exile target nonland permanent.",
+      "text": "During your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.<br>Prevent all damage that would be dealt to Gideon Blackblade during your turn.<br>[+1]: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.<br>[−6]: Exile target nonland permanent.",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Gideon"
     },
@@ -23231,7 +23247,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{W}",
       "tcgplayerProductId": 205490,
-      "text": "As long as it's your turn, creatures and planeswalkers you control have lifelink.<br>[+2]: Sorin, Vengeful Bloodlord deals 1 damage to target player or planeswalker.<br>[−X]: Return target creature card with mana value X from your graveyard to the battlefield. That creature is a Vampire in addition to its other types.",
+      "text": "During your turn, creatures and planeswalkers you control have lifelink.<br>[+2]: Sorin, Vengeful Bloodlord deals 1 damage to target player or planeswalker.<br>[−X]: Return target creature card with mana value X from your graveyard to the battlefield. That creature is a Vampire in addition to its other types.",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Sorin"
     },
@@ -23541,7 +23557,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{GU}",
       "tcgplayerProductId": 205541,
-      "text": "Whenever a creature with power 4 or greater enters under your control, draw a card.<br>[−1]: Untap target permanent.",
+      "text": "Whenever a creature you control with power 4 or greater enters, draw a card.<br>[−1]: Untap target permanent.",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Kiora"
     },
@@ -23580,7 +23596,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{RW}{RW}",
       "tcgplayerProductId": 205604,
-      "text": "As long as it's your turn, creatures you control have first strike and equip abilities you activate cost {1} less to activate.<br>[−X]: Nahiri, Storm of Stone deals X damage to target tapped creature.",
+      "text": "During your turn, creatures you control have first strike and equip abilities you activate cost {1} less to activate.<br>[−X]: Nahiri, Storm of Stone deals X damage to target tapped creature.",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Nahiri"
     },
@@ -26324,7 +26340,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 247891,
-      "text": "If an artifact or creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+      "text": "If an artifact or creature entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -29943,7 +29959,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 284491,
-      "text": "Whenever a Dragon enters under your control, put a gold counter on Dragon's Hoard.<br>{T}, Remove a gold counter from Dragon's Hoard: Draw a card.<br>{T}: Add one mana of any color.",
+      "text": "Whenever a Dragon you control enters, put a gold counter on Dragon's Hoard.<br>{T}, Remove a gold counter from Dragon's Hoard: Draw a card.<br>{T}: Add one mana of any color.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -30025,7 +30041,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 452814,
-      "text": "Landfall - Whenever a land enters under your control, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")<br>Whenever you sacrifice a Clue, put a +1/+1 counter on Tireless Tracker.",
+      "text": "Landfall - Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")<br>Whenever you sacrifice a Clue, put a +1/+1 counter on Tireless Tracker.",
       "toughness": 2.0,
       "type": "Creature - Human Scout"
     },
@@ -30258,7 +30274,7 @@
       "type": "Creature - Elemental"
     },
     {
-      "artist": "Mark Rosewater",
+      "artist": "Mark Rosewater, Age 54½",
       "cmc": 4,
       "color": "G",
       "colorIdentity": "G",
@@ -30389,7 +30405,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -30433,7 +30448,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -30791,7 +30805,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": 512987,
-      "text": "You may cast Aura and Equipment spells as though they had flash.<br>Whenever an Equipment enters under your control, you may attach it to target creature you control.",
+      "text": "You may cast Aura and Equipment spells as though they had flash.<br>Whenever an Equipment you control enters, you may attach it to target creature you control.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -30865,7 +30879,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "tcgplayerProductId": 496549,
-      "text": "When Seraph Sanctuary enters, you gain 1 life.<br>Whenever an Angel enters under your control, you gain 1 life.<br>{T}: Add {C}.",
+      "text": "When Seraph Sanctuary enters, you gain 1 life.<br>Whenever an Angel you control enters, you gain 1 life.<br>{T}: Add {C}.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -31630,6 +31644,45 @@
       "type": "Instant"
     },
     {
+      "artist": "Ellie Livingston",
+      "cmc": 3,
+      "color": "B",
+      "colorIdentity": "B",
+      "expansion": "SLD",
+      "foreignPrintings": [],
+      "isFunny": false,
+      "isOnlineOnly": false,
+      "isRebalanced": false,
+      "isToken": false,
+      "legalities": {
+        "Brawl": "Legal",
+        "Commander": "Legal",
+        "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Legacy": "Legal",
+        "Modern": "Legal",
+        "Pauper": "Legal",
+        "Pauper Commander": "Legal",
+        "Timeless": "Legal",
+        "Vintage": "Legal"
+      },
+      "loyalty": -1005,
+      "manaCost": "{1}{B}{B}",
+      "multiverseId": -1,
+      "name": "Relentless Rats",
+      "number": "752",
+      "power": 2.0,
+      "rarity": "R",
+      "scryfallSetCode": "SLD",
+      "securityStamp": "oval",
+      "sortedManaCost": "{1}{B}{B}",
+      "tcgplayerProductId": -1,
+      "text": "Relentless Rats gets +1/+1 for each other creature on the battlefield named Relentless Rats.<br>A deck can have any number of cards named Relentless Rats.",
+      "toughness": 2.0,
+      "type": "Creature - Rat"
+    },
+    {
       "artist": "Sadboi",
       "cmc": 3,
       "color": "B",
@@ -31642,12 +31695,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -31678,12 +31735,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -31714,12 +31775,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -31928,12 +31993,12 @@
       "name": "Evolution Sage",
       "number": "765",
       "power": 3.0,
-      "rarity": "U",
+      "rarity": "R",
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 554686,
-      "text": "Landfall - Whenever a land enters under your control, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+      "text": "Landfall - Whenever a land you control enters, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
       "toughness": 2.0,
       "type": "Creature - Elf Druid"
     },
@@ -32082,7 +32147,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{G}",
       "tcgplayerProductId": 554569,
-      "text": "Whenever another green creature enters under your control, put a +1/+1 counter on target creature.",
+      "text": "Whenever another green creature you control enters, put a +1/+1 counter on target creature.",
       "toughness": 3.0,
       "type": "Creature - Elf Warrior"
     },
@@ -32245,6 +32310,41 @@
       "text": "Nettle Sentinel doesn't untap during your untap step.<br>Whenever you cast a green spell, you may untap Nettle Sentinel.",
       "toughness": 2.0,
       "type": "Creature - Elf Warrior"
+    },
+    {
+      "artist": "Campbell White",
+      "cmc": 4,
+      "color": "G",
+      "colorIdentity": "G",
+      "expansion": "SLD",
+      "flavor": "The Skelle spent days carving runes and erecting their scorn poles. The herd crushed them to splinters in seconds.",
+      "foreignPrintings": [],
+      "isFunny": false,
+      "isOnlineOnly": false,
+      "isRebalanced": false,
+      "isToken": false,
+      "legalities": {
+        "Commander": "Legal",
+        "Duel Commander": "Legal",
+        "Legacy": "Legal",
+        "Modern": "Legal",
+        "Pauper Commander": "Restricted",
+        "Vintage": "Legal"
+      },
+      "loyalty": -1005,
+      "manaCost": "{3}{G}",
+      "multiverseId": -1,
+      "name": "Nullmage Shepherd",
+      "number": "774",
+      "power": 2.0,
+      "rarity": "R",
+      "scryfallSetCode": "SLD",
+      "securityStamp": "oval",
+      "sortedManaCost": "{3}{G}",
+      "tcgplayerProductId": 561452,
+      "text": "Tap four untapped creatures you control: Destroy target artifact or enchantment.",
+      "toughness": 4.0,
+      "type": "Creature - Elf Shaman"
     },
     {
       "artist": "Nils Hamm",
@@ -32745,7 +32845,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": 535918,
-      "text": "Whenever another legendary permanent enters under your control, put a +1/+1 counter on Yoshimaru, Ever Faithful.<br>Partner (You can have two commanders if both have partner.)",
+      "text": "Whenever another legendary permanent you control enters, put a +1/+1 counter on Yoshimaru, Ever Faithful.<br>Partner (You can have two commanders if both have partner.)",
       "toughness": 1.0,
       "type": "Legendary Creature - Dog"
     },
@@ -32817,7 +32917,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "tcgplayerProductId": -1,
-      "text": "When Seraph Sanctuary enters, you gain 1 life.<br>Whenever an Angel enters under your control, you gain 1 life.<br>{T}: Add {C}.",
+      "text": "When Seraph Sanctuary enters, you gain 1 life.<br>Whenever an Angel you control enters, you gain 1 life.<br>{T}: Add {C}.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -32916,7 +33016,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 554651,
-      "text": "As long as it's your turn, Spiteful Prankster has first strike.<br>Whenever another creature dies, Spiteful Prankster deals 1 damage to target player or planeswalker.",
+      "text": "During your turn, Spiteful Prankster has first strike.<br>Whenever another creature dies, Spiteful Prankster deals 1 damage to target player or planeswalker.",
       "toughness": 2.0,
       "type": "Creature - Devil"
     },
@@ -33029,6 +33129,47 @@
       "type": "Creature - Elf Druid"
     },
     {
+      "artist": "Rudy Siswanto",
+      "cmc": 0,
+      "color": "",
+      "colorIdentity": "",
+      "expansion": "SLD",
+      "foreignPrintings": [],
+      "isFunny": false,
+      "isOnlineOnly": false,
+      "isRebalanced": false,
+      "isToken": false,
+      "legalities": {
+        "Alchemy": "Legal",
+        "Brawl": "Legal",
+        "Commander": "Legal",
+        "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Legacy": "Legal",
+        "Modern": "Legal",
+        "Pauper": "Legal",
+        "Pauper Commander": "Legal",
+        "Pioneer": "Legal",
+        "Standard Brawl": "Legal",
+        "Timeless": "Legal",
+        "Vintage": "Legal"
+      },
+      "loyalty": -1005,
+      "multiverseId": -1,
+      "name": "Command Tower",
+      "number": "806",
+      "power": -1005.0,
+      "rarity": "R",
+      "scryfallSetCode": "SLD",
+      "securityStamp": "triangle",
+      "tcgplayerProductId": 561736,
+      "text": "{T}: Add one mana of any color in your commander's color identity.",
+      "toughness": -1005.0,
+      "type": "Land"
+    },
+    {
       "artist": "Raita Kazama",
       "cmc": 2,
       "color": "U",
@@ -33100,7 +33241,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}{R}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560088,
       "text": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)<br>Each other creature you control that's a Wolf or a Werewolf gets +1/+1.<br>Non-Human Werewolves you control can't transform.",
       "toughness": 2.0,
       "type": "Creature - Wolf"
@@ -33219,6 +33360,80 @@
       "text": "{T}: Add one mana of any color in your commander's color identity.",
       "toughness": -1005.0,
       "type": "Artifact"
+    },
+    {
+      "artist": "Alex Petty",
+      "cmc": 6,
+      "color": "U",
+      "colorIdentity": "U",
+      "expansion": "SLD",
+      "foreignPrintings": [],
+      "isFunny": false,
+      "isOnlineOnly": false,
+      "isRebalanced": false,
+      "isToken": false,
+      "legalities": {
+        "Commander": "Legal",
+        "Duel Commander": "Legal",
+        "Legacy": "Legal",
+        "Modern": "Legal",
+        "Vintage": "Legal"
+      },
+      "loyalty": -1005,
+      "manaCost": "{4}{U}{U}",
+      "multiverseId": -1,
+      "name": "Echo of Eons",
+      "number": "821",
+      "power": -1005.0,
+      "rarity": "R",
+      "scryfallSetCode": "SLD",
+      "sortedManaCost": "{4}{U}{U}",
+      "tcgplayerProductId": -1,
+      "text": "Each player shuffles their hand and graveyard into their library, then draws seven cards.<br>Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "toughness": -1005.0,
+      "type": "Sorcery"
+    },
+    {
+      "artist": "Jul Quanouai",
+      "cmc": 0,
+      "color": "",
+      "colorIdentity": "",
+      "expansion": "SLD",
+      "flavor": "Lightning strikes, fire burns, and chaos reigns.",
+      "foreignPrintings": [],
+      "isFunny": false,
+      "isOnlineOnly": false,
+      "isRebalanced": false,
+      "isToken": false,
+      "legalities": {
+        "Alchemy": "Legal",
+        "Brawl": "Legal",
+        "Commander": "Legal",
+        "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Legacy": "Legal",
+        "Modern": "Legal",
+        "Pauper": "Legal",
+        "Pauper Commander": "Legal",
+        "Pioneer": "Legal",
+        "Standard": "Legal",
+        "Standard Brawl": "Legal",
+        "Timeless": "Legal",
+        "Vintage": "Legal"
+      },
+      "loyalty": -1005,
+      "multiverseId": -1,
+      "name": "Evolving Wilds",
+      "number": "824",
+      "power": -1005.0,
+      "rarity": "R",
+      "scryfallSetCode": "SLD",
+      "tcgplayerProductId": -1,
+      "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+      "toughness": -1005.0,
+      "type": "Land"
     },
     {
       "artist": "Craig J Spearing",
@@ -34609,7 +34824,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{2}{B}{R}{W}",
       "tcgplayerProductId": 450601,
-      "text": "Haste<br>Zurgo Helmsmasher attacks each combat if able.<br>Zurgo Helmsmasher has indestructible as long as it's your turn.<br>Whenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+1 counter on Zurgo Helmsmasher.",
+      "text": "Haste<br>Zurgo Helmsmasher attacks each combat if able.<br>During your turn, Zurgo Helmsmasher has indestructible.<br>Whenever a creature dealt damage by Zurgo Helmsmasher this turn dies, put a +1/+1 counter on Zurgo Helmsmasher.",
       "toughness": 2.0,
       "type": "Legendary Creature - Orc Warrior"
     },
@@ -37077,7 +37292,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 283327,
-      "text": "Landfall - Whenever a land enters under your control, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")<br>Whenever you sacrifice a Clue, put a +1/+1 counter on Tireless Tracker.",
+      "text": "Landfall - Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")<br>Whenever you sacrifice a Clue, put a +1/+1 counter on Tireless Tracker.",
       "toughness": 2.0,
       "type": "Creature - Human Scout"
     },
@@ -37537,11 +37752,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": 3,
@@ -38711,11 +38930,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": 4,
@@ -38913,7 +39136,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{R}{R}",
       "tcgplayerProductId": 451241,
-      "text": "Flying<br>Whenever another nontoken Dragon enters under your control, create a 5/5 red Dragon creature token with flying.<br>{1}{R}: Dragons you control get +1/+0 until end of turn.",
+      "text": "Flying<br>Whenever another nontoken Dragon you control enters, create a 5/5 red Dragon creature token with flying.<br>{1}{R}: Dragons you control get +1/+0 until end of turn.",
       "toughness": 6.0,
       "type": "Legendary Creature - Dragon"
     },
@@ -38953,7 +39176,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{R}{R}",
       "tcgplayerProductId": 451242,
-      "text": "Flying<br>Whenever another nontoken Dragon enters under your control, create a 5/5 red Dragon creature token with flying.<br>{1}{R}: Dragons you control get +1/+0 until end of turn.",
+      "text": "Flying<br>Whenever another nontoken Dragon you control enters, create a 5/5 red Dragon creature token with flying.<br>{1}{R}: Dragons you control get +1/+0 until end of turn.",
       "toughness": 6.0,
       "type": "Legendary Creature - Dragon"
     },
@@ -38970,11 +39193,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -39005,11 +39232,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -42162,7 +42393,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 480530,
-      "text": "Landfall - Whenever a land enters under your control, add one mana of any color.",
+      "text": "Landfall - Whenever a land you control enters, add one mana of any color.",
       "toughness": 1.0,
       "type": "Creature - Snake"
     },
@@ -43374,7 +43605,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{G}{G}{R}{R}",
       "tcgplayerProductId": 501870,
-      "text": "Landfall - Whenever a land enters under your control, create a 5/5 red and green Elemental creature token.<br>Whenever Omnath, Locus of Rage or another Elemental you control dies, Omnath deals 3 damage to any target.",
+      "text": "Landfall - Whenever a land you control enters, create a 5/5 red and green Elemental creature token.<br>Whenever Omnath, Locus of Rage or another Elemental you control dies, Omnath deals 3 damage to any target.",
       "toughness": 5.0,
       "type": "Legendary Creature - Elemental"
     },
@@ -43414,7 +43645,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}{U}",
       "tcgplayerProductId": 501871,
-      "text": "Whenever Risen Reef or another Elemental enters under your control, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you don't put the card onto the battlefield, put it into your hand.",
+      "text": "Whenever Risen Reef or another Elemental you control enters, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you don't put the card onto the battlefield, put it into your hand.",
       "toughness": 1.0,
       "type": "Creature - Elemental"
     },
@@ -44556,7 +44787,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "tcgplayerProductId": 493996,
-      "text": "When Seraph Sanctuary enters, you gain 1 life.<br>Whenever an Angel enters under your control, you gain 1 life.<br>{T}: Add {C}.",
+      "text": "When Seraph Sanctuary enters, you gain 1 life.<br>Whenever an Angel you control enters, you gain 1 life.<br>{T}: Add {C}.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -45257,7 +45488,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "sortedManaCost": "{4}{B}{B}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560454,
       "text": "Whenever you tap a Swamp for mana, add an additional {B}.<br>{B}: Nirkana Revenant gets +1/+1 until end of turn.",
       "toughness": 4.0,
       "type": "Creature - Vampire Shade"
@@ -45293,7 +45524,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "sortedManaCost": "{G}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560457,
       "text": "{T}: Untap target Forest.",
       "toughness": 1.0,
       "type": "Creature - Elf Druid"
@@ -45326,7 +45557,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "sortedManaCost": "{6}{G}{G}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560460,
       "text": "When Terastodon enters, you may destroy up to three target noncreature permanents. For each permanent put into a graveyard this way, its controller creates a 3/3 green Elephant creature token.",
       "toughness": 9.0,
       "type": "Creature - Elephant"
@@ -45359,7 +45590,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "sortedManaCost": "{5}{G}{R}{U}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560462,
       "text": "Creatures you control have haste.<br>Cascade, cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order. Then do it again.)",
       "toughness": 5.0,
       "type": "Legendary Creature - Elemental"
@@ -46127,7 +46358,7 @@
       "securityStamp": "triangle",
       "sortedManaCost": "{W}{W}",
       "tcgplayerProductId": 517858,
-      "text": "Whenever an Equipment enters under your control, you may draw a card.<br>Metalcraft - Equipment you control have equip {0} as long as you control three or more artifacts.",
+      "text": "Whenever an Equipment you control enters, you may draw a card.<br>Metalcraft - Equipment you control have equip {0} as long as you control three or more artifacts.",
       "toughness": 2.0,
       "type": "Creature - Human Knight"
     },
@@ -46153,7 +46384,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -46274,7 +46504,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "triangle",
       "tcgplayerProductId": 517872,
-      "text": "Field of the Dead enters tapped.<br>{T}: Add {C}.<br>Whenever Field of the Dead or another land enters under your control, if you control seven or more lands with different names, create a 2/2 black Zombie creature token.",
+      "text": "Field of the Dead enters tapped.<br>{T}: Add {C}.<br>Whenever Field of the Dead or another land you control enters, if you control seven or more lands with different names, create a 2/2 black Zombie creature token.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -50984,7 +51214,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{R}{R}{R}",
       "tcgplayerProductId": 537720,
-      "text": "Flying<br>Whenever Scourge of Valkas or another Dragon enters under your control, it deals X damage to any target, where X is the number of Dragons you control.<br>{R}: Scourge of Valkas gets +1/+0 until end of turn.",
+      "text": "Flying<br>Whenever Scourge of Valkas or another Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control.<br>{R}: Scourge of Valkas gets +1/+0 until end of turn.",
       "toughness": 4.0,
       "type": "Creature - Dragon"
     },
@@ -51706,7 +51936,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -51747,7 +51976,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -51789,7 +52017,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -51831,7 +52058,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -52330,7 +52556,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -52374,7 +52599,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -53343,7 +53567,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -53384,7 +53607,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -53426,7 +53648,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -53468,7 +53689,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -54108,7 +54328,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{UB}{UB}",
       "tcgplayerProductId": 536896,
-      "text": "Whenever a blue creature enters under your control, you may have target player draw a card.<br>Whenever a black creature enters under your control, you may have target player discard a card.",
+      "text": "Whenever a blue creature you control enters, you may have target player draw a card.<br>Whenever a black creature you control enters, you may have target player discard a card.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -54814,7 +55034,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -54856,7 +55075,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -55004,7 +55222,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -55046,7 +55263,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -55599,7 +55815,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 545730,
-      "text": "Flying<br>Whenever a nontoken creature enters under an opponent's control, create a token that's a copy of that creature except it's an artifact in addition to its other types. Then exile all other tokens created with Faerie Artisans.",
+      "text": "Flying<br>Whenever a nontoken creature an opponent controls enters, create a token that's a copy of that creature except it's an artifact in addition to its other types. Then exile all other tokens created with Faerie Artisans.",
       "toughness": 2.0,
       "type": "Creature - Faerie Artificer"
     },
@@ -55625,7 +55841,6 @@
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -56000,7 +56215,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{R}{U}",
       "tcgplayerProductId": 545633,
-      "text": "Eminence - Whenever another nontoken Wizard enters under your control, if Inalla, Archmage Ritualist is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.<br>Tap five untapped Wizards you control: Target player loses 7 life.",
+      "text": "Eminence - Whenever another nontoken Wizard you control enters, if Inalla, Archmage Ritualist is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.<br>Tap five untapped Wizards you control: Target player loses 7 life.",
       "toughness": 5.0,
       "type": "Legendary Creature - Human Wizard"
     },
@@ -56299,7 +56514,7 @@
       "rarity": "R",
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560416,
       "text": "({T}: Add {W}.)",
       "toughness": -1005.0,
       "type": "Basic Land - Plains"
@@ -56342,7 +56557,7 @@
       "rarity": "R",
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560422,
       "text": "({T}: Add {U}.)",
       "toughness": -1005.0,
       "type": "Basic Land - Island"
@@ -56385,7 +56600,7 @@
       "rarity": "R",
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560427,
       "text": "({T}: Add {B}.)",
       "toughness": -1005.0,
       "type": "Basic Land - Swamp"
@@ -56428,7 +56643,7 @@
       "rarity": "R",
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560429,
       "text": "({T}: Add {R}.)",
       "toughness": -1005.0,
       "type": "Basic Land - Mountain"
@@ -56471,7 +56686,7 @@
       "rarity": "R",
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560431,
       "text": "({T}: Add {G}.)",
       "toughness": -1005.0,
       "type": "Basic Land - Forest"
@@ -56513,8 +56728,7 @@
       "power": -1005.0,
       "rarity": "R",
       "scryfallSetCode": "SLD",
-      "securityStamp": "oval",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560435,
       "text": "({T}: Add {W}.)",
       "toughness": -1005.0,
       "type": "Basic Land - Plains"
@@ -56556,7 +56770,7 @@
       "power": -1005.0,
       "rarity": "R",
       "scryfallSetCode": "SLD",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560439,
       "text": "({T}: Add {U}.)",
       "toughness": -1005.0,
       "type": "Basic Land - Island"
@@ -56598,7 +56812,7 @@
       "power": -1005.0,
       "rarity": "R",
       "scryfallSetCode": "SLD",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 561289,
       "text": "({T}: Add {B}.)",
       "toughness": -1005.0,
       "type": "Basic Land - Swamp"
@@ -56640,8 +56854,7 @@
       "power": -1005.0,
       "rarity": "R",
       "scryfallSetCode": "SLD",
-      "securityStamp": "oval",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 561514,
       "text": "({T}: Add {R}.)",
       "toughness": -1005.0,
       "type": "Basic Land - Mountain"
@@ -56683,8 +56896,7 @@
       "power": -1005.0,
       "rarity": "R",
       "scryfallSetCode": "SLD",
-      "securityStamp": "oval",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 561516,
       "text": "({T}: Add {G}.)",
       "toughness": -1005.0,
       "type": "Basic Land - Forest"
@@ -56717,7 +56929,7 @@
       "rarity": "M",
       "scryfallSetCode": "SLD",
       "sortedManaCost": "{4}{U}{U}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560262,
       "text": "Flying<br>Whenever an opponent draws a card, you may draw two cards.",
       "toughness": 6.0,
       "type": "Creature - Sphinx"
@@ -56749,7 +56961,7 @@
       "rarity": "R",
       "scryfallSetCode": "SLD",
       "sortedManaCost": "{2}{R}{R}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560282,
       "text": "Chaotic Goo enters with three +1/+1 counters on it.<br>At the beginning of your upkeep, you may flip a coin. If you win the flip, put a +1/+1 counter on Chaotic Goo. If you lose the flip, remove a +1/+1 counter from Chaotic Goo.",
       "toughness": 0.0,
       "type": "Creature - Ooze"
@@ -56782,7 +56994,7 @@
       "rarity": "M",
       "scryfallSetCode": "SLD",
       "sortedManaCost": "{2}{R}{R}{R}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560295,
       "text": "Haste<br>{T}: Create a token that's a copy of target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step.",
       "toughness": 2.0,
       "type": "Legendary Creature - Goblin Shaman"
@@ -56822,7 +57034,7 @@
       "rarity": "R",
       "scryfallSetCode": "SLD",
       "sortedManaCost": "{7}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560299,
       "text": "When Meteor Golem enters, destroy target nonland permanent an opponent controls.",
       "toughness": 3.0,
       "type": "Artifact Creature - Golem"
@@ -56859,7 +57071,7 @@
       "rarity": "M",
       "scryfallSetCode": "SLD",
       "sortedManaCost": "{6}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560302,
       "text": "Deathtouch, lifelink<br>When Wurmcoil Engine dies, create a 3/3 colorless Phyrexian Wurm artifact creature token with deathtouch and a 3/3 colorless Phyrexian Wurm artifact creature token with lifelink.",
       "toughness": 6.0,
       "type": "Artifact Creature - Phyrexian Wurm"
@@ -56892,7 +57104,7 @@
       "rarity": "R",
       "scryfallSetCode": "SLD",
       "sortedManaCost": "{2}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560304,
       "text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)<br>Equip {0}",
       "toughness": -1005.0,
       "type": "Artifact - Equipment"
@@ -56925,7 +57137,7 @@
       "rarity": "R",
       "scryfallSetCode": "SLD",
       "sortedManaCost": "{1}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560307,
       "text": "Equipped creature gets +1/-1.<br>Whenever equipped creature dies, draw two cards.<br>Equip {1}",
       "toughness": -1005.0,
       "type": "Artifact - Equipment"
@@ -56957,7 +57169,7 @@
       "rarity": "R",
       "scryfallSetCode": "SLD",
       "sortedManaCost": "{1}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560310,
       "text": "{T}: Add {C}{C}.",
       "toughness": -1005.0,
       "type": "Artifact"
@@ -56988,10 +57200,10 @@
       "name": "Thought Vessel",
       "number": "1665",
       "power": -1005.0,
-      "rarity": "U",
+      "rarity": "R",
       "scryfallSetCode": "SLD",
       "sortedManaCost": "{2}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560411,
       "text": "You have no maximum hand size.<br>{T}: Add {C}.",
       "toughness": -1005.0,
       "type": "Artifact"
@@ -57032,7 +57244,7 @@
       "power": -1005.0,
       "rarity": "R",
       "scryfallSetCode": "SLD",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560414,
       "text": "{T}: Add one mana of any color in your commander's color identity.",
       "toughness": -1005.0,
       "type": "Land"
@@ -57069,7 +57281,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "triangle",
       "sortedManaCost": "{2}{U}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560659,
       "text": "{T}: Prodigal Sorcerer deals 1 damage to any target.",
       "toughness": 1.0,
       "type": "Creature - Human Wizard"
@@ -57108,7 +57320,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "triangle",
       "sortedManaCost": "{2}{B}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560660,
       "text": "Search your library for up to three creature cards, put them into your graveyard, then shuffle.",
       "toughness": -1005.0,
       "type": "Sorcery"
@@ -57146,7 +57358,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "triangle",
       "sortedManaCost": "{1}{BP}{BP}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560661,
       "text": "({B/P} can be paid with either {B} or 2 life.)<br>Target creature gets -5/-5 until end of turn.",
       "toughness": -1005.0,
       "type": "Instant"
@@ -57181,7 +57393,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "triangle",
       "sortedManaCost": "{1}{G}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560664,
       "text": "Search your library for a Forest card, put it onto the battlefield, then shuffle.",
       "toughness": -1005.0,
       "type": "Sorcery"
@@ -57219,7 +57431,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "triangle",
       "sortedManaCost": "{5}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560665,
       "text": "Door to Nothingness enters tapped.<br>{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice Door to Nothingness: Target player loses the game.",
       "toughness": -1005.0,
       "type": "Artifact"
@@ -57259,7 +57471,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "triangle",
       "sortedManaCost": "{3}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560666,
       "text": "Sacrifice a creature: Add {C}{C}.",
       "toughness": -1005.0,
       "type": "Artifact"
@@ -57290,7 +57502,7 @@
       "rarity": "M",
       "scryfallSetCode": "SLD",
       "securityStamp": "triangle",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560667,
       "text": "Dark Depths enters with ten ice counters on it.<br>{3}: Remove an ice counter from Dark Depths.<br>When Dark Depths has no ice counters on it, sacrifice it. If you do, create Marit Lage, a legendary 20/20 black Avatar creature token with flying and indestructible.",
       "toughness": -1005.0,
       "type": "Legendary Snow Land"
@@ -57426,7 +57638,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -57710,10 +57921,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": 4,
@@ -57726,7 +57941,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "sortedManaCost": "{3}{B}{B}{B}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560441,
       "text": "[+2]: Sorin Markov deals 2 damage to any target and you gain 2 life.<br>[−3]: Target opponent's life total becomes 10.<br>[−7]: You control target player during that player's next turn.",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Sorin"
@@ -57765,8 +57980,8 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "sortedManaCost": "{2}{G}{W}",
-      "tcgplayerProductId": -1,
-      "text": "[+1]: Put a loyalty counter on Huatli, Radiant Champion for each creature you control.<br>[−1]: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.<br>[−8]: You get an emblem with \"Whenever a creature enters under your control, you may draw a card.\"",
+      "tcgplayerProductId": 560443,
+      "text": "[+1]: Put a loyalty counter on Huatli, Radiant Champion for each creature you control.<br>[−1]: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.<br>[−8]: You get an emblem with \"Whenever a creature you control enters, you may draw a card.\"",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Huatli"
     },
@@ -57800,11 +58015,12 @@
       "name": "Kiora, Behemoth Beckoner",
       "number": "1700",
       "power": -1005.0,
-      "rarity": "U",
+      "rarity": "R",
       "scryfallSetCode": "SLD",
+      "securityStamp": "oval",
       "sortedManaCost": "{2}{GU}",
-      "tcgplayerProductId": -1,
-      "text": "Whenever a creature with power 4 or greater enters under your control, draw a card.<br>[−1]: Untap target permanent.",
+      "tcgplayerProductId": 560445,
+      "text": "Whenever a creature you control with power 4 or greater enters, draw a card.<br>[−1]: Untap target permanent.",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Kiora"
     },
@@ -57842,7 +58058,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "sortedManaCost": "{4}{B}{U}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560447,
       "text": "Creature and planeswalker spells you cast have affinity for artifacts. (They cost {1} less to cast for each artifact you control.)<br>[+2]: Tezzeret, Master of the Bridge deals X damage to each opponent, where X is the number of artifacts you control. You gain X life.<br>[−3]: Return target artifact card from your graveyard to your hand.<br>[−8]: Exile the top ten cards of your library. Put all artifact cards from among them onto the battlefield.",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Tezzeret"
@@ -57881,7 +58097,7 @@
       "scryfallSetCode": "SLD",
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{G}",
-      "tcgplayerProductId": -1,
+      "tcgplayerProductId": 560449,
       "text": "[+2]: You may sacrifice another permanent. If you do, you gain 1 life and draw a card.<br>[−3]: Destroy target nonland permanent with mana value 3 or less.<br>[−9]: You get an emblem with \"Whenever a creature you control deals combat damage to a player, that player loses the game.\"",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Vraska"
@@ -57907,7 +58123,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -58015,7 +58230,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -58227,7 +58441,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}{W}",
       "tcgplayerProductId": 555463,
-      "text": "Whenever another creature enters under your control, put a +1/+1 counter on that creature.",
+      "text": "Whenever another creature you control enters, put a +1/+1 counter on that creature.",
       "toughness": 2.0,
       "type": "Creature - Unicorn"
     },
@@ -58446,6 +58660,76 @@
       "type": "Legendary Creature - Dragon"
     },
     {
+      "artist": "Nereida",
+      "cmc": 6,
+      "color": "WB",
+      "colorIdentity": "WB",
+      "expansion": "SLD",
+      "flavor": "\"Keep your distance, darling.\"",
+      "foreignPrintings": [],
+      "isFunny": false,
+      "isOnlineOnly": false,
+      "isRebalanced": false,
+      "isToken": false,
+      "legalities": {
+        "Brawl": "Legal",
+        "Commander": "Legal",
+        "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
+        "Legacy": "Legal",
+        "Timeless": "Legal",
+        "Vintage": "Legal"
+      },
+      "loyalty": -1005,
+      "manaCost": "{4}{W}{B}",
+      "multiverseId": -1,
+      "name": "Astarion, the Decadent",
+      "number": "1797",
+      "power": 4.0,
+      "rarity": "R",
+      "scryfallSetCode": "SLD",
+      "securityStamp": "oval",
+      "sortedManaCost": "{4}{B}{W}",
+      "tcgplayerProductId": -1,
+      "text": "Deathtouch, lifelink<br>At the beginning of your end step, choose one -<br>• Feed - Target opponent loses life equal to the amount of life they lost this turn.<br>• Friends - You gain life equal to the amount of life you gained this turn.",
+      "toughness": 4.0,
+      "type": "Legendary Creature - Vampire Elf Rogue"
+    },
+    {
+      "artist": "Mila Pesic",
+      "cmc": 5,
+      "color": "R",
+      "colorIdentity": "R",
+      "expansion": "SLD",
+      "flavor": "\"I never wanted to serve Zariel. Forcewd to fight and fight I did.\"",
+      "foreignPrintings": [],
+      "isFunny": false,
+      "isOnlineOnly": false,
+      "isRebalanced": false,
+      "isToken": false,
+      "legalities": {
+        "Commander": "Legal",
+        "Duel Commander": "Legal",
+        "Legacy": "Legal",
+        "Vintage": "Legal"
+      },
+      "loyalty": -1005,
+      "manaCost": "{4}{R}",
+      "multiverseId": -1,
+      "name": "Karlach, Fury of Avernus",
+      "number": "1802",
+      "power": 5.0,
+      "rarity": "M",
+      "scryfallSetCode": "SLD",
+      "securityStamp": "oval",
+      "sortedManaCost": "{4}{R}",
+      "tcgplayerProductId": -1,
+      "text": "Whenever you attack, if it's the first combat phase of the turn, untap all attacking creatures. They gain first strike until end of turn. After this phase, there is an additional combat phase.<br>Choose a Background (You can have a Background as a second commander.)",
+      "toughness": 4.0,
+      "type": "Legendary Creature - Tiefling Barbarian"
+    },
+    {
       "artist": "Wizard of Barge",
       "cmc": 4,
       "color": "U",
@@ -58457,10 +58741,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": 3,
@@ -58837,7 +59125,7 @@
     "canBeFoil": true,
     "code_gatherer": "SLD",
     "code_mtgi": "SLD",
-    "digest": "fad8223997ee580f5b1bdeac3c78ef6baa",
+    "digest": "ff2f9f2dce77c37f41bbd82b4558c10e7f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SLD_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/SLD_M.png",

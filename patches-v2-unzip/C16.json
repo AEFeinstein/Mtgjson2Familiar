@@ -494,7 +494,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 124194,
-      "text": "Flying<br>Whenever a nontoken creature enters under an opponent's control, create a token that's a copy of that creature except it's an artifact in addition to its other types. Then exile all other tokens created with Faerie Artisans.",
+      "text": "Flying<br>Whenever a nontoken creature an opponent controls enters, create a token that's a copy of that creature except it's an artifact in addition to its other types. Then exile all other tokens created with Faerie Artisans.",
       "toughness": 2.0,
       "type": "Creature - Faerie Artificer"
     },
@@ -2019,9 +2019,13 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -3781,7 +3785,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 124421,
-      "text": "Whenever a creature enters under your control, put a +1/+1 counter on each creature you control.",
+      "text": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -4224,7 +4228,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 124541,
-      "text": "Flash<br>Flying<br>Creatures entering the battlefield don't cause abilities to trigger.",
+      "text": "Flash<br>Flying<br>Creatures entering don't cause abilities to trigger.",
       "toughness": 1.0,
       "type": "Creature - Hippogriff"
     },
@@ -4294,7 +4298,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 124565,
-      "text": "Whenever another creature with power 2 or less enters under your control, you may pay {1}. If you do, draw a card.",
+      "text": "Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card.",
       "toughness": 2.0,
       "type": "Creature - Human Soldier"
     },
@@ -9059,7 +9063,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}{G}",
       "tcgplayerProductId": 124424,
-      "text": "Creatures with power less than Champion of Lambholt's power can't block creatures you control.<br>Whenever another creature enters under your control, put a +1/+1 counter on Champion of Lambholt.",
+      "text": "Creatures with power less than Champion of Lambholt's power can't block creatures you control.<br>Whenever another creature you control enters, put a +1/+1 counter on Champion of Lambholt.",
       "toughness": 1.0,
       "type": "Creature - Human Warrior"
     },
@@ -11426,10 +11430,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper Commander": "Restricted",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -12534,7 +12542,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{G}{U}",
       "tcgplayerProductId": 124508,
-      "text": "Evolve (Whenever a creature enters under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)<br>Whenever a +1/+1 counter is put on Fathom Mage, you may draw a card.",
+      "text": "Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)<br>Whenever a +1/+1 counter is put on Fathom Mage, you may draw a card.",
       "toughness": 1.0,
       "type": "Creature - Human Wizard"
     },
@@ -13104,7 +13112,7 @@
       "scryfallSetCode": "C16",
       "sortedManaCost": "{3}{G}{W}",
       "tcgplayerProductId": 124549,
-      "text": "Whenever another creature enters under your control, put a +1/+1 counter on that creature and a +1/+1 counter on Juniper Order Ranger.",
+      "text": "Whenever another creature you control enters, put a +1/+1 counter on that creature and a +1/+1 counter on Juniper Order Ranger.",
       "toughness": 4.0,
       "type": "Creature - Human Knight Ranger"
     },
@@ -22503,7 +22511,7 @@
     "canBeFoil": true,
     "code_gatherer": "C16",
     "code_mtgi": "C16",
-    "digest": "fb60cf4a2012c18f0b5795e6d13aef5e9f",
+    "digest": "fb296f59c5d679b4edfaaed4ed9de74a64",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C16_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C16_U.png",

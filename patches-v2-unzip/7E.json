@@ -29,7 +29,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 2810,
-      "text": "Flying<br>When Abyssal Horror enters the battlefield, target player discards two cards.",
+      "text": "Flying<br>When Abyssal Horror enters, target player discards two cards.",
       "toughness": 2.0,
       "type": "Creature - Horror",
       "watermark": "Wotc"
@@ -140,7 +140,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{R}{R}",
       "tcgplayerProductId": 3159,
-      "text": "Whenever a creature enters the battlefield, Aether Flash deals 2 damage to it.",
+      "text": "Whenever a creature enters, Aether Flash deals 2 damage to it.",
       "toughness": -1005.0,
       "type": "Enchantment",
       "watermark": "Wotc"
@@ -802,11 +802,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -1407,7 +1411,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 2847,
-      "text": "Charcoal Diamond enters the battlefield tapped.<br>{T}: Add {B}.",
+      "text": "Charcoal Diamond enters tapped.<br>{T}: Add {B}.",
       "toughness": -1005.0,
       "type": "Artifact",
       "watermark": "Wotc"
@@ -1655,7 +1659,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 2854,
-      "text": "Flying<br>When Cloudchaser Eagle enters the battlefield, destroy target enchantment.",
+      "text": "Flying<br>When Cloudchaser Eagle enters, destroy target enchantment.",
       "toughness": 2.0,
       "type": "Creature - Bird",
       "watermark": "Wotc"
@@ -2105,7 +2109,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 2866,
-      "text": "When Dakmor Lancer enters the battlefield, destroy target nonblack creature.",
+      "text": "When Dakmor Lancer enters, destroy target nonblack creature.",
       "toughness": 3.0,
       "type": "Creature - Human Knight",
       "watermark": "Wotc"
@@ -2280,7 +2284,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 2871,
-      "text": "When Delusions of Mediocrity enters the battlefield, you gain 10 life.<br>When Delusions of Mediocrity leaves the battlefield, you lose 10 life.",
+      "text": "When Delusions of Mediocrity enters, you gain 10 life.<br>When Delusions of Mediocrity leaves the battlefield, you lose 10 life.",
       "toughness": -1005.0,
       "type": "Enchantment",
       "watermark": "Wotc"
@@ -2929,7 +2933,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 2889,
-      "text": "As Engineered Plague enters the battlefield, choose a creature type.<br>All creatures of the chosen type get -1/-1.",
+      "text": "As Engineered Plague enters, choose a creature type.<br>All creatures of the chosen type get -1/-1.",
       "toughness": -1005.0,
       "type": "Enchantment",
       "watermark": "Wotc"
@@ -3140,7 +3144,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{B}{B}",
       "tcgplayerProductId": 2895,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura",
       "watermark": "Wotc"
@@ -3350,7 +3354,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 2901,
-      "text": "Fire Diamond enters the battlefield tapped.<br>{T}: Add {R}.",
+      "text": "Fire Diamond enters tapped.<br>{T}: Add {R}.",
       "toughness": -1005.0,
       "type": "Artifact",
       "watermark": "Wotc"
@@ -3782,7 +3786,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{B}{B}",
       "tcgplayerProductId": 2912,
-      "text": "Flying<br>When Foul Imp enters the battlefield, you lose 2 life.",
+      "text": "Flying<br>When Foul Imp enters, you lose 2 life.",
       "toughness": 2.0,
       "type": "Creature - Imp",
       "watermark": "Wotc"
@@ -4451,7 +4455,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 2930,
-      "text": "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle.",
+      "text": "When Goblin Matron enters, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle.",
       "toughness": 1.0,
       "type": "Creature - Goblin",
       "watermark": "Wotc"
@@ -4746,7 +4750,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 2938,
-      "text": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.",
+      "text": "When Gravedigger enters, you may return target creature card from your graveyard to your hand.",
       "toughness": 2.0,
       "type": "Creature - Zombie",
       "watermark": "Wotc"
@@ -6477,7 +6481,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 2985,
-      "text": "Marble Diamond enters the battlefield tapped.<br>{T}: Add {W}.",
+      "text": "Marble Diamond enters tapped.<br>{T}: Add {W}.",
       "toughness": -1005.0,
       "type": "Artifact",
       "watermark": "Wotc"
@@ -6958,7 +6962,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 2998,
-      "text": "Moss Diamond enters the battlefield tapped.<br>{T}: Add {G}.",
+      "text": "Moss Diamond enters tapped.<br>{T}: Add {G}.",
       "toughness": -1005.0,
       "type": "Artifact",
       "watermark": "Wotc"
@@ -8803,7 +8807,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{R}",
       "tcgplayerProductId": 3047,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has first strike. (It deals combat damage before creatures without first strike.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature has first strike. (It deals combat damage before creatures without first strike.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura",
       "watermark": "Wotc"
@@ -8840,7 +8844,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 3048,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura",
       "watermark": "Wotc"
@@ -9305,7 +9309,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{1}{U}",
       "tcgplayerProductId": 3061,
-      "text": "Flying<br>When Sage Owl enters the battlefield, look at the top four cards of your library, then put them back in any order.",
+      "text": "Flying<br>When Sage Owl enters, look at the top four cards of your library, then put them back in any order.",
       "toughness": 1.0,
       "type": "Creature - Bird",
       "watermark": "Wotc"
@@ -9635,7 +9639,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 3070,
-      "text": "When Serpent Warrior enters the battlefield, you lose 3 life.",
+      "text": "When Serpent Warrior enters, you lose 3 life.",
       "toughness": 3.0,
       "type": "Creature - Snake Warrior",
       "watermark": "Wotc"
@@ -10019,7 +10023,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 3080,
-      "text": "Sky Diamond enters the battlefield tapped.<br>{T}: Add {U}.",
+      "text": "Sky Diamond enters tapped.<br>{T}: Add {U}.",
       "toughness": -1005.0,
       "type": "Artifact",
       "watermark": "Wotc"
@@ -10348,7 +10352,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": 3089,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Whenever enchanted creature deals damage, you gain that much life.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Whenever enchanted creature deals damage, you gain that much life.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura",
       "watermark": "Wotc"
@@ -10568,7 +10572,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 3095,
-      "text": "When Staunch Defenders enters the battlefield, you gain 4 life.",
+      "text": "When Staunch Defenders enters, you gain 4 life.",
       "toughness": 4.0,
       "type": "Creature - Human Soldier",
       "watermark": "Wotc"
@@ -11209,7 +11213,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 3112,
-      "text": "Whenever a creature enters the battlefield, its controller sacrifices a creature or land.",
+      "text": "Whenever a creature enters, its controller sacrifices a creature or land.",
       "toughness": -1005.0,
       "type": "Enchantment",
       "watermark": "Wotc"
@@ -11279,7 +11283,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{U}",
       "tcgplayerProductId": 3114,
-      "text": "When Telepathic Spies enters the battlefield, look at target opponent's hand.",
+      "text": "When Telepathic Spies enters, look at target opponent's hand.",
       "toughness": 2.0,
       "type": "Creature - Human Wizard",
       "watermark": "Wotc"
@@ -12004,7 +12008,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 3134,
-      "text": "When Venerable Monk enters the battlefield, you gain 2 life.",
+      "text": "When Venerable Monk enters, you gain 2 life.",
       "toughness": 2.0,
       "type": "Creature - Human Monk Cleric",
       "watermark": "Wotc"
@@ -12687,7 +12691,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 3153,
-      "text": "When Wood Elves enters the battlefield, search your library for a Forest card, put that card onto the battlefield, then shuffle.",
+      "text": "When Wood Elves enters, search your library for a Forest card, put that card onto the battlefield, then shuffle.",
       "toughness": 1.0,
       "type": "Creature - Elf Scout",
       "watermark": "Wotc"
@@ -12901,7 +12905,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": -1,
-      "text": "Charcoal Diamond enters the battlefield tapped.<br>{T}: Add {B}.",
+      "text": "Charcoal Diamond enters tapped.<br>{T}: Add {B}.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -13638,7 +13642,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 2854,
-      "text": "Flying<br>When Cloudchaser Eagle enters the battlefield, destroy target enchantment.",
+      "text": "Flying<br>When Cloudchaser Eagle enters, destroy target enchantment.",
       "toughness": 2.0,
       "type": "Creature - Bird"
     },
@@ -15673,7 +15677,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": 3089,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Whenever enchanted creature deals damage, you gain that much life.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Whenever enchanted creature deals damage, you gain that much life.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -15842,7 +15846,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 3095,
-      "text": "When Staunch Defenders enters the battlefield, you gain 4 life.",
+      "text": "When Staunch Defenders enters, you gain 4 life.",
       "toughness": 4.0,
       "type": "Creature - Human Soldier"
     },
@@ -16014,7 +16018,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 3134,
-      "text": "When Venerable Monk enters the battlefield, you gain 2 life.",
+      "text": "When Venerable Monk enters, you gain 2 life.",
       "toughness": 2.0,
       "type": "Creature - Human Monk Cleric"
     },
@@ -16973,7 +16977,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 2871,
-      "text": "When Delusions of Mediocrity enters the battlefield, you gain 10 life.<br>When Delusions of Mediocrity leaves the battlefield, you lose 10 life.",
+      "text": "When Delusions of Mediocrity enters, you gain 10 life.<br>When Delusions of Mediocrity leaves the battlefield, you lose 10 life.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -18433,7 +18437,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{1}{U}",
       "tcgplayerProductId": 3061,
-      "text": "Flying<br>When Sage Owl enters the battlefield, look at the top four cards of your library, then put them back in any order.",
+      "text": "Flying<br>When Sage Owl enters, look at the top four cards of your library, then put them back in any order.",
       "toughness": 1.0,
       "type": "Creature - Bird"
     },
@@ -18723,7 +18727,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{U}",
       "tcgplayerProductId": 3114,
-      "text": "When Telepathic Spies enters the battlefield, look at target opponent's hand.",
+      "text": "When Telepathic Spies enters, look at target opponent's hand.",
       "toughness": 2.0,
       "type": "Creature - Human Wizard"
     },
@@ -19507,7 +19511,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 2810,
-      "text": "Flying<br>When Abyssal Horror enters the battlefield, target player discards two cards.",
+      "text": "Flying<br>When Abyssal Horror enters, target player discards two cards.",
       "toughness": 2.0,
       "type": "Creature - Horror"
     },
@@ -20128,7 +20132,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 2866,
-      "text": "When Dakmor Lancer enters the battlefield, destroy target nonblack creature.",
+      "text": "When Dakmor Lancer enters, destroy target nonblack creature.",
       "toughness": 3.0,
       "type": "Creature - Human Knight"
     },
@@ -20560,7 +20564,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 2889,
-      "text": "As Engineered Plague enters the battlefield, choose a creature type.<br>All creatures of the chosen type get -1/-1.",
+      "text": "As Engineered Plague enters, choose a creature type.<br>All creatures of the chosen type get -1/-1.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -20673,7 +20677,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{B}{B}",
       "tcgplayerProductId": 2895,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -20730,7 +20734,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{B}{B}",
       "tcgplayerProductId": 2912,
-      "text": "Flying<br>When Foul Imp enters the battlefield, you lose 2 life.",
+      "text": "Flying<br>When Foul Imp enters, you lose 2 life.",
       "toughness": 2.0,
       "type": "Creature - Imp"
     },
@@ -20903,7 +20907,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 2938,
-      "text": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.",
+      "text": "When Gravedigger enters, you may return target creature card from your graveyard to your hand.",
       "toughness": 2.0,
       "type": "Creature - Zombie"
     },
@@ -22294,7 +22298,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 3070,
-      "text": "When Serpent Warrior enters the battlefield, you lose 3 life.",
+      "text": "When Serpent Warrior enters, you lose 3 life.",
       "toughness": 3.0,
       "type": "Creature - Snake Warrior"
     },
@@ -22564,7 +22568,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 3112,
-      "text": "Whenever a creature enters the battlefield, its controller sacrifices a creature or land.",
+      "text": "Whenever a creature enters, its controller sacrifices a creature or land.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -22836,7 +22840,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{R}{R}",
       "tcgplayerProductId": 3159,
-      "text": "Whenever a creature enters the battlefield, Aether Flash deals 2 damage to it.",
+      "text": "Whenever a creature enters, Aether Flash deals 2 damage to it.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -23897,7 +23901,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 2930,
-      "text": "When Goblin Matron enters the battlefield, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle.",
+      "text": "When Goblin Matron enters, you may search your library for a Goblin card, reveal that card, put it into your hand, then shuffle.",
       "toughness": 1.0,
       "type": "Creature - Goblin"
     },
@@ -25144,7 +25148,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{R}",
       "tcgplayerProductId": 3047,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has first strike. (It deals combat damage before creatures without first strike.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature has first strike. (It deals combat damage before creatures without first strike.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -26161,11 +26165,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -28113,7 +28121,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 3048,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -29171,7 +29179,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 3153,
-      "text": "When Wood Elves enters the battlefield, search your library for a Forest card, put that card onto the battlefield, then shuffle.",
+      "text": "When Wood Elves enters, search your library for a Forest card, put that card onto the battlefield, then shuffle.",
       "toughness": 1.0,
       "type": "Creature - Elf Scout"
     },
@@ -29447,7 +29455,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 2847,
-      "text": "Charcoal Diamond enters the battlefield tapped.<br>{T}: Add {B}.",
+      "text": "Charcoal Diamond enters tapped.<br>{T}: Add {B}.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -29481,7 +29489,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": -1,
-      "text": "Charcoal Diamond enters the battlefield tapped.<br>{T}: Add {B}.",
+      "text": "Charcoal Diamond enters tapped.<br>{T}: Add {B}.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -29863,7 +29871,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 2901,
-      "text": "Fire Diamond enters the battlefield tapped.<br>{T}: Add {R}.",
+      "text": "Fire Diamond enters tapped.<br>{T}: Add {R}.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -30424,7 +30432,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 2985,
-      "text": "Marble Diamond enters the battlefield tapped.<br>{T}: Add {W}.",
+      "text": "Marble Diamond enters tapped.<br>{T}: Add {W}.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -30594,7 +30602,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 2998,
-      "text": "Moss Diamond enters the battlefield tapped.<br>{T}: Add {G}.",
+      "text": "Moss Diamond enters tapped.<br>{T}: Add {G}.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -30981,7 +30989,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 3080,
-      "text": "Sky Diamond enters the battlefield tapped.<br>{T}: Add {U}.",
+      "text": "Sky Diamond enters tapped.<br>{T}: Add {U}.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -33044,7 +33052,7 @@
     "canBeFoil": true,
     "code_gatherer": "7E",
     "code_mtgi": "7ED",
-    "digest": "f9b359ac040f8a924f498d5dc42dc37322",
+    "digest": "f9fb3c0fc62bf131596293c4d3d45aef0c",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/7E_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/7E_U.png",

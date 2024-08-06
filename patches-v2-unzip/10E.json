@@ -109,7 +109,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{5}{W}{W}",
       "tcgplayerProductId": 15032,
-      "text": "First strike (This creature deals combat damage before creatures without first strike.)<br>When Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+      "text": "First strike (This creature deals combat damage before creatures without first strike.)<br>When Ancestor's Chosen enters, you gain 1 life for each card in your graveyard.",
       "toughness": 4.0,
       "type": "Creature - Human Cleric"
     },
@@ -149,7 +149,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{4}{W}",
       "tcgplayerProductId": 15033,
-      "text": "Flying<br>When Angel of Mercy enters the battlefield, you gain 3 life.",
+      "text": "Flying<br>When Angel of Mercy enters, you gain 3 life.",
       "toughness": 3.0,
       "type": "Creature - Angel"
     },
@@ -258,7 +258,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 15038,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature gets +2/+2 and has \"{T}: This creature deals 1 damage to any target.\"",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature gets +2/+2 and has \"{T}: This creature deals 1 damage to any target.\"",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -362,7 +362,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 15045,
-      "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)<br>When Aven Cloudchaser enters the battlefield, destroy target enchantment.",
+      "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)<br>When Aven Cloudchaser enters, destroy target enchantment.",
       "toughness": 2.0,
       "type": "Creature - Bird Soldier"
     },
@@ -486,11 +486,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -799,7 +803,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 15084,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Whenever enchanted creature attacks or blocks, its controller loses 3 life.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Whenever enchanted creature attacks or blocks, its controller loses 3 life.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -835,7 +839,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 15093,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature doesn't untap during its controller's untap step.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature doesn't untap during its controller's untap step.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -1006,7 +1010,7 @@
       "rarity": "U",
       "scryfallSetCode": "10E",
       "tcgplayerProductId": 15119,
-      "text": "Faerie Conclave enters the battlefield tapped.<br>{T}: Add {U}.<br>{1}{U}: Faerie Conclave becomes a 2/1 blue Faerie creature with flying until end of turn. It's still a land.",
+      "text": "Faerie Conclave enters tapped.<br>{T}: Add {U}.<br>{1}{U}: Faerie Conclave becomes a 2/1 blue Faerie creature with flying until end of turn. It's still a land.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -1042,7 +1046,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{B}{B}",
       "tcgplayerProductId": 15120,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -1219,7 +1223,7 @@
       "rarity": "U",
       "scryfallSetCode": "10E",
       "tcgplayerProductId": 15140,
-      "text": "Ghitu Encampment enters the battlefield tapped.<br>{T}: Add {R}.<br>{1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)",
+      "text": "Ghitu Encampment enters tapped.<br>{T}: Add {R}.<br>{1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -1366,7 +1370,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 15158,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Prevent all damage that would be dealt to and dealt by enchanted creature.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Prevent all damage that would be dealt to and dealt by enchanted creature.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -1993,7 +1997,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 15232,
-      "text": "First strike<br>When Nekrataal enters the battlefield, destroy target nonartifact, nonblack creature. That creature can't be regenerated.",
+      "text": "First strike<br>When Nekrataal enters, destroy target nonartifact, nonblack creature. That creature can't be regenerated.",
       "toughness": 1.0,
       "type": "Creature - Human Assassin"
     },
@@ -2329,7 +2333,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{U}{U}",
       "tcgplayerProductId": 15244,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>You control enchanted creature.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>You control enchanted creature.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -2616,7 +2620,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 15273,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -2720,7 +2724,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{U}",
       "tcgplayerProductId": 15282,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has shroud. (It can't be the target of spells or abilities.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature has shroud. (It can't be the target of spells or abilities.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -2863,7 +2867,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{U}",
       "tcgplayerProductId": 15292,
-      "text": "Flying<br>When Sage Owl enters the battlefield, look at the top four cards of your library, then put them back in any order.",
+      "text": "Flying<br>When Sage Owl enters, look at the top four cards of your library, then put them back in any order.",
       "toughness": 1.0,
       "type": "Creature - Bird"
     },
@@ -3086,7 +3090,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{U}",
       "tcgplayerProductId": 15307,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has flying. (It can't be blocked except by creatures with flying or reach.)<br>{U}: Return Shimmering Wings to its owner's hand.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature has flying. (It can't be blocked except by creatures with flying or reach.)<br>{U}: Return Shimmering Wings to its owner's hand.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -3407,7 +3411,7 @@
       "rarity": "U",
       "scryfallSetCode": "10E",
       "tcgplayerProductId": 15327,
-      "text": "Spawning Pool enters the battlefield tapped.<br>{T}: Add {B}.<br>{1}{B}: Spawning Pool becomes a 1/1 black Skeleton creature with \"{B}: Regenerate this creature\" until end of turn. It's still a land. (If it regenerates, the next time it would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Spawning Pool enters tapped.<br>{T}: Add {B}.<br>{1}{B}: Spawning Pool becomes a 1/1 black Skeleton creature with \"{B}: Regenerate this creature\" until end of turn. It's still a land. (If it regenerates, the next time it would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -3479,7 +3483,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": 15332,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Whenever enchanted creature deals damage, you gain that much life.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Whenever enchanted creature deals damage, you gain that much life.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -3830,7 +3834,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 15370,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature gets +1/+1 and can't be blocked except by creatures with flying.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature gets +1/+1 and can't be blocked except by creatures with flying.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -3861,7 +3865,7 @@
       "rarity": "U",
       "scryfallSetCode": "10E",
       "tcgplayerProductId": 15371,
-      "text": "Treetop Village enters the battlefield tapped.<br>{T}: Add {G}.<br>{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+      "text": "Treetop Village enters tapped.<br>{T}: Add {G}.<br>{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -4174,7 +4178,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{W}{W}",
       "tcgplayerProductId": 15390,
-      "text": "Flying<br>As Voice of All enters the battlefield, choose a color.<br>Voice of All has protection from the chosen color.",
+      "text": "Flying<br>As Voice of All enters, choose a color.<br>Voice of All has protection from the chosen color.",
       "toughness": 2.0,
       "type": "Creature - Angel"
     },
@@ -4567,7 +4571,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{5}{W}{W}",
       "tcgplayerProductId": 15032,
-      "text": "First strike (This creature deals combat damage before creatures without first strike.)<br>When Ancestor's Chosen enters the battlefield, you gain 1 life for each card in your graveyard.",
+      "text": "First strike (This creature deals combat damage before creatures without first strike.)<br>When Ancestor's Chosen enters, you gain 1 life for each card in your graveyard.",
       "toughness": 4.0,
       "type": "Creature - Human Cleric"
     },
@@ -4640,7 +4644,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{4}{W}",
       "tcgplayerProductId": 15033,
-      "text": "Flying<br>When Angel of Mercy enters the battlefield, you gain 3 life.",
+      "text": "Flying<br>When Angel of Mercy enters, you gain 3 life.",
       "toughness": 3.0,
       "type": "Creature - Angel"
     },
@@ -4776,7 +4780,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 15036,
-      "text": "Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.",
+      "text": "Whenever a creature you control enters, you gain life equal to its toughness.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -4981,7 +4985,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 15045,
-      "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)<br>When Aven Cloudchaser enters the battlefield, destroy target enchantment.",
+      "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)<br>When Aven Cloudchaser enters, destroy target enchantment.",
       "toughness": 2.0,
       "type": "Creature - Bird Soldier"
     },
@@ -5801,7 +5805,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 15158,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Prevent all damage that would be dealt to and dealt by enchanted creature.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Prevent all damage that would be dealt to and dealt by enchanted creature.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -7523,7 +7527,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": 15324,
-      "text": "Whenever another creature enters the battlefield, you gain 1 life.",
+      "text": "Whenever another creature enters, you gain 1 life.",
       "toughness": 1.0,
       "type": "Creature - Human Cleric"
     },
@@ -7591,7 +7595,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": 15332,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Whenever enchanted creature deals damage, you gain that much life.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Whenever enchanted creature deals damage, you gain that much life.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -7863,7 +7867,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{W}{W}",
       "tcgplayerProductId": 15341,
-      "text": "As Story Circle enters the battlefield, choose a color.<br>{W}: The next time a source of your choice of the chosen color would deal damage to you this turn, prevent that damage.",
+      "text": "As Story Circle enters, choose a color.<br>{W}: The next time a source of your choice of the chosen color would deal damage to you this turn, prevent that damage.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -8067,7 +8071,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 15369,
-      "text": "When Treasure Hunter enters the battlefield, you may return target artifact card from your graveyard to your hand.",
+      "text": "When Treasure Hunter enters, you may return target artifact card from your graveyard to your hand.",
       "toughness": 2.0,
       "type": "Creature - Human"
     },
@@ -8272,7 +8276,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 15385,
-      "text": "When Venerable Monk enters the battlefield, you gain 2 life.",
+      "text": "When Venerable Monk enters, you gain 2 life.",
       "toughness": 2.0,
       "type": "Creature - Human Monk Cleric"
     },
@@ -8339,7 +8343,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{W}{W}",
       "tcgplayerProductId": 15390,
-      "text": "Flying<br>As Voice of All enters the battlefield, choose a color.<br>Voice of All has protection from the chosen color.",
+      "text": "Flying<br>As Voice of All enters, choose a color.<br>Voice of All has protection from the chosen color.",
       "toughness": 2.0,
       "type": "Creature - Angel"
     },
@@ -8825,7 +8829,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{U}{U}",
       "tcgplayerProductId": 15024,
-      "text": "When Academy Researchers enters the battlefield, you may put an Aura card from your hand onto the battlefield attached to Academy Researchers.",
+      "text": "When Academy Researchers enters, you may put an Aura card from your hand onto the battlefield attached to Academy Researchers.",
       "toughness": 2.0,
       "type": "Creature - Human Wizard"
     },
@@ -9516,7 +9520,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 15074,
-      "text": "You may have Clone enter the battlefield as a copy of any creature on the battlefield.",
+      "text": "You may have Clone enter as a copy of any creature on the battlefield.",
       "toughness": 0.0,
       "type": "Creature - Shapeshifter"
     },
@@ -9859,7 +9863,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 15093,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature doesn't untap during its controller's untap step.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature doesn't untap during its controller's untap step.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -9992,7 +9996,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{6}{U}{U}",
       "tcgplayerProductId": 15098,
-      "text": "When Denizen of the Deep enters the battlefield, return each other creature you control to its owner's hand.",
+      "text": "When Denizen of the Deep enters, return each other creature you control to its owner's hand.",
       "toughness": 11.0,
       "type": "Creature - Serpent"
     },
@@ -11009,7 +11013,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{U}{U}",
       "tcgplayerProductId": 15244,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>You control enchanted creature.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>You control enchanted creature.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -11423,7 +11427,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{U}",
       "tcgplayerProductId": 15282,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has shroud. (It can't be the target of spells or abilities.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature has shroud. (It can't be the target of spells or abilities.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -11627,7 +11631,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{U}",
       "tcgplayerProductId": 15292,
-      "text": "Flying<br>When Sage Owl enters the battlefield, look at the top four cards of your library, then put them back in any order.",
+      "text": "Flying<br>When Sage Owl enters, look at the top four cards of your library, then put them back in any order.",
       "toughness": 1.0,
       "type": "Creature - Bird"
     },
@@ -11830,7 +11834,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{U}",
       "tcgplayerProductId": 15307,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has flying. (It can't be blocked except by creatures with flying or reach.)<br>{U}: Return Shimmering Wings to its owner's hand.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature has flying. (It can't be blocked except by creatures with flying or reach.)<br>{U}: Return Shimmering Wings to its owner's hand.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -13538,7 +13542,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 15084,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Whenever enchanted creature attacks or blocks, its controller loses 3 life.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Whenever enchanted creature attacks or blocks, its controller loses 3 life.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -14256,7 +14260,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{B}{B}",
       "tcgplayerProductId": 15120,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -14538,7 +14542,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 15152,
-      "text": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.",
+      "text": "When Gravedigger enters, you may return target creature card from your graveyard to your hand.",
       "toughness": 2.0,
       "type": "Creature - Zombie"
     },
@@ -14740,7 +14744,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{B}{B}",
       "tcgplayerProductId": 15159,
-      "text": "When Hidden Horror enters the battlefield, sacrifice it unless you discard a creature card.",
+      "text": "When Hidden Horror enters, sacrifice it unless you discard a creature card.",
       "toughness": 4.0,
       "type": "Creature - Horror"
     },
@@ -14809,7 +14813,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 15161,
-      "text": "When Highway Robber enters the battlefield, target opponent loses 2 life and you gain 2 life.",
+      "text": "When Highway Robber enters, target opponent loses 2 life and you gain 2 life.",
       "toughness": 2.0,
       "type": "Creature - Human Mercenary"
     },
@@ -15697,7 +15701,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 15232,
-      "text": "First strike<br>When Nekrataal enters the battlefield, destroy target nonartifact, nonblack creature. That creature can't be regenerated.",
+      "text": "First strike<br>When Nekrataal enters, destroy target nonartifact, nonblack creature. That creature can't be regenerated.",
       "toughness": 1.0,
       "type": "Creature - Human Assassin"
     },
@@ -15904,7 +15908,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{B}{B}{B}{B}",
       "tcgplayerProductId": 15245,
-      "text": "When Phage the Untouchable enters the battlefield, if you didn't cast it from your hand, you lose the game.<br>Whenever Phage deals combat damage to a creature, destroy that creature. It can't be regenerated.<br>Whenever Phage deals combat damage to a player, that player loses the game.",
+      "text": "When Phage the Untouchable enters, if you didn't cast it from your hand, you lose the game.<br>Whenever Phage deals combat damage to a creature, destroy that creature. It can't be regenerated.<br>Whenever Phage deals combat damage to a player, that player loses the game.",
       "toughness": 4.0,
       "type": "Legendary Creature - Avatar Minion"
     },
@@ -15982,7 +15986,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 15247,
-      "text": "When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life.",
+      "text": "When Phyrexian Rager enters, you draw a card and you lose 1 life.",
       "toughness": 2.0,
       "type": "Creature - Phyrexian Horror"
     },
@@ -16253,7 +16257,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 15269,
-      "text": "When Ravenous Rats enters the battlefield, target opponent discards a card.",
+      "text": "When Ravenous Rats enters, target opponent discards a card.",
       "toughness": 1.0,
       "type": "Creature - Rat"
     },
@@ -16377,12 +16381,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -16745,7 +16753,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{B}",
       "tcgplayerProductId": 15320,
-      "text": "When Sleeper Agent enters the battlefield, target opponent gains control of it.<br>At the beginning of your upkeep, Sleeper Agent deals 2 damage to you.",
+      "text": "When Sleeper Agent enters, target opponent gains control of it.<br>At the beginning of your upkeep, Sleeper Agent deals 2 damage to you.",
       "toughness": 3.0,
       "type": "Creature - Phyrexian Minion"
     },
@@ -17433,7 +17441,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 15038,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature gets +2/+2 and has \"{T}: This creature deals 1 damage to any target.\"",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature gets +2/+2 and has \"{T}: This creature deals 1 damage to any target.\"",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -20601,7 +20609,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{R}{R}",
       "tcgplayerProductId": 15313,
-      "text": "When Siege-Gang Commander enters the battlefield, create three 1/1 red Goblin creature tokens.<br>{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to any target.",
+      "text": "When Siege-Gang Commander enters, create three 1/1 red Goblin creature tokens.<br>{1}{R}, Sacrifice a Goblin: Siege-Gang Commander deals 2 damage to any target.",
       "toughness": 2.0,
       "type": "Creature - Goblin"
     },
@@ -21811,11 +21819,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -22046,7 +22058,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 15073,
-      "text": "When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "text": "When Civic Wayfinder enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
       "toughness": 2.0,
       "type": "Creature - Elf Druid Warrior"
     },
@@ -23028,7 +23040,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{G}",
       "tcgplayerProductId": 15168,
-      "text": "When Hunted Wumpus enters the battlefield, each other player may put a creature card from their hand onto the battlefield.",
+      "text": "When Hunted Wumpus enters, each other player may put a creature card from their hand onto the battlefield.",
       "toughness": 6.0,
       "type": "Creature - Beast"
     },
@@ -23297,7 +23309,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}{G}{G}",
       "tcgplayerProductId": 15184,
-      "text": "When Kavu Climber enters the battlefield, draw a card.",
+      "text": "When Kavu Climber enters, draw a card.",
       "toughness": 3.0,
       "type": "Creature - Kavu"
     },
@@ -23441,7 +23453,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 15194,
-      "text": "When Llanowar Sentinel enters the battlefield, you may pay {1}{G}. If you do, search your library for a card named Llanowar Sentinel, put that card onto the battlefield, then shuffle.",
+      "text": "When Llanowar Sentinel enters, you may pay {1}{G}. If you do, search your library for a card named Llanowar Sentinel, put that card onto the battlefield, then shuffle.",
       "toughness": 3.0,
       "type": "Creature - Elf"
     },
@@ -24472,7 +24484,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 15273,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -24605,7 +24617,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{G}",
       "tcgplayerProductId": 15285,
-      "text": "Artifacts and lands enter the battlefield tapped.",
+      "text": "Artifacts and lands enter tapped.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -25429,7 +25441,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 15370,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)<br>Enchanted creature gets +1/+1 and can't be blocked except by creatures with flying.",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>Enchanted creature gets +1/+1 and can't be blocked except by creatures with flying.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -25701,7 +25713,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 15389,
-      "text": "When Viridian Shaman enters the battlefield, destroy target artifact.",
+      "text": "When Viridian Shaman enters, destroy target artifact.",
       "toughness": 2.0,
       "type": "Creature - Elf Shaman"
     },
@@ -27748,7 +27760,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Banned",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -27763,7 +27774,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{1}",
       "tcgplayerProductId": 15250,
-      "text": "As Pithing Needle enters the battlefield, choose a card name.<br>Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
+      "text": "As Pithing Needle enters, choose a card name.<br>Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -28036,7 +28047,7 @@
       "scryfallSetCode": "10E",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 15298,
-      "text": "You may have Sculpting Steel enter the battlefield as a copy of any artifact on the battlefield.",
+      "text": "You may have Sculpting Steel enter as a copy of any artifact on the battlefield.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -28661,7 +28672,7 @@
       "rarity": "U",
       "scryfallSetCode": "10E",
       "tcgplayerProductId": 15119,
-      "text": "Faerie Conclave enters the battlefield tapped.<br>{T}: Add {U}.<br>{1}{U}: Faerie Conclave becomes a 2/1 blue Faerie creature with flying until end of turn. It's still a land.",
+      "text": "Faerie Conclave enters tapped.<br>{T}: Add {U}.<br>{1}{U}: Faerie Conclave becomes a 2/1 blue Faerie creature with flying until end of turn. It's still a land.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -28725,7 +28736,7 @@
       "rarity": "U",
       "scryfallSetCode": "10E",
       "tcgplayerProductId": 15130,
-      "text": "Forbidding Watchtower enters the battlefield tapped.<br>{T}: Add {W}.<br>{1}{W}: Forbidding Watchtower becomes a 1/5 white Soldier creature until end of turn. It's still a land.",
+      "text": "Forbidding Watchtower enters tapped.<br>{T}: Add {W}.<br>{1}{W}: Forbidding Watchtower becomes a 1/5 white Soldier creature until end of turn. It's still a land.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -28789,7 +28800,7 @@
       "rarity": "U",
       "scryfallSetCode": "10E",
       "tcgplayerProductId": 15140,
-      "text": "Ghitu Encampment enters the battlefield tapped.<br>{T}: Add {R}.<br>{1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)",
+      "text": "Ghitu Encampment enters tapped.<br>{T}: Add {R}.<br>{1}{R}: Ghitu Encampment becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -29138,7 +29149,7 @@
       "rarity": "U",
       "scryfallSetCode": "10E",
       "tcgplayerProductId": 15327,
-      "text": "Spawning Pool enters the battlefield tapped.<br>{T}: Add {B}.<br>{1}{B}: Spawning Pool becomes a 1/1 black Skeleton creature with \"{B}: Regenerate this creature\" until end of turn. It's still a land. (If it regenerates, the next time it would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Spawning Pool enters tapped.<br>{T}: Add {B}.<br>{1}{B}: Spawning Pool becomes a 1/1 black Skeleton creature with \"{B}: Regenerate this creature\" until end of turn. It's still a land. (If it regenerates, the next time it would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -29350,7 +29361,7 @@
       "rarity": "U",
       "scryfallSetCode": "10E",
       "tcgplayerProductId": 15371,
-      "text": "Treetop Village enters the battlefield tapped.<br>{T}: Add {G}.<br>{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+      "text": "Treetop Village enters tapped.<br>{T}: Add {G}.<br>{1}{G}: Treetop Village becomes a 3/3 green Ape creature with trample until end of turn. It's still a land. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -30727,7 +30738,7 @@
     "canBeFoil": true,
     "code_gatherer": "10E",
     "code_mtgi": "10E",
-    "digest": "033959dd8bbbe6b3d265bf472102eae5",
+    "digest": "fd0b5521c84a93513d18a640ef38718612",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/10E_U.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/10E_C.png",

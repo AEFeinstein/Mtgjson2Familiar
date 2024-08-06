@@ -1038,7 +1038,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 132284,
-      "text": "Whenever another creature with power 2 or less enters under your control, you may pay {1}. If you do, draw a card.",
+      "text": "Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card.",
       "toughness": 2.0,
       "type": "Creature - Human Soldier"
     },
@@ -1407,7 +1407,7 @@
       "scryfallSetCode": "E01",
       "sortedManaCost": "{1}{U}",
       "tcgplayerProductId": 132348,
-      "text": "Landfall - Whenever a land enters under your control, you may put a quest counter on Ior Ruin Expedition.<br>Remove three quest counters from Ior Ruin Expedition and sacrifice it: Draw two cards.",
+      "text": "Landfall - Whenever a land you control enters, you may put a quest counter on Ior Ruin Expedition.<br>Remove three quest counters from Ior Ruin Expedition and sacrifice it: Draw two cards.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -1585,7 +1585,7 @@
       "scryfallSetCode": "E01",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 132327,
-      "text": "Flying<br>Landfall - Whenever a land enters under your control, Windrider Eel gets +2/+2 until end of turn.",
+      "text": "Flying<br>Landfall - Whenever a land you control enters, Windrider Eel gets +2/+2 until end of turn.",
       "toughness": 2.0,
       "type": "Creature - Fish"
     },
@@ -2926,7 +2926,7 @@
       "scryfallSetCode": "E01",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 132351,
-      "text": "Landfall - Whenever a land enters under your control, you may put a quest counter on Khalni Heart Expedition.<br>Remove three quest counters from Khalni Heart Expedition and sacrifice it: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+      "text": "Landfall - Whenever a land you control enters, you may put a quest counter on Khalni Heart Expedition.<br>Remove three quest counters from Khalni Heart Expedition and sacrifice it: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -2994,7 +2994,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 132336,
-      "text": "Trample<br>Landfall - Whenever a land enters under your control, put a +1/+1 counter on Oran-Rief Hydra. If that land is a Forest, put two +1/+1 counters on Oran-Rief Hydra instead.",
+      "text": "Trample<br>Landfall - Whenever a land you control enters, put a +1/+1 counter on Oran-Rief Hydra. If that land is a Forest, put two +1/+1 counters on Oran-Rief Hydra instead.",
       "toughness": 5.0,
       "type": "Creature - Hydra"
     },
@@ -3062,7 +3062,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 132337,
-      "text": "Trample<br>Landfall - Whenever a land enters under your control, you may create a 4/4 green Beast creature token.",
+      "text": "Trample<br>Landfall - Whenever a land you control enters, you may create a 4/4 green Beast creature token.",
       "toughness": 6.0,
       "type": "Creature - Beast"
     },
@@ -3095,7 +3095,7 @@
       "scryfallSetCode": "E01",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 132352,
-      "text": "Landfall - Whenever a land enters under your control, choose one -<br>• Put a +1/+1 counter on target creature.<br>• You gain 2 life.",
+      "text": "Landfall - Whenever a land you control enters, choose one -<br>• Put a +1/+1 counter on target creature.<br>• You gain 2 life.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -3234,7 +3234,7 @@
       "scryfallSetCode": "E01",
       "sortedManaCost": "{1}{G}{G}",
       "tcgplayerProductId": 132334,
-      "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)<br>Landfall - Whenever a land enters under your control, you may have target creature block Turntimber Basilisk this turn if able.",
+      "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)<br>Landfall - Whenever a land you control enters, you may have target creature block Turntimber Basilisk this turn if able.",
       "toughness": 1.0,
       "type": "Creature - Basilisk"
     },
@@ -3365,10 +3365,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper Commander": "Restricted",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4352,7 +4356,7 @@
     "canBeFoil": false,
     "code_gatherer": "E01",
     "code_mtgi": "E01",
-    "digest": "fdcb924d2309a0808244199d363ddda485",
+    "digest": "fd2532868ce8a56f4b3b780a83e35ee9e9",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/E01_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/E01_U.png",

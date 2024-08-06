@@ -1234,7 +1234,7 @@
       "scryfallSetCode": "M13",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 59916,
-      "text": "Flying<br>Whenever another creature enters under your control, Griffin Protector gets +1/+1 until end of turn.",
+      "text": "Flying<br>Whenever another creature you control enters, Griffin Protector gets +1/+1 until end of turn.",
       "toughness": 3.0,
       "type": "Creature - Griffin"
     },
@@ -1461,7 +1461,7 @@
       "scryfallSetCode": "M13",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 59919,
-      "text": "Whenever another creature enters under your control, you gain 2 life.",
+      "text": "Whenever another creature you control enters, you gain 2 life.",
       "toughness": 3.0,
       "type": "Creature - Cat Cleric"
     },
@@ -7450,11 +7450,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": 3,
@@ -8780,7 +8784,7 @@
       "scryfallSetCode": "M13",
       "sortedManaCost": "{4}{B}",
       "tcgplayerProductId": 59980,
-      "text": "Veilborn Ghoul can't block.<br>Whenever a Swamp enters under your control, you may return Veilborn Ghoul from your graveyard to your hand.",
+      "text": "Veilborn Ghoul can't block.<br>Whenever a Swamp you control enters, you may return Veilborn Ghoul from your graveyard to your hand.",
       "toughness": 1.0,
       "type": "Creature - Zombie"
     },
@@ -10544,7 +10548,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -13490,7 +13493,7 @@
       "scryfallSetCode": "M13",
       "sortedManaCost": "{4}{G}",
       "tcgplayerProductId": 60019,
-      "text": "Whenever another creature with power 3 or greater enters under your control, you may draw a card.",
+      "text": "Whenever another creature you control with power 3 or greater enters, you may draw a card.",
       "toughness": 4.0,
       "type": "Creature - Beast"
     },
@@ -13796,7 +13799,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -19298,7 +19300,7 @@
     "canBeFoil": true,
     "code_gatherer": "M13",
     "code_mtgi": "M13",
-    "digest": "fd5976d9099208e42c68e9ee36b79167bb",
+    "digest": "fc9074107550a7c1226a2e5d9e9dfe5e61",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/M13_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/M13_C.png",

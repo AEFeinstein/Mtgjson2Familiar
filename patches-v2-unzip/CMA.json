@@ -780,7 +780,7 @@
       "scryfallSetCode": "CMA",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 132156,
-      "text": "Flying<br>Whenever a land enters under an opponent's control, you may gain 3 life.",
+      "text": "Flying<br>Whenever a land an opponent controls enters, you may gain 3 life.",
       "toughness": 3.0,
       "type": "Creature - Phyrexian Angel"
     },
@@ -4401,7 +4401,6 @@
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
         "Pre-Modern": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -4801,7 +4800,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 132130,
-      "text": "Trample<br>Landfall - Whenever a land enters under your control, you may create a 4/4 green Beast creature token.",
+      "text": "Trample<br>Landfall - Whenever a land you control enters, you may create a 4/4 green Beast creature token.",
       "toughness": 6.0,
       "type": "Creature - Beast"
     },
@@ -5122,7 +5121,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 132168,
-      "text": "Trample<br>Whenever another nontoken creature enters under your control, you may draw a card.",
+      "text": "Trample<br>Whenever another nontoken creature you control enters, you may draw a card.",
       "toughness": 6.0,
       "type": "Creature - Elemental"
     },
@@ -6077,9 +6076,13 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Restricted",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -6093,7 +6096,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{G}{U}{W}",
       "tcgplayerProductId": 131911,
-      "text": "Flying<br>Whenever Derevi, Empyrial Tactician enters or a creature you control deals combat damage to a player, you may tap or untap target permanent.<br>{1}{G}{W}{U}: Put Derevi onto the battlefield from the command zone.",
+      "text": "Flying<br>When Derevi, Empyrial Tactician enters and whenever a creature you control deals combat damage to a player, you may tap or untap target permanent.<br>{1}{G}{W}{U}: Put Derevi onto the battlefield from the command zone.",
       "toughness": 3.0,
       "type": "Legendary Creature - Bird Wizard"
     },
@@ -7850,7 +7853,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 132147,
-      "text": "Landfall - Whenever a land enters under your control, you may pay {2}. If you do, draw a card.",
+      "text": "Landfall - Whenever a land you control enters, you may pay {2}. If you do, draw a card.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -11288,7 +11291,7 @@
     "canBeFoil": true,
     "code_gatherer": "CMA",
     "code_mtgi": "CMA",
-    "digest": "02039c6b9e313d689ceb61e4f7cf638bae",
+    "digest": "02bf5c0fe8ad8be43d78b5e589d99cb5d2",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMA_U.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMA_R.png",

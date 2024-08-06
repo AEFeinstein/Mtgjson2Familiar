@@ -1333,7 +1333,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{W}{W}",
       "tcgplayerProductId": 530817,
-      "text": "As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.<br>Prevent all damage that would be dealt to Gideon Blackblade during your turn.<br>[+1]: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.<br>[−6]: Exile target nonland permanent.",
+      "text": "During your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.<br>Prevent all damage that would be dealt to Gideon Blackblade during your turn.<br>[+1]: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.<br>[−6]: Exile target nonland permanent.",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Gideon"
     },
@@ -2470,7 +2470,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{U}",
       "tcgplayerProductId": 531204,
-      "text": "Flying<br>Evolve (Whenever a creature enters under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
+      "text": "Flying<br>Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
       "toughness": 1.0,
       "type": "Creature - Bird Mutant",
       "watermark": "Simic"
@@ -4559,7 +4559,6 @@
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Legal",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -6177,7 +6176,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{B}",
       "tcgplayerProductId": 531180,
-      "text": "Whenever another black creature enters under your control, target creature gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)",
+      "text": "Whenever another black creature you control enters, target creature gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)",
       "toughness": 1.0,
       "type": "Creature - Vampire Rogue"
     },
@@ -8911,11 +8910,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -9067,7 +9070,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 531142,
-      "text": "Reach (This creature can block creatures with flying.)<br>Evolve (Whenever a creature enters under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
+      "text": "Reach (This creature can block creatures with flying.)<br>Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
       "toughness": 3.0,
       "type": "Creature - Crocodile Frog",
       "watermark": "Simic"
@@ -9198,7 +9201,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{G}",
       "tcgplayerProductId": 531098,
-      "text": "Evolve (Whenever a creature enters under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)<br>Remove two +1/+1 counters from Experiment One: Regenerate Experiment One. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)<br>Remove two +1/+1 counters from Experiment One: Regenerate Experiment One. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Creature - Human Ooze",
       "watermark": "Simic"
@@ -9788,7 +9791,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{G}",
       "tcgplayerProductId": 530835,
-      "text": "Whenever a nontoken creature enters under your control, if it doesn't have the same name as another creature you control or a creature card in your graveyard, draw a card.",
+      "text": "Whenever a nontoken creature you control enters, if it doesn't have the same name as another creature you control or a creature card in your graveyard, draw a card.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -12174,7 +12177,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{1}{RW}",
       "tcgplayerProductId": 531164,
-      "text": "As long as it's your turn, Fresh-Faced Recruit has first strike.",
+      "text": "During your turn, Fresh-Faced Recruit has first strike.",
       "toughness": 1.0,
       "type": "Creature - Human Soldier",
       "watermark": "Boros"
@@ -17736,7 +17739,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 531190,
-      "text": "Whenever a nonartifact permanent enters under your control, you may return another permanent you control that shares a permanent type with it to its owner's hand.",
+      "text": "Whenever a nonartifact permanent you control enters, you may return another permanent you control that shares a permanent type with it to its owner's hand.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -17869,7 +17872,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{8}",
       "tcgplayerProductId": 531183,
-      "text": "This spell costs {1} less to cast for each Gate you control.<br>Gate Colossus can't be blocked by creatures with power 2 or less.<br>Whenever a Gate enters under your control, you may put Gate Colossus from your graveyard on top of your library.",
+      "text": "This spell costs {1} less to cast for each Gate you control.<br>Gate Colossus can't be blocked by creatures with power 2 or less.<br>Whenever a Gate you control enters, you may put Gate Colossus from your graveyard on top of your library.",
       "toughness": 8.0,
       "type": "Artifact Creature - Construct"
     },
@@ -21350,7 +21353,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{U}",
       "tcgplayerProductId": 531301,
-      "text": "Flying<br>Evolve (Whenever a creature enters under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
+      "text": "Flying<br>Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
       "toughness": 1.0,
       "type": "Creature - Bird Mutant"
     },
@@ -24135,11 +24138,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -24169,11 +24176,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -24355,7 +24366,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{G}",
       "tcgplayerProductId": 531274,
-      "text": "Evolve (Whenever a creature enters under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)<br>Remove two +1/+1 counters from Experiment One: Regenerate Experiment One. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)<br>Remove two +1/+1 counters from Experiment One: Regenerate Experiment One. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Creature - Human Ooze"
     },
@@ -24580,7 +24591,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{3}{G}",
       "tcgplayerProductId": 530836,
-      "text": "Whenever a nontoken creature enters under your control, if it doesn't have the same name as another creature you control or a creature card in your graveyard, draw a card.",
+      "text": "Whenever a nontoken creature you control enters, if it doesn't have the same name as another creature you control or a creature card in your graveyard, draw a card.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -24619,7 +24630,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{3}{G}",
       "tcgplayerProductId": 531367,
-      "text": "Whenever a nontoken creature enters under your control, if it doesn't have the same name as another creature you control or a creature card in your graveyard, draw a card.",
+      "text": "Whenever a nontoken creature you control enters, if it doesn't have the same name as another creature you control or a creature card in your graveyard, draw a card.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -28177,7 +28188,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 531321,
-      "text": "Whenever a nonartifact permanent enters under your control, you may return another permanent you control that shares a permanent type with it to its owner's hand.",
+      "text": "Whenever a nonartifact permanent you control enters, you may return another permanent you control that shares a permanent type with it to its owner's hand.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -28210,7 +28221,7 @@
       "scryfallSetCode": "RVR",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 531406,
-      "text": "Whenever a nonartifact permanent enters under your control, you may return another permanent you control that shares a permanent type with it to its owner's hand.",
+      "text": "Whenever a nonartifact permanent you control enters, you may return another permanent you control that shares a permanent type with it to its owner's hand.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -31368,11 +31379,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -31454,7 +31469,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{G}",
       "tcgplayerProductId": 530837,
-      "text": "Whenever a nontoken creature enters under your control, if it doesn't have the same name as another creature you control or a creature card in your graveyard, draw a card.",
+      "text": "Whenever a nontoken creature you control enters, if it doesn't have the same name as another creature you control or a creature card in your graveyard, draw a card.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -32092,7 +32107,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 530978,
-      "text": "Whenever a nonartifact permanent enters under your control, you may return another permanent you control that shares a permanent type with it to its owner's hand.",
+      "text": "Whenever a nonartifact permanent you control enters, you may return another permanent you control that shares a permanent type with it to its owner's hand.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -32951,7 +32966,6 @@
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
-        "Standard": "Legal",
         "Standard Brawl": "Banned",
         "Timeless": "Legal",
         "Vintage": "Legal"
@@ -33175,7 +33189,7 @@
     "canBeFoil": true,
     "code_gatherer": "RVR",
     "code_mtgi": "RVR",
-    "digest": "f9909c6115130edbb7ad5a93cb92daaef5",
+    "digest": "fb34f84d593d7e4f3234bf5e5a91cdb1a2",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/RVR_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/RVR_U.png",

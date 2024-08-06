@@ -5428,7 +5428,7 @@
       "scryfallSetCode": "C13",
       "sortedManaCost": "{B}",
       "tcgplayerProductId": 72322,
-      "text": "Sacrifice a creature: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)",
+      "text": "Sacrifice a creature: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
       "toughness": 1.0,
       "type": "Creature - Vampire Wizard"
     },
@@ -7080,7 +7080,7 @@
       "scryfallSetCode": "C13",
       "sortedManaCost": "{5}{R}",
       "tcgplayerProductId": 72334,
-      "text": "Whenever a creature enters under your control, it deals damage equal to its power to any target.",
+      "text": "Whenever a creature you control enters, it deals damage equal to its power to any target.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -7134,7 +7134,7 @@
       "scryfallSetCode": "C13",
       "sortedManaCost": "{4}{R}",
       "tcgplayerProductId": 72338,
-      "text": "Whenever a creature with power 5 or greater enters under your control, you may have Where Ancients Tread deal 5 damage to any target.",
+      "text": "Whenever a creature you control with power 5 or greater enters, you may have Where Ancients Tread deal 5 damage to any target.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -7406,7 +7406,7 @@
       "scryfallSetCode": "C13",
       "sortedManaCost": "{5}{G}{G}",
       "tcgplayerProductId": 72042,
-      "text": "When Avenger of Zendikar enters, create a 0/1 green Plant creature token for each land you control.<br>Landfall - Whenever a land enters under your control, you may put a +1/+1 counter on each Plant creature you control.",
+      "text": "When Avenger of Zendikar enters, create a 0/1 green Plant creature token for each land you control.<br>Landfall - Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control.",
       "toughness": 5.0,
       "type": "Creature - Elemental"
     },
@@ -7461,7 +7461,7 @@
       "scryfallSetCode": "C13",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 72049,
-      "text": "Landfall - Whenever a land enters under your control, Baloth Woodcrasher gets +4/+4 and gains trample until end of turn.",
+      "text": "Landfall - Whenever a land you control enters, Baloth Woodcrasher gets +4/+4 and gains trample until end of turn.",
       "toughness": 4.0,
       "type": "Creature - Beast"
     },
@@ -8068,7 +8068,7 @@
       "scryfallSetCode": "C13",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 72134,
-      "text": "Landfall - Whenever a land enters under your control, you may gain 2 life.",
+      "text": "Landfall - Whenever a land you control enters, you may gain 2 life.",
       "toughness": 2.0,
       "type": "Creature - Antelope"
     },
@@ -9005,7 +9005,7 @@
       "scryfallSetCode": "C13",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 72235,
-      "text": "Trample<br>Landfall - Whenever a land enters under your control, you may create a 4/4 green Beast creature token.",
+      "text": "Trample<br>Landfall - Whenever a land you control enters, you may create a 4/4 green Beast creature token.",
       "toughness": 6.0,
       "type": "Creature - Beast"
     },
@@ -9700,10 +9700,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper Commander": "Restricted",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -10190,9 +10194,13 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Restricted",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -10205,7 +10213,7 @@
       "scryfallSetCode": "C13",
       "sortedManaCost": "{G}{U}{W}",
       "tcgplayerProductId": 71518,
-      "text": "Flying<br>Whenever Derevi, Empyrial Tactician enters or a creature you control deals combat damage to a player, you may tap or untap target permanent.<br>{1}{G}{W}{U}: Put Derevi onto the battlefield from the command zone.",
+      "text": "Flying<br>When Derevi, Empyrial Tactician enters and whenever a creature you control deals combat damage to a player, you may tap or untap target permanent.<br>{1}{G}{W}{U}: Put Derevi onto the battlefield from the command zone.",
       "toughness": 3.0,
       "type": "Legendary Creature - Bird Wizard"
     },
@@ -14007,7 +14015,7 @@
       "scryfallSetCode": "C13",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 72252,
-      "text": "Landfall - Whenever a land enters under your control, you may pay {2}. If you do, draw a card.",
+      "text": "Landfall - Whenever a land you control enters, you may pay {2}. If you do, draw a card.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -16908,7 +16916,7 @@
       "rarity": "U",
       "scryfallSetCode": "C13",
       "tcgplayerProductId": 72202,
-      "text": "New Benalia enters tapped.<br>When New Benalia enters, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)<br>{T}: Add {W}.",
+      "text": "New Benalia enters tapped.<br>When New Benalia enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)<br>{T}: Add {W}.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -19643,7 +19651,7 @@
     "canBeFoil": false,
     "code_gatherer": "C13",
     "code_mtgi": "C13",
-    "digest": "f78b2bdff9a5848f3869f0e7b47c94245a",
+    "digest": "f893a6090fccf8f3cd09236e6a3b64cbff",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C13_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C13_U.png",
