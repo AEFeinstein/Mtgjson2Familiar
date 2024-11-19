@@ -2937,11 +2937,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -3744,7 +3748,7 @@
       "scryfallSetCode": "VMA",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": -1,
-      "text": "Target player sacrifices a creature.<br>Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "text": "Target player sacrifices a creature of their choice.<br>Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -4631,7 +4635,7 @@
       "scryfallSetCode": "VMA",
       "sortedManaCost": "{3}{B}{B}",
       "tcgplayerProductId": -1,
-      "text": "When Predatory Nightstalker enters, you may have target opponent sacrifice a creature.",
+      "text": "When Predatory Nightstalker enters, you may have target opponent sacrifice a creature of their choice.",
       "toughness": 2.0,
       "type": "Creature - Nightstalker"
     },
@@ -4769,7 +4773,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": -1,
-      "text": "Each player sacrifices a creature. Create an X/X black Demon creature token with flying, where X is the total power of the creatures sacrificed this way.",
+      "text": "Each player sacrifices a creature of their choice. Create an X/X black Demon creature token with flying, where X is the total power of the creatures sacrificed this way.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -4942,7 +4946,7 @@
       "scryfallSetCode": "VMA",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": -1,
-      "text": "Will of the council - Starting with you, each player votes for death or torture. If death gets more votes, each opponent sacrifices a creature. If torture gets more votes or the vote is tied, each opponent loses 4 life.",
+      "text": "Will of the council - Starting with you, each player votes for death or torture. If death gets more votes, each opponent sacrifices a creature of their choice. If torture gets more votes or the vote is tied, each opponent loses 4 life.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -7808,9 +7812,13 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -8238,7 +8246,7 @@
       "scryfallSetCode": "VMA",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": -1,
-      "text": "Each opponent sacrifices an artifact or enchantment.",
+      "text": "Each opponent sacrifices an artifact or enchantment of their choice.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -9710,7 +9718,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": -1,
-      "text": "At the beginning of your upkeep, you may put a soot counter on Smokestack.<br>At the beginning of each player's upkeep, that player sacrifices a permanent for each soot counter on Smokestack.",
+      "text": "At the beginning of your upkeep, you may put a soot counter on Smokestack.<br>At the beginning of each player's upkeep, that player sacrifices a permanent of their choice for each soot counter on Smokestack.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -11098,7 +11106,7 @@
     "canBeFoil": true,
     "code_gatherer": "VMA",
     "code_mtgi": "VMA",
-    "digest": "fad87922c333c38e4c5214af1a29063275",
+    "digest": "fa2e6eedbe98ea1d025a36e496cef8c324",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/VMA_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/VMA_C.png",

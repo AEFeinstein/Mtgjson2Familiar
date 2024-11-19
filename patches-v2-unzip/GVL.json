@@ -817,6 +817,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -1284,7 +1285,7 @@
       "scryfallSetCode": "DDD",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 37654,
-      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Creature - Skeleton"
     },
@@ -1361,7 +1362,7 @@
       "scryfallSetCode": "DDD",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 37659,
-      "text": "When Fleshbag Marauder enters, each player sacrifices a creature.",
+      "text": "When Fleshbag Marauder enters, each player sacrifices a creature of their choice.",
       "toughness": 1.0,
       "type": "Creature - Zombie Warrior"
     },
@@ -1475,7 +1476,7 @@
       "scryfallSetCode": "DDD",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 37701,
-      "text": "Defender (This creature can't attack.)<br>{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Defender (This creature can't attack.)<br>{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 4.0,
       "type": "Creature - Skeleton Wall"
     },
@@ -1527,11 +1528,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -1613,7 +1618,7 @@
       "scryfallSetCode": "DDD",
       "sortedManaCost": "{5}{B}",
       "tcgplayerProductId": 37696,
-      "text": "{B}: Regenerate Twisted Abomination. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)<br>Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
+      "text": "{B}: Regenerate Twisted Abomination. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)<br>Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
       "toughness": 3.0,
       "type": "Creature - Zombie Mutant"
     },
@@ -2290,7 +2295,7 @@
     "canBeFoil": true,
     "code_gatherer": "GVL",
     "code_mtgi": "DDD",
-    "digest": "0503befa6ecaa845edc01adb00f6aa0304",
+    "digest": "038bde6e5e9ba5ae943b387214f8581dfe",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GVL_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/GVL_C.png",

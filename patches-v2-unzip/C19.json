@@ -861,7 +861,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}{B}{B}",
       "tcgplayerProductId": 196731,
-      "text": "Flying<br>Whenever a source an opponent controls deals damage to Archfiend of Spite, that source's controller loses that much life unless they sacrifice that many permanents.<br>Madness {3}{B}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+      "text": "Flying<br>Whenever a source an opponent controls deals damage to Archfiend of Spite, that source's controller loses that much life unless they sacrifice that many permanents of their choice.<br>Madness {3}{B}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
       "toughness": 6.0,
       "type": "Creature - Demon"
     },
@@ -1171,7 +1171,7 @@
       "scryfallSetCode": "C19",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 196760,
-      "text": "Each opponent sacrifices a creature or enchantment.",
+      "text": "Each opponent sacrifices a creature or enchantment of their choice.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -1338,9 +1338,13 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -1786,7 +1790,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}{R}{R}",
       "tcgplayerProductId": 196677,
-      "text": "Haste<br>Whenever Tectonic Hellion attacks, each player who controls the most lands sacrifices two lands.",
+      "text": "Haste<br>Whenever Tectonic Hellion attacks, each player who controls the most lands sacrifices two lands of their choice.",
       "toughness": 5.0,
       "type": "Creature - Hellion"
     },
@@ -4985,6 +4989,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6279,6 +6284,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8040,7 +8046,7 @@
       "scryfallSetCode": "C19",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 196771,
-      "text": "When Plaguecrafter enters, each player sacrifices a creature or planeswalker. Each player who can't discards a card.",
+      "text": "When Plaguecrafter enters, each player sacrifices a creature or planeswalker of their choice. Each player who can't discards a card.",
       "toughness": 2.0,
       "type": "Creature - Human Shaman"
     },
@@ -8367,7 +8373,7 @@
       "scryfallSetCode": "C19",
       "sortedManaCost": "{4}{B}",
       "tcgplayerProductId": 196779,
-      "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I - Each opponent sacrifices a creature or planeswalker.<br>II - Each opponent discards a card.<br>III - Put target creature or planeswalker card from a graveyard onto the battlefield under your control.",
+      "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I - Each opponent sacrifices a creature or planeswalker of their choice.<br>II - Each opponent discards a card.<br>III - Put target creature or planeswalker card from a graveyard onto the battlefield under your control.",
       "toughness": -1005.0,
       "type": "Enchantment - Saga"
     },
@@ -8876,6 +8882,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9272,6 +9279,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -10759,12 +10767,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -11276,6 +11289,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13704,6 +13718,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13900,6 +13915,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -14171,6 +14187,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -14434,6 +14451,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -14751,11 +14769,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -14938,6 +14960,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15204,6 +15227,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -16057,6 +16081,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -16437,6 +16462,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -16506,6 +16532,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17330,6 +17357,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17526,6 +17554,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17593,6 +17622,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17847,6 +17877,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -18379,6 +18410,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -18448,6 +18480,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -18517,6 +18550,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -19753,7 +19787,7 @@
     "canBeFoil": true,
     "code_gatherer": "C19",
     "code_mtgi": "C19",
-    "digest": "fa98237ad4f7296434ffc9bdf3fd8194c2",
+    "digest": "fe83ac33bb89021497596c5582f85b15d3",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C19_U.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/C19_R.png",

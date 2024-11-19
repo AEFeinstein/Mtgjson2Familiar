@@ -564,7 +564,7 @@
       "scryfallSetCode": "AKH",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": 129725,
-      "text": "Enchant creature you control<br>When Cartouche of Solidarity enters, create a 1/1 white Warrior creature token with vigilance.<br>Enchanted creature gets +1/+1 and has first strike.",
+      "text": "Enchant creature you control<br>When Cartouche of Solidarity enters, create a 1/1 white Warrior creature token with vigilance.<br>Enchanted creature gets +1/+1 and has first strike. (It deals combat damage before creatures without first strike.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura Cartouche"
     },
@@ -1914,6 +1914,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -3503,6 +3504,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -4152,6 +4154,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6730,7 +6733,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}{B}{B}",
       "tcgplayerProductId": 129877,
-      "text": "Enchant player<br>At the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker. If the player can't, they lose 5 life.",
+      "text": "Enchant player<br>At the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker of their choice. If the player can't, they lose 5 life.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura Curse",
       "watermark": "Planeswalker"
@@ -9052,7 +9055,7 @@
       "scryfallSetCode": "AKH",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 129783,
-      "text": "When Trial of Ambition enters, target opponent sacrifices a creature.<br>When a Cartouche you control enters, return Trial of Ambition to its owner's hand.",
+      "text": "When Trial of Ambition enters, target opponent sacrifices a creature of their choice.<br>When a Cartouche you control enters, return Trial of Ambition to its owner's hand.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -9380,7 +9383,7 @@
       "scryfallSetCode": "AKH",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 129722,
-      "text": "Haste<br>You may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn. (An exerted creature won't untap during your next untap step.)",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>You may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn. (An exerted creature won't untap during your next untap step.)",
       "toughness": 2.0,
       "type": "Creature - Minotaur Warrior"
     },
@@ -9624,7 +9627,7 @@
       "scryfallSetCode": "AKH",
       "sortedManaCost": "{R}",
       "tcgplayerProductId": 130197,
-      "text": "{T}: Target creature gains haste until end of turn.",
+      "text": "{T}: Target creature gains haste until end of turn. (It can attack and {T} this turn.)",
       "toughness": 1.0,
       "type": "Creature - Human Warrior"
     },
@@ -9787,7 +9790,7 @@
       "scryfallSetCode": "AKH",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": 130200,
-      "text": "Target creature gets +3/+1 and gains trample until end of turn.",
+      "text": "Target creature gets +3/+1 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -9950,7 +9953,7 @@
       "scryfallSetCode": "AKH",
       "sortedManaCost": "{R}",
       "tcgplayerProductId": 129777,
-      "text": "Enchant creature you control<br>When Cartouche of Zeal enters, target creature can't block this turn.<br>Enchanted creature gets +1/+1 and has haste.",
+      "text": "Enchant creature you control<br>When Cartouche of Zeal enters, target creature can't block this turn.<br>Enchanted creature gets +1/+1 and has haste. (It can attack and {T} no matter when it came under your control.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura Cartouche"
     },
@@ -10406,13 +10409,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -10425,7 +10433,7 @@
       "scryfallSetCode": "AKH",
       "sortedManaCost": "{3}{R}",
       "tcgplayerProductId": 130212,
-      "text": "You may exert Emberhorn Minotaur as it attacks. When you do, it gets +1/+1 and gains menace until end of turn. (An exerted creature won't untap during your next untap step.)",
+      "text": "You may exert Emberhorn Minotaur as it attacks. When you do, it gets +1/+1 and gains menace until end of turn. (An exerted creature won't untap during your next untap step. A creature with menace can't be blocked except by two or more creatures.)",
       "toughness": 3.0,
       "type": "Creature - Minotaur Warrior"
     },
@@ -11536,7 +11544,7 @@
       "scryfallSetCode": "AKH",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": 130255,
-      "text": "Trample<br>You may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until end of turn. (An exerted creature won't untap during your next untap step.)",
+      "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)<br>You may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until end of turn. (An exerted creature won't untap during your next untap step.)",
       "toughness": 1.0,
       "type": "Creature - Human Warrior"
     },
@@ -12245,12 +12253,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -15358,6 +15371,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15833,6 +15847,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -24166,7 +24181,7 @@
     "canBeFoil": true,
     "code_gatherer": "AKH",
     "code_mtgi": "AKH",
-    "digest": "0292d1febbb6c14ba5854afb6e882650b6",
+    "digest": "0473a5ff88bbd5b74838276cdda0458611",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AKH_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AKH_R.png",

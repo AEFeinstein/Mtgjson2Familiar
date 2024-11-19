@@ -73,7 +73,7 @@
       "scryfallSetCode": "UMA",
       "sortedManaCost": "{9}",
       "tcgplayerProductId": 180864,
-      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)",
+      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)",
       "toughness": 9.0,
       "type": "Creature - Eldrazi"
     },
@@ -112,7 +112,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{8}",
       "tcgplayerProductId": 180769,
-      "text": "Enchant creature<br>Enchanted creature gets +10/+10 and has trample and annihilator 2. (Whenever it attacks, defending player sacrifices two permanents.)",
+      "text": "Enchant creature<br>Enchanted creature gets +10/+10 and has trample and annihilator 2. (Whenever it attacks, defending player sacrifices two permanents of their choice.)",
       "toughness": -1005.0,
       "type": "Kindred Enchantment - Eldrazi Aura"
     },
@@ -226,7 +226,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{10}",
       "tcgplayerProductId": 179451,
-      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 12.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -264,7 +264,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{11}",
       "tcgplayerProductId": 179454,
-      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 10.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -304,7 +304,7 @@
       "scryfallSetCode": "UMA",
       "sortedManaCost": "{8}",
       "tcgplayerProductId": 180866,
-      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)<br>Ulamog's Crusher attacks each combat if able.",
+      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)<br>Ulamog's Crusher attacks each combat if able.",
       "toughness": 8.0,
       "type": "Creature - Eldrazi"
     },
@@ -1159,12 +1159,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -1598,13 +1602,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -1719,13 +1728,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -1799,13 +1813,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -2899,12 +2918,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -3107,7 +3130,9 @@
       "legalities": {
         "Commander": "Legal",
         "Duel Commander": "Banned",
+        "Historic": "Banned",
         "Legacy": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -3143,6 +3168,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -3628,7 +3654,7 @@
       "scryfallSetCode": "UMA",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 180795,
-      "text": "Target player sacrifices a creature.<br>Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+      "text": "Target player sacrifices a creature of their choice.<br>Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -3649,6 +3675,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -3715,7 +3742,7 @@
       "scryfallSetCode": "UMA",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 180901,
-      "text": "Regenerate target creature. Draw a card. (The next time the creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)<br>Spell mastery - If there are two or more instant and/or sorcery cards in your graveyard, also regenerate each other creature you control.",
+      "text": "Regenerate target creature. Draw a card. (The next time the creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)<br>Spell mastery - If there are two or more instant and/or sorcery cards in your graveyard, also regenerate each other creature you control.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -4099,11 +4126,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4116,7 +4148,7 @@
       "scryfallSetCode": "UMA",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 180921,
-      "text": "Choose target creature. Mill three cards, then put a +1/+1 counter on that creature for each creature card in your graveyard.",
+      "text": "Choose target creature. Mill three cards, then put a +1/+1 counter on that creature for each creature card in your graveyard. (To mill three cards, put the top three cards of your library into your graveyard.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -4353,12 +4385,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4663,7 +4699,7 @@
       "scryfallSetCode": "UMA",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 180816,
-      "text": "When Slum Reaper enters, each player sacrifices a creature.",
+      "text": "When Slum Reaper enters, each player sacrifices a creature of their choice.",
       "toughness": 2.0,
       "type": "Creature - Horror"
     },
@@ -4926,13 +4962,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4945,7 +4986,7 @@
       "scryfallSetCode": "UMA",
       "sortedManaCost": "{R}",
       "tcgplayerProductId": 180927,
-      "text": "Heroic - Whenever you cast a spell that targets Akroan Crusader, create a 1/1 red Soldier creature token with haste.",
+      "text": "Heroic - Whenever you cast a spell that targets Akroan Crusader, create a 1/1 red Soldier creature token with haste. (It can attack and {T} as soon as it comes under your control.)",
       "toughness": 1.0,
       "type": "Creature - Human Soldier"
     },
@@ -5006,13 +5047,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -5090,6 +5136,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8330,6 +8377,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9459,7 +9507,7 @@
       "scryfallSetCode": "UMA",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 180857,
-      "text": "Discard a card: Regenerate Patchwork Gnomes. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "Discard a card: Regenerate Patchwork Gnomes. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Artifact Creature - Gnome"
     },
@@ -10165,6 +10213,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -10361,7 +10410,7 @@
     "canBeFoil": true,
     "code_gatherer": "UMA",
     "code_mtgi": "UMA",
-    "digest": "00c8fad13305687fbdce75e8157397c39d",
+    "digest": "fe5ae5984c240da304974f700a36ed82d1",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/UMA_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/UMA_U.png",

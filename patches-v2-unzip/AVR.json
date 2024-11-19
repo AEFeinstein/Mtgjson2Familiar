@@ -1792,10 +1792,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4003,6 +4007,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6440,7 +6445,7 @@
       "scryfallSetCode": "AVR",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 58901,
-      "text": "Each player sacrifices two creatures.",
+      "text": "Each player sacrifices two creatures of their choice.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -7497,6 +7502,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7977,7 +7983,7 @@
       "scryfallSetCode": "AVR",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 58916,
-      "text": "Return target creature card from your graveyard to your hand. Target player sacrifices a creature.",
+      "text": "Return target creature card from your graveyard to your hand. Target player sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -8133,7 +8139,7 @@
       "scryfallSetCode": "AVR",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 58289,
-      "text": "Deathtouch<br>Whenever another nontoken creature dies, you may draw a card.",
+      "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)<br>Whenever another nontoken creature dies, you may draw a card.",
       "toughness": 5.0,
       "type": "Creature - Demon"
     },
@@ -8489,6 +8495,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8743,7 +8750,7 @@
       "scryfallSetCode": "AVR",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 58921,
-      "text": "Target creature gains deathtouch until end of turn. Regenerate it. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat. Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)",
+      "text": "Target creature gains deathtouch until end of turn. Regenerate it. (The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -10831,12 +10838,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -10849,7 +10860,7 @@
       "scryfallSetCode": "AVR",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": 58945,
-      "text": "Whenever another creature you control enters, Kruin Striker gets +1/+0 and gains trample until end of turn.",
+      "text": "Whenever another creature you control enters, Kruin Striker gets +1/+0 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": 1.0,
       "type": "Creature - Human Warrior"
     },
@@ -11608,7 +11619,7 @@
       "scryfallSetCode": "AVR",
       "sortedManaCost": "{5}{R}{R}",
       "tcgplayerProductId": 58363,
-      "text": "Choose an order for artifacts, creatures, and lands. Each player sacrifices one permanent of the first type, sacrifices two of the second type, then sacrifices three of the third type.",
+      "text": "Choose an order for artifacts, creatures, and lands. Each player sacrifices one permanent of their choice of the first type, sacrifices two of their choice of the second type, then sacrifices three of their choice of the third type.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -18585,7 +18596,7 @@
     "canBeFoil": true,
     "code_gatherer": "AVR",
     "code_mtgi": "AVR",
-    "digest": "032a0a759a8feed35feacd751ec1da1293",
+    "digest": "03c5f665b5a906879dda3764d847459de6",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AVR_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AVR_C.png",

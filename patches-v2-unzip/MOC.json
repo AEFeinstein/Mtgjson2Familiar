@@ -3719,7 +3719,7 @@
       "rarity": "C",
       "scryfallSetCode": "MOC",
       "tcgplayerProductId": 491528,
-      "text": "When you planeswalk to The Pit, each player creates their choice of a 3/3 white Angel creature token with flying or a 6/6 black Demon creature token with flying, trample, and \"At the beginning of your upkeep, sacrifice another creature. If you can't, this creature deals 6 damage to you.\"<br>Whenever chaos ensues, each player sacrifices a nonartifact creature.",
+      "text": "When you planeswalk to The Pit, each player creates their choice of a 3/3 white Angel creature token with flying or a 6/6 black Demon creature token with flying, trample, and \"At the beginning of your upkeep, sacrifice another creature. If you can't, this creature deals 6 damage to you.\"<br>Whenever chaos ensues, each player sacrifices a nonartifact creature of their choice.",
       "toughness": -1005.0,
       "type": "Plane - The Abyss"
     },
@@ -4143,7 +4143,7 @@
       "rarity": "C",
       "scryfallSetCode": "MOC",
       "tcgplayerProductId": 491563,
-      "text": "When you planeswalk to The Wilds and at the beginning of your upkeep, create a Food token.<br>Whenever chaos ensues, target player sacrifices a creature. If they do, you create a Food token. You create two Food tokens instead if the sacrificed creature's toughness was 4 or greater.",
+      "text": "When you planeswalk to The Wilds and at the beginning of your upkeep, create a Food token.<br>Whenever chaos ensues, target player sacrifices a creature of their choice. If they do, you create a Food token. You create two Food tokens instead if the sacrificed creature's toughness was 4 or greater.",
       "toughness": -1005.0,
       "type": "Plane - Eldraine"
     },
@@ -8009,7 +8009,7 @@
       "rarity": "C",
       "scryfallSetCode": "MOC",
       "tcgplayerProductId": 491565,
-      "text": "Creatures with power 7 or greater can't attack or block.<br>Whenever chaos ensues, create a 7/7 colorless Eldrazi creature token with annihilator 1. (Whenever it attacks, defending player sacrifices a permanent.)",
+      "text": "Creatures with power 7 or greater can't attack or block.<br>Whenever chaos ensues, create a 7/7 colorless Eldrazi creature token with annihilator 1. (Whenever it attacks, defending player sacrifices a permanent of their choice.)",
       "toughness": -1005.0,
       "type": "Plane - Zendikar"
     },
@@ -8115,7 +8115,7 @@
       "rarity": "C",
       "scryfallSetCode": "MOC",
       "tcgplayerProductId": 490483,
-      "text": "Whenever a player casts a creature spell that's black, red, or green, it gains devour 5. (As the creature enters, its controller may sacrifice any number of creatures. The creature enters with five times that many +1/+1 counters on it.)<br>Whenever chaos ensues, create two 1/1 red Goblin creature tokens.",
+      "text": "Whenever a player casts a creature spell that's black, red, or green, it gains devour 5. (As the creature enters, its controller may sacrifice any number of creatures of their choice. The creature enters with five times that many +1/+1 counters on it.)<br>Whenever chaos ensues, create two 1/1 red Goblin creature tokens.",
       "toughness": -1005.0,
       "type": "Plane - Alara"
     },
@@ -9291,6 +9291,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9554,12 +9555,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -9572,7 +9578,7 @@
       "scryfallSetCode": "MOC",
       "sortedManaCost": "{1}{W}{W}",
       "tcgplayerProductId": 491515,
-      "text": "When Banisher Priest enters, exile target creature an opponent controls until Banisher Priest leaves the battlefield. (That creature returns under its owner's control.)",
+      "text": "When Banisher Priest enters, exile target creature an opponent controls until Banisher Priest leaves the battlefield.",
       "toughness": 2.0,
       "type": "Creature - Human Cleric"
     },
@@ -11009,7 +11015,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 491456,
-      "text": "When Maul of the Skyclaves enters, attach it to target creature you control.<br>Equipped creature gets +2/+2 and has flying and first strike.<br>Equip {2}{W}{W}",
+      "text": "When Maul of the Skyclaves enters, attach it to target creature you control.<br>Equipped creature gets +2/+2 and has flying and first strike.(It deals combat damage before creatures without first strike.)<br>Equip {2}{W}{W}",
       "toughness": -1005.0,
       "type": "Artifact - Equipment"
     },
@@ -11055,6 +11061,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -12881,6 +12888,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13700,7 +13708,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{U}{U}",
       "tcgplayerProductId": 491675,
-      "text": "Flying<br>As long as you control four or more artifacts, Shimmer Dragon has hexproof.<br>Tap two untapped artifacts you control: Draw a card.",
+      "text": "Flying<br>As long as you control four or more artifacts, Shimmer Dragon has hexproof. (It can't be the target of spells or abilities your opponents control.)<br>Tap two untapped artifacts you control: Draw a card.",
       "toughness": 6.0,
       "type": "Creature - Dragon"
     },
@@ -14077,12 +14085,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -15071,6 +15083,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15142,6 +15155,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15349,12 +15363,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -15949,13 +15967,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -16358,6 +16381,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17194,6 +17218,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17964,10 +17989,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -18420,6 +18449,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -18704,7 +18734,7 @@
       "scryfallSetCode": "MOC",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 491689,
-      "text": "When Pridemalkin enters, put a +1/+1 counter on target creature you control.<br>Each creature you control with a +1/+1 counter on it has trample. (They can deal excess combat damage to the player or planeswalker they're attacking.)",
+      "text": "When Pridemalkin enters, put a +1/+1 counter on target creature you control.<br>Each creature you control with a +1/+1 counter on it has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": 1.0,
       "type": "Creature - Cat"
     },
@@ -19713,7 +19743,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{G}{W}",
       "tcgplayerProductId": 491594,
-      "text": "Choose two -<br>• Prevent all damage target instant or sorcery spell would deal this turn.<br>• Target player sacrifices an enchantment.<br>• Put a +1/+1 counter on target creature.<br>• Target creature you control fights target creature you don't control.",
+      "text": "Choose two -<br>• Prevent all damage target instant or sorcery spell would deal this turn.<br>• Target player sacrifices an enchantment of their choice.<br>• Put a +1/+1 counter on target creature.<br>• Target creature you control fights target creature you don't control.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -19885,6 +19915,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -20627,6 +20658,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -21576,6 +21608,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -21770,6 +21803,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -22095,6 +22129,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -22362,6 +22397,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -26100,6 +26136,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -26678,6 +26715,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -26746,6 +26784,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -26814,6 +26853,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -26882,6 +26922,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -26950,6 +26991,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -27018,6 +27060,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -27086,6 +27129,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -27214,6 +27258,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -28031,7 +28076,7 @@
     "canBeFoil": true,
     "code_gatherer": "MOC",
     "code_mtgi": "MOC",
-    "digest": "fe13602cfb6853f40bbf349bd9f3eac18d",
+    "digest": "1a0686073700fadf2b8df6518b3774d6",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MOC_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MOC_R.png",

@@ -1524,7 +1524,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{B}{B}",
       "tcgplayerProductId": 243733,
-      "text": "Each player sacrifices a nontoken creature. Roll a d20 and add the toughness of the creature you sacrificed this way.<br>1-14 | Return a creature card put into a graveyard this way to the battlefield under your control.<br>15+ | Return up to two creature cards put into graveyards this way to the battlefield under your control.",
+      "text": "Each player sacrifices a nontoken creature of their choice. Roll a d20 and add the toughness of the creature you sacrificed this way.<br>1-14 | Return a creature card put into a graveyard this way to the battlefield under your control.<br>15+ | Return up to two creature cards put into graveyards this way to the battlefield under your control.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -4331,6 +4331,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -5376,6 +5377,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6040,6 +6042,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6873,7 +6876,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 243879,
-      "text": "Target player sacrifices a creature. You gain life equal to that creature's toughness.<br>Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+      "text": "Target player sacrifices a creature of their choice. You gain life equal to that creature's toughness.<br>Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -7689,7 +7692,7 @@
       "scryfallSetCode": "AFC",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 243960,
-      "text": "When Plaguecrafter enters, each player sacrifices a creature or planeswalker. Each player who can't discards a card.",
+      "text": "When Plaguecrafter enters, each player sacrifices a creature or planeswalker of their choice. Each player who can't discards a card.",
       "toughness": 2.0,
       "type": "Creature - Human Shaman"
     },
@@ -7814,6 +7817,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8648,7 +8652,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{R}{R}",
       "tcgplayerProductId": 243815,
-      "text": "Flying<br>When Demanding Dragon enters, it deals 5 damage to target opponent unless that player sacrifices a creature.",
+      "text": "Flying<br>When Demanding Dragon enters, it deals 5 damage to target opponent unless that player sacrifices a creature of their choice.",
       "toughness": 5.0,
       "type": "Creature - Dragon"
     },
@@ -8848,6 +8852,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8928,6 +8933,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9077,6 +9083,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9156,6 +9163,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -10326,6 +10334,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -10481,6 +10490,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -11511,6 +11521,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -11977,7 +11988,7 @@
       "scryfallSetCode": "AFC",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 243832,
-      "text": "Paradise Druid has hexproof as long as it's untapped. (It can't be the target of spells or abilities your opponents control.)<br>{T}: Add one mana of any color.",
+      "text": "This creature has hexproof as long as it's untapped. (It can't be the target of spells or abilities your opponents control.)<br>{T}: Add one mana of any color.",
       "toughness": 1.0,
       "type": "Creature - Elf Druid"
     },
@@ -12031,13 +12042,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -13137,10 +13152,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -13207,6 +13226,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13873,6 +13893,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -14470,6 +14491,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -14549,6 +14571,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15281,6 +15304,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15724,6 +15748,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15803,6 +15828,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -20762,7 +20788,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{B}{B}",
       "tcgplayerProductId": 244227,
-      "text": "Each player sacrifices a nontoken creature. Roll a d20 and add the toughness of the creature you sacrificed this way.<br>1-14 | Return a creature card put into a graveyard this way to the battlefield under your control.<br>15+ | Return up to two creature cards put into graveyards this way to the battlefield under your control.",
+      "text": "Each player sacrifices a nontoken creature of their choice. Roll a d20 and add the toughness of the creature you sacrificed this way.<br>1-14 | Return a creature card put into a graveyard this way to the battlefield under your control.<br>15+ | Return up to two creature cards put into graveyards this way to the battlefield under your control.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -22959,7 +22985,7 @@
     "canBeFoil": true,
     "code_gatherer": "AFC",
     "code_mtgi": "AFC",
-    "digest": "076610bb432c5cc03904b376255afe79c0",
+    "digest": "07d763bd8e09ce429c4dae5e7e3b44835f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AFC_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AFC_R.png",

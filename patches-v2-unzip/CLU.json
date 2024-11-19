@@ -1716,6 +1716,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -1945,6 +1946,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -2361,7 +2363,7 @@
       "scryfallSetCode": "CLU",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 535125,
-      "text": "Flying, vigilance<br>Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
+      "text": "Flying<br>Vigilance (Attacking doesn't cause this creature to tap.)<br>Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
       "toughness": 3.0,
       "type": "Creature - Human Knight",
       "watermark": "Boros"
@@ -2554,7 +2556,7 @@
       "scryfallSetCode": "CLU",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 534666,
-      "text": "First strike<br>Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
+      "text": "First strike (This creature deals combat damage before creatures without first strike.)<br>Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)",
       "toughness": 2.0,
       "type": "Creature - Human Soldier",
       "watermark": "Boros"
@@ -3202,11 +3204,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4031,7 +4037,7 @@
       "scryfallSetCode": "CLU",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 534620,
-      "text": "When Fleshbag Marauder enters, each player sacrifices a creature.",
+      "text": "When Fleshbag Marauder enters, each player sacrifices a creature of their choice.",
       "toughness": 1.0,
       "type": "Creature - Zombie Warrior"
     },
@@ -4565,7 +4571,7 @@
       "scryfallSetCode": "CLU",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 534750,
-      "text": "Deathtouch<br>When Venomous Hierophant enters, mill three cards. (Put the top three cards of your library into your graveyard.)",
+      "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)<br>When Venomous Hierophant enters, mill three cards. (Put the top three cards of your library into your graveyard.)",
       "toughness": 3.0,
       "type": "Creature - Gorgon Cleric"
     },
@@ -4663,11 +4669,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4680,7 +4691,7 @@
       "scryfallSetCode": "CLU",
       "sortedManaCost": "{R}",
       "tcgplayerProductId": 534612,
-      "text": "Up to two target creatures each get +1/+0 and gain first strike until end of turn.",
+      "text": "Up to two target creatures each get +1/+0 and gain first strike until end of turn. (They deal combat damage before creatures without first strike.)",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -4930,6 +4941,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -5971,7 +5983,7 @@
       "scryfallSetCode": "CLU",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 534715,
-      "text": "When Duskshell Crawler enters, put a +1/+1 counter on target creature.<br>Each creature you control with a +1/+1 counter on it has trample.",
+      "text": "When Duskshell Crawler enters, put a +1/+1 counter on target creature.<br>Each creature you control with a +1/+1 counter on it has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": 3.0,
       "type": "Creature - Insect"
     },
@@ -6143,13 +6155,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -6351,7 +6368,7 @@
       "scryfallSetCode": "CLU",
       "sortedManaCost": "{3}{G}{G}",
       "tcgplayerProductId": 535121,
-      "text": "Creatures you control get +2/+2 and gain trample until end of turn.",
+      "text": "Creatures you control get +2/+2 and gain trample until end of turn. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -8747,6 +8764,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8822,6 +8840,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8897,6 +8916,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8939,6 +8959,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9014,6 +9035,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9122,6 +9144,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9197,6 +9220,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9272,6 +9296,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9314,6 +9339,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9422,6 +9448,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -10879,7 +10906,7 @@
     "canBeFoil": true,
     "code_gatherer": "CLU",
     "code_mtgi": "CLU",
-    "digest": "fb17030d57af0259eeba7117aeb9f01ad4",
+    "digest": "f95cc714bdd1480d0caafeca991a3d5c16",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CLU_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CLU_U.png",

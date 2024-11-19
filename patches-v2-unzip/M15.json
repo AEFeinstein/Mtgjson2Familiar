@@ -129,6 +129,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -747,13 +748,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -2914,13 +2920,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -2933,7 +2944,7 @@
       "scryfallSetCode": "M15",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 91288,
-      "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
+      "text": "Flying<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
       "toughness": 2.0,
       "type": "Creature - Pegasus"
     },
@@ -3067,13 +3078,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -3086,7 +3102,7 @@
       "scryfallSetCode": "M15",
       "sortedManaCost": "{4}{W}{W}",
       "tcgplayerProductId": 90836,
-      "text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)<br>Create three 1/1 white Spirit creature tokens with flying. (They can't be blocked except by creatures with flying or reach.)",
+      "text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)<br>Create three 1/1 white Spirit creature tokens with flying.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -3392,7 +3408,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{U}{U}",
       "tcgplayerProductId": 91189,
-      "text": "For each attacking creature, its owner puts it on the top or bottom of their library.",
+      "text": "For each attacking creature, its owner puts it on their choice of the top or bottom of their library.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -5075,12 +5091,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -5455,6 +5476,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7800,7 +7822,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{B}{B}",
       "tcgplayerProductId": 90850,
-      "text": "Flying<br>At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life.",
+      "text": "Flying<br>At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature of their choice or pays 3 life.",
       "toughness": 3.0,
       "type": "Creature - Demon"
     },
@@ -8115,7 +8137,7 @@
       "scryfallSetCode": "M15",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 91303,
-      "text": "Target creature gains deathtouch until end of turn. Regenerate it. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat. Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)",
+      "text": "Target creature gains deathtouch until end of turn. Regenerate it. (The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -8496,7 +8518,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 91033,
-      "text": "Flying, trample<br>Whenever an opponent searches their library, that player sacrifices a creature and loses 10 life.<br>Whenever another creature dies, put a +1/+1 counter on Ob Nixilis, Unshackled.",
+      "text": "Flying, trample<br>Whenever an opponent searches their library, that player sacrifices a creature of their choice and loses 10 life.<br>Whenever another creature dies, put a +1/+1 counter on Ob Nixilis, Unshackled.",
       "toughness": 4.0,
       "type": "Legendary Creature - Demon"
     },
@@ -9179,11 +9201,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -10963,6 +10990,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -11198,11 +11226,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -11510,6 +11543,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13025,7 +13059,7 @@
       "scryfallSetCode": "M15",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 91317,
-      "text": "{G}: Regenerate Ancient Silverback. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "{G}: Regenerate Ancient Silverback. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 5.0,
       "type": "Creature - Ape"
     },
@@ -14639,11 +14673,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -15029,6 +15068,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17044,6 +17084,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -21387,6 +21428,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -21955,6 +21997,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -22121,12 +22164,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -22225,7 +22273,7 @@
     "canBeFoil": true,
     "code_gatherer": "M15",
     "code_mtgi": "M15",
-    "digest": "fe188b7a2ccf4ba77f2b9bbf6c06262a8f",
+    "digest": "fe7c7168cedb3b97fd2640070ebadbcc52",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/M15_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/M15_U.png",

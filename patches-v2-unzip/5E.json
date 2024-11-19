@@ -4512,13 +4512,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -9648,7 +9652,7 @@
       "scryfallSetCode": "5ED",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 2117,
-      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Creature - Skeleton"
     },
@@ -10069,7 +10073,7 @@
       "scryfallSetCode": "5ED",
       "sortedManaCost": "{1}{B}{B}",
       "tcgplayerProductId": 2166,
-      "text": "Enchant creature<br>When enchanted creature leaves the battlefield, its controller sacrifices a creature.",
+      "text": "Enchant creature<br>When enchanted creature leaves the battlefield, its controller sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -11662,7 +11666,7 @@
       "scryfallSetCode": "5ED",
       "sortedManaCost": "{B}{B}{B}",
       "tcgplayerProductId": 2324,
-      "text": "Each player loses a third of their life, then discards a third of the cards in their hand, then sacrifices a third of the creatures they control, then sacrifices a third of the lands they control. Round up each time.",
+      "text": "Each player loses a third of their life, then discards a third of the cards in their hand, then sacrifices a third of the creatures they control of their choice, then sacrifices a third of the lands they control of their choice. Round up each time.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -12518,7 +12522,7 @@
       "scryfallSetCode": "5ED",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 2433,
-      "text": "Defender (This creature can't attack.)<br>{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Defender (This creature can't attack.)<br>{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 4.0,
       "type": "Creature - Skeleton Wall"
     },
@@ -19621,7 +19625,7 @@
       "scryfallSetCode": "5ED",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 2341,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -27375,7 +27379,7 @@
     "canBeFoil": false,
     "code_gatherer": "5E",
     "code_mtgi": "5ED",
-    "digest": "fde9e4c304c91c047b73bc1b759c702187",
+    "digest": "ff13ec09bdf34499105f48b48f36253d0a",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/5E_U.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/5E_R.png",

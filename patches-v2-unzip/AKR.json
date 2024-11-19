@@ -309,7 +309,7 @@
       "scryfallSetCode": "AKR",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": -1,
-      "text": "Enchant creature you control<br>When Cartouche of Solidarity enters, create a 1/1 white Warrior creature token with vigilance.<br>Enchanted creature gets +1/+1 and has first strike.",
+      "text": "Enchant creature you control<br>When Cartouche of Solidarity enters, create a 1/1 white Warrior creature token with vigilance.<br>Enchanted creature gets +1/+1 and has first strike. (It deals combat damage before creatures without first strike.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura Cartouche"
     },
@@ -2393,6 +2393,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -3900,7 +3901,7 @@
       "scryfallSetCode": "AKR",
       "sortedManaCost": "{5}{B}{B}",
       "tcgplayerProductId": -1,
-      "text": "Enchant player<br>At the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker. If the player can't, they lose 5 life.",
+      "text": "Enchant player<br>At the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker of their choice. If the player can't, they lose 5 life.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura Curse"
     },
@@ -3916,6 +3917,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -5112,7 +5114,7 @@
       "scryfallSetCode": "AKR",
       "sortedManaCost": "{B}{B}{X}",
       "tcgplayerProductId": -1,
-      "text": "Repeat the following process X times. Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.",
+      "text": "Repeat the following process X times. Each opponent loses 3 life unless that player sacrifices a nonland permanent of their choice or discards a card.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -5190,7 +5192,7 @@
       "scryfallSetCode": "AKR",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": -1,
-      "text": "When Trial of Ambition enters, target opponent sacrifices a creature.<br>When a Cartouche you control enters, return Trial of Ambition to its owner's hand.",
+      "text": "When Trial of Ambition enters, target opponent sacrifices a creature of their choice.<br>When a Cartouche you control enters, return Trial of Ambition to its owner's hand.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -5471,7 +5473,7 @@
       "scryfallSetCode": "AKR",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": -1,
-      "text": "Haste<br>You may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn. (An exerted creature won't untap during your next untap step.)",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>You may exert Ahn-Crop Crasher as it attacks. When you do, target creature can't block this turn. (An exerted creature won't untap during your next untap step.)",
       "toughness": 2.0,
       "type": "Creature - Minotaur Warrior"
     },
@@ -5588,7 +5590,7 @@
       "scryfallSetCode": "AKR",
       "sortedManaCost": "{R}",
       "tcgplayerProductId": -1,
-      "text": "{T}: Target creature gains haste until end of turn.",
+      "text": "{T}: Target creature gains haste until end of turn. (It can attack and {T} this turn.)",
       "toughness": 1.0,
       "type": "Creature - Human Warrior"
     },
@@ -5668,7 +5670,7 @@
       "scryfallSetCode": "AKR",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": -1,
-      "text": "Target creature gets +3/+1 and gains trample until end of turn.",
+      "text": "Target creature gets +3/+1 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -5785,7 +5787,7 @@
       "scryfallSetCode": "AKR",
       "sortedManaCost": "{R}",
       "tcgplayerProductId": -1,
-      "text": "Enchant creature you control<br>When Cartouche of Zeal enters, target creature can't block this turn.<br>Enchanted creature gets +1/+1 and has haste.",
+      "text": "Enchant creature you control<br>When Cartouche of Zeal enters, target creature can't block this turn.<br>Enchanted creature gets +1/+1 and has haste. (It can attack and {T} no matter when it came under your control.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura Cartouche"
     },
@@ -5915,6 +5917,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6112,6 +6115,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6641,7 +6645,7 @@
       "scryfallSetCode": "AKR",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": -1,
-      "text": "Trample<br>You may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until end of turn. (An exerted creature won't untap during your next untap step.)",
+      "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)<br>You may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until end of turn. (An exerted creature won't untap during your next untap step.)",
       "toughness": 1.0,
       "type": "Creature - Human Warrior"
     },
@@ -8926,6 +8930,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9539,6 +9544,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -12743,7 +12749,7 @@
       "rarity": "U",
       "scryfallSetCode": "AKR",
       "tcgplayerProductId": -1,
-      "text": "{T}: Add {C}.<br>{T}, Pay 1 life: Add {U}.<br>{1}{U}, {T}, Sacrifice a Desert: Target player mills four cards.",
+      "text": "{T}: Add {C}.<br>{T}, Pay 1 life: Add {U}.<br>{1}{U}, {T}, Sacrifice a Desert: Target player mills four cards. (They put the top four cards of their library into their graveyard.)",
       "toughness": -1005.0,
       "type": "Land - Desert"
     },
@@ -14189,6 +14195,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -14223,7 +14230,7 @@
     "canBeFoil": false,
     "code_gatherer": "AKR",
     "code_mtgi": "AKR",
-    "digest": "fb59a70e28dbf0c1c73d89ca2899641a",
+    "digest": "fe2afdecafff50363b370e5282c2fd2d57",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AKR_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AKR_R.png",

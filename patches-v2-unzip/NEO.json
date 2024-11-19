@@ -313,7 +313,6 @@
       "isToken": false,
       "legalities": {
         "Brawl": "Legal",
-        "Gladiator": "Legal",
         "Historic": "Legal"
       },
       "loyalty": -1005,
@@ -1903,7 +1902,7 @@
       "scryfallSetCode": "NEO",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 262722,
-      "text": "Lifelink",
+      "text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
       "toughness": 3.0,
       "type": "Enchantment Creature - Fox Monk"
     },
@@ -3969,7 +3968,7 @@
       "scryfallSetCode": "NEO",
       "sortedManaCost": "{4}{W}",
       "tcgplayerProductId": 262197,
-      "text": "Vigilance<br>Channel - {2}, Discard Sunblade Samurai: Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle. You gain 2 life.",
+      "text": "Vigilance (Attacking doesn't cause this creature to tap.)<br>Channel - {2}, Discard Sunblade Samurai: Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle. You gain 2 life.",
       "toughness": 4.0,
       "type": "Enchantment Creature - Human Samurai"
     },
@@ -6570,7 +6569,7 @@
       "scryfallSetCode": "NEO",
       "sortedManaCost": "{U}",
       "tcgplayerProductId": 262132,
-      "text": "{T}, Tap an untapped artifact or creature you control: Add {C}.<br>Channel - {4}{U}, Discard Moonsnare Prototype: The owner of target nonland permanent puts it on the top or bottom of their library.",
+      "text": "{T}, Tap an untapped artifact or creature you control: Add {C}.<br>Channel - {4}{U}, Discard Moonsnare Prototype: The owner of target nonland permanent puts it on their choice of the top or bottom of their library.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -8910,7 +8909,7 @@
       "scryfallSetCode": "NEO",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 262654,
-      "text": "Flying<br>When Gravelighter enters, draw a card if a creature died this turn. Otherwise, each player sacrifices a creature.",
+      "text": "Flying<br>When Gravelighter enters, draw a card if a creature died this turn. Otherwise, each player sacrifices a creature of their choice.",
       "toughness": 2.0,
       "type": "Creature - Spirit"
     },
@@ -9153,7 +9152,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{B}{B}{B}{B}",
       "tcgplayerProductId": 262133,
-      "text": "Target opponent sacrifices a creature. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker.",
+      "text": "Target opponent sacrifices a creature of their choice. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -9851,7 +9850,7 @@
       "scryfallSetCode": "NEO",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 262773,
-      "text": "(As this Saga enters and after your draw step, add a lore counter.)<br>I, II - Each opponent sacrifices a creature unless they discard a card.<br>III - Exile this Saga, then return it to the battlefield transformed under your control.",
+      "text": "(As this Saga enters and after your draw step, add a lore counter.)<br>I, II - Each opponent sacrifices a creature of their choice unless they discard a card.<br>III - Exile this Saga, then return it to the battlefield transformed under your control.",
       "toughness": -1005.0,
       "type": "Enchantment - Saga"
     },
@@ -13482,6 +13481,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -23254,6 +23254,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -23495,6 +23496,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -23654,6 +23656,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -23968,6 +23971,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -24049,6 +24053,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -24130,6 +24135,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -24447,6 +24453,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -24528,6 +24535,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -24635,7 +24643,7 @@
       "rarity": "C",
       "scryfallSetCode": "NEO",
       "tcgplayerProductId": 262749,
-      "text": "Uncharted Haven enters tapped. As it enters, choose a color.<br>{T}: Add one mana of the chosen color.",
+      "text": "This land enters tapped. As it enters, choose a color.<br>{T}: Add one mana of the chosen color.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -24692,6 +24700,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -26935,7 +26944,7 @@
       "scryfallSetCode": "NEO",
       "sortedManaCost": "{4}{W}",
       "tcgplayerProductId": 262198,
-      "text": "Vigilance<br>Channel - {2}, Discard Sunblade Samurai: Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle. You gain 2 life.",
+      "text": "Vigilance (Attacking doesn't cause this creature to tap.)<br>Channel - {2}, Discard Sunblade Samurai: Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle. You gain 2 life.",
       "toughness": 4.0,
       "type": "Enchantment Creature - Human Samurai"
     },
@@ -32006,7 +32015,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{B}{B}{B}{B}",
       "tcgplayerProductId": 262171,
-      "text": "Target opponent sacrifices a creature. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker.",
+      "text": "Target opponent sacrifices a creature of their choice. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -36913,7 +36922,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{B}{B}{B}{B}",
       "tcgplayerProductId": 262378,
-      "text": "Target opponent sacrifices a creature. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker.",
+      "text": "Target opponent sacrifices a creature of their choice. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -39894,7 +39903,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{B}{B}{B}{B}",
       "tcgplayerProductId": 264325,
-      "text": "Target opponent sacrifices a creature. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker.",
+      "text": "Target opponent sacrifices a creature of their choice. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -40359,6 +40368,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -40471,7 +40481,7 @@
     "canBeFoil": true,
     "code_gatherer": "NEO",
     "code_mtgi": "NEO",
-    "digest": "0cc719bfe53834e17ab1862e6afc8be83b",
+    "digest": "0e23ba5eaf02cc719c7a501ac3a453690d",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/NEO_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/NEO_M.png",

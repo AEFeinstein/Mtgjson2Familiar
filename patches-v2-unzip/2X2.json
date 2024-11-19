@@ -96,7 +96,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{10}",
       "tcgplayerProductId": 276259,
-      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 12.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -146,7 +146,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{11}",
       "tcgplayerProductId": 276353,
-      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 10.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -374,7 +374,7 @@
       "scryfallSetCode": "2X2",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 277141,
-      "text": "Put a +1/+1 counter on target creature. That creature gains first strike until end of turn. You gain 2 life.",
+      "text": "Put a +1/+1 counter on target creature. That creature gains first strike until end of turn. You gain 2 life. (A creature with first strike deals combat damage before creatures without first strike.)",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -1284,13 +1284,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -1866,13 +1871,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -3533,10 +3543,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -3550,7 +3564,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{U}{U}",
       "tcgplayerProductId": 276394,
-      "text": "Flash<br>When Venser, Shaper Savant enters, return target spell or permanent to its owner's hand.",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>When Venser, Shaper Savant enters, return target spell or permanent to its owner's hand.",
       "toughness": 2.0,
       "type": "Legendary Creature - Human Wizard"
     },
@@ -3633,13 +3647,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Banned",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4133,12 +4151,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4522,7 +4545,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 277235,
-      "text": "Flying, trample<br>Whenever an opponent searches their library, that player sacrifices a creature and loses 10 life.<br>Whenever another creature dies, put a +1/+1 counter on Ob Nixilis, Unshackled.",
+      "text": "Flying, trample<br>Whenever an opponent searches their library, that player sacrifices a creature of their choice and loses 10 life.<br>Whenever another creature dies, put a +1/+1 counter on Ob Nixilis, Unshackled.",
       "toughness": 4.0,
       "type": "Legendary Creature - Demon"
     },
@@ -4606,11 +4629,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper Commander": "Restricted",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -5885,12 +5912,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -6154,12 +6185,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -6172,7 +6207,7 @@
       "scryfallSetCode": "2X2",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": 277226,
-      "text": "Whenever another creature you control enters, Kruin Striker gets +1/+0 and gains trample until end of turn.",
+      "text": "Whenever another creature you control enters, Kruin Striker gets +1/+0 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": 1.0,
       "type": "Creature - Human Warrior"
     },
@@ -7455,6 +7490,7 @@
         "Duel Commander": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -7891,7 +7927,7 @@
       "scryfallSetCode": "2X2",
       "sortedManaCost": "{G}",
       "tcgplayerProductId": 276281,
-      "text": "Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)<br>Remove two +1/+1 counters from Experiment One: Regenerate Experiment One. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "Evolve (Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)<br>Remove two +1/+1 counters from Experiment One: Regenerate Experiment One. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Creature - Human Ooze"
     },
@@ -8365,13 +8401,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -9937,7 +9977,7 @@
       "scryfallSetCode": "2X2",
       "sortedManaCost": "{2}{G}{R}",
       "tcgplayerProductId": 276956,
-      "text": "Haste<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
       "toughness": 2.0,
       "type": "Creature - Elf Berserker"
     },
@@ -11101,7 +11141,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{G}{W}",
       "tcgplayerProductId": 276486,
-      "text": "Choose two -<br>• Prevent all damage target instant or sorcery spell would deal this turn.<br>• Target player sacrifices an enchantment.<br>• Put a +1/+1 counter on target creature.<br>• Target creature you control fights target creature you don't control.",
+      "text": "Choose two -<br>• Prevent all damage target instant or sorcery spell would deal this turn.<br>• Target player sacrifices an enchantment of their choice.<br>• Put a +1/+1 counter on target creature.<br>• Target creature you control fights target creature you don't control.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -15391,7 +15431,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{B}{R}{U}",
       "tcgplayerProductId": 276664,
-      "text": "Haste<br>Whenever Thraximundar attacks, defending player sacrifices a creature.<br>Whenever a player sacrifices a creature, you may put a +1/+1 counter on Thraximundar.",
+      "text": "Haste<br>Whenever Thraximundar attacks, defending player sacrifices a creature of their choice.<br>Whenever a player sacrifices a creature, you may put a +1/+1 counter on Thraximundar.",
       "toughness": 6.0,
       "type": "Legendary Creature - Zombie Assassin"
     },
@@ -15699,7 +15739,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{G}{R}",
       "tcgplayerProductId": 276663,
-      "text": "Flying, trample<br>Whenever Wasitora, Nekoru Queen deals combat damage to a player, that player sacrifices a creature. If the player can't, you create a 3/3 black, red, and green Cat Dragon creature token with flying.",
+      "text": "Flying, trample<br>Whenever Wasitora, Nekoru Queen deals combat damage to a player, that player sacrifices a creature of their choice. If the player can't, you create a 3/3 black, red, and green Cat Dragon creature token with flying.",
       "toughness": 4.0,
       "type": "Legendary Creature - Cat Dragon"
     },
@@ -17840,7 +17880,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{10}",
       "tcgplayerProductId": 276317,
-      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 12.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -17873,7 +17913,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{11}",
       "tcgplayerProductId": 276355,
-      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 10.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -19428,6 +19468,7 @@
         "Duel Commander": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -19688,13 +19729,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -19821,7 +19866,7 @@
       "scryfallSetCode": "2X2",
       "sortedManaCost": "{2}{G}{R}",
       "tcgplayerProductId": 276958,
-      "text": "Haste<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
       "toughness": 2.0,
       "type": "Creature - Elf Berserker"
     },
@@ -21954,7 +21999,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{10}",
       "tcgplayerProductId": 276302,
-      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 12.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -22004,7 +22049,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{11}",
       "tcgplayerProductId": 276357,
-      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 10.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -23052,10 +23097,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -23069,7 +23118,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{U}{U}",
       "tcgplayerProductId": 276395,
-      "text": "Flash<br>When Venser, Shaper Savant enters, return target spell or permanent to its owner's hand.",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>When Venser, Shaper Savant enters, return target spell or permanent to its owner's hand.",
       "toughness": 2.0,
       "type": "Legendary Creature - Human Wizard"
     },
@@ -23437,7 +23486,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 277257,
-      "text": "Flying, trample<br>Whenever an opponent searches their library, that player sacrifices a creature and loses 10 life.<br>Whenever another creature dies, put a +1/+1 counter on Ob Nixilis, Unshackled.",
+      "text": "Flying, trample<br>Whenever an opponent searches their library, that player sacrifices a creature of their choice and loses 10 life.<br>Whenever another creature dies, put a +1/+1 counter on Ob Nixilis, Unshackled.",
       "toughness": 4.0,
       "type": "Legendary Creature - Demon"
     },
@@ -24275,6 +24324,7 @@
         "Duel Commander": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -25978,7 +26028,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{G}{W}",
       "tcgplayerProductId": 276487,
-      "text": "Choose two -<br>• Prevent all damage target instant or sorcery spell would deal this turn.<br>• Target player sacrifices an enchantment.<br>• Put a +1/+1 counter on target creature.<br>• Target creature you control fights target creature you don't control.",
+      "text": "Choose two -<br>• Prevent all damage target instant or sorcery spell would deal this turn.<br>• Target player sacrifices an enchantment of their choice.<br>• Put a +1/+1 counter on target creature.<br>• Target creature you control fights target creature you don't control.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -28920,7 +28970,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{B}{R}{U}",
       "tcgplayerProductId": 276803,
-      "text": "Haste<br>Whenever Thraximundar attacks, defending player sacrifices a creature.<br>Whenever a player sacrifices a creature, you may put a +1/+1 counter on Thraximundar.",
+      "text": "Haste<br>Whenever Thraximundar attacks, defending player sacrifices a creature of their choice.<br>Whenever a player sacrifices a creature, you may put a +1/+1 counter on Thraximundar.",
       "toughness": 6.0,
       "type": "Legendary Creature - Zombie Assassin"
     },
@@ -29177,7 +29227,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{G}{R}",
       "tcgplayerProductId": 276804,
-      "text": "Flying, trample<br>Whenever Wasitora, Nekoru Queen deals combat damage to a player, that player sacrifices a creature. If the player can't, you create a 3/3 black, red, and green Cat Dragon creature token with flying.",
+      "text": "Flying, trample<br>Whenever Wasitora, Nekoru Queen deals combat damage to a player, that player sacrifices a creature of their choice. If the player can't, you create a 3/3 black, red, and green Cat Dragon creature token with flying.",
       "toughness": 4.0,
       "type": "Legendary Creature - Cat Dragon"
     },
@@ -30408,7 +30458,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{10}",
       "tcgplayerProductId": 276444,
-      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 12.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -30441,7 +30491,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{11}",
       "tcgplayerProductId": 276356,
-      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 10.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -30519,7 +30569,7 @@
     "canBeFoil": true,
     "code_gatherer": "2X2",
     "code_mtgi": "2X2",
-    "digest": "f31a905a241daa4dca048af25bde34c61a",
+    "digest": "f47cfac2f2d517354518e72083d72f6795",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/2X2_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/2X2_U.png",

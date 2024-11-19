@@ -314,6 +314,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -2326,7 +2327,9 @@
       "legalities": {
         "Commander": "Legal",
         "Duel Commander": "Banned",
+        "Historic": "Banned",
         "Legacy": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -2984,7 +2987,7 @@
       "scryfallSetCode": "ME2",
       "sortedManaCost": "{1}{B}{B}",
       "tcgplayerProductId": -1,
-      "text": "Cumulative upkeep-Pay 1 life. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>At the beginning of each player's upkeep, that player sacrifices a green or white permanent.",
+      "text": "Cumulative upkeep-Pay 1 life. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)<br>At the beginning of each player's upkeep, that player sacrifices a green or white permanent of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -3086,7 +3089,7 @@
       "scryfallSetCode": "ME2",
       "sortedManaCost": "{1}{B}{B}",
       "tcgplayerProductId": -1,
-      "text": "Enchant creature<br>When enchanted creature leaves the battlefield, its controller sacrifices a creature.",
+      "text": "Enchant creature<br>When enchanted creature leaves the battlefield, its controller sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -5840,7 +5843,7 @@
       "scryfallSetCode": "ME2",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": -1,
-      "text": "At the beginning of your upkeep, sacrifice Nature's Wrath unless you pay {G}.<br>Whenever a player puts an Island or blue permanent onto the battlefield, that player sacrifices an Island or blue permanent.<br>Whenever a player puts a Swamp or black permanent onto the battlefield, that player sacrifices a Swamp or black permanent.",
+      "text": "At the beginning of your upkeep, sacrifice Nature's Wrath unless you pay {G}.<br>Whenever a player puts an Island or blue permanent onto the battlefield, that player sacrifices an Island or blue permanent of their choice.<br>Whenever a player puts a Swamp or black permanent onto the battlefield, that player sacrifices a Swamp or black permanent of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -6510,7 +6513,7 @@
       "scryfallSetCode": "ME2",
       "sortedManaCost": "{3}{B}{G}{R}",
       "tcgplayerProductId": -1,
-      "text": "At the beginning of your upkeep, sacrifice Earthlink unless you pay {2}.<br>Whenever a creature dies, that creature's controller sacrifices a land.",
+      "text": "At the beginning of your upkeep, sacrifice Earthlink unless you pay {2}.<br>Whenever a creature dies, that creature's controller sacrifices a land of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -8267,7 +8270,7 @@
     "canBeFoil": true,
     "code_gatherer": "ME2",
     "code_mtgi": "ME2",
-    "digest": "fb752dd675b2649c5922e9bcc3f1082f6e",
+    "digest": "fc12657f06e831fb9c288104595da90920",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ME2_U.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ME2_R.png",

@@ -359,7 +359,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 2818,
-      "text": "{G}: Regenerate Ancient Silverback. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "{G}: Regenerate Ancient Silverback. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 5.0,
       "type": "Creature - Ape",
       "watermark": "Wotc"
@@ -2506,7 +2506,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 2877,
-      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Creature - Skeleton",
       "watermark": "Wotc"
@@ -7476,12 +7476,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -8585,13 +8590,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -8860,7 +8869,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 3048,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura",
       "watermark": "Wotc"
@@ -9753,11 +9762,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -9770,7 +9783,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{W}{W}",
       "tcgplayerProductId": 3073,
-      "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has flying and vigilance.",
+      "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has flying and vigilance. (Attacking doesn't cause it to tap.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura",
       "watermark": "Wotc"
@@ -11233,7 +11246,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 3112,
-      "text": "Whenever a creature enters, its controller sacrifices a creature or land.",
+      "text": "Whenever a creature enters, its controller sacrifices a creature or land of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment",
       "watermark": "Wotc"
@@ -12313,7 +12326,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 3142,
-      "text": "Defender (This creature can't attack.)<br>{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Defender (This creature can't attack.)<br>{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 4.0,
       "type": "Creature - Skeleton Wall",
       "watermark": "Wotc"
@@ -12566,7 +12579,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{4}{R}{R}",
       "tcgplayerProductId": 3149,
-      "text": "Each player sacrifices four lands. Wildfire deals 4 damage to each creature.",
+      "text": "Each player sacrifices four lands of their choice. Wildfire deals 4 damage to each creature.",
       "toughness": -1005.0,
       "type": "Sorcery",
       "watermark": "Wotc"
@@ -12961,7 +12974,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": -1,
-      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Creature - Skeleton"
     },
@@ -15461,11 +15474,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -15478,7 +15495,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{W}{W}",
       "tcgplayerProductId": 3073,
-      "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has flying and vigilance.",
+      "text": "Enchant creature<br>Enchanted creature gets +2/+2 and has flying and vigilance. (Attacking doesn't cause it to tap.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -18165,12 +18182,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -20387,7 +20409,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 2877,
-      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Creature - Skeleton"
     },
@@ -20422,7 +20444,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": -1,
-      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Creature - Skeleton"
     },
@@ -22600,7 +22622,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 3112,
-      "text": "Whenever a creature enters, its controller sacrifices a creature or land.",
+      "text": "Whenever a creature enters, its controller sacrifices a creature or land of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -22713,7 +22735,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 3142,
-      "text": "Defender (This creature can't attack.)<br>{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Defender (This creature can't attack.)<br>{B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 4.0,
       "type": "Creature - Skeleton Wall"
     },
@@ -26061,7 +26083,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{4}{R}{R}",
       "tcgplayerProductId": 3149,
-      "text": "Each player sacrifices four lands. Wildfire deals 4 damage to each creature.",
+      "text": "Each player sacrifices four lands of their choice. Wildfire deals 4 damage to each creature.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -26174,7 +26196,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 2818,
-      "text": "{G}: Regenerate Ancient Silverback. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "{G}: Regenerate Ancient Silverback. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 5.0,
       "type": "Creature - Ape"
     },
@@ -27979,13 +28001,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -28168,7 +28194,7 @@
       "scryfallSetCode": "7ED",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 3048,
-      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+      "text": "Enchant creature (Target a creature as you cast this. This card enters attached to that creature.)<br>{G}: Regenerate enchanted creature. (The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -33094,7 +33120,7 @@
     "canBeFoil": true,
     "code_gatherer": "7E",
     "code_mtgi": "7ED",
-    "digest": "f8483eff73fcf140e17749b083aeb893a3",
+    "digest": "f331eb5815a92c6a3adcfdb19c4cd11169",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/7E_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/7E_U.png",

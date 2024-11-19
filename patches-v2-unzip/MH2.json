@@ -1732,10 +1732,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -5290,7 +5294,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{U}{U}",
       "tcgplayerProductId": 239741,
-      "text": "Flash<br>Flying<br>When Subtlety enters, choose up to one target creature spell or planeswalker spell. Its owner puts it on the top or bottom of their library.<br>Evoke-Exile a blue card from your hand.",
+      "text": "Flash<br>Flying<br>When Subtlety enters, choose up to one target creature spell or planeswalker spell. Its owner puts it on their choice of the top or bottom of their library.<br>Evoke-Exile a blue card from your hand.",
       "toughness": 3.0,
       "type": "Creature - Elemental Incarnation"
     },
@@ -5596,7 +5600,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{6}{U}",
       "tcgplayerProductId": 240167,
-      "text": "Affinity for artifacts<br>Flying<br>When Thought Monitor enters, draw two cards.",
+      "text": "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)<br>Flying<br>When Thought Monitor enters, draw two cards.",
       "toughness": 2.0,
       "type": "Artifact Creature - Construct"
     },
@@ -5898,7 +5902,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{6}{B}{B}",
       "tcgplayerProductId": 240156,
-      "text": "Flying<br>Whenever Archon of Cruelty enters or attacks, target opponent sacrifices a creature or planeswalker, discards a card, and loses 3 life. You draw a card and gain 3 life.",
+      "text": "Flying<br>Whenever Archon of Cruelty enters or attacks, target opponent sacrifices a creature or planeswalker of their choice, discards a card, and loses 3 life. You draw a card and gain 3 life.",
       "toughness": 6.0,
       "type": "Creature - Archon"
     },
@@ -7834,7 +7838,7 @@
       "scryfallSetCode": "MH2",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 240136,
-      "text": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)<br>Target player sacrifices a creature.",
+      "text": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)<br>Target player sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -8427,6 +8431,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -12164,7 +12169,7 @@
       "scryfallSetCode": "MH2",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 240462,
-      "text": "Vigilance<br>{5}{G}, {T}: Draw a card. This ability costs {1} less to activate for each +1/+1 counter on creatures you control.",
+      "text": "Vigilance (Attacking doesn't cause this creature to tap.)<br>{5}{G}, {T}: Draw a card. This ability costs {1} less to activate for each +1/+1 counter on creatures you control.",
       "toughness": 2.0,
       "type": "Creature - Elf Warrior"
     },
@@ -12244,7 +12249,7 @@
       "scryfallSetCode": "MH2",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 240460,
-      "text": "When Duskshell Crawler enters, put a +1/+1 counter on target creature.<br>Each creature you control with a +1/+1 counter on it has trample.",
+      "text": "When Duskshell Crawler enters, put a +1/+1 counter on target creature.<br>Each creature you control with a +1/+1 counter on it has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": 3.0,
       "type": "Creature - Insect"
     },
@@ -13220,12 +13225,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -21240,7 +21249,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 240059,
-      "text": "At the beginning of each player's upkeep, that player sacrifices an artifact, creature, or land.",
+      "text": "At the beginning of each player's upkeep, that player sacrifices an artifact, creature, or land of their choice.",
       "toughness": 2.0,
       "type": "Legendary Creature - Human Minion",
       "watermark": "Set"
@@ -23262,7 +23271,7 @@
       "scryfallSetCode": "MH2",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 240446,
-      "text": "Discard a card: Regenerate Patchwork Gnomes. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "Discard a card: Regenerate Patchwork Gnomes. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Artifact Creature - Gnome",
       "watermark": "Set"
@@ -24025,7 +24034,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{U}{U}",
       "tcgplayerProductId": 239756,
-      "text": "Flash<br>Flying<br>When Subtlety enters, choose up to one target creature spell or planeswalker spell. Its owner puts it on the top or bottom of their library.<br>Evoke-Exile a blue card from your hand.",
+      "text": "Flash<br>Flying<br>When Subtlety enters, choose up to one target creature spell or planeswalker spell. Its owner puts it on their choice of the top or bottom of their library.<br>Evoke-Exile a blue card from your hand.",
       "toughness": 3.0,
       "type": "Creature - Elemental Incarnation"
     },
@@ -25685,10 +25694,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -26466,7 +26479,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{6}{U}",
       "tcgplayerProductId": 240260,
-      "text": "Affinity for artifacts<br>Flying<br>When Thought Monitor enters, draw two cards.",
+      "text": "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)<br>Flying<br>When Thought Monitor enters, draw two cards.",
       "toughness": 2.0,
       "type": "Artifact Creature - Construct"
     },
@@ -26540,7 +26553,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{6}{B}{B}",
       "tcgplayerProductId": 240218,
-      "text": "Flying<br>Whenever Archon of Cruelty enters or attacks, target opponent sacrifices a creature or planeswalker, discards a card, and loses 3 life. You draw a card and gain 3 life.",
+      "text": "Flying<br>Whenever Archon of Cruelty enters or attacks, target opponent sacrifices a creature or planeswalker of their choice, discards a card, and loses 3 life. You draw a card and gain 3 life.",
       "toughness": 6.0,
       "type": "Creature - Archon"
     },
@@ -26851,7 +26864,7 @@
       "scryfallSetCode": "MH2",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 240273,
-      "text": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)<br>Target player sacrifices a creature.",
+      "text": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)<br>Target player sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -31216,6 +31229,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -37224,7 +37238,7 @@
     "canBeFoil": true,
     "code_gatherer": "MH2",
     "code_mtgi": "MH2",
-    "digest": "f8761105f87bcbf0166b9b5d13be7bf77c",
+    "digest": "f87f3bbd4e62b935048178e68a900c1e84",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MH2_U.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MH2_C.png",

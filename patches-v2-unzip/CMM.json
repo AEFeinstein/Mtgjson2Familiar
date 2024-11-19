@@ -215,7 +215,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{11}",
       "tcgplayerProductId": 507113,
-      "text": "Annihilator 3 (Whenever this creature attacks, defending player sacrifices three permanents.)<br>Pathrazer of Ulamog can't be blocked except by three or more creatures.",
+      "text": "Annihilator 3 (Whenever this creature attacks, defending player sacrifices three permanents of their choice.)<br>Pathrazer of Ulamog can't be blocked except by three or more creatures.",
       "toughness": 9.0,
       "type": "Creature - Eldrazi"
     },
@@ -332,7 +332,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{8}",
       "tcgplayerProductId": 503604,
-      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)<br>Ulamog's Crusher attacks each combat if able.",
+      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)<br>Ulamog's Crusher attacks each combat if able.",
       "toughness": 8.0,
       "type": "Creature - Eldrazi"
     },
@@ -1313,7 +1313,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 507177,
-      "text": "Double strike",
+      "text": "Double strike (This creature deals both first-strike and regular combat damage.)",
       "toughness": 1.0,
       "type": "Creature - Human Soldier"
     },
@@ -1811,6 +1811,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -1836,7 +1837,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{W}{W}",
       "tcgplayerProductId": 504556,
-      "text": "First strike<br>{3}{W}{W}: Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.",
+      "text": "First strike (This creature deals combat damage before creatures without first strike.)<br>{3}{W}{W}: Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.",
       "toughness": 4.0,
       "type": "Legendary Creature - Cat Warrior"
     },
@@ -2332,7 +2333,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 507511,
-      "text": "Equipped creature gets +1/+1 for each charge counter on Mace of the Valiant and has vigilance.<br>Whenever a creature you control enters, put a charge counter on Mace of the Valiant.<br>Equip {3}",
+      "text": "Equipped creature gets +1/+1 for each charge counter on Mace of the Valiant and has vigilance. (Attacking doesn't cause it to tap.)<br>Whenever a creature you control enters, put a charge counter on Mace of the Valiant.<br>Equip {3}",
       "toughness": -1005.0,
       "type": "Artifact - Equipment"
     },
@@ -3502,12 +3503,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -3520,7 +3525,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 507099,
-      "text": "As long as Sunspear Shikari is equipped, it has first strike and lifelink.",
+      "text": "As long as Sunspear Shikari is equipped, it has first strike and lifelink. (It deals combat damage before creatures without first strike. Damage dealt by it also causes you to gain that much life.)",
       "toughness": 2.0,
       "type": "Creature - Cat Soldier"
     },
@@ -4040,6 +4045,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6207,7 +6213,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 507147,
-      "text": "Artifacts you control have hexproof.<br>At the beginning of your upkeep, if you control the artifact with the highest mana value or tied for the highest mana value, draw a card.",
+      "text": "Artifacts you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)<br>At the beginning of your upkeep, if you control the artifact with the highest mana value or tied for the highest mana value, draw a card.",
       "toughness": 4.0,
       "type": "Legendary Creature - Vedalken Artificer"
     },
@@ -6766,6 +6772,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7241,7 +7248,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{3}{U}{U}",
       "tcgplayerProductId": 507139,
-      "text": "Flash<br>Flying<br>Spells you cast with mana value 5 or greater cost {1} less to cast and can't be countered.",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Flying<br>Spells you cast with mana value 5 or greater cost {1} less to cast and can't be countered.",
       "toughness": 5.0,
       "type": "Legendary Creature - Elemental Giant"
     },
@@ -8513,7 +8520,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 507440,
-      "text": "When Demon's Disciple enters, each player sacrifices a creature or planeswalker.",
+      "text": "When Demon's Disciple enters, each player sacrifices a creature or planeswalker of their choice.",
       "toughness": 1.0,
       "type": "Creature - Human Cleric"
     },
@@ -8893,6 +8900,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9063,6 +9071,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9364,10 +9373,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper Commander": "Restricted",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -9440,7 +9453,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{B}{B}{B}",
       "tcgplayerProductId": 504568,
-      "text": "Whenever a creature you control dies, each other player sacrifices a creature.",
+      "text": "Whenever a creature you control dies, each other player sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -10320,7 +10333,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 504532,
-      "text": "Flying, haste<br>Whenever Rankle, Master of Pranks deals combat damage to a player, choose any number -<br>• Each player discards a card.<br>• Each player loses 1 life and draws a card.<br>• Each player sacrifices a creature.",
+      "text": "Flying, haste<br>Whenever Rankle, Master of Pranks deals combat damage to a player, choose any number -<br>• Each player discards a card.<br>• Each player loses 1 life and draws a card.<br>• Each player sacrifices a creature of their choice.",
       "toughness": 3.0,
       "type": "Legendary Creature - Faerie Rogue"
     },
@@ -10419,13 +10432,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -10476,6 +10494,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -10539,6 +10558,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -11145,7 +11165,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{5}{B}",
       "tcgplayerProductId": 507238,
-      "text": "{B}: Regenerate Twisted Abomination. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)<br>Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
+      "text": "{B}: Regenerate Twisted Abomination. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)<br>Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
       "toughness": 3.0,
       "type": "Creature - Zombie Mutant"
     },
@@ -11258,7 +11278,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 504489,
-      "text": "When Vindictive Lich dies, choose one or more. Each mode must target a different player.<br>• Target opponent sacrifices a creature.<br>• Target opponent discards two cards.<br>• Target opponent loses 5 life.",
+      "text": "When Vindictive Lich dies, choose one or more. Each mode must target a different player.<br>• Target opponent sacrifices a creature of their choice.<br>• Target opponent discards two cards.<br>• Target opponent loses 5 life.",
       "toughness": 1.0,
       "type": "Creature - Zombie Wizard"
     },
@@ -12392,6 +12412,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -12452,6 +12473,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -12747,7 +12769,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": 510091,
-      "text": "Draw a card. Until end of turn, target creature gains trample and gets +1/+0 for each card you've drawn this turn.",
+      "text": "Draw a card. Until end of turn, target creature gains trample and gets +1/+0 for each card you've drawn this turn. (A creature with trample can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -13038,6 +13060,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13255,6 +13278,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13520,6 +13544,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -14053,6 +14078,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15648,6 +15674,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15981,6 +16008,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -16249,6 +16277,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -16472,6 +16501,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -18302,6 +18332,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -18521,12 +18552,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -18628,6 +18663,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -20001,6 +20037,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -20799,6 +20836,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -21547,6 +21585,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -22192,6 +22231,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -23260,11 +23300,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -23611,6 +23655,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -25712,6 +25757,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -25737,7 +25783,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{W}{W}",
       "tcgplayerProductId": 504575,
-      "text": "First strike<br>{3}{W}{W}: Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.",
+      "text": "First strike (This creature deals combat damage before creatures without first strike.)<br>{3}{W}{W}: Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.",
       "toughness": 4.0,
       "type": "Legendary Creature - Cat Warrior"
     },
@@ -26512,6 +26558,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -28338,7 +28385,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{B}{B}{B}",
       "tcgplayerProductId": 504613,
-      "text": "Whenever a creature you control dies, each other player sacrifices a creature.",
+      "text": "Whenever a creature you control dies, each other player sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -28655,7 +28702,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 504733,
-      "text": "Flying, haste<br>Whenever Rankle, Master of Pranks deals combat damage to a player, choose any number -<br>• Each player discards a card.<br>• Each player loses 1 life and draws a card.<br>• Each player sacrifices a creature.",
+      "text": "Flying, haste<br>Whenever Rankle, Master of Pranks deals combat damage to a player, choose any number -<br>• Each player discards a card.<br>• Each player loses 1 life and draws a card.<br>• Each player sacrifices a creature of their choice.",
       "toughness": 3.0,
       "type": "Legendary Creature - Faerie Rogue"
     },
@@ -28746,6 +28793,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -28981,7 +29029,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 504490,
-      "text": "When Vindictive Lich dies, choose one or more. Each mode must target a different player.<br>• Target opponent sacrifices a creature.<br>• Target opponent discards two cards.<br>• Target opponent loses 5 life.",
+      "text": "When Vindictive Lich dies, choose one or more. Each mode must target a different player.<br>• Target opponent sacrifices a creature of their choice.<br>• Target opponent discards two cards.<br>• Target opponent loses 5 life.",
       "toughness": 1.0,
       "type": "Creature - Zombie Wizard"
     },
@@ -29466,6 +29514,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -29880,6 +29929,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -30611,6 +30661,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -30826,6 +30877,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -33119,6 +33171,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -34904,6 +34957,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -34988,7 +35042,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{B}{B}{B}",
       "tcgplayerProductId": 504531,
-      "text": "Whenever a creature you control dies, each other player sacrifices a creature.",
+      "text": "Whenever a creature you control dies, each other player sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -37654,6 +37708,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -39119,7 +39174,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{8}{C}{C}",
       "tcgplayerProductId": 506761,
-      "text": "When you cast this spell, gain control of target creature until end of turn. Untap that creature. Until end of turn, it has base power and toughness 10/10 and gains trample, annihilator 2, and haste.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)<br>Trample",
+      "text": "When you cast this spell, gain control of target creature until end of turn. Untap that creature. Until end of turn, it has base power and toughness 10/10 and gains trample, annihilator 2, and haste.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)<br>Trample",
       "toughness": 10.0,
       "type": "Creature - Eldrazi"
     },
@@ -40582,7 +40637,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{8}{C}{C}",
       "tcgplayerProductId": 507086,
-      "text": "When you cast this spell, gain control of target creature until end of turn. Untap that creature. Until end of turn, it has base power and toughness 10/10 and gains trample, annihilator 2, and haste.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)<br>Trample",
+      "text": "When you cast this spell, gain control of target creature until end of turn. Untap that creature. Until end of turn, it has base power and toughness 10/10 and gains trample, annihilator 2, and haste.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)<br>Trample",
       "toughness": 10.0,
       "type": "Creature - Eldrazi"
     },
@@ -43309,7 +43364,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{9}",
       "tcgplayerProductId": 506721,
-      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)",
+      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)",
       "toughness": 9.0,
       "type": "Creature - Eldrazi"
     },
@@ -43499,7 +43554,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{12}",
       "tcgplayerProductId": 506648,
-      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)<br>Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control.",
+      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)<br>Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control.",
       "toughness": 11.0,
       "type": "Creature - Eldrazi"
     },
@@ -43935,7 +43990,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{W}{W}",
       "tcgplayerProductId": 505974,
-      "text": "Flying, lifelink<br>Pegasus creatures you control have lifelink.<br>Constellation - Whenever an enchantment you control enters, create a 2/2 white Pegasus creature token with flying.",
+      "text": "Flying<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)<br>Pegasus creatures you control have lifelink.<br>Constellation - Whenever an enchantment you control enters, create a 2/2 white Pegasus creature token with flying.",
       "toughness": 4.0,
       "type": "Creature - Archon"
     },
@@ -44269,6 +44324,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -45625,6 +45681,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -46583,7 +46640,7 @@
       "scryfallSetCode": "CMM",
       "sortedManaCost": "{4}{B}",
       "tcgplayerProductId": 506014,
-      "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I - Each opponent sacrifices a creature or planeswalker.<br>II - Each opponent discards a card.<br>III - Put target creature or planeswalker card from a graveyard onto the battlefield under your control.",
+      "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)<br>I - Each opponent sacrifices a creature or planeswalker of their choice.<br>II - Each opponent discards a card.<br>III - Put target creature or planeswalker card from a graveyard onto the battlefield under your control.",
       "toughness": -1005.0,
       "type": "Enchantment - Saga"
     },
@@ -48638,13 +48695,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -50686,6 +50747,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -50845,6 +50907,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -51190,6 +51253,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -51902,6 +51966,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -52003,6 +52068,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -54639,6 +54705,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -55160,6 +55227,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -55212,6 +55280,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -55264,6 +55333,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -55316,6 +55386,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -55368,6 +55439,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -55464,6 +55536,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -56507,7 +56580,7 @@
     "canBeFoil": true,
     "code_gatherer": "CMM",
     "code_mtgi": "CMM",
-    "digest": "faa9460c4fff39d5705e93f2e4f24cbe19",
+    "digest": "f7b15ff424d69e3ffa7df2100aa21227af",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMM_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMM_U.png",

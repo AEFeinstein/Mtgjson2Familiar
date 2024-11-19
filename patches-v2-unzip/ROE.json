@@ -128,7 +128,7 @@
       "scryfallSetCode": "ROE",
       "sortedManaCost": "{9}",
       "tcgplayerProductId": 34696,
-      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)",
+      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)",
       "toughness": 9.0,
       "type": "Creature - Eldrazi"
     },
@@ -194,7 +194,7 @@
       "scryfallSetCode": "ROE",
       "sortedManaCost": "{8}",
       "tcgplayerProductId": 34697,
-      "text": "Enchant creature<br>Enchanted creature gets +10/+10 and has trample and annihilator 2. (Whenever it attacks, defending player sacrifices two permanents.)",
+      "text": "Enchant creature<br>Enchanted creature gets +10/+10 and has trample and annihilator 2. (Whenever it attacks, defending player sacrifices two permanents of their choice.)",
       "toughness": -1005.0,
       "type": "Kindred Enchantment - Eldrazi Aura"
     },
@@ -327,7 +327,7 @@
       "scryfallSetCode": "ROE",
       "sortedManaCost": "{9}",
       "tcgplayerProductId": 34699,
-      "text": "You may sacrifice four Eldrazi Spawn rather than pay this spell's mana cost.<br>Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.)",
+      "text": "You may sacrifice four Eldrazi Spawn rather than pay this spell's mana cost.<br>Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent of their choice.)",
       "toughness": 7.0,
       "type": "Creature - Eldrazi"
     },
@@ -392,7 +392,7 @@
       "scryfallSetCode": "ROE",
       "sortedManaCost": "{10}",
       "tcgplayerProductId": 34700,
-      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, draw four cards.<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Kozilek, Butcher of Truth is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 12.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -458,7 +458,7 @@
       "scryfallSetCode": "ROE",
       "sortedManaCost": "{12}",
       "tcgplayerProductId": 34701,
-      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)<br>Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control.",
+      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)<br>Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control.",
       "toughness": 11.0,
       "type": "Creature - Eldrazi"
     },
@@ -590,7 +590,7 @@
       "scryfallSetCode": "ROE",
       "sortedManaCost": "{11}",
       "tcgplayerProductId": 34703,
-      "text": "Annihilator 3 (Whenever this creature attacks, defending player sacrifices three permanents.)<br>Pathrazer of Ulamog can't be blocked except by three or more creatures.",
+      "text": "Annihilator 3 (Whenever this creature attacks, defending player sacrifices three permanents of their choice.)<br>Pathrazer of Ulamog can't be blocked except by three or more creatures.",
       "toughness": 9.0,
       "type": "Creature - Eldrazi"
     },
@@ -721,7 +721,7 @@
       "scryfallSetCode": "ROE",
       "sortedManaCost": "{10}",
       "tcgplayerProductId": 34705,
-      "text": "Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.)<br>{4}: Create two 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\"<br>{20}: Cast any number of Eldrazi spells from among cards you own outside the game without paying their mana costs.",
+      "text": "Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent of their choice.)<br>{4}: Create two 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\"<br>{20}: Cast any number of Eldrazi spells from among cards you own outside the game without paying their mana costs.",
       "toughness": 11.0,
       "type": "Creature - Eldrazi"
     },
@@ -786,7 +786,7 @@
       "scryfallSetCode": "ROE",
       "sortedManaCost": "{11}",
       "tcgplayerProductId": 34706,
-      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
+      "text": "When you cast this spell, destroy target permanent.<br>Indestructible<br>Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents of their choice.)<br>When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.",
       "toughness": 10.0,
       "type": "Legendary Creature - Eldrazi"
     },
@@ -854,7 +854,7 @@
       "scryfallSetCode": "ROE",
       "sortedManaCost": "{8}",
       "tcgplayerProductId": 34707,
-      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)<br>Ulamog's Crusher attacks each combat if able.",
+      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)<br>Ulamog's Crusher attacks each combat if able.",
       "toughness": 8.0,
       "type": "Creature - Eldrazi"
     },
@@ -2801,12 +2801,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4467,6 +4471,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6790,7 +6795,7 @@
       "scryfallSetCode": "ROE",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 34795,
-      "text": "Target player sacrifices a creature. You gain life equal to that creature's toughness.<br>Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+      "text": "Target player sacrifices a creature of their choice. You gain life equal to that creature's toughness.<br>Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -9125,6 +9130,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13744,6 +13750,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -14363,6 +14370,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -16929,7 +16937,7 @@
     "canBeFoil": true,
     "code_gatherer": "ROE",
     "code_mtgi": "ROE",
-    "digest": "0605117646760982322e4d8a943518ac48",
+    "digest": "051c579126b556a8047e47011087fe4e39",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ROE_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ROE_U.png",

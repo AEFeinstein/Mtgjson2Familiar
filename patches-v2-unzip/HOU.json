@@ -2343,13 +2343,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -6075,7 +6080,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{B}{B}{X}",
       "tcgplayerProductId": 135074,
-      "text": "Repeat the following process X times. Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.",
+      "text": "Repeat the following process X times. Each opponent loses 3 life unless that player sacrifices a nonland permanent of their choice or discards a card.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -6155,7 +6160,7 @@
       "scryfallSetCode": "HOU",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 135076,
-      "text": "Enchant player<br>At the beginning of enchanted player's upkeep, that player loses 3 life unless they sacrifice a nonland permanent or discard a card.",
+      "text": "Enchant player<br>At the beginning of enchanted player's upkeep, that player loses 3 life unless they sacrifice a nonland permanent of their choice or discard a card.",
       "toughness": -1005.0,
       "type": "Enchantment - Aura Curse"
     },
@@ -6232,7 +6237,7 @@
       "scryfallSetCode": "HOU",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 135075,
-      "text": "Put three -1/-1 counters on target creature. Its controller loses 3 life unless they sacrifice another nonland permanent or discards a card.",
+      "text": "Put three -1/-1 counters on target creature. Its controller loses 3 life unless they sacrifice another nonland permanent of their choice or discard a card.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -6928,6 +6933,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7249,6 +7255,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7963,6 +7970,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9906,7 +9914,7 @@
       "scryfallSetCode": "HOU",
       "sortedManaCost": "{3}{G}{G}",
       "tcgplayerProductId": 136707,
-      "text": "Creatures you control get +2/+2 and gain trample until end of turn.",
+      "text": "Creatures you control get +2/+2 and gain trample until end of turn. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -14961,7 +14969,7 @@
       "rarity": "U",
       "scryfallSetCode": "HOU",
       "tcgplayerProductId": 135090,
-      "text": "{T}: Add {C}.<br>{T}, Pay 1 life: Add {U}.<br>{1}{U}, {T}, Sacrifice a Desert: Target player mills four cards.",
+      "text": "{T}: Add {C}.<br>{T}, Pay 1 life: Add {U}.<br>{1}{U}, {T}, Sacrifice a Desert: Target player mills four cards. (They put the top four cards of their library into their graveyard.)",
       "toughness": -1005.0,
       "type": "Land - Desert"
     },
@@ -16972,7 +16980,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}{B}{R}{U}",
       "tcgplayerProductId": 134880,
-      "text": "[+3]: Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.<br>[−3]: Destroy target creature. Draw a card.<br>[−11]: Nicol Bolas, the Deceiver deals 7 damage to each opponent. You draw seven cards.",
+      "text": "[+3]: Each opponent loses 3 life unless that player sacrifices a nonland permanent of their choice or discards a card.<br>[−3]: Destroy target creature. Draw a card.<br>[−11]: Nicol Bolas, the Deceiver deals 7 damage to each opponent. You draw seven cards.",
       "toughness": -1005.0,
       "type": "Legendary Planeswalker - Bolas"
     },
@@ -17300,7 +17308,7 @@
     "canBeFoil": true,
     "code_gatherer": "HOU",
     "code_mtgi": "HOU",
-    "digest": "fd347467f705874bc2672dd089a4cc65e4",
+    "digest": "fbb8d476a45a083f1473d143edecbd79a3",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HOU_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HOU_R.png",
