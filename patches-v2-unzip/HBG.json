@@ -5780,7 +5780,7 @@
       "securityStamp": "arena",
       "sortedManaCost": "{1}{R}{R}",
       "tcgplayerProductId": -1,
-      "text": "When Uthgardt Fury enters, it deals 4 damage to any target.<br>Damage isn't removed from creatures your opponents control during cleanup steps.",
+      "text": "When Uthgardt Fury enters the battlefield, it deals 4 damage to any target.<br>Damage isn't removed from creatures your opponents control during cleanup steps.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -6226,7 +6226,7 @@
       "scryfallSetCode": "HBG",
       "securityStamp": "arena",
       "tcgplayerProductId": -1,
-      "text": "Gate of the Black Dragon enters tapped.<br>{3}{B}, {T}: Seek a nonland card. Activate only once.<br>{T}: Add {B}.",
+      "text": "({T}: Add {B}.)<br>Gate of the Black Dragon enters the battlefield tapped.<br>{3}{B}, {T}: Seek a nonland card. Activate only once.",
       "toughness": -1005.0,
       "type": "Land - Swamp Gate"
     },
@@ -6256,7 +6256,7 @@
       "scryfallSetCode": "HBG",
       "securityStamp": "arena",
       "tcgplayerProductId": -1,
-      "text": "Gate to Manorborn enters the battlefield tapped.<br>{3}{G}, {T}: Seek a nonland card. Activate only once.<br>{T}: Add {G}.",
+      "text": "({T}: Add {G}.)<br>Gate to Manorborn enters the battlefield tapped.<br>{3}{G}, {T}: Seek a nonland card. Activate only once.",
       "toughness": -1005.0,
       "type": "Land - Forest Gate"
     },
@@ -6286,7 +6286,7 @@
       "scryfallSetCode": "HBG",
       "securityStamp": "arena",
       "tcgplayerProductId": -1,
-      "text": "Gate to Seatower enters tapped.<br>{3}{U}, {T}: Seek a nonland card. Activate only once.<br>{T}: Add {U}.",
+      "text": "({T}: Add {U}.)<br>Gate to Seatower enters the battlefield tapped.<br>{3}{U}, {T}: Seek a nonland card. Activate only once.",
       "toughness": -1005.0,
       "type": "Land - Island Gate"
     },
@@ -6316,7 +6316,7 @@
       "scryfallSetCode": "HBG",
       "securityStamp": "arena",
       "tcgplayerProductId": -1,
-      "text": "Gate to the Citadel enters the battlefield tapped.<br>{3}{W}, {T}: Seek a nonland card. Activate only once.<br>{T}: Add {W}.",
+      "text": "({T}: Add {W}.)<br>Gate to the Citadel enters the battlefield tapped.<br>{3}{W}, {T}: Seek a nonland card. Activate only once.",
       "toughness": -1005.0,
       "type": "Land - Plains Gate"
     },
@@ -6346,7 +6346,7 @@
       "scryfallSetCode": "HBG",
       "securityStamp": "arena",
       "tcgplayerProductId": -1,
-      "text": "Gate to Tumbledown enters tapped.<br>{3}{R}, {T}: Seek a nonland card. Activate only once.<br>{T}: Add {R}.",
+      "text": "({T}: Add {R}.)<br>Gate to Tumbledown enters the battlefield tapped.<br>{3}{R}, {T}: Seek a nonland card. Activate only once.",
       "toughness": -1005.0,
       "type": "Land - Mountain Gate"
     },
@@ -7346,7 +7346,7 @@
       "scryfallSetCode": "HBG",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": -1,
-      "text": "{3}{W}: Creatures you control get +1/+1 and gain vigilance until end of turn. Activate only during your turn.",
+      "text": "{3}{W}: Creatures you control get +1/+1 and gain vigilance until end of turn. Activate only during your turn. (Attacking doesn't cause them to tap.)",
       "toughness": 2.0,
       "type": "Creature - Unicorn"
     },
@@ -8936,7 +8936,7 @@
       "scryfallSetCode": "HBG",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": -1,
-      "text": "When Baleful Beholder enters, choose one -<br>• Antimagic Cone - Each opponent sacrifices an enchantment.<br>• Fear Ray - Creatures you control gain menace until end of turn. (A creature with menace can't be blocked except by two or more creatures.)",
+      "text": "When Baleful Beholder enters, choose one -<br>• Antimagic Cone - Each opponent sacrifices an enchantment of their choice.<br>• Fear Ray - Creatures you control gain menace until end of turn. (A creature with menace can't be blocked except by two or more creatures.)",
       "toughness": 5.0,
       "type": "Creature - Beholder"
     },
@@ -9159,7 +9159,7 @@
       "scryfallSetCode": "HBG",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": -1,
-      "text": "Animate Chains - When Chain Devil enters, each player sacrifices a nontoken creature.",
+      "text": "Animate Chains - When Chain Devil enters, each player sacrifices a nontoken creature of their choice.",
       "toughness": 2.0,
       "type": "Creature - Devil"
     },
@@ -9905,7 +9905,7 @@
       "scryfallSetCode": "HBG",
       "sortedManaCost": "{B}",
       "tcgplayerProductId": -1,
-      "text": "When Shambling Ghast dies, choose one -<br>• Brave the Stench - Target creature an opponent controls gets -1/-1 until end of turn.<br>• Search the Body - Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+      "text": "When Shambling Ghast dies, choose one -<br>• Target creature an opponent controls gets -1/-1 until end of turn.<br>• Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
       "toughness": 1.0,
       "type": "Creature - Zombie"
     },
@@ -10070,6 +10070,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -10096,7 +10097,7 @@
       "scryfallSetCode": "HBG",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": -1,
-      "text": "When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life.",
+      "text": "When this creature enters, each opponent loses 2 life and you gain 2 life.",
       "toughness": 3.0,
       "type": "Creature - Vampire"
     },
@@ -10205,7 +10206,7 @@
       "scryfallSetCode": "HBG",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": -1,
-      "text": "{1}{R}: Goblins you control get +1/+0 and gain haste until end of turn.<br>Pack tactics - Whenever Battle Cry Goblin attacks, if you attacked with creatures with total power 6 or greater this combat, create a 1/1 red Goblin creature token that's tapped and attacking.",
+      "text": "{1}{R}: Goblins you control get +1/+0 and gain haste until end of turn.<br>Whenever Battle Cry Goblin attacks, if you attacked with creatures with total power 6 or greater this combat, create a 1/1 red Goblin creature token that's tapped and attacking.",
       "toughness": 2.0,
       "type": "Creature - Goblin"
     },
@@ -10402,7 +10403,7 @@
       "scryfallSetCode": "HBG",
       "sortedManaCost": "{4}{R}{R}",
       "tcgplayerProductId": -1,
-      "text": "Siege Monster - When Earth-Cult Elemental enters, roll a d20.<br>1-9 | Each player sacrifices a permanent.<br>10-19 | Each opponent sacrifices a permanent.<br>20 | Each opponent sacrifices two permanents.",
+      "text": "Siege Monster - When Earth-Cult Elemental enters, roll a d20.<br>1-9 | Each player sacrifices a permanent of their choice.<br>10-19 | Each opponent sacrifices a permanent of their choice.<br>20 | Each opponent sacrifices two permanents of their choice.",
       "toughness": 6.0,
       "type": "Creature - Elemental"
     },
@@ -12327,7 +12328,7 @@
       "scryfallSetCode": "HBG",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": -1,
-      "text": "When Undercellar Myconid enters or dies, create a 1/1 green Saproling creature token.<br>{T}: Add one mana of any color.",
+      "text": "Whenever Undercellar Myconid enters or dies, create a 1/1 green Saproling creature token.<br>{T}: Add one mana of any color.",
       "toughness": 2.0,
       "type": "Creature - Fungus"
     },
@@ -13282,6 +13283,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13542,6 +13544,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15215,6 +15218,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -15369,7 +15373,7 @@
     "canBeFoil": false,
     "code_gatherer": "HBG",
     "code_mtgi": "HBG",
-    "digest": "36378250ce183286b6f5eb439a2f1385",
+    "digest": "027a1ae709e61d1b5c0e0d6ce8b641353c",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HBG_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/HBG_U.png",

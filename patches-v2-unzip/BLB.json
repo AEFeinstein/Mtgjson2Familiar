@@ -1,6 +1,36 @@
 {
   "cards": [
     {
+      "artist": "Jakub Kasper",
+      "cmc": 1,
+      "color": "R",
+      "colorIdentity": "R",
+      "expansion": "BLB",
+      "foreignPrintings": [],
+      "isFunny": false,
+      "isOnlineOnly": true,
+      "isRebalanced": true,
+      "isToken": false,
+      "legalities": {
+        "Alchemy": "Legal",
+        "Historic": "Legal"
+      },
+      "loyalty": -1005,
+      "manaCost": "{R}",
+      "multiverseId": -1,
+      "name": "A-Heartfire Hero",
+      "number": "A-138",
+      "power": 0.0,
+      "rarity": "U",
+      "scryfallSetCode": "BLB",
+      "securityStamp": "arena",
+      "sortedManaCost": "{R}",
+      "tcgplayerProductId": -1,
+      "text": "Valiant - Whenever Heartfire Hero becomes the target of a spell or ability you control for the first time each turn, put a +1/+1 counter on it.<br>When Heartfire Hero dies, it deals damage equal to its power to each opponent.",
+      "toughness": 1.0,
+      "type": "Creature - Mouse Soldier"
+    },
+    {
       "artist": "Zoltan Boros",
       "cmc": 3,
       "color": "W",
@@ -1522,7 +1552,7 @@
       "scryfallSetCode": "BLB",
       "sortedManaCost": "{W}{W}",
       "tcgplayerProductId": 558346,
-      "text": "Gift a tapped Fish (You may promise an opponent a gift as you cast this spell. If you do, they create a tapped 1/1 blue Fish creature token before its other effects.)<br>Exile target nontoken creature. If the gift wasn't promised, return that creature to the battlefield under its owner's control with a +1/+1 counter on it at the beginning of the next end step.",
+      "text": "Gift a tapped Fish (You may promise an opponent a gift as you cast this spell. If you do, they create a tapped 1/1 blue Fish creature token before its other effects.)<br>Exile target nontoken creature. If the gift wasn't promised, return that card to the battlefield under its owner's control with a +1/+1 counter on it at the beginning of the next end step.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -2931,7 +2961,7 @@
       "scryfallSetCode": "BLB",
       "sortedManaCost": "{3}{U}",
       "tcgplayerProductId": 559749,
-      "text": "This spell costs {1} less to cast if it targets an attacking or tapped creature.<br>Target creature's owner puts it on the top or bottom of their library.",
+      "text": "This spell costs {1} less to cast if it targets an attacking or tapped creature.<br>Target creature's owner puts it on their choice of the top or bottom of their library.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -6809,7 +6839,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}{B}",
       "tcgplayerProductId": 559521,
-      "text": "As an additional cost to cast this spell, you may sacrifice any number of nonland permanents. This spell costs {1} less to cast for each permanent sacrificed this way.<br>Whenever Rottenmouth Viper enters or attacks, put a blight counter on it. Then for each blight counter on it, each opponent loses 4 life unless that player sacrifices a nonland permanent or discards a card.",
+      "text": "As an additional cost to cast this spell, you may sacrifice any number of nonland permanents. This spell costs {1} less to cast for each permanent sacrificed this way.<br>Whenever Rottenmouth Viper enters or attacks, put a blight counter on it. Then for each blight counter on it, each opponent loses 4 life unless that player sacrifices a nonland permanent of their choice or discards a card.",
       "toughness": 6.0,
       "type": "Creature - Elemental Snake"
     },
@@ -7128,7 +7158,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{B}{B}",
       "tcgplayerProductId": 558388,
-      "text": "Choose up to five {P} worth of modes. You may choose the same mode more than once.<br>{P} - Each player sacrifices a creature.<br>{P}{P} - Draw a card for each creature you controlled that died this turn.<br>{P}{P}{P} - Each opponent loses X life, where X is the number of creature cards in your graveyard.",
+      "text": "Choose up to five {P} worth of modes. You may choose the same mode more than once.<br>{P} - Each player sacrifices a creature of their choice.<br>{P}{P} - Draw a card for each creature that died under your control this turn.<br>{P}{P}{P} - Each opponent loses X life, where X is the number of creature cards in your graveyard.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -7446,7 +7476,7 @@
       "scryfallSetCode": "BLB",
       "sortedManaCost": "{3}{B}",
       "tcgplayerProductId": 559153,
-      "text": "Offspring {3} (You may pay an additional {3} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.)<br>When this creature enters, target opponent loses 3 life unless they sacrifice a nonland permanent or discard a card.",
+      "text": "Offspring {3} (You may pay an additional {3} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.)<br>When this creature enters, target opponent loses 3 life unless they sacrifice a nonland permanent of their choice or discard a card.",
       "toughness": 3.0,
       "type": "Creature - Rat Rogue"
     },
@@ -8756,13 +8786,10 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
-        "Alchemy": "Legal",
-        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
         "Explorer": "Legal",
         "Gladiator": "Legal",
-        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
@@ -14839,7 +14866,7 @@
       "scryfallSetCode": "BLB",
       "sortedManaCost": "{3}{B}{W}",
       "tcgplayerProductId": 558354,
-      "text": "Flying, vigilance<br>At the beginning of your end step, if you gained or lost life this turn, target opponent loses 3 life unless they sacrifice a nonland permanent or discard a card.",
+      "text": "Flying, vigilance<br>At the beginning of your end step, if you gained or lost life this turn, target opponent loses 3 life unless they sacrifice a nonland permanent of their choice or discard a card.",
       "toughness": 5.0,
       "type": "Creature - Bat Warlock"
     },
@@ -15223,7 +15250,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{U}",
       "tcgplayerProductId": 558680,
-      "text": "Ward {2}<br>If a creature an opponent controls would die, exile it instead.<br>At the beginning of each end step, create X 1/1 black Rat creature tokens with \"This creature gets +1/+1 for each other Rat you control,\" where X is the number of creatures your opponents controlled that were exiled this turn.",
+      "text": "Ward {2}<br>If a creature an opponent controls would die, exile it instead.<br>At the beginning of each end step, create X 1/1 black Rat creature tokens with \"This creature gets +1/+1 for each other Rat you control,\" where X is the number of creatures that were exiled under your opponents' control this turn.",
       "toughness": 4.0,
       "type": "Legendary Creature - Rat Rogue"
     },
@@ -16595,7 +16622,7 @@
       "rarity": "C",
       "scryfallSetCode": "BLB",
       "tcgplayerProductId": 559113,
-      "text": "Uncharted Haven enters tapped. As it enters, choose a color.<br>{T}: Add one mana of the chosen color.",
+      "text": "This land enters tapped. As it enters, choose a color.<br>{T}: Add one mana of the chosen color.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -17624,7 +17651,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{B}{B}",
       "tcgplayerProductId": 558390,
-      "text": "Choose up to five {P} worth of modes. You may choose the same mode more than once.<br>{P} - Each player sacrifices a creature.<br>{P}{P} - Draw a card for each creature you controlled that died this turn.<br>{P}{P}{P} - Each opponent loses X life, where X is the number of creature cards in your graveyard.",
+      "text": "Choose up to five {P} worth of modes. You may choose the same mode more than once.<br>{P} - Each player sacrifices a creature of their choice.<br>{P}{P} - Draw a card for each creature that died under your control this turn.<br>{P}{P}{P} - Each opponent loses X life, where X is the number of creature cards in your graveyard.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -18002,7 +18029,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}{B}",
       "tcgplayerProductId": 559524,
-      "text": "As an additional cost to cast this spell, you may sacrifice any number of nonland permanents. This spell costs {1} less to cast for each permanent sacrificed this way.<br>Whenever Rottenmouth Viper enters or attacks, put a blight counter on it. Then for each blight counter on it, each opponent loses 4 life unless that player sacrifices a nonland permanent or discards a card.",
+      "text": "As an additional cost to cast this spell, you may sacrifice any number of nonland permanents. This spell costs {1} less to cast for each permanent sacrificed this way.<br>Whenever Rottenmouth Viper enters or attacks, put a blight counter on it. Then for each blight counter on it, each opponent loses 4 life unless that player sacrifices a nonland permanent of their choice or discards a card.",
       "toughness": 6.0,
       "type": "Creature - Elemental Snake"
     },
@@ -21767,7 +21794,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{U}",
       "tcgplayerProductId": 558681,
-      "text": "Ward {2}<br>If a creature an opponent controls would die, exile it instead.<br>At the beginning of each end step, create X 1/1 black Rat creature tokens with \"This creature gets +1/+1 for each other Rat you control,\" where X is the number of creatures your opponents controlled that were exiled this turn.",
+      "text": "Ward {2}<br>If a creature an opponent controls would die, exile it instead.<br>At the beginning of each end step, create X 1/1 black Rat creature tokens with \"This creature gets +1/+1 for each other Rat you control,\" where X is the number of creatures that were exiled under your opponents' control this turn.",
       "toughness": 4.0,
       "type": "Legendary Creature - Rat Rogue"
     },
@@ -24288,7 +24315,7 @@
     "canBeFoil": true,
     "code_gatherer": "BLB",
     "code_mtgi": "BLB",
-    "digest": "e3331924ca4b3f525116ee2ad503d090",
+    "digest": "00b350a261742b0c9f0f5b1d160a249a4c",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/BLB_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/BLB_M.png",

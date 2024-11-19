@@ -34,7 +34,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{R}{U}",
       "tcgplayerProductId": 129365,
-      "text": "{2}, Exile a nonland card from your hand: Put four time counters on the exiled card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, you may cast it without paying its mana cost. If it's a creature, it has haste.)",
+      "text": "{2}, Exile a nonland card from your hand: Put four time counters on the exiled card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. If it's a creature, it has haste.)",
       "toughness": 2.0,
       "type": "Legendary Creature - Human Wizard"
     },
@@ -1466,11 +1466,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -1626,12 +1630,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -1644,7 +1652,7 @@
       "scryfallSetCode": "DDS",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": 129483,
-      "text": "Whenever another creature you control enters, Kruin Striker gets +1/+0 and gains trample until end of turn.",
+      "text": "Whenever another creature you control enters, Kruin Striker gets +1/+0 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": 1.0,
       "type": "Creature - Human Warrior"
     },
@@ -1945,13 +1953,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -2387,6 +2399,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -2703,7 +2716,7 @@
     "canBeFoil": true,
     "code_gatherer": "DDS",
     "code_mtgi": "DDS",
-    "digest": "012531c95b06f1802c2743ddc8cca3e278",
+    "digest": "3cca4467b36214bd697891a8b378ae8c",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDS_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/DDS_R.png",

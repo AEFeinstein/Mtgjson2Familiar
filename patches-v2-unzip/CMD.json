@@ -50,7 +50,7 @@
       "scryfallSetCode": "CMD",
       "sortedManaCost": "{9}",
       "tcgplayerProductId": 47344,
-      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)",
+      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)",
       "toughness": 9.0,
       "type": "Creature - Eldrazi"
     },
@@ -1026,7 +1026,7 @@
       "scryfallSetCode": "CMD",
       "sortedManaCost": "{4}{W}{W}",
       "tcgplayerProductId": 47268,
-      "text": "Whenever Martyr's Bond or another nonland permanent you control is put into a graveyard from the battlefield, each opponent sacrifices a permanent that shares a card type with it.",
+      "text": "Whenever Martyr's Bond or another nonland permanent you control is put into a graveyard from the battlefield, each opponent sacrifices a permanent of their choice that shares a card type with it.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -2553,6 +2553,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -4116,7 +4117,7 @@
       "scryfallSetCode": "CMD",
       "sortedManaCost": "{5}{B}{B}",
       "tcgplayerProductId": 47486,
-      "text": "Flying<br>Whenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature.",
+      "text": "Flying<br>Whenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature of their choice.",
       "toughness": 4.0,
       "type": "Creature - Vampire Warrior"
     },
@@ -4567,7 +4568,7 @@
       "scryfallSetCode": "CMD",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 47491,
-      "text": "When Fleshbag Marauder enters, each player sacrifices a creature.",
+      "text": "When Fleshbag Marauder enters, each player sacrifices a creature of their choice.",
       "toughness": 1.0,
       "type": "Creature - Zombie Warrior"
     },
@@ -4682,7 +4683,7 @@
       "scryfallSetCode": "CMD",
       "sortedManaCost": "{1}{B}{B}{B}",
       "tcgplayerProductId": 47509,
-      "text": "Whenever a creature you control dies, each other player sacrifices a creature.",
+      "text": "Whenever a creature you control dies, each other player sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -4907,7 +4908,7 @@
       "scryfallSetCode": "CMD",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 47494,
-      "text": "Mortivore's power and toughness are each equal to the number of creature cards in all graveyards.<br>{B}: Regenerate Mortivore. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "Mortivore's power and toughness are each equal to the number of creature cards in all graveyards.<br>{B}: Regenerate Mortivore. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": -1000.0,
       "type": "Creature - Lhurgoyf"
     },
@@ -4945,14 +4946,19 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -5831,6 +5837,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7861,11 +7868,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -7878,7 +7889,7 @@
       "scryfallSetCode": "CMD",
       "sortedManaCost": "{4}{G}{G}",
       "tcgplayerProductId": 47346,
-      "text": "Landfall - Whenever a land you control enters, Baloth Woodcrasher gets +4/+4 and gains trample until end of turn.",
+      "text": "Landfall - Whenever a land you control enters, Baloth Woodcrasher gets +4/+4 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": 4.0,
       "type": "Creature - Beast"
     },
@@ -8532,6 +8543,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9381,6 +9393,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9679,7 +9692,7 @@
       "scryfallSetCode": "CMD",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 47527,
-      "text": "Each opponent sacrifices an artifact or enchantment.",
+      "text": "Each opponent sacrifices an artifact or enchantment of their choice.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -11529,7 +11542,7 @@
       "scryfallSetCode": "CMD",
       "sortedManaCost": "{2}{B}{B}{R}{R}",
       "tcgplayerProductId": 47300,
-      "text": "Flying<br>When Malfegor enters, discard your hand. Each opponent sacrifices a creature for each card discarded this way.",
+      "text": "Flying<br>When Malfegor enters, discard your hand. Each opponent sacrifices a creature of their choice for each card discarded this way.",
       "toughness": 6.0,
       "type": "Legendary Creature - Demon Dragon"
     },
@@ -11672,6 +11685,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -14467,6 +14481,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17705,7 +17720,7 @@
     "canBeFoil": false,
     "code_gatherer": "CMD",
     "code_mtgi": "CMD",
-    "digest": "fcbe23aa4a5508bc50a256c2c7d394f520",
+    "digest": "ff41666653f015d2f8c3f75890a619bcc4",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMD_U.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMD_R.png",

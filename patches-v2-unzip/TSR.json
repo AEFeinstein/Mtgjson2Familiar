@@ -2356,7 +2356,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 233662,
-      "text": "All Slivers have \"{2}, {T}: Regenerate target Sliver.\" (The next time that Sliver would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "All Slivers have \"{2}, {T}: Regenerate target Sliver.\" (The next time that Sliver would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 2.0,
       "type": "Creature - Sliver"
     },
@@ -2918,7 +2918,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{W}{W}",
       "tcgplayerProductId": 233634,
-      "text": "You can't cast this spell during your first, second, or third turns of the game.<br>Flying, vigilance",
+      "text": "You can't cast Serra Avenger during your first, second, or third turns of the game.<br>Flying, vigilance",
       "toughness": 3.0,
       "type": "Creature - Angel"
     },
@@ -5390,6 +5390,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6538,6 +6539,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -6831,10 +6833,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -6848,7 +6854,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{U}{U}",
       "tcgplayerProductId": 233799,
-      "text": "Flash<br>When Venser, Shaper Savant enters, return target spell or permanent to its owner's hand.",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>When Venser, Shaper Savant enters, return target spell or permanent to its owner's hand.",
       "toughness": 2.0,
       "type": "Legendary Creature - Human Wizard"
     },
@@ -9893,7 +9899,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{B}{B}",
       "tcgplayerProductId": 233880,
-      "text": "Each player loses 1 life, discards a card, sacrifices a creature, then sacrifices a land.",
+      "text": "Each player loses 1 life, discards a card, sacrifices a creature of their choice, then sacrifices a land of their choice.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -13547,7 +13553,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 233927,
-      "text": "All Sliver creatures have \"This creature gets +1/+1 as long as you control a Swamp.\"<br>All Slivers have \"{B}: Regenerate this permanent.\" (The next time it would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "All Sliver creatures have \"This creature gets +1/+1 as long as you control a Swamp.\"<br>All Slivers have \"{B}: Regenerate this permanent.\" (The next time it would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 2.0,
       "type": "Creature - Sliver"
     },
@@ -15821,7 +15827,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 234003,
-      "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)<br>{G}: Regenerate Mire Boa. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)<br>{G}: Regenerate Mire Boa. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": 1.0,
       "type": "Creature - Snake"
     },
@@ -17300,6 +17306,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -18457,7 +18464,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{R}{U}",
       "tcgplayerProductId": 234077,
-      "text": "{2}, Exile a nonland card from your hand: Put four time counters on the exiled card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, you may cast it without paying its mana cost. If it's a creature, it has haste.)",
+      "text": "{2}, Exile a nonland card from your hand: Put four time counters on the exiled card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. If it's a creature, it has haste.)",
       "toughness": 2.0,
       "type": "Legendary Creature - Human Wizard"
     },
@@ -20421,7 +20428,7 @@
       "scryfallSetCode": "TSR",
       "securityStamp": "oval",
       "tcgplayerProductId": 234269,
-      "text": "{T}: Add {C}.<br>{T}: Regenerate target Insect, Rat, Spider, or Squirrel. (The next time it would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "{T}: Add {C}.<br>{T}: Regenerate target Insect, Rat, Spider, or Squirrel. (The next time it would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -20829,6 +20836,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -22763,10 +22771,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -23444,7 +23456,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 233873,
-      "text": "Deathtouch<br>Whenever another nontoken creature dies, you may draw a card.",
+      "text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)<br>Whenever another nontoken creature dies, you may draw a card.",
       "toughness": 5.0,
       "type": "Creature - Demon"
     },
@@ -23599,7 +23611,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 233905,
-      "text": "Each opponent sacrifices a creature. If you control a Liliana planeswalker, each opponent also discards a card.",
+      "text": "Each opponent sacrifices a creature of their choice. If you control a Liliana planeswalker, each opponent also discards a card.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -23653,13 +23665,18 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -24687,6 +24704,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -26452,6 +26470,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -26922,7 +26941,7 @@
       "scryfallSetCode": "TSR",
       "sortedManaCost": "{2}{G}{R}",
       "tcgplayerProductId": 234092,
-      "text": "Haste<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
       "toughness": 2.0,
       "type": "Creature - Elf Berserker"
     },
@@ -27049,6 +27068,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -27564,6 +27584,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -28157,6 +28178,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -28590,6 +28612,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -28965,6 +28988,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -29775,7 +29799,7 @@
     "canBeFoil": true,
     "code_gatherer": "TSR",
     "code_mtgi": "TSR",
-    "digest": "05375d4078037153e6d62f1d7e8ff35a1a",
+    "digest": "040559d1bc44f20e0063c166876fafde7d",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/TSR_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/TSR_R.png",

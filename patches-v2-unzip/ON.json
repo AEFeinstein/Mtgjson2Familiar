@@ -727,7 +727,7 @@
       "scryfallSetCode": "ONS",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 10317,
-      "text": "Prevent all damage target creature would deal this turn. That creature's controller may sacrifice a land. If the player does, they may copy this spell and may choose a new target for that copy.",
+      "text": "Prevent all damage target creature would deal this turn. That creature's controller may sacrifice a land of their choice. If the player does, they may copy this spell and may choose a new target for that copy.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -3915,6 +3915,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -4346,7 +4347,7 @@
       "scryfallSetCode": "ONS",
       "sortedManaCost": "{U}",
       "tcgplayerProductId": 10327,
-      "text": "Return target nonland permanent to its owner's hand. Then that permanent's controller may sacrifice a land. If the player does, they may copy this spell and may choose a new target for that copy.",
+      "text": "Return target nonland permanent to its owner's hand. Then that permanent's controller may sacrifice a land of their choice. If the player does, they may copy this spell and may choose a new target for that copy.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -7710,7 +7711,7 @@
       "scryfallSetCode": "ONS",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 10342,
-      "text": "Whenever Cabal Executioner deals combat damage to a player, that player sacrifices a creature.<br>Morph {3}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "text": "Whenever Cabal Executioner deals combat damage to a player, that player sacrifices a creature of their choice.<br>Morph {3}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
       "toughness": 2.0,
       "type": "Creature - Human Cleric"
     },
@@ -9396,14 +9397,19 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pioneer": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -9656,7 +9662,7 @@
       "scryfallSetCode": "ONS",
       "sortedManaCost": "{3}{B}{B}",
       "tcgplayerProductId": 10564,
-      "text": "When Prowling Pangolin enters, any player may sacrifice two creatures. If a player does, sacrifice Prowling Pangolin.",
+      "text": "When Prowling Pangolin enters, any player may sacrifice two creatures of their choice. If a player does, sacrifice Prowling Pangolin.",
       "toughness": 5.0,
       "type": "Creature - Pangolin Beast"
     },
@@ -12519,6 +12525,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17558,10 +17565,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -17574,7 +17585,7 @@
       "scryfallSetCode": "ONS",
       "sortedManaCost": "{3}{G}{G}",
       "tcgplayerProductId": 10619,
-      "text": "Tap five untapped Elves you control: Create a 7/7 green Elemental creature token with trample.",
+      "text": "Tap five untapped Elves you control: Create a 7/7 green Elemental creature token with trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": 2.0,
       "type": "Creature - Elf"
     },
@@ -20868,7 +20879,7 @@
     "canBeFoil": true,
     "code_gatherer": "ON",
     "code_mtgi": "ONS",
-    "digest": "06690ad26b145b6a15c4a4614c762c5716",
+    "digest": "05fe6e134744559682c0ace3cb3d553922",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ON_U.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ON_R.png",

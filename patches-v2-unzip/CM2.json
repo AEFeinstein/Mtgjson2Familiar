@@ -461,7 +461,7 @@
       "scryfallSetCode": "CM2",
       "sortedManaCost": "{9}",
       "tcgplayerProductId": 166725,
-      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)",
+      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)",
       "toughness": 9.0,
       "type": "Creature - Eldrazi"
     },
@@ -2078,7 +2078,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}{B}{B}",
       "tcgplayerProductId": 166753,
-      "text": "Flying<br>Whenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature.",
+      "text": "Flying<br>Whenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature of their choice.",
       "toughness": 4.0,
       "type": "Creature - Vampire Warrior"
     },
@@ -2221,7 +2221,7 @@
       "scryfallSetCode": "CM2",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 166817,
-      "text": "When Fleshbag Marauder enters, each player sacrifices a creature.",
+      "text": "When Fleshbag Marauder enters, each player sacrifices a creature of their choice.",
       "toughness": 1.0,
       "type": "Creature - Zombie Warrior"
     },
@@ -2260,7 +2260,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{B}{B}{B}",
       "tcgplayerProductId": 166826,
-      "text": "Whenever a creature you control dies, each other player sacrifices a creature.",
+      "text": "Whenever a creature you control dies, each other player sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Enchantment"
     },
@@ -2410,7 +2410,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 166881,
-      "text": "Mortivore's power and toughness are each equal to the number of creature cards in all graveyards.<br>{B}: Regenerate Mortivore. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "Mortivore's power and toughness are each equal to the number of creature cards in all graveyards.<br>{B}: Regenerate Mortivore. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": -1000.0,
       "type": "Creature - Lhurgoyf"
     },
@@ -4234,6 +4234,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -4758,10 +4759,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4831,6 +4836,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -4977,6 +4983,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -5069,7 +5076,7 @@
       "scryfallSetCode": "CM2",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 166900,
-      "text": "Each opponent sacrifices an artifact or enchantment.",
+      "text": "Each opponent sacrifices an artifact or enchantment of their choice.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -5678,6 +5685,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7621,6 +7629,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7662,6 +7671,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7770,6 +7780,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7812,6 +7823,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8236,11 +8248,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -8399,6 +8415,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -9695,6 +9712,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -11157,7 +11175,7 @@
     "canBeFoil": true,
     "code_gatherer": "CM2",
     "code_mtgi": "CM2",
-    "digest": "012deb685dba636544b14d19327085e9d5",
+    "digest": "010f27f1a1612e925d46b347af50da4cfb",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CM2_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CM2_R.png",

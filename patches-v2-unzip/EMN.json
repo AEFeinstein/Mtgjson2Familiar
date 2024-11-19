@@ -1501,7 +1501,7 @@
       "scryfallSetCode": "EMN",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 119685,
-      "text": "Escalate {2} (Pay this cost for each mode chosen beyond the first.)<br>Choose one or more -<br>• Target player gains 4 life.<br>• Untap up to two target creatures.<br>• Target opponent sacrifices an attacking creature.",
+      "text": "Escalate {2} (Pay this cost for each mode chosen beyond the first.)<br>Choose one or more -<br>• Target player gains 4 life.<br>• Untap up to two target creatures.<br>• Target opponent sacrifices an attacking creature of their choice.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -5898,6 +5898,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7337,6 +7338,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8573,7 +8575,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 120271,
-      "text": "When Oath of Liliana enters, each opponent sacrifices a creature.<br>At the beginning of each end step, if a planeswalker entered the battlefield under your control this turn, create a 2/2 black Zombie creature token.",
+      "text": "When Oath of Liliana enters, each opponent sacrifices a creature of their choice.<br>At the beginning of each end step, if a planeswalker entered the battlefield under your control this turn, create a 2/2 black Zombie creature token.",
       "toughness": -1005.0,
       "type": "Legendary Enchantment"
     },
@@ -9600,7 +9602,7 @@
       "scryfallSetCode": "EMN",
       "securityStamp": "oval",
       "tcgplayerProductId": 120013,
-      "text": "Flying<br>When this creature transforms into Abolisher of Bloodlines, target opponent sacrifices three creatures.",
+      "text": "Flying<br>When this creature transforms into Abolisher of Bloodlines, target opponent sacrifices three creatures of their choice.",
       "toughness": 5.0,
       "type": "Creature - Eldrazi Vampire"
     },
@@ -9682,7 +9684,7 @@
       "scryfallSetCode": "EMN",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 120279,
-      "text": "When Wailing Ghoul enters, mill two cards.",
+      "text": "When Wailing Ghoul enters, mill two cards. (Put the top two cards of your library into your graveyard.)",
       "toughness": 3.0,
       "type": "Creature - Zombie"
     },
@@ -9896,11 +9898,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Explorer": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pioneer": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -9913,7 +9920,7 @@
       "scryfallSetCode": "EMN",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 120453,
-      "text": "Up to two target creatures each get +1/+0 and gain first strike until end of turn.<br>Madness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+      "text": "Up to two target creatures each get +1/+0 and gain first strike until end of turn. (They deal combat damage before creatures without first strike.)<br>Madness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -11165,6 +11172,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -12750,7 +12758,7 @@
       "scryfallSetCode": "EMN",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 120555,
-      "text": "Reach<br>Whenever you cast an instant or sorcery spell, Weaver of Lightning deals 1 damage to target creature an opponent controls.",
+      "text": "Reach (This creature can block creatures with flying.)<br>Whenever you cast an instant or sorcery spell, Weaver of Lightning deals 1 damage to target creature an opponent controls.",
       "toughness": 4.0,
       "type": "Creature - Human Shaman"
     },
@@ -17640,7 +17648,7 @@
     "canBeFoil": true,
     "code_gatherer": "EMN",
     "code_mtgi": "EMN",
-    "digest": "fe7aab5656592770287c74d05f9570ae48",
+    "digest": "fe24af86c9da26078999f12d2e68f0e0a3",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/EMN_U.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/EMN_M.png",

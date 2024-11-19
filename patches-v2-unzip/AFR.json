@@ -2458,7 +2458,7 @@
       "rarity": "C",
       "scryfallSetCode": "AFR",
       "tcgplayerProductId": -1,
-      "text": "Trapped Entry - Each player loses 1 life. (Leads to: Veils of Fear, Oubliette)<br>Veils of Fear - Each player loses 2 life unless they discard a card. (Leads to: Sandfall Cell)<br>Sandfall Cell - Each player loses 2 life unless they sacrifice a creature, artifact, or land. (Leads to: Cradle of the Death God)<br>Oubliette - Discard a card and sacrifice a creature, an artifact, and a land. (Leads to: Cradle of the Death God)<br>Cradle of the Death God - Create The Atropal, a legendary 4/4 black God Horror creature token with deathtouch.",
+      "text": "Trapped Entry - Each player loses 1 life. (Leads to: Veils of Fear, Oubliette)<br>Veils of Fear - Each player loses 2 life unless they discard a card. (Leads to: Sandfall Cell)<br>Sandfall Cell - Each player loses 2 life unless they sacrifice a creature, artifact, or land of their choice. (Leads to: Cradle of the Death God)<br>Oubliette - Discard a card and sacrifice a creature, an artifact, and a land. (Leads to: Cradle of the Death God)<br>Cradle of the Death God - Create The Atropal, a legendary 4/4 black God Horror creature token with deathtouch.",
       "toughness": -1005.0,
       "type": "Dungeon"
     },
@@ -3263,7 +3263,7 @@
       "scryfallSetCode": "AFR",
       "sortedManaCost": "{2}{W}",
       "tcgplayerProductId": 243408,
-      "text": "Equipped creature gets +3/+3 and has ward {1}. (Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)<br>Equip {3}. This ability costs {1} less to activate for each other Equipment you control.",
+      "text": "Equipped creature gets +3/+3 and has ward {1}. (Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)<br>Equip {3}. This ability costs {1} less to activate for each other Equipment you control. ({3}: Attach to target creature you control. Equip only as a sorcery.)",
       "toughness": -1005.0,
       "type": "Artifact - Equipment"
     },
@@ -6096,7 +6096,7 @@
       "scryfallSetCode": "AFR",
       "sortedManaCost": "{2}{U}",
       "tcgplayerProductId": 243276,
-      "text": "Choose target creature an opponent controls, then roll a d20.<br>1-9 | Return it to its owner's hand.<br>10-19 | Its owner puts it on the top or bottom of their library.<br>20 | Gain control of it until the end of your next turn.",
+      "text": "Choose target creature an opponent controls, then roll a d20.<br>1-9 | Return it to its owner's hand.<br>10-19 | Its owner puts it on their choice of the top or bottom of their library.<br>20 | Gain control of it until the end of your next turn.",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -7709,7 +7709,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 243442,
-      "text": "When Acererak the Archlich enters, if you haven't completed Tomb of Annihilation, return Acererak the Archlich to its owner's hand and venture into the dungeon.<br>Whenever Acererak the Archlich attacks, for each opponent, you create a 2/2 black Zombie creature token unless that player sacrifices a creature.",
+      "text": "When Acererak the Archlich enters, if you haven't completed Tomb of Annihilation, return Acererak the Archlich to its owner's hand and venture into the dungeon.<br>Whenever Acererak the Archlich attacks, for each opponent, you create a 2/2 black Zombie creature token unless that player sacrifices a creature of their choice.",
       "toughness": 5.0,
       "type": "Legendary Creature - Zombie Wizard"
     },
@@ -7868,7 +7868,7 @@
       "scryfallSetCode": "AFR",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 243152,
-      "text": "When Baleful Beholder enters, choose one -<br>• Antimagic Cone - Each opponent sacrifices an enchantment.<br>• Fear Ray - Creatures you control gain menace until end of turn. (A creature with menace can't be blocked except by two or more creatures.)",
+      "text": "When Baleful Beholder enters, choose one -<br>• Antimagic Cone - Each opponent sacrifices an enchantment of their choice.<br>• Fear Ray - Creatures you control gain menace until end of turn. (A creature with menace can't be blocked except by two or more creatures.)",
       "toughness": 5.0,
       "type": "Creature - Beholder"
     },
@@ -10284,7 +10284,7 @@
       "scryfallSetCode": "AFR",
       "sortedManaCost": "{B}",
       "tcgplayerProductId": 243154,
-      "text": "When Shambling Ghast dies, choose one -<br>• Brave the Stench - Target creature an opponent controls gets -1/-1 until end of turn.<br>• Search the Body - Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+      "text": "When Shambling Ghast dies, choose one -<br>• Target creature an opponent controls gets -1/-1 until end of turn.<br>• Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
       "toughness": 1.0,
       "type": "Creature - Zombie"
     },
@@ -10584,6 +10584,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -10610,7 +10611,7 @@
       "scryfallSetCode": "AFR",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 243387,
-      "text": "When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life.",
+      "text": "When this creature enters, each opponent loses 2 life and you gain 2 life.",
       "toughness": 3.0,
       "type": "Creature - Vampire"
     },
@@ -11333,7 +11334,7 @@
       "scryfallSetCode": "AFR",
       "sortedManaCost": "{1}{R}",
       "tcgplayerProductId": 243156,
-      "text": "{1}{R}: Goblins you control get +1/+0 and gain haste until end of turn.<br>Pack tactics - Whenever Battle Cry Goblin attacks, if you attacked with creatures with total power 6 or greater this combat, create a 1/1 red Goblin creature token that's tapped and attacking.",
+      "text": "{1}{R}: Goblins you control get +1/+0 and gain haste until end of turn.<br>Whenever Battle Cry Goblin attacks, if you attacked with creatures with total power 6 or greater this combat, create a 1/1 red Goblin creature token that's tapped and attacking.",
       "toughness": 2.0,
       "type": "Creature - Goblin"
     },
@@ -12060,7 +12061,7 @@
       "scryfallSetCode": "AFR",
       "sortedManaCost": "{4}{R}{R}",
       "tcgplayerProductId": 243305,
-      "text": "Siege Monster - When Earth-Cult Elemental enters, roll a d20.<br>1-9 | Each player sacrifices a permanent.<br>10-19 | Each opponent sacrifices a permanent.<br>20 | Each opponent sacrifices two permanents.",
+      "text": "Siege Monster - When Earth-Cult Elemental enters, roll a d20.<br>1-9 | Each player sacrifices a permanent of their choice.<br>10-19 | Each opponent sacrifices a permanent of their choice.<br>20 | Each opponent sacrifices two permanents of their choice.",
       "toughness": 6.0,
       "type": "Creature - Elemental"
     },
@@ -25739,7 +25740,7 @@
       "scryfallSetCode": "AFR",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 243133,
-      "text": "When Baleful Beholder enters, choose one -<br>• Antimagic Cone - Each opponent sacrifices an enchantment.<br>• Fear Ray - Creatures you control gain menace until end of turn. (A creature with menace can't be blocked except by two or more creatures.)",
+      "text": "When Baleful Beholder enters, choose one -<br>• Antimagic Cone - Each opponent sacrifices an enchantment of their choice.<br>• Fear Ray - Creatures you control gain menace until end of turn. (A creature with menace can't be blocked except by two or more creatures.)",
       "toughness": 5.0,
       "type": "Creature - Beholder"
     },
@@ -30318,7 +30319,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 243472,
-      "text": "When Acererak the Archlich enters, if you haven't completed Tomb of Annihilation, return Acererak the Archlich to its owner's hand and venture into the dungeon.<br>Whenever Acererak the Archlich attacks, for each opponent, you create a 2/2 black Zombie creature token unless that player sacrifices a creature.",
+      "text": "When Acererak the Archlich enters, if you haven't completed Tomb of Annihilation, return Acererak the Archlich to its owner's hand and venture into the dungeon.<br>Whenever Acererak the Archlich attacks, for each opponent, you create a 2/2 black Zombie creature token unless that player sacrifices a creature of their choice.",
       "toughness": 5.0,
       "type": "Legendary Creature - Zombie Wizard"
     },
@@ -32049,7 +32050,7 @@
     "canBeFoil": true,
     "code_gatherer": "AFR",
     "code_mtgi": "AFR",
-    "digest": "0190494f83779318a9b92cc0b132fb2f25",
+    "digest": "020aad0fa984ab0fb1c8eaf4029de51e6b",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AFR_C.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/AFR_U.png",

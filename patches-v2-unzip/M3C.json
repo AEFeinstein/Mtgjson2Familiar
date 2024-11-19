@@ -2657,7 +2657,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{6}{R}",
       "tcgplayerProductId": 552410,
-      "text": "Devoid (This card has no color.)<br>When you cast this spell, for each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain trample, haste, and annihilator 1 until end of turn.<br>Trample, haste, annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent.)",
+      "text": "Devoid (This card has no color.)<br>When you cast this spell, for each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain trample, haste, and annihilator 1 until end of turn.<br>Trample, haste, annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent of their choice.)",
       "toughness": 2.0,
       "type": "Creature - Eldrazi"
     },
@@ -6255,7 +6255,7 @@
       "scryfallSetCode": "M3C",
       "sortedManaCost": "{9}",
       "tcgplayerProductId": 553152,
-      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)",
+      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)",
       "toughness": 9.0,
       "type": "Creature - Eldrazi"
     },
@@ -6354,7 +6354,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{8}",
       "tcgplayerProductId": 553077,
-      "text": "Enchant creature<br>Enchanted creature gets +10/+10 and has trample and annihilator 2. (Whenever it attacks, defending player sacrifices two permanents.)",
+      "text": "Enchant creature<br>Enchanted creature gets +10/+10 and has trample and annihilator 2. (Whenever it attacks, defending player sacrifices two permanents of their choice.)",
       "toughness": -1005.0,
       "type": "Kindred Enchantment - Eldrazi Aura"
     },
@@ -6641,7 +6641,7 @@
       "scryfallSetCode": "M3C",
       "sortedManaCost": "{8}",
       "tcgplayerProductId": 553154,
-      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)<br>Ulamog's Crusher attacks each combat if able.",
+      "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)<br>Ulamog's Crusher attacks each combat if able.",
       "toughness": 8.0,
       "type": "Creature - Eldrazi"
     },
@@ -7788,6 +7788,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7843,6 +7844,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -7951,6 +7953,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -8417,7 +8420,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{6}{B}{B}",
       "tcgplayerProductId": 552407,
-      "text": "Flying<br>Whenever Archon of Cruelty enters or attacks, target opponent sacrifices a creature or planeswalker, discards a card, and loses 3 life. You draw a card and gain 3 life.",
+      "text": "Flying<br>Whenever Archon of Cruelty enters or attacks, target opponent sacrifices a creature or planeswalker of their choice, discards a card, and loses 3 life. You draw a card and gain 3 life.",
       "toughness": 6.0,
       "type": "Creature - Archon"
     },
@@ -8620,7 +8623,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 553526,
-      "text": "Mortivore's power and toughness are each equal to the number of creature cards in all graveyards.<br>{B}: Regenerate Mortivore. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)",
+      "text": "Mortivore's power and toughness are each equal to the number of creature cards in all graveyards.<br>{B}: Regenerate Mortivore. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)",
       "toughness": -1000.0,
       "type": "Creature - Lhurgoyf"
     },
@@ -9971,6 +9974,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -10475,6 +10479,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -10530,13 +10535,17 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -11130,6 +11139,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -11284,10 +11294,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -11350,7 +11364,7 @@
       "scryfallSetCode": "M3C",
       "sortedManaCost": "{2}{G}{R}",
       "tcgplayerProductId": 553528,
-      "text": "Haste<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
       "toughness": 2.0,
       "type": "Creature - Elf Berserker"
     },
@@ -12037,6 +12051,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -12243,6 +12258,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -12808,6 +12824,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13203,6 +13220,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13360,6 +13378,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -13893,6 +13912,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -14467,11 +14487,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper": "Legal",
         "Pauper Commander": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -15301,6 +15325,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17100,6 +17125,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17392,6 +17418,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17725,6 +17752,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17777,6 +17805,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17829,6 +17858,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17881,6 +17911,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17933,6 +17964,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -17985,6 +18017,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -18037,6 +18070,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -18089,6 +18123,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -18292,6 +18327,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -19065,7 +19101,7 @@
     "canBeFoil": true,
     "code_gatherer": "M3C",
     "code_mtgi": "M3C",
-    "digest": "045daa62383d2307447c7bc3303efbe32a",
+    "digest": "025114d57b835dd1dd15e4822ac567a645",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/M3C_M.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/M3C_R.png",

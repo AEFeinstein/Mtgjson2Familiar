@@ -295,7 +295,7 @@
       "rarity": "C",
       "scryfallSetCode": "OARC",
       "tcgplayerProductId": 37129,
-      "text": "When you set this scheme in motion, target opponent chooses self or others. If that player chooses self, the player sacrifices two creatures. If the player chooses others, each of your other opponents sacrifices a creature.",
+      "text": "When you set this scheme in motion, target opponent chooses self or others. If that player chooses self, the player sacrifices two creatures of their choice. If the player chooses others, each of your other opponents sacrifices a creature of their choice.",
       "toughness": -1005.0,
       "type": "Scheme"
     },
@@ -542,7 +542,7 @@
       "rarity": "C",
       "scryfallSetCode": "OARC",
       "tcgplayerProductId": 37182,
-      "text": "When you set this scheme in motion, target opponent chooses self or others. If that player chooses self, that player sacrifices two lands. If the player chooses others, each of your other opponents sacrifices a land.",
+      "text": "When you set this scheme in motion, target opponent chooses self or others. If that player chooses self, that player sacrifices two lands of their choice. If the player chooses others, each of your other opponents sacrifices a land of their choice.",
       "toughness": -1005.0,
       "type": "Scheme"
     },
@@ -762,7 +762,7 @@
       "rarity": "C",
       "scryfallSetCode": "OARC",
       "tcgplayerProductId": 37200,
-      "text": "When you set this scheme in motion, each opponent sacrifices a creature. Then each opponent who didn't sacrifice a creature discards two cards.",
+      "text": "When you set this scheme in motion, each opponent sacrifices a creature of their choice. Then each opponent who didn't sacrifice a creature discards two cards.",
       "toughness": -1005.0,
       "type": "Scheme"
     },
@@ -1844,6 +1844,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -1885,11 +1886,15 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pauper Commander": "Restricted",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -2011,7 +2016,7 @@
       "scryfallSetCode": "ARC",
       "sortedManaCost": "{5}{B}",
       "tcgplayerProductId": 37252,
-      "text": "{B}: Regenerate Twisted Abomination. (The next time this creature would be destroyed, instead tap it, remove it from combat, and heal all damage on it.)<br>Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
+      "text": "{B}: Regenerate Twisted Abomination. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)<br>Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
       "toughness": 3.0,
       "type": "Creature - Zombie Mutant"
     },
@@ -2101,6 +2106,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -2285,6 +2291,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -2815,6 +2822,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -3035,6 +3043,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -3116,10 +3125,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -3649,12 +3662,16 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper Commander": "Restricted",
         "Pre-Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -3957,10 +3974,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
+        "Historic": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -4941,6 +4962,7 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Alchemy": "Legal",
         "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
@@ -5438,7 +5460,7 @@
       "scryfallSetCode": "ARC",
       "sortedManaCost": "{9}",
       "tcgplayerProductId": 37094,
-      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)",
+      "text": "When you cast this spell, you may return target creature card from your graveyard to the battlefield.<br>Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)",
       "toughness": 9.0,
       "type": "Creature - Eldrazi"
     },
@@ -6467,7 +6489,7 @@
     "canBeFoil": false,
     "code_gatherer": "ARC",
     "code_mtgi": "ARC",
-    "digest": "020811379056d23a56f4fc10f34e4acc10",
+    "digest": "04230ebf260e089b573f14f9be8e6ea47f",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ARC_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ARC_U.png",
