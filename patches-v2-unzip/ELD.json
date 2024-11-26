@@ -792,7 +792,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 198860,
-      "text": "When Charming Prince enters, choose one -<br>• Scry 2.<br>• You gain 3 life.<br>• Exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step.",
+      "text": "When this creature enters, choose one -<br>• Scry 2.<br>• You gain 3 life.<br>• Exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step.",
       "toughness": 2.0,
       "type": "Creature - Human Noble"
     },
@@ -1932,7 +1932,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{W}{W}{W}",
       "tcgplayerProductId": 199209,
-      "text": "Vigilance<br>Whenever a white creature you control attacks, you gain 1 life.",
+      "text": "Vigilance (Attacking doesn't cause this creature to tap.)<br>Whenever a white creature you control attacks, you gain 1 life.",
       "toughness": 3.0,
       "type": "Legendary Creature - Human Noble"
     },
@@ -3231,7 +3231,7 @@
       "scryfallSetCode": "ELD",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 199276,
-      "text": "First strike<br>Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn.",
+      "text": "First strike (This creature deals combat damage before creatures without first strike.)<br>Whenever Syr Alin attacks, other creatures you control get +1/+1 until end of turn.",
       "toughness": 4.0,
       "type": "Legendary Creature - Human Knight"
     },
@@ -5829,7 +5829,7 @@
       "scryfallSetCode": "ELD",
       "sortedManaCost": "{U}",
       "tcgplayerProductId": 198903,
-      "text": "Scry 1.<br>Draw a card.",
+      "text": "Scry 1. (Look at the top card of your library. You may put that card on the bottom.)<br>Draw a card.",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -7297,7 +7297,7 @@
       "scryfallSetCode": "ELD",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 198423,
-      "text": "Destroy target creature. Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+      "text": "Destroy target creature. Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -10455,7 +10455,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 198745,
-      "text": "Wishclaw Talisman enters with three wish counters on it.<br>{1}, {T}, Remove a wish counter from Wishclaw Talisman: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of Wishclaw Talisman. Activate only during your turn.",
+      "text": "This artifact enters with three wish counters on it.<br>{1}, {T}, Remove a wish counter from this artifact: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of this artifact. Activate only during your turn.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -12648,7 +12648,7 @@
       "scryfallSetCode": "ELD",
       "sortedManaCost": "{2}{R}",
       "tcgplayerProductId": 199005,
-      "text": "Double strike",
+      "text": "Double strike (This creature deals both first-strike and regular combat damage.)",
       "toughness": 2.0,
       "type": "Creature - Goblin Knight"
     },
@@ -17184,7 +17184,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 198781,
-      "text": "Flash<br>Reach<br>Whenever another non-Human creature you control enters, you may pay {X}. When you do, put X +1/+1 counters on Wildborn Preserver.",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Reach (This creature can block creatures with flying.)<br>Whenever another non-Human creature you control enters, you may pay {X}. When you do, put X +1/+1 counters on this creature.",
       "toughness": 2.0,
       "type": "Creature - Elf Archer"
     },
@@ -20494,7 +20494,7 @@
       "scryfallSetCode": "ELD",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 198414,
-      "text": "As Heraldic Banner enters, choose a color.<br>Creatures you control of the chosen color get +1/+0.<br>{T}: Add one mana of the chosen color.",
+      "text": "As this artifact enters, choose a color.<br>Creatures you control of the chosen color get +1/+0.<br>{T}: Add one mana of the chosen color.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -21392,7 +21392,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 198975,
-      "text": "As Sorcerous Spyglass enters, look at an opponent's hand, then choose any card name.<br>Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
+      "text": "As this artifact enters, look at an opponent's hand, then choose any card name.<br>Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -27323,7 +27323,7 @@
       "rarity": "C",
       "scryfallSetCode": "ELD",
       "tcgplayerProductId": 198728,
-      "text": "Wind-Scarred Crag enters tapped.<br>When Wind-Scarred Crag enters, you gain 1 life.<br>{T}: Add {R} or {W}.",
+      "text": "This land enters tapped.<br>When this land enters, you gain 1 life.<br>{T}: Add {R} or {W}.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -27729,7 +27729,7 @@
       "rarity": "C",
       "scryfallSetCode": "ELD",
       "tcgplayerProductId": 198736,
-      "text": "Thornwood Falls enters tapped.<br>When Thornwood Falls enters, you gain 1 life.<br>{T}: Add {G} or {U}.",
+      "text": "This land enters tapped.<br>When this land enters, you gain 1 life.<br>{T}: Add {G} or {U}.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -28607,7 +28607,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{W}",
       "tcgplayerProductId": 198856,
-      "text": "When Charming Prince enters, choose one -<br>• Scry 2.<br>• You gain 3 life.<br>• Exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step.",
+      "text": "When this creature enters, choose one -<br>• Scry 2.<br>• You gain 3 life.<br>• Exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step.",
       "toughness": 2.0,
       "type": "Creature - Human Noble"
     },
@@ -28805,7 +28805,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{W}{W}{W}",
       "tcgplayerProductId": 199290,
-      "text": "Vigilance<br>Whenever a white creature you control attacks, you gain 1 life.",
+      "text": "Vigilance (Attacking doesn't cause this creature to tap.)<br>Whenever a white creature you control attacks, you gain 1 life.",
       "toughness": 3.0,
       "type": "Legendary Creature - Human Noble"
     },
@@ -29471,7 +29471,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 198984,
-      "text": "Wishclaw Talisman enters with three wish counters on it.<br>{1}, {T}, Remove a wish counter from Wishclaw Talisman: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of Wishclaw Talisman. Activate only during your turn.",
+      "text": "This artifact enters with three wish counters on it.<br>{1}, {T}, Remove a wish counter from this artifact: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of this artifact. Activate only during your turn.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -30175,7 +30175,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 198809,
-      "text": "Flash<br>Reach<br>Whenever another non-Human creature you control enters, you may pay {X}. When you do, put X +1/+1 counters on Wildborn Preserver.",
+      "text": "Flash (You may cast this spell any time you could cast an instant.)<br>Reach (This creature can block creatures with flying.)<br>Whenever another non-Human creature you control enters, you may pay {X}. When you do, put X +1/+1 counters on this creature.",
       "toughness": 2.0,
       "type": "Creature - Elf Archer"
     },
@@ -30529,7 +30529,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 198996,
-      "text": "As Sorcerous Spyglass enters, look at an opponent's hand, then choose any card name.<br>Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
+      "text": "As this artifact enters, look at an opponent's hand, then choose any card name.<br>Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -31051,7 +31051,7 @@
     "canBeFoil": true,
     "code_gatherer": "ELD",
     "code_mtgi": "ELD",
-    "digest": "f7a36c97fe4fec62f50d1a19c221630720",
+    "digest": "f7c859bde1d014e5f1ce024ce65fed3f5a",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ELD_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ELD_U.png",

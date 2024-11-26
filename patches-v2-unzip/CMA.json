@@ -108,7 +108,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{W}",
       "tcgplayerProductId": 131959,
-      "text": "Flying<br>When Angel of Finality enters, exile target player's graveyard.",
+      "text": "Flying<br>When this creature enters, exile target player's graveyard.",
       "toughness": 4.0,
       "type": "Creature - Angel"
     },
@@ -759,7 +759,7 @@
       "scryfallSetCode": "CMA",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 132154,
-      "text": "Flying, vigilance",
+      "text": "Flying<br>Vigilance (Attacking doesn't cause this creature to tap.)",
       "toughness": 4.0,
       "type": "Creature - Angel"
     },
@@ -1929,7 +1929,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{B}{B}{X}",
       "tcgplayerProductId": 132020,
-      "text": "Each player mills X cards. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token.",
+      "text": "Each player mills X cards. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token. (To mill a card, a player puts the top card of their library into their graveyard.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -4524,7 +4524,7 @@
       "scryfallSetCode": "CMA",
       "sortedManaCost": "{2}{G}{G}{G}",
       "tcgplayerProductId": 132111,
-      "text": "Creatures you control get +3/+3 and gain trample until end of turn.",
+      "text": "Creatures you control get +3/+3 and gain trample until end of turn. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": -1005.0,
       "type": "Sorcery"
     },
@@ -4894,7 +4894,7 @@
       "scryfallSetCode": "CMA",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 132132,
-      "text": "When Reclamation Sage enters, you may destroy target artifact or enchantment.",
+      "text": "When this creature enters, you may destroy target artifact or enchantment.",
       "toughness": 1.0,
       "type": "Creature - Elf Shaman"
     },
@@ -5398,7 +5398,7 @@
       "scryfallSetCode": "CMA",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 132190,
-      "text": "Reach, deathtouch",
+      "text": "Reach (This creature can block creatures with flying.)<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)",
       "toughness": 1.0,
       "type": "Creature - Elf Archer"
     },
@@ -8128,7 +8128,7 @@
       "scryfallSetCode": "CMA",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 132175,
-      "text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control.)<br>Equip {1}",
+      "text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)<br>Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
       "toughness": -1005.0,
       "type": "Artifact - Equipment"
     },
@@ -8366,7 +8366,7 @@
       "rarity": "C",
       "scryfallSetCode": "CMA",
       "tcgplayerProductId": 131969,
-      "text": "Azorius Guildgate enters tapped.<br>{T}: Add {W} or {U}.",
+      "text": "This land enters tapped.<br>{T}: Add {W} or {U}.",
       "toughness": -1005.0,
       "type": "Land - Gate"
     },
@@ -8617,7 +8617,7 @@
       "rarity": "C",
       "scryfallSetCode": "CMA",
       "tcgplayerProductId": 132035,
-      "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+      "text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -8794,7 +8794,7 @@
       "rarity": "C",
       "scryfallSetCode": "CMA",
       "tcgplayerProductId": 132050,
-      "text": "Golgari Guildgate enters tapped.<br>{T}: Add {B} or {G}.",
+      "text": "This land enters tapped.<br>{T}: Add {B} or {G}.",
       "toughness": -1005.0,
       "type": "Land - Gate"
     },
@@ -9028,7 +9028,7 @@
       "rarity": "C",
       "scryfallSetCode": "CMA",
       "tcgplayerProductId": 132071,
-      "text": "Jungle Hollow enters tapped.<br>When Jungle Hollow enters, you gain 1 life.<br>{T}: Add {B} or {G}.",
+      "text": "This land enters tapped.<br>When this land enters, you gain 1 life.<br>{T}: Add {B} or {G}.",
       "toughness": -1005.0,
       "type": "Land"
     },
@@ -9453,7 +9453,7 @@
       "rarity": "C",
       "scryfallSetCode": "CMA",
       "tcgplayerProductId": 132150,
-      "text": "Selesnya Guildgate enters tapped.<br>{T}: Add {G} or {W}.",
+      "text": "This land enters tapped.<br>{T}: Add {G} or {W}.",
       "toughness": -1005.0,
       "type": "Land - Gate"
     },
@@ -9527,7 +9527,7 @@
       "rarity": "C",
       "scryfallSetCode": "CMA",
       "tcgplayerProductId": 132160,
-      "text": "Simic Guildgate enters tapped.<br>{T}: Add {G} or {U}.",
+      "text": "This land enters tapped.<br>{T}: Add {G} or {U}.",
       "toughness": -1005.0,
       "type": "Land - Gate"
     },
@@ -11374,7 +11374,7 @@
     "canBeFoil": true,
     "code_gatherer": "CMA",
     "code_mtgi": "CMA",
-    "digest": "06e3e28f2ad14b4b790b671449f27fcf78",
+    "digest": "039e1a45c08e2f1962dc15f03e65fd0a4c",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMA_U.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/CMA_R.png",
