@@ -445,7 +445,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}{U}",
       "tcgplayerProductId": 216305,
-      "text": "When Corsair Captain enters, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")<br>Other Pirates you control get +1/+1.",
+      "text": "When this creature enters, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")<br>Other Pirates you control get +1/+1.",
       "toughness": 2.0,
       "type": "Creature - Human Pirate"
     },
@@ -4259,7 +4259,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{W}",
       "tcgplayerProductId": 216367,
-      "text": "Flying, lifelink",
+      "text": "Flying<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
       "toughness": 1.0,
       "type": "Creature - Bird"
     },
@@ -5262,7 +5262,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 216563,
-      "text": "Flying, vigilance",
+      "text": "Flying<br>Vigilance (Attacking doesn't cause this creature to tap.)",
       "toughness": 4.0,
       "type": "Creature - Angel"
     },
@@ -6100,7 +6100,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{2}{U}",
       "tcgplayerProductId": 216050,
-      "text": "When Exclusion Mage enters, return target creature an opponent controls to its owner's hand.",
+      "text": "When this creature enters, return target creature an opponent controls to its owner's hand.",
       "toughness": 2.0,
       "type": "Creature - Human Wizard"
     },
@@ -6182,7 +6182,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{1}{U}",
       "tcgplayerProductId": 216388,
-      "text": "Kitesail Corsair has flying as long as it's attacking.",
+      "text": "This creature has flying as long as it's attacking.",
       "toughness": 1.0,
       "type": "Creature - Human Pirate"
     },
@@ -8024,7 +8024,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{2}{B}{B}",
       "tcgplayerProductId": 215968,
-      "text": "Destroy target creature. Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")",
+      "text": "Destroy target creature. Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")",
       "toughness": -1005.0,
       "type": "Instant"
     },
@@ -8545,7 +8545,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{1}{B}",
       "tcgplayerProductId": 216214,
-      "text": "When Burglar Rat enters, each opponent discards a card.",
+      "text": "When this creature enters, each opponent discards a card.",
       "toughness": 1.0,
       "type": "Creature - Rat"
     },
@@ -8831,7 +8831,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{2}{B}",
       "tcgplayerProductId": 216237,
-      "text": "Flying<br>When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.)",
+      "text": "Flying<br>When this creature enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.)",
       "toughness": 1.0,
       "type": "Creature - Zombie Bird"
     },
@@ -11623,7 +11623,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{R}{R}{R}",
       "tcgplayerProductId": 216502,
-      "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)<br>Haste (This creature can attack and {T} as soon as it comes under your control.)<br>At the beginning of the end step, sacrifice Ball Lightning.",
+      "text": "Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)<br>Haste (This creature can attack and {T} as soon as it comes under your control.)<br>At the beginning of the end step, sacrifice this creature.",
       "toughness": 1.0,
       "type": "Creature - Elemental"
     },
@@ -12536,7 +12536,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{R}{R}",
       "tcgplayerProductId": 216624,
-      "text": "Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs.",
+      "text": "Whenever Etali attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs.",
       "toughness": 6.0,
       "type": "Legendary Creature - Elder Dinosaur"
     },
@@ -12580,7 +12580,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{R}",
       "tcgplayerProductId": 216498,
-      "text": "Haste<br>{T}, Sacrifice Fanatical Firebrand: It deals 1 damage to any target.",
+      "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)<br>{T}, Sacrifice this creature: It deals 1 damage to any target.",
       "toughness": 1.0,
       "type": "Creature - Goblin Pirate"
     },
@@ -14301,7 +14301,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{4}{R}",
       "tcgplayerProductId": 216665,
-      "text": "Flying<br>When Rapacious Dragon enters, create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+      "text": "Flying<br>When this creature enters, create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
       "toughness": 3.0,
       "type": "Creature - Dragon"
     },
@@ -14742,7 +14742,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{3}{R}",
       "tcgplayerProductId": 216664,
-      "text": "When Volley Veteran enters, it deals damage to target creature an opponent controls equal to the number of Goblins you control.",
+      "text": "When this creature enters, it deals damage to target creature an opponent controls equal to the number of Goblins you control.",
       "toughness": 2.0,
       "type": "Creature - Goblin Warrior"
     },
@@ -14905,7 +14905,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{5}{G}",
       "tcgplayerProductId": 215987,
-      "text": "When Affectionate Indrik enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)",
+      "text": "When this creature enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)",
       "toughness": 4.0,
       "type": "Creature - Beast"
     },
@@ -15539,7 +15539,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 216176,
-      "text": "When Dwynen's Elite enters, if you control another Elf, create a 1/1 green Elf Warrior creature token.",
+      "text": "When this creature enters, if you control another Elf, create a 1/1 green Elf Warrior creature token.",
       "toughness": 2.0,
       "type": "Creature - Elf Warrior"
     },
@@ -15940,7 +15940,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{10}{G}{G}",
       "tcgplayerProductId": 216172,
-      "text": "This spell costs {X} less to cast, where X is the total power of creatures you control.<br>Trample",
+      "text": "This spell costs {X} less to cast, where X is the total power of creatures you control.<br>Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": 12.0,
       "type": "Legendary Creature - Elder Dinosaur"
     },
@@ -16498,7 +16498,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{1}{G}",
       "tcgplayerProductId": 216607,
-      "text": "At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle.",
+      "text": "At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on this creature.",
       "toughness": 2.0,
       "type": "Creature - Insect"
     },
@@ -16541,7 +16541,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{2}{G}",
       "tcgplayerProductId": 216185,
-      "text": "Enchant land<br>When New Horizons enters, put a +1/+1 counter on target creature you control.<br>Enchanted land has \"{T}: Add two mana of any one color.\"",
+      "text": "Enchant land<br>When this Aura enters, put a +1/+1 counter on target creature you control.<br>Enchanted land has \"{T}: Add two mana of any one color.\"",
       "toughness": -1005.0,
       "type": "Enchantment - Aura"
     },
@@ -17726,7 +17726,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{2}{G}{G}",
       "tcgplayerProductId": 216208,
-      "text": "{8}: Target creature gets +5/+5 and gains trample until end of turn.",
+      "text": "{8}: Target creature gets +5/+5 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
       "toughness": 3.0,
       "type": "Creature - Elf Shaman"
     },
@@ -18674,7 +18674,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 216115,
-      "text": "{T}: Add {C}{C}.<br>{2}, {T}, Sacrifice Hedron Archive: Draw two cards.",
+      "text": "{T}: Add {C}{C}.<br>{2}, {T}, Sacrifice this artifact: Draw two cards.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -18794,7 +18794,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{4}",
       "tcgplayerProductId": 216114,
-      "text": "Juggernaut attacks each combat if able.<br>Juggernaut can't be blocked by Walls.",
+      "text": "This creature attacks each combat if able.<br>This creature can't be blocked by Walls.",
       "toughness": 3.0,
       "type": "Artifact Creature - Juggernaut"
     },
@@ -18919,7 +18919,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{7}",
       "tcgplayerProductId": 216117,
-      "text": "When Meteor Golem enters, destroy target nonland permanent an opponent controls.",
+      "text": "When this creature enters, destroy target nonland permanent an opponent controls.",
       "toughness": 3.0,
       "type": "Artifact Creature - Golem"
     },
@@ -19040,7 +19040,7 @@
       "scryfallSetCode": "JMP",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 216477,
-      "text": "When Pirate's Cutlass enters, attach it to target Pirate you control.<br>Equipped creature gets +2/+1.<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+      "text": "When this Equipment enters, attach it to target Pirate you control.<br>Equipped creature gets +2/+1.<br>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
       "toughness": -1005.0,
       "type": "Artifact - Equipment"
     },
@@ -19788,7 +19788,7 @@
     "canBeFoil": true,
     "code_gatherer": "JMP",
     "code_mtgi": "JMP",
-    "digest": "0125237742ea6cd1cae4649d28eaac875b",
+    "digest": "031693b100eb12f5774ca7d13add3d01c7",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/JMP_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/JMP_U.png",

@@ -6049,7 +6049,7 @@
       "scryfallSetCode": "ZEN",
       "sortedManaCost": "{B}{B}",
       "tcgplayerProductId": 33300,
-      "text": "Kicker {B} (You may pay an additional {B} as you cast this spell.)<br>When Gatekeeper of Malakir enters, if it was kicked, target player sacrifices a creature of their choice.",
+      "text": "Kicker {B} (You may pay an additional {B} as you cast this spell.)<br>When this creature enters, if it was kicked, target player sacrifices a creature of their choice.",
       "toughness": 2.0,
       "type": "Creature - Vampire Warrior"
     },
@@ -7864,7 +7864,7 @@
       "scryfallSetCode": "ZEN",
       "sortedManaCost": "{1}{B}{B}",
       "tcgplayerProductId": 33467,
-      "text": "Flying, deathtouch, lifelink",
+      "text": "Flying<br>Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)<br>Lifelink (Damage dealt by this creature also causes you to gain that much life.)",
       "toughness": 3.0,
       "type": "Creature - Vampire Shaman"
     },
@@ -8463,8 +8463,10 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Legal",
+        "Gladiator": "Legal",
         "Legacy": "Legal",
         "Modern": "Legal",
         "Pauper": "Legal",
@@ -13626,7 +13628,7 @@
       "scryfallSetCode": "ZEN",
       "sortedManaCost": "{1}",
       "tcgplayerProductId": 33294,
-      "text": "{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, put it into your hand, then shuffle.",
+      "text": "{2}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -17166,7 +17168,7 @@
     "canBeFoil": true,
     "code_gatherer": "ZEN",
     "code_mtgi": "ZEN",
-    "digest": "fc78387c72501af3d9113864061ba5b322",
+    "digest": "fd20f884b169c45b261ab9fe0cfd592fd6",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ZEN_R.png",
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/ZEN_U.png",
