@@ -35,7 +35,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{W}{W}",
       "tcgplayerProductId": 122844,
-      "text": "Vigilance<br>When Cataclysmic Gearhulk enters, each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest.",
+      "text": "Vigilance<br>When this creature enters, each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest.",
       "toughness": 5.0,
       "type": "Artifact Creature - Construct"
     },
@@ -74,7 +74,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{U}{U}",
       "tcgplayerProductId": 122868,
-      "text": "Flash<br>When Torrential Gearhulk enters, you may cast target instant card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+      "text": "Flash<br>When this creature enters, you may cast target instant card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
       "toughness": 6.0,
       "type": "Artifact Creature - Construct"
     },
@@ -113,7 +113,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{B}{B}",
       "tcgplayerProductId": 122856,
-      "text": "Menace<br>When Noxious Gearhulk enters, you may destroy another target creature. If a creature is destroyed this way, you gain life equal to its toughness.",
+      "text": "Menace<br>When this creature enters, you may destroy another target creature. If a creature is destroyed this way, you gain life equal to its toughness.",
       "toughness": 4.0,
       "type": "Artifact Creature - Construct"
     },
@@ -152,7 +152,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{4}{R}{R}",
       "tcgplayerProductId": 122849,
-      "text": "First strike<br>When Combustible Gearhulk enters, target opponent may have you draw three cards. If the player doesn't, you mill three cards, then Combustible Gearhulk deals damage to that player equal to the total mana value of those cards.",
+      "text": "First strike<br>When this creature enters, target opponent may have you draw three cards. If the player doesn't, you mill three cards, then this creature deals damage to that player equal to the total mana value of those cards.",
       "toughness": 6.0,
       "type": "Artifact Creature - Construct"
     },
@@ -191,7 +191,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}{G}{G}",
       "tcgplayerProductId": 122772,
-      "text": "Trample<br>When Verdurous Gearhulk enters, distribute four +1/+1 counters among any number of target creatures you control.",
+      "text": "Trample<br>When this creature enters, distribute four +1/+1 counters among any number of target creatures you control.",
       "toughness": 4.0,
       "type": "Artifact Creature - Construct"
     },
@@ -224,7 +224,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}",
       "tcgplayerProductId": 122843,
-      "text": "At the beginning of your upkeep, you may put a charge counter on Aether Vial.<br>{T}: You may put a creature card with mana value equal to the number of charge counters on Aether Vial from your hand onto the battlefield.",
+      "text": "At the beginning of your upkeep, you may put a charge counter on this artifact.<br>{T}: You may put a creature card with mana value equal to the number of charge counters on this artifact from your hand onto the battlefield.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -313,11 +313,14 @@
       "isRebalanced": false,
       "isToken": false,
       "legalities": {
+        "Brawl": "Legal",
         "Commander": "Legal",
         "Duel Commander": "Banned",
+        "Gladiator": "Legal",
         "Historic": "Banned",
         "Legacy": "Legal",
         "Modern": "Banned",
+        "Timeless": "Legal",
         "Vintage": "Legal"
       },
       "loyalty": -1005,
@@ -331,7 +334,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{0}",
       "tcgplayerProductId": 122847,
-      "text": "Imprint - When Chrome Mox enters, you may exile a nonartifact, nonland card from your hand.<br>{T}: Add one mana of any of the exiled card's colors.",
+      "text": "Imprint - When this artifact enters, you may exile a nonartifact, nonland card from your hand.<br>{T}: Add one mana of any of the exiled card's colors.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -438,7 +441,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{5}",
       "tcgplayerProductId": 122769,
-      "text": "As Gauntlet of Power enters, choose a color.<br>Creatures of the chosen color get +1/+1.<br>Whenever a basic land is tapped for mana of the chosen color, its controller adds an additional one mana of that color.",
+      "text": "As this artifact enters, choose a color.<br>Creatures of the chosen color get +1/+1.<br>Whenever a basic land is tapped for mana of the chosen color, its controller adds an additional one mana of that color.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -477,7 +480,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{X}{X}",
       "tcgplayerProductId": 122770,
-      "text": "Hangarback Walker enters with X +1/+1 counters on it.<br>When Hangarback Walker dies, create a 1/1 colorless Thopter artifact creature token with flying for each +1/+1 counter on Hangarback Walker.<br>{1}, {T}: Put a +1/+1 counter on Hangarback Walker.",
+      "text": "This creature enters with X +1/+1 counters on it.<br>When this creature dies, create a 1/1 colorless Thopter artifact creature token with flying for each +1/+1 counter on this creature.<br>{1}, {T}: Put a +1/+1 counter on this creature.",
       "toughness": 0.0,
       "type": "Artifact Creature - Construct"
     },
@@ -547,7 +550,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{0}",
       "tcgplayerProductId": 122852,
-      "text": "{T}, Sacrifice Lotus Petal: Add one mana of any color.",
+      "text": "{T}, Sacrifice this artifact: Add one mana of any color.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -580,7 +583,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{0}",
       "tcgplayerProductId": 122771,
-      "text": "At the beginning of your upkeep, flip a coin. If you lose the flip, Mana Crypt deals 3 damage to you.<br>{T}: Add {C}{C}.",
+      "text": "At the beginning of your upkeep, flip a coin. If you lose the flip, this artifact deals 3 damage to you.<br>{T}: Add {C}{C}.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -613,7 +616,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}",
       "tcgplayerProductId": 122853,
-      "text": "Mana Vault doesn't untap during your untap step.<br>At the beginning of your upkeep, you may pay {4}. If you do, untap Mana Vault.<br>At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.<br>{T}: Add {C}{C}{C}.",
+      "text": "This artifact doesn't untap during your untap step.<br>At the beginning of your upkeep, you may pay {4}. If you do, untap this artifact.<br>At the beginning of your draw step, if this artifact is tapped, it deals 1 damage to you.<br>{T}: Add {C}{C}{C}.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -719,7 +722,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 122857,
-      "text": "As Painter's Servant enters, choose a color.<br>All cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors.",
+      "text": "As this creature enters, choose a color.<br>All cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors.",
       "toughness": 3.0,
       "type": "Artifact Creature - Scarecrow"
     },
@@ -824,7 +827,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 122860,
-      "text": "You may have Sculpting Steel enter as a copy of any artifact on the battlefield.",
+      "text": "You may have this artifact enter as a copy of any artifact on the battlefield.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -933,7 +936,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 122863,
-      "text": "As long as Static Orb is untapped, players can't untap more than two permanents during their untap steps.",
+      "text": "As long as this artifact is untapped, players can't untap more than two permanents during their untap steps.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -1043,7 +1046,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 122866,
-      "text": "Equipped creature gets +2/+2 and has protection from red and from blue.<br>Whenever equipped creature deals combat damage to a player, Sword of Fire and Ice deals 2 damage to any target and you draw a card.<br>Equip {2}",
+      "text": "Equipped creature gets +2/+2 and has protection from red and from blue.<br>Whenever equipped creature deals combat damage to a player, this Equipment deals 2 damage to any target and you draw a card.<br>Equip {2}",
       "toughness": -1005.0,
       "type": "Artifact - Equipment"
     },
@@ -1110,7 +1113,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{2}",
       "tcgplayerProductId": 126279,
-      "text": "Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.<br>Modular 1 (This creature enters with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)",
+      "text": "Sacrifice an artifact: Put a +1/+1 counter on this creature.<br>Modular 1 (This creature enters with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)",
       "toughness": 0.0,
       "type": "Artifact Creature - Beast"
     },
@@ -1143,7 +1146,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}",
       "tcgplayerProductId": 126280,
-      "text": "As Black Vise enters, choose an opponent.<br>At the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in their hand minus 4.",
+      "text": "As this artifact enters, choose an opponent.<br>At the beginning of the chosen player's upkeep, this artifact deals X damage to that player, where X is the number of cards in their hand minus 4.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -1180,7 +1183,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{X}{X}",
       "tcgplayerProductId": 126281,
-      "text": "Chalice of the Void enters with X charge counters on it.<br>Whenever a player casts a spell with mana value equal to the number of charge counters on Chalice of the Void, counter that spell.",
+      "text": "This artifact enters with X charge counters on it.<br>Whenever a player casts a spell with mana value equal to the number of charge counters on this artifact, counter that spell.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -1252,7 +1255,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{6}",
       "tcgplayerProductId": 126283,
-      "text": "Imprint - When Duplicant enters, you may exile target nontoken creature.<br>As long as a card exiled with Duplicant is a creature card, Duplicant has the power, toughness, and creature types of the last creature card exiled with Duplicant. It's still a Shapeshifter.",
+      "text": "Imprint - When this creature enters, you may exile target nontoken creature.<br>As long as a card exiled with this creature is a creature card, this creature has the power, toughness, and creature types of the last creature card exiled with it. It's still a Shapeshifter.",
       "toughness": 4.0,
       "type": "Artifact Creature - Shapeshifter"
     },
@@ -1285,7 +1288,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{X}",
       "tcgplayerProductId": 126284,
-      "text": "Sunburst (This enters with a charge counter on it for each color of mana spent to cast it.)<br>{2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with mana value equal to the number of charge counters on Engineered Explosives.",
+      "text": "Sunburst (This enters with a charge counter on it for each color of mana spent to cast it.)<br>{2}, Sacrifice this artifact: Destroy each nonland permanent with mana value equal to the number of charge counters on this artifact.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -1353,7 +1356,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 126286,
-      "text": "Imprint - When Extraplanar Lens enters, you may exile target land you control.<br>Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana of any type that land produced.",
+      "text": "Imprint - When this artifact enters, you may exile target land you control.<br>Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana of any type that land produced.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -1458,7 +1461,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 126289,
-      "text": "{4}, {T}: Put a fate counter on target permanent.<br>{5}, {T}, Sacrifice Oblivion Stone: Destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents.",
+      "text": "{4}, {T}: Put a fate counter on target permanent.<br>{5}, {T}, Sacrifice this artifact: Destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -1580,7 +1583,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{1}",
       "tcgplayerProductId": 126292,
-      "text": "As Pithing Needle enters, choose a card name.<br>Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
+      "text": "As this artifact enters, choose a card name.<br>Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -1729,7 +1732,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 126294,
-      "text": "{1}: Untap Staff of Domination.<br>{2}, {T}: You gain 1 life.<br>{3}, {T}: Untap target creature.<br>{4}, {T}: Tap target creature.<br>{5}, {T}: Draw a card.",
+      "text": "{1}: Untap this artifact.<br>{2}, {T}: You gain 1 life.<br>{3}, {T}: Untap target creature.<br>{4}, {T}: Tap target creature.<br>{5}, {T}: Draw a card.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -1767,7 +1770,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{8}",
       "tcgplayerProductId": 126295,
-      "text": "When Sundering Titan enters or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
+      "text": "When this creature enters or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
       "toughness": 10.0,
       "type": "Artifact Creature - Golem"
     },
@@ -1837,7 +1840,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 126297,
-      "text": "Equipped creature gets +2/+2 and has protection from red and from white.<br>Whenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand.<br>Equip {2}",
+      "text": "Equipped creature gets +2/+2 and has protection from red and from white.<br>Whenever equipped creature deals combat damage to a player, this Equipment deals damage to that player equal to the number of cards in their hand and you gain 1 life for each card in your hand.<br>Equip {2}",
       "toughness": -1005.0,
       "type": "Artifact - Equipment"
     },
@@ -1871,7 +1874,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 126298,
-      "text": "As long as Trinisphere is untapped, each spell that would cost less than three mana to cast costs three mana to cast. (Additional mana in the cost may be paid with any color of mana or colorless mana. For example, a spell that would cost {1}{B} to cast costs {2}{B} to cast instead.)",
+      "text": "As long as this artifact is untapped, each spell that would cost less than three mana to cast costs three mana to cast. (Additional mana in the cost may be paid with any color of mana or colorless mana. For example, a spell that would cost {1}{B} to cast costs {2}{B} to cast instead.)",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -1904,7 +1907,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{3}",
       "tcgplayerProductId": 126299,
-      "text": "You may choose not to untap Vedalken Shackles during your untap step.<br>{2}, {T}: Gain control of target creature with power less than or equal to the number of Islands you control for as long as Vedalken Shackles remains tapped.",
+      "text": "You may choose not to untap this artifact during your untap step.<br>{2}, {T}: Gain control of target creature with power less than or equal to the number of Islands you control for as long as this artifact remains tapped.",
       "toughness": -1005.0,
       "type": "Artifact"
     },
@@ -1941,7 +1944,7 @@
       "securityStamp": "oval",
       "sortedManaCost": "{6}",
       "tcgplayerProductId": 126300,
-      "text": "Deathtouch, lifelink<br>When Wurmcoil Engine dies, create a 3/3 colorless Phyrexian Wurm artifact creature token with deathtouch and a 3/3 colorless Phyrexian Wurm artifact creature token with lifelink.",
+      "text": "Deathtouch, lifelink<br>When this creature dies, create a 3/3 colorless Phyrexian Wurm artifact creature token with deathtouch and a 3/3 colorless Phyrexian Wurm artifact creature token with lifelink.",
       "toughness": 6.0,
       "type": "Artifact Creature - Phyrexian Wurm"
     }
@@ -1951,7 +1954,7 @@
     "canBeFoil": false,
     "code_gatherer": "MPSKLD",
     "code_mtgi": "MPS",
-    "digest": "fca1f4e319ace290fbe540e1a4e750b47a",
+    "digest": "346f0b792817db13650ea2e64d24320c",
     "expansionImageURLs": [
       "https://github.com/AEFeinstein/Mtgjson2Familiar/raw/main/symbols/MPSKLD_M.png"
     ],
