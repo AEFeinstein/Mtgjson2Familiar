@@ -300,6 +300,10 @@ public class Card implements Comparable<Card> {
                     fp.mLanguageCode = Language.Phyrexian;
                     break;
                 }
+                case "Quenya": {
+                    fp.mLanguageCode = Language.Quenya;
+                    break;
+                }
                 default: {
                     m2fLogger.log(m2fLogger.LogLevel.ERROR, "LANGUAGE NOT PARSED: ~" + fd.language + "~");
                     break;
@@ -790,5 +794,6 @@ public class Card implements Comparable<Card> {
         public static final String Greek = "el";
 
         public static final String Phyrexian = "phy";
+        public static final String Quenya = "que";
     }
 }
