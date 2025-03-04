@@ -794,6 +794,6 @@ public class Card implements Comparable<Card> {
         public static final String Greek = "el";
 
         public static final String Phyrexian = "phy";
-        public static final String Quenya = "que";
+        public static final String Quenya = "qya";
     }
 }
