@@ -306,7 +306,8 @@ public class PatchBuilder {
                     }
 
                     boolean isSecretLair = "SLD".equals(newPatch.mExpansion.mCode_gatherer) ||
-                            "SLU".equals(newPatch.mExpansion.mCode_gatherer);
+                            "SLU".equals(newPatch.mExpansion.mCode_gatherer) ||
+                            "FCA".equals(newPatch.mExpansion.mCode_gatherer);
 
                     boolean setHasMultiverseId = false;
                     for (mtgjson_card orig : set.cards) {
