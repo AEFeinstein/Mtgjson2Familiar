@@ -32,7 +32,7 @@ public class PrefixedFieldNamingStrategy implements FieldNamingStrategy {
      * @return A string with a lowercase first letter
      */
     private static String lowercaseFirstLetter(String s) {
-        if (s.length() > 0) {
+        if (!s.isEmpty()) {
             char[] c = s.toCharArray();
             c[0] = Character.toLowerCase(c[0]);
             s = new String(c);

@@ -26,6 +26,7 @@ public class MarketPriceInfo {
     private final Price mNormalPrice;
     private final Price mFoilPrice;
     private final String mProductUrl;
+
     /**
      * Create a deep copy of a MarketPriceInfo
      *
@@ -42,6 +43,7 @@ public class MarketPriceInfo {
             this.mFoilPrice = null;
         }
     }
+
     /**
      * Create a blank MarketPriceInfo
      */

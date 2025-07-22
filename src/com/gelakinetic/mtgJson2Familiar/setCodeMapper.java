@@ -20,7 +20,7 @@ public class setCodeMapper {
         } catch (IOException e) {
             cm1 = null;
             m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read code map");
-            m2fLogger.logStackTrace(e);
+            m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
         }
         cm = cm1;
     }
@@ -81,7 +81,7 @@ public class setCodeMapper {
                 gsonWriter.toJson(map, fw);
             }
         } catch (IOException e) {
-            m2fLogger.logStackTrace(e);
+            m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
         }
     }
 

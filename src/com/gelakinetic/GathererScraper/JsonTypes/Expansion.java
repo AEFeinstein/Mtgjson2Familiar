@@ -182,7 +182,8 @@ public class Expansion {
     }
 
     public void fetchRaritySymbols(ArrayList<Card> mCards) {
-        // https://gatherer.wizards.com/Handlers/Image.ashx?type=symbol&set=5E&size=large&rarity=U
+        // https://gatherer-static.wizards.com/set_symbols/DST/large-common-DST.png
+        // https://gatherer-static.wizards.com/set_symbols/ONS/ONS.png
 
         // See what rarities exist for this set
         ArrayList<Character> rarities = new ArrayList<>();
@@ -200,14 +201,20 @@ public class Expansion {
                 // Already exists, don't bother getting it again
                 addToList = true;
             } else {
-                // WotC just had to go and change this
-                String gathererAdjustedCode = this.mCode_gatherer;
-                if ("MBP".equals(gathererAdjustedCode)) {
-                    gathererAdjustedCode = "PPR";
+                HashMap<Character, String> rarityMap = new HashMap<>();
+                rarityMap.put('c', "common");
+                rarityMap.put('u', "uncommon");
+                rarityMap.put('r', "rare");
+                rarityMap.put('m', "mythic");
+                String gathererRarity = rarityMap.getOrDefault(Character.toLowerCase(rarity), "common");
+
+                if (!rarityMap.containsKey(Character.toLowerCase(rarity))) {
+                    m2fLogger.log(m2fLogger.LogLevel.ERROR, "Rarity not in map: " + rarity);
                 }
+
                 // Attempt to download it
                 String[] strUrls = {
-                        "https://gatherer.wizards.com/Handlers/Image.ashx?type=symbol&set=" + gathererAdjustedCode + "&size=large&rarity=" + rarity,
+                        "https://gatherer-static.wizards.com/set_symbols/" + this.mCode_gatherer + "/large-" + gathererRarity + "-" + this.mCode_gatherer + ".png",
                         "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer + "_" + rarity + ".png",
                         "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_expsym_" + (rarity + "").toLowerCase() + "_web_en.png",
                         "https://images1.mtggoldfish.com/mtg_sets/" + this.mCode_gatherer.toLowerCase() + "_expsym_" + (rarity + "").toLowerCase() + "_web.png",
@@ -274,12 +281,11 @@ public class Expansion {
                                 }
                             }
                         } catch (IOException e) {
-                            // m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
-                            // m2fLogger.logStackTrace(e);
+                            // Carry on
                         }
                     } catch (MalformedURLException e) {
-                        // m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to get set symbol for ~~ " + this.mCode_gatherer + "_" + rarity + ".png ~~");
-                        // m2fLogger.logStackTrace(e);
+                        m2fLogger.log(m2fLogger.LogLevel.ERROR, "Bad URL: " + e.getMessage());
+                        m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
                     }
                 }
             }

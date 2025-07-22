@@ -35,7 +35,7 @@ public class NetUtils {
                 try {
                     Thread.sleep(1000L * retries);
                 } catch (InterruptedException e1) {
-                    m2fLogger.logStackTrace(e1);
+                    m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e1);
                 }
             }
         }

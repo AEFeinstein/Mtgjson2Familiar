@@ -18,9 +18,6 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
 import org.apache.commons.lang3.math.NumberUtils;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 import java.io.*;
 import java.net.URL;
@@ -118,7 +115,7 @@ public class PatchBuilder {
             printings = null;
         } catch (IOException e) {
             m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read AllPrintings.json");
-            m2fLogger.logStackTrace(e);
+            m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
             return false;
         }
 
@@ -139,7 +136,7 @@ public class PatchBuilder {
                 printings = gsonReader.fromJson(fr, mtgjson_allPrintings.class);
             } catch (IOException e) {
                 m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read AllPrintings.json");
-                m2fLogger.logStackTrace(e);
+                m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
                 return false;
             }
         }
@@ -160,12 +157,9 @@ public class PatchBuilder {
             ids = new TcgpHelper(tcgpKeyFile).getGroupIds();
         } catch (IOException e) {
             m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't initialize TCGP group IDs");
-            m2fLogger.logStackTrace(e);
+            m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
             return false;
         }
-
-        // Get list of Expansions on Gatherer
-        ArrayList<String> gathererExpansions = getGathererExpansionList();
 
         // Save promo planes to re-add later
         ArrayList<Card> promoPlanes = new ArrayList<>();
@@ -362,26 +356,16 @@ public class PatchBuilder {
 
                     // If no cards were added
                     if (newPatch.mCards.isEmpty()) {
-                        // but the expansion exists on Gatherer
-                        boolean existsOnGatherer = false;
-                        for (String gathererExpansion : gathererExpansions) {
-                            if (gathererExpansion.toLowerCase().contains(set.name.toLowerCase())) {
-                                existsOnGatherer = true;
-                                break;
-                            }
-                        }
-
-                        // If the expansion is on gatherer, or it's of a specific type
-                        // and not a partial preview or is releasing soon, add it
-                        if (existsOnGatherer ||
-                                ((!set.isPartialPreview || isReleaseSoon) &&
-                                        ("archenemy".equals(set.type) ||
-                                                "arsenal".equals(set.type) ||
-                                                "commander".equals(set.type) ||
-                                                "duel_deck".equals(set.type) ||
-                                                "expansion".equals(set.type) ||
-                                                "spellbook".equals(set.type) ||
-                                                "draft_innovation".equals(set.type)))) {
+                        // If it's not a partial preview, or it's releasing soon,
+                        // and it's a specific type of set, add it
+                        if ((!set.isPartialPreview || isReleaseSoon) &&
+                                ("archenemy".equals(set.type) || //
+                                        "arsenal".equals(set.type) ||  //
+                                        "commander".equals(set.type) || //
+                                        "duel_deck".equals(set.type) || //
+                                        "expansion".equals(set.type) || //
+                                        "spellbook".equals(set.type) || //
+                                        "draft_innovation".equals(set.type))) {
                             m2fLogger.log(m2fLogger.LogLevel.INFO, "Adding " + set.name + " (no multiverseID, on Gatherer)");
 
                             // Add all the cards anyway
@@ -395,7 +379,7 @@ public class PatchBuilder {
                     }
 
                     // If any cards are in this set, and it isn't saved yet
-                    if (newPatch.mCards.size() > 0 && ((!set.isPartialPreview || isReleaseSoon))) {
+                    if (!newPatch.mCards.isEmpty() && ((!set.isPartialPreview || isReleaseSoon))) {
                         if (!allPatches.contains(newPatch)) {
                             // Save this patch
                             allPatches.add(newPatch);
@@ -549,7 +533,7 @@ public class PatchBuilder {
                 }
             }
         } catch (IOException e) {
-            m2fLogger.logStackTrace(e);
+            m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
             downloaded = false;
         }
         return downloaded;
@@ -665,7 +649,7 @@ public class PatchBuilder {
                 osw.write(serializer.toJson(object).replace("\r", ""));
             } catch (IOException e) {
                 m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to write " + object.toString() + " to " + outFile);
-                m2fLogger.logStackTrace(e);
+                m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
                 return false;
             }
         } else {
@@ -673,34 +657,12 @@ public class PatchBuilder {
                 osw.write(serializer.toJson(object).replace("\r", ""));
             } catch (IOException e) {
                 m2fLogger.log(m2fLogger.LogLevel.ERROR, "Failed to write " + object.toString() + " to " + outFile);
-                m2fLogger.logStackTrace(e);
+                m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
                 return false;
             }
         }
 
         return true;
-    }
-
-    /**
-     * Get a list of expansions listed on Gatherer
-     *
-     * @return The list of expansions on Gatherer, all lowercase
-     */
-    static ArrayList<String> getGathererExpansionList() {
-        ArrayList<String> expansions = new ArrayList<>();
-        Document gathererMain = NetUtils.ConnectWithRetries("https://gatherer.wizards.com/");
-        if (null != gathererMain) {
-            Elements expansionElements = gathererMain.getElementsByAttributeValueContaining("name", "setAddText");
-
-            for (Element expansionElement : expansionElements) {
-                for (Element e : expansionElement.getAllElements()) {
-                    if (e.ownText().length() > 0) {
-                        expansions.add(e.ownText().toLowerCase());
-                    }
-                }
-            }
-        }
-        return expansions;
     }
 
     public static class EmptyStringToNumberTypeAdapter extends TypeAdapter<Number> {

@@ -602,7 +602,7 @@ public class Card implements Comparable<Card> {
     public int compareTo(Card other) {
 
         /* Sort by collector's number */
-        if (this.mNumber != null && other.mNumber != null && this.mNumber.length() > 0 && other.mNumber.length() > 0) {
+        if (this.mNumber != null && other.mNumber != null && !this.mNumber.isEmpty() && !other.mNumber.isEmpty()) {
 
             // Try comparing by integer number
             int compVal = Integer.compare(this.getNumberInteger(), other.getNumberInteger());

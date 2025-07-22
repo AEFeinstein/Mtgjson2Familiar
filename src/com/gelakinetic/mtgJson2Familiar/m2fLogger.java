@@ -24,8 +24,8 @@ public class m2fLogger {
         }
     }
 
-    public static void logStackTrace(Exception e) {
-        if (LogLevel.ERROR.ordinal() <= mLogLevel.ordinal()) {
+    public static void logStackTrace(LogLevel lvl, Exception e) {
+        if (lvl.ordinal() <= mLogLevel.ordinal()) {
             e.printStackTrace();
         }
     }

@@ -55,7 +55,7 @@ public class CompRulesScraper {
                 }
             } catch (IOException e) {
                 m2fLogger.log(m2fLogger.LogLevel.ERROR, "Couldn't read date from older rules. Downloading new rules.");
-                m2fLogger.logStackTrace(e);
+                m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
             }
 
             // Download the rules
@@ -65,7 +65,7 @@ public class CompRulesScraper {
 
         } catch (Exception e) {
             m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error scraping rules");
-            m2fLogger.logStackTrace(e);
+            m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
             return false;
         }
     }
@@ -108,7 +108,7 @@ public class CompRulesScraper {
                 }
             } catch (IOException e) {
                 m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error parsing rules");
-                m2fLogger.logStackTrace(e);
+                m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
                 return false;
             }
         }
@@ -127,7 +127,7 @@ public class CompRulesScraper {
             bw.write(compRules.toString().replace("\r", ""));
         } catch (IOException e) {
             m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error writing rules");
-            m2fLogger.logStackTrace(e);
+            m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
             return false;
         }
         return true;
