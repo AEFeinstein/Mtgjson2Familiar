@@ -21,6 +21,7 @@ public class mtgjson_card {
     // public float faceConvertedManaCost; replaced by faceManaValue
     public String faceName;
     public String flavorName;
+    public String printedName;
     public String flavorText;
     public List<mtgjson_foreignData> foreignData;
     public List<String> frameEffects;

@@ -161,6 +161,22 @@ public class Card implements Comparable<Card> {
             this.mNumber = orig.number;
         }
 
+        // Check if there is a flavor name
+        if (null != orig.printedName && null != orig.flavorName) {
+            // Make sure it's not just a translated name
+            boolean isOriginal = true;
+            for (mtgjson_foreignData fd : orig.foreignData) {
+                if (fd.name.equals(orig.printedName)) {
+                    isOriginal = false;
+                    break;
+                }
+            }
+
+            if (isOriginal) {
+                this.mName = orig.printedName;
+            }
+        }
+
         this.mScryfallSetCode = origSet.code;
         this.mExpansion = scm.getFamiliarCode(origSet.code);
 
