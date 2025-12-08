@@ -376,6 +376,20 @@ public class PatchBuilder {
                                 buildCardLegalities(legal, c);
                             }
                         }
+                        // Or if it's not a partial preview, and it's a large, playable set
+                        else if (!set.isPartialPreview && set.cards.size() > 100 &&
+                                ("masterpiece".equals(set.type) || //
+                                        "eternal".equals(set.type))) {
+                            m2fLogger.log(m2fLogger.LogLevel.INFO, "Adding " + set.name + " (no multiverseID, large enough) " + set.type);
+
+                            // Add all the cards anyway
+                            for (mtgjson_card orig : set.cards) {
+                                // Parse it
+                                Card c = new Card(orig, set, newExpansion, scm);
+                                newPatch.mCards.add(c);
+                                buildCardLegalities(legal, c);
+                            }
+                        }
                     }
 
                     // If any cards are in this set, and it isn't saved yet
