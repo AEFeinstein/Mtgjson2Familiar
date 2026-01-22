@@ -78,9 +78,9 @@ public class CompRulesScraper {
      * @return true if the rules were downloaded and written, false otherwise
      */
     boolean downloadRules(String rulesUrl, Calendar date) {
-        // Use these to build strings
-        StringBuilder compRules = new StringBuilder();
-        StringBuilder problematicLines = new StringBuilder();
+        StringBuilder bestCompRules = new StringBuilder();
+        StringBuilder bestProblematicLines = new StringBuilder();
+        int minProblematicLines = Integer.MAX_VALUE;
 
         // Try downloading with each of these charsets because WotC can't make up their mind
         String[] charsets = {
@@ -95,14 +95,27 @@ public class CompRulesScraper {
         // For each charset
         for (String charset : charsets) {
             try {
+                m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Downloading rules with charset " + charset);
                 // Try downloading with the given charset
+                // Use these to build strings
+                StringBuilder compRules = new StringBuilder();
+                StringBuilder problematicLines = new StringBuilder();
                 downloadRulesCharset(rulesUrl, compRules, problematicLines, charset);
+
+                if (compRules.length() > 0 && problematicLines.length() < minProblematicLines) {
+                    minProblematicLines = problematicLines.length();
+                    bestCompRules = new StringBuilder(compRules);
+                    bestProblematicLines = new StringBuilder(problematicLines);
+                }
+
                 // If there are problematic lines, or no lines
                 if (problematicLines.length() > 0 || compRules.length() == 0) {
+                    m2fLogger.log(m2fLogger.LogLevel.DEBUG, "charset " + charset + " had " + problematicLines.length() + " problematic lines and " + compRules.length() + " total lines");
                     // Set up to try again with the next charset
                     compRules.setLength(0);
                     problematicLines.setLength(0);
-                } else {
+                } else if (problematicLines.length() == 0 && compRules.length() > 0) {
+                    m2fLogger.log(m2fLogger.LogLevel.DEBUG, "charset " + charset + " had no problematic lines and " + compRules.length() + " total lines");
                     // All good, break out of the for loop
                     break;
                 }
@@ -114,9 +127,9 @@ public class CompRulesScraper {
         }
 
         // If there are any problematic lines, print them and return
-        if (!problematicLines.toString().isEmpty()) {
-            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Problematic lines in comp rules:\n" + problematicLines);
-            return false;
+        if (!bestProblematicLines.toString().isEmpty()) {
+            m2fLogger.log(m2fLogger.LogLevel.ERROR, "Non-ASCII lines in comp rules:\n" + bestProblematicLines);
+            // Carry on with the best rules
         }
 
         // If there were no errors or problematic lines
@@ -124,7 +137,7 @@ public class CompRulesScraper {
             // Write the rules to the file
             bw.write(GetEmbeddedDate(date).replace("\r", ""));
             bw.write("\n\n");
-            bw.write(compRules.toString().replace("\r", ""));
+            bw.write(bestCompRules.toString().replace("\r", ""));
         } catch (IOException e) {
             m2fLogger.log(m2fLogger.LogLevel.ERROR, "Error writing rules");
             m2fLogger.logStackTrace(m2fLogger.LogLevel.ERROR, e);
