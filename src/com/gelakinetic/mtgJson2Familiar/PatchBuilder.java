@@ -354,6 +354,8 @@ public class PatchBuilder {
                         m2fLogger.log(m2fLogger.LogLevel.ERROR, e.getMessage());
                     }
 
+                    boolean added = !newPatch.mCards.isEmpty();
+
                     // If no cards were added
                     if (newPatch.mCards.isEmpty()) {
                         // If it's not a partial preview, or it's releasing soon,
@@ -365,8 +367,10 @@ public class PatchBuilder {
                                         "duel_deck".equals(set.type) || //
                                         "expansion".equals(set.type) || //
                                         "spellbook".equals(set.type) || //
-                                        "draft_innovation".equals(set.type))) {
+                                        "draft_innovation".equals(set.type) ||
+                                        "eternal".equals(set.type))) {
                             m2fLogger.log(m2fLogger.LogLevel.INFO, "Adding " + set.name + " (no multiverseID, on Gatherer)");
+                            added = true;
 
                             // Add all the cards anyway
                             for (mtgjson_card orig : set.cards) {
@@ -381,6 +385,7 @@ public class PatchBuilder {
                                 ("masterpiece".equals(set.type) || //
                                         "eternal".equals(set.type))) {
                             m2fLogger.log(m2fLogger.LogLevel.INFO, "Adding " + set.name + " (no multiverseID, large enough) " + set.type);
+                            added = true;
 
                             // Add all the cards anyway
                             for (mtgjson_card orig : set.cards) {
@@ -390,6 +395,10 @@ public class PatchBuilder {
                                 buildCardLegalities(legal, c);
                             }
                         }
+                    }
+
+                    if (!added) {
+                        m2fLogger.log(m2fLogger.LogLevel.INFO, "Skipping " + set.name + " ~ " + set.type);
                     }
 
                     // If any cards are in this set, and it isn't saved yet
