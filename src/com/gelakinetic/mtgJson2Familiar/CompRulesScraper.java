@@ -39,17 +39,31 @@ public class CompRulesScraper {
             if ("02109224".equals(dateSubStr)) {
                 dateSubStr = "20210924";
             }
-            Calendar cal = Calendar.getInstance();
-            cal.clear();
+            Calendar calFromUrl = Calendar.getInstance();
+            calFromUrl.clear();
             //noinspection MagicConstant
-            cal.set(Integer.parseInt(dateSubStr.substring(0, 4)), Integer.parseInt(dateSubStr.substring(4, 6)) - 1, Integer.parseInt(dateSubStr.substring(6, 8)));
-            String date = GetEmbeddedDate(cal);
+            calFromUrl.set(
+                    Integer.parseInt(dateSubStr.substring(0, 4)),
+                    Integer.parseInt(dateSubStr.substring(4, 6)) - 1,
+                    Integer.parseInt(dateSubStr.substring(6, 8)));
 
             // Check the date from the URL and the date in the last parsed rules
             try (BufferedReader br = new BufferedReader(new FileReader(new File(Filenames.RULES_DIR, Filenames.COMP_RULES), StandardCharsets.UTF_8))) {
                 String lastKnownDate = br.readLine();
-                if (lastKnownDate.equals(date)) {
-                    // Dates match, so don't update anything
+
+                // Convert the string from the file into a Calendar object
+                Calendar calFromFile = Calendar.getInstance();
+                calFromFile.clear();
+                String[] lastKnownParts = lastKnownDate.split("-");
+                //noinspection MagicConstant
+                calFromFile.set(
+                        Integer.parseInt(lastKnownParts[0]),
+                        Integer.parseInt(lastKnownParts[1]),
+                        Integer.parseInt(lastKnownParts[2]));
+
+                if (!calFromUrl.after(calFromFile)) {
+                    // Day from the URL is not after day in the file (could be before, could be equal).
+                    // This means no new updates.
                     m2fLogger.log(m2fLogger.LogLevel.INFO, "No new comprehensive rules");
                     return true;
                 }
@@ -59,7 +73,7 @@ public class CompRulesScraper {
             }
 
             // Download the rules
-            boolean ruleStatus = downloadRules(url, cal);
+            boolean ruleStatus = downloadRules(url, calFromUrl);
             m2fLogger.log(m2fLogger.LogLevel.INFO, "Done processing comprehensive rules (" + ruleStatus + ")");
             return ruleStatus;
 
