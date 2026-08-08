@@ -398,7 +398,7 @@ public class PatchBuilder {
                     }
 
                     if (!added) {
-                        m2fLogger.log(m2fLogger.LogLevel.INFO, "Skipping " + set.name + " ~ " + set.type);
+                        m2fLogger.log(m2fLogger.LogLevel.DEBUG, "Skipping " + set.name + " ~ " + set.type);
                     }
 
                     // If any cards are in this set, and it isn't saved yet
