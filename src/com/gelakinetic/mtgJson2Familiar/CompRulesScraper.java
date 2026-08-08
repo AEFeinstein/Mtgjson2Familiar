@@ -184,7 +184,7 @@ public class CompRulesScraper {
                     // Add this line to the output
                     compRules.append(line).append("\n");
                     // If the line still has any non-ascii chars, note it
-                    if (line.matches(".*[^\\x00-\\x7F].*")) {
+                    if (line.matches(".*[^\\x00-\\x7F∞].*")) {
                         problematicLines.append(line).append("\n");
                     }
                 }

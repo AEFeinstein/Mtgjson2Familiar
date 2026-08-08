@@ -14,8 +14,7 @@ public class NetUtils {
         int retries = 0;
         while (retries < 10) {
             try {
-                // Note to self. If this stops working, wireshark a regular request from chrome and copy the cookie (and other fields)
-                //noinspection SpellCheckingInspection
+                // Note to self. If this stops working, Wireshark a regular request from chrome and copy the cookie (and other fields)
                 return Jsoup
                         .connect(urlStr)
                         .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36")
@@ -44,7 +43,7 @@ public class NetUtils {
     }
 
     /**
-     * Replaces known non-ascii chars in a string with ascii equivalents
+     * Replaces known non-ascii chars in a string with ASCII equivalents
      *
      * @param line The string to clean up
      * @return The cleaned up string
@@ -72,7 +71,9 @@ public class NetUtils {
                         {"©", "(C)"},
                         {"•", "*"},
                         {"…", "..."},
-                        {"ò", "o"}};
+                        {"ò", "o"},
+                        {"\u2028", "\n"},
+                        {"aaaa ", ""},};
         /* Loop through all the known replacements and perform them */
         for (String[] replaceSet : replacements) {
             line = line.replaceAll(replaceSet[0], replaceSet[1]);
