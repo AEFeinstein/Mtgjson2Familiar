@@ -61,8 +61,7 @@ public class NetUtils {
                         {"‘", "'"},
                         {"â", "a"},
                         {"á", "a"},
-                        {"ƒ", "a"},
-                        {" ", "a"},
+                        {"ƒ", "f"},
                         {"ú", "u"},
                         {"û", "u"},
                         {"£", "u"},
@@ -72,8 +71,8 @@ public class NetUtils {
                         {"•", "*"},
                         {"…", "..."},
                         {"ò", "o"},
-                        {"\u2028", "\n"},
-                        {"aaaa ", ""},};
+                        {"\u00A0", " "},
+                        {"\u2028", "\n"},};
         /* Loop through all the known replacements and perform them */
         for (String[] replaceSet : replacements) {
             line = line.replaceAll(replaceSet[0], replaceSet[1]);
