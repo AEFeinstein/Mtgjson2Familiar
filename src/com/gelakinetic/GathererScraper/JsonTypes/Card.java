@@ -320,9 +320,14 @@ public class Card implements Comparable<Card> {
                     fp.mLanguageCode = Language.Quenya;
                     break;
                 }
+                case "Dwarvish": {
+                    fp.mLanguageCode = Language.Dwarvish;
+                    break;
+                }
                 default: {
                     m2fLogger.log(m2fLogger.LogLevel.ERROR, "LANGUAGE NOT PARSED: ~" + fd.language + "~");
-                    break;
+                    // Don't add unknown names to mForeignPrintings
+                    continue;
                 }
             }
             fp.mName = fd.name;
@@ -811,5 +816,6 @@ public class Card implements Comparable<Card> {
 
         public static final String Phyrexian = "phy";
         public static final String Quenya = "qya";
+        public static final String Dwarvish = "dwa";
     }
 }
